@@ -1,0 +1,113 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import Slider from '../components/Slider.astro';
+import Form from '../components/Form.astro';
+import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, inCategory, chunk, param, type Site } from '../lib';
+
+type Props =
+  | { kind: 'page'; page: CollectionEntry<'pages'>; list?: CollectionEntry<'posts'>[]; pageNo?: number; pages?: number }
+  | { kind: 'post'; post: CollectionEntry<'posts'> }
+  | { kind: 'list'; site: Site; title: string; base: string; list: CollectionEntry<'posts'>[]; pageNo: number; pages: number };
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  const posts = sortPosts(await getCollection('posts'));
+  const bySite = (key: string) => posts.filter((p) => siteKeyOf(p) === key);
+  const out: { params: { path: string | undefined }; props: Props }[] = [];
+  const seen = new Set<string>();
+  const add = (path: string, props: Props) => {
+    const key = param(path) ?? '';
+    if (seen.has(key)) return;
+    seen.add(key);
+    out.push({ params: { path: param(path) }, props });
+  };
+
+  for (const post of posts) add(postPath(post), { kind: 'post', post });
+  for (const page of pages) {
+    const site = siteOf(page);
+    if (page.data.postsPage) {
+      const chunks = chunk(bySite(site.key));
+      chunks.forEach((list, i) => add(i === 0 ? page.data.path : `${page.data.path}page/${i + 1}/`, { kind: 'page', page, list, pageNo: i + 1, pages: chunks.length }));
+    } else {
+      add(page.data.path, { kind: 'page', page });
+    }
+  }
+  for (const site of Object.values(sites)) {
+    const all = bySite(site.key);
+    // トップが記事一覧のサイト、または投稿ページが無いサイトの /blog/
+    if (site.frontIsPosts || !pages.some((p) => siteOf(p) === site && p.data.postsPage)) {
+      const base = blogPath(site);
+      if (all.length || site.frontIsPosts) {
+        const chunks = chunk(all);
+        chunks.forEach((list, i) => add(i === 0 ? base : `${base}page/${i + 1}/`, { kind: 'list', site, title: site.frontIsPosts ? site.name : 'ブログ', base, list, pageNo: i + 1, pages: chunks.length }));
+      }
+    }
+    for (const cat of categories[site.key] ?? []) {
+      const list = all.filter((p) => inCategory(site.key, p, cat.name));
+      if (!list.length) continue;
+      const chunks = chunk(list);
+      chunks.forEach((l, i) => add(i === 0 ? cat.path : `${cat.path}page/${i + 1}/`, { kind: 'list', site, title: cat.name, base: cat.path, list: l, pageNo: i + 1, pages: chunks.length }));
+    }
+    for (const tag of tags[site.key] ?? []) {
+      const list = all.filter((p) => p.data.tags.includes(tag.name));
+      if (!list.length) continue;
+      const chunks = chunk(list);
+      chunks.forEach((l, i) => add(i === 0 ? tag.path : `${tag.path}page/${i + 1}/`, { kind: 'list', site, title: `タグ: ${tag.name}`, base: tag.path, list: l, pageNo: i + 1, pages: chunks.length }));
+    }
+  }
+  return out;
+}
+
+const props = Astro.props as Props;
+const entry = props.kind === 'page' ? props.page : props.kind === 'post' ? props.post : undefined;
+const site = props.kind === 'list' ? props.site : siteOf(entry!);
+const { Content } = entry ? await render(entry) : { Content: undefined };
+const formKeys = entry?.data.forms ?? [];
+const home = `${site.base}/`;
+---
+{props.kind === 'page' && (
+  <Base site={site} title={props.page.data.front ? site.name : props.page.data.title}>
+    {props.page.data.slides.length > 0 && <Slider slides={props.page.data.slides} />}
+    <div class="wrap">
+      {!props.page.data.front && <nav class="breadcrumb"><a href={home}>Home</a> » {props.page.data.title}</nav>}
+      {!props.page.data.front && <h1>{props.page.data.title}</h1>}
+      <div class="prose"><Content /></div>
+      {formKeys.map((k) => <Form formKey={k} />)}
+      {props.list && <PostList list={props.list} pageNo={props.pageNo!} pages={props.pages!} base={props.page.data.path} />}
+    </div>
+  </Base>
+)}
+{props.kind === 'post' && (
+  <Base site={site} title={props.post.data.title} description={props.post.data.description} image={props.post.data.image} type="article">
+    <div class="wrap layout">
+      <article>
+        <nav class="breadcrumb"><a href={home}>Home</a> » <a href={blogPath(site)}>ブログ</a> » {props.post.data.title}</nav>
+        <h1>{props.post.data.title}</h1>
+        <div class="meta">
+          {formatDate(props.post.data.date)}
+          {props.post.data.categories.map((c) => {
+            const href = categoryPath(site.key, c);
+            return <> · {href ? <a href={href}>{c}</a> : c}</>;
+          })}
+        </div>
+        <div class="prose"><Content /></div>
+        {formKeys.map((k) => <Form formKey={k} />)}
+      </article>
+      <aside class="sidebar">
+        <h2>カテゴリー</h2>
+        <ul>{(categories[site.key] ?? []).filter((c) => !c.parent).map((c) => <li><a href={c.path}>{c.name}</a></li>)}</ul>
+      </aside>
+    </div>
+  </Base>
+)}
+{props.kind === 'list' && (
+  <Base site={site} title={props.title}>
+    <div class="wrap">
+      <nav class="breadcrumb"><a href={home}>Home</a> » {props.title}</nav>
+      <h1>{props.title}</h1>
+      <PostList list={props.list} pageNo={props.pageNo} pages={props.pages} base={props.base} />
+    </div>
+  </Base>
+)}

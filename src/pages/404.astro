@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { sites } from '../lib';
+---
+<Base site={sites.root} title="ページが見つかりません">
+  <div class="wrap">
+    <h1>ページが見つかりません</h1>
+    <p>お探しのページは移動または削除された可能性があります。</p>
+    <p class="cta"><a class="btn" href="/">トップページへ</a> <a class="btn btn-sub" href="/english/">英会話トップへ</a></p>
+  </div>
+  <script is:inline>
+    // 末尾のスラッグが同じページが同じサイト内に一つだけあれば、そこへ移動する（旧 WordPress の動き）
+    (async () => {
+      const parts = decodeURI(location.pathname).replace(/\/$/, '').split('/');
+      const slug = parts.pop();
+      if (!slug) return;
+      const index = await (await fetch('/slug-index.json')).json();
+      const bases = ['/english/children/', '/english/schools/', '/english/news/', '/english/corporation/', '/english/onki/', '/english/', '/monki/', '/russian/'];
+      const base = bases.find((b) => location.pathname.startsWith(b)) ?? '/';
+      const hits = (index[slug] ?? []).filter((p) => p.startsWith(base) && (base !== '/' || !bases.some((b) => p.startsWith(b))));
+      if (hits.length === 1) location.replace(hits[0]);
+    })();
+  </script>
+</Base>

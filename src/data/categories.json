@@ -1,0 +1,287 @@
+{
+  "root": [
+    {
+      "name": "アメリカ人との話のネタ帳",
+      "path": "/blog/category/english/english-smalltalk/american-smalltalk/",
+      "parent": "英語圏の人とのネタ帳"
+    },
+    {
+      "name": "アラビア語",
+      "path": "/blog/category/arabic/"
+    },
+    {
+      "name": "アラビア語勉強関連",
+      "path": "/blog/category/arabic/arabic-study/",
+      "parent": "アラビア語"
+    },
+    {
+      "name": "アラビア語名文",
+      "path": "/blog/category/arabic/アラビア語名文/",
+      "parent": "アラビア語"
+    },
+    {
+      "name": "アラビア諸国-日本の話題（話しのネタ帳）",
+      "path": "/blog/category/arabic/arabic-culture-topics/",
+      "parent": "アラビア語"
+    },
+    {
+      "name": "イギリス人との話のネタ帳",
+      "path": "/blog/category/english/english-smalltalk/british-smalltalk/",
+      "parent": "英語圏の人とのネタ帳"
+    },
+    {
+      "name": "オーストラリア人との話のネタ帳",
+      "path": "/blog/category/english/english-smalltalk/australian-smalltalk/",
+      "parent": "英語圏の人とのネタ帳"
+    },
+    {
+      "name": "お知らせ、NEWS",
+      "path": "/blog/category/news/"
+    },
+    {
+      "name": "カナダ人との話のネタ帳",
+      "path": "/blog/category/english/english-smalltalk/canadian-smalltalk/",
+      "parent": "英語圏の人とのネタ帳"
+    },
+    {
+      "name": "ここがスゴイよ日本と日本人",
+      "path": "/blog/category/kokosugo/"
+    },
+    {
+      "name": "ここがびっくり日本の習慣",
+      "path": "/blog/category/ここがびっくり日本の習慣/"
+    },
+    {
+      "name": "ドイツ-日本の話題（話しのネタ帳）",
+      "path": "/blog/category/german/german-topic/",
+      "parent": "ドイツ語"
+    },
+    {
+      "name": "ドイツなんでもランキング",
+      "path": "/blog/category/german/ドイツなんでもランキング/",
+      "parent": "ドイツ語"
+    },
+    {
+      "name": "ドイツのことわざ-part2",
+      "path": "/blog/category/german/ドイツのことわざ-part2/",
+      "parent": "ドイツ語"
+    },
+    {
+      "name": "ドイツの面白いフレーズ",
+      "path": "/blog/category/german/ドイツの面白いフレーズ/",
+      "parent": "ドイツ語"
+    },
+    {
+      "name": "ドイツ人Joke",
+      "path": "/blog/category/german/german-joke/",
+      "parent": "ドイツ語"
+    },
+    {
+      "name": "ドイツ語",
+      "path": "/blog/category/german/"
+    },
+    {
+      "name": "ドイツ語学習関連",
+      "path": "/blog/category/german/german-study/",
+      "parent": "ドイツ語"
+    },
+    {
+      "name": "フランス-日本の話題（話しのネタ帳）",
+      "path": "/blog/category/french/french-topics/",
+      "parent": "フランス語"
+    },
+    {
+      "name": "フランス人の笑いのツボ",
+      "path": "/blog/category/french/french-jokes/",
+      "parent": "フランス語"
+    },
+    {
+      "name": "フランス語",
+      "path": "/blog/category/french/"
+    },
+    {
+      "name": "フランス語勉強関連",
+      "path": "/blog/category/french/french-study/",
+      "parent": "フランス語"
+    },
+    {
+      "name": "フランス語名文",
+      "path": "/blog/category/french/フランス語名文/",
+      "parent": "フランス語"
+    },
+    {
+      "name": "ロシア人が日本を訪れて驚くこと",
+      "path": "/blog/category/russian/ロシア人との会話のネタ帳/ロシア人が日本を訪れて驚くこと/",
+      "parent": "ロシア人との会話のネタ帳"
+    },
+    {
+      "name": "ロシア人との会話のネタ帳",
+      "path": "/blog/category/russian/ロシア人との会話のネタ帳/",
+      "parent": "ロシア語"
+    },
+    {
+      "name": "ロシア語",
+      "path": "/blog/category/russian/"
+    },
+    {
+      "name": "中国、中華圏の人とのコミュニケーションネタ帳",
+      "path": "/blog/category/chinese/neta-chou-with-chinese/",
+      "parent": "中国語"
+    },
+    {
+      "name": "中国語",
+      "path": "/blog/category/chinese/"
+    },
+    {
+      "name": "中国語故事成語",
+      "path": "/blog/category/chinese/中国語故事成語/",
+      "parent": "中国語"
+    },
+    {
+      "name": "地元ロシア人だけが知っている小ネタ",
+      "path": "/blog/category/russian/ロシア人との会話のネタ帳/local-russian/",
+      "parent": "ロシア人との会話のネタ帳"
+    },
+    {
+      "name": "新規の方向けキャンペーン",
+      "path": "/blog/category/news/new/",
+      "parent": "お知らせ、NEWS"
+    },
+    {
+      "name": "未分類",
+      "path": "/blog/category/uncategorized/"
+    },
+    {
+      "name": "未分類",
+      "path": "/blog/category/russian/ロシア人との会話のネタ帳/未分類/",
+      "parent": "ロシア人との会話のネタ帳"
+    },
+    {
+      "name": "英語圏の人とのネタ帳",
+      "path": "/blog/category/english/english-smalltalk/",
+      "parent": "英語圏の文化、言葉学習ブログTOP"
+    },
+    {
+      "name": "英語圏の文化、言葉学習ブログTOP",
+      "path": "/blog/category/english/"
+    },
+    {
+      "name": "英語学習一般",
+      "path": "/blog/category/english/english-study/",
+      "parent": "英語圏の文化、言葉学習ブログTOP"
+    },
+    {
+      "name": "英語関連ニュース",
+      "path": "/blog/category/english/英語関連ニュース/",
+      "parent": "英語圏の文化、言葉学習ブログTOP"
+    },
+    {
+      "name": "週刊英語",
+      "path": "/blog/category/english/weekly-english-news/",
+      "parent": "英語圏の文化、言葉学習ブログTOP"
+    }
+  ],
+  "english": [
+    {
+      "name": "お知らせ、NEWS",
+      "path": "/english/blog/category/news/"
+    },
+    {
+      "name": "アメリカ人との話のネタ帳",
+      "path": "/english/blog/category/english-smalltalk/american-smalltalk/",
+      "parent": "英語圏の人とのネタ帳"
+    },
+    {
+      "name": "キャンペーンやお得な情報",
+      "path": "/english/blog/category/news/campaign/",
+      "parent": "お知らせ、NEWS"
+    },
+    {
+      "name": "英語圏の人とのネタ帳",
+      "path": "/english/blog/category/english-smalltalk/"
+    },
+    {
+      "name": "英語学習一般",
+      "path": "/english/blog/category/english-study/"
+    },
+    {
+      "name": "週刊英語",
+      "path": "/english/blog/category/english-study/週刊英語/",
+      "parent": "英語学習一般"
+    }
+  ],
+  "english_children": [
+    {
+      "name": "News",
+      "path": "/english/children/blog/category/news"
+    },
+    {
+      "name": "一般その他",
+      "path": "/english/children/blog/category/general"
+    },
+    {
+      "name": "最近の英語関連ニュース感想",
+      "path": "/english/children/blog/category/news/education-news",
+      "parent": "News"
+    }
+  ],
+  "english_schools": [
+    {
+      "name": "学校事例紹介",
+      "path": "/english/schools/category/cases/"
+    },
+    {
+      "name": "授業で役立つもの",
+      "path": "/english/schools/category/tools/"
+    }
+  ],
+  "english_news": [
+    {
+      "name": "お知らせ",
+      "path": "/english/news/category/news/"
+    },
+    {
+      "name": "上級",
+      "path": "/english/news/category/advance/"
+    },
+    {
+      "name": "中上級",
+      "path": "/english/news/category/inter-adv/"
+    },
+    {
+      "name": "中級",
+      "path": "/english/news/category/intermediate/"
+    },
+    {
+      "name": "初級",
+      "path": "/english/news/category/beginner/"
+    }
+  ],
+  "english_corporation": [
+    {
+      "name": "お知らせ",
+      "path": "/english/corporation/category/news/"
+    },
+    {
+      "name": "事例紹介",
+      "path": "/english/corporation/category/事例紹介/"
+    }
+  ],
+  "english_onki": [
+    {
+      "name": "お知らせ",
+      "path": "/english/onki/category/news/"
+    },
+    {
+      "name": "一般",
+      "path": "/english/onki/category/uncategorized/"
+    }
+  ],
+  "monki": [
+    {
+      "name": "未分類",
+      "path": "/monki/category/uncategorized/"
+    }
+  ],
+  "russian": []
+}

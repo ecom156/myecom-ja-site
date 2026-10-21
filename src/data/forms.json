@@ -1,0 +1,944 @@
+{
+  "root-2": {
+    "site": "root",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前",
+        "type": "text",
+        "required": true,
+        "description": "(ローマ字入力)"
+      },
+      {
+        "name": "f2",
+        "label": "体験希望言語 (複数も可)",
+        "type": "checkbox",
+        "required": true,
+        "choices": [
+          "英語、英会話",
+          "その他（中国語、仏語、西語、独語、韓国語、伊語、露語、アラビア語など）",
+          "まだよくわからないので、相談したい。"
+        ]
+      },
+      {
+        "name": "f3",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f4",
+        "label": "体験レッスンとは別日程で、15分程度のオンライン事前カウンセリングを実施しております。ご希望の時間帯（6:00AM〜夜21：00迄）をご記入下さい。土日祝日も可。",
+        "type": "textarea",
+        "required": false,
+        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)",
+        "placeholder": "例：平日20時以降ならいつでも可能。"
+      },
+      {
+        "name": "f5",
+        "label": "今回の体験レッスンお申し込みにあたり、当校のどのような所に興味をお持ちになったかお書き添え頂ければ幸いです。",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "root-1": {
+    "site": "root",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前（法人の方は会社名と担当者名）",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email (携帯メール不可)",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号(TEL)",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "f4",
+        "label": "お問い合わせ内容",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "root-4": {
+    "site": "root",
+    "button": "申し込む",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "名前",
+        "type": "text",
+        "required": true,
+        "description": "受講生のお子様のお名前を漢字で。"
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "年代",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "小学校1,2年生",
+          "小学校3,4年生",
+          "小学校5,6年生",
+          "中学生",
+          "その他"
+        ]
+      },
+      {
+        "name": "f4",
+        "label": "同意",
+        "type": "consent",
+        "required": true,
+        "choices": [
+          "授業は、7月19日、20日、21日、22日の4日間、朝9時と夜21時からです。全出席できなくても構いませんが、振替はできません。"
+        ]
+      }
+    ]
+  },
+  "english-16": {
+    "site": "english",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前(ローマ字でご入力下さい)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "年齢層",
+        "type": "select",
+        "required": false,
+        "description": "（講師がレッスン準備の参考とします）",
+        "choices": [
+          "15歳未満",
+          "15-19歳",
+          "20-24歳",
+          "25-29歳",
+          "30-34歳",
+          "35-39歳",
+          "40歳代",
+          "50歳代",
+          "60歳以上"
+        ]
+      },
+      {
+        "name": "f3",
+        "label": "Email（携帯メール不可）",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f4",
+        "label": "電話番号",
+        "type": "text",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポート用になります。"
+      },
+      {
+        "name": "f5",
+        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（06：00 AM〜夜21：00迄）をご記入下さい。土日祝日可。",
+        "type": "textarea",
+        "required": false,
+        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)"
+      },
+      {
+        "name": "f6",
+        "label": "",
+        "type": "checkbox",
+        "required": false,
+        "choices": [
+          "個人情報規約に同意して申し込みします。",
+          "Ecom英語学校からの連絡を許可します。"
+        ]
+      }
+    ]
+  },
+  "english-13": {
+    "site": "english",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前(ローマ字でご入力下さい)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "年齢層",
+        "type": "select",
+        "required": false,
+        "description": "（講師がレッスン準備の参考とします）",
+        "choices": [
+          "15歳未満",
+          "15-19歳",
+          "20-24歳",
+          "25-29歳",
+          "30-34歳",
+          "35-39歳",
+          "40歳代",
+          "50歳代",
+          "60歳以上"
+        ]
+      },
+      {
+        "name": "f3",
+        "label": "Email（携帯メール不可）",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f4",
+        "label": "電話番号",
+        "type": "text",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポート用になります。"
+      },
+      {
+        "name": "f5",
+        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（06：00〜夜21：00迄）をご記入下さい。土日祝日可。",
+        "type": "textarea",
+        "required": false,
+        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)"
+      },
+      {
+        "name": "f6",
+        "label": "今回の体験お申し込みにあたり、当校のどのような所に興味をお持ちになったかお書き添え頂ければ幸いです。",
+        "type": "textarea",
+        "required": false
+      },
+      {
+        "name": "f7",
+        "label": "",
+        "type": "checkbox",
+        "required": false,
+        "choices": [
+          "個人情報規約に同意して申し込みします。",
+          "Ecom英語学校からの連絡を許可します。"
+        ]
+      }
+    ]
+  },
+  "english-4": {
+    "site": "english",
+    "button": "Submit",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前をアルファベットで入力ください。",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "電話番号",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "折り返し電話希望の時間帯がもしあれば、おおまかにでもお教え頂ければ幸いです。",
+        "type": "text",
+        "required": false,
+        "description": "（例）○日○曜日と○日○曜日 ○時から○時までは大丈夫です。"
+      },
+      {
+        "name": "f4",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "description": "携帯メール不可"
+      },
+      {
+        "name": "f5",
+        "label": "簡単にでも相談内容をお書きいただけるとありがたいです。",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "english-1": {
+    "site": "english",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前（法人の方は会社名と担当者名）",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email (携帯メール不可)",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "f4",
+        "label": "お問い合わせ内容",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "english-2": {
+    "site": "english",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前(ローマ字でご入力ください)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email address(携帯メール不可)",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "text",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポート用になります。"
+      },
+      {
+        "name": "f4",
+        "label": "年齢層",
+        "type": "select",
+        "required": false,
+        "description": "（講師が授業の参考にします）",
+        "choices": [
+          "15歳未満",
+          "15-19歳",
+          "20-24歳",
+          "25-29歳",
+          "30-34歳",
+          "35-39歳",
+          "40歳代",
+          "50歳代",
+          "60歳以上"
+        ]
+      },
+      {
+        "name": "f5",
+        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（06：00AM〜夜21：00迄）をご記入下さい。土日祝日可。",
+        "type": "textarea",
+        "required": false,
+        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)"
+      },
+      {
+        "name": "f6",
+        "label": "今回の体験レッスンお申し込みにあたり当校のどのような所に興味をお持ちになったかお書き添え頂ければ幸いです。今後のサービス改善の参考にさせて頂きます。",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "english_children-8": {
+    "site": "english_children",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "受講される方のお名前（ローマ字でご入力ください）",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email address",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "phone",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポートになります。"
+      },
+      {
+        "name": "f4",
+        "label": "今回の体験レッスンお申し込みにあたり、当校のどのような所に興味をもたれましたか？",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "english_children-6": {
+    "site": "english_children",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "受講される方のお名前（ローマ字でご入力ください）",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email address",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "phone",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポートになります。"
+      },
+      {
+        "name": "f4",
+        "label": "今回の体験レッスンお申し込みにあたり、当校のどのような所に興味をもたれましたか？",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "english_children-1": {
+    "site": "english_children",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "受講される方のお名前（ローマ字でご入力ください）",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email address",
+        "type": "email",
+        "required": true,
+        "description": "なるべくPCのメールをお書きください。"
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "text",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポートになります。"
+      },
+      {
+        "name": "f4",
+        "label": "今回の体験レッスンお申し込みにあたり当校のどのような所に興味をお持ちになったかお書き添え頂ければ幸いです。今後のサービス改善の参考にさせて頂きます。",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "english_children-3": {
+    "site": "english_children",
+    "button": "Submit",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email(携帯メール不可)",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "お問い合わせ内容",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "english_children-2": {
+    "site": "english_children",
+    "button": "Submit",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前をアルファベットで入力ください。",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "電話番号",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "f3",
+        "label": "Emailアドレス(携帯メール不可)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f4",
+        "label": "簡単にでも相談内容をお書き頂けるとありがたいです。",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "english_children-5": {
+    "site": "english_children",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "受講される方のお名前（ローマ字でご入力ください）",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email address",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "phone",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポートになります。"
+      },
+      {
+        "name": "f4",
+        "label": "今回の体験レッスンお申し込みにあたり、当校のどのような所に興味をもたれましたか？",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "english_children-7": {
+    "site": "english_children",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "description": "アルファベットで記入ください"
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": false
+      },
+      {
+        "name": "f3",
+        "label": "年代",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "小学校低学年",
+          "小学校高学年",
+          "中学生",
+          "未就学"
+        ]
+      },
+      {
+        "name": "f4",
+        "label": "同意",
+        "type": "consent",
+        "required": true,
+        "choices": [
+          "授業は、朝8時と夜20時から実施。20回分で費用は30,000円です。"
+        ]
+      },
+      {
+        "name": "f5",
+        "label": "Comment",
+        "type": "text",
+        "required": false,
+        "description": "なにか連絡事項があればお書きください。"
+      }
+    ]
+  },
+  "english_schools-1": {
+    "site": "english_schools",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前",
+        "type": "text",
+        "required": true,
+        "description": "学校名、ご担当者様名をお書きください。"
+      },
+      {
+        "name": "f2",
+        "label": "Emailアドレス",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f4",
+        "label": "お問い合わせ内容",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "english_schools-2": {
+    "site": "english_schools",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "学校名とお名前",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "description": "こちら宛てにフラッシュカードデータを送りますので、お間違いがないようお願いします。"
+      },
+      {
+        "name": "f3",
+        "label": "TEL",
+        "type": "text",
+        "required": true,
+        "description": "お電話番号"
+      },
+      {
+        "name": "f4",
+        "label": "同意",
+        "type": "consent",
+        "required": true,
+        "choices": [
+          "私は一条校の教師であり、本プレゼントのフラッシュカードをビジネス目的で再利用しません"
+        ]
+      }
+    ]
+  },
+  "english_news-1": {
+    "site": "english_news",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "Name",
+        "type": "text",
+        "required": true,
+        "description": "法人所属の場合、学校名か、企業名も"
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "問い合わせ内容",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "english_corporation-1": {
+    "site": "english_corporation",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "会社名とご担当者名",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "ご連絡先電話番号",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "f4",
+        "label": "お問い合わせ内容をお書きください。",
+        "type": "textarea",
+        "required": true,
+        "description": "利用予定人数も、分かる範囲で書いて頂けると助かります。"
+      },
+      {
+        "name": "f5",
+        "label": "当校をどのような形でお知りになり、問い合わせされていますか？もしよろしければお書き頂けると幸いです。",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  },
+  "english_corporation-3": {
+    "site": "english_corporation",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "会社名とご担当者名",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "ご連絡先電話番号",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f4",
+        "label": "お問い合わせ内容をお書きください。",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "english_onki-1": {
+    "site": "english_onki",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "Comment",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "monki-1": {
+    "site": "monki",
+    "button": "送信",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "メール",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "お問い合わせ内容",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "russian-3": {
+    "site": "russian",
+    "button": "Submit",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前をアルファベットで入力ください。",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "希望される相談方法をお選びください。",
+        "type": "multiselect",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "f4",
+        "label": "折り返し電話希望の時間帯がもしあれば、おおまかでもお教えいただければ幸いです。",
+        "type": "text",
+        "required": false,
+        "description": "○日○曜日と○日○曜日 ○時から○時までは大丈夫です。"
+      },
+      {
+        "name": "f5",
+        "label": "Emailアドレス(携帯メール不可)",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "f6",
+        "label": "スカイプ名(SkypeID)",
+        "type": "text",
+        "required": false
+      },
+      {
+        "name": "f7",
+        "label": "Googleメールアドレスをお書きください。",
+        "type": "email",
+        "required": false
+      },
+      {
+        "name": "f8",
+        "label": "簡単にでも相談内容をお書き頂けるとありがたいです。",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "russian-1": {
+    "site": "russian",
+    "button": "Submit",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "Name",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email",
+        "type": "email",
+        "required": true
+      },
+      {
+        "name": "f3",
+        "label": "お問い合わせ内容",
+        "type": "textarea",
+        "required": true
+      }
+    ]
+  },
+  "russian-2": {
+    "site": "russian",
+    "button": "Submit",
+    "fields": [
+      {
+        "name": "f1",
+        "label": "お名前(ローマ字で入力ください)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "f2",
+        "label": "Email （携帯メール不可）",
+        "type": "email",
+        "required": true,
+        "description": "こちらのメールに連絡させて頂きます。"
+      },
+      {
+        "name": "f3",
+        "label": "電話番号",
+        "type": "text",
+        "required": true,
+        "description": "オンラインで連絡が取れない時のサポート用になります。"
+      },
+      {
+        "name": "f4",
+        "label": "年齢層",
+        "type": "select",
+        "required": false,
+        "description": "講師が参考にします。",
+        "choices": [
+          "15歳未満",
+          "15-19歳",
+          "20-24歳",
+          "25-29歳",
+          "30-34歳",
+          "35-39歳",
+          "40歳代",
+          "50歳代",
+          "60歳以上"
+        ]
+      },
+      {
+        "name": "f5",
+        "label": "お得な体験レッスン2,500円のご希望支払い方法",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "銀行、郵便局振込み",
+          "PayPal支払い"
+        ]
+      },
+      {
+        "name": "f6",
+        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（07:00〜夜22:00迄）をご記入下さい。土日祝日可。",
+        "type": "textarea",
+        "required": false
+      },
+      {
+        "name": "f7",
+        "label": "当校のどのようなところに興味を持ち、今回体験レッスンをお申し込み頂きましたか？今後の参考のため、お書き添え頂ければ幸いです。",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  }
+}

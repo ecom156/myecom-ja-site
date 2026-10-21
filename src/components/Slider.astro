@@ -1,0 +1,27 @@
+---
+interface Props { slides: { image: string; title?: string; text?: string; button?: string; link?: string }[] }
+const { slides } = Astro.props;
+---
+<div class="slider" data-slider>
+  {slides.map((s, i) => (
+    <div class="slide" hidden={i > 0}>
+      <img src={s.image} alt="" loading={i === 0 ? 'eager' : 'lazy'} />
+      {(s.title || s.text || s.button) && (
+        <div class="slide-text">
+          {s.title && <p class="slide-title">{s.title}</p>}
+          {s.text && <p>{s.text}</p>}
+          {s.button && s.link && <a class="btn" href={s.link}>{s.button}</a>}
+        </div>
+      )}
+    </div>
+  ))}
+</div>
+{slides.length > 1 && (
+  <script is:inline>
+    for (const el of document.querySelectorAll('[data-slider]')) {
+      const items = el.querySelectorAll('.slide');
+      let n = 0;
+      setInterval(() => { items[n].hidden = true; n = (n + 1) % items.length; items[n].hidden = false; }, 7000);
+    }
+  </script>
+)}

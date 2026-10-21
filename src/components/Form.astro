@@ -1,0 +1,73 @@
+---
+import { getCollection } from 'astro:content';
+import formsJson from '../data/forms.json';
+import { siteForPath } from '../lib';
+
+// Turnstile のサイトキー（公開して問題ないキー）。対になるシークレットは Cloudflare の TURNSTILE_SECRET_KEY
+const siteKey = '0x4AAAAAAFc9cH_m65hEMoAH';
+
+type Field = { name: string; label: string; type: string; required: boolean; description?: string; placeholder?: string; choices?: string[] };
+interface Props { formKey: string }
+const { formKey } = Astro.props;
+const form = (formsJson as Record<string, { button: string; fields: Field[] }>)[formKey];
+const here = decodeURI(Astro.url.pathname);
+// 送信後の行き先: 旧サイトのサンキューページ（このページの下にある thank を含むページ）があればそこ、無ければ同じページ
+const site = siteForPath(here);
+const thanks = (await getCollection('pages')).map((p) => p.data.path).find((p) => p.startsWith(here) && p !== here && /thank/i.test(p.slice(here.length)))
+  ?? (await getCollection('pages')).map((p) => p.data.path).find((p) => p.startsWith(site.base + '/') && /thank/i.test(p) && p.startsWith(here.split('/').slice(0, -2).join('/') + '/'));
+const inputType = (t: string) => (t === 'email' ? 'email' : t === 'phone' ? 'tel' : t === 'number' ? 'number' : t === 'date' ? 'date' : t === 'website' ? 'url' : 'text');
+---
+{form && (
+  <div class="wp-form" data-form-for={formKey}>
+    <p class="form-sent" hidden>送信しました。ありがとうございます。確認のメールをお送りしましたので、ご確認ください。</p>
+    <p class="form-error" hidden>送信できませんでした。入力内容をご確認のうえ、時間をおいて再度お試しいただくか、info@myecom.net まで直接ご連絡ください。</p>
+    <form class="contact" method="post" action="/api/form/">
+      <input type="hidden" name="form" value={formKey} />
+      <input type="hidden" name="page" value={here} />
+      <input type="hidden" name="thanks" value={thanks ?? ''} />
+      {form.fields.map((f) => (
+        <div class="field">
+          {f.type === 'checkbox' || f.type === 'radio' || f.type === 'consent' ? (
+            <fieldset>
+              <legend>{f.label}{f.required && <span class="req">必須</span>}</legend>
+              {f.choices!.map((c, i) => (
+                <label class="choice">
+                  <input type={f.type === 'radio' ? 'radio' : 'checkbox'} name={f.name} value={c} required={f.required && (f.type !== 'checkbox' || f.choices!.length === 1)} />
+                  {c}
+                </label>
+              ))}
+            </fieldset>
+          ) : (
+            <label>
+              <span>{f.label}{f.required && <span class="req">必須</span>}</span>
+              {f.type === 'textarea' ? (
+                <textarea name={f.name} rows="6" maxlength="5000" required={f.required} placeholder={f.placeholder}></textarea>
+              ) : f.type === 'select' ? (
+                <select name={f.name} required={f.required}>{f.choices!.map((c) => <option>{c}</option>)}</select>
+              ) : (
+                <input name={f.name} type={inputType(f.type)} maxlength="300" required={f.required} placeholder={f.placeholder} autocomplete={f.type === 'email' ? 'email' : f.type === 'phone' ? 'tel' : undefined} />
+              )}
+            </label>
+          )}
+          {f.description && <small>{f.description}</small>}
+        </div>
+      ))}
+      <input name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <div class="cf-turnstile" data-sitekey={siteKey} data-language="ja"></div>
+      <button class="btn" type="submit">{form.button}</button>
+    </form>
+  </div>
+)}
+<script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+<script is:inline define:vars={{ formKey }}>
+  // 旧サイトでフォームがあった位置（本文中の目印）へ移す
+  const box = document.querySelector(`[data-form-for="${formKey}"]`);
+  const marker = document.querySelector(`.prose [data-form="${formKey}"]`);
+  if (box && marker) marker.replaceWith(box);
+  const q = new URLSearchParams(location.search);
+  if (box && q.get('form') === formKey) {
+    if (q.has('sent')) { box.querySelector('.form-sent').hidden = false; box.querySelector('form').hidden = true; }
+    if (q.has('error')) box.querySelector('.form-error').hidden = false;
+    box.scrollIntoView();
+  }
+</script>
