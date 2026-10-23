@@ -3,74 +3,82 @@ title: "一般英語コース"
 path: "/english/courses/high/general/"
 ---
 
-当校では長年に渡る豊富な英語教育指導経験から、生徒様お一人お一人のニーズに即した実践的な英語上達プランを提案しています。下記はその一例になります。 対象Levelの数字は、1が全くの初心者、10が最上級の、Ecomが設定する10段階評価判定になります。
-
-20時間完成、初中級会話強化2
-
-会話フレーズを覚えてそれをロールプレイで練習して使える英会話を学びたい人向けクラス(学生にもお薦め)。教科書は普段の生活で遭遇する16の楽しいシチュエーション会話で構成。16Units+ReviewUnits2つの計18のUnitsからなる。クラスは1Units=1時間程度で進む予定。
-
--   [![](/english/wp-content/uploads/2015/01/ic2-230x300.jpg)](/english/wp-content/uploads/2015/01/ic2.jpg)
--   [![](/english/wp-content/uploads/2015/01/ic2-9-219x300.jpg)](/english/wp-content/uploads/2015/01/ic2-9.jpg)
--   [![](/english/wp-content/uploads/2015/01/ic2-10-219x300.jpg)](/english/wp-content/uploads/2015/01/ic2-10.jpg)
--   [![](/english/wp-content/uploads/2015/01/ic2-11-219x300.jpg)](/english/wp-content/uploads/2015/01/ic2-11.jpg)
--   [![](/english/wp-content/uploads/2015/01/ic2-12-219x300.jpg)](/english/wp-content/uploads/2015/01/ic2-12.jpg)
-
-20時間完成、トラベル英会話
-
-全20Unit。見開き１ページで１Unitという見やすい形式。各Unit毎に空港やレストラン、ホテルの受け付けなど旅行で遭遇するシチュエーションが設定されておりロールプレイができる。
-
--   [![トラベル英会話教材](/english/wp-content/uploads/2015/01/passport-224x300.jpg)](/english/wp-content/uploads/2015/01/passport.jpg)
--   [![](/english/wp-content/uploads/2015/01/passport-6-222x300.jpg)](/english/wp-content/uploads/2015/01/passport-6.jpg)
--   [![](/english/wp-content/uploads/2015/01/passport-7-228x300.jpg)](/english/wp-content/uploads/2015/01/passport-7.jpg)
--   [![](/english/wp-content/uploads/2015/01/passport-8-222x300.jpg)](/english/wp-content/uploads/2015/01/passport-8.jpg)
--   [![](/english/wp-content/uploads/2015/01/passport-9-225x300.jpg)](/english/wp-content/uploads/2015/01/passport-9.jpg)
-
-32時間完成、中級英語
-
-イギリス英語の上級教材。読み応えあるエッセイや、時事トピックなども収録されていて、英語の総合的な力をさらに養っていく。
-
--   [![](/english/wp-content/uploads/2015/01/headway6-234x300.jpg)](/english/wp-content/uploads/2015/01/headway6.jpg)
--   [![](/english/wp-content/uploads/2015/01/headway6-7-231x300.jpg)](/english/wp-content/uploads/2015/01/headway6-7.jpg)
--   [![](/english/wp-content/uploads/2015/01/headway6-8-230x300.jpg)](/english/wp-content/uploads/2015/01/headway6-8.jpg)
--   [![](/english/wp-content/uploads/2015/01/headway6-9-231x300.jpg)](/english/wp-content/uploads/2015/01/headway6-9.jpg)
--   [![](/english/wp-content/uploads/2015/01/headway6-10-231x300.jpg)](/english/wp-content/uploads/2015/01/headway6-10.jpg)
-
-25時間完成、初中級まとめ英文法
-
-時制、三単元、代名詞・過去分詞、関係代名詞など絶対に外せない主要50の英文法をペースよくおさらいしていく。教科書は各Unit、見開き1ページの見やすい形式。1Unit=30minのペースで授業が進んでいきます。これ一冊を終えて、あとは必要な語彙力を別途補強すれば英検準2級合格レベルになれます。
-
--   [![](/english/wp-content/uploads/2015/01/ig-226x300.jpg)](/english/wp-content/uploads/2015/01/ig.jpg)
--   [![](/english/wp-content/uploads/2015/01/ig-1-1-227x300.jpg)](/english/wp-content/uploads/2015/01/ig-1-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/ig-1-2-226x300.jpg)](/english/wp-content/uploads/2015/01/ig-1-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/ig-2-1-223x300.jpg)](/english/wp-content/uploads/2015/01/ig-2-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/ig-2-2-226x300.jpg)](/english/wp-content/uploads/2015/01/ig-2-2.jpg)
-
-５時間完成、恋愛英語クラス
-
-恋人未満の関係から、プロボーズに至るまで、恋愛のシチュエーションでよく出てくる恋に関する英語表現を３１個、ネイティブと一緒に厳選しました。講師とマンツーマンでロールプレイをしながら楽しく恋愛に関する英語表現を学んで見ませんか？映画の聞き取りにも役立つ講座です。
-
-[詳しく見る](/english/onlinelessons/courses/high/love-romance/)
-
--   [![](/english/wp-content/uploads/2015/01/cover-page-187x300.jpg)](/english/wp-content/uploads/2015/01/cover-page-639x1024.jpg)
--   [![恋愛英語表現](/english/wp-content/uploads/2015/01/1-211x300.jpg)](/english/wp-content/uploads/2015/01/1-720x1024.jpg)
--   [![](/english/wp-content/uploads/2015/01/2-211x300.jpg)](/english/wp-content/uploads/2015/01/2-720x1024.jpg)
--   [![](/english/wp-content/uploads/2015/01/3-211x300.jpg)](/english/wp-content/uploads/2015/01/3-720x1024.jpg)
--   [![恋愛英語表現31](/english/wp-content/uploads/2015/01/4-211x300.jpg)](/english/wp-content/uploads/2015/01/4-720x1024.jpg)
-
-20時間完成、ネイティブが使うイディオム集中学習
-
-ネイティブが日常生活でよく使うidiomを学びます。最重要100個のイディオムを会話の中に入れて自然に使えることを目指します。
-
--   [![](/english/wp-content/uploads/2015/01/idiom100-211x300.jpg)](/english/wp-content/uploads/2015/01/idiom100.jpg)
--   [![](/english/wp-content/uploads/2015/01/idiom100-1-211x300.jpg)](/english/wp-content/uploads/2015/01/idiom100-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/idiom100-2-211x300.jpg)](/english/wp-content/uploads/2015/01/idiom100-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/idiom100-3-211x300.jpg)](/english/wp-content/uploads/2015/01/idiom100-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/idiom100-4-211x300.jpg)](/english/wp-content/uploads/2015/01/idiom100-4.jpg)
-
-5時間おさらい完成、基本表現40
-
-オンライン英会話レッスンを英語のみで行う際に頻出の英語表現を40学べます。30分で4つの表現を学んでいきます。
-
-[![スカイプ英会話体験レッスン案内](/english/wp-content/uploads/2014/01/icon_trial.gif)](/english/trial/)
-
-[![スカイプ英会話サポート](/english/wp-content/uploads/2014/01/icon_trial_support.gif)](/english/support/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>当校では長年に渡る豊富な英語教育指導経験から、生徒様お一人お一人のニーズに即した実践的な英語上達プランを提案しています。下記はその一例になります。 対象Levelの数字は、1が全くの初心者、10が最上級の、Ecomが設定する10段階評価判定になります。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_blue vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>一般総合英語クラス一覧</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、初中級会話強化2</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>会話フレーズを覚えてそれをロールプレイで練習して使える英会話を学びたい人向けクラス(学生にもお薦め)。教科書は普段の生活で遭遇する16の楽しいシチュエーション会話で構成。16Units+ReviewUnits2つの計18のUnitsからなる。クラスは1Units=1時間程度で進む予定。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/ic2.jpg" data-lightbox="lightbox[rel-8334-682751316]"><img loading="lazy" fetchpriority="high" decoding="async" width="230" height="300" src="/english/wp-content/uploads/2015/01/ic2-230x300.jpg" class="attachment-medium" alt="" title="ic2"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic2-9.jpg" data-lightbox="lightbox[rel-8334-682751316]"><img loading="lazy" decoding="async" width="219" height="300" src="/english/wp-content/uploads/2015/01/ic2-9-219x300.jpg" class="attachment-medium" alt="" title="ic2-9"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic2-10.jpg" data-lightbox="lightbox[rel-8334-682751316]"><img loading="lazy" decoding="async" width="219" height="300" src="/english/wp-content/uploads/2015/01/ic2-10-219x300.jpg" class="attachment-medium" alt="" title="ic2-10"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic2-11.jpg" data-lightbox="lightbox[rel-8334-682751316]"><img loading="lazy" decoding="async" width="219" height="300" src="/english/wp-content/uploads/2015/01/ic2-11-219x300.jpg" class="attachment-medium" alt="" title="ic2-11"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic2-12.jpg" data-lightbox="lightbox[rel-8334-682751316]"><img loading="lazy" decoding="async" width="219" height="300" src="/english/wp-content/uploads/2015/01/ic2-12-219x300.jpg" class="attachment-medium" alt="" title="ic2-12"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、トラベル英会話</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>全20Unit。見開き１ページで１Unitという見やすい形式。各Unit毎に空港やレストラン、ホテルの受け付けなど旅行で遭遇するシチュエーションが設定されておりロールプレイができる。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/passport.jpg" data-lightbox="lightbox[rel-8334-2501319596]"><img loading="lazy" decoding="async" width="224" height="300" src="/english/wp-content/uploads/2015/01/passport-224x300.jpg" class="attachment-medium" alt="トラベル英会話教材" title="トラベル英会話教材"></a></li><li><a href="/english/wp-content/uploads/2015/01/passport-6.jpg" data-lightbox="lightbox[rel-8334-2501319596]"><img loading="lazy" decoding="async" width="222" height="300" src="/english/wp-content/uploads/2015/01/passport-6-222x300.jpg" class="attachment-medium" alt="" title="passport-6"></a></li><li><a href="/english/wp-content/uploads/2015/01/passport-7.jpg" data-lightbox="lightbox[rel-8334-2501319596]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/wp-content/uploads/2015/01/passport-7-228x300.jpg" class="attachment-medium" alt="" title="passport-7"></a></li><li><a href="/english/wp-content/uploads/2015/01/passport-8.jpg" data-lightbox="lightbox[rel-8334-2501319596]"><img loading="lazy" decoding="async" width="222" height="300" src="/english/wp-content/uploads/2015/01/passport-8-222x300.jpg" class="attachment-medium" alt="" title="passport-8"></a></li><li><a href="/english/wp-content/uploads/2015/01/passport-9.jpg" data-lightbox="lightbox[rel-8334-2501319596]"><img loading="lazy" decoding="async" width="225" height="300" src="/english/wp-content/uploads/2015/01/passport-9-225x300.jpg" class="attachment-medium" alt="" title="passport-9"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">32時間完成、中級英語</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>イギリス英語の上級教材。読み応えあるエッセイや、時事トピックなども収録されていて、英語の総合的な力をさらに養っていく。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/headway6.jpg" data-lightbox="lightbox[rel-8334-4182088180]"><img loading="lazy" decoding="async" width="234" height="300" src="/english/wp-content/uploads/2015/01/headway6-234x300.jpg" class="attachment-medium" alt="" title="headway6"></a></li><li><a href="/english/wp-content/uploads/2015/01/headway6-7.jpg" data-lightbox="lightbox[rel-8334-4182088180]"><img loading="lazy" decoding="async" width="231" height="300" src="/english/wp-content/uploads/2015/01/headway6-7-231x300.jpg" class="attachment-medium" alt="" title="headway6-7"></a></li><li><a href="/english/wp-content/uploads/2015/01/headway6-8.jpg" data-lightbox="lightbox[rel-8334-4182088180]"><img loading="lazy" decoding="async" width="230" height="300" src="/english/wp-content/uploads/2015/01/headway6-8-230x300.jpg" class="attachment-medium" alt="" title="headway6-8"></a></li><li><a href="/english/wp-content/uploads/2015/01/headway6-9.jpg" data-lightbox="lightbox[rel-8334-4182088180]"><img loading="lazy" decoding="async" width="231" height="300" src="/english/wp-content/uploads/2015/01/headway6-9-231x300.jpg" class="attachment-medium" alt="" title="headway6-9"></a></li><li><a href="/english/wp-content/uploads/2015/01/headway6-10.jpg" data-lightbox="lightbox[rel-8334-4182088180]"><img loading="lazy" decoding="async" width="231" height="300" src="/english/wp-content/uploads/2015/01/headway6-10-231x300.jpg" class="attachment-medium" alt="" title="headway6-10"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">25時間完成、初中級まとめ英文法</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>時制、三単元、代名詞・過去分詞、関係代名詞など絶対に外せない主要50の英文法をペースよくおさらいしていく。教科書は各Unit、見開き1ページの見やすい形式。1Unit=30minのペースで授業が進んでいきます。これ一冊を終えて、あとは必要な語彙力を別途補強すれば英検準2級合格レベルになれます。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/ig.jpg" data-lightbox="lightbox[rel-8334-4082484056]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/wp-content/uploads/2015/01/ig-226x300.jpg" class="attachment-medium" alt="" title="ig"></a></li><li><a href="/english/wp-content/uploads/2015/01/ig-1-1.jpg" data-lightbox="lightbox[rel-8334-4082484056]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/wp-content/uploads/2015/01/ig-1-1-227x300.jpg" class="attachment-medium" alt="" title="ig-1-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/ig-1-2.jpg" data-lightbox="lightbox[rel-8334-4082484056]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/wp-content/uploads/2015/01/ig-1-2-226x300.jpg" class="attachment-medium" alt="" title="ig-1-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/ig-2-1.jpg" data-lightbox="lightbox[rel-8334-4082484056]"><img loading="lazy" decoding="async" width="223" height="300" src="/english/wp-content/uploads/2015/01/ig-2-1-223x300.jpg" class="attachment-medium" alt="" title="ig-2-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/ig-2-2.jpg" data-lightbox="lightbox[rel-8334-4082484056]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/wp-content/uploads/2015/01/ig-2-2-226x300.jpg" class="attachment-medium" alt="" title="ig-2-2"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">５時間完成、恋愛英語クラス</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>恋人未満の関係から、プロボーズに至るまで、恋愛のシチュエーションでよく出てくる恋に関する英語表現を３１個、ネイティブと一緒に厳選しました。講師とマンツーマンでロールプレイをしながら楽しく恋愛に関する英語表現を学んで見ませんか？映画の聞き取りにも役立つ講座です。</p>
+</div>
+</div>
+<div class="vc_btn3-container vc_btn3-right vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-pink" href="/english/onlinelessons/courses/high/love-romance/" title="">詳しく見る</a></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/cover-page-639x1024.jpg" data-lightbox="lightbox[rel-8334-4213005349]"><img loading="lazy" decoding="async" width="187" height="300" src="/english/wp-content/uploads/2015/01/cover-page-187x300.jpg" class="attachment-medium" alt="" title="恋愛英語表現クラス"></a></li><li><a href="/english/wp-content/uploads/2015/01/1-720x1024.jpg" data-lightbox="lightbox[rel-8334-4213005349]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/1-211x300.jpg" class="attachment-medium" alt="恋愛英語表現" title="恋愛英語表現"></a></li><li><a href="/english/wp-content/uploads/2015/01/2-720x1024.jpg" data-lightbox="lightbox[rel-8334-4213005349]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/2-211x300.jpg" class="attachment-medium" alt="" title="2"></a></li><li><a href="/english/wp-content/uploads/2015/01/3-720x1024.jpg" data-lightbox="lightbox[rel-8334-4213005349]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/3-211x300.jpg" class="attachment-medium" alt="" title="3"></a></li><li><a href="/english/wp-content/uploads/2015/01/4-720x1024.jpg" data-lightbox="lightbox[rel-8334-4213005349]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/4-211x300.jpg" class="attachment-medium" alt="恋愛英語表現31" title="恋愛英語表現31"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、ネイティブが使うイディオム集中学習</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>ネイティブが日常生活でよく使うidiomを学びます。最重要100個のイディオムを会話の中に入れて自然に使えることを目指します。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/idiom100.jpg" data-lightbox="lightbox[rel-8334-665563232]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/idiom100-211x300.jpg" class="attachment-medium" alt="" title="idiom100"></a></li><li><a href="/english/wp-content/uploads/2015/01/idiom100-1.jpg" data-lightbox="lightbox[rel-8334-665563232]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/idiom100-1-211x300.jpg" class="attachment-medium" alt="" title="idiom100-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/idiom100-2.jpg" data-lightbox="lightbox[rel-8334-665563232]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/idiom100-2-211x300.jpg" class="attachment-medium" alt="" title="idiom100-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/idiom100-3.jpg" data-lightbox="lightbox[rel-8334-665563232]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/idiom100-3-211x300.jpg" class="attachment-medium" alt="" title="idiom100-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/idiom100-4.jpg" data-lightbox="lightbox[rel-8334-665563232]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/idiom100-4-211x300.jpg" class="attachment-medium" alt="" title="idiom100-4"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">5時間おさらい完成、基本表現40</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>オンライン英会話レッスンを英語のみで行う際に頻出の英語表現を40学べます。30分で4つの表現を学んでいきます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話サポート" title="スカイプ英会話サポート"></a>
+</figure>
+</div>
+</div></div></div></div>
+</div>
+</div>

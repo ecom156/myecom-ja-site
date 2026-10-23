@@ -3,18 +3,25 @@ title: "初中級以上の方向け英語コース"
 path: "/english/courses/high/"
 ---
 
-## 一般総合英語コース
-
-[![イーコムネイティブ英語講師](/english/wp-content/uploads/2014/01/girl-150x150.png)](/english/wp-content/uploads/2014/01/girl.png)語彙、文法、リスニング、スピーキング、発音、作文力など語学力向上に必要な技能を総合的に向上させます。もちろんマンツーマンですので、希望の優先順位に従って強化することもできます。[▶詳しく見る](/english/onlinelessons/courses/high/general/)
-
-## ディスカッション英語コース
-
-[![character01](/english/wp-content/uploads/2014/01/character01-150x150.jpg)](/english/wp-content/uploads/2014/01/character01.jpg)英文法などは自身で行ってもらうとして、ここでは話すことを中心に英語を上達させていきます。もちろんただ話しっぱなしではなく、講師は適宜誤りのチェックや弱い部分の指導も行ってまいります。[▶詳しく見る](/english/onlinelessons/courses/high/discussion/)
-
-## 発音、リスニング特化コース
-
-[![イーコム生徒様男性](/english/wp-content/uploads/2014/01/04.jpg)](/english/wp-content/uploads/2014/01/04.jpg)発音とリスニングは、コミュニケーションのマナーと言われています。発音はお化粧のようなもので、あなたの話しぶりをより魅力的に見せます。また的外れな回答をしないためにもリスニング力は十分鍛えておきましょう。[▶詳しく見る](/english/onlinelessons/courses/inter-advanced/pronunciation-listening/)
-
-[![スカイプ英会話体験レッスン案内](/english/wp-content/uploads/2014/01/icon_trial.gif)](/english/trial/)
-
-[![スカイプ英会話サポート](/english/wp-content/uploads/2014/01/icon_trial_support.gif)](/english/support/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>一般総合英語コース</h2></header><p><a href="/english/wp-content/uploads/2014/01/girl.png"><img loading="lazy" decoding="async" class="alignright size-thumbnail wp-image-3590" src="/english/wp-content/uploads/2014/01/girl-150x150.png" alt="イーコムネイティブ英語講師" width="150" height="150"></a>語彙、文法、リスニング、スピーキング、発音、作文力など語学力向上に必要な技能を総合的に向上させます。もちろんマンツーマンですので、希望の優先順位に従って強化することもできます。<a title="一般英語コース" href="/english/onlinelessons/courses/high/general/">▶詳しく見る</a></p>
+</div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>ディスカッション英語コース</h2></header><p><a href="/english/wp-content/uploads/2014/01/character01.jpg"><img loading="lazy" decoding="async" class="alignright size-thumbnail wp-image-3843" src="/english/wp-content/uploads/2014/01/character01-150x150.jpg" alt="character01" width="150" height="150"></a>英文法などは自身で行ってもらうとして、ここでは話すことを中心に英語を上達させていきます。もちろんただ話しっぱなしではなく、講師は適宜誤りのチェックや弱い部分の指導も行ってまいります。<a title="ディスカッション英語コース" href="/english/onlinelessons/courses/high/discussion/">▶詳しく見る</a></p>
+</div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>発音、リスニング特化コース</h2></header><p><a href="/english/wp-content/uploads/2014/01/04.jpg"><img loading="lazy" decoding="async" class="alignright size-full wp-image-5670" src="/english/wp-content/uploads/2014/01/04.jpg" alt="イーコム生徒様男性" width="125" height="125"></a>発音とリスニングは、コミュニケーションのマナーと言われています。発音はお化粧のようなもので、あなたの話しぶりをより魅力的に見せます。また的外れな回答をしないためにもリスニング力は十分鍛えておきましょう。<a title="発音、リスニング対策コース" href="/english/onlinelessons/courses/inter-advanced/pronunciation-listening/">▶詳しく見る</a></p>
+</div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話サポート" title="スカイプ英会話サポート"></a>
+</figure>
+</div>
+</div></div></div></div>
+</div>
+</div>

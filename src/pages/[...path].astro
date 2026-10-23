@@ -4,6 +4,7 @@ import Base from '../layouts/Base.astro';
 import PostList from '../components/PostList.astro';
 import Slider from '../components/Slider.astro';
 import Form from '../components/Form.astro';
+import RecentGrid from '../components/RecentGrid.astro';
 import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, inCategory, chunk, param, type Site } from '../lib';
 
 type Props =
@@ -75,6 +76,7 @@ const home = `${site.base}/`;
       {!props.page.data.front && <h1>{props.page.data.title}</h1>}
       <div class="prose"><Content /></div>
       {formKeys.map((k) => <Form formKey={k} />)}
+      {props.page.body?.includes('data-recent-posts') && <RecentGrid site={site} />}
       {props.list && <PostList list={props.list} pageNo={props.pageNo!} pages={props.pages!} base={props.page.data.path} />}
     </div>
   </Base>

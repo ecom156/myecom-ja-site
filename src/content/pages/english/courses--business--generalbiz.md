@@ -3,64 +3,43 @@ title: "総合ビジネス英語"
 path: "/english/courses/business/generalbiz/"
 ---
 
-当校では長年に渡る豊富な英語教育指導経験から、生徒様お一人お一人のニーズに即した実践的な英語上達プランを提案しています。下記はその一例になります。
-
-○Lv3-6。初級、初中級対象
-
-ビジネスニュース記事などを基に、ビジネス一般必要な基礎英語力を養います。
-
-教科書は15Units＋ライティングTask5Unitsの計20Units分。1時間＝1Unitで進んでいきます。
-
-すぐ使えるビジネス英語を身につける短期集中習得に最適。プレゼン、オフィスでの日常会話、会議での発言など、15のシチュエーション毎に必要な表現、語彙を学んでロールプレイを行っていきます。教科書は15Units＋ライティングTask5Unitsの計20Units分。1時間＝1Unitで進んでいきます。
-
-30時間完成、総合ビジネス英語1
-
--   [![](/english/wp-content/uploads/2014/01/ml1-216x300.jpg)](/english/wp-content/uploads/2014/01/ml1.jpg)
--   [![](/english/wp-content/uploads/2014/01/ml1-6-216x300.jpg)](/english/wp-content/uploads/2014/01/ml1-6.jpg)
--   [![](/english/wp-content/uploads/2014/01/ml1-7-216x300.jpg)](/english/wp-content/uploads/2014/01/ml1-7.jpg)
--   [![](/english/wp-content/uploads/2014/01/ml1-8-216x300.jpg)](/english/wp-content/uploads/2014/01/ml1-8.jpg)
--   [![](/english/wp-content/uploads/2014/01/ml1-9-216x300.jpg)](/english/wp-content/uploads/2014/01/ml1-9.jpg)
-
-30時間完成、総合ビジネス英語2
-
--   [![](/english/wp-content/uploads/2014/01/newml2-204x300.jpg)](/english/wp-content/uploads/2014/01/newml2.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml2-6-209x300.jpg)](/english/wp-content/uploads/2014/01/newml2-6.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml2-7-210x300.jpg)](/english/wp-content/uploads/2014/01/newml2-7.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml2-8-210x300.jpg)](/english/wp-content/uploads/2014/01/newml2-8.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml2-2-209x300.jpg)](/english/wp-content/uploads/2014/01/newml2-2.jpg)
-
-30時間完成、総合ビジネス英語3
-
--   [![](/english/wp-content/uploads/2014/01/newml3-204x300.jpg)](/english/wp-content/uploads/2014/01/newml3.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml3-2-207x300.jpg)](/english/wp-content/uploads/2014/01/newml3-2.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml3-6-209x300.jpg)](/english/wp-content/uploads/2014/01/newml3-6.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml3-7-209x300.jpg)](/english/wp-content/uploads/2014/01/newml3-7.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml3-8-210x300.jpg)](/english/wp-content/uploads/2014/01/newml3-8.jpg)
-
-30時間完成、総合ビジネス英語4
-
--   [![](/english/wp-content/uploads/2014/01/newml4-206x300.jpg)](/english/wp-content/uploads/2014/01/newml4.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml4-2-210x300.jpg)](/english/wp-content/uploads/2014/01/newml4-2.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml4-6-209x300.jpg)](/english/wp-content/uploads/2014/01/newml4-6.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml4-7-210x300.jpg)](/english/wp-content/uploads/2014/01/newml4-7.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml4-8-210x300.jpg)](/english/wp-content/uploads/2014/01/newml4-8.jpg)
-
-30時間完成、総合ビジネス英語5
-
--   [![](/english/wp-content/uploads/2014/01/newml5-205x300.jpg)](/english/wp-content/uploads/2014/01/newml5.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml5-2-209x300.jpg)](/english/wp-content/uploads/2014/01/newml5-2.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml5-6-208x300.jpg)](/english/wp-content/uploads/2014/01/newml5-6.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml5-7-209x300.jpg)](/english/wp-content/uploads/2014/01/newml5-7.jpg)
--   [![](/english/wp-content/uploads/2014/01/newml5-8-208x300.jpg)](/english/wp-content/uploads/2014/01/newml5-8.jpg)
-
-ビジネスEmail英文ライティング
-
--   [![](/english/wp-content/uploads/2014/01/email-222x300.jpg)](/english/wp-content/uploads/2014/01/email.jpg)
--   
--   
--   
--   
-
-[![スカイプ英会話体験レッスン案内](/english/wp-content/uploads/2014/01/icon_trial.gif)](/english/trial/)
-
-[![スカイプ英会話サポート](/english/wp-content/uploads/2014/01/icon_trial_support.gif)](/english/support/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>当校では長年に渡る豊富な英語教育指導経験から、生徒様お一人お一人のニーズに即した実践的な英語上達プランを提案しています。下記はその一例になります。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○Lv3-6。初級、初中級対象</p>
+<p>ビジネスニュース記事などを基に、ビジネス一般必要な基礎英語力を養います。</p>
+<p>教科書は15Units＋ライティングTask5Unitsの計20Units分。1時間＝1Unitで進んでいきます。</p>
+</div>
+</div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>すぐ使えるビジネス英語を身につける短期集中習得に最適。プレゼン、オフィスでの日常会話、会議での発言など、15のシチュエーション毎に必要な表現、語彙を学んでロールプレイを行っていきます。教科書は15Units＋ライティングTask5Unitsの計20Units分。1時間＝1Unitで進んでいきます。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><button class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-mulled-wine">30時間完成、総合ビジネス英語1</button></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2014/01/ml1.jpg" data-lightbox="lightbox[rel-8246-998739328]"><img loading="lazy" fetchpriority="high" decoding="async" width="216" height="300" src="/english/wp-content/uploads/2014/01/ml1-216x300.jpg" class="attachment-medium" alt="" title="ml1"></a></li><li><a href="/english/wp-content/uploads/2014/01/ml1-6.jpg" data-lightbox="lightbox[rel-8246-998739328]"><img loading="lazy" decoding="async" width="216" height="300" src="/english/wp-content/uploads/2014/01/ml1-6-216x300.jpg" class="attachment-medium" alt="" title="ml1-6"></a></li><li><a href="/english/wp-content/uploads/2014/01/ml1-7.jpg" data-lightbox="lightbox[rel-8246-998739328]"><img loading="lazy" decoding="async" width="216" height="300" src="/english/wp-content/uploads/2014/01/ml1-7-216x300.jpg" class="attachment-medium" alt="" title="ml1-7"></a></li><li><a href="/english/wp-content/uploads/2014/01/ml1-8.jpg" data-lightbox="lightbox[rel-8246-998739328]"><img loading="lazy" decoding="async" width="216" height="300" src="/english/wp-content/uploads/2014/01/ml1-8-216x300.jpg" class="attachment-medium" alt="" title="ml1-8"></a></li><li><a href="/english/wp-content/uploads/2014/01/ml1-9.jpg" data-lightbox="lightbox[rel-8246-998739328]"><img loading="lazy" decoding="async" width="216" height="300" src="/english/wp-content/uploads/2014/01/ml1-9-216x300.jpg" class="attachment-medium" alt="" title="ml1-9"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><button class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-mulled-wine">30時間完成、総合ビジネス英語2</button></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2014/01/newml2.jpg" data-lightbox="lightbox[rel-8246-1411023340]"><img loading="lazy" decoding="async" width="204" height="300" src="/english/wp-content/uploads/2014/01/newml2-204x300.jpg" class="attachment-medium" alt="" title="newml2"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml2-6.jpg" data-lightbox="lightbox[rel-8246-1411023340]"><img loading="lazy" decoding="async" width="209" height="300" src="/english/wp-content/uploads/2014/01/newml2-6-209x300.jpg" class="attachment-medium" alt="" title="newml2-6"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml2-7.jpg" data-lightbox="lightbox[rel-8246-1411023340]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2014/01/newml2-7-210x300.jpg" class="attachment-medium" alt="" title="newml2-7"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml2-8.jpg" data-lightbox="lightbox[rel-8246-1411023340]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2014/01/newml2-8-210x300.jpg" class="attachment-medium" alt="" title="newml2-8"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml2-2.jpg" data-lightbox="lightbox[rel-8246-1411023340]"><img loading="lazy" decoding="async" width="209" height="300" src="/english/wp-content/uploads/2014/01/newml2-2-209x300.jpg" class="attachment-medium" alt="" title="newml2-2"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><button class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-mulled-wine">30時間完成、総合ビジネス英語3</button></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2014/01/newml3.jpg" data-lightbox="lightbox[rel-8246-1026053940]"><img loading="lazy" decoding="async" width="204" height="300" src="/english/wp-content/uploads/2014/01/newml3-204x300.jpg" class="attachment-medium" alt="" title="newml3"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml3-2.jpg" data-lightbox="lightbox[rel-8246-1026053940]"><img loading="lazy" decoding="async" width="207" height="300" src="/english/wp-content/uploads/2014/01/newml3-2-207x300.jpg" class="attachment-medium" alt="" title="newml3-2"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml3-6.jpg" data-lightbox="lightbox[rel-8246-1026053940]"><img loading="lazy" decoding="async" width="209" height="300" src="/english/wp-content/uploads/2014/01/newml3-6-209x300.jpg" class="attachment-medium" alt="" title="newml3-6"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml3-7.jpg" data-lightbox="lightbox[rel-8246-1026053940]"><img loading="lazy" decoding="async" width="209" height="300" src="/english/wp-content/uploads/2014/01/newml3-7-209x300.jpg" class="attachment-medium" alt="" title="newml3-7"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml3-8.jpg" data-lightbox="lightbox[rel-8246-1026053940]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2014/01/newml3-8-210x300.jpg" class="attachment-medium" alt="" title="newml3-8"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><button class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-mulled-wine">30時間完成、総合ビジネス英語4</button></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2014/01/newml4.jpg" data-lightbox="lightbox[rel-8246-145791283]"><img loading="lazy" decoding="async" width="206" height="300" src="/english/wp-content/uploads/2014/01/newml4-206x300.jpg" class="attachment-medium" alt="" title="newml4"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml4-2.jpg" data-lightbox="lightbox[rel-8246-145791283]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2014/01/newml4-2-210x300.jpg" class="attachment-medium" alt="" title="newml4-2"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml4-6.jpg" data-lightbox="lightbox[rel-8246-145791283]"><img loading="lazy" decoding="async" width="209" height="300" src="/english/wp-content/uploads/2014/01/newml4-6-209x300.jpg" class="attachment-medium" alt="" title="newml4-6"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml4-7.jpg" data-lightbox="lightbox[rel-8246-145791283]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2014/01/newml4-7-210x300.jpg" class="attachment-medium" alt="" title="newml4-7"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml4-8.jpg" data-lightbox="lightbox[rel-8246-145791283]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2014/01/newml4-8-210x300.jpg" class="attachment-medium" alt="" title="newml4-8"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><button class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-mulled-wine">30時間完成、総合ビジネス英語5</button></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2014/01/newml5.jpg" data-lightbox="lightbox[rel-8246-2634411695]"><img loading="lazy" decoding="async" width="205" height="300" src="/english/wp-content/uploads/2014/01/newml5-205x300.jpg" class="attachment-medium" alt="" title="newml5"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml5-2.jpg" data-lightbox="lightbox[rel-8246-2634411695]"><img loading="lazy" decoding="async" width="209" height="300" src="/english/wp-content/uploads/2014/01/newml5-2-209x300.jpg" class="attachment-medium" alt="" title="newml5-2"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml5-6.jpg" data-lightbox="lightbox[rel-8246-2634411695]"><img loading="lazy" decoding="async" width="208" height="300" src="/english/wp-content/uploads/2014/01/newml5-6-208x300.jpg" class="attachment-medium" alt="" title="newml5-6"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml5-7.jpg" data-lightbox="lightbox[rel-8246-2634411695]"><img loading="lazy" decoding="async" width="209" height="300" src="/english/wp-content/uploads/2014/01/newml5-7-209x300.jpg" class="attachment-medium" alt="" title="newml5-7"></a></li><li><a href="/english/wp-content/uploads/2014/01/newml5-8.jpg" data-lightbox="lightbox[rel-8246-2634411695]"><img loading="lazy" decoding="async" width="208" height="300" src="/english/wp-content/uploads/2014/01/newml5-8-208x300.jpg" class="attachment-medium" alt="" title="newml5-8"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><button class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-mulled-wine">ビジネスEmail英文ライティング</button></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2014/01/email.jpg" data-lightbox="lightbox[rel-8246-3368124038]"><img loading="lazy" decoding="async" width="222" height="300" src="/english/wp-content/uploads/2014/01/email-222x300.jpg" class="attachment-medium" alt="" title="email"></a></li><li><a href="" data-lightbox="lightbox[rel-8246-3368124038]"></a></li><li><a href="" data-lightbox="lightbox[rel-8246-3368124038]"></a></li><li><a href="" data-lightbox="lightbox[rel-8246-3368124038]"></a></li><li><a href="" data-lightbox="lightbox[rel-8246-3368124038]"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話サポート" title="スカイプ英会話サポート"></a>
+</figure>
+</div>
+</div></div></div></div>
+</div>
+</div>

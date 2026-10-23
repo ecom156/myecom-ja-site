@@ -129,3 +129,17 @@ main:has(> .slider:first-child) { padding-top: 0; }
 .site-footer ul { display: block; }
 .site-footer li { padding: 3px 0; }
 .copyright { margin-top: 24px; font-size: 13px; }
+
+/* 旧サイトの段組みをそのまま残したページ（WPBakery の CSS を併用） */
+.prose .wp-layout img { max-height: none; display: inline-block; margin: 0; }
+.prose .wp-layout h2 { border-left: 0; padding-left: 0; }
+.prose .wp-layout table { display: table; }
+.prose .wp-layout .vc_separator h1, .prose .wp-layout .vc_separator h2, .prose .wp-layout .vc_separator h3, .prose .wp-layout .vc_separator h4 { margin: 0; font-size: 18px; }
+.prose .wp-layout .wpb_text_column :last-child { margin-bottom: 0; }
+.prose .wp-layout iframe { aspect-ratio: auto; }
+.prose .wp-layout .wpb_video_widget iframe { aspect-ratio: 16 / 9; width: 100%; height: auto; }
+.recent-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; margin: 16px 0; }
+.recent-card { display: grid; gap: 8px; color: var(--text); text-decoration: none; font-size: 15px; line-height: 1.5; }
+.recent-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
+.recent-more { grid-column: 1 / -1; text-align: center; }
+.recent-grid[hidden] { display: none; }

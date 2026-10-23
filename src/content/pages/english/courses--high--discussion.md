@@ -3,67 +3,69 @@ title: "ディスカッション英語コース"
 path: "/english/courses/high/discussion/"
 ---
 
-Speaking力強化、ディスカッションクラス1
-
-突飛なファッションをすることなど身近な30のトピックが収録されており、対応した平易なエッセイ文章を読んでそれについて自分の意見をいい、ディスカッションを進めていく。内容がやや若者向きに偏っているので、10, 20代の方にお薦め。教材は全30topic.1時間に１Topicずつ進行。
-
--   [![](/english/wp-content/uploads/2015/01/it-229x300.jpg)](/english/wp-content/uploads/2015/01/it.jpg)
--   [![](/english/wp-content/uploads/2015/01/it-1-1-225x300.jpg)](/english/wp-content/uploads/2015/01/it-1-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/it-1-2-223x300.jpg)](/english/wp-content/uploads/2015/01/it-1-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/it-2-1-229x300.jpg)](/english/wp-content/uploads/2015/01/it-2-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/it-2-2-229x300.jpg)](/english/wp-content/uploads/2015/01/it-2-2.jpg)
-
-Speaking力強化、ディスカッションクラス2
-
-環境問題、国際結婚など30のトピックが収録されており、対応した平易なエッセイ文章を読んでそれについて自分の意見をいい、ディスカッションを進めていく。教材は全30topic.1時間に１Topicずつ進行。
-
--   [![](/english/wp-content/uploads/2015/01/ii-227x300.jpg)](/english/wp-content/uploads/2015/01/ii.jpg)
--   [![](/english/wp-content/uploads/2015/01/ii-1-1-229x300.jpg)](/english/wp-content/uploads/2015/01/ii-1-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/ii-1-2-229x300.jpg)](/english/wp-content/uploads/2015/01/ii-1-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/ii-2-1-229x300.jpg)](/english/wp-content/uploads/2015/01/ii-2-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/ii-2-2-229x300.jpg)](/english/wp-content/uploads/2015/01/ii-2-2.jpg)
-
-Speaking力強化、ディスカッションクラス2
-
-美容整形の是非や生き方論、不倫愛などissuesより抽象的な30のトピックを元に、対応した平易なエッセイ文章を読んでそれについて自分の意見をいい、ディスカッションを進めていく。教材は全30topic.1時間に１Topicずつ進行。
-
--   [![](/english/wp-content/uploads/2015/01/iv-228x300.jpg)](/english/wp-content/uploads/2015/01/iv.jpg)
--   [![](/english/wp-content/uploads/2015/01/iv-1-1-229x300.jpg)](/english/wp-content/uploads/2015/01/iv-1-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/iv-1-2-229x300.jpg)](/english/wp-content/uploads/2015/01/iv-1-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/iv-2-1-233x300.jpg)](/english/wp-content/uploads/2015/01/iv-2-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/iv-2-2-233x300.jpg)](/english/wp-content/uploads/2015/01/iv-2-2.jpg)
-
-Speaking力強化、Preディスカッションクラス１
-
-「家族」「仕事」「友だち」「恋愛」「教育」など，世界中どこでも関心の高い話題について問題を解きながらディスカッションできる素地を養う。全36Unit。1時間で２Unitsずつ進んでいく予定。
-
--   [![](/english/wp-content/uploads/2015/01/plu-229x300.jpg)](/english/wp-content/uploads/2015/01/plu.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu-3-229x300.jpg)](/english/wp-content/uploads/2015/01/plu-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu-6-229x300.jpg)](/english/wp-content/uploads/2015/01/plu-6.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu-7-229x300.jpg)](/english/wp-content/uploads/2015/01/plu-7.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu-8-229x300.jpg)](/english/wp-content/uploads/2015/01/plu-8.jpg)
-
-Speaking力強化、Preディスカッションクラス2
-
-「家族」「仕事」「友だち」「恋愛」「教育」など，世界中どこでも関心の高い話題について問題を解きながらディスカッションできる素地を養う。全36Unit。1時間で２Unitsずつ進んでいく予定。
-
--   [![](/english/wp-content/uploads/2015/01/plu2-227x300.jpg)](/english/wp-content/uploads/2015/01/plu2.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu2-3-227x300.jpg)](/english/wp-content/uploads/2015/01/plu2-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu2-6-227x300.jpg)](/english/wp-content/uploads/2015/01/plu2-6.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu2-7-227x300.jpg)](/english/wp-content/uploads/2015/01/plu2-7.jpg)
--   [![](/english/wp-content/uploads/2015/01/plu2-8-227x300.jpg)](/english/wp-content/uploads/2015/01/plu2-8.jpg)
-
-12時間完成、アメリカンカルチャー、ディスカッションクラス
-
-毎月代表的なアメリカ文化を取り上げ、それについて英文を聞き、ディスカッションしていくクラス。フリーディスカッションだと心もとないけど、教材使うまでしたくないという方向けにお薦めのクラス 。
-
-<iframe loading="lazy" title="Ecom月刊英語：聞き流しリスニング教材1月号（アメリカ編）" width="500" height="281" src="https://www.youtube.com/embed/ZEJadxgNp40?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-
--   [![アメリカ文化ディスカッション教材](/english/wp-content/uploads/2015/01/m_eng-1-1-211x300.jpg)](/english/wp-content/uploads/2015/01/m_eng-1-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/m_eng-1-2-211x300.jpg)](/english/wp-content/uploads/2015/01/m_eng-1-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/m_eng-1-3-211x300.jpg)](/english/wp-content/uploads/2015/01/m_eng-1-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/m_eng-1-4-211x300.jpg)](/english/wp-content/uploads/2015/01/m_eng-1-4.jpg)
-
-[![スカイプ英会話体験レッスン案内](/english/wp-content/uploads/2014/01/icon_trial.gif)](/english/onlinelessons/trial/)
-
-[![スカイプ英会話サポート](/english/wp-content/uploads/2014/01/icon_trial_support.gif)](/english/onlinelessons/support/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">Speaking力強化、ディスカッションクラス1</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>突飛なファッションをすることなど身近な30のトピックが収録されており、対応した平易なエッセイ文章を読んでそれについて自分の意見をいい、ディスカッションを進めていく。内容がやや若者向きに偏っているので、10, 20代の方にお薦め。教材は全30topic.1時間に１Topicずつ進行。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/it.jpg" data-lightbox="lightbox[rel-8341-242206678]"><img loading="lazy" fetchpriority="high" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/it-229x300.jpg" class="attachment-medium" alt="" title="it"></a></li><li><a href="/english/wp-content/uploads/2015/01/it-1-1.jpg" data-lightbox="lightbox[rel-8341-242206678]"><img loading="lazy" decoding="async" width="225" height="300" src="/english/wp-content/uploads/2015/01/it-1-1-225x300.jpg" class="attachment-medium" alt="" title="it-1-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/it-1-2.jpg" data-lightbox="lightbox[rel-8341-242206678]"><img loading="lazy" decoding="async" width="223" height="300" src="/english/wp-content/uploads/2015/01/it-1-2-223x300.jpg" class="attachment-medium" alt="" title="it-1-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/it-2-1.jpg" data-lightbox="lightbox[rel-8341-242206678]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/it-2-1-229x300.jpg" class="attachment-medium" alt="" title="it-2-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/it-2-2.jpg" data-lightbox="lightbox[rel-8341-242206678]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/it-2-2-229x300.jpg" class="attachment-medium" alt="" title="it-2-2"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">Speaking力強化、ディスカッションクラス2</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>環境問題、国際結婚など30のトピックが収録されており、対応した平易なエッセイ文章を読んでそれについて自分の意見をいい、ディスカッションを進めていく。教材は全30topic.1時間に１Topicずつ進行。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/ii.jpg" data-lightbox="lightbox[rel-8341-4292198915]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/wp-content/uploads/2015/01/ii-227x300.jpg" class="attachment-medium" alt="" title="ii"></a></li><li><a href="/english/wp-content/uploads/2015/01/ii-1-1.jpg" data-lightbox="lightbox[rel-8341-4292198915]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/ii-1-1-229x300.jpg" class="attachment-medium" alt="" title="ii-1-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/ii-1-2.jpg" data-lightbox="lightbox[rel-8341-4292198915]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/ii-1-2-229x300.jpg" class="attachment-medium" alt="" title="ii-1-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/ii-2-1.jpg" data-lightbox="lightbox[rel-8341-4292198915]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/ii-2-1-229x300.jpg" class="attachment-medium" alt="" title="ii-2-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/ii-2-2.jpg" data-lightbox="lightbox[rel-8341-4292198915]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/ii-2-2-229x300.jpg" class="attachment-medium" alt="" title="ii-2-2"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">Speaking力強化、ディスカッションクラス2</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>美容整形の是非や生き方論、不倫愛などissuesより抽象的な30のトピックを元に、対応した平易なエッセイ文章を読んでそれについて自分の意見をいい、ディスカッションを進めていく。教材は全30topic.1時間に１Topicずつ進行。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/iv.jpg" data-lightbox="lightbox[rel-8341-2425976929]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/wp-content/uploads/2015/01/iv-228x300.jpg" class="attachment-medium" alt="" title="iv"></a></li><li><a href="/english/wp-content/uploads/2015/01/iv-1-1.jpg" data-lightbox="lightbox[rel-8341-2425976929]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/iv-1-1-229x300.jpg" class="attachment-medium" alt="" title="iv-1-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/iv-1-2.jpg" data-lightbox="lightbox[rel-8341-2425976929]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/iv-1-2-229x300.jpg" class="attachment-medium" alt="" title="iv-1-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/iv-2-1.jpg" data-lightbox="lightbox[rel-8341-2425976929]"><img loading="lazy" decoding="async" width="233" height="300" src="/english/wp-content/uploads/2015/01/iv-2-1-233x300.jpg" class="attachment-medium" alt="" title="iv-2-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/iv-2-2.jpg" data-lightbox="lightbox[rel-8341-2425976929]"><img loading="lazy" decoding="async" width="233" height="300" src="/english/wp-content/uploads/2015/01/iv-2-2-233x300.jpg" class="attachment-medium" alt="" title="iv-2-2"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">Speaking力強化、Preディスカッションクラス１</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>「家族」「仕事」「友だち」「恋愛」「教育」など，世界中どこでも関心の高い話題について問題を解きながらディスカッションできる素地を養う。全36Unit。1時間で２Unitsずつ進んでいく予定。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/plu.jpg" data-lightbox="lightbox[rel-8341-1645427013]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/plu-229x300.jpg" class="attachment-medium" alt="" title="plu"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu-3.jpg" data-lightbox="lightbox[rel-8341-1645427013]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/plu-3-229x300.jpg" class="attachment-medium" alt="" title="plu-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu-6.jpg" data-lightbox="lightbox[rel-8341-1645427013]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/plu-6-229x300.jpg" class="attachment-medium" alt="" title="plu-6"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu-7.jpg" data-lightbox="lightbox[rel-8341-1645427013]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/plu-7-229x300.jpg" class="attachment-medium" alt="" title="plu-7"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu-8.jpg" data-lightbox="lightbox[rel-8341-1645427013]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/wp-content/uploads/2015/01/plu-8-229x300.jpg" class="attachment-medium" alt="" title="plu-8"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">Speaking力強化、Preディスカッションクラス2</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>「家族」「仕事」「友だち」「恋愛」「教育」など，世界中どこでも関心の高い話題について問題を解きながらディスカッションできる素地を養う。全36Unit。1時間で２Unitsずつ進んでいく予定。</p>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/plu2.jpg" data-lightbox="lightbox[rel-8341-1801189937]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/wp-content/uploads/2015/01/plu2-227x300.jpg" class="attachment-medium" alt="" title="plu2"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu2-3.jpg" data-lightbox="lightbox[rel-8341-1801189937]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/wp-content/uploads/2015/01/plu2-3-227x300.jpg" class="attachment-medium" alt="" title="plu2-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu2-6.jpg" data-lightbox="lightbox[rel-8341-1801189937]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/wp-content/uploads/2015/01/plu2-6-227x300.jpg" class="attachment-medium" alt="" title="plu2-6"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu2-7.jpg" data-lightbox="lightbox[rel-8341-1801189937]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/wp-content/uploads/2015/01/plu2-7-227x300.jpg" class="attachment-medium" alt="" title="plu2-7"></a></li><li><a href="/english/wp-content/uploads/2015/01/plu2-8.jpg" data-lightbox="lightbox[rel-8341-1801189937]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/wp-content/uploads/2015/01/plu2-8-227x300.jpg" class="attachment-medium" alt="" title="plu2-8"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">12時間完成、アメリカンカルチャー、ディスカッションクラス</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>毎月代表的なアメリカ文化を取り上げ、それについて英文を聞き、ディスカッションしていくクラス。フリーディスカッションだと心もとないけど、教材使うまでしたくないという方向けにお薦めのクラス 。</p>
+</div>
+</div>
+<div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
+<div class="wpb_wrapper">
+<div class="wpb_video_wrapper"><iframe loading="lazy" title="Ecom月刊英語：聞き流しリスニング教材1月号（アメリカ編）" width="500" height="281" src="https://www.youtube.com/embed/ZEJadxgNp40?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</div>
+</div>
+<div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/m_eng-1-1.jpg" data-lightbox="lightbox[rel-8341-1573306550]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/m_eng-1-1-211x300.jpg" class="attachment-medium" alt="アメリカ文化ディスカッション教材" title="アメリカ文化ディスカッション教材"></a></li><li><a href="/english/wp-content/uploads/2015/01/m_eng-1-2.jpg" data-lightbox="lightbox[rel-8341-1573306550]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/m_eng-1-2-211x300.jpg" class="attachment-medium" alt="" title="m_eng-1-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/m_eng-1-3.jpg" data-lightbox="lightbox[rel-8341-1573306550]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/m_eng-1-3-211x300.jpg" class="attachment-medium" alt="" title="m_eng-1-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/m_eng-1-4.jpg" data-lightbox="lightbox[rel-8341-1573306550]"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/m_eng-1-4-211x300.jpg" class="attachment-medium" alt="" title="m_eng-1-4"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話サポート" title="スカイプ英会話サポート"></a>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
+</div>
+</div>
