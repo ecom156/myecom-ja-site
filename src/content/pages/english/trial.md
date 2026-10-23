@@ -135,7 +135,7 @@ forms:
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md vc_toggle_active"><div class="vc_toggle_title"><h4>Q：全くの初心者ですが、大丈夫ですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>A:はい。日本語上級レベルで分かるバイリンガル講師が複数在籍していますので、全く英語初心者の方でも安心です。また技術サポートもお電話などで随時行っていますのでそちらも安心です。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>Q:体験レッスンは最短でいつ受講できますか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>A:お申込みのあと、そのままカードでお支払いいただけます。お支払いを確認したら会員サイトのご案内をお送りしますので、ログインしてご予約ください（ご予約はレッスン開始の12時間前まで）。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>Q:体験レッスンの講師や時間は選べますか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>はい。会員サイトにログインしてご自身で全ての講師の中からお好きな講師をお選び頂けます。授業は24時間提供していますので深夜、早朝いつでもレッスン可能です。</p>
-</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>Q:体験レッスン代金はどのように払うのですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>A:お申込みフォームの送信後に表示されるご案内（自動返信メールにも記載）から、クレジットカード（Square）でお支払いいただけます。銀行振込をご希望の方はお知らせください。（海外の方にはPayPalも対応しております。）</p>
+</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>Q:体験レッスン代金はどのように払うのですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>A:お申込みフォームを送信すると、そのままSquareのお支払い画面に移り、クレジットカードでお支払いいただけます。事前相談を希望された方は、相談のあとのお支払いで結構です。銀行振込をご希望の方はお知らせください。（海外の方にはPayPalも対応しております。）</p>
 </div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_left">
 <figure class="wpb_wrapper vc_figure">
@@ -154,7 +154,7 @@ forms:
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>送信すると、体験レッスン代2,500円のお支払い（クレジットカード）のご案内が表示されます。同じ内容をメールでもお送りします。<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-8853" src="/english/wp-content/uploads/2014/12/mail.gif" alt="mail" width="56" height="25"><br>
+<p>送信すると、Squareのお支払い画面（2,500円・クレジットカード）に移ります。事前相談を希望された方は、相談のあとのお支払いで結構です。決済のリンクをメールでお送りすることはありません。<img loading="lazy" decoding="async" class="aligncenter size-full wp-image-8853" src="/english/wp-content/uploads/2014/12/mail.gif" alt="mail" width="56" height="25"><br>
 ＊もし見つからない場合、迷惑メールフォルダに分けられていないかもご確認ください。</p>
 </div>
 </div>
