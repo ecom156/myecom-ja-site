@@ -1,0 +1,25 @@
+# 予約投稿の公開。毎日 10:05（日本時間）に、公開日時を過ぎた記事があれば main にコミットしてサイトを作り直す
+name: scheduled-publish
+on:
+  schedule:
+    - cron: '5 1 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/due-posts.mjs
+      - run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/published-at.txt
+            git commit -m "予約投稿を公開"
+            git push
+          fi
