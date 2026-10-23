@@ -48,13 +48,21 @@ export function formatDate(d: Date) {
   return `${d.getUTCFullYear()}年${d.getUTCMonth() + 1}月${d.getUTCDate()}日`;
 }
 
+// 下書きと、日時が未来の記事（予約投稿）は出さない。予約投稿は .github/workflows/scheduled-publish.yml が公開日時の後にサイトを作り直して公開する
 export function sortPosts(posts: CollectionEntry<'posts'>[]) {
-  return posts.filter((p) => !p.data.draft).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+  const now = Date.now();
+  return posts.filter((p) => !p.data.draft && p.data.date.valueOf() <= now).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 }
 
 // カテゴリ名 → 一覧ページ。子カテゴリの記事は親カテゴリの一覧にも出す
+// categories.json に無い新しいカテゴリは <サイト>/blog/category/<カテゴリ名>/ に一覧を作る
 export function categoryPath(siteKey: string, name: string) {
-  return categories[siteKey]?.find((c) => c.name === name)?.path;
+  return categories[siteKey]?.find((c) => c.name === name)?.path ?? `${sites[siteKey].base}/blog/category/${name}/`;
+}
+export function allCategories(siteKey: string, posts: CollectionEntry<'posts'>[]): Category[] {
+  const known = categories[siteKey] ?? [];
+  const extra = [...new Set(posts.flatMap((p) => p.data.categories))].filter((n) => !known.some((c) => c.name === n));
+  return [...known, ...extra.map((name) => ({ name, path: categoryPath(siteKey, name) }))];
 }
 export function inCategory(siteKey: string, post: CollectionEntry<'posts'>, name: string): boolean {
   const cats = categories[siteKey] ?? [];

@@ -5,7 +5,7 @@ import PostList from '../components/PostList.astro';
 import Slider from '../components/Slider.astro';
 import Form from '../components/Form.astro';
 import RecentGrid from '../components/RecentGrid.astro';
-import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, inCategory, chunk, param, type Site } from '../lib';
+import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, allCategories, inCategory, chunk, param, type Site } from '../lib';
 
 type Props =
   | { kind: 'page'; page: CollectionEntry<'pages'>; list?: CollectionEntry<'posts'>[]; pageNo?: number; pages?: number }
@@ -45,7 +45,7 @@ export async function getStaticPaths() {
         chunks.forEach((list, i) => add(i === 0 ? base : `${base}page/${i + 1}/`, { kind: 'list', site, title: site.frontIsPosts ? site.name : 'ブログ', base, list, pageNo: i + 1, pages: chunks.length }));
       }
     }
-    for (const cat of categories[site.key] ?? []) {
+    for (const cat of allCategories(site.key, all)) {
       const list = all.filter((p) => inCategory(site.key, p, cat.name));
       if (!list.length) continue;
       const chunks = chunk(list);
@@ -67,6 +67,7 @@ const site = props.kind === 'list' ? props.site : siteOf(entry!);
 const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
+const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
 {props.kind === 'page' && (
   <Base site={site} title={props.page.data.front ? site.name : props.page.data.title}>
@@ -99,7 +100,7 @@ const home = `${site.base}/`;
       </article>
       <aside class="sidebar">
         <h2>カテゴリー</h2>
-        <ul>{(categories[site.key] ?? []).filter((c) => !c.parent).map((c) => <li><a href={c.path}>{c.name}</a></li>)}</ul>
+        <ul>{allCategories(site.key, sitePosts).filter((c) => !c.parent).map((c) => <li><a href={c.path}>{c.name}</a></li>)}</ul>
       </aside>
     </div>
   </Base>

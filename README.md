@@ -37,6 +37,12 @@ image: "/wp-content/uploads/2026/11/example.jpg"
 本文
 ```
 
+### 予約投稿
+
+`date` に未来の日時（例 `2026-11-11T10:00:00+09:00`）を書くと、その日時までは公開されない。GitHub Actions（`.github/workflows/scheduled-publish.yml`）が毎日 10:05（日本時間）に確認し、公開日時を過ぎた記事があれば `public/published-at.txt` を更新して main にコミットする。これで Cloudflare がサイトを作り直し、記事が公開される。10:05 より後の時刻を指定した記事は翌日 10:05 に公開される。
+
+カテゴリ名が `src/data/categories.json` に無い場合は、`<サイト>/blog/category/<カテゴリ名>/` に一覧ページが自動でできる。
+
 ## フォームの設定（Cloudflare の「変数とシークレット」）
 
 - `TURNSTILE_SECRET_KEY` … Turnstile のシークレットキー
