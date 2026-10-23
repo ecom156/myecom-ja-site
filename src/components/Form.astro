@@ -74,6 +74,10 @@ const inputType = (t: string) => (t === 'email' ? 'email' : t === 'phone' ? 'tel
   const box = document.querySelector(`[data-form-for="${formKey}"]`);
   const marker = document.querySelector(`.prose [data-form="${formKey}"]`);
   if (box && marker) marker.replaceWith(box);
+  // 送信を Google アナリティクスに記録する（GA の管理画面で generate_lead をキーイベントにすると申込み数として数えられる）
+  box?.querySelector('form')?.addEventListener('submit', () => {
+    if (typeof gtag === 'function') gtag('event', 'generate_lead', { form_id: formKey, page_path: location.pathname, transport_type: 'beacon' });
+  });
   const q = new URLSearchParams(location.search);
   if (box && q.get('form') === formKey) {
     if (q.has('sent')) { box.querySelector('.form-sent').hidden = false; box.querySelector('form').hidden = true; }
