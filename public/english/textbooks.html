@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英語学習コース一覧</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        /* --- リンク設定（画像の枠線を消すなど） --- */
+        a { text-decoration: none; color: inherit; display: block; }
+        
+        /* リンクがある要素のホバー時の挙動 */
+        a:hover { opacity: 0.8; }
+
+        /* --- コースグリッド（上部） --- */
+        .course-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px 20px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        /* コースアイテムの設定 */
+        .course-item {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.2s ease; /* アニメーション設定 */
+        }
+
+        /* リンクがあるコースアイテムのホバー効果 */
+        .course-item:has(a):hover {
+            transform: translateY(-5px); /* 少し上に浮く */
+            cursor: pointer;
+        }
+
+        .course-item i {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s ease;
+        }
+        
+        /* アイコンカラー */
+        .icon-daily { color: #FF9F43; }
+        .icon-business { color: #54a0ff; }
+        .icon-exam { color: #ee5253; }
+        .icon-news { color: #1dd1a1; }
+        .icon-travel { color: #0abde3; }
+        .icon-grammar { color: #5f27cd; }
+        .icon-pronunciation { color: #ff6b6b; }
+        .icon-discussion { color: #341f97; }
+        .icon-smalltalk { color: #feca57; }
+        .icon-vocabulary { color: #10ac84; }
+        .icon-photo { color: #ff9ff3; }
+        .icon-literature { color: #8395a7; }
+        .icon-highschool { color: #2e86de; }
+        .icon-elementary { color: #ffb142; }
+        .icon-preschool { color: #00d2d3; }
+
+        .course-item h3 {
+            font-size: 1.1rem;
+            margin: 0 0 8px 0;
+            font-weight: bold;
+            color: #444;
+        }
+
+        /* リンク付きタイトルの色変更（青くする） */
+        .course-item a {
+            color: #007bff !important;
+        }
+        
+        /* リンクの中にアイコンを含めるための調整 */
+        .course-link-wrapper {
+            display: contents; /* ラッパー自体はレイアウトに影響させない */
+            color: inherit;
+        }
+
+        .sub-text {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        /* --- 初級・中級・上級へのリンク --- */
+        .level-links {
+            display: flex; justify-content: center; flex-wrap: wrap; gap: 8px;
+            margin-top: 6px;
+        }
+        .course-item .level-links a {
+            display: inline-block;
+            padding: 4px 14px; border-radius: 999px;
+            font-size: 0.85rem; font-weight: 600;
+            border: 1px solid currentColor;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+        .course-item .level-daily a { color: #e8811f !important; }
+        .course-item .level-business a { color: #2f7fe0 !important; }
+        .course-item .level-daily a:hover { background: #FF9F43; border-color: #FF9F43; color: #fff !important; opacity: 1; }
+        .course-item .level-business a:hover { background: #54a0ff; border-color: #54a0ff; color: #fff !important; opacity: 1; }
+
+        /* --- 推奨教材リスト（下部） --- */
+        .book-section {
+            border-top: 2px solid #f1f5f9;
+            padding-top: 40px;
+            margin-top: 40px;
+        }
+
+        .book-section h2 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        /* 行のデザイン */
+        .book-row {
+            border-bottom: 1px solid #eee;
+            padding: 30px 0;
+        }
+
+        /* カテゴリ名（中央揃え） */
+        .book-category {
+            font-weight: bold;
+            font-size: 1.2rem;
+            color: #444;
+            margin-bottom: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .book-category::before {
+            content: '';
+            display: inline-block;
+            width: 6px;
+            height: 24px;
+            background-color: #ddd;
+            margin-right: 10px;
+            border-radius: 3px;
+        }
+        
+        /* カテゴリごとの色分け */
+        .cat-business::before { background-color: #54a0ff; }
+        .cat-exam::before { background-color: #ee5253; }
+        .cat-daily::before { background-color: #FF9F43; }
+        .cat-elementary::before { background-color: #ffb142; }
+        .cat-highschool::before { background-color: #2e86de; }
+        .cat-discussion::before { background-color: #341f97; }
+        .cat-vocabulary::before { background-color: #10ac84; }
+        .cat-pronunciation::before { background-color: #ff6b6b; }
+        .cat-other::before { background-color: #8395a7; }
+
+        /* 本の一覧エリア（横並び） */
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        /* 個別の本アイテム */
+        .book-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 140px;
+        }
+        
+        .book-thumb {
+            width: 100%;
+            aspect-ratio: 3 / 4; 
+            object-fit: contain; 
+            background-color: #f9f9f9; 
+            border: 1px solid #eee;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+            margin-bottom: 10px;
+        }
+        
+        .book-item:hover .book-thumb {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.1);
+        }
+
+        .book-title {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            text-align: center;
+            color: #007bff;
+            font-weight: 600;
+        }
+
+        /* レスポンシブ対応 */
+        @media (max-width: 800px) {
+            .course-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .course-grid { grid-template-columns: 1fr; }
+            .book-item { width: 120px; } 
+        }
+    </style>
+</head>
+<body>
+
+<section class="mb-16" style="margin-bottom: 40px;">
+    <div class="banner-container" style="background:white; padding: 20px; border-radius: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); display:flex; justify-content:center;">
+        <svg viewBox="0 0 800 240" style="width:100%; max-width:800px; height:auto;" xmlns="http://www.w3.org/2000/svg">
+            <rect width="800" height="240" rx="20" fill="#F8FAFC" />
+            <circle cx="750" cy="40" r="80" fill="#EEF2FF" />
+            <circle cx="50" cy="200" r="60" fill="#F0FDF4" />
+            
+            <g transform="translate(60, 60)">
+                <rect x="0" y="40" width="20" height="100" rx="2" fill="#6366F1" />
+                <rect x="25" y="20" width="22" height="120" rx="2" fill="#4F46E5" />
+                <rect x="52" y="50" width="18" height="90" rx="2" fill="#818CF8" />
+                <rect x="75" y="30" width="20" height="110" rx="2" fill="#4338CA" />
+                <rect x="25" y="35" width="22" height="4" fill="white" opacity="0.3" />
+                <rect x="25" y="125" width="22" height="4" fill="white" opacity="0.3" />
+            </g>
+
+            <g transform="translate(180, 105)">
+                <text x="0" y="0" font-family="sans-serif" font-weight="800" font-size="52" fill="#1E1B4B">ECOM English</text>
+                <text x="0" y="60" font-family="sans-serif" font-weight="600" font-size="38" fill="#4F46E5">Textbook Library</text>
+                <rect x="0" y="85" width="400" height="4" rx="2" fill="#C7D2FE" />
+            </g>
+
+            <g transform="translate(620, 70) scale(1.2)">
+                <path d="M10 50 Q30 10 50 50 T90 50" stroke="#E0E7FF" stroke-width="8" fill="none" opacity="0.5"/>
+                <circle cx="50" cy="50" r="40" stroke="#6366F1" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+                <rect x="35" y="35" width="30" height="30" rx="4" fill="#4F46E5" />
+                <rect x="42" y="42" width="16" height="3" fill="white" />
+                <rect x="42" y="48.5" width="12" height="3" fill="white" />
+                <rect x="42" y="55" width="16" height="3" fill="white" />
+            </g>
+        </svg>
+    </div>
+</section>
+
+<div class="container">
+    
+    <div class="course-grid">
+        
+        <div class="course-item">
+            <a href="conversation.html" class="course-link-wrapper">
+                <i class="fa-solid fa-comments icon-daily"></i>
+                <h3>日常英会話</h3>
+            </a>
+            <div class="level-links level-daily">
+                <a href="conversation.html#level-beginner">初級</a>
+                <a href="conversation.html#level-intermediate">中級</a>
+                <a href="conversation.html#level-advanced">上級</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <a href="business.html" class="course-link-wrapper">
+                <i class="fa-solid fa-briefcase icon-business"></i>
+                <h3>ビジネス英会話</h3>
+            </a>
+            <div class="level-links level-business">
+                <a href="business.html#level-beginner">初級</a>
+                <a href="business.html#level-intermediate">中級</a>
+                <a href="business.html#level-advanced">上級</a>
+            </div>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-pen-to-square icon-exam"></i>
+            <h3>英語試験対策</h3>
+            <p style="font-size:0.9rem;">英検　TOEFL　<a href="https://ieltsliz.com/" target="_blank" style="display:inline; text-decoration:underline; color:#007bff;">IELTS</a> TOEIC</p>
+        </div>
+
+        <div class="course-item">
+            <a href="https://ja.myecom.net/english/news/" target="_new" class="course-link-wrapper">
+                <i class="fa-solid fa-newspaper icon-news"></i>
+                <h3>ECOM Weekly News</h3>
+            </a>
+        </div>
+
+        <div class="course-item">
+            <a href="travel.html" target="_new" class="course-link-wrapper">
+                <i class="fa-solid fa-plane icon-travel"></i>
+                <h3>トラベル英会話</h3>
+            </a>
+        </div>
+
+        <div class="course-item">
+            <a href="grammar.html" target="_new" class="course-link-wrapper">
+                <i class="fa-solid fa-book icon-grammar"></i>
+                <h3>文法</h3>
+            </a>
+            <div class="sub-text">初級、中級</div>
+        </div>
+
+        <div class="course-item">
+            <a href="pronunciation.html" target="_new" class="course-link-wrapper">
+                <i class="fa-solid fa-microphone icon-pronunciation"></i>
+                <h3>発音</h3>
+            </a>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-users icon-discussion"></i>
+            <h3>ディスカッション</h3>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-face-smile icon-smalltalk"></i>
+            <h3>スモールトーク</h3>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-language icon-vocabulary"></i>
+            <h3>語彙強化</h3>
+        </div>
+
+        <div class="course-item">
+            <a href="description.html" class="course-link-wrapper">
+                <i class="fa-solid fa-image icon-photo"></i>
+                <h3>写真描写</h3>
+            </a>
+            <div class="sub-text">人物　モノ　風景　その他　</div>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-book-open icon-literature"></i>
+            <h3>文学、物語から学ぶ</h3>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-user-graduate icon-highschool"></i>
+            <h3>中高生向け</h3>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-school icon-elementary"></i>
+            <h3>小学生向け</h3>
+        </div>
+
+        <div class="course-item">
+            <i class="fa-solid fa-child icon-preschool"></i>
+            <h3>未就学児向け</h3>
+        </div>
+
+    </div>
+
+    <div class="book-section">
+        <h2>推奨市販教材リスト</h2>
+
+        <div class="book-row">
+            <div class="book-category cat-business">ビジネス英会話</div>
+            <div class="book-list">
+                <div class="book-item">
+                    <a href="#" target="_blank">
+                        <img src="images/ml2.png" alt="Market leader 2" class="book-thumb">
+                        <div class="book-title">Market leader 2</div>
+                    </a>
+                </div>
+                <div class="book-item">
+                    <a href="#" target="_blank">
+                        <img src="images/ml3.png" alt="Market leader 3" class="book-thumb">
+                        <div class="book-title">Market leader 3</div>
+                    </a>
+                </div>
+                <div class="book-item">
+                    <a href="#" target="_blank">
+                        <img src="images/ml4.png" alt="Market leader 4" class="book-thumb">
+                        <div class="book-title">Market leader 4</div>
+                    </a>
+                </div>
+                <div class="book-item">
+                    <a href="#" target="_blank">
+                        <img src="images/ml5.png" alt="Market leader 5" class="book-thumb">
+                        <div class="book-title">Market leader 5</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-exam">英語試験対策</div>
+            <div class="book-list">
+                <div class="book-item">
+                    <a href="#" target="_blank">
+                        <img src="images/ml3.png" alt="公式問題集" class="book-thumb">
+                        <div class="book-title">公式問題集</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-daily">日常英会話</div>
+            <div class="book-list">
+                <div style="color:#aaa; font-size:0.9rem;">準備中...</div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-elementary">小学生向け</div>
+            <div class="book-list">
+                <div style="color:#aaa; font-size:0.9rem;">準備中...</div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-highschool">中高生向け</div>
+            <div class="book-list">
+                <div style="color:#aaa; font-size:0.9rem;">準備中...</div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-discussion">ディスカッション</div>
+            <div class="book-list">
+                <div style="color:#aaa; font-size:0.9rem;">準備中...</div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-vocabulary">語彙フレーズ</div>
+            <div class="book-list">
+                <div style="color:#aaa; font-size:0.9rem;">準備中...</div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-pronunciation">発音</div>
+            <div class="book-list">
+                <div style="color:#aaa; font-size:0.9rem;">準備中...</div>
+            </div>
+        </div>
+
+        <div class="book-row">
+            <div class="book-category cat-other">分野別</div>
+            <div class="book-list">
+                <div style="color:#aaa; font-size:0.9rem;">準備中...</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

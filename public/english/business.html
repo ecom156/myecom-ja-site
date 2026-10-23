@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOM ビジネス英語 - Business English</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        /* =======================================================
+           カラー設定（ECOMロゴの青とオレンジが基調）
+           ======================================================= */
+        :root {
+            --navy: #14305a;
+            --blue: #1f6fc5;
+            --orange: #f4802b;
+            --bg: #f7f8fc;
+            --card: #ffffff;
+            --line: #e6eaf2;
+            --text-main: #1d2840;
+            --text-sub: #66728a;
+            --text-mute: #a3acbd;
+
+            /* 初級：オレンジ */
+            --beginner: #f4802b;
+            --beginner-2: #ffb347;
+            --beginner-soft: #fff4ea;
+            /* 中級：ティール */
+            --intermediate: #10a58f;
+            --intermediate-2: #46d3b4;
+            --intermediate-soft: #e8f8f4;
+            /* 上級：ブルー */
+            --advanced: #1f6fc5;
+            --advanced-2: #5aa8f0;
+            --advanced-soft: #eaf3fd;
+
+            --radius-lg: 28px;
+            --radius-md: 18px;
+            --shadow-sm: 0 1px 2px rgba(20,48,90,.04), 0 2px 8px rgba(20,48,90,.04);
+            --shadow-md: 0 2px 4px rgba(20,48,90,.04), 0 12px 32px rgba(20,48,90,.08);
+        }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            background-color: var(--bg);
+            background-image:
+                radial-gradient(900px 500px at 100% -10%, rgba(244,128,43,.10), transparent 60%),
+                radial-gradient(800px 500px at -10% 20%, rgba(31,111,197,.09), transparent 60%);
+            background-repeat: no-repeat;
+            color: var(--text-main);
+            margin: 0; padding: 0;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        .en { font-family: "Montserrat", "Noto Sans JP", sans-serif; }
+        .container { max-width: 1080px; margin: 0 auto; padding: 8px 24px 40px; }
+
+        /* --- 戻るリンク --- */
+        .btn-back {
+            display: inline-flex; align-items: center; gap: 8px;
+            margin: 18px 0 18px; padding: 6px 14px 6px 10px;
+            color: var(--text-sub); text-decoration: none; font-size: .85rem;
+            border-radius: 999px; transition: background .2s, color .2s;
+        }
+        .btn-back:hover { background: #fff; color: var(--navy); box-shadow: var(--shadow-sm); }
+        .btn-back i { transition: transform .2s; }
+        .btn-back:hover i { transform: translateX(-3px); }
+
+        /* --- メインビジュアル --- */
+        .hero {
+            position: relative;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            background: #e9eef6;
+            animation: rise .9s cubic-bezier(.2,.7,.2,1) both;
+        }
+        .hero img { display: block; width: 100%; height: auto; }
+        /* 下端にブランドカラーの細いライン */
+        .hero::after {
+            content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 5px;
+            background: linear-gradient(90deg, var(--blue) 0%, var(--blue) 50%, var(--orange) 50%, var(--orange) 100%);
+        }
+
+        /* --- 紹介文 --- */
+        .intro { text-align: center; max-width: 720px; margin: 52px auto 36px; animation: rise .9s .15s cubic-bezier(.2,.7,.2,1) both; }
+        .eyebrow {
+            display: inline-flex; align-items: center; gap: 8px;
+            font-size: .72rem; font-weight: 700; letter-spacing: .18em; color: var(--orange);
+        }
+        .eyebrow::before, .eyebrow::after { content: ""; width: 22px; height: 2px; border-radius: 2px; background: currentColor; opacity: .5; }
+        .intro h2 { font-size: 2rem; font-weight: 800; color: var(--navy); margin: 10px 0 8px; letter-spacing: -.01em; line-height: 1.3; }
+        .intro h2 .accent { color: var(--orange); }
+        .intro p { color: var(--text-sub); margin: 0; font-size: .95rem; }
+        .intro-points { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
+        .intro-points span {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 8px 16px; background: #fff; border: 1px solid var(--line);
+            border-radius: 999px; font-size: .82rem; font-weight: 500; color: var(--text-main);
+            box-shadow: var(--shadow-sm);
+        }
+        .intro-points i { color: var(--blue); }
+
+        /* --- レベル選択（ページ内ジャンプ） --- */
+        .level-nav {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+            margin: 0 0 56px; animation: rise .9s .3s cubic-bezier(.2,.7,.2,1) both;
+        }
+        .level-card {
+            position: relative; overflow: hidden;
+            display: flex; align-items: center; gap: 14px;
+            padding: 18px 20px; background: #fff; border-radius: var(--radius-md);
+            border: 1px solid var(--line); box-shadow: var(--shadow-sm);
+            text-decoration: none; color: var(--text-main);
+            transition: transform .25s, box-shadow .25s, border-color .25s;
+        }
+        .level-card::before {
+            content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px;
+            background: linear-gradient(180deg, var(--c2), var(--c1));
+        }
+        .level-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: transparent; }
+        .level-card .lv-icon {
+            flex-shrink: 0; width: 46px; height: 46px; border-radius: 14px;
+            display: grid; place-items: center; color: #fff; font-size: 1.15rem;
+            background: linear-gradient(135deg, var(--c2), var(--c1));
+            box-shadow: 0 6px 14px -4px var(--c1);
+        }
+        .level-card .lv-text { flex: 1; min-width: 0; }
+        .level-card .lv-label { display: block; font-size: .68rem; font-weight: 700; letter-spacing: .14em; color: var(--c1); }
+        .level-card .lv-name { display: block; font-weight: 700; font-size: 1.02rem; line-height: 1.4; }
+        .level-card .lv-count { display: block; font-size: .78rem; color: var(--text-sub); }
+        .level-card .lv-arrow { color: var(--text-mute); transition: transform .25s, color .25s; }
+        .level-card:hover .lv-arrow { transform: translateY(3px); color: var(--c1); }
+
+        .theme-beginner { --c1: var(--beginner); --c2: var(--beginner-2); --soft: var(--beginner-soft); }
+        .theme-intermediate { --c1: var(--intermediate); --c2: var(--intermediate-2); --soft: var(--intermediate-soft); }
+        .theme-advanced { --c1: var(--advanced); --c2: var(--advanced-2); --soft: var(--advanced-soft); }
+
+        /* --- カテゴリセクション --- */
+        .category-section {
+            position: relative;
+            background: var(--card); border-radius: var(--radius-lg);
+            padding: 36px 36px 40px; margin-bottom: 40px;
+            border: 1px solid var(--line); box-shadow: var(--shadow-sm);
+            scroll-margin-top: 20px;
+        }
+        .category-section::before {
+            content: ""; position: absolute; left: 36px; right: 36px; top: -1px; height: 4px;
+            border-radius: 0 0 4px 4px;
+            background: linear-gradient(90deg, var(--c1), var(--c2));
+        }
+        .category-header {
+            display: flex; align-items: center; flex-wrap: wrap; gap: 14px 18px;
+            margin-bottom: 22px;
+        }
+        .category-icon {
+            flex-shrink: 0; width: 56px; height: 56px; border-radius: 18px;
+            display: grid; place-items: center; font-size: 1.4rem; color: #fff;
+            background: linear-gradient(135deg, var(--c2), var(--c1));
+            box-shadow: 0 10px 20px -8px var(--c1);
+        }
+        .category-heading { flex: 1; min-width: 200px; }
+        .category-level { display: block; font-size: .7rem; font-weight: 700; letter-spacing: .16em; color: var(--c1); }
+        .category-title { font-size: 1.45rem; font-weight: 700; margin: 0; color: var(--navy); line-height: 1.4; }
+
+        .header-side { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+        .header-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+        .btn-cover {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: .8rem; font-weight: 500; color: var(--text-main);
+            background: #fff; border: 1px solid var(--line);
+            padding: 6px 14px; border-radius: 999px;
+            text-decoration: none; transition: all .2s;
+        }
+        .btn-cover i { color: var(--c1); }
+        .btn-cover:hover { border-color: var(--c1); background: var(--soft); transform: translateY(-1px); }
+        .btn-cover.disabled { display: none; }
+
+        .category-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            font-size: .78rem; font-weight: 700; padding: 6px 14px;
+            border-radius: 999px; color: var(--c1); background: var(--soft);
+            white-space: nowrap;
+        }
+
+        /* 凡例 */
+        .unit-legend {
+            display: flex; flex-wrap: wrap; gap: 6px 20px;
+            margin: 0 0 20px; padding: 10px 16px;
+            background: #f9fafc; border-radius: 12px;
+            font-size: .82rem; color: var(--text-sub);
+        }
+        .unit-legend i { margin-right: 6px; color: var(--c1); }
+
+        /* --- Unitカード --- */
+        .unit-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+        .unit-item {
+            position: relative;
+            display: flex; flex-direction: column; gap: 12px;
+            padding: 20px 22px;
+            background: #fff; border: 1px solid var(--line);
+            border-radius: var(--radius-md); text-decoration: none; color: var(--text-main);
+            transition: transform .25s cubic-bezier(.2,.7,.2,1), box-shadow .25s, border-color .25s;
+        }
+        .unit-item:not(.disabled):hover {
+            transform: translateY(-4px);
+            border-color: color-mix(in srgb, var(--c1) 45%, white);
+            box-shadow: 0 14px 30px -12px color-mix(in srgb, var(--c1) 45%, transparent);
+        }
+        .unit-head { display: flex; align-items: center; gap: 14px; }
+        .unit-num {
+            flex-shrink: 0;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            width: 56px; height: 56px; border-radius: 16px;
+            background: var(--soft); color: var(--c1);
+            line-height: 1.05; transition: all .25s;
+        }
+        .unit-num small { font-family: "Montserrat", sans-serif; font-size: .55rem; font-weight: 700; letter-spacing: .12em; opacity: .75; }
+        .unit-num span { font-family: "Montserrat", sans-serif; font-size: 1.35rem; font-weight: 800; }
+        .unit-num.is-text span { font-size: .6rem; font-weight: 700; letter-spacing: .04em; }
+        .unit-item:not(.disabled):hover .unit-num {
+            background: linear-gradient(135deg, var(--c2), var(--c1)); color: #fff;
+            box-shadow: 0 6px 14px -6px var(--c1);
+        }
+        .unit-title {
+            flex: 1; min-width: 0;
+            font-size: 1.02rem; font-weight: 700; line-height: 1.5;
+            display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+            overflow: hidden; word-break: break-word;
+        }
+        .unit-topic {
+            flex-shrink: 0; align-self: flex-start;
+            width: 34px; height: 34px; border-radius: 50%;
+            display: grid; place-items: center;
+            font-size: .9rem; color: var(--c1); background: var(--soft);
+            transition: transform .3s, background .25s, color .25s;
+        }
+        .unit-item:not(.disabled):hover .unit-topic { transform: rotate(-8deg) scale(1.08); background: var(--c1); color: #fff; }
+        .unit-desc {
+            display: flex; gap: 8px; align-items: flex-start;
+            padding-top: 12px; border-top: 1px solid #f0f2f7;
+            font-size: .9rem; line-height: 1.7; color: var(--text-sub);
+        }
+        .unit-desc i { margin-top: 6px; font-size: .8rem; flex-shrink: 0; color: var(--c1); }
+
+        /* ファイル未登録のUnit */
+        .unit-item.disabled {
+            background: #fafbfd; color: var(--text-mute); pointer-events: none;
+            border-style: dashed;
+        }
+        .unit-item.disabled .unit-num { background: #f0f2f6; color: var(--text-mute); }
+        .unit-item.disabled .unit-topic { background: #f0f2f6; color: var(--text-mute); }
+        .unit-item.disabled .unit-desc, .unit-item.disabled .unit-desc i { color: var(--text-mute); }
+
+        /* レベルのリード文 */
+        .category-lead { margin: -6px 0 18px; font-size: .92rem; line-height: 1.8; color: var(--text-sub); }
+        @media (max-width: 600px) { .pc-only { display: none; } }
+
+        /* スクロールで順にふわっと表示 */
+        .reveal { opacity: 0; transform: translateY(14px); }
+        .reveal.is-visible { opacity: 1; transform: none; transition: opacity .6s ease, transform .6s cubic-bezier(.2,.7,.2,1); }
+
+        /* --- フッター --- */
+        .page-footer { text-align: center; padding: 20px 0 10px; font-size: .75rem; color: var(--text-mute); letter-spacing: .08em; }
+        .page-footer b { font-family: "Montserrat", sans-serif; font-weight: 800; color: var(--blue); }
+        .page-footer b span { color: var(--orange); }
+
+        /* --- ページ上部へ戻るボタン --- */
+        .to-top {
+            position: fixed; right: 20px; bottom: 20px; z-index: 10;
+            width: 46px; height: 46px; border-radius: 50%; border: none; cursor: pointer;
+            display: grid; place-items: center; font-size: 1rem; color: #fff;
+            background: var(--navy); box-shadow: var(--shadow-md);
+            opacity: 0; transform: translateY(10px); pointer-events: none;
+            transition: opacity .3s, transform .3s, background .2s;
+        }
+        .to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+        .to-top:hover { background: var(--orange); }
+
+        @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation: none !important; transition: none !important; }
+            .reveal { opacity: 1; transform: none; }
+            html { scroll-behavior: auto; }
+        }
+
+        @media (max-width: 820px) {
+            .level-nav { grid-template-columns: 1fr; gap: 10px; margin-bottom: 40px; }
+            .level-card { padding: 14px 16px; }
+        }
+        @media (max-width: 600px) {
+            .container { padding: 4px 16px 32px; }
+            .hero { border-radius: 18px; }
+            .intro { margin: 36px auto 28px; }
+            .intro h2 { font-size: 1.5rem; }
+            .intro-points span { font-size: .78rem; padding: 7px 13px; }
+            .category-section { padding: 26px 16px 22px; border-radius: 22px; }
+            .category-section::before { left: 20px; right: 20px; }
+            .category-icon { width: 48px; height: 48px; border-radius: 15px; font-size: 1.2rem; }
+            .category-title { font-size: 1.2rem; }
+            .header-side { width: 100%; }
+            .unit-grid { grid-template-columns: 1fr; gap: 10px; }
+            .unit-item { padding: 14px 14px; }
+            .unit-num { width: 46px; height: 46px; }
+            .unit-title { -webkit-line-clamp: 3; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="textbooks" class="btn-back"><i class="fa-solid fa-arrow-left"></i>コース一覧に戻る</a>
+
+    <!-- メインビジュアル（画像はこのHTMLと同じフォルダに置きます） -->
+    <div class="hero">
+        <img src="img-ecombusinessEnglish.jpg" alt="ECOM ビジネス英語 Business English" width="2000" height="1116">
+    </div>
+
+    <div class="intro">
+        <span class="eyebrow en">BUSINESS ENGLISH COURSE</span>
+        <h2>仕事で<span class="accent">使える</span>英語を、<br>ひとつずつ確実に。</h2>
+        <p>ビジネスのシチュエーションで、英語の基礎をしっかり固める。<br class="pc-only">文法を押さえながら、仕事で必要な語彙と「話す・聞く」力をレベル別に伸ばします。</p>
+        <div class="intro-points">
+            <span><i class="fa-solid fa-layer-group"></i>3つのレベル</span>
+            <span><i class="fa-solid fa-building"></i>ビジネス場面で学ぶ</span>
+            <span><i class="fa-solid fa-bullseye"></i>Unitごとに到達目標</span>
+        </div>
+    </div>
+
+    <!-- レベル選択（クリックで各レベルへ移動） -->
+    <nav class="level-nav">
+        <a href="#level-beginner" class="level-card theme-beginner">
+            <span class="lv-icon"><i class="fa-solid fa-seedling"></i></span>
+            <span class="lv-text">
+                <span class="lv-label en">LEVEL 1</span>
+                <span class="lv-name">初級</span>
+                <span class="lv-count" id="count-beginner"></span>
+            </span>
+            <i class="fa-solid fa-chevron-down lv-arrow"></i>
+        </a>
+        <a href="#level-intermediate" class="level-card theme-intermediate">
+            <span class="lv-icon"><i class="fa-solid fa-briefcase"></i></span>
+            <span class="lv-text">
+                <span class="lv-label en">LEVEL 2</span>
+                <span class="lv-name">中級</span>
+                <span class="lv-count" id="count-intermediate"></span>
+            </span>
+            <i class="fa-solid fa-chevron-down lv-arrow"></i>
+        </a>
+        <a href="#level-advanced" class="level-card theme-advanced">
+            <span class="lv-icon"><i class="fa-solid fa-rocket"></i></span>
+            <span class="lv-text">
+                <span class="lv-label en">LEVEL 3</span>
+                <span class="lv-name">上級</span>
+                <span class="lv-count" id="count-advanced"></span>
+            </span>
+            <i class="fa-solid fa-chevron-down lv-arrow"></i>
+        </a>
+    </nav>
+
+    <section class="category-section theme-beginner" id="level-beginner">
+        <div class="category-header">
+            <span class="category-icon"><i class="fa-solid fa-seedling"></i></span>
+            <div class="category-heading">
+                <span class="category-level en">LEVEL 1 · BEGINNER</span>
+                <h3 class="category-title">ビジネス英語 初級</h3>
+            </div>
+            <div class="header-side">
+                <div class="header-buttons">
+                    <a href="#" class="btn-cover" id="cover-beginner" target="_blank">
+                        <i class="fa-solid fa-book-open"></i>表紙・目次
+                    </a>
+                    <a href="#" class="btn-cover" id="appendix-beginner" target="_blank">
+                        <i class="fa-solid fa-folder-open"></i>巻末コンテンツ
+                    </a>
+                </div>
+                <span class="category-badge en" id="badge-beginner">Unit 1 - </span>
+            </div>
+        </div>
+        <p class="category-lead">英語の基礎を固める60のUnitです。学ぶ文法ごとにUnitを分けているので、必要なUnitだけを選んで学んでもOK。音とイメージで覚える語彙や、リスニングを伸ばす4つの秘訣など、上達のコツも紹介しています。</p>
+        <div class="unit-grid" id="grid-beginner"></div>
+    </section>
+
+    <section class="category-section theme-intermediate" id="level-intermediate">
+        <div class="category-header">
+            <span class="category-icon"><i class="fa-solid fa-briefcase"></i></span>
+            <div class="category-heading">
+                <span class="category-level en">LEVEL 2 · INTERMEDIATE</span>
+                <h3 class="category-title">ビジネス英語 中級</h3>
+            </div>
+            <div class="header-side">
+                <div class="header-buttons">
+                    <a href="#" class="btn-cover" id="cover-intermediate" target="_blank">
+                        <i class="fa-solid fa-book-open"></i>表紙・目次
+                    </a>
+                    <a href="#" class="btn-cover" id="appendix-intermediate" target="_blank">
+                        <i class="fa-solid fa-folder-open"></i>巻末コンテンツ
+                    </a>
+                </div>
+                <span class="category-badge en" id="badge-intermediate">Unit 1 - </span>
+            </div>
+        </div>
+        <div class="unit-grid" id="grid-intermediate"></div>
+    </section>
+
+    <section class="category-section theme-advanced" id="level-advanced">
+        <div class="category-header">
+            <span class="category-icon"><i class="fa-solid fa-rocket"></i></span>
+            <div class="category-heading">
+                <span class="category-level en">LEVEL 3 · ADVANCED</span>
+                <h3 class="category-title">ビジネス英語 上級</h3>
+            </div>
+            <div class="header-side">
+                <div class="header-buttons">
+                    <a href="#" class="btn-cover" id="cover-advanced" target="_blank">
+                        <i class="fa-solid fa-book-open"></i>表紙・目次
+                    </a>
+                    <a href="#" class="btn-cover" id="appendix-advanced" target="_blank">
+                        <i class="fa-solid fa-folder-open"></i>巻末コンテンツ
+                    </a>
+                </div>
+                <span class="category-badge en" id="badge-advanced">Unit 1 - </span>
+            </div>
+        </div>
+        <div class="unit-grid" id="grid-advanced"></div>
+    </section>
+
+    <footer class="page-footer"><b>EC<span>O</span>M</b>&nbsp; Business English</footer>
+</div>
+
+<button type="button" class="to-top" id="to-top" aria-label="ページの上部へ戻る"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script>
+    /* =======================================================
+      設定エリア 1：【表紙・目次】のファイルID
+      ※IDがない場合（空欄 "" の場合）ボタンは非表示になります
+     =======================================================
+    */
+    var beginnerCoverId = "1kdNxySevq-DfD4wUBiOyzoG-HILz8TTY";       // 初級
+    var intermediateCoverId = "1KU6OJioagO-xJjNMCwu-DjKX6ARfC4Jn"; // 中級
+    var advancedCoverId = "";       // 上級
+
+    /* =======================================================
+      設定エリア 2：【巻末コンテンツ】のファイルID
+     =======================================================
+    */
+    var beginnerAppendixId = "";      // 初級
+    var intermediateAppendixId = "";  // 中級
+    var advancedAppendixId = "";      // 上級
+
+
+    /* =======================================================
+      設定エリア 3：【各Unit】のファイルIDリスト
+      ※リストに入れたIDの数だけ、自動的にUnitボタンが生成されます
+     =======================================================
+    */
+
+    /* 初級 (Beginner) IDリスト */
+    var beginnerIds = [
+        "1axlQVRHgaqN4NBG-SNWuOJrKrPpeBQAI",
+        "1cSLKyJ2J9sM40_oCW_ByEAnFsct0EC9k",
+        "1fYfa079d7pw7bpGAWRyuKPDx-7luVzzB",
+        "1bRRi5qY2FfS_0znrDz0aRPgQNDnSvBb4",
+        "1XpeJeOpjEYTBYzhQbnteQVKxgg78MmRN",
+        "1lXN2CxDl7z5JtdOY9O2uqI9B5MNsA3Zr",
+        "1fswOijrkmrRNpVrJmBN66YWDnr16GpGW",
+        "1mScnyicDMSK-PLigGJtwe_pTFbtKmr-y",
+        "1jkXYHKdAvnK8ogrC8wLEulbhUdmAD0E_",
+        "1sKAzxaPShHEdJhCTfmcFJaXIdPvMm6vj",
+        "1XOPeBYlSSrniuQAXpwBRGmUN2G2J9Imy",
+        "1tPZs6xX2Lklltk97G7KPjgauJV0BnUmK",
+        "1kOnqKmewaM8KaRaWAacmAmPUOJcvao48",
+        "1Xw9OwM22f8v8IQ4LLWti5jIwmV31l34w",
+        "1JGMax05spBwslMh3ZhgmWJVnFHRfYk4I",
+        "13WXnInl-8ZdEmSQTA1btv8UASFiNfFSo",
+        "11psROX9iOvIUDm59i7SlkRmUoE6UonIU",
+        "1fBh_tC6pyoyOB17lcx2F849VcT7y0WGS",
+        "1dJ_su1moS4KQFYeN04upG7LX-T4Rgdkv",
+        "19rv4-75tJEe_lk5Xk2yI9LXHspCtghu7",
+        "1JBp3w-RKw3ta1rJY5SnZlt4u97udDQ0A",
+        "1EvU8DpkW3jst1sA0MPsKvaM-wiK2pyFf",
+        "1R1RVcwFT9M--Z29JIDrK7bVhIjE_Rnmr",
+        "1qHmjIGuvGJkMDbfXq5vt_4gMe6FCXP8z",
+        "1HEzXjvd7Pod73rIhi55qwGlMcOV4f5tU",
+        "14WvWU7lujuEcsVRjl0Vjn29LpUGS4IVg",
+        "1oiP4wQ4ta4KqyxzzBVPy9aWqrKoc5P_X",
+        "18-aSWuCm6iDOTQnTjN7Dp-wPXG-I5xhn",
+        "14eok7bHzd9-wIKhbyRWusFTlO8Wnx3Fv",
+        // Unit30
+        "1QDA6NGEbONmovzQ8kc2el3Pm3EAAdUYg",
+        "1cn5QwPVnhYo3wFoBpbLGj-CoC-UbogF_",
+        "1rhtBgN-0inhBr1B_4nncRrEmWHOEO7Nt",
+        "1iJQbr2Lu3dhNLeAVPf3iDCQ_kghInZ9C",
+        "1O3tME3NQZh6MN-FiWHyj4nVVGrglBVm7",
+        "1xOQtsn9JSwb-35DzROpetk932fHvnJvl",
+        // Unit36
+        "1VOFAYJB6M_346I04oCjJXzH8cCzGH89h",
+        "1nJLeF2gaVDW61Y7gsbK_viMYpMXf_QU_",
+        "10sF8aykNJ0JZra7KutzY5GUJuxObtBcM",
+        "1GAIpGY53IjR6O6aUyd9XZDUOowOPCE8n",
+        "1eULrQmzHL9m_HazE_hUA1rxtK1ECcuE_",
+        // Unit41
+        "1lgD8t7gK0Q41Di-8D6dmCHqBVnEF6W9l",
+        "1PRzCtgmKBstpvL0uoPSEFr1KwJF-bDVH",
+        "1YA19UwgQqGA3d0hCGLi9O5lrxdtyIJ0b",
+        "1DFW7SrGSwHsgo9yF8jBGsABebmnIsh0q",
+        "1K9aIvFTZFagWNI0jM8YOuxEkujf0WrnQ",
+        // Unit46
+        "1lIWMmSk69nrtkiwyUl_JfIDzJFcoQYFP",
+        "1500K8_DFatM5jthRyUWIIW1-xEKkfNQ4",
+        "1uqYAynoPibqrIGNzwFf45Cp1I6jE5ix-",
+        "1Hzf3moU_gkoGjVuDOGhLHW_oOGhpswaX",
+        "1K818MG51uLDo4Nm8vSL1mojjFRYpK9oC",
+        // Unit51
+        "1XTjli17s15EkRVHA8c00NsJZFvUbEQi9",
+        "16QFUAQnZdEAG2UoWLBDv4XjgNiN1NGSF",
+        "1SPoR0pathNdIqXZKqhVQHA6O_Zjr1tBc",
+        "1rqUcmNtu5KNgybKX__ChSaP-Lx4PsPw4",
+        "1ktwDKOYyLqzE_O20gYBQUAr-2tjo3RfJ",
+        // Unit56
+        "1bvkx_kZQ-cdssb_TfmjVaQPDKJ95OrGP",
+        "1Kk9aVaeWekN5XR5X_Bm5ptuMCSytnwnm",
+        "1hGJkhQa4T8kcro9yWZA8N0aIg_3S5YIc",
+        "1tp8hEWnTNOhD41RG-uwYwZJJx8lLS9Ry",
+        "1SC2AnktvhECJdyK95OVfZQMa97VW4iYk",
+        // Closing（あとがき）
+        "1pFzy5mjJtWA28K1D8y8s-MxAGg8pf1w2"
+    ];
+
+    /* 中級 (Intermediate) IDリスト */
+    var intermediateIds = [
+        "1yrU8Asq497a22Y8fJiZGXPppt-BGUtn4",
+        "1l3Up6VeyOX4q7rZsNHmpAhDuraP8VAHl",
+        "167KNYlfVwfT5I137KqTdICAvtZFVbCGM",
+        "1rtfGQ5XQVD_7JheSZ2d0kImIgnRAcdKe",
+        "1DoUwzaqb2lc17S6C0xu_2MH_NcGdK6Cl",
+        "19BgzW8gdcID5nsrY4o5bM01dhHC59jfi",
+        "1s4NDXvr0zP5GMtoiojqBlH472zIm02eG",
+        "1LzE0eUBpXq_qjm-8mAAqtLKnkhn4Oau_",
+        "19YuohfyBUuAg0VeMsLl4oth4FhiQOfRe",
+        "12krTZa4a1VQ8RK8PLzE5NFP2l3llNWRt",
+        "1oOw2OD5AQDZkfq0UTEsoV6qRjTCt8_14",
+        "1dGCz3wN-FUsgmZ0jJB6-nd0eaU8-qj4F",
+        "1e7fF-yNo3hZpZmzjGiBhFavDvcSfa6i5",
+        "1gwcyE0RZXT4AmCHf4xvmcG7N77rl8Ybq",
+        "15hO6Q1vacdu4beGTExtCdCt4swl4uIW0",
+        "1Pu24n04lHutDY5FghSLhZe4u8BR-H9RP",
+        "1JRROhjpdb6gTx_r7CpyErpMY-H28WIrt",
+        "16uBGJzjKVxI_kUS_4GmdsUVFHmRn_AN6",
+        "1eOFOTEyuTBEncvAz5RjILtVnOJRRq3wS",
+        "1MmDEBPFFNOQi98PXy7Y_gJE8xx7UldFg",
+        "1q8_G0c0yq0GCtH-UlhwpJc-JotVach8j",
+        "" // 最後の空要素があっても問題なく処理されます
+    ];
+
+    /* 上級 (Advanced) IDリスト */
+    var advancedIds = [
+        "1yrU8Asq497a22Y8fJiZGXPppt-BGUtn4"
+    ];
+
+
+    /* =======================================================
+      設定エリア 4：【各Unit】のタイトルリスト
+      ※IDリストと同じ順番で並べてください
+      ※タイトルが空・未入力のUnitは「Unit 番号」だけが表示されます
+     =======================================================
+    */
+
+    /* 初級 (Beginner) タイトル */
+    var beginnerTitles = [
+        "はじめの挨拶",  // Unit 1
+        "How are you?",  // Unit 2
+        "SVC:I am / We are / You are",  // Unit 3
+        "自己紹介",  // Unit 4
+        "SVC:He is / She is / It is / They are",  // Unit 5
+        "SVO",  // Unit 6
+        "SVO:He / She / It(三人称単数の -s)",  // Unit 7
+        "疑問文(Yes / No questions)",  // Unit 8
+        "疑問文(5W1H)",  // Unit 9
+        "形容詞と副詞",  // Unit 10
+        "感情表現",  // Unit 11
+        "締め (Closing)",  // Unit 12
+        "時間表現",  // Unit 13
+        "「日付・曜日」の表現",  // Unit 14
+        "Schedule",  // Unit 15
+        "現在形・現在進行形",  // Unit 16
+        "過去形",  // Unit 17
+        "未来形",  // Unit 18
+        "現在完了形",  // Unit 19
+        "その他の時制(過去完了形)",  // Unit 20
+        "時制のまとめ",  // Unit 21
+        "助動詞(Can / Could / Would)",  // Unit 22
+        "その他助動詞(Should / Must / Need to / Might)",  // Unit 23
+        "受動態(Passive Voice)",  // Unit 24
+        "名詞の単数形と複数形",  // Unit 25
+        "冠詞と複数形(a / an / the / 複数形)",  // Unit 26
+        "可算名詞と不可算名詞の量",  // Unit 27
+        "復習:名詞と数量",  // Unit 28
+        "There is / There are",  // Unit 29
+        "We have ~",  // Unit 30
+        "not を使った基本の否定文",  // Unit 31
+        "Not 以外の強い否定語(never / no / nobody / none)",  // Unit 32
+        "復習:存在と否定",  // Unit 33
+        "命令文とオフィス頻出動詞",  // Unit 34
+        "語彙の重要性と覚え方①:語源",  // Unit 35
+        "語彙の重要性と覚え方②:音とイメージ",  // Unit 36
+        "語彙の重要性と覚え方③:コロケーション",  // Unit 37
+        "語彙の重要性と覚え方④:句動詞",  // Unit 38
+        "聞き返し",  // Unit 39
+        "英文の読み方(直読直解)",  // Unit 40
+        "大きな数字(Large Numbers)",  // Unit 41
+        "割合と全体(all / most / every / both)",  // Unit 42
+        "場所の前置詞",  // Unit 43
+        "不定詞と動名詞",  // Unit 44
+        "発音とリズム",  // Unit 45
+        "リスニング力を伸ばす学習法",  // Unit 46
+        "復習A:数字・数量・場所・動詞の形",  // Unit 47
+        "接続詞(and / but / or / so)",  // Unit 48
+        "理由(Because / Therefore)",  // Unit 49
+        "時の接続詞(when / before / after / until / as soon as)",  // Unit 50
+        "条件文(If)",  // Unit 51
+        "論理的説明",  // Unit 52
+        "復習B:文をつなぐ・論理的に話す",  // Unit 53
+        "比較級・最上級",  // Unit 54
+        "冠詞②(発展)",  // Unit 55
+        "関係代名詞(who / which / that)",  // Unit 56
+        "丁寧な質問と答え方",  // Unit 57
+        "言い換え(パラフレーズ)",  // Unit 58
+        "総復習(初級総まとめ)",  // Unit 59
+        "Picture Description に挑戦しよう",  // Unit 60
+        "あとがき"  // Closing
+    ];
+
+    /* =======================================================
+      設定エリア 5：【各Unit】の一言説明（できるようになること）
+      ※IDリストと同じ順番で並べてください
+      ※空欄のUnitは説明欄が表示されません
+     =======================================================
+    */
+
+    /* 初級 (Beginner) 一言説明 */
+    var beginnerDescriptions = [
+        "時間帯や相手に合った挨拶・お礼・別れの言葉が自然に言える",  // Unit 1
+        "How are you? に笑顔ですぐ答え、相手に聞き返せる",  // Unit 2
+        "自分や自社の役職・担当業務・状態を、be動詞で伝えられる",  // Unit 3
+        "名前・会社・担当を名乗り、名刺交換までスムーズにできる",  // Unit 4
+        "上司・同僚・顧客や身の回りのものを英語で紹介できる",  // Unit 5
+        "自社が何を提供・販売しているかを、We を主語に説明できる",  // Unit 6
+        "上司・同僚・取引先の仕事を紹介し、Does で質問できる",  // Unit 7
+        "相手の都合を Yes / No 疑問文で確認し、配慮ある答え方ができる",  // Unit 8
+        "いつ・どこ・誰・何・なぜ・どのようにを質問し、情報を聞き出せる",  // Unit 9
+        "形容詞と副詞を正しい位置で使い、人・もの・仕事ぶりを具体的に説明できる",  // Unit 10
+        "喜び・心配などの気持ちを伝え、共感のひと言で反応できる",  // Unit 11
+        "会議や商談を、感謝と次につなげる一言で締めくくれる",  // Unit 12
+        "時刻を正確に伝え、at / by / until で約束や締め切りを話せる",  // Unit 13
+        "日付・曜日を正しく読み、on / in / by で予定や納期を伝えられる",  // Unit 14
+        "next / last・四半期・会計年度を使って、業務スケジュールを説明できる",  // Unit 15
+        "普段の担当業務と、今取り組んでいる仕事を区別して話せる",  // Unit 16
+        "昨日や先週の業務・実績を、過去形で報告できる",  // Unit 17
+        "will / be going to / 進行形を使い分けて、予定や意志を伝えられる",  // Unit 18
+        "仕事の進捗(終わった・まだ)や経験・勤続年数を伝えられる",  // Unit 19
+        "過去の出来事の前後関係を正確に伝え、トラブルの経緯を説明できる",  // Unit 20
+        "普段・今・過去・進捗・予定を、時制を使い分けて一度に報告できる",  // Unit 21
+        "相手に合わせて Can / Could / Would で丁寧さを調整して依頼できる",  // Unit 22
+        "提案・必要性・可能性を、圧迫感のない強さで伝えられる",  // Unit 23
+        "「～された」という結果や事実を、報告やお知らせで伝えられる",  // Unit 24
+        "information や feedback など、数えられない名詞を正しく使える",  // Unit 25
+        "a / an / the / 複数形で「どれのことか」を誤解なく伝えられる",  // Unit 26
+        "many / much / a few / a piece of などで量を正確に伝えられる",  // Unit 27
+        "名詞・冠詞・量の表現を組み合わせて、数や量を誤解なく伝えられる",  // Unit 28
+        "会議室の空きや問題点など、客観的な状況を報告できる",  // Unit 29
+        "自社やチームのリソース・予定・課題を、当事者意識を持って伝えられる",  // Unit 30
+        "「～ではありません」「～しないでください」を丁寧に伝えられる",  // Unit 31
+        "never / no / nobody / none で「全くない」を簡潔に言い切れる",  // Unit 32
+        "There is / We have と否定表現で「ある・ない」を誤解なく報告できる",  // Unit 33
+        "オフィス頻出の動詞を覚え、相手に応じて命令文・Please・依頼文で言い分けられる",  // Unit 34
+        "語源から初めて見る単語の意味を推測し、コロケーションで語彙を増やせる",  // Unit 35
+        "日本語訳が同じ動詞をイメージで使い分け、スペルと実際の音の違いを意識して覚えられる",  // Unit 36
+        "「会議をする」「決定する」「休憩をとる」を、自然な単語の組み合わせで言える",  // Unit 37
+        "set up / look into / follow up などの句動詞を、会話やメールで使える",  // Unit 38
+        "聞き取れないときに失礼なく聞き返し、内容を確認できる",  // Unit 39
+        "英文を前から区切って理解し、後ろに戻らずに読める",  // Unit 40
+        "大きな数字・金額・%・年号・電話番号を正しく読み、聞き取れる",  // Unit 41
+        "all / most / every / both / half などで、全体の中の割合を報告できる",  // Unit 42
+        "ものの位置を説明し、来客をオフィス内で案内できる",  // Unit 43
+        "want to / plan to と enjoy -ing / look forward to -ing を使い分けて、予定や希望を伝えられる",  // Unit 44
+        "英語の強弱リズムを意識して、伝わりやすい発音で話せる",  // Unit 45
+        "リスニングが苦手な原因を知り、4つの学習法で毎日改善できる",  // Unit 46
+        "数字・割合・場所・予定を組み合わせて、会社やイベントを説明できる",  // Unit 47
+        "and / but / or / so で文をつなぎ、話を自然に広げられる",  // Unit 48
+        "because / so / that's why / therefore で、理由と結果を分かりやすく説明できる",  // Unit 49
+        "when / before / after などで、業務の手順やタイミングを説明できる",  // Unit 50
+        "If を使って条件つきの予定・提案・お願いを伝え、If possible などの決まり文句も使える",  // Unit 51
+        "結論→理由→例→結論(PREP)で、意見や提案を分かりやすく話せる",  // Unit 52
+        "接続詞・理由・時・条件の表現とPREPの型で、報告から提案まで論理的に話せる",  // Unit 53
+        "比較級・最上級・as 〜 as で商品やプランを比べ、理由とともにおすすめを伝えられる",  // Unit 54
+        "最上級・序数・一般論・固有名詞などで、the の有無を正しく判断できる",  // Unit 55
+        "who / which / that で、人やもの・会社を詳しく説明できる",  // Unit 56
+        "丁寧な質問の形を使い、否定の質問にも Yes / No を正しく答えて誤解を防げる",  // Unit 57
+        "単語が出てこなくても、知っている英語で言い換えて伝えられる",  // Unit 58
+        "挨拶から自己紹介・会社紹介・報告・提案・締めまで、ビジネスの流れを英語で話せる",  // Unit 59
+        "写真や絵を見て、様子・動作・位置・推測を、学んだ表現を組み合わせて英語で説明できる",  // Unit 60
+        "初級編の学びを振り返り、学習を続けるコツと2周目の進め方がわかる"  // Closing
+    ];
+
+    /* =======================================================
+      設定エリア 6：【各Unit】のテーマアイコン（Font Awesome の名前）
+      ※IDリストと同じ順番。"fa-" 以降の名前を入れます
+      ※アイコン一覧: https://fontawesome.com/v6/search?o=r&m=free&s=solid
+      ※空欄のUnitはアイコンが表示されません
+     =======================================================
+    */
+    var beginnerIcons = [
+        "handshake",  // Unit 1
+        "face-smile",  // Unit 2
+        "id-badge",  // Unit 3
+        "address-card",  // Unit 4
+        "users",  // Unit 5
+        "box-open",  // Unit 6
+        "user-tie",  // Unit 7
+        "circle-question",  // Unit 8
+        "magnifying-glass",  // Unit 9
+        "wand-magic-sparkles",  // Unit 10
+        "heart",  // Unit 11
+        "door-open",  // Unit 12
+        "clock",  // Unit 13
+        "calendar-day",  // Unit 14
+        "calendar-days",  // Unit 15
+        "person-running",  // Unit 16
+        "clock-rotate-left",  // Unit 17
+        "forward",  // Unit 18
+        "list-check",  // Unit 19
+        "backward",  // Unit 20
+        "layer-group",  // Unit 21
+        "handshake-angle",  // Unit 22
+        "scale-balanced",  // Unit 23
+        "right-left",  // Unit 24
+        "cubes",  // Unit 25
+        "tag",  // Unit 26
+        "weight-scale",  // Unit 27
+        "arrows-rotate",  // Unit 28
+        "building",  // Unit 29
+        "people-group",  // Unit 30
+        "ban",  // Unit 31
+        "circle-xmark",  // Unit 32
+        "arrows-rotate",  // Unit 33
+        "briefcase",  // Unit 34
+        "tree",  // Unit 35
+        "image",  // Unit 36
+        "link",  // Unit 37
+        "puzzle-piece",  // Unit 38
+        "ear-listen",  // Unit 39
+        "book-open-reader",  // Unit 40
+        "calculator",  // Unit 41
+        "chart-pie",  // Unit 42
+        "map-location-dot",  // Unit 43
+        "code-branch",  // Unit 44
+        "microphone",  // Unit 45
+        "headphones",  // Unit 46
+        "arrows-rotate",  // Unit 47
+        "circle-nodes",  // Unit 48
+        "lightbulb",  // Unit 49
+        "hourglass-half",  // Unit 50
+        "signs-post",  // Unit 51
+        "sitemap",  // Unit 52
+        "arrows-rotate",  // Unit 53
+        "ranking-star",  // Unit 54
+        "tags",  // Unit 55
+        "user-tag",  // Unit 56
+        "message",  // Unit 57
+        "retweet",  // Unit 58
+        "flag-checkered",  // Unit 59
+        "camera",  // Unit 60
+        "graduation-cap"  // Closing
+    ];
+    var intermediateIcons = [];
+    var advancedIcons = [];
+
+    /* 中級・上級 一言説明 ※分かり次第入れてください */
+    var intermediateDescriptions = [];
+    var advancedDescriptions = [];
+
+    /* 中級 (Intermediate) タイトル ※分かり次第入れてください */
+    var intermediateTitles = [];
+
+    /* 上級 (Advanced) タイトル ※分かり次第入れてください */
+    var advancedTitles = [];
+
+    /* 番号付きUnitの数（これを超えた分は「Closing」表示になります）
+       ※空欄 null の場合は、リストの全件に番号をつけます */
+    var beginnerUnitCount = 60;
+    var intermediateUnitCount = null;
+    var advancedUnitCount = null;
+
+
+
+    /* =======================================================
+      プログラム本体（変更不要）
+     =======================================================
+    */
+
+    function makeDriveUrl(fileId) {
+        return 'https://drive.google.com/file/d/' + fileId + '/view?usp=drive_link';
+    }
+
+    function hasId(fileId) {
+        return !!(fileId && fileId.length > 5);
+    }
+
+    // 各種ボタン(表紙、巻末)を設定する関数
+    function setupLinkButton(buttonId, fileId) {
+        var btn = document.getElementById(buttonId);
+        if (!btn) return;
+
+        if (hasId(fileId)) {
+            btn.href = makeDriveUrl(fileId);
+        } else {
+            btn.classList.add('disabled');
+        }
+    }
+
+    // 上部のレベル選択カードに Unit 数を表示する関数
+    function setupLevelCount(countId, idsList, unitCount) {
+        var el = document.getElementById(countId);
+        if (!el) return;
+        var list = idsList || [];
+        var numbered = (typeof unitCount === 'number') ? Math.min(unitCount, list.length) : list.length;
+        var open = 0;
+        for (var i = 0; i < numbered; i++) { if (hasId(list[i])) open++; }
+        el.innerText = (open === 0) ? '準備中' : open + (open === 1 ? ' Unit' : ' Units');
+    }
+
+    // Unitカードを生成する関数 (リストの数だけループ)
+    function generateUnits(containerId, badgeId, idsList, titlesList, unitCount, descList, iconList) {
+        var container = document.getElementById(containerId);
+        var badge = document.getElementById(badgeId);
+        if (!container) return;
+
+        var safeList = idsList || [];
+        var safeTitles = titlesList || [];
+        var safeDescs = descList || [];
+        var safeIcons = iconList || [];
+        var totalCount = safeList.length;
+        var numbered = (typeof unitCount === 'number') ? Math.min(unitCount, totalCount) : totalCount;
+
+        // バッジの表記を更新 (例: Unit 1 - 60)
+        if (badge) {
+            badge.innerHTML = (totalCount === 0)
+                ? '<i class="fa-solid fa-hourglass-half"></i>Coming Soon'
+                : '<i class="fa-solid fa-book"></i>Unit 1 - ' + numbered;
+        }
+
+        // 凡例（説明があるレベルだけ表示）
+        if (safeDescs.length > 0) {
+            var legend = document.createElement('div');
+            legend.className = 'unit-legend';
+            legend.innerHTML =
+                '<span><i class="fa-solid fa-bullseye"></i>このUnitで身につくこと</span>' +
+                '<span><i class="fa-solid fa-arrow-up-right-from-square"></i>クリックで教材PDFが開きます</span>';
+            container.parentNode.insertBefore(legend, container);
+        }
+
+        for (var i = 0; i < totalCount; i++) {
+            var fileId = safeList[i];
+            var title = safeTitles[i] || "";
+            var isExtra = i >= numbered;
+
+            var link = document.createElement('a');
+            link.className = 'unit-item reveal';
+
+            // 番号ボックス
+            var num = document.createElement('div');
+            num.className = 'unit-num' + (isExtra ? ' is-text' : '');
+            var small = document.createElement('small');
+            var big = document.createElement('span');
+            if (isExtra) {
+                small.innerText = '';
+                big.innerText = 'Closing';
+            } else {
+                small.innerText = 'UNIT';
+                big.innerText = i + 1;
+            }
+            num.appendChild(small);
+            num.appendChild(big);
+
+            // タイトル
+            var titleEl = document.createElement('div');
+            titleEl.className = 'unit-title';
+            titleEl.innerText = title || (isExtra ? 'Closing' : 'Unit ' + (i + 1));
+
+            var head = document.createElement('div');
+            head.className = 'unit-head';
+            head.appendChild(num);
+            head.appendChild(titleEl);
+
+            // テーマアイコン（IDがないUnitは鍵マーク）
+            var iconName = hasId(fileId) ? (safeIcons[i] || "") : "lock";
+            if (iconName) {
+                var topic = document.createElement('span');
+                topic.className = 'unit-topic';
+                topic.innerHTML = '<i class="fa-solid fa-' + iconName + '"></i>';
+                head.appendChild(topic);
+            }
+            link.appendChild(head);
+
+            // 一言説明（◎アイコン＋本文）
+            var desc = safeDescs[i] || "";
+            if (desc) {
+                var descEl = document.createElement('div');
+                descEl.className = 'unit-desc';
+                var icon = document.createElement('i');
+                icon.className = 'fa-solid fa-bullseye';
+                var text = document.createElement('span');
+                text.innerText = desc;
+                descEl.appendChild(icon);
+                descEl.appendChild(text);
+                link.appendChild(descEl);
+            }
+
+            link.title = (isExtra ? '' : 'Unit ' + (i + 1) + ' ') + title;
+
+            if (hasId(fileId)) {
+                link.href = makeDriveUrl(fileId);
+                link.target = "_blank";
+                link.rel = "noopener";
+            } else {
+                link.href = "javascript:void(0)";
+                link.className += " disabled";
+                // IDがない場合でも場所は確保する（番号ズレ防止）
+            }
+            container.appendChild(link);
+        }
+    }
+
+    // カードがスクロールで画面に入ったら、ふわっと表示する
+    function setupReveal() {
+        var items = document.querySelectorAll('.reveal');
+        if (!('IntersectionObserver' in window)) {
+            for (var i = 0; i < items.length; i++) items[i].classList.add('is-visible');
+            return;
+        }
+        var observer = new IntersectionObserver(function(entries) {
+            var delay = 0;
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    var el = entry.target;
+                    el.style.transitionDelay = Math.min(delay, 240) + 'ms';
+                    delay += 40;
+                    el.classList.add('is-visible');
+                    observer.unobserve(el);
+                    // 表示後はホバーの動きを遅らせないよう遅延を解除
+                    setTimeout(function() { el.style.transitionDelay = ''; }, 900);
+                }
+            });
+        }, { rootMargin: '0px 0px -40px 0px' });
+        for (var j = 0; j < items.length; j++) observer.observe(items[j]);
+    }
+
+    // 「ページ上部へ戻る」ボタン
+    function setupToTop() {
+        var btn = document.getElementById('to-top');
+        if (!btn) return;
+        window.addEventListener('scroll', function() {
+            btn.classList.toggle('show', window.scrollY > 600);
+        }, { passive: true });
+        btn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
+    /* 画面読み込み完了後に実行 */
+    document.addEventListener('DOMContentLoaded', function() {
+        // 1. 表紙ボタンの設定
+        setupLinkButton('cover-beginner', beginnerCoverId);
+        setupLinkButton('cover-intermediate', intermediateCoverId);
+        setupLinkButton('cover-advanced', advancedCoverId);
+
+        // 2. 巻末コンテンツボタンの設定
+        setupLinkButton('appendix-beginner', beginnerAppendixId);
+        setupLinkButton('appendix-intermediate', intermediateAppendixId);
+        setupLinkButton('appendix-advanced', advancedAppendixId);
+
+        // 3. レベル選択カードの Unit 数
+        setupLevelCount('count-beginner', beginnerIds, beginnerUnitCount);
+        setupLevelCount('count-intermediate', intermediateIds, intermediateUnitCount);
+        setupLevelCount('count-advanced', advancedIds, advancedUnitCount);
+
+        // 4. Unitカードの生成
+        generateUnits('grid-beginner', 'badge-beginner', beginnerIds, beginnerTitles, beginnerUnitCount, beginnerDescriptions, beginnerIcons);
+        generateUnits('grid-intermediate', 'badge-intermediate', intermediateIds, intermediateTitles, intermediateUnitCount, intermediateDescriptions, intermediateIcons);
+        generateUnits('grid-advanced', 'badge-advanced', advancedIds, advancedTitles, advancedUnitCount, advancedDescriptions, advancedIcons);
+
+        // 5. 動きの設定
+        setupReveal();
+        setupToTop();
+    });
+</script>
+
+</body>
+</html>
