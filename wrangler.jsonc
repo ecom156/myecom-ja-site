@@ -1,0 +1,6 @@
+{
+  "name": "myecom-ja-site",
+  "compatibility_date": "2026-10-12",
+  // Cloudflare の「Observability」でエラーログを見られるようにする
+  "observability": { "enabled": true }
+}

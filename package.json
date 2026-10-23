@@ -1,0 +1,20 @@
+{
+  "name": "myecom-ja-site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro build && wrangler dev"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^14.4.1",
+    "astro": "^7.4.1",
+    "wrangler": "^4.151.3"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.14",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2"
+  }
+}

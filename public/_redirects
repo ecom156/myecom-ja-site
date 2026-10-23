@@ -1,0 +1,15 @@
+# WordPress 固有の URL
+/wp-login.php / 301
+/wp-admin/* / 301
+/feed/ / 301
+/comments/feed/ / 301
+/blog/feed/ /blog/ 301
+/blog/author/* /blog/ 301
+/sample-page/ / 301
+/english/feed/ /english/ 301
+/english/children/feed/ /english/children/ 301
+/english/news/feed/ /english/news/ 301
+/russian/feed/ /russian/ 301
+# 旧サイトでもリンク切れだったページ
+/english/corporation/corp-contact/thankyoupage/ /english/corporation/contact/ 301
+/english/corporation/corp-contact/ /english/corporation/contact/ 301
