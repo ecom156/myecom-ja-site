@@ -3,52 +3,76 @@ title: "中国語コースとクラス"
 path: "/chinese/courses/"
 ---
 
-### ECOMクラス分けレベル表
-
-大きなレベルが０から10まで11段階。
-
-各大レベル毎に3つの小さなレベルがあり、全体で33段階で設定。
-
-１つの小さなレベルをクリアするのに20時間ほどの授業が必要となります。
-
-![](/wp-content/uploads/2023/01/level-kaidan-cn.gif)
-
-・コース、クラス内容は、  
-事前カウンセリングと、2回の体験レッスンを通じて、生徒様の意見を尊重して決めていきます。
-
-・教科書を使わないフリースタイルを希望の場合、教材なしのクラスを受けることが可能です。
-
-・ご自身で、使いたい教材がある場合、当校宛に郵送いただければ、講師に手交しますので、ご利用いただけます。
-
-・1ポイント≒3,000円を購入して、それを使って授業を紹介していくチケット制になります。このため、掲載費用は目安になります。
-
-一番安いのですと、3回：9900円のプランからスタートできます。
-
-・マンツーマンクラスのため、進度にばらつきがでます。  
-進度が早い場合、費用は安くなりますし、遅い場合は、受講時間分に応じた費用がかかります。
-
-![](/wp-content/uploads/2023/01/onlinelessons-768x1024.jpg)
-
-### 一般コース
-
-<table><tbody><tr><td><span>難度(Level: 0-33)</span></td><td><span>課</span></td><td><span>時間数</span></td><td><span>使用予定教材</span></td><td><span>達成までにかかる費用感*</span></td></tr><tr><td><span>Lv. 0-2</span></td><td><span>入門中国語クラス</span></td><td><span>40時間</span></td><td><span>301句上 or 初級漢語口語1</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.2-4</span></td><td><span>初級中国語クラス1</span></td><td><span>40時間</span></td><td><span>301句下 or 初級漢語口語2</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.4-6</span></td><td><span>初級中国語クラス2</span></td><td><span>40時間</span></td><td><span>初級漢語口語 提高編</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.6-8</span></td><td><span>初中級中国語クラス1</span></td><td><span>40時間</span></td><td><span>初級漢語口語 提高編</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.8-10</span></td><td><span>初中級中国語クラス2</span></td><td><span>40時間</span></td><td><span>初中級漢語口語1</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.10-12</span></td><td><span>中級中国語クラス1</span></td><td><span>40時間</span></td><td><span>初中級漢語口語2</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.12-14</span></td><td><span>中級中国語クラス2</span></td><td><span>40時間</span></td><td><span>初中級漢語口語提高編</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.14-16</span></td><td><span>中上級中国語クラス1</span></td><td><span>40時間</span></td><td><span>中級漢語口語1</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.16-18</span></td><td><span>中上級中国語クラス2</span></td><td><span>40時間</span></td><td><span>中級漢語口語2</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.18-20</span></td><td><span>上級中国語クラス1</span></td><td><span>40時間</span></td><td><span>中高級漢語口語1</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.20-22</span></td><td><span>上級中国語クラス2</span></td><td><span>40時間</span></td><td><span>中高級漢語口語2</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.22-24</span></td><td><span>超高級中国語クラス1</span></td><td><span>40時間</span></td><td><span>高級漢語口語1</span></td><td><span>24万円</span></td></tr><tr><td><span>Lv.24-26</span></td><td><span>超高級中国語クラス2</span></td><td><span>40時間</span></td><td><span>高級漢語口語2</span></td><td><span>24万円</span></td></tr><tr><td><span></span></td><td><span></span></td><td><span></span></td><td><span></span></td><td><span></span></td></tr></tbody></table>
-
-\*費用はポイント制なので、3ポイント9,900円から購入できます。
-
-### 特化型コース
-
-<table><tbody><tr><td><span>難度(Level:0-33</span></td><td><span>課</span></td><td><span>時間数</span></td><td><span>使用予定教材</span></td><td><span>費用</span></td></tr><tr><td><span>lv.0-2</span></td><td><span>10時間完成トラベル中国語</span></td><td><span>10時間</span></td><td><span>体験漢語旅行編</span></td><td><span>6万円</span></td></tr><tr><td><span>ALL</span></td><td><span>10時間完成発音強化授業</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル発音教本</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv1-5</span></td><td><span>初級口語表現100</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv3-8</span></td><td><span>初中級口語表現125</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv6-12</span></td><td><span>初中級口語表現125 後編</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv10-16</span></td><td><span>中級口語表現125</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv12-18</span></td><td><span>中級口語表現125 後編</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv15-22</span></td><td><span>高級口語表現100</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv6-12</span></td><td><span>初中級ディスカッションクラス</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv8-16</span></td><td><span>中級ディスカッションクラス</span></td><td><span>10時間</span></td><td><span>ECOMオリジナル教材</span></td><td><span>6万円</span></td></tr><tr><td><span>Lv.7-33</span></td><td><span>HSK対策クラス</span></td><td><span>各冊20時間</span></td><td><span>HSK攻略本</span></td><td><span>12万円</span></td></tr><tr><td><span>Lv.7-18</span></td><td><span>ビジネス中国語クラス</span></td><td><span>40時間</span></td><td><span>公司漢語</span></td><td><span>24万円</span></td></tr></tbody></table>
-
-### 使用教材紹介
-
--   ![](/wp-content/uploads/2023/01/301-223x300.jpg)
--   ![](/wp-content/uploads/2023/01/5-211x300.jpg)
--   ![](/wp-content/uploads/2023/01/0-224x300.jpg)
--   ![](/wp-content/uploads/2023/01/4-1-211x300.jpg)
--   ![](/wp-content/uploads/2023/01/02-207x300.jpg)
--   ![](/wp-content/uploads/2023/01/0-1-217x300.jpg)
--   ![](/wp-content/uploads/2023/01/05-213x300.jpg)
--   ![](/wp-content/uploads/2023/01/business-chinese-213x300.jpg)
--   ![](/wp-content/uploads/2023/01/advanced-chinese.jpg)
-
-[![オンラインレッスン体験申込み](/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif)](/trial/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<h3>ECOMクラス分けレベル表</h3>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>大きなレベルが０から10まで11段階。</p>
+<p>各大レベル毎に3つの小さなレベルがあり、全体で33段階で設定。</p>
+<p>１つの小さなレベルをクリアするのに20時間ほどの授業が必要となります。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="1034" height="830" src="/wp-content/uploads/2023/01/level-kaidan-cn.gif" class="vc_single_image-img attachment-full" alt="" title="level-kaidan-cn"></div>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>・コース、クラス内容は、<br>
+事前カウンセリングと、2回の体験レッスンを通じて、生徒様の意見を尊重して決めていきます。</p>
+<p>・教科書を使わないフリースタイルを希望の場合、教材なしのクラスを受けることが可能です。</p>
+<p>・ご自身で、使いたい教材がある場合、当校宛に郵送いただければ、講師に手交しますので、ご利用いただけます。</p>
+<p>・1ポイント≒3,000円を購入して、それを使って授業を紹介していくチケット制になります。このため、掲載費用は目安になります。</p>
+<p>一番安いのですと、3回：9900円のプランからスタートできます。</p>
+<p>・マンツーマンクラスのため、進度にばらつきがでます。<br>
+進度が早い場合、費用は安くなりますし、遅い場合は、受講時間分に応じた費用がかかります。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="768" height="1024" src="/wp-content/uploads/2023/01/onlinelessons-768x1024.jpg" class="vc_single_image-img attachment-large" alt="" title="onlinelessons"></div>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<h3>一般コース</h3>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_blue"><tr class="vc-th"><td class="vc_table_cell"><span class="vc_table_content">難度(Level: 0-33)</span></td><td class="vc_table_cell"><span class="vc_table_content">課</span></td><td class="vc_table_cell"><span class="vc_table_content">時間数</span></td><td class="vc_table_cell"><span class="vc_table_content">使用予定教材</span></td><td class="vc_table_cell"><span class="vc_table_content">達成までにかかる費用感*</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv. 0-2</span></td><td class="vc_table_cell"><span class="vc_table_content">入門中国語クラス</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">301句上 or 初級漢語口語1</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.2-4</span></td><td class="vc_table_cell"><span class="vc_table_content">初級中国語クラス1</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">301句下 or 初級漢語口語2</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.4-6</span></td><td class="vc_table_cell"><span class="vc_table_content">初級中国語クラス2</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">初級漢語口語 提高編</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.6-8</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級中国語クラス1</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">初級漢語口語 提高編</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.8-10</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級中国語クラス2</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級漢語口語1</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.10-12</span></td><td class="vc_table_cell"><span class="vc_table_content">中級中国語クラス1</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級漢語口語2</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.12-14</span></td><td class="vc_table_cell"><span class="vc_table_content">中級中国語クラス2</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級漢語口語提高編</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.14-16</span></td><td class="vc_table_cell"><span class="vc_table_content">中上級中国語クラス1</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">中級漢語口語1</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.16-18</span></td><td class="vc_table_cell"><span class="vc_table_content">中上級中国語クラス2</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">中級漢語口語2</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.18-20</span></td><td class="vc_table_cell"><span class="vc_table_content">上級中国語クラス1</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">中高級漢語口語1</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.20-22</span></td><td class="vc_table_cell"><span class="vc_table_content">上級中国語クラス2</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">中高級漢語口語2</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.22-24</span></td><td class="vc_table_cell"><span class="vc_table_content">超高級中国語クラス1</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">高級漢語口語1</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.24-26</span></td><td class="vc_table_cell"><span class="vc_table_content">超高級中国語クラス2</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">高級漢語口語2</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content"></span></td><td class="vc_table_cell"><span class="vc_table_content"></span></td><td class="vc_table_cell"><span class="vc_table_content"></span></td><td class="vc_table_cell"><span class="vc_table_content"></span></td><td class="vc_table_cell"><span class="vc_table_content"></span></td></tr></table></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>*費用はポイント制なので、3ポイント9,900円から購入できます。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<h3>特化型コース</h3>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_blue"><tr class="vc-th"><td class="vc_table_cell"><span class="vc_table_content">難度(Level:0-33</span></td><td class="vc_table_cell"><span class="vc_table_content">課</span></td><td class="vc_table_cell"><span class="vc_table_content">時間数</span></td><td class="vc_table_cell"><span class="vc_table_content">使用予定教材</span></td><td class="vc_table_cell"><span class="vc_table_content">費用</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">lv.0-2</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間完成トラベル中国語</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">体験漢語旅行編</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">ALL</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間完成発音強化授業</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル発音教本</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv1-5</span></td><td class="vc_table_cell"><span class="vc_table_content">初級口語表現100</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv3-8</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級口語表現125</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv6-12</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級口語表現125 後編</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv10-16</span></td><td class="vc_table_cell"><span class="vc_table_content">中級口語表現125</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv12-18</span></td><td class="vc_table_cell"><span class="vc_table_content">中級口語表現125 後編</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv15-22</span></td><td class="vc_table_cell"><span class="vc_table_content">高級口語表現100</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv6-12</span></td><td class="vc_table_cell"><span class="vc_table_content">初中級ディスカッションクラス</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv8-16</span></td><td class="vc_table_cell"><span class="vc_table_content">中級ディスカッションクラス</span></td><td class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMオリジナル教材</span></td><td class="vc_table_cell"><span class="vc_table_content">6万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.7-33</span></td><td class="vc_table_cell"><span class="vc_table_content">HSK対策クラス</span></td><td class="vc_table_cell"><span class="vc_table_content">各冊20時間</span></td><td class="vc_table_cell"><span class="vc_table_content">HSK攻略本</span></td><td class="vc_table_cell"><span class="vc_table_content">12万円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Lv.7-18</span></td><td class="vc_table_cell"><span class="vc_table_content">ビジネス中国語クラス</span></td><td class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td class="vc_table_cell"><span class="vc_table_content">公司漢語</span></td><td class="vc_table_cell"><span class="vc_table_content">24万円</span></td></tr></table></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<h3>使用教材紹介</h3>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_image_grid" data-interval="3"><ul class="wpb_image_grid_ul"><li class="isotope-item"><img loading="lazy" decoding="async" width="223" height="300" src="/wp-content/uploads/2023/01/301-223x300.jpg" class="attachment-medium" alt="" title="301句"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="211" height="300" src="/wp-content/uploads/2023/01/5-211x300.jpg" class="attachment-medium" alt="" title="5"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="224" height="300" src="/wp-content/uploads/2023/01/0-224x300.jpg" class="attachment-medium" alt="" title="0"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="211" height="300" src="/wp-content/uploads/2023/01/4-1-211x300.jpg" class="attachment-medium" alt="" title="4-1"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="207" height="300" src="/wp-content/uploads/2023/01/02-207x300.jpg" class="attachment-medium" alt="" title="02"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="217" height="300" src="/wp-content/uploads/2023/01/0-1-217x300.jpg" class="attachment-medium" alt="" title="0"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="213" height="300" src="/wp-content/uploads/2023/01/05-213x300.jpg" class="attachment-medium" alt="" title="05"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="213" height="300" src="/wp-content/uploads/2023/01/business-chinese-213x300.jpg" class="attachment-medium" alt="" title="business-chinese"></li><li class="isotope-item"><img loading="lazy" decoding="async" width="180" height="185" src="/wp-content/uploads/2023/01/advanced-chinese.jpg" class="attachment-medium" alt="" title="advanced-chinese"></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
+</div>
+</div>

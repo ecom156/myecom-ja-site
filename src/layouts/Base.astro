@@ -30,6 +30,12 @@ const ogImage = image ?? site.logo;
     <link rel="canonical" href={canonical} />
     {site.icon && <link rel="icon" href={site.icon} />}
     <link rel="sitemap" href="/sitemap.xml" />
+    {/* 旧サイトのページ本文（WPBakery の段組み・表・アイコン）用の CSS */}
+    <link rel="stylesheet" href="/wp-content/plugins/js_composer/assets/css/js_composer.min.css" />
+    <link rel="stylesheet" href="/wp-content/plugins/easy-tables-vc/assets/css/style.min.css" />
+    <link rel="stylesheet" href="/wp-content/plugins/easy-tables-vc/assets/css/themes.min.css" />
+    <link rel="stylesheet" href="/wp-content/plugins/js_composer/assets/lib/vendor/dist/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="/wp-content/plugins/js_composer/assets/lib/vendor/dist/@fortawesome/fontawesome-free/css/v4-shims.min.css" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />

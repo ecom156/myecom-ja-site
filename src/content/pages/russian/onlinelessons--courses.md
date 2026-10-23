@@ -3,106 +3,95 @@ title: "ロシア語クラスの紹介"
 path: "/russian/onlinelessons/courses/"
 ---
 
-豊富な教材を使って、確固たるロシア語力を鍛えます。
-
-16時間完成、初歩ロシア語１
-
-○対象：初心者、A1
-
-○キリル文字の読み方や、発音の仕方など、初歩から徹底指導。必要最低限の単語と、文法を抑えてしまいます。
-
-全15Unit＋巻頭の１Unitの16Unit編成。1Unit=1時間で進みます。
-
--   [![ロシア語初級教材](/russian/wp-content/uploads/sites/8/2015/09/0-201x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/0.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/10-201x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/10.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/11-201x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/11.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/36-201x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/36.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/37-201x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/37.jpg)
-
-16時間完成、初級ロシア語2
-
-○対象：初中級、A2
-
-○複文で会話ができるように、込み入った文法などもあわせて学び、簡単な日常会話レベルが滞りなく行えるようにします。
-
-全15Unit＋巻頭の１Unitの16Unit編成。1Unit=1時間で進みます。
-
--   [![](/russian/wp-content/uploads/sites/8/2015/09/01-218x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/01.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/8-203x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/8.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/9-203x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/9.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/101-203x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/101.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/111-203x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/111.jpg)
-
-20時間完成、初級ロシア語2
-
-○対象：初中級、A2
-
-○全編ロシア語で書かれた、現地留学先などで使われる教材を使用。
-
-全20Unit編成。1Unit=1時間で進みます。
-
--   [![ロシア語クラス初級](/russian/wp-content/uploads/sites/8/2015/09/04-214x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/04.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/61-216x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/61.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/71-215x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/71.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/82-216x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/82.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/91-215x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/91.jpg)
-
-20時間完成、中級ロシア語1
-
-○対象：中級、B1
-
-○全編ロシア語で書かれた、現地留学先などで使われる教材を使用。
-
-全20Unit編成。1Unit=1時間で進みます。
-
--   [![](/russian/wp-content/uploads/sites/8/2015/09/05-210x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/05.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/62-216x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/62.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/72-215x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/72.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/83-215x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/83.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/92-215x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/92.jpg)
-
-20時間完成、中級ロシア語2
-
-○対象：中級、B1
-
-○ロシア現地の語学学校でも使われている定番教材を使って、ロシア語の基礎力を学び、発展へとつなげていきます。
-
-全19Unit＋巻頭の１Unitの20Unit編成。1Unit=1時間で進みます。
-
--   [![ロシア語中級教材](/russian/wp-content/uploads/sites/8/2015/09/02-213x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/02.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/13-215x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/13.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/14-214x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/14.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/15-214x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/15.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/16-214x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/16.jpg)
-
-20時間完成、中上級ロシア語
-
-○対象：中上級、B2
-
-○ロシア現地の語学学校でも使われている定番教材を使って、ロシア語の基礎力を学び、発展へとつなげていきます。
-
-全19Unit＋巻頭の１Unitの20Unit編成。1Unit=1時間で進みます。
-
--   [![](/russian/wp-content/uploads/sites/8/2015/09/03-203x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/03.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/5-205x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/5.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/6-205x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/6.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/7-206x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/7.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/81-205x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/81.jpg)
-
-補習：ロシア語基本表現40
-
-○対象：初級
-
-ロシア語のレッスン内でよく使う表現をまとめています。
-
-全40個。1時間で10ほどすすみます。4時間完成見込み。
-
--   [![ロシア語基本表現40](/russian/wp-content/uploads/sites/8/2015/09/1-211x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/1.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/2-211x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/2.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/3-211x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/3.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/4-211x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/4.jpg)
--   [![](/russian/wp-content/uploads/sites/8/2015/09/51-211x300.jpg)](/russian/wp-content/uploads/sites/8/2015/09/51.jpg)
-
-[![](/russian/wp-content/uploads/sites/8/2015/09/icon_trial.gif)](/russian/onlinelessons/trial/)
-
-[![ロシア語学習サポート](/russian/wp-content/uploads/sites/8/2015/09/icon_trial_support.gif)](/russian/onlinelessons/support/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>豊富な教材を使って、確固たるロシア語力を鍛えます。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_blue vc_btn-blue vc_btn_md vc_btn-md vc_btn_rounded" href="" title="" target="">16時間完成、初歩ロシア語１</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○対象：初心者、A1</p>
+<p>○キリル文字の読み方や、発音の仕方など、初歩から徹底指導。必要最低限の単語と、文法を抑えてしまいます。</p>
+<p>全15Unit＋巻頭の１Unitの16Unit編成。1Unit=1時間で進みます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/russian/wp-content/uploads/sites/8/2015/09/0.jpg" data-lightbox="lightbox[rel-351-1407053656]"><img loading="lazy" fetchpriority="high" decoding="async" width="201" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/0-201x300.jpg" class="attachment-medium" alt="ロシア語初級教材" title="ロシア語初級教材"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/10.jpg" data-lightbox="lightbox[rel-351-1407053656]"><img loading="lazy" decoding="async" width="201" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/10-201x300.jpg" class="attachment-medium" alt="" title="10"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/11.jpg" data-lightbox="lightbox[rel-351-1407053656]"><img loading="lazy" decoding="async" width="201" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/11-201x300.jpg" class="attachment-medium" alt="" title="11"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/36.jpg" data-lightbox="lightbox[rel-351-1407053656]"><img loading="lazy" decoding="async" width="201" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/36-201x300.jpg" class="attachment-medium" alt="" title="36"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/37.jpg" data-lightbox="lightbox[rel-351-1407053656]"><img loading="lazy" decoding="async" width="201" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/37-201x300.jpg" class="attachment-medium" alt="" title="37"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_blue vc_btn-blue vc_btn_md vc_btn-md vc_btn_rounded" href="" title="" target="">16時間完成、初級ロシア語2</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○対象：初中級、A2</p>
+<p>○複文で会話ができるように、込み入った文法などもあわせて学び、簡単な日常会話レベルが滞りなく行えるようにします。</p>
+<p>全15Unit＋巻頭の１Unitの16Unit編成。1Unit=1時間で進みます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/russian/wp-content/uploads/sites/8/2015/09/01.jpg" data-lightbox="lightbox[rel-351-2873311804]"><img loading="lazy" decoding="async" width="218" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/01-218x300.jpg" class="attachment-medium" alt="" title="0"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/8.jpg" data-lightbox="lightbox[rel-351-2873311804]"><img loading="lazy" decoding="async" width="203" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/8-203x300.jpg" class="attachment-medium" alt="" title="8"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/9.jpg" data-lightbox="lightbox[rel-351-2873311804]"><img loading="lazy" decoding="async" width="203" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/9-203x300.jpg" class="attachment-medium" alt="" title="9"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/101.jpg" data-lightbox="lightbox[rel-351-2873311804]"><img loading="lazy" decoding="async" width="203" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/101-203x300.jpg" class="attachment-medium" alt="" title="10"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/111.jpg" data-lightbox="lightbox[rel-351-2873311804]"><img loading="lazy" decoding="async" width="203" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/111-203x300.jpg" class="attachment-medium" alt="" title="11"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_blue vc_btn-blue vc_btn_md vc_btn-md vc_btn_rounded" href="" title="" target="">20時間完成、初級ロシア語2</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○対象：初中級、A2</p>
+<p>○全編ロシア語で書かれた、現地留学先などで使われる教材を使用。</p>
+<p>全20Unit編成。1Unit=1時間で進みます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/russian/wp-content/uploads/sites/8/2015/09/04.jpg" data-lightbox="lightbox[rel-351-3371124506]"><img loading="lazy" decoding="async" width="214" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/04-214x300.jpg" class="attachment-medium" alt="ロシア語クラス初級" title="ロシア語クラス初級"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/61.jpg" data-lightbox="lightbox[rel-351-3371124506]"><img loading="lazy" decoding="async" width="216" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/61-216x300.jpg" class="attachment-medium" alt="" title="6"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/71.jpg" data-lightbox="lightbox[rel-351-3371124506]"><img loading="lazy" decoding="async" width="215" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/71-215x300.jpg" class="attachment-medium" alt="" title="7"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/82.jpg" data-lightbox="lightbox[rel-351-3371124506]"><img loading="lazy" decoding="async" width="216" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/82-216x300.jpg" class="attachment-medium" alt="" title="8"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/91.jpg" data-lightbox="lightbox[rel-351-3371124506]"><img loading="lazy" decoding="async" width="215" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/91-215x300.jpg" class="attachment-medium" alt="" title="9"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_blue vc_btn-blue vc_btn_md vc_btn-md vc_btn_rounded" href="" title="" target="">20時間完成、中級ロシア語1</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○対象：中級、B1</p>
+<p>○全編ロシア語で書かれた、現地留学先などで使われる教材を使用。</p>
+<p>全20Unit編成。1Unit=1時間で進みます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/russian/wp-content/uploads/sites/8/2015/09/05.jpg" data-lightbox="lightbox[rel-351-3510275636]"><img loading="lazy" decoding="async" width="210" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/05-210x300.jpg" class="attachment-medium" alt="" title="ロシア語中級教材"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/62.jpg" data-lightbox="lightbox[rel-351-3510275636]"><img loading="lazy" decoding="async" width="216" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/62-216x300.jpg" class="attachment-medium" alt="" title="6"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/72.jpg" data-lightbox="lightbox[rel-351-3510275636]"><img loading="lazy" decoding="async" width="215" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/72-215x300.jpg" class="attachment-medium" alt="" title="7"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/83.jpg" data-lightbox="lightbox[rel-351-3510275636]"><img loading="lazy" decoding="async" width="215" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/83-215x300.jpg" class="attachment-medium" alt="" title="8"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/92.jpg" data-lightbox="lightbox[rel-351-3510275636]"><img loading="lazy" decoding="async" width="215" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/92-215x300.jpg" class="attachment-medium" alt="" title="9"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_blue vc_btn-blue vc_btn_md vc_btn-md vc_btn_rounded" href="" title="" target="">20時間完成、中級ロシア語2</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○対象：中級、B1</p>
+<p>○ロシア現地の語学学校でも使われている定番教材を使って、ロシア語の基礎力を学び、発展へとつなげていきます。</p>
+<p>全19Unit＋巻頭の１Unitの20Unit編成。1Unit=1時間で進みます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/russian/wp-content/uploads/sites/8/2015/09/02.jpg" data-lightbox="lightbox[rel-351-3254131414]"><img loading="lazy" decoding="async" width="213" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/02-213x300.jpg" class="attachment-medium" alt="ロシア語中級教材" title="ロシア語中級教材"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/13.jpg" data-lightbox="lightbox[rel-351-3254131414]"><img loading="lazy" decoding="async" width="215" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/13-215x300.jpg" class="attachment-medium" alt="" title="13"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/14.jpg" data-lightbox="lightbox[rel-351-3254131414]"><img loading="lazy" decoding="async" width="214" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/14-214x300.jpg" class="attachment-medium" alt="" title="14"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/15.jpg" data-lightbox="lightbox[rel-351-3254131414]"><img loading="lazy" decoding="async" width="214" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/15-214x300.jpg" class="attachment-medium" alt="" title="15"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/16.jpg" data-lightbox="lightbox[rel-351-3254131414]"><img loading="lazy" decoding="async" width="214" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/16-214x300.jpg" class="attachment-medium" alt="" title="16"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_blue vc_btn-blue vc_btn_md vc_btn-md vc_btn_rounded" href="" title="" target="">20時間完成、中上級ロシア語</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○対象：中上級、B2</p>
+<p>○ロシア現地の語学学校でも使われている定番教材を使って、ロシア語の基礎力を学び、発展へとつなげていきます。</p>
+<p>全19Unit＋巻頭の１Unitの20Unit編成。1Unit=1時間で進みます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/russian/wp-content/uploads/sites/8/2015/09/03.jpg" data-lightbox="lightbox[rel-351-3647437730]"><img loading="lazy" decoding="async" width="203" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/03-203x300.jpg" class="attachment-medium" alt="" title="ロシア語中級2"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/5.jpg" data-lightbox="lightbox[rel-351-3647437730]"><img loading="lazy" decoding="async" width="205" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/5-205x300.jpg" class="attachment-medium" alt="" title="5"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/6.jpg" data-lightbox="lightbox[rel-351-3647437730]"><img loading="lazy" decoding="async" width="205" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/6-205x300.jpg" class="attachment-medium" alt="" title="6"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/7.jpg" data-lightbox="lightbox[rel-351-3647437730]"><img loading="lazy" decoding="async" width="206" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/7-206x300.jpg" class="attachment-medium" alt="" title="7"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/81.jpg" data-lightbox="lightbox[rel-351-3647437730]"><img loading="lazy" decoding="async" width="205" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/81-205x300.jpg" class="attachment-medium" alt="" title="8"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_blue vc_btn-blue vc_btn_md vc_btn-md vc_btn_rounded" href="" title="" target="">補習：ロシア語基本表現40</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>○対象：初級</p>
+<p>ロシア語のレッスン内でよく使う表現をまとめています。</p>
+<p>全40個。1時間で10ほどすすみます。4時間完成見込み。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/russian/wp-content/uploads/sites/8/2015/09/1.jpg" data-lightbox="lightbox[rel-351-3871556153]"><img loading="lazy" decoding="async" width="211" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/1-211x300.jpg" class="attachment-medium" alt="ロシア語基本表現40" title="ロシア語基本表現40"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/2.jpg" data-lightbox="lightbox[rel-351-3871556153]"><img loading="lazy" decoding="async" width="211" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/2-211x300.jpg" class="attachment-medium" alt="" title="2"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/3.jpg" data-lightbox="lightbox[rel-351-3871556153]"><img loading="lazy" decoding="async" width="211" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/3-211x300.jpg" class="attachment-medium" alt="" title="3"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/4.jpg" data-lightbox="lightbox[rel-351-3871556153]"><img loading="lazy" decoding="async" width="211" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/4-211x300.jpg" class="attachment-medium" alt="" title="4"></a></li><li><a href="/russian/wp-content/uploads/sites/8/2015/09/51.jpg" data-lightbox="lightbox[rel-351-3871556153]"><img loading="lazy" decoding="async" width="211" height="300" src="/russian/wp-content/uploads/sites/8/2015/09/51-211x300.jpg" class="attachment-medium" alt="" title="5"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/russian/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/russian/wp-content/uploads/sites/8/2015/09/icon_trial.gif" class="vc_single_image-img attachment-full" alt="" title="icon_trial"></a>
+</figure>
+</div>
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/russian/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/russian/wp-content/uploads/sites/8/2015/09/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="ロシア語学習サポート" title="ロシア語学習サポート"></a>
+</figure>
+</div>
+</div></div></div></div>
+</div>
+</div>

@@ -3,56 +3,58 @@ title: "コース・クラス紹介"
 path: "/english/children/onlinelessons/courses"
 ---
 
-![イーコムイラスト](/english/wp-content/uploads/2014/01/02-2.gif)
-
-大きく、「英会話トレーニング」、「英検対策」の２つのコースを用意。
-
-マンツーマンレッスンなので、コースの変更はいつでも可能です。
-
-## 一般英会話
-
-**[![](/english/children/wp-content/uploads/sites/2/2019/06/promoimage-150x150.gif)](/english/children/wp-content/uploads/sites/2/2019/06/promoimage.gif)**上達の王道である、音やイメージや推測から英語を覚える「**ダイレクトメソッド**」、発音アクセントの基礎「**フォニックス**」を中心に、受験英語ではない話せる英語（英会話）をサポートしています。
-
-[▶小学生高学年・中学生・高校生向け](/english/children/onlinelessons/courses/junior/)
-
-[▶小学生低学年向け](/english/children/onlinelessons/courses/kids/)
-
-[▶幼児（未就学）向け](/english/children/onlinelessons/courses/kids0/)
-
-## 英語試験対策
-
-[![](/english/children/wp-content/uploads/sites/2/2016/09/study-genius-gift-learn-150x150.jpg)英検](/english/children/onlinelessons/courses/examinations/eiken/)、[TEAP](/english/children/onlinelessons/courses/examinations/teap/)、TOEIC, TOEFL, IELTSなどの英語試験対策（[四大英語試験を確認](/english/children/onlinelessons/courses/examinations/)）を、公式問題集を使い、専門の講師が指導しています。
-
-## 上級時事英語（帰国子女対応）
-
-![](/english/children/wp-content/uploads/sites/2/2016/08/img_hangout-150x150.png)帰国子女など、子ども向けの上級英語クラスってあまりないですよね？
-
-ECOMでは、[時事英語教材](/english/news/category/intermediate/)を毎週更新しながら、帰国子女の英語上の維持・向上をサポートしています。
-
-## その他言語コース
-
-![](/english/children/wp-content/uploads/sites/2/2015/01/character02.jpg)フランス語、ドイツ語、スペイン語、ポルトガル語、ロシア語、イタリア語、アラビア語、中国語、韓国語、タイ語、ベトナム語など２０言語が学べるようになっています。興味ある方は各言語サイトへお越しください（ページ下部参照）。
-
-## 家族で一緒に語学レッスン
-
-家族でレッスンポイントを共有できますので、これを機会に親子で語学学習始めてみませんか？[大人向け英会話コースを詳しく見る▶](/english/onlinelessons/courses/)
-
-![親子英語](/english/children/wp-content/uploads/sites/2/2015/01/oyakoeigo-150x150.jpg)
-
-Ecomでは常に最新の英語教材を手に入れ研究をし、学習者の皆様に最もよいと思われる教材を提案させて頂いています。もちろんEcom自作の教材もあります。
-
-![英語教材](/english/children/wp-content/uploads/sites/2/2015/01/textbooks_p31-1024x372.jpg)
-
-## まずはお得なお試し体験制度はいかが？
-
-**  
-![](/english/children/wp-content/uploads/sites/2/2015/01/julia-suggest-middle2-300x286.jpg)・事前カウンセリング（15分程度）**  
-**・レッスン2コマ**  
-**・レベル測定**  
-**・学習システム使い放題**
-
-お試し価格４つセットで2,500円
-
-[詳しくはこちら（初心者でも安心）](/english/children/onlinelessons/trial/)
-
-[![子供英会話無料サポート](/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif)](/english/children/onlinelessons/support/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-4283" src="/english/wp-content/uploads/2014/01/02-2.gif" alt="イーコムイラスト" width="108" height="151"></p>
+<p>大きく、「英会話トレーニング」、「英検対策」の２つのコースを用意。</p>
+<p>マンツーマンレッスンなので、コースの変更はいつでも可能です。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_custom_1746328692822"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>一般英会話</h2></header><p><strong><a href="/english/children/wp-content/uploads/sites/2/2019/06/promoimage.gif"><img loading="lazy" decoding="async" class="alignright wp-image-1588 size-thumbnail" src="/english/children/wp-content/uploads/sites/2/2019/06/promoimage-150x150.gif" alt="" width="150" height="150"></a></strong>上達の王道である、音やイメージや推測から英語を覚える「<strong>ダイレクトメソッド</strong>」、発音アクセントの基礎「<strong>フォニックス</strong>」を中心に、受験英語ではない話せる英語（英会話）をサポートしています。</p>
+<p>&#160;</p>
+<p><a title="中学生、高校生向け英会話" href="/english/children/onlinelessons/courses/junior/">▶小学生高学年・中学生・高校生向け</a></p>
+<p><a title="キッズ英会話コース" href="/english/children/onlinelessons/courses/kids/">▶小学生低学年向け</a></p>
+<p><a title="幼児親子コース" href="/english/children/onlinelessons/courses/kids0/">▶幼児（未就学）向け</a></p>
+</div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_custom_1746328595616"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>英語試験対策</h2></header><p><a href="/english/children/onlinelessons/courses/examinations/eiken/"><img loading="lazy" decoding="async" class="alignright size-thumbnail wp-image-814" src="/english/children/wp-content/uploads/sites/2/2016/09/study-genius-gift-learn-150x150.jpg" alt="" width="150" height="150">英検</a>、<a href="/english/children/onlinelessons/courses/examinations/teap/">TEAP</a>、TOEIC, TOEFL, IELTSなどの英語試験対策（<a href="/english/children/onlinelessons/courses/examinations/">四大英語試験を確認</a>）を、公式問題集を使い、専門の講師が指導しています。</p>
+</div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_custom_1746327892969"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>上級時事英語（帰国子女対応）</h2></header><p><img loading="lazy" decoding="async" class="alignright size-thumbnail wp-image-786" src="/english/children/wp-content/uploads/sites/2/2016/08/img_hangout-150x150.png" alt="" width="150" height="150">帰国子女など、子ども向けの上級英語クラスってあまりないですよね？</p>
+<p>ECOMでは、<a href="/english/news/category/intermediate/" target="_blank" rel="noopener">時事英語教材</a>を毎週更新しながら、帰国子女の英語上の維持・向上をサポートしています。</p>
+</div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_custom_1489481690379"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>その他言語コース</h2></header><p><img loading="lazy" decoding="async" class="alignright size-full wp-image-62" src="/english/children/wp-content/uploads/sites/2/2015/01/character02.jpg" alt="" width="145" height="145">フランス語、ドイツ語、スペイン語、ポルトガル語、ロシア語、イタリア語、アラビア語、中国語、韓国語、タイ語、ベトナム語など２０言語が学べるようになっています。興味ある方は各言語サイトへお越しください（ページ下部参照）。</p>
+<p>&#160;</p>
+</div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>家族で一緒に語学レッスン</h2></header><p>家族でレッスンポイントを共有できますので、これを機会に親子で語学学習始めてみませんか？<a title="英語コース、クラス" href="/english/onlinelessons/courses/">大人向け英会話コースを詳しく見る▶</a></p>
+<p><img loading="lazy" decoding="async" class="size-thumbnail wp-image-376 aligncenter" src="/english/children/wp-content/uploads/sites/2/2015/01/oyakoeigo-150x150.jpg" alt="親子英語" width="150" height="150"></p>
+</div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1403871798172 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_black vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>Ecomでの取組み</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div>
+<div class="wpb_text_column wpb_content_element vc_custom_1403871812032">
+<div class="wpb_wrapper">
+<p>Ecomでは常に最新の英語教材を手に入れ研究をし、学習者の皆様に最もよいと思われる教材を提案させて頂いています。もちろんEcom自作の教材もあります。</p>
+</div>
+</div>
+<div class="wpb_single_image wpb_content_element vc_align_left">
+<figure class="wpb_wrapper vc_figure">
+<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1024" height="372" src="/english/children/wp-content/uploads/sites/2/2015/01/textbooks_p31-1024x372.jpg" class="vc_single_image-img attachment-large" alt="英語教材" title="英語教材"></div>
+</figure>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icons-on-border vc_cta3-icon-size-md vc_cta3-icons-left vc_cta3-actions-bottom"><div class="vc_cta3-icons"><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-check-circle"></span></div></div></div><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>まずはお得なお試し体験制度はいかが？</h2></header><p><strong><br>
+<img loading="lazy" decoding="async" class="alignright wp-image-1117 size-medium" src="/english/children/wp-content/uploads/sites/2/2015/01/julia-suggest-middle2-300x286.jpg" alt="" width="300" height="286">・事前カウンセリング（15分程度）</strong><br>
+<strong>・レッスン2コマ</strong><br>
+<strong>・レベル測定</strong><br>
+<strong>・学習システム使い放題</strong></p>
+<p>お試し価格４つセットで2,500円</p>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-warning" href="/english/children/onlinelessons/trial/" title=""><i class="vc_btn3-icon fas fa-adjust"></i> 詳しくはこちら（初心者でも安心）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/children/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
+</figure>
+</div>
+</div></div></div></div>
+</div>
+</div>

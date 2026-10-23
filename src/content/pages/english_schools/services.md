@@ -3,33 +3,12 @@ title: "サービス紹介"
 path: "/english/schools/services/"
 ---
 
-## ECOM Cultures
-
-#### 国際理解教育
-
-総合学習支援ー国際理解教育。![](/english/schools/wp-content/uploads/sites/4/2020/06/character02.jpg)
-
-[ECOM Culturesについて](/english/schools/services/sougou/)
-
-## ECOM オンラインALT
-
-#### 公立学校向け
-
-外国人講師オンライン代替サービス![](/english/schools/wp-content/uploads/sites/4/2020/06/ContactUsPage-150x150.jpg)
-
-[ECOM オンラインALTについて](/english/schools/services/online-alt/)
-
-## ECOMオンラインELT
-
-#### 私立校・大学向け
-
-ELT外国人英語講師オンライン代替  
-![](/english/schools/wp-content/uploads/sites/4/2020/06/Fotosearch_jg0111528-150x150.jpg)
-
-[ECOMオンラインELTについて](/english/schools/services/online-elt/)
-
-## ECOM オンライン第二外国語
-
-中国語、フランス語、スペイン語、ドイツ語、ロシア語、アラビア語など20言語の指導が可能。![](/english/schools/wp-content/uploads/sites/4/2020/06/gamenchian001-150x150.jpg)
-
-[ECOM オンライン第二外国語について](/english/schools/services/online-languages/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>ECOM Cultures</h2><h4>国際理解教育</h4></header><p>総合学習支援ー国際理解教育。<img loading="lazy" decoding="async" class="alignright size-full wp-image-224" src="/english/schools/wp-content/uploads/sites/4/2020/06/character02.jpg" alt="" width="145" height="145"></p>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-warning" href="/english/schools/services/sougou/" title="ECOM Cultures">ECOM Culturesについて</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>ECOM オンラインALT</h2><h4>公立学校向け</h4></header><p>外国人講師オンライン代替サービス<img loading="lazy" decoding="async" class="alignright size-thumbnail wp-image-154" src="/english/schools/wp-content/uploads/sites/4/2020/06/ContactUsPage-150x150.jpg" alt="" width="150" height="150"></p>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-warning" href="/english/schools/services/online-alt/" title="">ECOM オンラインALTについて</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>ECOMオンラインELT</h2><h4>私立校・大学向け</h4></header><p>ELT外国人英語講師オンライン代替<br>
+<img loading="lazy" decoding="async" class="alignright size-thumbnail wp-image-153" src="/english/schools/wp-content/uploads/sites/4/2020/06/Fotosearch_jg0111528-150x150.jpg" alt="" width="150" height="150"></p>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-warning" href="/english/schools/services/online-elt/" title="">ECOMオンラインELTについて</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>ECOM オンライン第二外国語</h2></header><p>中国語、フランス語、スペイン語、ドイツ語、ロシア語、アラビア語など20言語の指導が可能。<img loading="lazy" decoding="async" class="alignright size-thumbnail wp-image-288" src="/english/schools/wp-content/uploads/sites/4/2020/06/gamenchian001-150x150.jpg" alt="" width="150" height="150"></p>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-warning" href="/english/schools/services/online-languages/" title="">ECOM オンライン第二外国語について</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
+</div>
+</div>

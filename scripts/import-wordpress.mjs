@@ -113,8 +113,10 @@ td.addRule('link', {
 });
 
 // 表・セレクト等そのまま残す HTML の中の URL と不要な属性を整える
-function tidy(root) {
-  for (const el of root.querySelectorAll('script, style, noscript, link, meta, .akismet-fields-container, .sharedaddy, .vc_separator, .vc_empty_space')) el.remove();
+// keepLayout: WPBakery の段組みを HTML のまま残す（区切り線・余白・表のクラスも残す）
+function tidy(root, keepLayout = false) {
+  const drop = keepLayout ? 'script, style, noscript, link, meta, .akismet-fields-container, .sharedaddy' : 'script, style, noscript, link, meta, .akismet-fields-container, .sharedaddy, .vc_separator, .vc_empty_space';
+  for (const el of root.querySelectorAll(drop)) el.remove();
   for (const el of root.querySelectorAll('[src], [data-src]')) {
     const v = el.getAttribute('data-src') || el.getAttribute('src');
     if (v && !v.startsWith('data:') && el.nodeName === 'IMG' && missing(localize(v))) { el.remove(); continue; }
@@ -124,10 +126,31 @@ function tidy(root) {
     el.removeAttribute('data-srcset');
     el.removeAttribute('sizes');
     el.removeAttribute('data-sizes');
+    if (el.nodeName === 'IMG') el.setAttribute('loading', 'lazy');
   }
   for (const el of root.querySelectorAll('option[value]')) el.setAttribute('value', localize(el.getAttribute('value')));
-  for (const el of root.querySelectorAll('table [class], table[class]')) el.removeAttribute('class');
-  for (const el of root.querySelectorAll('.vc_table_content')) el.replaceWith(...el.childNodes);
+  if (keepLayout) {
+    for (const el of root.querySelectorAll('a[href]')) el.setAttribute('href', localize(el.getAttribute('href')));
+    // WPBakery の投稿グリッドは旧サイトでは Ajax で読み込んでいた。目印に置き換え、ページ側で最新記事を出す
+    for (const el of root.querySelectorAll('.vc_grid-container-wrapper')) {
+      const settings = el.querySelector('[data-vc-grid-settings]')?.getAttribute('data-vc-grid-settings') ?? '';
+      const n = (settings.match(/"items_per_page":"(\d+)"/) || [])[1] ?? '4';
+      const marker = el.ownerDocument.createElement('div');
+      marker.setAttribute('data-recent-posts', n);
+      el.replaceWith(marker);
+    }
+    for (const el of root.querySelectorAll('[style*="background-image"]')) el.setAttribute('style', el.getAttribute('style').replace(/url\((['"]?)([^)'"]+)\1\)/g, (_, q, u) => `url(${q}${localize(u)}${q})`));
+  } else {
+    for (const el of root.querySelectorAll('table [class], table[class]')) el.removeAttribute('class');
+    for (const el of root.querySelectorAll('.vc_table_content')) el.replaceWith(...el.childNodes);
+  }
+}
+
+// 段組みのあるページは HTML のまま書き出す。Markdown の中で 1 つの HTML ブロックになるよう空行を無くし、全体を div で包む
+function toHtml(root) {
+  tidy(root, true);
+  const html = root.innerHTML.split('\n').map((l) => l.trim()).filter(Boolean).join('\n');
+  return `<div class="wp-layout">\n${html}\n</div>\n`;
 }
 
 function toMarkdown(root) {
@@ -164,7 +187,8 @@ function parsePage(html, siteKey) {
     // フォームの外側に残る Gravity Forms の確認メッセージ等
     for (const el of content.querySelectorAll('.gform_confirmation_wrapper, .gf_browser_unknown, iframe[name^=gform_ajax_frame]')) el.remove();
   }
-  return { body: content ? toMarkdown(content) : '', slides, forms: formKeys };
+  const layout = !!content?.querySelector('.vc_row');
+  return { body: content ? (layout ? toHtml(content) : toMarkdown(content)) : '', slides, forms: formKeys, layout };
 }
 
 const urlPath = (link) => safeDecode(new URL(link).pathname);

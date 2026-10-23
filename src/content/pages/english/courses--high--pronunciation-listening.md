@@ -3,51 +3,48 @@ title: "発音、リスニング特化コース"
 path: "/english/courses/high/pronunciation-listening/"
 ---
 
-10時間完成英語発音トレーニング
-
-日本人は英語のここがうまく発音できないポイントを収録し、訓練、改善できる教本。
-
-10 Units。初回は大人でも学ぶべきフォニックスの基礎を練習し、重要なアクセント、発音などを徹底トレーニング。
-
-アメリカ英語、イギリス英語の違いにも対応。
-
--   [![](/english/wp-content/uploads/2024/08/50b9fffaac1fde9d0cbfd61274d2fbf7-150x150.png)](/english/wp-content/uploads/2024/08/50b9fffaac1fde9d0cbfd61274d2fbf7.png)
--   [![](/english/wp-content/uploads/2024/08/d7070e4ebc2ed56c326a9d4a11fbb3d3-150x150.png)](/english/wp-content/uploads/2024/08/d7070e4ebc2ed56c326a9d4a11fbb3d3.png)
-
-25時間完成、英語の発音・アクセント強化
-
-発音は意識して学習するのとしないので全然違ってきます。ここでは講師があなたのVoice trainerの役割を担い、あなたの英語アクセント（イントネーション）と発音を集中的に直していきます。教材は世界的な有名教材で、全9Chapterで構成されていて1Chapter=2時間のペースで進めていきます。教科書にはCDが4枚付属されているので習った後に自分で練習もできます。American accent trainingより個別の発音の単元がよくまとめてあります。好みにもよりますが論理だって発音を攻略されたい方にはよりあっているかと思います。
-
--   [![](/english/wp-content/uploads/2015/01/aat-new-210x300.jpg)](/english/wp-content/uploads/2015/01/aat-new.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-new-1-212x300.jpg)](/english/wp-content/uploads/2015/01/aat-new-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-new-2-212x300.jpg)](/english/wp-content/uploads/2015/01/aat-new-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-new-3-213x300.jpg)](/english/wp-content/uploads/2015/01/aat-new-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-new-4-212x300.jpg)](/english/wp-content/uploads/2015/01/aat-new-4.jpg)
-
--   [![](/english/wp-content/uploads/2015/01/aat-217x300.jpg)](/english/wp-content/uploads/2015/01/aat.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-1-207x300.jpg)](/english/wp-content/uploads/2015/01/aat-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-2-194x300.jpg)](/english/wp-content/uploads/2015/01/aat-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-3-201x300.jpg)](/english/wp-content/uploads/2015/01/aat-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/aat-4-200x300.jpg)](/english/wp-content/uploads/2015/01/aat-4.jpg)
-
-10時間完成、英語口、筋肉養成
-
-タングツイスター(Tongue twister)=早口言葉の手法で英語の口の動きを鍛えます。
-
--   [![](/english/wp-content/uploads/2015/01/tongue-220x300.jpg)](/english/wp-content/uploads/2015/01/tongue.jpg)
--   [![](/english/wp-content/uploads/2015/01/tongue-1-220x300.jpg)](/english/wp-content/uploads/2015/01/tongue-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/tongue-2-220x300.jpg)](/english/wp-content/uploads/2015/01/tongue-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/tongue-3-220x300.jpg)](/english/wp-content/uploads/2015/01/tongue-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/tongue-4-220x300.jpg)](/english/wp-content/uploads/2015/01/tongue-4.jpg)
-
-12時間完成、英語の歌で学習、発音、リスニングトレーニング
-
-エルトン・ジョン、ブリタニーなど世界的に有名な歌手の歌を素材にディクテーション（歌詞書き取り）をし、発音やアクセントのトレーニングを行う。教材は全12Units構成。1Units=1時間で進んでいきます。
-
--   [![音楽で学ぶ英語](/english/wp-content/uploads/2015/01/music-225x300.jpg)](/english/wp-content/uploads/2015/01/music.jpg)
--   [![](/english/wp-content/uploads/2015/01/music-1-217x300.jpg)](/english/wp-content/uploads/2015/01/music-1.jpg)
--   [![](/english/wp-content/uploads/2015/01/music-2-217x300.jpg)](/english/wp-content/uploads/2015/01/music-2.jpg)
--   [![](/english/wp-content/uploads/2015/01/music-3-217x300.jpg)](/english/wp-content/uploads/2015/01/music-3.jpg)
--   [![](/english/wp-content/uploads/2015/01/music-4-217x300.jpg)](/english/wp-content/uploads/2015/01/music-4.jpg)
-
-[![スカイプ英会話体験レッスン案内](/english/wp-content/uploads/2014/01/icon_trial.gif)](/english/trial/)
+<div class="wp-layout">
+<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><button class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-green">10時間完成英語発音トレーニング</button></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>日本人は英語のここがうまく発音できないポイントを収録し、訓練、改善できる教本。</p>
+<p>10 Units。初回は大人でも学ぶべきフォニックスの基礎を練習し、重要なアクセント、発音などを徹底トレーニング。</p>
+<p>アメリカ英語、イギリス英語の違いにも対応。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="3" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2024/08/50b9fffaac1fde9d0cbfd61274d2fbf7.png" data-lightbox="lightbox[rel-8327-1878262679]"><img loading="lazy" decoding="async" width="150" height="150" src="/english/wp-content/uploads/2024/08/50b9fffaac1fde9d0cbfd61274d2fbf7-150x150.png" class="attachment-thumbnail" alt="" title="スクリーンショット 2024-08-13 100314"></a></li><li><a href="/english/wp-content/uploads/2024/08/d7070e4ebc2ed56c326a9d4a11fbb3d3.png" data-lightbox="lightbox[rel-8327-1878262679]"><img loading="lazy" decoding="async" width="150" height="150" src="/english/wp-content/uploads/2024/08/d7070e4ebc2ed56c326a9d4a11fbb3d3-150x150.png" class="attachment-thumbnail" alt="" title="スクリーンショット 2024-08-13 100807"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">25時間完成、英語の発音・アクセント強化</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>発音は意識して学習するのとしないので全然違ってきます。ここでは講師があなたのVoice trainerの役割を担い、あなたの英語アクセント（イントネーション）と発音を集中的に直していきます。教材は世界的な有名教材で、全9Chapterで構成されていて1Chapter=2時間のペースで進めていきます。教科書にはCDが4枚付属されているので習った後に自分で練習もできます。American accent trainingより個別の発音の単元がよくまとめてあります。好みにもよりますが論理だって発音を攻略されたい方にはよりあっているかと思います。</p>
+</div>
+</div>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/aat-new.jpg" data-lightbox="lightbox[rel-8327-2340207369]"><img loading="lazy" fetchpriority="high" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2015/01/aat-new-210x300.jpg" class="attachment-medium" alt="" title="aat-new"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-new-1.jpg" data-lightbox="lightbox[rel-8327-2340207369]"><img loading="lazy" decoding="async" width="212" height="300" src="/english/wp-content/uploads/2015/01/aat-new-1-212x300.jpg" class="attachment-medium" alt="" title="aat-new-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-new-2.jpg" data-lightbox="lightbox[rel-8327-2340207369]"><img loading="lazy" decoding="async" width="212" height="300" src="/english/wp-content/uploads/2015/01/aat-new-2-212x300.jpg" class="attachment-medium" alt="" title="aat-new-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-new-3.jpg" data-lightbox="lightbox[rel-8327-2340207369]"><img loading="lazy" decoding="async" width="213" height="300" src="/english/wp-content/uploads/2015/01/aat-new-3-213x300.jpg" class="attachment-medium" alt="" title="aat-new-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-new-4.jpg" data-lightbox="lightbox[rel-8327-2340207369]"><img loading="lazy" decoding="async" width="212" height="300" src="/english/wp-content/uploads/2015/01/aat-new-4-212x300.jpg" class="attachment-medium" alt="" title="aat-new-4"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/aat.jpg" data-lightbox="lightbox[rel-8327-3803978311]"><img loading="lazy" decoding="async" width="217" height="300" src="/english/wp-content/uploads/2015/01/aat-217x300.jpg" class="attachment-medium" alt="" title="aat"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-1.jpg" data-lightbox="lightbox[rel-8327-3803978311]"><img loading="lazy" decoding="async" width="207" height="300" src="/english/wp-content/uploads/2015/01/aat-1-207x300.jpg" class="attachment-medium" alt="" title="aat-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-2.jpg" data-lightbox="lightbox[rel-8327-3803978311]"><img loading="lazy" decoding="async" width="194" height="300" src="/english/wp-content/uploads/2015/01/aat-2-194x300.jpg" class="attachment-medium" alt="" title="aat-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-3.jpg" data-lightbox="lightbox[rel-8327-3803978311]"><img loading="lazy" decoding="async" width="201" height="300" src="/english/wp-content/uploads/2015/01/aat-3-201x300.jpg" class="attachment-medium" alt="" title="aat-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/aat-4.jpg" data-lightbox="lightbox[rel-8327-3803978311]"><img loading="lazy" decoding="async" width="200" height="300" src="/english/wp-content/uploads/2015/01/aat-4-200x300.jpg" class="attachment-medium" alt="" title="aat-4"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">10時間完成、英語口、筋肉養成</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>タングツイスター(Tongue twister)=早口言葉の手法で英語の口の動きを鍛えます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/tongue.jpg" data-lightbox="lightbox[rel-8327-4127738337]"><img loading="lazy" decoding="async" width="220" height="300" src="/english/wp-content/uploads/2015/01/tongue-220x300.jpg" class="attachment-medium" alt="" title="英語喉発音"></a></li><li><a href="/english/wp-content/uploads/2015/01/tongue-1.jpg" data-lightbox="lightbox[rel-8327-4127738337]"><img loading="lazy" decoding="async" width="220" height="300" src="/english/wp-content/uploads/2015/01/tongue-1-220x300.jpg" class="attachment-medium" alt="" title="tongue-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/tongue-2.jpg" data-lightbox="lightbox[rel-8327-4127738337]"><img loading="lazy" decoding="async" width="220" height="300" src="/english/wp-content/uploads/2015/01/tongue-2-220x300.jpg" class="attachment-medium" alt="" title="tongue-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/tongue-3.jpg" data-lightbox="lightbox[rel-8327-4127738337]"><img loading="lazy" decoding="async" width="220" height="300" src="/english/wp-content/uploads/2015/01/tongue-3-220x300.jpg" class="attachment-medium" alt="" title="tongue-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/tongue-4.jpg" data-lightbox="lightbox[rel-8327-4127738337]"><img loading="lazy" decoding="async" width="220" height="300" src="/english/wp-content/uploads/2015/01/tongue-4-220x300.jpg" class="attachment-medium" alt="" title="tongue-4"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">12時間完成、英語の歌で学習、発音、リスニングトレーニング</a></div>
+<div class="wpb_text_column wpb_content_element">
+<div class="wpb_wrapper">
+<p>エルトン・ジョン、ブリタニーなど世界的に有名な歌手の歌を素材にディクテーション（歌詞書き取り）をし、発音やアクセントのトレーニングを行う。教材は全12Units構成。1Units=1時間で進んでいきます。</p>
+</div>
+</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/music.jpg" data-lightbox="lightbox[rel-8327-3350354307]"><img loading="lazy" decoding="async" width="225" height="300" src="/english/wp-content/uploads/2015/01/music-225x300.jpg" class="attachment-medium" alt="音楽で学ぶ英語" title="洋楽で学ぶ英語"></a></li><li><a href="/english/wp-content/uploads/2015/01/music-1.jpg" data-lightbox="lightbox[rel-8327-3350354307]"><img loading="lazy" decoding="async" width="217" height="300" src="/english/wp-content/uploads/2015/01/music-1-217x300.jpg" class="attachment-medium" alt="" title="music-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/music-2.jpg" data-lightbox="lightbox[rel-8327-3350354307]"><img loading="lazy" decoding="async" width="217" height="300" src="/english/wp-content/uploads/2015/01/music-2-217x300.jpg" class="attachment-medium" alt="" title="music-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/music-3.jpg" data-lightbox="lightbox[rel-8327-3350354307]"><img loading="lazy" decoding="async" width="217" height="300" src="/english/wp-content/uploads/2015/01/music-3-217x300.jpg" class="attachment-medium" alt="" title="music-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/music-4.jpg" data-lightbox="lightbox[rel-8327-3350354307]"><img loading="lazy" decoding="async" width="217" height="300" src="/english/wp-content/uploads/2015/01/music-4-217x300.jpg" class="attachment-medium" alt="" title="music-4"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="wpb_single_image wpb_content_element vc_align_center">
+<figure class="wpb_wrapper vc_figure">
+<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+</figure>
+</div>
+</div></div></div></div>
+</div>
+</div>

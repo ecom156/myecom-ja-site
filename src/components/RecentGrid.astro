@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import { siteKeyOf, sortPosts, postPath, blogPath, type Site } from '../lib';
+
+// 旧サイトの WPBakery 投稿グリッドの代わり。本文中の <div data-recent-posts="件数"></div> の位置に最新記事を出す
+interface Props { site: Site }
+const { site } = Astro.props;
+const posts = sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)).slice(0, 12);
+---
+<div class="recent-grid" data-recent-grid hidden>
+  {posts.map((p) => (
+    <a class="recent-card" href={postPath(p)}>
+      {p.data.image && <img src={p.data.image} alt="" loading="lazy" />}
+      <span>{p.data.title}</span>
+    </a>
+  ))}
+  <p class="recent-more"><a class="btn" href={blogPath(site)}>もっと見る</a></p>
+</div>
+<script is:inline>
+  for (const marker of document.querySelectorAll('.prose [data-recent-posts]')) {
+    const grid = document.querySelector('[data-recent-grid]').cloneNode(true);
+    const n = Number(marker.getAttribute('data-recent-posts')) || 4;
+    grid.querySelectorAll('.recent-card').forEach((c, i) => { if (i >= n) c.remove(); });
+    grid.hidden = false;
+    marker.replaceWith(grid);
+  }
+</script>
