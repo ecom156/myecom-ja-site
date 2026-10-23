@@ -5,92 +5,47 @@ forms:
   - root-2
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>正式入会前に、お一人様、各言語1回づつ、2,500円のお得な体験レッスン制度を用意しています。</p>
-<p>すべての言語共通。</p>
+<p>ECOMの体験レッスンは、入会後と同じプロ講師による本番のレッスンです。30分のマンツーマンレッスンを2回受けて、講師との相性や上達の手応えを確かめてください。英語・子供英会話・その他の言語すべて共通です。</p>
+
+<div class="summary-cards">
+<div><b>2,500円</b><span>税込・お一人さま各言語1回</span></div>
+<div><b>30分×2回</b><span>60分1回にもできます</span></div>
+<div><b>全言語共通</b><span>英語・子供英会話・他言語</span></div>
 </div>
+
+<div class="cta-center">
+<a class="btn-main" href="#trial-form">体験レッスンを予約する（30分×2回・2,500円）</a>
+<p class="note">お支払いはお申込み時にクレジットカード（Square）で。強引な勧誘はいたしません。</p>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h4>・30分クラス✕2回の実際のレッスン体験</h4>
-<h4>・事前、事後カウンセリング（音声チェック、学習カウンセリング）</h4>
+
+<h2>体験レッスンの内容</h2>
+<table class="spec-table">
+<tr><th>料金</th><td>2,500円（税込）</td></tr>
+<tr><th>レッスン</th><td>30分のマンツーマンレッスン×2回。60分1回にまとめても、別の日に分けてもかまいません。</td></tr>
+<tr><th>講師</th><td>ネイティブ講師、または日本語が分かるバイリンガル講師。ご希望に合わせて、入会後に担任となる候補の講師をご提案します。</td></tr>
+<tr><th>対象</th><td>大人の方、子供（17歳以下・保護者の方がお申込み）、英語以外の言語をご希望の方。法人のご担当者様は<a href="/english/corporation/">法人向けページ</a>からご相談ください。</td></tr>
+<tr><th>回数</th><td>お一人さま、言語ごとに1回まで</td></tr>
+<tr><th>お支払い</th><td>お申込み後、そのままクレジットカード（Square）でお支払いいただけます。</td></tr>
+</table>
+
+<h2>お申込みから体験までの流れ</h2>
+<ol class="steps">
+<li><b>フォームからお申込み・お支払い</b><br>お名前、メールアドレス、ご希望の言語などを入力し、体験料をカードでお支払いください。</li>
+<li><b>会員サイトで体験レッスンを予約</b><br>お支払いを確認したら、会員サイトのご案内をメールでお送りします。ログインして、お好きな講師・時間で予約してください。レッスンは24時間、早朝や深夜も受けられます。事前相談を希望された方は、相談の中で一緒に予約します。</li>
+<li><b>体験レッスン（30分×2回）</b><br>実際のレッスンを受けていただきます。継続を希望される場合は、会員サイトからチケットを申し込むとご入会いただけます。</li>
+</ol>
+
+<div class="soft-box">
+<b>はじめての方は、無料の事前相談（約15分）もご利用ください。</b><br>
+日本人スタッフがオンラインで顔合わせをし、音声の確認、学習の目的に合う講師やクラスのご提案、予約サイトの使い方のご説明をします。6:00〜21:00、土日祝も対応しています。フォームで「希望する」を選んでください。
 </div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="544" height="284" src="/wp-content/uploads/2023/01/online-lesson.png" class="vc_single_image-img attachment-full" alt="" title="online-lesson"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>体験の流れ</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>1. 体験申し込み</h3>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="500" height="400" src="/wp-content/uploads/2023/01/flow1ver3.jpg" class="vc_single_image-img attachment-full" alt="" title="flow1ver3"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">フォームよりお申し込み頂くと、受付案内メールが送られます。</p>
-<p style="text-align: center;">確認頂きます。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>2.&#160; &#160;事前カウンセリング受講</h3>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="500" height="400" src="/wp-content/uploads/2023/01/flow2ver3.jpg" class="vc_single_image-img attachment-full" alt="" title="flow2ver3"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">音声チェックも兼ねた、オンライン事前カウンセリングです。</p>
-<p style="text-align: center;">実際にログインしながら、予約システムの説明も行います。</p>
-<p style="text-align: center;">あなたにあった講師や、ニーズにそった授業クラスを、</p>
-<p style="text-align: center;">体験レッスン向けにアレンジしていきます。</p>
-<p style="text-align: center;">所要時間：15分程度</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>3. 体験レッスン受講</h3>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="500" height="400" src="/wp-content/uploads/2023/01/flow3ver3.jpg" class="vc_single_image-img attachment-full" alt="" title="flow3ver3"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">実際のレッスンを体験してもらいます。</p>
-<p style="text-align: center;">30分クラス ✕ 2回。</p>
-<p style="text-align: center;">（60分クラス1回でもいいですし、1日に間をあけて2コマも受講できます。）</p>
-<p style="text-align: center;">体験後、継続されたい場合には、会員サイトからポイント購入申請を行うことで入会いただけます。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1674530456153 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+
+<h2 id="trial-form">体験レッスンのお申込み</h2>
+<p class="note">入力は1分ほどで終わります。送信後、お支払いのご案内が表示されます。</p>
 <div data-form="root-2"></div>
-</div></div></div></div>
-</div>
+
+<div class="ai-box">
+<b>まずは無料で試したい方へ</b><br>
+AI講師と話せる「ECOM AIレッスン」は、無料の会員登録だけで10分間お試しいただけます。<br>
+<a href="https://ai.myecom.net">AI講師を無料で10分試す</a>
 </div>

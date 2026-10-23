@@ -52,7 +52,7 @@ path: "/english/corporation/checkpoint/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2><span style="color: #ff6600;">4.&#160;効果測定</span></h2>
-<p>研修後にきちんと効果を確認できるように、効果測定のある研修会社を選びましょう。ポイントは、『費用対効果』以外に、『時間対効果』も重要指標として確認ください。</p>
+<p>研修後にきちんと効果を確認できるように、効果測定のある研修会社を選びましょう。チケットは、『費用対効果』以外に、『時間対効果』も重要指標として確認ください。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 96px"><span class="vc_empty_space_inner"></span></div>
@@ -81,6 +81,6 @@ path: "/english/corporation/checkpoint/"
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
 <p>お電話でも受け付けております。<br>
 050-5532-3069</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 問い合わせフォームへ(Click)</a></div></div></div></div></section></div></div></div></div>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div>
 </div>
 </div>

@@ -29,7 +29,7 @@ front: true
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p style="text-align: center;">英語教育を20年近く行っている<a href="/english/" target="_blank" rel="noopener">ECOM英語学校</a>が無料提供しています。</p>
+<p style="text-align: center;">英語教育を20年以上行っている<a href="/english/" target="_blank" rel="noopener">ECOM英語学校</a>が無料提供しています。</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -136,7 +136,7 @@ AI搭載の音声読み込み、文字起こし、発音練習などを新規搭
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>２０年近く運営する外国語学校が提供する信頼のアプリ。</p>
+<p>２０年以上運営する外国語学校が提供する信頼のアプリ。</p>
 <p>アプリとは別に、普段の英語授業のお金を生徒様から頂いているので、このアプリは完全無料で利用頂けます。よろしければ、ECOM英語学校の口コミ宣伝よろしくお願いします。</p>
 </div>
 </div>

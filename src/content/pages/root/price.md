@@ -1,97 +1,75 @@
 ---
-title: "料金システム"
+title: "料金（チケット制・全言語共通）"
 path: "/price/"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">自由度の高いポイント制</h2>
+<p>30分のマンツーマンレッスン1回につき、チケットを1枚使います。チケットは英語・子供英会話・その他の言語すべてで共通です。必要な分だけ買って、足りなくなったら追加する仕組みなので、無駄がありません。毎月の自動引き落としもありません。</p>
+
+<div class="pill-links">
+<a href="#price-adult">大人の方</a>
+<a href="#price-kids">子供（17歳以下）</a>
+<a href="#price-business">法人・学校</a>
+<a href="#payment">お支払い方法</a>
 </div>
+
+<h2 id="price-adult">チケット料金表（税込）</h2>
+
+<div class="price-scroll">
+<table class="price-table">
+<thead>
+<tr><th>チケット</th><th>料金</th><th>30分あたり</th><th>受講時間</th><th>有効期限</th></tr>
+</thead>
+<tbody>
+<tr><td>3枚（月3回）</td><td>9,900円</td><td>3,300円</td><td>1.5時間</td><td>1ヶ月</td></tr>
+<tr><td>10枚</td><td>38,320円</td><td>3,832円</td><td>5時間</td><td>4ヶ月</td></tr>
+<tr><td>20枚</td><td>71,340円</td><td>3,567円</td><td>10時間</td><td>4ヶ月</td></tr>
+<tr class="hl"><td>30枚（短期集中）</td><td>90,000円</td><td>3,000円</td><td>15時間</td><td>1ヶ月</td></tr>
+<tr><td>40枚</td><td>135,960円</td><td>3,399円</td><td>20時間</td><td>6ヶ月</td></tr>
+<tr><td>80枚</td><td>252,720円</td><td>3,159円</td><td>40時間</td><td>8ヶ月</td></tr>
+<tr><td>160枚</td><td>479,520円</td><td>2,997円</td><td>80時間</td><td>12ヶ月</td></tr>
+</tbody>
+</table>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>すべての言語のオンラインレッスン共通。</p>
-<p>30分クラス（マンツーマン）受講 ＝ 1ポイント消費。</p>
-<p>必要な分だけ買って利用、足りなくなったら補充で無駄がありません。</p>
+<p class="note">有効期限は、チケットを使い始めた日から数えます。</p>
+
+<div class="info-cards">
+<div><b>月額プラン：月3回 9,900円</b>毎月チケット3枚（1ヶ月有効）。大人・子供どちらも、まずこのプランから始める方が多いです。</div>
+<div><b>入会金 9,000円（税込）</b>初回のご入会時のみ必要です。</div>
+<div><b>続けるほど割引</b>累計150枚以上で5%、300枚以上で10%、500枚以上で15%OFFになります。</div>
 </div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="1024" height="545" src="/wp-content/uploads/2023/01/spanish-elena-1024x545.jpg" class="vc_single_image-img attachment-large" alt="" title="spanish-elena"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3 style="text-align: center;">費用は、大手語学学校の半分程度の値段で受けられます。</h3>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_blue"><tr class="vc-th"><td class="vc_table_cell"><span class="vc_table_content">Point単位</span></td><td class="vc_table_cell"><span class="vc_table_content">金額 (税込)</span></td><td class="vc_table_cell"><span class="vc_table_content">1ポイント30分単価</span></td><td class="vc_table_cell"><span class="vc_table_content">受講時間</span></td><td class="vc_table_cell"><span class="vc_table_content">有効期限</span></td><td class="vc_table_cell"><span class="vc_table_content">Comment</span></td></tr><tr><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">10</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 38,320</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 3,832</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">5時間</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">4ヶ月</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">週1回の方にオススメ</span></td></tr><tr><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">20</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 71,340</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 3,567</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">10時間</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">4ヶ月</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">週2回くらいの方にオススメ</span></td></tr><tr><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">40</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 135,960</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 3,399</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">20時間</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">6ヶ月</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">週3以上利用される方は、まとめて買われた方がお得。</span></td></tr><tr><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">80</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 252,720</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 3,159</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">40時間</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">8ヶ月</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">常連の方からの人気NO1</span></td></tr><tr><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">3</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 9,900</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 3,300</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">1.5時間</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">30日</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">月3回を定期的にこなしていきたい方にオススメ。</span></td></tr><tr><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">30</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 90,000</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">¥ 3,000</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">15時間</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">30日</span></td><td style="font-size:18px;line-height:18px;" class="vc_table_cell"><span class="vc_table_content">試験対策など、ほぼ毎日受講されたい方向けの毎日プラン。</span></td></tr></table></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h6 style="text-align: right;">この他、初回のみECOM入会金9,000円が必要となります。</h6>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_dashed vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>購入例</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="150" height="150" src="/wp-content/uploads/2023/01/sample-businessperson3-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" title="sample-businessperson3"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h4 style="text-align: center;">月3回お手軽受講派</h4>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>9,900円で、月3回を好きな時に予約を入れて受講。</p>
-<p>なくなったらまた追加するスタイルで自由度高。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="150" height="150" src="/wp-content/uploads/2023/01/sample-businessperson5-150x150.png" class="vc_single_image-img attachment-thumbnail" alt="" title="sample-businessperson5"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h4 style="text-align: center;">実力UPのため週3は受講したい派</h4>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>週3,4回定期的に受講することで、ビジネス英語力UPや試験対策も目指す。ポイント数が多いと単価も安くなるのでお得度UP。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="150" height="150" src="/wp-content/uploads/2023/01/oyakoeigo-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="" title="oyakoeigo"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h4 style="text-align: center;">家族3人で受講</h4>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>3人分を同じ購入ポイントで利用できるので、160ポイントをまとめて購入。妻が使わない分は、子供が多めに利用できたり、違う言語にTryしても大丈夫。自由度高。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
-</figure>
-</div>
-</div></div></div></div>
-</div>
+
+<h3>目安になる選び方</h3>
+<ul>
+<li><b>月3回のんびり続けたい方</b>：3枚（9,900円）。なくなったら追加します。</li>
+<li><b>週1回ペースの方</b>：10枚（38,320円・4ヶ月有効）。</li>
+<li><b>週2〜3回で実力を上げたい方</b>：20枚・40枚。枚数が多いほど1回あたりがお得です。</li>
+<li><b>試験前や海外出張前に集中したい方</b>：30枚（90,000円・1ヶ月有効）。ほぼ毎日受講できます。</li>
+<li><b>ご家族で使う方</b>：160枚をまとめて購入し、家族で分けて使う方が多いです。</li>
+</ul>
+
+<h3>チケットはご家族で共有できます</h3>
+<p>ご本人はビジネス英語、お子さまは英会話を週1回、配偶者の方はフランス語、といった使い方ができます。チケットは英語のほか、中国語・フランス語・ドイツ語・スペイン語など、ECOMの20言語すべてで共通です。</p>
+
+<h3>予約の変更・キャンセル</h3>
+<p>レッスン開始の1時間前まで変更・キャンセルできます。開始12時間前からのキャンセルは、チケット0.5枚分のキャンセル料がかかります。</p>
+
+<h2 id="price-kids">子供（17歳以下）の場合</h2>
+<p>料金は大人と同じチケット制です。人気は月額プラン「月3回・9,900円」です。英検対策などで回数を増やしたいときは、10枚以上のプランがお得です。兄弟姉妹や保護者の方とチケットを分けて使えます。</p>
+<p>毎月必ず引き落とされる月謝制とは違い、テスト期間はお休みして、長期休みに集中して受講する、といった使い方ができます。</p>
+<p class="note">福岡市子ども習い事応援事業のクーポンでお支払いいただいたチケットは、ご家族との共有ができません。</p>
+
+<h2 id="price-business">法人・学校の場合</h2>
+<p>60分7,000円〜。研修の人数・回数・内容に合わせてお見積りします。グループ研修、マンツーマン研修、研修前後のレベル判定にも対応しています。</p>
+<p><a href="/english/corporation/">法人向けページで資料請求・お見積り</a>　・　<a href="/english/schools/">学校・教職員の方はこちら</a></p>
+
+<h2 id="payment">お支払い方法</h2>
+<ul>
+<li><b>体験レッスン（2,500円）</b>：お申込み時にクレジットカード（Square）でお支払いいただけます。</li>
+<li><b>チケットのご購入</b>：銀行振込です。ネットバンキングなら、その日のうちに手続きできます。</li>
+<li>領収書はいつでも発行できます。</li>
+</ul>
+
+<div class="cta-center">
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
+<p class="note">まずは無料で試したい方は <a href="https://ai.myecom.net">AI講師を無料で10分試す</a></p>
 </div>

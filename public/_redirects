@@ -13,3 +13,12 @@
 # 旧サイトでもリンク切れだったページ
 /english/corporation/corp-contact/thankyoupage/ /english/corporation/contact/ 301
 /english/corporation/corp-contact/ /english/corporation/contact/ 301
+# 料金ページは /price/ に一本化
+/english/price/ /price/ 301
+/english/price /price/ 301
+/english/onlinelessons/price/ /price/ 301
+/english/children/onlinelessons/price /price/#price-kids 301
+/english/children/onlinelessons/price/ /price/#price-kids 301
+# 旧URLの体験ページ（リンク切れだったもの）
+/english/onlinelessons/trial/ /english/trial/ 301
+/english/onlinelessons/trial /english/trial/ 301

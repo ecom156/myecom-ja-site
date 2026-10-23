@@ -1,7 +1,7 @@
 ---
 title: "ECOMフランス語"
 path: "/french/"
-slides: [{"image":"/wp-content/uploads/2023/02/french.jpg","title":"フランス語なら全てECOMにお任せ","text":"NHKフランス語講座出演のオルファ講師も在籍","button":"体験レッスン申し込み","link":"/trial/"}]
+slides: [{"image":"/wp-content/uploads/2023/02/french.jpg","title":"フランス語なら全てECOMにお任せ","text":"NHKフランス語講座出演のオルファ講師も在籍","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
 ---
 
 <div class="wp-layout">
@@ -9,7 +9,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/french.jpg","title":"フランス
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>ECOMのフランス語講師は、フランス本国出身者を中心に、１％の採用率をくぐり抜けてきた本物のプロ講師です。</p>
+<p>ECOMのフランス語講師は、フランス本国出身者を中心に、3%の採用率をくぐり抜けてきた本物のプロ講師です。</p>
 <p>講師は、日本語or英語も分かるバイリンガルですので、仏語初心者の方でも安心です。</p>
 </div>
 </div>
@@ -23,7 +23,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/french.jpg","title":"フランス
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>学習カリキュラム</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -142,7 +142,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/french.jpg","title":"フランス
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fas fa-globe-americas"></span></div></div><h4>フランス語について</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>

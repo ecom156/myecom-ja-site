@@ -1,7 +1,7 @@
 ---
 title: "ECOM中国語"
 path: "/chinese/"
-slides: [{"image":"/wp-content/uploads/2023/01/breezi_placeit-7-1280x500.png","title":"ECOMの高品質オンライン中国語レッスン","text":"発音訓練、HSK、中国語検定試験などにも対応","button":"体験レッスン申込み","link":"/trial/"}]
+slides: [{"image":"/wp-content/uploads/2023/01/breezi_placeit-7-1280x500.png","title":"ECOMの高品質オンライン中国語レッスン","text":"発音訓練、HSK、中国語検定試験などにも対応","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
 ---
 
 <div class="wp-layout">
@@ -17,7 +17,7 @@ slides: [{"image":"/wp-content/uploads/2023/01/breezi_placeit-7-1280x500.png","t
 <div class="wpb_wrapper">
 <p>・中国、台湾、日本にいる講師がシフトを組んでレッスンを提供。</p>
 <p>・講師は、日本語も分かるので、初心者の方も安心。</p>
-<p>・講師の採用率は1％以下（100人に1人）と厳選。</p>
+<p>・講師の採用率は3%と厳選。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -29,7 +29,7 @@ slides: [{"image":"/wp-content/uploads/2023/01/breezi_placeit-7-1280x500.png","t
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -134,7 +134,7 @@ slides: [{"image":"/wp-content/uploads/2023/01/breezi_placeit-7-1280x500.png","t
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fas fa-globe-americas"></span></div></div><h4>中国語について</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>

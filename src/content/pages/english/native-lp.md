@@ -3,7 +3,7 @@ title: "ネイティブ講師のオンライン英会話選びで気を付ける
 path: "/english/native-lp/"
 forms:
   - english-13
-slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","title":"プロのネイティブ講師に習おう！","text":"ただ話すだけでは上達しない。きちんと直し、上達へ導いてくれるレッスンを受けませんか？","button":"お得な体験レッスン(詳しく見る)","link":"/english/onlinelessons/native-lp/#form"}]
+slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","title":"プロのネイティブ講師に習おう！","text":"ただ話すだけでは上達しない。きちんと直し、上達へ導いてくれるレッスンを受けませんか？","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/english/onlinelessons/native-lp/#form"}]
 ---
 
 <div class="wp-layout">
@@ -126,7 +126,7 @@ slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p><strong>国内、海外から能力あるTOPレベル講師を採用。</strong></p>
-<p>結果、<strong>応募1000人に1人(採用率0.1%)</strong>の難関を突破した講師のみが、Ecomに所属しています。</p>
+<p>結果、<strong>採用率3%</strong>の難関を突破した講師のみが、Ecomに所属しています。</p>
 <p>そしてEcom所属後も、3か月に一度の定期トレーニングを実施してスキルアップを図っています。</p>
 <p>＊初心者の方には、日本語のわかるバイリンガル講師が対応します。</p>
 </div>
@@ -220,7 +220,7 @@ slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h2><span style="color: #ff6600;">7. 家族(会社)でポイント共有可能</span></h2>
+<h2><span style="color: #ff6600;">7. 家族(会社)でチケット共有可能</span></h2>
 </div>
 </div>
 <div class="wpb_single_image wpb_content_element vc_align_center">
@@ -230,7 +230,7 @@ slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>受講ポイントを、家族や会社で共有利用できます。</p>
+<p>受講チケットを、家族や会社で共有利用できます。</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>

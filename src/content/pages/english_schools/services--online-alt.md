@@ -79,7 +79,7 @@ path: "/english/schools/services/online-alt/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>・日本語中級以上、大卒の日英バイリンガルのネイティブ講師。</p>
-<p>・1％の採用率を潜り抜けてきた100人に1人の講師。</p>
+<p>・採用率3%の選考を潜り抜けてきた講師。</p>
 <p>・事前面談で要望を聞いて、相性のよさそうな講師をコーディネーターが対応いたします（動画見て講師指名可能）。</p>
 </div>
 </div>

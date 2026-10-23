@@ -1,7 +1,7 @@
 ---
 title: "ECOMアラビア語"
 path: "/arabic/"
-slides: [{"image":"/wp-content/uploads/2023/02/arabic.jpg","title":"オンラインでアラビア語レッスン","text":"NHK講座に出演の先生も在籍","button":"体験レッスン申込み","link":"/trial/"}]
+slides: [{"image":"/wp-content/uploads/2023/02/arabic.jpg","title":"オンラインでアラビア語レッスン","text":"NHK講座に出演の先生も在籍","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
 ---
 
 <div class="wp-layout">
@@ -89,7 +89,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/arabic.jpg","title":"オンライ
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon vc-material vc-material-language"></span></div></div><h4>アラビア語について</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>

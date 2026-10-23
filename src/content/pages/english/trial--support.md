@@ -70,7 +70,7 @@ forms:
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3><span style="color: #993300;"><strong><span style="font-family: inherit; font-size: 14.4px; line-height: 14.4px;">実際頂いた感謝の声：</span></strong></span></h3>
-<p>家族で習わせたいと思い、ポイントが共有できる家族会員の切り替えについて質問してみました。色々と直接話すことでサービスの中身がよく分かりました。お時間をとって頂きありがとうございました。(30代女性)</p>
+<p>家族で習わせたいと思い、チケットが共有できる家族会員の切り替えについて質問してみました。色々と直接話すことでサービスの中身がよく分かりました。お時間をとって頂きありがとうございました。(30代女性)</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">

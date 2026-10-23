@@ -203,7 +203,7 @@ path: "/english/courses/high/general/class-basic2/"
 <h4><span style="color: #800000;">Q:クラスは一度決めたら変えられないのですか？</span></h4>
 <p>A:いいえ。マンツーマンレッスンですので、すぐに自由に変更できます。別のクラスで受講したい場合、事務局にお申し付けください。担当講師に伝えて、教材も準備いたします。＊なお新規教材分だけ別途購入（3,000円程度）が必要です。</p>
 <h4><span style="color: #800000;">Q:このクラス完了までの費用はどれくらいですか？</span></h4>
-<p>ざっくりと60分のマンツーマンを6,000円と見て頂き、それに受講時間数をかけて頂くと概算が得られます。25時間受けられた場合、6,000円×25= 15万円となります。ただポイントをまとめて買われたり、継続されていると最大15％割引がございますのでもっとお安くすることはできます。<br>
+<p>ざっくりと60分のマンツーマンを6,000円と見て頂き、それに受講時間数をかけて頂くと概算が得られます。25時間受けられた場合、6,000円×25= 15万円となります。ただチケットをまとめて買われたり、継続されていると最大15％割引がございますのでもっとお安くすることはできます。<br>
 *BerlitzやGabaでは、60分マンツーマン10,000円程度が相場となっています。</p>
 <h4><span style="color: #800000;">Q:先生は決められた一人の人から受けるのですか？</span></h4>
 <p>一人の先生で担任制のようにして頂いても、複数の先生で受けられても大丈夫です。Ecomでは生徒さまカルテを用意して、講師がそれに書き込み、授業前にそれを見てレッスンを持ちますので複数の講師でも一貫したレッスンが対応可能です。</p>
@@ -213,7 +213,7 @@ path: "/english/courses/high/general/class-basic2/"
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
