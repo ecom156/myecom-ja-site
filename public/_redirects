@@ -22,3 +22,20 @@
 # 旧URLの体験ページ（リンク切れだったもの）
 /english/onlinelessons/trial/ /english/trial/ 301
 /english/onlinelessons/trial /english/trial/ 301
+# 旧サイトの言語別ブログの一覧（記事は src/pages/<言語>/blog/ で転送）
+/german/blog/ /german/ 301
+/german/blog /german/ 301
+/french/blog/ /french/ 301
+/french/blog /french/ 301
+/arabic/blog/ /arabic/ 301
+/arabic/blog /arabic/ 301
+/chinese/blog/ /chinese/ 301
+/chinese/blog /chinese/ 301
+/spanish/blog/ /spanish/ 301
+/spanish/blog /spanish/ 301
+/korean/blog/ /korean/ 301
+/korean/blog /korean/ 301
+/italian/blog/ /italian/ 301
+/italian/blog /italian/ 301
+/portuguese/blog/ /portuguese/ 301
+/portuguese/blog /portuguese/ 301

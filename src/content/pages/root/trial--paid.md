@@ -12,3 +12,8 @@ path: "/trial/paid/"
 AI講師と話せる「ECOM AIレッスン」を、無料の会員登録だけで10分間お試しいただけます。<br>
 <a href="https://ai.myecom.net">AI講師を無料で10分試す</a>
 </div>
+
+<script>
+  // Square での支払いが済んで戻ってきたことを Google アナリティクスに記録する
+  if (typeof gtag === 'function') gtag('event', 'trial_payment_complete', { value: 2500, currency: 'JPY' });
+</script>
