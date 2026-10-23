@@ -80,11 +80,14 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
     console.error('form: mail failed', e);
     return back('error=m');
   }
-  // 体験料などの支払いの案内（URL が未設定なら、担当者からの案内を待ってもらう）
+  // 体験料などの支払い。決済リンクはメールに載せず、送信直後に Square の画面へ移す。
+  // 事前相談を希望した人は、相談の場で了承を得てから担当者が案内する
   const pay = def.payment ? payments[def.payment] : undefined;
-  const payText = !pay ? '' : pay.url
-    ? `■ お支払い（${pay.label}）\n以下のページから、クレジットカードでお支払いください。お支払いを確認したら、会員サイトのご案内をお送りします。\n${pay.url}\n\n`
-    : `■ お支払い（${pay.label}）\nお支払い方法は、担当者から改めてご案内します。\n\n`;
+  const wantsConsult = /^希望する/.test(values.find((x) => x.f.name === 'consult')?.v ?? '');
+  const payNow = !!pay?.url && !wantsConsult;
+  const payText = !pay ? '' : payNow
+    ? `■ お支払い（${pay.label}）\nお申込みの直後に表示された Square の画面で、クレジットカードでお支払いください。お支払いがまだの場合は、担当者からご案内します。\n※決済のリンクをメールでお送りすることはありません。\n\n`
+    : `■ お支払い（${pay.label}）\nお支払い方法は、${wantsConsult ? '事前相談のあとに' : '担当者から改めて'}ご案内します。\n\n`;
   // 申込者への自動返信（失敗しても受付は完了扱い）
   if (email) {
     try {
@@ -98,5 +101,6 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
       console.error('form: auto-reply failed', e);
     }
   }
+  if (payNow) return redirect(pay!.url, 303);
   return thanks ? redirect(encodeURI(thanks), 303) : back('sent=1');
 };
