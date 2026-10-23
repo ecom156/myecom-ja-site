@@ -13,7 +13,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 他校より4倍早く上達できる<a title="英語4倍速上達の秘密" href="/english/improve/">*</a>オンライン英会話学校</h3>
 </div>
 </div>
-<div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-center vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-green" href="/english/trial/" title=""><i class="vc_btn3-icon"></i> お得な体験レッスン制度。詳しく見る(Click)</a></div>
+<div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-center vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-green" href="/english/trial/" title=""><i class="vc_btn3-icon"></i> 体験レッスンを予約する（30分×2回・2,500円）</a></div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p data-wp-editing="1"><a href="/english/itbeginner/"><img loading="lazy" decoding="async" class="alignnone wp-image-8865" src="/english/wp-content/uploads/2014/01/icon_beginner1.gif" alt="icon_beginner1" width="26" height="37"></a><a href="/english/itbeginner/">オンライン英会話初心者、シニアの方へ</a></p>
@@ -60,7 +60,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">▶ プロ講師</h2>
 <p style="text-align: center;">ネイティブ、日英バイリンガル講師</p>
-<p>国内、海外から1,000倍の競争率(採用率0.1%)を潜り抜けてきた講師陣で構成。<a href="/english/teachers/">さらに詳しく▶</a></p>
+<p>国内、海外から採用率3%の選考を潜り抜けてきた講師陣で構成。<a href="/english/teachers/">さらに詳しく▶</a></p>
 </div>
 </div>
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -88,9 +88,9 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h2 style="text-align: center;">▶ ポイント（チケット）制の料金体系</h2>
+<h2 style="text-align: center;">▶ チケット制の料金体系</h2>
 <p style="text-align: center;">柔軟に予定変更可能</p>
-<p>自分のスケジュールにあわせて好きな時間に、好きな講師のレッスンで、利用に無駄がありません。<a href="/english/price/">さらに詳しく▶</a></p>
+<p>自分のスケジュールにあわせて好きな時間に、好きな講師のレッスンで、利用に無駄がありません。<a href="/price/">さらに詳しく▶</a></p>
 </div>
 </div>
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -133,7 +133,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">▶ 英語以外の言語可</h2>
-<p style="text-align: center;">中国語、スペイン語、仏語、ドイツ語など、英語で使っているポイントで受講可。<br>
+<p style="text-align: center;">中国語、スペイン語、仏語、ドイツ語など、英語で使っているチケットで受講可。<br>
 <select name="select01" onchange="location.href=value;"><option value="">学習したい言語を選択</option><option value="../../french">フランス語</option><option value="../../german">ドイツ語</option><option value="../../spanish">スペイン語</option><option value="../../chinese">中国語</option><option value="../../arabic">アラビア語</option><option value="../../russian">ロシア語</option></select></p>
 </div>
 </div>
@@ -147,7 +147,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">▶ 家族で共有利用OK！</h2>
-<p style="text-align: center;">お持ちのポイントを家族全員で使うことができます。ご本人が英語、奥様がフランス語、息子様がスペイン語という使い方も可能。</p>
+<p style="text-align: center;">お持ちのチケットを家族全員で使うことができます。ご本人が英語、奥様がフランス語、息子様がスペイン語という使い方も可能。</p>
 </div>
 </div>
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -257,7 +257,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 <div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="245" src="/english/wp-content/uploads/2024/08/check-woman-300x245.jpg" class="vc_single_image-img attachment-medium" alt="" title="check-woman"></div>
 </figure>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-center vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-green" href="/english/trial/" title=""><i class="vc_btn3-icon"></i> お得な体験レッスン制度。詳しく見る(Click)</a></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-comments"></span></div></div><h4>実際の利用者からの声</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-center vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-green" href="/english/trial/" title=""><i class="vc_btn3-icon"></i> 体験レッスンを予約する（30分×2回・2,500円）</a></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-comments"></span></div></div><h4>実際の利用者からの声</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">

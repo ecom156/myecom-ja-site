@@ -20,14 +20,14 @@ path: "/aboutecom/"
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h2>○ 20ヵ国語以上の言語サービスを専門的に総合提供</h2>
+<h2>○ 20ヵ国語の言語サービスを専門的に総合提供</h2>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>学習言語において、英語の重要性は依然変わりませんが、近年、英語＋1言語の流れが出てきています。<br>
-もう一言語を学べるニーズに応える形で、当校では20ヵ国語以上が学べる総合言語学習サービスをい提供しています。</p>
+もう一言語を学べるニーズに応える形で、当校では20ヵ国語が学べる総合言語学習サービスを提供しています。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

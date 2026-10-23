@@ -24,8 +24,8 @@ path: "/system/"
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>『2回の体験レッスン』、日本人スタッフとの『オリエンテーション』を通じて、予約システムの使い勝手などで、ECOMの雰囲気をみてみましょう（<a href="/trial/">体験申し込みはこちら</a>から）。</p>
-<p>ポイント購入を行うと無事入会となります。</p>
+<p>『2回の体験レッスン』、日本人スタッフとの『オリエンテーション』を通じて、予約システムの使い勝手などで、ECOMの雰囲気をみてみましょう（<a href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>から）。</p>
+<p>チケット購入を行うと無事入会となります。</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -43,7 +43,7 @@ path: "/system/"
 <div class="wpb_wrapper">
 <p>単発のフリー予約もできますが、オススメは、ECOMだからできる『定期予約』システム。</p>
 <p>希望の講師の毎週○曜日の○時から○時といった時間枠を抑えることが可能。</p>
-<p>もちろん、都合が悪い時などは、開始12時間前までなら無料でキャンセルできます（開始12時間前～1時間前迄のキャンセルは半ポイントBack）。</p>
+<p>もちろん、都合が悪い時などは、開始12時間前までなら無料でキャンセルできます（開始12時間前～1時間前迄のキャンセルは半チケットBack）。</p>
 <p>・予定が定まっていない方は、予約システム上で、自由に予約を入れられます。</p>
 <p>・学習内容はシステム上で履歴が残るので、違う講師でも引き継いだ形のレッスンが可能です。</p>
 </div>
@@ -88,7 +88,7 @@ path: "/system/"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>

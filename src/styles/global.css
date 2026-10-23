@@ -143,3 +143,47 @@ main:has(> .slider:first-child) { padding-top: 0; }
 .recent-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
 .recent-more { grid-column: 1 / -1; text-align: center; }
 .recent-grid[hidden] { display: none; }
+
+/* 体験・料金・入口の共通部品 */
+.btn-main { display: inline-block; background: var(--accent-dark); color: #fff; font-weight: 700; font-size: 18px; padding: 14px 32px; border-radius: 999px; text-decoration: none; line-height: 1.5; }
+.btn-main:hover { background: #156488; color: #fff; }
+.cta-center { text-align: center; margin: 28px 0; }
+.cta-center .btn-main { margin-bottom: 8px; }
+.note { font-size: 14px; color: var(--muted); }
+.prose .note { margin: 4px 0 12px; }
+.summary-cards, .info-cards, .entry-grid { display: grid; gap: 12px; margin: 20px 0; }
+.summary-cards { grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); }
+.summary-cards div { background: #f2f8fb; border: 1px solid var(--line); border-radius: 8px; padding: 16px; text-align: center; }
+.summary-cards b { display: block; font-size: 22px; color: var(--accent-dark); }
+.summary-cards span { font-size: 14px; color: var(--muted); }
+.info-cards { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.info-cards div { background: #f2f8fb; border: 1px solid var(--line); border-radius: 8px; padding: 16px; }
+.info-cards b { display: block; font-size: 17px; margin-bottom: 4px; }
+.pill-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
+.pill-links a { border: 1px solid var(--accent); color: var(--accent-dark); border-radius: 999px; padding: 4px 16px; font-size: 14px; font-weight: 700; text-decoration: none; }
+.prose table.price-table { display: table; min-width: 560px; }
+.price-scroll { overflow-x: auto; }
+.price-table th { background: #f2f8fb; text-align: center; }
+.price-table td { text-align: right; white-space: nowrap; }
+.price-table td:first-child { text-align: left; font-weight: 700; }
+.price-table tr.hl td { background: #e4f5fb; }
+.prose table.spec-table { display: table; }
+.spec-table th { background: #f2f8fb; text-align: left; width: 30%; vertical-align: top; }
+.steps { counter-reset: s; list-style: none; padding: 0; margin: 0; }
+.steps li { counter-increment: s; position: relative; padding: 12px 0 12px 52px; border-bottom: 1px solid var(--line); }
+.steps li::before { content: counter(s); position: absolute; left: 0; top: 12px; width: 36px; height: 36px; border-radius: 50%; background: var(--accent); color: #fff; text-align: center; line-height: 36px; font-weight: 700; }
+.soft-box { background: #e4f5fb; border-radius: 8px; padding: 16px 20px; margin: 16px 0; }
+.ai-box { border: 1px dashed var(--line); border-radius: 8px; padding: 16px 20px; margin: 32px 0; }
+.entry { margin: 8px 0 40px; }
+.prose .entry h2 { text-align: center; border-left: 0; padding-left: 0; margin-top: 0; }
+.entry-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.entry-card { display: block; border: 1px solid var(--line); border-top: 6px solid var(--accent); border-radius: 8px; padding: 20px; color: var(--text); text-decoration: none; background: #fff; }
+.entry-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+.entry-card.kids { border-top-color: var(--brand); }
+.entry-card.biz { border-top-color: #2f3e57; }
+.entry-card b { display: block; font-size: 20px; margin-bottom: 4px; }
+.entry-card span { display: block; font-size: 15px; color: var(--muted); line-height: 1.7; }
+.entry-card i { display: inline-block; margin-top: 12px; font-style: normal; font-weight: 700; color: var(--accent-dark); }
+.entry-more { text-align: center; font-size: 15px; }
+.pay-box:not([hidden]) { display: grid; gap: 8px; justify-items: start; }
+@media (max-width: 600px) { .btn-main { display: block; text-align: center; padding: 14px 16px; font-size: 17px; } }

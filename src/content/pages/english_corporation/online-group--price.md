@@ -61,7 +61,7 @@ path: "/english/corporation/online-group/price/"
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
 <p>お電話でも受け付けております。<br>
 050-5532-3069</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 問い合わせフォームへ(Click)</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p></p>
@@ -192,6 +192,6 @@ path: "/english/corporation/online-group/price/"
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
 <p>お電話でも受け付けております。<br>
 050-5532-3069</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 問い合わせフォームへ(Click)</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
 </div>
 </div>

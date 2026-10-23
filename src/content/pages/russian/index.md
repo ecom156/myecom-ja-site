@@ -40,7 +40,7 @@ slides: [{"image":"/russian/wp-content/uploads/sites/8/2015/09/online-lesson-mid
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">講師</h2>
-<p>モスクワ出身の日露バイリンガルロシア人講師。1,000人に1人の競争率（0.1%の採用率）を潜り抜けてきた最優秀ロシア語講師陣で構成。<a href="/russian/onlinelessons/teachers/">さらに詳しく▶</a></p>
+<p>モスクワ出身の日露バイリンガルロシア人講師。採用率3%の選考を潜り抜けてきた最優秀ロシア語講師陣で構成。<a href="/russian/onlinelessons/teachers/">さらに詳しく▶</a></p>
 </div>
 </div>
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -52,8 +52,8 @@ slides: [{"image":"/russian/wp-content/uploads/sites/8/2015/09/online-lesson-mid
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h2 style="text-align: center;">ポイント制の料金体系</h2>
-<p>ポイントを使用して自分の好きな時間に、好きな講師のレッスンを受けられます。<a href="/price/">さらに詳しく▶</a></p>
+<h2 style="text-align: center;">チケット制の料金体系</h2>
+<p>チケットを使用して自分の好きな時間に、好きな講師のレッスンを受けられます。<a href="/price/">さらに詳しく▶</a></p>
 </div>
 </div>
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -106,7 +106,7 @@ slides: [{"image":"/russian/wp-content/uploads/sites/8/2015/09/online-lesson-mid
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">ロシア語以外の言語可</h2>
-<p style="text-align: center;">別途の追加料金なしで、ロシア語で使っているポイントを、他の言語レッスンに利用できます。<br>
+<p style="text-align: center;">別途の追加料金なしで、ロシア語で使っているチケットを、他の言語レッスンに利用できます。<br>
 <select name="select01" onchange="location.href=value;"><option value="">学習したい言語を選択</option><option value="../../english">英語</option><option value="../../french">フランス語</option><option value="../../german">ドイツ語</option><option value="../../spanish">スペイン語</option><option value="../../chinese">中国語</option><option value="../../arabic">アラビア語</option></select></p>
 </div>
 </div>
@@ -120,7 +120,7 @@ slides: [{"image":"/russian/wp-content/uploads/sites/8/2015/09/online-lesson-mid
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">家族で共有利用OK！</h2>
-<p style="text-align: center;">家族会員として、お持ちのポイントをご家族全員で使うことができます。ご本人がロシア語、奥様がフランス語、息子様が英語という使い方も可能。</p>
+<p style="text-align: center;">家族会員として、お持ちのチケットをご家族全員で使うことができます。ご本人がロシア語、奥様がフランス語、息子様が英語という使い方も可能。</p>
 </div>
 </div>
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>

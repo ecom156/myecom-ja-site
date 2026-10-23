@@ -15,14 +15,14 @@ path: "/english/flow/"
 <div class="wpb_accordion wpb_content_element not-column-inherit" data-collapsible="" data-vc-disable-keydown="false" data-active-tab="1">
 <div class="wpb_wrapper wpb_accordion_wrapper ui-accordion">
 <div class="wpb_accordion_section group">
-<h3 class="wpb_accordion_header ui-accordion-header"><a href="#1-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88%e8%b3%bc%e5%85%a5">1. ポイント購入</a></h3>
+<h3 class="wpb_accordion_header ui-accordion-header"><a href="#1-%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88%e8%b3%bc%e5%85%a5">1. チケット購入</a></h3>
 <div class="wpb_accordion_content ui-accordion-content vc_clearfix">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p><img loading="lazy" decoding="async" class="alignright wp-image-4162" alt="sasie_illust" src="/english/wp-content/uploads/2014/01/sasie_illust.png" width="120" height="130">16から256ポイントの中の6つから好きなポイント数を購入頂けます。30分クラス毎に1.5point消費。<span style="color: #ff6600;">2,500円の体験レッスン</span>をお申込み頂いた場合、お試しとして3pointをお使い頂けます。＊クレジットカード払いには対応しておりません。</p>
+<p><img loading="lazy" decoding="async" class="alignright wp-image-4162" alt="sasie_illust" src="/english/wp-content/uploads/2014/01/sasie_illust.png" width="120" height="130">16から256チケットの中の6つから好きなチケット数を購入頂けます。30分クラス毎に1.5point消費。<span style="color: #ff6600;">2,500円の体験レッスン</span>をお申込み頂いた場合、お試しとして3pointをお使い頂けます。＊クレジットカード払いには対応しておりません。</p>
 </div>
 </div>
-<a class="wpb_button_a" title="料金案内ページはこちら" href="/english/price/"><span class="wpb_button wpb_btn-primary wpb_regularsize">料金案内ページはこちら</span></a>
+<a class="wpb_button_a" title="料金案内ページはこちら" href="/price/"><span class="wpb_button wpb_btn-primary wpb_regularsize">料金案内ページはこちら</span></a>
 </div>
 </div>
 <div class="wpb_accordion_section group">
@@ -72,11 +72,11 @@ path: "/english/flow/"
 </div>
 </div>
 <div class="wpb_accordion_section group">
-<h3 class="wpb_accordion_header ui-accordion-header"><a href="#5-%e5%86%8d%e5%ba%a62%e3%81%b8%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88%e3%81%8c%e3%81%aa%e3%81%84%e5%a0%b4%e5%90%88%e3%81%af1%e3%81%b8">5. 再度2へ(ポイントがない場合は1へ)</a></h3>
+<h3 class="wpb_accordion_header ui-accordion-header"><a href="#5-%e5%86%8d%e5%ba%a62%e3%81%b8%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88%e3%81%8c%e3%81%aa%e3%81%84%e5%a0%b4%e5%90%88%e3%81%af1%e3%81%b8">5. 再度2へ(チケットがない場合は1へ)</a></h3>
 <div class="wpb_accordion_content ui-accordion-content vc_clearfix">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p><a href="/english/wp-content/uploads/2014/01/toppage_online_english_less.jpg"><img loading="lazy" decoding="async" class="alignright size-full wp-image-3593" alt="toppage_online_english_less" src="/english/wp-content/uploads/2014/01/toppage_online_english_less.jpg" width="269" height="165"></a>追加購入ポイントは、英語以外に、Ecomが提供する<span style="color: #ff6600;">20言語</span>全ての学習サービスで同じように使えます。また家族会員や法人会員になれば、<span style="color: #ff6600;">家族や組織でポイントを共有</span>することもできるのでお得です。</p>
+<p><a href="/english/wp-content/uploads/2014/01/toppage_online_english_less.jpg"><img loading="lazy" decoding="async" class="alignright size-full wp-image-3593" alt="toppage_online_english_less" src="/english/wp-content/uploads/2014/01/toppage_online_english_less.jpg" width="269" height="165"></a>追加購入チケットは、英語以外に、Ecomが提供する<span style="color: #ff6600;">20言語</span>全ての学習サービスで同じように使えます。また家族会員や法人会員になれば、<span style="color: #ff6600;">家族や組織でチケットを共有</span>することもできるのでお得です。</p>
 </div>
 </div>
 </div>
@@ -259,7 +259,7 @@ path: "/english/flow/"
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>英語以外にも、フランス語やスペイン語も勉強できる点。家族でポイントを共有できる点。</p>
+<p>英語以外にも、フランス語やスペイン語も勉強できる点。家族でチケットを共有できる点。</p>
 <p>性別 : 女性</p>
 <p>年齢層 : 35-39歳</p>
 </div>

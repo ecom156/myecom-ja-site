@@ -58,7 +58,7 @@ Langury</h2>
 料金は、30分、3000円（税抜き）程度。</p>
 </div>
 </div>
-<div class="vc_btn3-container vc_btn3-center vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-turquoise" href="/english/onlinelessons/trial/" title="">体験レッスン制度を詳しく見る</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_btn3-container vc_btn3-center vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-turquoise" href="/english/trial/" title="">体験レッスンを予約する（30分×2回・2,500円）</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
 <div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="211" height="300" src="/english/wp-content/uploads/2015/01/3-211x300.jpg" class="vc_single_image-img attachment-medium" alt="" title="3"></div>
@@ -82,8 +82,8 @@ Langury</h2>
 <h3>○必要なもの：</h3>
 <p>オンラインレッスン利用に一般的に必要なもの。よくわからない方は<a href="/english/onlinelessons/preparation/">こちらを参照</a>。</p>
 <h3>○受講の流れ：</h3>
-<p>体験レッスン/本申込みでポイントを購入→会員サイトから予約→時間になったら担当講師より連絡、授業開始→終了後、フィードバックが送られてきますので、それを読んで復習。</p>
-<p>ポイントが足らなくなったら、再度購入。<a href="/english/onlinelessons/price/">料金詳細</a>。</p>
+<p>体験レッスン/本申込みでチケットを購入→会員サイトから予約→時間になったら担当講師より連絡、授業開始→終了後、フィードバックが送られてきますので、それを読んで復習。</p>
+<p>チケットが足らなくなったら、再度購入。<a href="/price/">料金詳細</a>。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -95,7 +95,7 @@ Langury</h2>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">

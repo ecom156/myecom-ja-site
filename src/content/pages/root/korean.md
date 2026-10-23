@@ -1,7 +1,7 @@
 ---
 title: "ECOM韓国語"
 path: "/korean/"
-slides: [{"image":"/wp-content/uploads/2023/02/hangul-middle-1780x500.jpg","title":"オンラインで韓国語レッスン","text":"韓国語のプロ講師が指導します。","button":"体験レッスン申込み","link":"/trial/"}]
+slides: [{"image":"/wp-content/uploads/2023/02/hangul-middle-1780x500.jpg","title":"オンラインで韓国語レッスン","text":"韓国語のプロ講師が指導します。","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
 ---
 
 <div class="wp-layout">
@@ -16,7 +16,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/hangul-middle-1780x500.jpg","titl
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>日本語もわかる韓国人のプロ講師がマンツーマン指導。</p>
-<p>採用割合は応募100人につき1人（1%）以下に絞って、質の良い講師のみが在籍しています。</p>
+<p>採用率は3%に絞って、質の良い講師のみが在籍しています。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -28,7 +28,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/hangul-middle-1780x500.jpg","titl
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -106,7 +106,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/hangul-middle-1780x500.jpg","titl
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>

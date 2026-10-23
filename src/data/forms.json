@@ -1,14 +1,23 @@
 {
   "root-2": {
     "site": "root",
-    "button": "送信",
+    "button": "申し込む（次にお支払いのご案内）",
     "fields": [
       {
         "name": "f1",
         "label": "お名前",
         "type": "text",
+        "required": true
+      },
+      {
+        "name": "target",
+        "label": "受講される方",
+        "type": "radio",
         "required": true,
-        "description": "(ローマ字入力)"
+        "choices": [
+          "大人",
+          "子供（17歳以下）"
+        ]
       },
       {
         "name": "f2",
@@ -28,11 +37,20 @@
         "required": true
       },
       {
+        "name": "consult",
+        "label": "事前相談（無料・約15分）",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "希望する（日本人スタッフがオンラインで、学習の目的や予約サイトの使い方をご説明します）",
+          "希望しない（会員サイトから自分で予約します）"
+        ]
+      },
+      {
         "name": "f4",
-        "label": "体験レッスンとは別日程で、15分程度のオンライン事前カウンセリングを実施しております。ご希望の時間帯（6:00AM〜夜21：00迄）をご記入下さい。土日祝日も可。",
+        "label": "事前相談・体験レッスンのご希望の時間帯（6:00〜21:00・土日祝も可）",
         "type": "textarea",
         "required": false,
-        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)",
         "placeholder": "例：平日20時以降ならいつでも可能。"
       },
       {
@@ -41,7 +59,8 @@
         "type": "textarea",
         "required": false
       }
-    ]
+    ],
+    "payment": "trial"
   },
   "root-1": {
     "site": "root",
@@ -176,11 +195,11 @@
   },
   "english-13": {
     "site": "english",
-    "button": "送信",
+    "button": "申し込む（次にお支払いのご案内）",
     "fields": [
       {
         "name": "f1",
-        "label": "お名前(ローマ字でご入力下さい)",
+        "label": "お名前",
         "type": "text",
         "required": true
       },
@@ -216,11 +235,21 @@
         "description": "オンラインで連絡が取れない時のサポート用になります。"
       },
       {
+        "name": "consult",
+        "label": "事前相談（無料・約15分）",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "希望する（日本人スタッフがオンラインで、学習の目的や予約サイトの使い方をご説明します）",
+          "希望しない（会員サイトから自分で予約します）"
+        ]
+      },
+      {
         "name": "f5",
-        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（06：00〜夜21：00迄）をご記入下さい。土日祝日可。",
+        "label": "事前相談・体験レッスンのご希望の時間帯（6:00〜21:00・土日祝も可）",
         "type": "textarea",
         "required": false,
-        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)"
+        "placeholder": "例：平日20時以降ならいつでも可能。"
       },
       {
         "name": "f6",
@@ -238,7 +267,8 @@
           "Ecom英語学校からの連絡を許可します。"
         ]
       }
-    ]
+    ],
+    "payment": "trial"
   },
   "english-4": {
     "site": "english",
@@ -310,11 +340,11 @@
   },
   "english-2": {
     "site": "english",
-    "button": "送信",
+    "button": "申し込む（次にお支払いのご案内）",
     "fields": [
       {
         "name": "f1",
-        "label": "お名前(ローマ字でご入力ください)",
+        "label": "お名前",
         "type": "text",
         "required": true
       },
@@ -350,11 +380,21 @@
         ]
       },
       {
+        "name": "consult",
+        "label": "事前相談（無料・約15分）",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "希望する（日本人スタッフがオンラインで、学習の目的や予約サイトの使い方をご説明します）",
+          "希望しない（会員サイトから自分で予約します）"
+        ]
+      },
+      {
         "name": "f5",
-        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（06：00AM〜夜21：00迄）をご記入下さい。土日祝日可。",
+        "label": "事前相談・体験レッスンのご希望の時間帯（6:00〜21:00・土日祝も可）",
         "type": "textarea",
         "required": false,
-        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)"
+        "placeholder": "例：平日20時以降ならいつでも可能。"
       },
       {
         "name": "f6",
@@ -362,7 +402,8 @@
         "type": "textarea",
         "required": false
       }
-    ]
+    ],
+    "payment": "trial"
   },
   "english_children-8": {
     "site": "english_children",
@@ -428,13 +469,26 @@
   },
   "english_children-1": {
     "site": "english_children",
-    "button": "送信",
+    "button": "申し込む（次にお支払いのご案内）",
     "fields": [
       {
         "name": "f1",
-        "label": "受講される方のお名前（ローマ字でご入力ください）",
+        "label": "受講される方のお名前",
         "type": "text",
         "required": true
+      },
+      {
+        "name": "parent",
+        "label": "保護者の方のお名前",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "grade",
+        "label": "学年・年齢",
+        "type": "text",
+        "required": false,
+        "placeholder": "例：小学3年生"
       },
       {
         "name": "f2",
@@ -451,12 +505,30 @@
         "description": "オンラインで連絡が取れない時のサポートになります。"
       },
       {
+        "name": "consult",
+        "label": "事前相談（無料・約15分）",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "希望する（日本人スタッフがオンラインで、学習の目的や予約サイトの使い方をご説明します）",
+          "希望しない（会員サイトから自分で予約します）"
+        ]
+      },
+      {
+        "name": "times",
+        "label": "事前相談・体験レッスンのご希望の時間帯（6:00〜21:00・土日祝も可）",
+        "type": "textarea",
+        "required": false,
+        "placeholder": "例：平日17時〜19時、土曜の午前"
+      },
+      {
         "name": "f4",
         "label": "今回の体験レッスンお申し込みにあたり当校のどのような所に興味をお持ちになったかお書き添え頂ければ幸いです。今後のサービス改善の参考にさせて頂きます。",
         "type": "textarea",
         "required": false
       }
-    ]
+    ],
+    "payment": "trial"
   },
   "english_children-3": {
     "site": "english_children",
@@ -514,13 +586,26 @@
   },
   "english_children-5": {
     "site": "english_children",
-    "button": "送信",
+    "button": "申し込む（次にお支払いのご案内）",
     "fields": [
       {
         "name": "f1",
-        "label": "受講される方のお名前（ローマ字でご入力ください）",
+        "label": "受講される方のお名前",
         "type": "text",
         "required": true
+      },
+      {
+        "name": "parent",
+        "label": "保護者の方のお名前",
+        "type": "text",
+        "required": true
+      },
+      {
+        "name": "grade",
+        "label": "学年・年齢",
+        "type": "text",
+        "required": false,
+        "placeholder": "例：小学3年生"
       },
       {
         "name": "f2",
@@ -536,12 +621,30 @@
         "description": "オンラインで連絡が取れない時のサポートになります。"
       },
       {
+        "name": "consult",
+        "label": "事前相談（無料・約15分）",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "希望する（日本人スタッフがオンラインで、学習の目的や予約サイトの使い方をご説明します）",
+          "希望しない（会員サイトから自分で予約します）"
+        ]
+      },
+      {
+        "name": "times",
+        "label": "事前相談・体験レッスンのご希望の時間帯（6:00〜21:00・土日祝も可）",
+        "type": "textarea",
+        "required": false,
+        "placeholder": "例：平日17時〜19時、土曜の午前"
+      },
+      {
         "name": "f4",
         "label": "今回の体験レッスンお申し込みにあたり、当校のどのような所に興味をもたれましたか？",
         "type": "textarea",
         "required": false
       }
-    ]
+    ],
+    "payment": "trial"
   },
   "english_children-7": {
     "site": "english_children",

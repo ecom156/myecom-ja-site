@@ -129,7 +129,7 @@ path: "/english/itbeginner/"
 <p><span style="color: #993300;"><strong>Q:レッスンは、何時から何時までですか？</strong></span></p>
 <p>24時間対応していますので、早朝5時からや、夜22時からのレッスンも可能です。</p>
 <p><span style="color: #993300;"><strong>Q:費用はどれくらいかかりますか？</strong></span></p>
-<p>ポイント制のため、人によって変わりますが、初心者の方ですと、平均月1万円前後で利用されている方が多いです。</p>
+<p>チケット制のため、人によって変わりますが、初心者の方ですと、平均月1万円前後で利用されている方が多いです。</p>
 <p><a title="お得な体験レッスン制度" href="/english/onlinelesson/trial/"><img loading="lazy" decoding="async" src="/english/wp-content/uploads/2014/01/icon_trial.gif" alt="スカイプ英会話体験レッスン案内" width="838" height="238"></a><a title="安心の無料入会前サポート" href="/english/onlinelesson/support/"><img loading="lazy" decoding="async" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" alt="スカイプ英会話サポート" width="838" height="155"></a></p>
 </div>
 </div>

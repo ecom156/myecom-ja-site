@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { env } from 'cloudflare:workers';
 import formsJson from '../../data/forms.json';
 import sitesJson from '../../data/sites.json';
+import paymentJson from '../../data/payment.json';
 
 export const prerender = false;
 
@@ -12,7 +13,8 @@ export const prerender = false;
 //   CONTACT_TO           … 受信先（省略時 info@myecom.net）
 const vars = env as unknown as Record<string, string | undefined>;
 type Field = { name: string; label: string; type: string; required: boolean; choices?: string[] };
-const forms = formsJson as Record<string, { site: string; fields: Field[] }>;
+const forms = formsJson as Record<string, { site: string; fields: Field[]; payment?: string }>;
+const payments = paymentJson as Record<string, { label: string; url: string }>;
 const sites = sitesJson as Record<string, { name: string }>;
 
 async function verifyTurnstile(token: string, ip: string) {
@@ -78,6 +80,11 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
     console.error('form: mail failed', e);
     return back('error=m');
   }
+  // 体験料などの支払いの案内（URL が未設定なら、担当者からの案内を待ってもらう）
+  const pay = def.payment ? payments[def.payment] : undefined;
+  const payText = !pay ? '' : pay.url
+    ? `■ お支払い（${pay.label}）\n以下のページから、クレジットカードでお支払いください。お支払いを確認したら、会員サイトのご案内をお送りします。\n${pay.url}\n\n`
+    : `■ お支払い（${pay.label}）\nお支払い方法は、担当者から改めてご案内します。\n\n`;
   // 申込者への自動返信（失敗しても受付は完了扱い）
   if (email) {
     try {
@@ -85,7 +92,7 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
         to: [email],
         reply_to: vars.CONTACT_TO ?? 'info@myecom.net',
         subject: `【${siteName}】${kind}ありがとうございます`,
-        text: `${name ? `${name} 様\n\n` : ''}このたびは${siteName}に${kind}いただき、ありがとうございます。\n以下の内容で受け付けました。内容を確認のうえ、担当者よりご連絡いたします。\n\n${body}\n\n※このメールは自動送信です。ご不明な点は info@myecom.net までご連絡ください。\n\n${siteName}\n運営：株式会社イーコミュニケーション\n`,
+        text: `${name ? `${name} 様\n\n` : ''}このたびは${siteName}に${kind}いただき、ありがとうございます。\n以下の内容で受け付けました。内容を確認のうえ、担当者よりご連絡いたします。\n\n${payText}${body}\n\n※このメールは自動送信です。ご不明な点は info@myecom.net までご連絡ください。\n\n${siteName}\n運営：株式会社イーコミュニケーション\n`,
       });
     } catch (e) {
       console.error('form: auto-reply failed', e);

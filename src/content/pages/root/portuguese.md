@@ -1,14 +1,14 @@
 ---
 title: "ECOMポルトガル語"
 path: "/portuguese/"
-slides: [{"image":"/wp-content/uploads/2023/02/slider-portuguese.jpg","title":"オンラインでポルトガル語レッスン","text":"ブラジル・ポルトガル語を、専門の講師と一緒に学びませんか？","button":"体験レッスン申込み","link":"/trial/"}]
+slides: [{"image":"/wp-content/uploads/2023/02/slider-portuguese.jpg","title":"オンラインでポルトガル語レッスン","text":"ブラジル・ポルトガル語を、専門の講師と一緒に学びませんか？","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
 ---
 
 <div class="wp-layout">
 <div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>ポイント制で、好きな時にポルトガル語レッスンが受けられます。</p>
+<p>チケット制で、好きな時にポルトガル語レッスンが受けられます。</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -90,7 +90,7 @@ slides: [{"image":"/wp-content/uploads/2023/02/slider-portuguese.jpg","title":"�
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/wp-content/uploads/2023/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="オンラインレッスン体験申込み" title="オンラインレッスン体験申込み"></a>
+<a class="btn-main" href="/trial/">体験レッスンを予約する（30分×2回・2,500円）</a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>

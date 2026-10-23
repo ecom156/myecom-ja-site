@@ -33,7 +33,7 @@ path: "/english/children/flow"
 <p>・日本人スタッフとの音声チェックを兼ねたオンラインカウンセリング(15分程度)</p>
 <p>・別日程で、30分クラスの体験レッスンを2回</p>
 <p>受講頂きます（費用：2,500円　要振込み）。</p>
-<p>問題ないようでしたら、会員サイトよりポイントを購入頂くことで、ご入会となります。</p>
+<p>問題ないようでしたら、会員サイトよりチケットを購入頂くことで、ご入会となります。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">

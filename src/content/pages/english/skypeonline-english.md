@@ -170,7 +170,7 @@ path: "/english/skypeonline-english/"
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>価格は、マンツーマン60分クラスで6,000円程度（ポイント購入数や継続によって異なる）。</p>
+<p>価格は、マンツーマン60分クラスで6,000円程度（チケット購入数や継続によって異なる）。</p>
 <p>オンライン英会話の中では高い価格帯ですが、無駄な時間を発生させずに、上達への最短距離を提示しておりますので、＊<strong><span style="color: #ff6600;">上達までのトータルコスト</span></strong>で考えると格安スクールでだらだらお金をかえるより、よっぽどよいはずです。</p>
 </div>
 </div>
@@ -206,7 +206,7 @@ path: "/english/skypeonline-english/"
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
+<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">

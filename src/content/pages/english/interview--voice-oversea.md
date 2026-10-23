@@ -27,7 +27,7 @@ path: "/english/interview/voice-oversea/"
 </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h2><span style="color: #800000;">きっかけは妹がレッスン。ポイント家族共有プラン</span></h2>
+<h2><span style="color: #800000;">きっかけは妹がレッスン。チケット家族共有プラン</span></h2>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -40,7 +40,7 @@ path: "/english/interview/voice-oversea/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>妹がベトナムからフランス語のレッスンを受けていて、便利だなーと思い受講を始めました。</p>
-<p>家族会員でポイントを共有できたのもの大きなポイントでした。</p>
+<p>家族会員でチケットを共有できたのもの大きなポイントでした。</p>
 <p>はじめは海外からの通話は不安定で、レッスンに使えないんじゃないかと思っていましたが、 実際に受けてみて問題ないことがわかりました。</p>
 </div>
 </div>
@@ -86,7 +86,7 @@ path: "/english/interview/voice-oversea/"
 <div class="wpb_wrapper">
 <p><strong>&#160;・よく考えて作られたシステム</strong></p>
 <p><strong>・事務局の方々のサービス精神</strong></p>
-<p><strong>・家族共有ポイント＆いろいろな言語に利用できる点</strong></p>
+<p><strong>・家族共有チケット＆いろいろな言語に利用できる点</strong></p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">

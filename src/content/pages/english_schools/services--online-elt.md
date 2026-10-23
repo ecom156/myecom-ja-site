@@ -22,7 +22,7 @@ path: "/english/schools/services/online-elt/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2>内容：</h2>
-<p>・1000人に1人の倍率をクリアした、バイリンガルのネイティブ講師が英語授業サポート</p>
+<p>・採用率3%の選考をクリアした、バイリンガルのネイティブ講師が英語授業サポート</p>
 <p>・英検、TEAP, TOEFL, IELTSなどの試験対策も対応できます。</p>
 </div>
 </div>
@@ -70,7 +70,7 @@ path: "/english/schools/services/online-elt/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>・大卒、講師資格（TESOL/ CELTA）取得者のネイティブやバイリンガル講師。</p>
-<p>・0.1％の採用率を潜り抜けてきた1,000人に1人の講師。</p>
+<p>・採用率3%の選考を潜り抜けてきた講師。</p>
 <p>・事前面談で要望を聞いて、相性のよい講師をコーディネーターが対応いたします（動画見て講師指名可能）。</p>
 </div>
 </div>

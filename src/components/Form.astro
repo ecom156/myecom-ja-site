@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import formsJson from '../data/forms.json';
+import paymentJson from '../data/payment.json';
 import { siteForPath } from '../lib';
 
 // Turnstile のサイトキー（公開して問題ないキー）。対になるシークレットは Cloudflare の TURNSTILE_SECRET_KEY
@@ -9,17 +10,33 @@ const siteKey = '0x4AAAAAAFc9cH_m65hEMoAH';
 type Field = { name: string; label: string; type: string; required: boolean; description?: string; placeholder?: string; choices?: string[] };
 interface Props { formKey: string }
 const { formKey } = Astro.props;
-const form = (formsJson as Record<string, { button: string; fields: Field[] }>)[formKey];
+const form = (formsJson as Record<string, { button: string; fields: Field[]; payment?: string }>)[formKey];
+// 体験料など、送信後に支払いへ進むフォーム（URL は src/data/payment.json の1か所で差し替え）
+const payment = form?.payment ? (paymentJson as Record<string, { label: string; url: string }>)[form.payment] : undefined;
 const here = decodeURI(Astro.url.pathname);
 // 送信後の行き先: 旧サイトのサンキューページ（このページの下にある thank を含むページ）があればそこ、無ければ同じページ
 const site = siteForPath(here);
-const thanks = (await getCollection('pages')).map((p) => p.data.path).find((p) => p.startsWith(here) && p !== here && /thank/i.test(p.slice(here.length)))
+const thanks = payment ? undefined : (await getCollection('pages')).map((p) => p.data.path).find((p) => p.startsWith(here) && p !== here && /thank/i.test(p.slice(here.length)))
   ?? (await getCollection('pages')).map((p) => p.data.path).find((p) => p.startsWith(site.base + '/') && /thank/i.test(p) && p.startsWith(here.split('/').slice(0, -2).join('/') + '/'));
 const inputType = (t: string) => (t === 'email' ? 'email' : t === 'phone' ? 'tel' : t === 'number' ? 'number' : t === 'date' ? 'date' : t === 'website' ? 'url' : 'text');
 ---
 {form && (
   <div class="wp-form" data-form-for={formKey}>
-    <p class="form-sent" hidden>送信しました。ありがとうございます。確認のメールをお送りしましたので、ご確認ください。</p>
+    {payment ? (
+      <div class="form-sent pay-box" hidden>
+        <p><b>お申込みを受け付けました。</b>確認のメールをお送りしました。</p>
+        {payment.url ? (
+          <>
+            <p>続けて、{payment.label}をクレジットカードでお支払いください。お支払いを確認したら、会員サイトのご案内をお送りします。</p>
+            <a class="btn-main" href={payment.url} target="_blank" rel="noopener">{payment.label}をカードで支払う（Square）</a>
+          </>
+        ) : (
+          <p>{payment.label}のお支払い方法を、メールでご案内します。</p>
+        )}
+      </div>
+    ) : (
+      <p class="form-sent" hidden>送信しました。ありがとうございます。確認のメールをお送りしましたので、ご確認ください。</p>
+    )}
     <p class="form-error" hidden>送信できませんでした。入力内容をご確認のうえ、時間をおいて再度お試しいただくか、info@myecom.net まで直接ご連絡ください。</p>
     <form class="contact" method="post" action="/api/form/">
       <input type="hidden" name="form" value={formKey} />
