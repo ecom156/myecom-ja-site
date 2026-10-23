@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { getCollection } from 'astro:content';
-import { siteForPath, sortPosts, postPath, siteKeyOf, type Site } from '../lib';
+import { sites, siteForPath, sortPosts, postPath, siteKeyOf, type Site } from '../lib';
 
 interface Props {
   title: string;
@@ -19,6 +19,8 @@ const year = new Date().getFullYear();
 const home = `${site.base}/`;
 const recent = sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)).slice(0, 5);
 const ogImage = image ?? site.logo;
+// GA は全サイト共通で TOP のプロパティに送り、どのサイトのページかはコンテンツグループで分ける
+const ga = sites.root.ga;
 ---
 <!doctype html>
 <html lang="ja">
@@ -42,13 +44,13 @@ const ogImage = image ?? site.logo;
     <meta property="og:type" content={type} />
     <meta property="og:url" content={canonical} />
     {ogImage && <meta property="og:image" content={new URL(ogImage, Astro.site)} />}
-    {site.ga && <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.ga}`}></script>}
-    {site.ga && (
-      <script is:inline define:vars={{ ga: site.ga }}>
+    {ga && <script async src={`https://www.googletagmanager.com/gtag/js?id=${ga}`}></script>}
+    {ga && (
+      <script is:inline define:vars={{ ga, group: site.name }}>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', ga);
+        gtag('config', ga, { content_group: group });
       </script>
     )}
   </head>
