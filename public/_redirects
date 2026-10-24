@@ -93,3 +93,5 @@
 /arabic/onlinelessons/courses/ /arabic/ 301
 /english/teachers/onlinelessons/laura/ /english/teachers/ 301
 /english/schools/sougou/ /english/schools/ 301
+/vocabulary/ /english/vocabulary/ 301
+/vocabulary/* /english/vocabulary/ 301
