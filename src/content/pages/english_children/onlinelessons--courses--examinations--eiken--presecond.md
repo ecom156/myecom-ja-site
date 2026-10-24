@@ -29,7 +29,7 @@ path: "/english/children/onlinelessons/courses/examinations/eiken/presecond"
 <p><strong>・配点の50％を占めるリスニングパートの出来が合否に影響。大人に比べて耳のよい子供は有利。</strong></p>
 <p><strong>ただし、過去問を解いて、問題の形式に慣れることが重要。</strong></p>
 <p><strong>・リスニングがうまく解けない場合、必要な語彙力が不足している場合がほとんどです。</strong></p>
-<p><strong><a href="/vocabulary/en-us/#/c/1282" target="_blank" rel="noopener">英検準2級に出る英単語</a>を、別途集中学習しましょう。</strong></p>
+<p><strong>英検準2級に出る英単語を、別途集中学習しましょう。</strong></p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
