@@ -28,16 +28,6 @@ path: "/english/columns/improve-factors/vocabulary2/"
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2>Ecom英語ネットが提供する、お勧め語彙強化アプリ「<a href="/vocabulary/" target="_blank">Memory</a>」</h2>
-</div>
-</div>
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/vocabulary/" target="_blank" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="713" height="872" src="/english/wp-content/uploads/2014/12/gamen-seal.jpg" class="vc_single_image-img attachment-full" alt="ピクチャーディクショナリー" title="ピクチャーディクショナリー"></a>
-</figure>
-</div>
 </div></div></div></div>
 </div>
 </div>
