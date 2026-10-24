@@ -97,7 +97,7 @@ front: true
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3 style="text-align: center;"><strong>▶ </strong><strong>大手の半額程度の費用感</strong></h3>
-<p>60分:7,000円～。利用した分だけの明瞭会計。</p>
+<p>マンツーマン60分：7,000円（税抜）～。利用した分だけの明瞭会計。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
