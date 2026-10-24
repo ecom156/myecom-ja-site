@@ -173,20 +173,28 @@
         "href": "/english/"
       },
       {
-        "label": "タイプ別",
-        "href": "/english/types/",
+        "label": "コース",
+        "href": "/english/courses/",
         "children": [
           {
-            "label": "子供向けHOME",
-            "href": "/english/children/"
+            "label": "コース・クラスの一覧",
+            "href": "/english/courses/classlists/"
           },
           {
-            "label": "法人・官公庁の方向けHOME",
-            "href": "/english/corporation/"
+            "label": "基礎力養成コース",
+            "href": "/english/courses/basic/"
           },
           {
-            "label": "視覚障害の方へ",
-            "href": "/english/visual/"
+            "label": "初中級以上の方向けコース",
+            "href": "/english/courses/high/"
+          },
+          {
+            "label": "ビジネス英語コース",
+            "href": "/english/courses/business/"
+          },
+          {
+            "label": "試験対策コース",
+            "href": "/english/courses/examinations/"
           },
           {
             "label": "英語初心者の方へ",
@@ -197,114 +205,120 @@
             "href": "/english/types/intermediate/"
           },
           {
-            "label": "海外国外から利用の方へ",
+            "label": "パソコンが苦手な方・シニアの方へ",
+            "href": "/english/itbeginner/"
+          },
+          {
+            "label": "海外にお住まいの方へ",
             "href": "/english/types/overseas/"
           },
           {
-            "label": "PC、機械に不安のある方、シニアの方など",
-            "href": "/english/itbeginner/"
+            "label": "視覚障害のある方へ",
+            "href": "/english/visual/"
           }
         ]
       },
       {
-        "label": "コース・クラス",
-        "href": "/english/courses/",
-        "children": [
-          {
-            "label": "コース・クラス全体一覧",
-            "href": "/english/courses/classlists/"
-          },
-          {
-            "label": "基礎力養成コース",
-            "href": "/english/courses/basic/"
-          },
-          {
-            "label": "初中級以上の方向け英語コース",
-            "href": "/english/courses/high/"
-          },
-          {
-            "label": "ビジネス英語コース",
-            "href": "/english/courses/business/"
-          },
-          {
-            "label": "英語試験対策コース一覧",
-            "href": "/english/courses/examinations/"
-          }
-        ]
-      },
-      {
-        "label": "料金システム",
+        "label": "料金",
         "href": "/price/"
-      },
-      {
-        "label": "特徴・比較",
-        "href": "#",
-        "children": [
-          {
-            "label": "サービスミッション、コンセプト",
-            "href": "/english/concept/"
-          },
-          {
-            "label": "当校サービスの露出が少ない理由",
-            "href": "/english/reason/"
-          },
-          {
-            "label": "街中の英会話学校と比較中の方へ",
-            "href": "/english/schoool-hikaku/"
-          },
-          {
-            "label": "他のオンライン英会話と比較中の方へ",
-            "href": "/english/skypeonline-english/"
-          }
-        ]
       },
       {
         "label": "講師",
         "href": "/english/teachers/"
       },
       {
-        "label": "利用体験談",
+        "label": "体験談",
         "href": "/english/interview/",
         "children": [
           {
-            "label": "体験談ー医師の方",
+            "label": "医師の方",
             "href": "/english/interview/voice-doctor/"
           },
           {
-            "label": "体験談－会社員（TOEIC）",
+            "label": "会社員（TOEIC）",
             "href": "/english/interview/business-telecom/"
           },
           {
-            "label": "体験談－士業の方",
+            "label": "士業の方",
             "href": "/english/interview/voice-specialist/"
           },
           {
-            "label": "体験談－証券会社員の方",
+            "label": "証券会社員の方",
             "href": "/english/interview/voice-business1/"
           },
           {
-            "label": "体験談－海外勤務や、出張の多い方",
+            "label": "海外勤務や、出張の多い方",
             "href": "/english/interview/voice-oversea/"
           },
           {
-            "label": "体験談－会社員（メーカー研究開発）",
+            "label": "会社員（メーカー研究開発）",
             "href": "/english/interview/business-researcher/"
           },
           {
-            "label": "体験談ーIELTSの方",
+            "label": "IELTSの方",
             "href": "/english/interview/ielts10/"
           },
           {
-            "label": "体験談－シニアの方",
+            "label": "シニアの方",
             "href": "/english/interview/voice-elder/"
           },
           {
-            "label": "体験談－会社員の方",
+            "label": "会社員の方",
             "href": "/english/interview/voice-business02/"
           },
           {
-            "label": "体験談－公務員、団体職員",
+            "label": "公務員、団体職員",
             "href": "/english/interview/voice-public/"
+          }
+        ]
+      },
+      {
+        "label": "ECOMの特徴",
+        "href": "#",
+        "children": [
+          {
+            "label": "サービスのコンセプト",
+            "href": "/english/concept/"
+          },
+          {
+            "label": "英語4倍速上達の秘密",
+            "href": "/english/improve/"
+          },
+          {
+            "label": "ほかのオンライン英会話との比較",
+            "href": "/english/skypeonline-english/"
+          },
+          {
+            "label": "街中の英会話教室との比較",
+            "href": "/english/schoool-hikaku/"
+          },
+          {
+            "label": "ネイティブ講師のオンライン英会話選び 4つのポイント",
+            "href": "/english/native-lp/"
+          },
+          {
+            "label": "オンライン英会話選び 失敗しない5つのポイント",
+            "href": "/english/points/"
+          },
+          {
+            "label": "当校の露出が少ない理由",
+            "href": "/english/reason/"
+          },
+          {
+            "label": "英語上達コラム",
+            "href": "/english/columns/"
+          },
+          {
+            "label": "無料の英語学習動画",
+            "href": "/english/videos/"
+          },
+          {
+            "label": "英語学習のビタミン（ブログ）",
+            "href": "/english/blog/"
+          },
+          {
+            "label": "CMギャラリー",
+            "href": "/english/cm/"
           }
         ]
       },
@@ -313,42 +327,12 @@
         "href": "/english/trial/",
         "children": [
           {
-            "label": "体験レッスンお申込みフォーム",
+            "label": "体験レッスンのお申込み",
             "href": "/english/trial/trial-form/"
-          }
-        ]
-      },
-      {
-        "label": "その他",
-        "href": "#",
-        "children": [
-          {
-            "label": "英語学習のビタミン",
-            "href": "/english/blog/"
           },
           {
-            "label": "英語上達コラム",
-            "href": "/english/columns/"
-          },
-          {
-            "label": "英語4倍速上達の秘密",
-            "href": "/english/improve/"
-          },
-          {
-            "label": "無料Ecom英語学習動画一覧",
-            "href": "/english/videos/"
-          },
-          {
-            "label": "オンライン英会話選びで失敗しない5つのポイント",
-            "href": "/english/points/"
-          },
-          {
-            "label": "ネイティブ講師のオンライン英会話選びで気を付ける４つのポイント",
-            "href": "/english/native-lp/"
-          },
-          {
-            "label": "CMギャラリー、アーカイブ",
-            "href": "/english/cm/"
+            "label": "無料の入会前サポート",
+            "href": "/english/trial/support/"
           }
         ]
       },
@@ -361,8 +345,12 @@
             "href": "/aboutecom/"
           },
           {
-            "label": "安心の無料入会前サポート",
-            "href": "/english/trial/support/"
+            "label": "子供の英会話",
+            "href": "/english/children/"
+          },
+          {
+            "label": "法人・官公庁の語学研修",
+            "href": "/english/corporation/"
           },
           {
             "label": "特商法表記",
@@ -371,7 +359,7 @@
         ]
       },
       {
-        "label": "会員サイト",
+        "label": "会員ログイン",
         "href": "https://121.myecom.net"
       }
     ],

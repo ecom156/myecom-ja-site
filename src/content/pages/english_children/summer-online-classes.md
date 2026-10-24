@@ -191,8 +191,7 @@ path: "/english/children/summer-online-classes"
 <p>ご安心ください。</p>
 <p>ただ、午前〇時から〇時の間で、女性で、イギリス英語と、条件を絞りすぎると予約がとれないことはありえます。</p>
 <p>条件をしぼらないで、その日予約が全くとれないということが万一あった場合、有効期限を延長などで特別対応しますので、ご安心ください。</p>
-</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>兄弟姉妹割引はありますか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>入会の際、入会金9000円は、1度限りです。</p>
-<p>2人目以降の兄弟、姉妹は、入会金なしで参加できます。</p>
+</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>兄弟姉妹割引はありますか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>入会金はかかりません。家族プランなら、兄弟姉妹で同じチケットを分けて使えます。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>英検は何級を対策していますか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>英検は5級から1級までカバーして対応しています。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>授業は、午前でなく、午後や夜に受けてもいいですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>はい。問題ありません。</p>
 <p>留学先では、午前中に授業を行うので、そのように記載していますが、お子様の都合にあわせて、いつでも予約頂けます。</p>

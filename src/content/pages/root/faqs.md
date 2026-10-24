@@ -26,7 +26,7 @@ path: "/faqs/"
 <p>1チケットで、30分クラスを1回受講いただけます。</p>
 <p>1チケットは、購入するチケットの量や、継続数によって割引があるため一定ではないですが、だいたい1チケット＝3,300円くらいの単価となっています。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>・支払い方法を教えて下さい。</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>銀行振り込みのみとなっております。クレジットカードには対応しておりません。</p>
-</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>入会金は必要ですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>はい。初回の手続き必要として、入会金9,000円を頂いております。なお英語で入会されて、後で中国語やフランス語など当校の他言語学習サービスを利用されたい場合に再度入会金は必要ありません。入会期間は、利用されている間は無制限ですが、利用されなくなって（チケットの利用がなくなって）6ヶ月間経ちますと退会処理がなされます。その場合データなどが全て消されてしまいますので、再度の利用には入会金が必要となってまいります。</p>
+</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>入会金は必要ですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>いいえ。入会金はかかりません（大阪市の塾代助成でのご入会のみ、設定手数料として9,000円がかかります）。入会期間は、利用されている間は無制限ですが、利用されなくなって（チケットの利用がなくなって）6ヶ月間経ちますと退会処理がなされます。その場合データなどが全て消されてしまいますので、再度の利用には入会金が必要となってまいります。</p>
 <p>もし180日間以上お休みをされたい場合、当校に『休会』届けをお出しください。退会扱いにならないように対応をさせて頂きます（無料）。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>領収書は発行可能ですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>はい。発行いたしております。宛名、摘要などでご要望がありましたらご相談ください。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>一度払ったお金は返金可能ですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>退会される場合においては、次の条件が合致していれば返金をさせて頂いております。</p>
@@ -38,7 +38,7 @@ path: "/faqs/"
 <p>チケット購入単価×残存チケット数－返金事務手数料1万円=ご返金金額</p>
 <p>こちらの金額をご返金先銀行情報を受け取った後5営業日以内にお戻しさせて頂いております。</p>
 <p>例えば有効期限が3ヶ月後に切れるレッスンチケットの価値が76,000円の場合、</p>
-<p>66,000円をお戻しさせて頂いております。ただし自動的に退会扱いとなり再度始められる際には入会金が必要となってまいります。</p>
+<p>66,000円をお戻しさせて頂いております。ただし自動的に退会扱いとなります。</p>
 </div></div><div class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_dotted vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>クラスについて</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>1クラスの長さはどのくらいですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>短い方から30分クラス、60分クラス、90分クラスとなっており、30分単位のクラス編成です。開始時間も00分か30分開始となります。</p>
 <p>なお30分クラス(25分レッスン+5分予備)、60分クラス(55分レッスン＋5分予備)となっております。ご了承ください。</p>

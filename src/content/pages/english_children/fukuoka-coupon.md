@@ -247,8 +247,7 @@ forms:
 <p>最新3回分の問題を終えて、時間に余裕があれば、もう3回から6回分過去問をさかのぼって学習していきましょう。</p>
 <p>2次対策の場合、当校の予想問題をもとに、講師が試験監の役割をしたRole playを行い、フィードバックを与えてまいります。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>月額会費以外に、教材代とか必要なものはありますか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><h3><span style="color: #339966;">教材費無料です。</span></h3>
-<p>毎月の授業料だけですが、ECOM入会時に、入会金1万円が必要となります。</p>
-<p>ただし、期間限定のグループクラス希望の場合、入会金は不要です（ビジター参加扱い）。</p>
+<p>毎月の授業料だけです。入会金もかかりません。</p>
 </div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>フィリピン英会話とECOM（ネイティブ）で迷っています。</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><h2><span style="color: #ff6600;"><strong>子どもは、耳がよく、モノマネの天才</strong></span>です。</h2>
 <p>先生の話す言葉を、よく真似します。</p>
 <p>ぜひ、お子様には、フィリピン訛りではなく、ネイティブの使う英語、語彙、表現に触らせてあげてください。</p>
