@@ -46,7 +46,7 @@ path: "/english/corporation/online-private/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3 style="text-align: center;"><strong>30分 ：3,500円</strong></h3>
-<h3 style="text-align: center;"><strong>60分 ：7,000円</strong></h3>
+<h3 style="text-align: center;"><strong>60分 ：7,000円（税抜）</strong></h3>
 </div>
 </div>
 <div class="wpb_text_column wpb_content_element">
