@@ -59,6 +59,7 @@ const ga = sites.root.ga;
     <header class="site-header">
       <div class="wrap">
         <a class="logo" href={home}>{site.logo ? <img src={site.logo} alt={site.name} /> : <span>{site.name}</span>}</a>
+        {site.cta && <a class="header-cta" href={site.cta.href}>{site.cta.label}</a>}
         <details class="menu-toggle"><summary>メニュー</summary></details>
         <ul class="nav">
           {site.nav.map((item) => (

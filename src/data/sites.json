@@ -9,17 +9,21 @@
     "ga": "GT-5RFHJP5",
     "nav": [
       {
-        "label": "HOME",
-        "href": "/"
+        "label": "子供の英会話",
+        "href": "/english/children/"
       },
       {
-        "label": "各言語コースを詳しく",
+        "label": "法人・学校",
+        "href": "/english/corporation/"
+      },
+      {
+        "label": "大人の英会話",
+        "href": "/english/"
+      },
+      {
+        "label": "その他の言語",
         "href": "#",
         "children": [
-          {
-            "label": "ECOM英語・英会話TOP",
-            "href": "/english"
-          },
           {
             "label": "ECOM中国語",
             "href": "/chinese/"
@@ -63,33 +67,11 @@
         ]
       },
       {
-        "label": "料金システム",
+        "label": "料金",
         "href": "/price/"
       },
       {
-        "label": "体験レッスン制度",
-        "href": "/trial/"
-      },
-      {
-        "label": "お問い合わせ",
-        "href": "/contact/",
-        "children": [
-          {
-            "label": "よくある質問と回答",
-            "href": "/faqs/"
-          },
-          {
-            "label": "ECOM語学学校の紹介",
-            "href": "/aboutecom/"
-          }
-        ]
-      },
-      {
-        "label": "会員の方",
-        "href": "https://121.myecom.net"
-      },
-      {
-        "label": "語学学習のビタミン",
+        "label": "ブログ",
         "href": "/blog/",
         "children": [
           {
@@ -121,6 +103,24 @@
             "href": "/blog/category/arabic/"
           }
         ]
+      },
+      {
+        "label": "お問い合わせ",
+        "href": "/contact/",
+        "children": [
+          {
+            "label": "よくある質問と回答",
+            "href": "/faqs/"
+          },
+          {
+            "label": "ECOM語学学校の紹介",
+            "href": "/aboutecom/"
+          }
+        ]
+      },
+      {
+        "label": "会員ログイン",
+        "href": "https://121.myecom.net"
       }
     ],
     "footer": [
@@ -154,7 +154,11 @@
       }
     ],
     "frontIsPosts": false,
-    "postsPage": 2981
+    "postsPage": 2981,
+    "cta": {
+      "label": "体験を予約",
+      "href": "/trial/"
+    }
   },
   "english": {
     "key": "english",
@@ -372,7 +376,11 @@
       }
     ],
     "footer": [],
-    "frontIsPosts": false
+    "frontIsPosts": false,
+    "cta": {
+      "label": "体験を予約",
+      "href": "/english/trial/"
+    }
   },
   "english_children": {
     "key": "english_children",
@@ -541,13 +549,17 @@
         ]
       },
       {
-        "label": "既に会員の方（会員サイト）",
+        "label": "会員ログイン",
         "href": "https://121.myecom.net/"
       }
     ],
     "footer": [],
     "frontIsPosts": false,
-    "postsPage": 7
+    "postsPage": 7,
+    "cta": {
+      "label": "体験を予約",
+      "href": "/english/children/onlinelessons/trial"
+    }
   },
   "english_schools": {
     "key": "english_schools",
@@ -711,7 +723,7 @@
     "icon": "/english/corporation/wp-content/uploads/sites/3/2024/09/cropped-ecom_C-32x32.png",
     "nav": [
       {
-        "label": "Hone",
+        "label": "HOME",
         "href": "/english/corporation/"
       },
       {
@@ -797,7 +809,11 @@
       }
     ],
     "frontIsPosts": false,
-    "postsPage": 4
+    "postsPage": 4,
+    "cta": {
+      "label": "無料相談",
+      "href": "/english/corporation/contact/"
+    }
   },
   "english_onki": {
     "key": "english_onki",

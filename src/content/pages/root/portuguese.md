@@ -2,6 +2,7 @@
 title: "ECOMポルトガル語"
 path: "/portuguese/"
 slides: [{"image":"/wp-content/uploads/2023/02/slider-portuguese.jpg","title":"オンラインでポルトガル語レッスン","text":"ブラジル・ポルトガル語を、専門の講師と一緒に学びませんか？","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

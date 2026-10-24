@@ -5,6 +5,11 @@ import PostList from '../components/PostList.astro';
 import Slider from '../components/Slider.astro';
 import Form from '../components/Form.astro';
 import RecentGrid from '../components/RecentGrid.astro';
+import TopPage from '../components/lp/TopPage.astro';
+import KidsPage from '../components/lp/KidsPage.astro';
+import CorporatePage from '../components/lp/CorporatePage.astro';
+import LanguageIntro from '../components/lp/LanguageIntro.astro';
+import PricePlans from '../components/lp/PricePlans.astro';
 import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, allCategories, inCategory, chunk, param, type Site } from '../lib';
 
 type Props =
@@ -67,14 +72,23 @@ const site = props.kind === 'list' ? props.site : siteOf(entry!);
 const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
+const template = props.kind === 'page' ? props.page.data.template : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : undefined;
 const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
-{props.kind === 'page' && (
+{props.kind === 'page' && Landing && (
+  <Base site={site} title={props.page.data.front ? site.name : props.page.data.title}>
+    <Landing />
+  </Base>
+)}
+{props.kind === 'page' && !Landing && (
   <Base site={site} title={props.page.data.front ? site.name : props.page.data.title}>
     {props.page.data.slides.length > 0 && <Slider slides={props.page.data.slides} />}
     <div class="wrap">
       {!props.page.data.front && <nav class="breadcrumb"><a href={home}>Home</a> » {props.page.data.title}</nav>}
       {!props.page.data.front && <h1>{props.page.data.title}</h1>}
+      {template === 'language' && <LanguageIntro path={props.page.data.path} />}
+      {template === 'price' && <PricePlans />}
       <div class="prose"><Content /></div>
       {formKeys.map((k) => <Form formKey={k} />)}
       {props.page.body?.includes('data-recent-posts') && <RecentGrid site={site} />}

@@ -3,6 +3,7 @@ title: "ECOMオンラインロシア語レッスン"
 path: "/russian/"
 front: true
 slides: [{"image":"/russian/wp-content/uploads/sites/8/2015/09/online-lesson-middle-1200x500.jpg","title":"自宅からマンツーマンロシア語レッスン","text":"日本語もわかる専門のロシア語講師が、丁寧に指導。 まったくの初心者から上級者まで。","button":"体験レッスンに興味のある人はこちら","link":"/trial/"},{"image":"/russian/wp-content/uploads/sites/8/2015/04/slider-russian-blog1-1170x500.jpg","title":"ロシア文化をやさしく紹介。Ecomロシア語通信","text":"ロシアの文化風習、流行のものまで。","button":"読んでみる","link":"/russian/blog/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

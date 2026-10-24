@@ -2,6 +2,7 @@
 title: "ECOMイタリア語"
 path: "/italian/"
 slides: [{"image":"/wp-content/uploads/2023/02/italian-medium-1780x500.jpg","title":"オンラインでイタリア語レッスン","text":"経験豊富なイタリア人講師が指導します。","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

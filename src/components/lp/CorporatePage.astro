@@ -1,0 +1,157 @@
+---
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+
+// 法人研修のトップ（/english/corporation/）。研修の進め方は「成果を測る」「楽しく続ける」の2択、AIはオプション（K 2026-10-24）
+const base = '/english/corporation';
+const contact = `${base}/contact/`;
+const docs = `${base}/documents/`;
+const { hourly, entryFee } = plans.corporate;
+const faq = [
+  { q: '何人から申し込めますか？', a: '1人から申し込めます。グループは10人まで同じ料金です。' },
+  { q: '英語以外の言語でも研修できますか？', a: '中国語・韓国語・フランス語・ドイツ語・スペイン語など、20言語で研修できます。' },
+  { q: 'AI講師を使わなくてもいいですか？', a: 'はい。AI講師はオプションです。講師とのレッスンだけで研修できます。' },
+  { q: '社内のセキュリティで使えるツールが限られています。', a: 'Microsoft Teams・Google Meetなど、使い慣れたツールで受講できます。独自のソフトを入れる必要はありません。' },
+  { q: '受講状況は確認できますか？', a: '人事部専用のアカウントで、受講状況をいつでも確認できます。修了証や、ご希望に応じて出席表・成果表もお出しします。' },
+];
+---
+<div class="lp">
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="lp-eyebrow">企業・官公庁・学校のオンライン語学研修</p>
+          <h1>講師1時間{hourly}（税抜）の明朗会計。マンツーマンもグループも同じ料金。</h1>
+          <p class="lp-lead">グループは10人まで同額です。英語と20言語に対応し、出席と成果をご担当者さまに報告します。</p>
+          <div class="lp-btns">
+            <a class="lp-btn navy" href={docs}>資料をダウンロード</a>
+            <a class="lp-btn" href={contact}>無料相談・お見積り</a>
+          </div>
+        </div>
+        <img src="/english/corporation/wp-content/uploads/sites/3/2024/09/group-lessons00-middle.jpg" alt="オンラインのグループ英語研修" />
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec line">
+    <div class="lp-in">
+      <p><b>導入実績</b>　<span class="lp-sub">海上保安庁やデジタル庁などの官公庁をはじめ、ホテル・小売・医薬品・商社・金融・アパレル・貿易・製造業の企業研修に、20年以上の実績があります。</span> <a href={`${base}/online-group/examples/`}>研修実績例</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>研修の進め方を選べます</h2>
+        <p class="lp-sub">目的に合わせて、どちらでも始められます。途中で変えることもできます。</p>
+      </div>
+      <div class="lp-cards">
+        <div class="lp-card wide strong">
+          <span class="lp-tag">A</span><b>成果を測る研修</b>
+          <span>研修の最初と半年ごとにレベルを測り、伸びを報告します。海外赴任、昇格の要件、TOEICの目標がある場合に。</span>
+          <ul><li>0〜10++の33段階でレベルを判定（英検・TOEIC対応表つき）</li><li>目標レベルまでの時間と費用を最初に試算</li><li>研修後に、受講者へ学習アドバイスをお送りします</li></ul>
+          <a href="/english/level/">33段階のレベル早見表</a>
+        </div>
+        <div class="lp-card wide">
+          <span class="lp-tag teal">B</span><b>楽しく続ける研修</b>
+          <span>レベル測定なしで、グループのビジネス英会話を気軽に。福利厚生や、社内のコミュニケーションづくりに。</span>
+          <ul><li>テストなしで始められます</li><li>テーマを決めたグループでの会話</li><li>出席を報告します</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>研修の形</h2>
+      <div class="lp-cards">
+        <a class="lp-card" href={`${base}/online-group/`}><img src="/english/corporation/wp-content/uploads/sites/3/2024/09/group-lessons00-middle-300x169.jpg" alt="" loading="lazy" /><b>グループ研修</b><span>2〜10人のグループ。人数が増えても1時間{hourly}（税抜）で、10人なら1人700円からです。</span><i>くわしく →</i></a>
+        <a class="lp-card" href={`${base}/online-private/`}><img src="/english/corporation/wp-content/uploads/sites/3/2024/09/private-training-native-middle-300x200.jpg" alt="" loading="lazy" /><b>マンツーマン研修</b><span>一人ひとりの業務に合わせた内容で、1時間{hourly}（税抜）。時間も個別に予約できます。</span><i>くわしく →</i></a>
+        <a class="lp-card" href={`${base}/edtech/`}><img src="/english/corporation/wp-content/uploads/sites/3/2018/02/videos-training-300x180.jpg" alt="" loading="lazy" /><b>研修教材・動画の作成</b><span>自己学習用に、御社専用のトレーニング教材を作ります。</span><i>くわしく →</i></a>
+      </div>
+      <div class="lp-box"><b>AI講師（オプション）</b><span class="lp-sub">ご希望の会社だけ、レッスンのない日にAI講師と毎日練習できるようにします。使わない研修も選べます。データの扱いはご相談のときにご説明します。</span></div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>研修の流れ</h2>
+      <ol class="lp-steps">
+        <li><em>1</em><b>ご相談</b><span>フォームからお問い合わせください。しつこい営業電話や、延々と続くメールは一切ありません。</span></li>
+        <li><em>2</em><b>研修の設計</b><span>目的・期間・人数から、時間と費用をお見積りします。Aの研修では、最初にレベルを測ります。</span></li>
+        <li><em>3</em><b>受講</b><span>担任講師がオンラインで研修します。受講者の環境チェックは、サポートチームが無料で個別に対応します。</span></li>
+        <li><em>4</em><b>報告・修了</b><span>修了証と、ご希望に応じて出席表・成果表をお出しします。</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>費用の目安</h2>
+        <p class="lp-sub">すべて税抜。講師1時間あたり{hourly}で計算します。</p>
+      </div>
+      <div class="lp-cards">
+        <div class="lp-plan"><p class="name">マンツーマン 月2時間</p><p class="price">14,000円<small> / 人・月</small></p></div>
+        <div class="lp-plan"><p class="name">グループ 60分×月4回</p><p class="price">28,000円<small> / グループ・月</small></p><p class="lead">10人なら1人あたり2,800円</p></div>
+        <div class="lp-plan"><p class="name">1レベル上げる（マンツーマン）</p><p class="price">210,000円<small> / 人</small></p><p class="lead">約60時間のうち、レッスンは約30時間（残りはAI・自習）</p></div>
+      </div>
+      <p class="lp-note">法人入会金{entryFee}（税抜）。有効期限は受講開始から1年。<a href={`${base}/online-group/price/`}>料金と事例を詳しく見る</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>ECOMが選ばれる理由</h2>
+      <div class="lp-cards">
+        <div class="lp-card"><b>プロのネイティブ講師</b><span>ベルリッツやECC経験者を中心に、採用率3%の基準で選んだ講師が教えます。日本語が分かる講師も多数います。</span></div>
+        <div class="lp-card"><b>御社専用の教材</b><span>自分たちで教材を作っているので、業務に合わせたレッスン教材を用意できます。</span></div>
+        <div class="lp-card"><b>24時間365日</b><span>国内・海外の講師がシフトを組んで対応。予約サイトからいつでも予約できます。</span></div>
+        <div class="lp-card"><b>使い慣れたTeams・Google Meet</b><span>独自のシステムを入れないので、社内のセキュリティ確認の手間がかかりません。</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>研修部門マネージャーから</h2>
+      <div class="lp-person">
+        <img src="/english/corporation/wp-content/uploads/sites/3/2015/12/katsu.jpg" alt="成田勝行" loading="lazy" />
+        <div>
+          <p>新卒で入った会社の英語研修は、テキストと短い電話レッスンだけで、あまり意味のないものでした。入社後のグループ研修も、参加者のレベルがまちまちで、どこに合わせているのか分からないレッスンでした。</p>
+          <p>語学研修を無駄遣いで終わらせないために、インターネットを活用してECOMをつくりました。ぜひ私たちの研修ノウハウをお試しください。</p>
+          <p><b style="color: var(--ink)">成田勝行</b>　慶應大学卒、アクセンチュア出身。英検1級取得。</p>
+        </div>
+      </div>
+      <div class="lp-box"><b>専門家からの推薦</b><span class="lp-sub">「ECOM語学学校との共同研究は、もう10年以上になります。ECOMの語学研修の導入は、今の日本の会社のグローバル対応にとって、ベストな選択肢だと考えています。」（ジダーノフ 札幌大学教授・言語学）</span></div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>学校・教育機関の方へ</h2>
+      <p class="lp-sub">授業内のオンライン英会話や、英検®の面接練習にご利用いただけます。</p>
+      <p><a href="/english/schools/">学校向けのご案内を見る</a>　・　<a href={`${base}/contact-school/`}>ECOMの学校紹介</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2>よくある質問</h2>
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>人数と目的を伺って、費用をお見積りします。</p>
+        <div class="lp-btns">
+          <a class="lp-btn navy" href={docs}>資料をダウンロード</a>
+          <a class="lp-btn" href={contact}>無料相談・お見積り</a>
+        </div>
+      </div>
+      <p class="lp-sub">研修担当の方へ：<a href={`${base}/checkpoint/`}>語学研修選びで気を付けたい5つのチェックポイント</a>　・　<a href={`${base}/online-group/report/`}>成果の見える語学研修への取り組み</a>　・　<a href={`${base}/blog/`}>研修ブログ</a></p>
+    </div>
+  </section>
+</div>
