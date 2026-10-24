@@ -37,6 +37,14 @@
         "required": true
       },
       {
+        "name": "tel",
+        "label": "電話番号",
+        "type": "phone",
+        "required": true,
+        "placeholder": "例：090-1234-5678",
+        "description": "ご連絡用です。カードでお支払いの方は、お支払い画面（Square）にも自動で入ります。"
+      },
+      {
         "name": "consult",
         "label": "事前相談（無料・約15分）",
         "type": "radio",
@@ -230,7 +238,7 @@
       {
         "name": "f4",
         "label": "電話番号",
-        "type": "text",
+        "type": "phone",
         "required": true,
         "description": "オンラインで連絡が取れない時のサポート用になります。"
       },
@@ -357,7 +365,7 @@
       {
         "name": "f3",
         "label": "電話番号",
-        "type": "text",
+        "type": "phone",
         "required": true,
         "description": "オンラインで連絡が取れない時のサポート用になります。"
       },
@@ -500,7 +508,7 @@
       {
         "name": "f3",
         "label": "電話番号",
-        "type": "text",
+        "type": "phone",
         "required": true,
         "description": "オンラインで連絡が取れない時のサポートになります。"
       },
