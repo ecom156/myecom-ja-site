@@ -3,8 +3,9 @@ import PlanCards from './PlanCards.astro';
 import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
-// 子供の英会話のトップ（/english/children/）
+// 子供の英会話のトップ（/english/children/）。写真とアイコンを多めにした明るいデザイン（K 2026-10-24）
 const base = '/english/children';
+const up = `${base}/wp-content/uploads/sites/2`;
 const trial = `${base}/onlinelessons/trial`;
 const eiken = `${base}/onlinelessons/courses/examinations/eiken`;
 const faq = [
@@ -15,43 +16,60 @@ const faq = [
   { q: '塾代助成で月3回プランを使うには？', a: `<a href="${base}/osaka-jukudai-josei">大阪市塾代助成を使ってECOMを受講する</a>のページで、手続きをご案内しています。` },
 ];
 ---
-<div class="lp">
-  <section class="lp-sec warm">
+<div class="lp kd">
+  <section class="lp-sec kd-hero">
+    <span class="kd-float f1" aria-hidden="true">⭐</span>
+    <span class="kd-float f2" aria-hidden="true">🎈</span>
+    <span class="kd-float f3" aria-hidden="true">ABC</span>
+    <span class="kd-float f4" aria-hidden="true">🌈</span>
     <div class="lp-in">
       <div class="lp-hero">
         <div>
-          <p class="lp-eyebrow kids">子供のオンライン英会話・英検®対策（3歳〜17歳）</p>
-          <h1>英検®にも、話す力にも。担任の先生が、毎回見守ります。</h1>
+          <p class="kd-pill">🎒 子供のオンライン英会話・英検®対策（3歳〜17歳）</p>
+          <h1>英語って、<span class="kd-mark">たのしい！</span><br />担任の先生が毎回見守ります。</h1>
           <p class="lp-lead">日本語も分かるネイティブ講師が、お子さまのペースに合わせてマンツーマンで教えます。レッスンのあとは毎回、先生のフィードバックが届きます。</p>
           <div class="lp-btns"><a class="lp-btn" href={trial}>{plans.trial.label}</a></div>
         </div>
-        <img src="/english/children/wp-content/uploads/sites/2/2024/08/online-lessons-elementary-1819x500.jpg" alt="オンラインで英会話を受ける小学生" />
+        <div class="kd-photos">
+          <img class="p1" src={`${up}/2024/08/online-lessons-elementary-1819x500.jpg`} alt="オンラインで英会話を受ける小学生" />
+          <img class="p2" src={`${up}/2015/03/kids-english-300x200.jpg`} alt="英語のカードを持つ女の子" />
+          <img class="p3" src={`${up}/2015/01/oyakoeigo-300x200.jpg`} alt="親子でオンライン英会話" />
+        </div>
       </div>
+      <ul class="kd-points">
+        <li><i class="c1">🧒</i><b>3歳から</b><span>親子で受けられる</span></li>
+        <li><i class="c2">🗣️</i><b>マンツーマン</b><span>1回30分</span></li>
+        <li><i class="c3">🇯🇵</i><b>日本語OK</b><span>の先生が多数</span></li>
+        <li><i class="c4">🏆</i><b>英検®に強い</b><span>小学生で3級も</span></li>
+      </ul>
     </div>
   </section>
 
   <section class="lp-sec">
     <div class="lp-in">
-      <h2>年齢で選ぶ</h2>
+      <h2 class="kd-h"><i>🎯</i>年齢で選ぶ</h2>
       <div class="lp-cards">
-        <a class="lp-card" href={`${base}/onlinelessons/courses/kids0`}><span class="lp-tag kids">3歳〜6歳</span><b>幼児親子コース</b><span>歌・絵カード・ゲームで、英語の音に慣れます。保護者の方と一緒に受けられます。</span><i>くわしく →</i></a>
-        <a class="lp-card" href={`${base}/onlinelessons/courses/kids`}><span class="lp-tag kids">小学校低学年</span><b>キッズ英会話</b><span>フォニックスと、音とイメージで覚える単語。楽しく英語の基礎をつくります。</span><i>くわしく →</i></a>
-        <a class="lp-card" href={`${base}/onlinelessons/courses/junior`}><span class="lp-tag kids">小学校高学年・中学生・高校生</span><b>ジュニア英会話</b><span>英会話に加えて、英検®・TEAPなどの試験対策まで。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c1" href={`${base}/onlinelessons/courses/kids0`}><img src={`${up}/2015/01/oyakoeigo-300x200.jpg`} alt="" loading="lazy" /><span class="kd-age">🐣 3歳〜6歳</span><b>幼児親子コース</b><span>歌・絵カード・ゲームで、英語の音に慣れます。保護者の方と一緒に受けられます。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c2" href={`${base}/onlinelessons/courses/kids`}><img src={`${up}/2017/07/kids-1024x791.jpg`} alt="" loading="lazy" /><span class="kd-age">🌱 小学校低学年</span><b>キッズ英会話</b><span>フォニックスと、音とイメージで覚える単語。楽しく英語の基礎をつくります。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c3" href={`${base}/onlinelessons/courses/junior`}><img src={`${up}/2018/03/English-girl-good-1024x683.jpg`} alt="" loading="lazy" /><span class="kd-age">🚀 小学校高学年・中学生・高校生</span><b>ジュニア英会話</b><span>英会話に加えて、英検®・TEAPなどの試験対策まで。</span><i>くわしく →</i></a>
       </div>
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec kd-sky">
     <div class="lp-in">
-      <div class="lp-head">
-        <h2>英検®対策</h2>
-        <p class="lp-sub">英検®に強い学校なので、小学生で3級、中学生で準1級まで取るお子さまが多くいます。受けたい級と試験日から、必要な回数と期間を先生が提案します。</p>
+      <div class="lp-sechead">
+        <img src={`${up}/2017/03/student-happy-pass-1024x820.jpg`} alt="" loading="lazy" />
+        <div class="lp-head">
+          <h2 class="kd-h"><i>🏅</i>英検®対策</h2>
+          <p class="lp-sub">英検®に強い学校なので、小学生で3級、中学生で準1級まで取るお子さまが多くいます。受けたい級と試験日から、必要な回数と期間を先生が提案します。</p>
+        </div>
       </div>
       <div class="lp-cards">
-        <a class="lp-card" href={`${eiken}/third`}><b>3級</b><span>小学生のうちに目指したい級</span></a>
-        <a class="lp-card" href={`${eiken}/presecond`}><b>準2級</b><span>中学生の目標に</span></a>
-        <a class="lp-card" href={`${eiken}/second`}><b>2級</b><span>高校卒業程度。受験にも有利</span></a>
-        <a class="lp-card" href={`${eiken}/prefirst`}><b>準1級・1級</b><span>帰国子女や上級者向け</span></a>
+        <a class="lp-card kd-level" href={`${eiken}/third`}><i>🥉</i><b>3級</b><span>小学生のうちに目指したい級</span></a>
+        <a class="lp-card kd-level" href={`${eiken}/presecond`}><i>🥈</i><b>準2級</b><span>中学生の目標に</span></a>
+        <a class="lp-card kd-level" href={`${eiken}/second`}><i>🥇</i><b>2級</b><span>高校卒業程度。受験にも有利</span></a>
+        <a class="lp-card kd-level" href={`${eiken}/prefirst`}><i>🏆</i><b>準1級・1級</b><span>帰国子女や上級者向け</span></a>
       </div>
       <p class="lp-sub"><a href={eiken}>英検®対策をくわしく</a>　・　<a href={`${base}/onlinelessons/courses/examinations/teap`}>TEAP対策</a></p>
     </div>
@@ -59,27 +77,30 @@ const faq = [
 
   <section class="lp-sec">
     <div class="lp-in">
-      <div class="lp-head">
-        <p class="lp-eyebrow kids">開講予定</p>
-        <h2>少人数のグループクラス</h2>
-        <p class="lp-sub">同じ目標の仲間と一緒に。マンツーマンより手ごろな料金で続けられます。</p>
+      <div class="lp-sechead">
+        <img src={`${up}/2024/08/pixta_10175579_S.jpg`} alt="" loading="lazy" />
+        <div class="lp-head">
+          <p class="kd-pill small">✨ 開講予定</p>
+          <h2 class="kd-h"><i>👫</i>少人数のグループクラス</h2>
+          <p class="lp-sub">同じ目標の仲間と一緒に。マンツーマンより手ごろな料金で続けられます。</p>
+        </div>
       </div>
       <div class="lp-cards">
-        <div class="lp-card"><b>英単語クラス</b><span>級や学年ごとの基本英単語を、フラッシュカードとゲームで集中して覚えます。</span></div>
-        <div class="lp-card"><b>英検®対策グループ</b><span>試験日に向けて、級ごとに過去問と面接の練習をします。</span></div>
-        <a class="lp-card" href={`${base}/summer-online-classes`}><b>長期休みの集中クラス</b><span>夏休み・冬休み・春休みの短期集中プラン。</span><i>くわしく →</i></a>
+        <div class="lp-card kd-icon c1"><i>🔤</i><b>英単語クラス</b><span>級や学年ごとの基本英単語を、フラッシュカードとゲームで集中して覚えます。</span></div>
+        <div class="lp-card kd-icon c2"><i>📝</i><b>英検®対策グループ</b><span>試験日に向けて、級ごとに過去問と面接の練習をします。</span></div>
+        <a class="lp-card kd-icon c3" href={`${base}/summer-online-classes`}><i>🏖️</i><b>長期休みの集中クラス</b><span>夏休み・冬休み・春休みの短期集中プラン。</span><i class="more">くわしく →</i></a>
       </div>
       <p class="lp-sub">開講のお知らせをご希望の方は、<a href={`${base}/contact`}>お問い合わせ</a>からお知らせください。</p>
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec kd-mint">
     <div class="lp-in">
-      <h2>保護者の方に安心していただくために</h2>
+      <h2 class="kd-h"><i>💐</i>保護者の方に安心していただくために</h2>
       <div class="lp-cards">
-        <div class="lp-card"><b>曜日固定の担任制</b><span>お子さまに合う先生を担任に決めて、曜日と時間を固定して予約できます。習い事のリズムがつかめます。</span></div>
-        <div class="lp-card"><b>毎回のフィードバック</b><span>30分のうち5分は、先生がフィードバックを書く時間。習ったことと次の課題が分かります。</span></div>
-        <div class="lp-card"><b>先生と日本語で話せる</b><span>先生は日本語も分かるので、お子さまの成長や課題を、その場で直接共有できます。<a href={`${base}/cooperation`}>保護者の方の協力について</a></span></div>
+        <div class="lp-card kd-icon c4"><i>📅</i><b>曜日固定の担任制</b><span>お子さまに合う先生を担任に決めて、曜日と時間を固定して予約できます。習い事のリズムがつかめます。</span></div>
+        <div class="lp-card kd-icon c2"><i>✍️</i><b>毎回のフィードバック</b><span>30分のうち5分は、先生がフィードバックを書く時間。習ったことと次の課題が分かります。</span></div>
+        <div class="lp-card kd-icon c3"><i>💬</i><b>先生と日本語で話せる</b><span>先生は日本語も分かるので、お子さまの成長や課題を、その場で直接共有できます。<a href={`${base}/cooperation`}>保護者の方の協力について</a></span></div>
       </div>
     </div>
   </section>
@@ -87,24 +108,24 @@ const faq = [
   <section class="lp-sec">
     <div class="lp-in">
       <div class="lp-head">
-        <h2>料金</h2>
+        <h2 class="kd-h"><i>🎫</i>料金</h2>
         <p class="lp-sub">毎月決まった回数を受けられる月額プランです。テスト期間はお休みして長期休みに増やす、といった使い方もご相談ください。</p>
       </div>
       <PlanCards kids />
       <div class="lp-row">
-        <div class="lp-box"><b>家族プラン</b><span class="lp-sub">兄弟姉妹や保護者の方と、同じチケットを分けて使えます。英語以外の言語にも使えます。</span></div>
-        <div class="lp-box"><b>福岡市の子ども習い事応援事業</b><span class="lp-sub">クーポンでお支払いいただけます（クーポンで買ったチケットはご家族と共有できません）。<a href={`${base}/fukuoka-coupon`}>くわしく</a></span></div>
+        <div class="lp-box kd-box"><b>👨‍👩‍👧 家族プラン</b><span class="lp-sub">兄弟姉妹や保護者の方と、同じチケットを分けて使えます。英語以外の言語にも使えます。</span></div>
+        <div class="lp-box kd-box"><b>🎟️ 福岡市の子ども習い事応援事業</b><span class="lp-sub">クーポンでお支払いいただけます（クーポンで買ったチケットはご家族と共有できません）。<a href={`${base}/fukuoka-coupon`}>くわしく</a></span></div>
       </div>
       <p class="lp-note"><a href="/price/#price-kids">料金を詳しく見る</a>　・　<a href={`${base}/osaka-jukudai-josei`}>大阪市塾代助成の使い方</a></p>
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec kd-sun">
     <div class="lp-in">
-      <h2>保護者の方の声</h2>
+      <h2 class="kd-h"><i>😊</i>保護者の方の声</h2>
       <div class="lp-cards">
-        <figure class="lp-quote"><img src="/english/children/wp-content/uploads/sites/2/2015/01/hiroki-elementary.gif" alt="" loading="lazy" /><figcaption>小学生の男の子</figcaption><blockquote>0から始めて、英検®に立て続けに合格できました。</blockquote><a href={`${base}/onlinelessons/voice/elementary-boy`}>続きを読む</a></figure>
-        <figure class="lp-quote"><img src="/english/children/wp-content/uploads/sites/2/2015/01/mayuko-elementary.gif" alt="" loading="lazy" /><figcaption>小学生の女の子（お母さま）</figcaption><blockquote>自分の子供の進路にあった、個別カリキュラムでのレッスンに満足しています。</blockquote><a href={`${base}/onlinelessons/voice/kids-elementary`}>続きを読む</a></figure>
+        <figure class="lp-quote kd-voice"><img src={`${up}/2015/01/hiroki-elementary.gif`} alt="" loading="lazy" /><figcaption>小学生の男の子</figcaption><blockquote>0から始めて、英検®に立て続けに合格できました。</blockquote><a href={`${base}/onlinelessons/voice/elementary-boy`}>続きを読む</a></figure>
+        <figure class="lp-quote kd-voice"><img src={`${up}/2015/01/mayuko-elementary.gif`} alt="" loading="lazy" /><figcaption>小学生の女の子（お母さま）</figcaption><blockquote>自分の子供の進路にあった、個別カリキュラムでのレッスンに満足しています。</blockquote><a href={`${base}/onlinelessons/voice/kids-elementary`}>続きを読む</a></figure>
       </div>
       <p class="lp-sub"><a href={`${base}/onlinelessons/voice`}>体験談の一覧</a></p>
     </div>
@@ -112,21 +133,21 @@ const faq = [
 
   <section class="lp-sec">
     <div class="lp-in">
-      <h2>はじめ方</h2>
-      <ol class="lp-steps">
-        <li><em>STEP 1</em><b>体験レッスンを予約</b><span>30分×2回で{plans.trial.price}。お申込み時にカードでお支払いいただけます。</span></li>
-        <li><em>STEP 2</em><b>先生と相性を確かめる</b><span>先生がお子さまのレベルを確かめ、目標と回数を一緒に考えます。</span></li>
-        <li><em>STEP 3</em><b>担任とスタート</b><span>月額プランを選んで、担任の先生と始めます。</span></li>
+      <h2 class="kd-h"><i>🗺️</i>はじめ方</h2>
+      <ol class="kd-steps">
+        <li class="c1"><i>📱</i><em>STEP 1</em><b>体験レッスンを予約</b><span>30分×2回で{plans.trial.price}。お申込み時にカードでお支払いいただけます。</span></li>
+        <li class="c2"><i>🤝</i><em>STEP 2</em><b>先生と相性を確かめる</b><span>先生がお子さまのレベルを確かめ、目標と回数を一緒に考えます。</span></li>
+        <li class="c3"><i>🚀</i><em>STEP 3</em><b>担任とスタート</b><span>月額プランを選んで、担任の先生と始めます。</span></li>
       </ol>
       <p class="lp-sub"><a href={`${base}/flow`}>利用の流れを詳しく</a></p>
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec warm">
     <div class="lp-in">
-      <h2>学校長から</h2>
+      <h2 class="kd-h"><i>🎓</i>学校長から</h2>
       <div class="lp-person">
-        <img src="/english/children/wp-content/uploads/sites/2/2015/01/narita-katsuyuki-middle-1024x768.jpg" alt="学校長 成田勝行" loading="lazy" />
+        <img src={`${up}/2015/01/narita-katsuyuki-middle-1024x768.jpg`} alt="学校長 成田勝行" loading="lazy" />
         <div>
           <p>「モノマネ上手は、語学上手」です。子供は、音に聞き耳を立てて、そのままマネをしてしまう天才です。その力は、年とともに大人としての恥ずかしさなどから衰えていきます。</p>
           <p>通常の英会話と並行して、小6までに英検®3級、中3までに英検®準1級を取れると、将来の受験にとても有利になります。</p>
@@ -138,16 +159,16 @@ const faq = [
 
   <section class="lp-sec">
     <div class="lp-in narrow">
-      <h2>よくある質問</h2>
+      <h2 class="kd-h"><i>❓</i>よくある質問</h2>
       <Faq items={faq} />
       <p class="lp-sub"><a href={`${base}/onlinelessons/faq`}>よくある質問をもっと見る</a></p>
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec kd-end">
     <div class="lp-in">
       <div class="lp-end">
-        <p>まずは体験レッスンで、先生に会ってみませんか。</p>
+        <p>🌟 まずは体験レッスンで、先生に会ってみませんか。</p>
         <a class="lp-btn" href={trial}>体験レッスンを予約する</a>
       </div>
       <p class="lp-sub">もっと知りたい方へ：<a href={`${base}/onlinelessons/points`}>子供向けオンライン英会話選びで失敗しない5つのポイント</a>　・　<a href={`${base}/initial-memory`}>音読暗記を助ける「頭出し記憶法」</a>　・　<a href={`${base}/videos`}>無料の学習動画</a></p>
