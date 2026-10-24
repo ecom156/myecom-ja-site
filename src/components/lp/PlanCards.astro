@@ -1,9 +1,10 @@
 ---
 import plans from '../../data/plans.json';
 
-// 月額プランのカード。料金は src/data/plans.json の1か所で直す。月3回（塾代助成対応）は子供のページだけに出す
-interface Props { kids?: boolean }
-const { kids = false } = Astro.props;
+// 月額プランのカード。料金・申込みリンク（Square）・入会金の文言は src/data/plans.json の1か所で直す。月3回（塾代助成対応）は子供のページだけに出す
+// signup: 申込みボタンを出す（料金ページだけ。体験のあとに料金ページから申し込んでもらう）
+interface Props { kids?: boolean; signup?: boolean }
+const { kids = false, signup = false } = Astro.props;
 const list = plans.monthly.filter((p) => kids || !p.kidsOnly);
 ---
 <div class="lp-cards">
@@ -13,7 +14,9 @@ const list = plans.monthly.filter((p) => kids || !p.kidsOnly);
       <p class="price">{p.price}<small>/ 月（税込）</small></p>
       <p class="lead">{p.lead}</p>
       {p.ai && <p class="ai">{p.ai}</p>}
+      {signup && p.url && <a class="lp-btn plan-btn" href={p.url} target="_blank" rel="noopener">申し込む</a>}
+      {signup && p.kidsOnly && <a class="plan-link" href="/english/children/osaka-jukudai-josei">塾代助成での申し込み方法</a>}
     </div>
   ))}
 </div>
-<p class="lp-note">{plans.unit}。入会金{plans.entryFee}（税込）。月額プランはカード払いで毎月自動更新です。</p>
+<p class="lp-note">{plans.unit}。{plans.monthlyEntry}。月額プランはカード払いで毎月自動更新です。{signup && `${plans.cancel}。`}</p>

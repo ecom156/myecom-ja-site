@@ -290,3 +290,5 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .header-cta { order: 3; display: inline-block; background: #C2410C; color: #fff !important; font-weight: 700; font-size: 15px; padding: 10px 18px; border-radius: 8px; text-decoration: none; white-space: nowrap; }
 .header-cta:hover { background: #9A3412; }
 @media (max-width: 960px) { .header-cta { order: 0; margin-left: auto; } }
+.lp-plan .plan-btn { margin-top: auto; text-align: center; padding: 10px 16px; }
+.lp-plan .plan-link { margin-top: auto; font-size: 14px; }
