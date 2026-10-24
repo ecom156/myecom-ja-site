@@ -301,3 +301,9 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .lp-logos { display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; }
 .lp-logos img { height: 56px; width: auto; max-width: 160px; object-fit: contain; }
 @media (max-width: 760px) { .lp-sechead > img { width: 100%; height: 160px; } }
+.lp-school { display: flex; flex-wrap: wrap; gap: 20px 28px; align-items: center; background: #fff; border: 1px solid var(--edge); border-radius: 12px; padding: 20px; }
+.lp-school > img { flex: 0 1 280px; width: 280px; max-width: 100%; height: 180px; object-fit: cover; border-radius: 10px; }
+.lp-school > div { flex: 1 1 360px; display: flex; flex-direction: column; gap: 8px; }
+.lp-school b { font-size: 21px; }
+.lp-school .lp-chips a { padding: 6px 14px; font-size: 14px; }
+@media (max-width: 760px) { .lp-school > img { flex-basis: 100%; width: 100%; } }
