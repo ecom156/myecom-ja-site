@@ -2,7 +2,7 @@
   "/chinese/": { "name": "中国語", "exams": "HSK・中国語検定", "blog": "/blog/category/chinese/" },
   "/korean/": { "name": "韓国語", "exams": "TOPIK・ハングル能力検定" },
   "/french/": { "name": "フランス語", "exams": "DELF・仏検", "blog": "/blog/category/french/" },
-  "/spanish/": { "name": "スペイン語", "exams": "DELE など", "blog": "/blog/category/spanish/" },
+  "/spanish/": { "name": "スペイン語", "exams": "DELE など" },
   "/german/": { "name": "ドイツ語", "exams": "ゲーテ・独検", "blog": "/blog/category/german/" },
   "/italian/": { "name": "イタリア語", "exams": "CILS・イタリア語検定" },
   "/portuguese/": { "name": "ポルトガル語", "exams": "ポルトガル語検定 など" },

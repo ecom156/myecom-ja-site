@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import { sortPosts, postPath, langOf } from '../lib';
+
+// 言語ページの下に、その言語圏の異文化ブログの新着を出す（英語は大人・子供・法人の各ページ。K 2026-10-24）
+interface Props { lang: string }
+const { lang } = Astro.props;
+const names: Record<string, string> = { english: '英語圏', chinese: '中華圏', german: 'ドイツ語圏', french: 'フランス語圏', russian: 'ロシア語圏', arabic: 'アラビア語圏', spanish: 'スペイン語圏', korean: '韓国', italian: 'イタリア', portuguese: 'ポルトガル語圏' };
+const posts = sortPosts(await getCollection('posts', (p) => langOf(p) === lang)).slice(0, 4);
+---
+{posts.length > 0 && (
+  <section class="lang-blog">
+    <div class="wrap">
+      <h2>{names[lang] ?? ''}の文化を知る、<span class="nw">異文化ブログ</span></h2>
+      <div class="recent-grid">
+        {posts.map((p) => (
+          <a class="recent-card" href={postPath(p)}>
+            {p.data.image && <img src={p.data.image} alt="" loading="lazy" />}
+            <span>{p.data.title}</span>
+          </a>
+        ))}
+      </div>
+      <p class="recent-more"><a class="btn" href={`/blog/category/${lang}/`}>記事をもっと見る</a></p>
+    </div>
+  </section>
+)}
