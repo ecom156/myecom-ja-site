@@ -1,0 +1,127 @@
+---
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+
+// 大阪市塾代助成の専用ページ（/english/children/osaka-jukudai-josei）。月3回プランはこのページだけに出す（K 2026-10-24）
+// 申し込みフォーム（english_children-6、無料体験）は [...path].astro がページ下の #form に出す
+const base = '/english/children';
+const up = `${base}/wp-content/uploads/sites/2`;
+const m3 = plans.monthly.find((p) => p.osakaOnly)!;
+const faq = [
+  { q: '体験を申し込んでから、どれくらいでレッスンを受けられますか？', a: '体験を申し込むと、音声チェックも兼ねた「オンライン事前カウンセリングのご案内」がメールで届きます。スムーズに進めば、最短でお申込みから24時間以内に1回目のレッスンを受けられることがあります。お急ぎの場合は、フォームにその旨をお書きください。' },
+  { q: '塾代助成の手続きの締め日はいつですか？', a: '毎月14日の18時です。たとえば2月分から使いたい場合は、2月14日までに助成カードの情報をお送りください。入会後は、退会のご連絡がない限り自動で更新されるので、毎月の手続きは要りません。退会の締め日も同じ14日で、3月14日までにご連絡いただくと3月末で退会になります。' },
+  { q: '英検®対策では、具体的に何をしますか？', a: '英検協会が公開している過去問3回分を、先生と一緒に解いていきます。英作文は書き方の型を教えて、マンツーマンで添削します。二次試験は、当校の予想問題をもとに、先生が面接官役になって練習し、フィードバックします。' },
+  { q: '月謝のほかに、教材費などはかかりますか？', a: `教材費は無料です。入会時に入会金（${plans.entryFee}・税込）がかかります（カード払いの月額プランの入会金0円特典は、塾代助成でのお支払いには使えません）。長期休みのグループクラスだけの参加なら、入会金は要りません。` },
+  { q: 'フィリピン人講師の英会話と迷っています。', a: '子供は耳がよく、モノマネの天才です。先生の話す英語を、発音ごとそのまま覚えます。ぜひネイティブの使う英語・語彙・表現に触れさせてあげてください。' },
+];
+---
+<div class="lp kd">
+  <section class="lp-sec kd-hero">
+    <span class="kd-float f1" aria-hidden="true">⭐</span>
+    <span class="kd-float f2" aria-hidden="true">🎈</span>
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="kd-pill">🏯 大阪市塾代助成事業の参画事業者です</p>
+          <h1>塾代助成で、<br /><span class="kd-mark">月3回のマンツーマン英会話</span>が<br />自己負担0円。</h1>
+          <p class="lp-lead">助成は月1万円まで。月{m3.price}のプランなら、日本語も分かるネイティブ講師とのマンツーマン（1回30分）を、毎月3回、自己負担なしで受けられます。</p>
+          <div class="lp-btns"><a class="lp-btn" href="#form">塾代助成の無料体験を申し込む</a></div>
+        </div>
+        <div class="osk-hero">
+          <img class="photo" src={`${up}/2018/03/online-lesson-kids.jpg`} alt="オンラインで英会話を受ける子供" />
+          <img class="logo" src={`${up}/2018/08/logo-ohsaka-300x242.png`} alt="大阪市塾代助成事業" />
+        </div>
+      </div>
+      <ul class="kd-points">
+        <li class="c1"><i>💴</i><b>自己負担0円</b><span>月3回プランの場合</span></li>
+        <li class="c2"><i>🇯🇵</i><b>日本語OK</b><span>初心者でも安心</span></li>
+        <li class="c3"><i>🏅</i><b>英検®に強い</b><span>一次から二次まで</span></li>
+        <li class="c4"><i>🏠</i><b>おうちで受講</b><span>送り迎えなし</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2 class="kd-h"><i>🎫</i>塾代助成で使えるプラン</h2>
+        <p class="lp-sub">どれも1回30分（レッスン25分＋先生がフィードバックを書く5分）のマンツーマンです。</p>
+      </div>
+      <div class="lp-cards">
+        <div class="lp-plan kids osk-main">
+          <p class="name">月3回<span class="lp-badge kids">いちばん人気</span></p>
+          <p class="price">自己負担 0円<small>{m3.price} / 月（税込）を助成でお支払い</small></p>
+          <p class="lead">助成の月1万円の中に収まるので、毎月の自己負担はありません。</p>
+        </div>
+        <div class="lp-plan">
+          <p class="name">月2回</p>
+          <p class="price">6,600円<small>/ 月（税込）</small></p>
+          <p class="lead">助成の範囲内です。</p>
+        </div>
+        <div class="lp-plan">
+          <p class="name">月1回</p>
+          <p class="price">3,300円<small>/ 月（税込）</small></p>
+          <p class="lead">助成の範囲内です。</p>
+        </div>
+      </div>
+      <p class="lp-note">マンツーマンなので、コースはいつでも変えられます。体験は無料で1回です。入会時に入会金（{plans.entryFee}・税込）がかかります。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-sky">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>📚</i>学べること</h2>
+      <div class="lp-cards">
+        <div class="lp-card kd-card c2"><img src={`${up}/2018/08/junior-highschoolbooks01-300x300.jpg`} alt="" loading="lazy" /><span class="kd-age">🌱 一般英会話</span><b>はじめての英会話から</b><span>フォニックスをもとにした小中学生向けの教材を使います。全くの初心者でも大丈夫。学校の教科書の復習や、音読・発音のチェックもできます。</span></div>
+        <div class="lp-card kd-card c3"><img src={`${up}/2018/08/eiken2nd-2-300x276.gif`} alt="" loading="lazy" /><span class="kd-age">🏅 英検®対策</span><b>4級から1級まで</b><span>二次だけでなく一次試験からサポートします。ECOMの生徒の一発合格率は9割を超えています。</span></div>
+        <a class="lp-card kd-card c1" href={`${base}/summer-online-classes`}><img src={`${up}/2025/06/vocabu-cards-300x300.jpg`} alt="" loading="lazy" /><span class="kd-age">👫 長期休みのグループクラス</span><b>基本英単語マスター</b><span>基本の英単語700を、フラッシュカードで集中して覚える10日間のクラスです。塾代助成を充てて受けることもできます。</span><i>くわしく →</i></a>
+        <div class="lp-card kd-card c4"><img src={`${up}/2025/06/online-lessons-boy-chinese-300x156.jpg`} alt="" loading="lazy" /><span class="kd-age">🌏 ほかの外国語</span><b>中国語・韓国語なども</b><span>中国語・フランス語・スペイン語・ドイツ語・イタリア語・韓国語・ロシア語・アラビア語などを、初心者から学べます。</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>💐</i>ECOMが選ばれる理由</h2>
+      <div class="lp-cards">
+        <div class="lp-card kd-icon c4"><i>🏫</i><b>2005年から続く実績</b><span>語学教育ひとすじの学校です。</span></div>
+        <div class="lp-card kd-icon c2"><i>🙋</i><b>手厚いサポート</b><span>機器の設定はもちろん、英検®などの学習相談にも日本人スタッフが対応します。</span></div>
+        <div class="lp-card kd-icon c3"><i>👩‍🏫</i><b>採用率3%の講師</b><span>日本語も分かるネイティブ・バイリンガル講師です。中学校のALT経験者もいます。</span></div>
+        <div class="lp-card kd-icon c1"><i>📅</i><b>好きな先生を担任に</b><span>相性のよい先生を担任にして、毎週決まった時間に予約できます（例：毎週金曜18時）。</span></div>
+      </div>
+      <a class="osk-press" href={`${base}/blog/大阪市の広報誌にecomが掲載`}>
+        <img src={`${up}/2025/09/ohsaka-kouhou.jpg`} alt="大阪市の広報誌に掲載されたECOMの記事" loading="lazy" />
+        <span><b>📰 大阪市の広報誌に、ECOMが掲載されました</b><i>記事を見る →</i></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-sun">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>😊</i>保護者の方の声</h2>
+      <div class="lp-cards">
+        <figure class="lp-quote kd-voice osk-voice"><img src={`${up}/2015/01/08.png`} alt="" loading="lazy" /><figcaption>小6の娘さんのお母さま</figcaption><blockquote>英会話教室に行ったこともなく不安でしたが、先生が優しく、日本語も分かるので、身振りを交えて伝えてくれました。アプリではできない本当のコミュニケーションだと思います。</blockquote></figure>
+        <figure class="lp-quote kd-voice osk-voice"><img src={`${up}/2015/01/07.gif`} alt="" loading="lazy" /><figcaption>中1の息子さんのお父さま</figcaption><blockquote>中2までに英検®2級を取らせたくてお願いしました。1回で合格。英作文で満点を取れたのが大きく、マンツーマンの添削がとてもよかったです。</blockquote></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>🗺️</i>受講の流れ</h2>
+      <ol class="kd-steps">
+        <li class="c1"><i>📝</i><em>STEP 1</em><b>無料体験を申し込む</b><span>このページ下のフォームから、無料体験1回分をお申し込みください。予約サイトで、体験の先生を予約します。</span></li>
+        <li class="c2"><i>📷</i><em>STEP 2</em><b>助成カードの情報を送る</b><span>入会を決めたら、助成カードとパスワードを写真に撮って、事務局にメールでお送りください。こちらで登録します。</span></li>
+        <li class="c3"><i>🚀</i><em>STEP 3</em><b>担任とスタート</b><span>手続きが終わったら、予約サイトで予約してレッスンを受けます。学習の内容は、事務局と先生で共有してサポートします。</span></li>
+      </ol>
+      <div class="lp-box kd-box"><b>⏰ 手続きの締め日は毎月14日の18時</b><span class="lp-sub">入会も退会も同じ締め日です。くわしくは下のよくある質問をご覧ください。</span></div>
+    </div>
+  </section>
+
+  <section class="lp-sec warm">
+    <div class="lp-in narrow">
+      <h2 class="kd-h"><i>❓</i>よくある質問</h2>
+      <Faq items={faq} />
+    </div>
+  </section>
+</div>

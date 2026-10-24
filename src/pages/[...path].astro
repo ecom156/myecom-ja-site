@@ -8,6 +8,7 @@ import RecentGrid from '../components/RecentGrid.astro';
 import TopPage from '../components/lp/TopPage.astro';
 import KidsPage from '../components/lp/KidsPage.astro';
 import CorporatePage from '../components/lp/CorporatePage.astro';
+import OsakaPage from '../components/lp/OsakaPage.astro';
 import LanguageIntro from '../components/lp/LanguageIntro.astro';
 import PricePlans from '../components/lp/PricePlans.astro';
 import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, allCategories, inCategory, chunk, param, type Site } from '../lib';
@@ -73,12 +74,20 @@ const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : undefined;
 const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
 {props.kind === 'page' && Landing && (
   <Base site={site} title={props.page.data.front ? site.name : props.page.data.title}>
     <Landing />
+    {formKeys.length > 0 && (
+      <section class="lp-form" id="form">
+        <div class="wrap">
+          <h2>{template === 'osaka' ? '塾代助成専用 無料体験レッスンのお申し込み' : 'お申し込み'}</h2>
+          {formKeys.map((k) => <Form formKey={k} />)}
+        </div>
+      </section>
+    )}
   </Base>
 )}
 {props.kind === 'page' && !Landing && (

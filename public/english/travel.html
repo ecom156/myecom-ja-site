@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel English - トラベル英会話</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root {
+            /* テーマカラー */
+            --color-basic: #ff9ff3;      /* 基本表現 */
+            --color-airport: #1dd1a1;    /* 空港・機内 */
+            --color-hotel: #0abde3;      /* ホテル・食事 */
+            
+            --bg-color: #f8fafc;
+            --text-main: #333;
+            --text-sub: #64748b;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0; padding: 0;
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+        /* 戻るボタン */
+        .btn-back {
+            display: inline-flex; align-items: center; margin: 20px 0;
+            color: var(--text-sub); text-decoration: none; font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .btn-back:hover { color: #333; }
+
+        /* --- ヘッダーバナー --- */
+        .hero-banner {
+            width: 100%; background: white; border-radius: 24px;
+            overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 40px; display: flex; align-items: center;
+            justify-content: center; padding: 40px 20px; box-sizing: border-box;
+        }
+
+        /* --- 説明テキスト --- */
+        .intro-text { text-align: center; max-width: 700px; margin: 0 auto 40px; }
+        .intro-text h2 { color: #1e293b; font-size: 1.8rem; margin-bottom: 15px; }
+        .intro-text p { color: var(--text-sub); margin: 5px 0; }
+        .intro-text .sub-title { 
+            color: #64748b; font-weight: bold; margin-top: 20px; 
+            display: inline-block; border-bottom: 2px solid #ddd; padding-bottom: 3px;
+        }
+
+        /* --- カテゴリセクション --- */
+        .category-section {
+            background: white; border-radius: 24px; padding: 30px;
+            margin-bottom: 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        }
+
+        .category-header {
+            display: flex; align-items: center; margin-bottom: 25px;
+            padding-bottom: 15px; border-bottom: 2px solid #f1f5f9;
+        }
+
+        .category-icon { font-size: 1.8rem; margin-right: 15px; }
+        .category-title { font-size: 1.5rem; font-weight: bold; margin: 0; color: #333; }
+        .category-title span { font-size: 0.9rem; font-weight: normal; color: #94a3b8; margin-left: 5px; }
+
+        .category-badge {
+            margin-left: auto; font-size: 0.8rem; padding: 4px 12px;
+            border-radius: 20px; color: white; font-weight: bold; white-space: nowrap;
+        }
+
+        /* レッスン番号グリッド */
+        .lesson-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 10px;
+        }
+
+        .lesson-item {
+            display: flex; align-items: center; justify-content: center;
+            height: 45px; background: #f8fafc; border: 1px solid #e2e8f0;
+            border-radius: 8px; text-decoration: none; color: #475569;
+            font-size: 0.9rem; font-weight: 600; transition: all 0.2s;
+        }
+
+        .lesson-item:hover { transform: translateY(-2px); color: white; }
+        
+        .lesson-item.disabled {
+            background-color: #f1f5f9; color: #cbd5e1; pointer-events: none;
+        }
+
+        /* --- テーマ別カラー --- */
+        /* Basic Phrases */
+        .theme-basic .category-icon { color: var(--color-basic); }
+        .theme-basic .category-badge { background: var(--color-basic); }
+        .theme-basic .lesson-item:not(.disabled):hover { background: var(--color-basic); border-color: var(--color-basic); }
+
+        /* Airport */
+        .theme-airport .category-icon { color: var(--color-airport); }
+        .theme-airport .category-badge { background: var(--color-airport); }
+        .theme-airport .lesson-item:not(.disabled):hover { background: var(--color-airport); border-color: var(--color-airport); }
+
+        /* Hotel */
+        .theme-hotel .category-icon { color: var(--color-hotel); }
+        .theme-hotel .category-badge { background: var(--color-hotel); }
+        .theme-hotel .lesson-item:not(.disabled):hover { background: var(--color-hotel); border-color: var(--color-hotel); }
+
+        @media (max-width: 600px) {
+            .lesson-grid { grid-template-columns: repeat(5, 1fr); }
+            .hero-banner { padding: 20px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="textbooks" class="btn-back"><i class="fa-solid fa-chevron-left"></i>&nbsp; コース一覧に戻る</a>
+
+    <div class="hero-banner">
+        <svg viewBox="0 0 600 200" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="200" rx="20" fill="#f0f9ff" />
+            
+            <path d="M50,40 Q70,20 90,40 T130,40" fill="none" stroke="white" stroke-width="20" stroke-linecap="round" opacity="0.6"/>
+            <path d="M450,160 Q470,140 490,160 T530,160" fill="none" stroke="white" stroke-width="20" stroke-linecap="round" opacity="0.6"/>
+
+            <path d="M480,50 L520,40 L500,80 Z" fill="#0abde3" />
+            <path d="M460,60 L540,60 Q550,60 550,55 Q550,50 540,50 L460,50 Q450,50 450,55 Q450,60 460,60 Z" fill="#333" />
+            <path d="M20,100 Q150,100 280,50" fill="none" stroke="#0abde3" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+
+            <circle cx="100" cy="120" r="50" fill="#bae6fd" />
+            <path d="M60,120 Q100,80 140,120 M60,120 Q100,160 140,120 M100,70 L100,170" fill="none" stroke="#fff" stroke-width="2" opacity="0.7"/>
+
+            <rect x="200" y="80" width="80" height="100" rx="5" fill="#fca5a5" stroke="#333" stroke-width="2"/>
+            <rect x="200" y="90" width="80" height="10" fill="#333" opacity="0.1"/>
+            <path d="M230,80 L230,60 Q230,50 240,50 L240,50 Q250,50 250,60 L250,80" fill="none" stroke="#333" stroke-width="3"/>
+            <circle cx="260" cy="140" r="10" fill="#fde047" />
+
+            <rect x="320" y="110" width="60" height="80" rx="3" fill="#1e3a8a" />
+            <circle cx="350" cy="140" r="12" fill="none" stroke="#fbbf24" stroke-width="2" />
+            <text x="350" y="165" font-family="sans-serif" font-size="6" fill="#fbbf24" text-anchor="middle">PASSPORT</text>
+
+            <text x="430" y="120" font-family="sans-serif" font-size="28" fill="#333" font-weight="bold" letter-spacing="1">TRAVEL</text>
+            <text x="430" y="150" font-family="sans-serif" font-size="28" fill="#0abde3" font-weight="bold" letter-spacing="1">ENGLISH</text>
+        </svg>
+    </div>
+
+    <div class="intro-text">
+        <h2>トラベル英会話</h2>
+        <p>旅先で遭遇するシチュエーション9選を集めました。</p>
+        
+        <span class="sub-title">狙い</span>
+        <p>旅行先での語彙、決まり文句を先生と一緒にRole playして練習します。</p>
+    </div>
+
+    <section class="category-section theme-basic">
+        <div class="category-header">
+            <i class="fa-solid fa-comments category-icon"></i>
+            <h3 class="category-title">基本のシチュエーション <span>(Basic Phrases)</span></h3>
+            <span class="category-badge" id="badge-basic">Lesson 1 - </span>
+        </div>
+        <div class="lesson-grid" id="grid-basic"></div>
+    </section>
+
+    <section class="category-section theme-airport">
+        <div class="category-header">
+            <i class="fa-solid fa-plane-departure category-icon"></i>
+            <h3 class="category-title">その他 <span>(Airport & Flight)</span></h3>
+            <span class="category-badge" id="badge-airport">Lesson 1 - </span>
+        </div>
+        <div class="lesson-grid" id="grid-airport"></div>
+    </section>
+
+    <section class="category-section theme-hotel">
+        <div class="category-header">
+            <i class="fa-solid fa-bell-concierge category-icon"></i>
+            <h3 class="category-title">その他２ <span>(Hotel & Restaurant)</span></h3>
+            <span class="category-badge" id="badge-hotel">Lesson 1 - </span>
+        </div>
+        <div class="lesson-grid" id="grid-hotel"></div>
+    </section>
+
+</div>
+
+<script>
+    /* =======================================================
+      設定エリア：Google Driveの「ファイルID」を入力
+      ※IDを入れた分だけボタンが自動生成されます。
+     ======================================================= */
+     
+    /* 基本の表現 (Basic Phrases) IDリスト */
+    var basicIds = [
+        "1So75uIw3QCd2dBdono_3xCn12pJM69Xs", 
+        "1XgaWMMbL4W-KtxtDpl67JiIv8EoGqPVh",
+        "17P8tum5niRPhGsGtFaZFsobDWe0VgJQw",
+        "1DCOSfC3Y_usaa-E_PYrr-M6EHQjvqM9u",
+        "1VxX6SRFr2EiWEK3ZC66OUiB0D_B2CycK",
+        "1aT2_NgO6-WBDXuMcEi47XKMzRDKANuU1",
+        "1aq2UmVh0B-lCPI37LJGGwBRnixYfYx_L",
+        "1jG5ilLdpr44-pTWhynZcfEnBEWPVtZFJ",
+        "1uEpqmg39mYCZTjSDoYikcWAXDim0WQaB"
+    ];
+
+    /* 空港・機内 (Airport & Flight) IDリスト */
+    var airportIds = [
+        // "ID_FOR_AIRPORT_1", 
+    ];
+
+    /* ホテル・食事 (Hotel & Restaurant) IDリスト */
+    var hotelIds = [
+        // "ID_FOR_HOTEL_1", 
+    ];
+
+
+    /* =======================================================
+      プログラム本体（これ以下は変更不要）
+     ======================================================= */
+
+    function makeDriveUrl(fileId) {
+        var cleanId = fileId.trim();
+        return 'https://drive.google.com/file/d/' + cleanId + '/view?usp=drive_link';
+    }
+
+    function generateLessons(containerId, badgeId, idsList) {
+        var container = document.getElementById(containerId);
+        var badge = document.getElementById(badgeId);
+        if (!container) return;
+
+        var safeList = idsList || [];
+        var validList = safeList.filter(function(id) {
+            return id && id.length > 5;
+        });
+        
+        var totalCount = safeList.length;
+
+        if (badge) {
+            badge.innerText = "Lesson 1 - " + totalCount;
+            if (totalCount === 0 || (totalCount === 1 && safeList[0] === "")) {
+                badge.innerText = "Coming Soon";
+            }
+        }
+
+        for (var i = 0; i < totalCount; i++) {
+            var link = document.createElement('a');
+            link.className = 'lesson-item';
+            link.innerText = i + 1;
+
+            var fileId = safeList[i];
+
+            if (fileId && fileId.length > 5) {
+                link.href = makeDriveUrl(fileId);
+                link.target = "_blank"; 
+            } else {
+                link.href = "javascript:void(0)";
+                link.className += " disabled";
+            }
+            container.appendChild(link);
+        }
+    }
+
+    // 生成を実行
+    document.addEventListener('DOMContentLoaded', function() {
+        generateLessons('grid-basic', 'badge-basic', basicIds);
+        generateLessons('grid-airport', 'badge-airport', airportIds);
+        generateLessons('grid-hotel', 'badge-hotel', hotelIds);
+    });
+
+</script>
+
+</body>
+</html>

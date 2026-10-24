@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Describing Pictures - 描写トレーニング</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root {
+            --color-people: #ff9ff3;
+            --color-things: #1dd1a1;
+            --color-scenery: #0abde3;
+            --bg-color: #f8fafc;
+            --text-main: #333;
+            --text-sub: #64748b;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0; padding: 0;
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+        /* 戻るボタン */
+        .btn-back {
+            display: inline-flex; align-items: center; margin: 20px 0;
+            color: var(--text-sub); text-decoration: none; font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .btn-back:hover { color: var(--color-people); }
+
+        /* --- ヘッダーバナー --- */
+        .hero-banner {
+            width: 100%; background: white; border-radius: 24px;
+            overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 40px; display: flex; align-items: center;
+            justify-content: center; padding: 40px 20px; box-sizing: border-box;
+        }
+
+        /* --- 説明テキスト --- */
+        .intro-text { text-align: center; max-width: 700px; margin: 0 auto 40px; }
+        .intro-text h2 { color: #1e293b; font-size: 1.8rem; margin-bottom: 15px; }
+        .intro-text p { color: var(--text-sub); margin: 5px 0; }
+        .intro-text .sub-title { color: #64748b; font-weight: bold; margin-top: 20px; display: block;}
+
+        /* --- カテゴリセクション --- */
+        .category-section {
+            background: white; border-radius: 24px; padding: 30px;
+            margin-bottom: 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        }
+
+        .category-header {
+            display: flex; align-items: center; margin-bottom: 25px;
+            padding-bottom: 15px; border-bottom: 2px solid #f1f5f9;
+        }
+
+        .category-icon { font-size: 1.8rem; margin-right: 15px; }
+        .category-title { font-size: 1.5rem; font-weight: bold; margin: 0; color: #333; }
+        
+        /* 英語タイトル（Peopleなど）のスタイル */
+        .category-title span { font-size: 0.9rem; font-weight: normal; color: #94a3b8; margin-left: 5px; }
+
+        .category-badge {
+            margin-left: auto; font-size: 0.8rem; padding: 4px 12px;
+            border-radius: 20px; color: white; font-weight: bold; white-space: nowrap;
+        }
+
+        /* レッスン番号のグリッド */
+        .lesson-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 10px;
+        }
+
+        .lesson-item {
+            display: flex; align-items: center; justify-content: center;
+            height: 45px; background: #f8fafc; border: 1px solid #e2e8f0;
+            border-radius: 8px; text-decoration: none; color: #475569;
+            font-size: 0.9rem; font-weight: 600; transition: all 0.2s;
+        }
+
+        .lesson-item:hover { transform: translateY(-2px); color: white; }
+        
+        .lesson-item.disabled {
+            background-color: #f1f5f9; color: #cbd5e1; pointer-events: none;
+        }
+
+        /* 色分け設定 */
+        /* People */
+        .people-theme .category-icon { color: var(--color-people); }
+        .people-theme .category-badge { background: var(--color-people); }
+        .people-theme .lesson-item:not(.disabled):hover { background: var(--color-people); border-color: var(--color-people); }
+
+        /* Things */
+        .things-theme .category-icon { color: var(--color-things); }
+        .things-theme .category-badge { background: var(--color-things); }
+        .things-theme .lesson-item:not(.disabled):hover { background: var(--color-things); border-color: var(--color-things); }
+
+        /* Scenery */
+        .scenery-theme .category-icon { color: var(--color-scenery); }
+        .scenery-theme .category-badge { background: var(--color-scenery); }
+        .scenery-theme .lesson-item:not(.disabled):hover { background: var(--color-scenery); border-color: var(--color-scenery); }
+
+        @media (max-width: 600px) {
+            .lesson-grid { grid-template-columns: repeat(5, 1fr); }
+            .hero-banner { padding: 20px 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="textbooks" class="btn-back"><i class="fa-solid fa-chevron-left"></i>&nbsp; コース一覧に戻る</a>
+
+    <div class="hero-banner">
+        <svg viewBox="0 0 600 200" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="200" rx="20" fill="#f1f5f9" />
+            <rect x="50" y="40" width="120" height="90" rx="5" fill="white" stroke="#cbd5e1" stroke-width="2" transform="rotate(-10, 110, 85)" />
+            <rect x="70" y="70" width="120" height="90" rx="5" fill="white" stroke="#cbd5e1" stroke-width="2" transform="rotate(5, 130, 115)" />
+            
+            <path d="M350 110 L330 130 L370 130 Z" fill="#ff9ff3" />
+            <rect x="300" y="50" width="220" height="70" rx="35" fill="#ff9ff3" />
+            <text x="410" y="93" font-family="sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">"She is..."</text>
+            
+            <circle cx="230" cy="100" r="40" fill="#1dd1a1" opacity="0.2" />
+            <path d="M220 90 L240 110 M240 90 L220 110" stroke="#1dd1a1" stroke-width="4" stroke-linecap="round" />
+            
+            <text x="300" y="170" font-family="sans-serif" font-size="16" fill="#64748b" text-anchor="middle" font-weight="bold">Describing Pictures</text>
+        </svg>
+    </div>
+
+    <div class="intro-text">
+        <h2>描写トレーニング</h2>
+        <p>写真やイラストを見て、英語で説明する力を鍛えましょう。</p>
+        
+        <span class="sub-title">狙い</span>
+        <p>・英語のまま理解し、発話する。</p>
+        <p>・関連語彙、表現を覚える。</p>
+        <p>・あやふやな文法を確認し、正しい英文を作れるようになる。</p>
+        <p>・レベルにあった語彙や表現を使えるようになる。</p>
+    </div>
+
+    <section class="category-section people-theme">
+        <div class="category-header">
+            <i class="fa-solid fa-image category-icon"></i>
+            <h3 class="category-title">人物 <span>(People)</span></h3>
+            <span class="category-badge" id="badge-people">Lesson 1 - </span>
+        </div>
+        <div class="lesson-grid" id="grid-people"></div>
+    </section>
+
+    <section class="category-section things-theme">
+        <div class="category-header">
+            <i class="fa-solid fa-box-open category-icon"></i>
+            <h3 class="category-title">モノ <span>(Things)</span></h3>
+            <span class="category-badge" id="badge-things">Lesson 1 - </span>
+        </div>
+        <div class="lesson-grid" id="grid-things"></div>
+    </section>
+
+    <section class="category-section scenery-theme">
+        <div class="category-header">
+            <i class="fa-solid fa-mountain-sun category-icon"></i>
+            <h3 class="category-title">風景 <span>(Scenery)</span></h3>
+            <span class="category-badge" id="badge-scenery">Lesson 1 - </span>
+        </div>
+        <div class="lesson-grid" id="grid-scenery"></div>
+    </section>
+
+</div>
+
+<script>
+    /* =======================================================
+      設定エリア：Google Driveの「ファイルID」を入力
+      ※IDを入れた分だけボタンが自動生成されます。
+     ======================================================= */
+     
+    /* 人物 (People) IDリスト */
+    var peopleIds = [
+        "1VfD2t_tPE9thSxpvJcVPrgaAR333CGJ-", 
+        "1T2LsMJgfh393jo6UKBjNeWSqIwmbLNlj", 
+        "1MADoL76nFbSbCbo8S9ieGQxtBJklobj0", 
+        "1tsE5TUy39rxaxnKfzJ4HILCxLuN7KEN-",
+        "1CxX7l8CKLcg5bUVR6fUIs01alhWx36AB",
+        "1HsbkhoFoBt1Oa7rNbTVj4aSqrLpbif2y",
+        "1EMZfpIBu-cqJkAcEXy_3vEuc-rSiA-8F",
+        "1eX0yAWDDSzce5TzKXUeVFgJJkkSaP9T7",
+        "1Gp5yC4hlydElLXGsLBRWsYTeqXthMjOa"
+    ];
+
+    /* モノ (Things) IDリスト */
+    var thingsIds = [
+        // "ID_XXXXXX", 
+    ];
+
+    /* 風景 (Scenery) IDリスト */
+    var sceneryIds = [
+        // "ID_XXXXXX", 
+    ];
+
+
+    /* =======================================================
+      プログラム本体（これ以下は変更不要）
+     ======================================================= */
+
+    function makeDriveUrl(fileId) {
+        var cleanId = fileId.trim();
+        return 'https://drive.google.com/file/d/' + cleanId + '/view?usp=drive_link';
+    }
+
+    function generateLessons(containerId, badgeId, idsList) {
+        var container = document.getElementById(containerId);
+        var badge = document.getElementById(badgeId);
+        if (!container) return;
+
+        var safeList = idsList || [];
+        // 空文字や短すぎるIDを除外してカウント
+        var validList = safeList.filter(function(id) {
+            return id && id.length > 5;
+        });
+        
+        var totalCount = safeList.length; // ボタン自体の数はリストの長さに合わせる
+
+        // バッジ（Lesson数）の更新
+        if (badge) {
+            badge.innerText = "Lesson 1 - " + totalCount;
+            if (totalCount === 0 || (totalCount === 1 && safeList[0] === "")) {
+                badge.innerText = "Coming Soon";
+            }
+        }
+
+        // リストの数だけボタンを生成
+        for (var i = 0; i < totalCount; i++) {
+            var link = document.createElement('a');
+            link.className = 'lesson-item';
+            link.innerText = i + 1;
+
+            var fileId = safeList[i];
+
+            if (fileId && fileId.length > 5) {
+                link.href = makeDriveUrl(fileId);
+                link.target = "_blank"; 
+            } else {
+                link.href = "javascript:void(0)";
+                link.className += " disabled";
+            }
+            container.appendChild(link);
+        }
+    }
+
+    // 生成を実行
+    document.addEventListener('DOMContentLoaded', function() {
+        generateLessons('grid-people', 'badge-people', peopleIds);
+        generateLessons('grid-things', 'badge-things', thingsIds);
+        generateLessons('grid-scenery', 'badge-scenery', sceneryIds);
+    });
+
+</script>
+
+</body>
+</html>

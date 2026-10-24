@@ -1,6 +1,7 @@
 ---
 title: "大阪市塾代助成を使ってECOM(イーコム)を受講する"
 path: "/english/children/osaka-jukudai-josei"
+template: "osaka"
 forms:
   - english_children-6
 ---

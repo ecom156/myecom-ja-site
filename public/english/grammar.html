@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英文法トレーニングコース</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        :root {
+            /* カラーパレット */
+            --color-beginner: #ff9ff3;     /* 初級: ピンク */
+            --color-intermediate: #1dd1a1; /* 中級: グリーン */
+            --color-advanced: #0abde3;     /* 上級: ブルー */
+            
+            --bg-color: #f8fafc;
+            --text-main: #333;
+            --text-sub: #64748b;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0; padding: 0;
+            line-height: 1.6;
+        }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+        /* 戻るボタン */
+        .btn-back {
+            display: inline-flex; align-items: center; margin: 20px 0;
+            color: var(--text-sub); text-decoration: none; font-size: 0.9rem;
+            transition: color 0.2s;
+        }
+        .btn-back:hover { color: #333; }
+        
+        /* --- ヘッダー画像エリア --- */
+        .hero-banner {
+            width: 100%; background: white; border-radius: 24px;
+            overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 40px; display: flex; align-items: center;
+            justify-content: center; padding: 40px 20px; box-sizing: border-box;
+        }
+        
+        /* 説明テキストエリア */
+        .intro-text { text-align: center; max-width: 700px; margin: 0 auto 40px; }
+        .intro-text h2 { color: #1e293b; font-size: 1.8rem; margin-bottom: 15px; }
+        .intro-text p { margin: 5px 0; color: var(--text-sub); }
+        
+        /* --- カテゴリセクション共通 --- */
+        .category-section {
+            background: white; border-radius: 24px; padding: 30px;
+            margin-bottom: 40px; box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        }
+        .category-header {
+            display: flex; align-items: center; margin-bottom: 25px;
+            padding-bottom: 15px; border-bottom: 2px solid #f1f5f9;
+            flex-wrap: wrap; gap: 10px;
+        }
+        .category-icon { font-size: 1.8rem; margin-right: 5px; width: 40px; text-align: center; }
+        .category-title { font-size: 1.4rem; font-weight: bold; margin: 0; color: #333; margin-right: 15px;}
+        
+        /* リンクボタン群（表紙・巻末） */
+        .header-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+
+        .btn-cover {
+            display: inline-flex; align-items: center;
+            font-size: 0.85rem; color: #555; background: #fff;
+            border: 1px solid #ddd; padding: 4px 12px; border-radius: 20px;
+            text-decoration: none; transition: all 0.2s;
+        }
+        .btn-cover:hover { background: #f0f0f0; transform: translateY(-1px); }
+        .btn-cover i { margin-right: 5px; color: #888; }
+        .btn-cover.disabled { display: none; } 
+
+        /* Unit数バッジ */
+        .category-badge {
+            margin-left: auto; 
+            font-size: 0.8rem; padding: 4px 12px;
+            border-radius: 20px; color: white; font-weight: bold;
+            white-space: nowrap;
+        }
+        
+        /* Unit一覧グリッド */
+        .unit-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 12px;
+        }
+        .unit-item {
+            display: flex; align-items: center; justify-content: center;
+            height: 45px; background: #f8fafc; border: 1px solid #e2e8f0;
+            border-radius: 8px; text-decoration: none; color: #475569;
+            font-size: 0.9rem; font-weight: 600; transition: all 0.2s;
+        }
+        .unit-item:hover { transform: translateY(-2px); color: white; }
+        .unit-item.disabled {
+            background-color: #f1f5f9; color: #cbd5e1; pointer-events: none;
+        }
+
+        /* --- テーマ別カラー設定 --- */
+        /* 初級 (Pink) */
+        .theme-beginner .category-icon { color: var(--color-beginner); }
+        .theme-beginner .category-badge { background: var(--color-beginner); }
+        .theme-beginner .unit-item:not(.disabled):hover { background: var(--color-beginner); border-color: var(--color-beginner); }
+        .theme-beginner .btn-cover:hover { border-color: var(--color-beginner); color: var(--color-beginner); }
+        .theme-beginner .btn-cover:hover i { color: var(--color-beginner); }
+        
+        /* 中級 (Green) */
+        .theme-intermediate .category-icon { color: var(--color-intermediate); }
+        .theme-intermediate .category-badge { background: var(--color-intermediate); }
+        .theme-intermediate .unit-item:not(.disabled):hover { background: var(--color-intermediate); border-color: var(--color-intermediate); }
+        .theme-intermediate .btn-cover:hover { border-color: var(--color-intermediate); color: var(--color-intermediate); }
+        .theme-intermediate .btn-cover:hover i { color: var(--color-intermediate); }
+        
+        /* 上級 (Blue) */
+        .theme-advanced .category-icon { color: var(--color-advanced); }
+        .theme-advanced .category-badge { background: var(--color-advanced); }
+        .theme-advanced .unit-item:not(.disabled):hover { background: var(--color-advanced); border-color: var(--color-advanced); }
+        .theme-advanced .btn-cover:hover { border-color: var(--color-advanced); color: var(--color-advanced); }
+        .theme-advanced .btn-cover:hover i { color: var(--color-advanced); }
+
+        /* スマホ対応 */
+        @media (max-width: 600px) {
+            .unit-grid { grid-template-columns: repeat(5, 1fr); }
+            .hero-banner { padding: 20px 10px; }
+            .category-header { gap: 8px; }
+            .category-title { font-size: 1.2rem; width: 100%; margin-right: 0;}
+            .header-buttons { width: 100%; margin-bottom: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="textbooks" class="btn-back"><i class="fa-solid fa-chevron-left"></i>&nbsp; コース一覧に戻る</a>
+
+    <div class="hero-banner">
+        <svg viewBox="0 0 600 220" width="100%" height="auto" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="220" rx="20" fill="#eff6ff" />
+            <circle cx="50" cy="20" r="100" fill="#dbeafe" opacity="0.5" />
+            <circle cx="550" cy="200" r="80" fill="#dbeafe" opacity="0.5" />
+
+            <g transform="translate(100, 60)">
+                <path d="M70,55 L150,55" stroke="#94a3b8" stroke-width="4" stroke-dasharray="5,5" />
+                <path d="M250,55 L330,55" stroke="#94a3b8" stroke-width="4" stroke-dasharray="5,5" />
+                
+                <rect x="0" y="20" width="80" height="70" rx="8" fill="#ff9ff3" />
+                <rect x="0" y="80" width="80" height="10" rx="4" fill="#ff79e3" opacity="0.3" />
+                <text x="40" y="65" font-family="sans-serif" font-size="32" fill="white" text-anchor="middle" font-weight="bold">S</text>
+                <text x="40" y="115" font-family="sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="bold">Subject</text>
+
+                <rect x="160" y="10" width="80" height="70" rx="8" fill="#1dd1a1" />
+                <rect x="160" y="70" width="80" height="10" rx="4" fill="#10ac84" opacity="0.3" />
+                <text x="200" y="55" font-family="sans-serif" font-size="32" fill="white" text-anchor="middle" font-weight="bold">V</text>
+                <text x="200" y="105" font-family="sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="bold">Verb</text>
+
+                <rect x="320" y="20" width="80" height="70" rx="8" fill="#0abde3" />
+                <rect x="320" y="80" width="80" height="10" rx="4" fill="#0097e6" opacity="0.3" />
+                <text x="360" y="65" font-family="sans-serif" font-size="32" fill="white" text-anchor="middle" font-weight="bold">O</text>
+                <text x="360" y="115" font-family="sans-serif" font-size="12" fill="#64748b" text-anchor="middle" font-weight="bold">Object</text>
+            </g>
+
+            <text x="50" y="150" font-family="serif" font-size="50" fill="#0abde3" opacity="0.2" transform="rotate(-20, 50, 150)">?</text>
+            <text x="530" y="80" font-family="serif" font-size="50" fill="#ff9ff3" opacity="0.2" transform="rotate(20, 530, 80)">!</text>
+            <text x="480" y="180" font-family="serif" font-size="60" fill="#1dd1a1" opacity="0.2">.</text>
+
+            <text x="300" y="190" font-family="sans-serif" font-size="20" fill="#64748b" text-anchor="middle" font-weight="bold" letter-spacing="3">ENGLISH GRAMMAR STRUCTURE</text>
+        </svg>
+    </div>
+
+    <div class="intro-text">
+        <h2>英文法 Training Course</h2>
+        <p>ブロークンな英語ともおさらば。</p>
+        <p>正しい、わかりやすい英語で、相手によい印象を与えよう。</p>
+    </div>
+
+    <section class="category-section theme-beginner">
+        <div class="category-header">
+            <i class="fa-solid fa-comments category-icon"></i>
+            <h3 class="category-title">英文法 (初級)</h3>
+            
+            <div class="header-buttons">
+                <a href="#" class="btn-cover" id="cover-beginner" target="_blank">
+                    <i class="fa-solid fa-book-open"></i> 表紙・目次
+                </a>
+                <a href="#" class="btn-cover" id="appendix-beginner" target="_blank">
+                    <i class="fa-solid fa-folder-open"></i> 巻末コンテンツ
+                </a>
+            </div>
+
+            <span class="category-badge" id="badge-beginner">Unit 1 - </span>
+        </div>
+        <div class="unit-grid" id="grid-beginner"></div>
+    </section>
+
+    <section class="category-section theme-intermediate">
+        <div class="category-header">
+            <i class="fa-solid fa-briefcase category-icon"></i>
+            <h3 class="category-title">英文法 (中級)</h3>
+            
+            <div class="header-buttons">
+                <a href="#" class="btn-cover" id="cover-intermediate" target="_blank">
+                    <i class="fa-solid fa-book-open"></i> 表紙・目次
+                </a>
+                <a href="#" class="btn-cover" id="appendix-intermediate" target="_blank">
+                    <i class="fa-solid fa-folder-open"></i> 巻末コンテンツ
+                </a>
+            </div>
+
+            <span class="category-badge" id="badge-intermediate">Unit 1 - </span>
+        </div>
+        <div class="unit-grid" id="grid-intermediate"></div>
+    </section>
+
+    <section class="category-section theme-advanced">
+        <div class="category-header">
+            <i class="fa-solid fa-chart-line category-icon"></i>
+            <h3 class="category-title">英文法 (上級)</h3>
+            
+            <div class="header-buttons">
+                <a href="#" class="btn-cover" id="cover-advanced" target="_blank">
+                    <i class="fa-solid fa-book-open"></i> 表紙・目次
+                </a>
+                <a href="#" class="btn-cover" id="appendix-advanced" target="_blank">
+                    <i class="fa-solid fa-folder-open"></i> 巻末コンテンツ
+                </a>
+            </div>
+
+            <span class="category-badge" id="badge-advanced">Unit 1 - </span>
+        </div>
+        <div class="unit-grid" id="grid-advanced"></div>
+    </section>
+
+</div>
+
+<script>
+    /* =======================================================
+      設定エリア 1：【表紙・目次】のファイルID
+     ======================================================= */
+    var beginnerCoverId = "";                           // 初級
+    var intermediateCoverId = "";                       // 中級
+    var advancedCoverId = "";                           // 上級
+
+
+    /* =======================================================
+      設定エリア 2：【巻末コンテンツ】のファイルID
+     ======================================================= */
+    var beginnerAppendixId = "1EU2H7HfLmo0EURMYEiUwvMcxEWurk8Vw"; // 初級
+    var intermediateAppendixId = "";                               // 中級
+    var advancedAppendixId = "";                                   // 上級
+
+
+    /* =======================================================
+      設定エリア 3：【各Unit】のファイルIDリスト
+     ======================================================= */
+
+    /* 初級 IDリスト */
+    var beginnerIds = [
+        "1yFn1-7NLDUjDli0w5_PhiFokKmYdtIl4",
+        "1rNcp4mutAguvIIF4WIIn3pn2XyiMq9hK",
+        "1lk12qCeNwvO5es-laZHpYuVa1cjVxKPy",
+        "1tKcxpDB-KsGbWdl0JzmRA2VaScRRKBio",
+        "1OiKhRxHNnSDWpNllZKqIiF2UorKxzg0W",
+        "1876XPlSc9t-FGHKydvGV437s7DshE3w6",
+        "1t6wzsFjUUBENvBUBOTW1sNPokiNTCWzN",
+        "15nVtl9iVRdxHLTotyP4jmlk9FZFD4OkB",
+        "13LzUFZ23luv2gYNq9q7FPRZdDy9_CHoa",
+        "1d2q-Ql-yYUtcRFAhbYPffuqWJPuxp0vh",
+        "1xSTdAaCjJoE2Q8a6syAw0nP-zjhJCQmB",
+        "1AdYxQTBmYihjVpvQ0xbEHrLk-t8Qfmo-",
+        "1BvAl8bPHbr2vFkACUEwyvxRT9ZhmbTCj",
+        "1X5n-8ZCqCQJU_1mfuuMH8hsgcAJCMP4K",
+        "1DxkP8ciHoIZD2kxnEdfdnkQncvw6an99",
+        "12HivXzZdnDaKLRF1uVD3fi5tu73JPgg2",
+        "1gM3BWcDn6xROFvVUL0f2_cZUasdSMJw-",
+        "1F2eLNEDsKkexX8JXsSXZVokxbDArGsAv",
+        "1ma7X__kTXYcoN0iM3hzT5rZMzn3RQsrd",
+        "1D4pSizsxNqPBS75Oqo4B_A5mExFdUSyW"
+    ];
+
+    /* 中級 IDリスト */
+    var intermediateIds = [
+        ""
+    ];
+
+    /* 上級 IDリスト */
+    var advancedIds = [
+        ""
+    ];
+
+
+    /* =======================================================
+      プログラム本体（これ以下は変更不要）
+     ======================================================= */
+    
+    // Google Drive URL生成
+    function makeDriveUrl(fileId) {
+        var cleanId = fileId.trim(); 
+        return 'https://drive.google.com/file/d/' + cleanId + '/view?usp=drive_link';
+    }
+
+    // リンクボタン設定
+    function setupLinkButton(buttonId, fileId) {
+        var btn = document.getElementById(buttonId);
+        if (!btn) return;
+
+        if (fileId && fileId.length > 5) {
+            btn.href = makeDriveUrl(fileId);
+        } else {
+            btn.classList.add('disabled');
+        }
+    }
+
+    // Unitボタン生成
+    function generateUnits(containerId, badgeId, idsList) {
+        var container = document.getElementById(containerId);
+        var badge = document.getElementById(badgeId);
+        if (!container) return;
+        
+        var safeList = idsList || [];
+        var validList = safeList.filter(function(id) {
+            return id && id.length > 5;
+        });
+        
+        var totalCount = safeList.length;
+
+        if (badge) {
+            badge.innerText = "Unit 1 - " + totalCount;
+            if (totalCount === 0 || (totalCount === 1 && safeList[0] === "")) {
+                badge.innerText = "Coming Soon";
+            }
+        }
+
+        for (var i = 0; i < totalCount; i++) {
+            var link = document.createElement('a');
+            link.className = 'unit-item';
+            link.innerText = i + 1;
+
+            var fileId = safeList[i];
+
+            if (fileId && fileId.length > 5) {
+                link.href = makeDriveUrl(fileId);
+                link.target = "_blank"; 
+            } else {
+                link.href = "javascript:void(0)";
+                link.className += " disabled";
+            }
+            container.appendChild(link);
+        }
+    }
+
+    // 初期化実行
+    document.addEventListener('DOMContentLoaded', function() {
+        setupLinkButton('cover-beginner', beginnerCoverId);
+        setupLinkButton('cover-intermediate', intermediateCoverId);
+        setupLinkButton('cover-advanced', advancedCoverId);
+
+        setupLinkButton('appendix-beginner', beginnerAppendixId);
+        setupLinkButton('appendix-intermediate', intermediateAppendixId);
+        setupLinkButton('appendix-advanced', advancedAppendixId);
+
+        generateUnits('grid-beginner', 'badge-beginner', beginnerIds);
+        generateUnits('grid-intermediate', 'badge-intermediate', intermediateIds);
+        generateUnits('grid-advanced', 'badge-advanced', advancedIds);
+    });
+</script>
+
+</body>
+</html>

@@ -3,7 +3,7 @@
     "key": "root",
     "base": "",
     "name": "ECOMオンライン語学学校",
-    "tagline": "2005年創業、20ヶ国語オンラインスクール",
+    "tagline": "2005年から続く、20ヶ国語オンラインスクール",
     "logo": "/wp-content/uploads/2023/01/ECOM150-56.png",
     "icon": "/wp-content/uploads/2023/01/ecom_C-150x150.png",
     "ga": "GT-5RFHJP5",
@@ -164,7 +164,7 @@
     "key": "english",
     "base": "/english",
     "name": "ECOMオンライン英会話学校",
-    "tagline": "2005年創業、20年以上の実績",
+    "tagline": "2005年から続く、20年以上の実績",
     "logo": "/english/wp-content/uploads/2018/02/ECOM250-100.png",
     "icon": "/english/wp-content/uploads/2024/08/cropped-ecom_C-32x32.png",
     "nav": [
@@ -386,7 +386,7 @@
     "key": "english_children",
     "base": "/english/children",
     "name": "ECOM子供オンライン英会話",
-    "tagline": "2005年創業、20年以上の実績",
+    "tagline": "2005年から続く、20年以上の実績",
     "logo": "/english/children/wp-content/uploads/sites/2/2018/02/cropped-ECOM-jr250-100.png",
     "icon": "/english/children/wp-content/uploads/sites/2/2024/08/cropped-ecom-jr_C-32x32.png",
     "nav": [
