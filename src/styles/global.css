@@ -409,3 +409,5 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 }
 .kd-icon > i:first-child, .kd-steps li > i { margin-top: 0; }
 main:has(> .lp-form:last-child) { padding-bottom: 0; }
+.lp-card .corp-ico, .corp-ico { font-size: 26px; width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; background: #E8EEF6; }
+.corp-ico.teal { background: #E6F4F2; }
