@@ -3,6 +3,7 @@ import { env } from 'cloudflare:workers';
 import formsJson from '../../data/forms.json';
 import sitesJson from '../../data/sites.json';
 import paymentJson from '../../data/payment.json';
+import { createPrefilledLink } from '../../square';
 
 export const prerender = false;
 
@@ -11,10 +12,12 @@ export const prerender = false;
 //   RESEND_API_KEY       … Resend の API キー
 //   MAIL_FROM            … 送信元（省略時 ECOM <noreply@ecominc.co.jp>。Resend で認証済みのドメインに限る）
 //   CONTACT_TO           … 受信先（省略時 info@myecom.net）
+//   SQUARE_ACCESS_TOKEN  … Square のアクセストークン（任意。あれば決済画面に名前・メール・電話を入れておく）
+//   SQUARE_LOCATION_ID   … Square のロケーションID（任意。省略時はメインのロケーション）
 const vars = env as unknown as Record<string, string | undefined>;
 type Field = { name: string; label: string; type: string; required: boolean; choices?: string[] };
 const forms = formsJson as Record<string, { site: string; fields: Field[]; payment?: string }>;
-const payments = paymentJson as Record<string, { label: string; url: string }>;
+const payments = paymentJson as Record<string, { label: string; url: string; amount?: number; paid?: string }>;
 const sites = sitesJson as Record<string, { name: string }>;
 
 async function verifyTurnstile(token: string, ip: string) {
@@ -101,6 +104,20 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
       console.error('form: auto-reply failed', e);
     }
   }
-  if (payNow) return redirect(pay!.url, 303);
+  if (payNow) {
+    const phone = values.find((x) => x.f.type === 'phone' || /電話/.test(x.f.label))?.v ?? '';
+    const payer = values.find((x) => x.f.name === 'parent')?.v || name;
+    const prefilled = vars.SQUARE_ACCESS_TOKEN && pay!.amount && pay!.paid
+      ? await createPrefilledLink({ name: payer, email, phone }, {
+          token: vars.SQUARE_ACCESS_TOKEN,
+          locationId: vars.SQUARE_LOCATION_ID,
+          label: pay!.label,
+          amount: pay!.amount,
+          redirectUrl: `${url.origin}${pay!.paid}`,
+          note: `${siteName} ${key} ${payer} ${email}`,
+        })
+      : undefined;
+    return redirect(prefilled ?? pay!.url, 303);
+  }
   return thanks ? redirect(encodeURI(thanks), 303) : back('sent=1');
 };
