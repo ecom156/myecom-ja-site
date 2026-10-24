@@ -219,8 +219,7 @@ path: "/english/corporation/online-group/examples/"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-sky vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1517913422077"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>お問い合わせ、ご質問歓迎</h2></header><p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-502" src="/english/corporation/wp-content/uploads/sites/3/2018/02/icon-panf-corp-2.gif" alt="" width="444" height="328">本サイト内容をまとめたパンフレットを送付いたします。<br>
 また、<br>
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
-<p>お電話でも受け付けております。<br>
-050-5532-3069</p>
+<p>メール（<a href="mailto:info@myecom.net">info@myecom.net</a>）でも受け付けております。</p>
 </div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div>
 </div>
 </div>
