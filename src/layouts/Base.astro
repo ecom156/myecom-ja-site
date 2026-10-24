@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import { getCollection } from 'astro:content';
-import { sites, siteForPath, sortPosts, postPath, siteKeyOf, type Site } from '../lib';
+import { sites, siteForPath, sortPosts, postPath, siteKeyOf, langOf, langForPath, type Site } from '../lib';
 
 interface Props {
   title: string;
@@ -9,6 +9,8 @@ interface Props {
   image?: string;
   type?: 'website' | 'article';
   site?: Site;
+  // 異文化ブログの言語圏（english, chinese など）
+  lang?: string;
 }
 const site = Astro.props.site ?? siteForPath(Astro.url.pathname);
 const { title, description = `${site.name} – ${site.tagline}`, image, type = 'website' } = Astro.props;
@@ -17,7 +19,9 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
 const current = decodeURI(Astro.url.pathname);
 const year = new Date().getFullYear();
 const home = `${site.base}/`;
-const recent = sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)).slice(0, 5);
+// 言語ページ（/chinese/ など）と異文化ブログの記事では、同じ言語圏の記事だけを出す
+const lang = Astro.props.lang ?? (site.key === 'root' || site.key === 'russian' ? langForPath(current) : undefined);
+const recent = sortPosts(await getCollection('posts', (p) => (lang ? langOf(p) === lang : siteKeyOf(p) === site.key))).slice(0, 5);
 const ogImage = image ?? site.logo;
 // GA は全サイト共通で TOP のプロパティに送り、どのサイトのページかはコンテンツグループで分ける
 const ga = sites.root.ga;
@@ -36,8 +40,8 @@ const ga = sites.root.ga;
     <link rel="stylesheet" href="/wp-content/plugins/js_composer/assets/css/js_composer.min.css" />
     <link rel="stylesheet" href="/wp-content/plugins/easy-tables-vc/assets/css/style.min.css" />
     <link rel="stylesheet" href="/wp-content/plugins/easy-tables-vc/assets/css/themes.min.css" />
-    <link rel="stylesheet" href="/wp-content/plugins/js_composer/assets/lib/vendor/dist/@fortawesome/fontawesome-free/css/all.min.css" />
-    <link rel="stylesheet" href="/wp-content/plugins/js_composer/assets/lib/vendor/dist/@fortawesome/fontawesome-free/css/v4-shims.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/v4-shims.min.css" />
     <meta property="og:site_name" content={site.name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />

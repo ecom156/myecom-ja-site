@@ -46,6 +46,21 @@ export function blogPath(site: Site) {
   return site.frontIsPosts ? `${site.base}/` : `${site.base}/blog/`;
 }
 
+// 異文化ブログ（root の記事）の言語圏。カテゴリの URL /blog/category/<言語>/ から決める（K 2026-10-24）
+export function langOf(post: CollectionEntry<'posts'>) {
+  if (siteKeyOf(post) !== 'root') return undefined;
+  for (const name of post.data.categories) {
+    const m = categoryPath('root', name).match(/^\/blog\/category\/(english|german|french|chinese|russian|arabic|spanish|korean|italian|portuguese)\//);
+    if (m) return m[1];
+  }
+  return undefined;
+}
+// 言語ページ /chinese/ や、異文化ブログのカテゴリ一覧 /blog/category/chinese/ のパスから、その言語圏を返す
+export function langForPath(pathname: string) {
+  const m = decodeURI(pathname).match(/^\/(?:blog\/category\/)?(english|german|french|chinese|russian|arabic|spanish|korean|italian|portuguese)(\/|$)/);
+  return m?.[1];
+}
+
 export function formatDate(d: Date) {
   return `${d.getUTCFullYear()}年${d.getUTCMonth() + 1}月${d.getUTCDate()}日`;
 }

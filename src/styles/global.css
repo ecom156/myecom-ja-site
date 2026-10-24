@@ -436,3 +436,21 @@ main:has(> .lp-form:last-child) { padding-bottom: 0; }
   .ad-trust b { font-size: 20px; }
 }
 .lp .nw { display: inline-block; }
+/* 月額プランの下の、チケットのまとめ買いへの帯（PlanCards.astro） */
+.ticket-band { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; background: #fff; border: 2px solid var(--navy); border-radius: 14px; padding: 16px 20px; color: var(--ink) !important; text-decoration: none; }
+.ticket-band:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+.ticket-band i { font-style: normal; font-size: 28px; }
+.ticket-band span { flex: 1 1 320px; color: var(--sub); }
+.ticket-band b { display: block; color: var(--ink); font-size: 17px; }
+.ticket-band em { font-style: normal; font-weight: 700; color: var(--navy); white-space: nowrap; }
+
+/* 言語ページの下の異文化ブログ（LangBlog.astro） */
+.lang-blog { background: #F3F8FB; padding: 48px 0; }
+.lang-blog h2 { margin: 0 0 8px; font-size: 24px; text-align: center; }
+main:has(> .lang-blog:last-child) { padding-bottom: 0; }
+@media (max-width: 600px) {
+  .lang-blog .recent-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .lang-blog .recent-card { font-size: 13px; }
+  .lang-blog h2 { font-size: 20px; }
+}
+.lang-blog .nw { display: inline-block; }
