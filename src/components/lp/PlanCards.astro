@@ -1,21 +1,20 @@
 ---
 import plans from '../../data/plans.json';
 
-// 月額プランのカード。料金・申込みリンク（Square）・入会金の文言は src/data/plans.json の1か所で直す。月3回（塾代助成対応）は子供のページだけに出す
+// 月額プランのカード。料金・申込みリンク（Square）・入会金の文言は src/data/plans.json の1か所で直す。月3回（塾代助成対応）は大阪市塾代助成のページ（OsakaPage）だけに出す（K 2026-10-24：ほかの保護者が迷うため）
 // signup: 申込みボタンを出す（料金ページだけ。体験のあとに料金ページから申し込んでもらう）
-interface Props { kids?: boolean; signup?: boolean }
-const { kids = false, signup = false } = Astro.props;
-const list = plans.monthly.filter((p) => kids || !p.kidsOnly);
+interface Props { signup?: boolean }
+const { signup = false } = Astro.props;
+const list = plans.monthly.filter((p) => !p.osakaOnly);
 ---
 <div class="lp-cards">
   {list.map((p) => (
-    <div class={`lp-plan${p.recommended ? ' rec' : ''}${p.kidsOnly ? ' kids' : ''}`}>
+    <div class={`lp-plan${p.recommended ? ' rec' : ''}`}>
       <p class="name">{p.name}{p.recommended && <span class="lp-badge">おすすめ</span>}{p.badge && <span class="lp-badge kids">{p.badge}</span>}</p>
       <p class="price">{p.price}<small>/ 月（税込）</small></p>
       <p class="lead">{p.lead}</p>
       {p.ai && <p class="ai">{p.ai}</p>}
       {signup && p.url && <a class="lp-btn plan-btn" href={p.url} target="_blank" rel="noopener">申し込む</a>}
-      {signup && p.kidsOnly && <a class="plan-link" href="/english/children/osaka-jukudai-josei">塾代助成での申し込み方法</a>}
     </div>
   ))}
 </div>

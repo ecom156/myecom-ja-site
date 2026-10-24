@@ -387,3 +387,25 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
   .kd-points i { grid-row: auto; }
   .kd-points b { font-size: 15px; }
 }
+/* 大阪市塾代助成のページ（OsakaPage.astro） */
+.osk-hero { flex: 1 1 380px; position: relative; }
+.osk-hero .photo { width: 100%; height: 300px; object-fit: cover; border: 6px solid #fff; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,.12); transform: rotate(-2deg); }
+.osk-hero .logo { position: absolute; right: -6px; bottom: -24px; width: 130px; background: #fff; border-radius: 16px; padding: 8px; box-shadow: 0 4px 14px rgba(0,0,0,.12); transform: rotate(4deg); }
+.osk-main .price { color: var(--kids); }
+.osk-main { flex-basis: 320px; }
+.osk-press { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center; background: #fff; border: 2px solid #FED7AA; border-radius: 20px; padding: 16px; text-decoration: none; color: var(--ink); }
+.osk-press img { flex: 1 1 320px; min-width: 0; max-width: 520px; height: 160px; object-fit: cover; border-radius: 12px; }
+.osk-press span { flex: 1 1 260px; display: flex; flex-direction: column; gap: 8px; }
+.osk-press b { font-size: 19px; }
+.osk-press i { font-style: normal; font-weight: 700; color: var(--navy); }
+.osk-voice img { object-fit: contain; background: #fff; }
+.lp-form { background: linear-gradient(135deg, #FDE68A, #FBCFE8 55%, #BAE6FD); padding: 56px 0; }
+.lp-form .wrap { background: #fff; border-radius: 24px; padding: 32px; max-width: 860px; }
+.lp-form h2 { margin: 0 0 16px; font-size: 26px; }
+@media (max-width: 760px) {
+  .osk-hero .photo { height: 210px; }
+  .osk-hero .logo { width: 96px; bottom: -16px; }
+  .lp-form .wrap { padding: 20px; margin: 0 16px; }
+}
+.kd-icon > i:first-child, .kd-steps li > i { margin-top: 0; }
+main:has(> .lp-form:last-child) { padding-bottom: 0; }
