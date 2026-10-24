@@ -45,3 +45,9 @@
 /russian/onlinelessons/trial/thankyou-trial/ /trial/ 301
 /english/multi-lingual/ /trial/ 301
 /english/multi-lingual /trial/ 301
+# 使わなくなったページ（K 2026-10-24）
+/first/ /system/ 301
+/first /system/ 301
+/english/corporation/inquiry2/ /english/corporation/contact/ 301
+/english/corporation/inquiry2 /english/corporation/contact/ 301
+/english/corporation/inquiry2/thnakyou/ /english/corporation/contact/ 301

@@ -67,7 +67,7 @@ path: "/aboutecom/"
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>登録者数5万人超え『ECOM、無料語学チャンネル』を運営</p>
+<p>登録者数3万人の『ECOM、無料語学チャンネル』を運営</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
