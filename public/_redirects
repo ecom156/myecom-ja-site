@@ -39,3 +39,9 @@
 /italian/blog /italian/ 301
 /portuguese/blog/ /portuguese/ 301
 /portuguese/blog /portuguese/ 301
+# 古い体験フォーム（ロシア語の振込・PayPal、世界の言語体験キャンペーン）は全言語共通の /trial/ にまとめた
+/russian/onlinelessons/trial/ /trial/ 301
+/russian/onlinelessons/trial /trial/ 301
+/russian/onlinelessons/trial/thankyou-trial/ /trial/ 301
+/english/multi-lingual/ /trial/ 301
+/english/multi-lingual /trial/ 301

@@ -141,66 +141,6 @@
       }
     ]
   },
-  "english-16": {
-    "site": "english",
-    "button": "送信",
-    "fields": [
-      {
-        "name": "f1",
-        "label": "お名前(ローマ字でご入力下さい)",
-        "type": "text",
-        "required": true
-      },
-      {
-        "name": "f2",
-        "label": "年齢層",
-        "type": "select",
-        "required": false,
-        "description": "（講師がレッスン準備の参考とします）",
-        "choices": [
-          "15歳未満",
-          "15-19歳",
-          "20-24歳",
-          "25-29歳",
-          "30-34歳",
-          "35-39歳",
-          "40歳代",
-          "50歳代",
-          "60歳以上"
-        ]
-      },
-      {
-        "name": "f3",
-        "label": "Email（携帯メール不可）",
-        "type": "email",
-        "required": true
-      },
-      {
-        "name": "f4",
-        "label": "電話番号",
-        "type": "text",
-        "required": true,
-        "description": "オンラインで連絡が取れない時のサポート用になります。"
-      },
-      {
-        "name": "f5",
-        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（06：00 AM〜夜21：00迄）をご記入下さい。土日祝日可。",
-        "type": "textarea",
-        "required": false,
-        "description": "(体験レッスンの質を高める効果がありますので是非協力お願いします。)"
-      },
-      {
-        "name": "f6",
-        "label": "",
-        "type": "checkbox",
-        "required": false,
-        "choices": [
-          "個人情報規約に同意して申し込みします。",
-          "Ecom英語学校からの連絡を許可します。"
-        ]
-      }
-    ]
-  },
   "english-13": {
     "site": "english",
     "button": "申し込む",
@@ -983,72 +923,6 @@
         "label": "お問い合わせ内容",
         "type": "textarea",
         "required": true
-      }
-    ]
-  },
-  "russian-2": {
-    "site": "russian",
-    "button": "Submit",
-    "fields": [
-      {
-        "name": "f1",
-        "label": "お名前(ローマ字で入力ください)",
-        "type": "text",
-        "required": true
-      },
-      {
-        "name": "f2",
-        "label": "Email （携帯メール不可）",
-        "type": "email",
-        "required": true,
-        "description": "こちらのメールに連絡させて頂きます。"
-      },
-      {
-        "name": "f3",
-        "label": "電話番号",
-        "type": "text",
-        "required": true,
-        "description": "オンラインで連絡が取れない時のサポート用になります。"
-      },
-      {
-        "name": "f4",
-        "label": "年齢層",
-        "type": "select",
-        "required": false,
-        "description": "講師が参考にします。",
-        "choices": [
-          "15歳未満",
-          "15-19歳",
-          "20-24歳",
-          "25-29歳",
-          "30-34歳",
-          "35-39歳",
-          "40歳代",
-          "50歳代",
-          "60歳以上"
-        ]
-      },
-      {
-        "name": "f5",
-        "label": "お得な体験レッスン2,500円のご希望支払い方法",
-        "type": "radio",
-        "required": true,
-        "choices": [
-          "銀行、郵便局振込み",
-          "PayPal支払い"
-        ]
-      },
-      {
-        "name": "f6",
-        "label": "体験レッスンとは別日程で15分程度のオンライン事前カウンセリングを実施させて頂いております。ご希望の時間帯（07:00〜夜22:00迄）をご記入下さい。土日祝日可。",
-        "type": "textarea",
-        "required": false
-      },
-      {
-        "name": "f7",
-        "label": "当校のどのようなところに興味を持ち、今回体験レッスンをお申し込み頂きましたか？今後の参考のため、お書き添え頂ければ幸いです。",
-        "type": "textarea",
-        "required": false
       }
     ]
   }

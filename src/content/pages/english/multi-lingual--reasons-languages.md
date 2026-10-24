@@ -2,7 +2,7 @@
 title: "コラム：～あなたが英語以外の言語を学んでみるべき４つの理由～"
 path: "/english/multi-lingual/reasons-languages/"
 forms:
-  - english-16
+  - root-2
 ---
 
 <div class="wp-layout">
@@ -82,14 +82,14 @@ forms:
 <p>外国語にもその人の相性がありますので、是非この機会に、英語以外の言語にも目を向けてみるのもよいかもしれないですよ。</p>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div><h2 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">Ecom 13周年記念『世界の言語体験』キャンペーン↓</h2><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div><h2 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">英語以外の言語も、体験レッスン（30分×2回・2,500円）でお試しいただけます↓</h2><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
 <div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1170" height="500" src="/english/wp-content/uploads/2016/04/mulit-lingual.jpg" class="vc_single_image-img attachment-full" alt="マルチリンガル" title="マルチリンガル"></div>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1488759924195 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div data-form="english-16"></div>
+<div data-form="root-2"></div>
 </div></div></div></div>
 </div>
 </div>

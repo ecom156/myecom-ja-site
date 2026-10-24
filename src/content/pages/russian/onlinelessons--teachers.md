@@ -96,7 +96,7 @@ path: "/russian/onlinelessons/teachers/"
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/russian/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/russian/wp-content/uploads/sites/8/2015/09/icon_trial.gif" class="vc_single_image-img attachment-full" alt="" title="icon_trial"></a>
+<a href="/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/russian/wp-content/uploads/sites/8/2015/09/icon_trial.gif" class="vc_single_image-img attachment-full" alt="" title="icon_trial"></a>
 </figure>
 </div>
 <div class="wpb_single_image wpb_content_element vc_align_center">
