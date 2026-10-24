@@ -1,0 +1,19 @@
+---
+import plans from '../../data/plans.json';
+
+// 月額プランのカード。料金は src/data/plans.json の1か所で直す。月3回（塾代助成対応）は子供のページだけに出す
+interface Props { kids?: boolean }
+const { kids = false } = Astro.props;
+const list = plans.monthly.filter((p) => kids || !p.kidsOnly);
+---
+<div class="lp-cards">
+  {list.map((p) => (
+    <div class={`lp-plan${p.recommended ? ' rec' : ''}${p.kidsOnly ? ' kids' : ''}`}>
+      <p class="name">{p.name}{p.recommended && <span class="lp-badge">おすすめ</span>}{p.badge && <span class="lp-badge kids">{p.badge}</span>}</p>
+      <p class="price">{p.price}<small>/ 月（税込）</small></p>
+      <p class="lead">{p.lead}</p>
+      {p.ai && <p class="ai">{p.ai}</p>}
+    </div>
+  ))}
+</div>
+<p class="lp-note">{plans.unit}。入会金{plans.entryFee}（税込）。月額プランはカード払いで毎月自動更新です。</p>

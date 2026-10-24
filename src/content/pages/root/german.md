@@ -2,6 +2,7 @@
 title: "ECOMドイツ語"
 path: "/german/"
 slides: [{"image":"/wp-content/uploads/2023/02/german.jpg","title":"オンラインドイツ語レッスン","text":"プロのドイツ語講師がマンツーマン指導","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

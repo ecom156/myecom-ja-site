@@ -2,6 +2,7 @@
 title: "ECOM韓国語"
 path: "/korean/"
 slides: [{"image":"/wp-content/uploads/2023/02/hangul-middle-1780x500.jpg","title":"オンラインで韓国語レッスン","text":"韓国語のプロ講師が指導します。","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

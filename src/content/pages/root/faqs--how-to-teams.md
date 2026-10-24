@@ -1,5 +1,5 @@
 ---
-title: "SkypeからMicrosoft Teamsへの移行ガイド"
+title: "Microsoft Teamsの使い方（レッスンの受け方）"
 path: "/faqs/how-to-teams/"
 ---
 

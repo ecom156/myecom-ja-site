@@ -2,6 +2,7 @@
 title: "ECOMフランス語"
 path: "/french/"
 slides: [{"image":"/wp-content/uploads/2023/02/french.jpg","title":"フランス語なら全てECOMにお任せ","text":"NHKフランス語講座出演のオルファ講師も在籍","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

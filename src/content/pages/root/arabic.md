@@ -2,6 +2,7 @@
 title: "ECOMアラビア語"
 path: "/arabic/"
 slides: [{"image":"/wp-content/uploads/2023/02/arabic.jpg","title":"オンラインでアラビア語レッスン","text":"NHK講座に出演の先生も在籍","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

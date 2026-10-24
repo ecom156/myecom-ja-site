@@ -1,0 +1,16 @@
+---
+import PlanCards from './PlanCards.astro';
+
+// 料金ページ（/price/）の冒頭に出す月額プラン。その下に本文（チケットのまとめ買いなど）が続く
+---
+<div class="lp">
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2 id="monthly">月額プラン</h2>
+        <p class="lp-sub">毎月決まった回数を受けるプランです。英語もほかの言語も、大人も子供も同じ料金です。月3回プランは、大阪市の塾代助成を使うお子さま向けです。</p>
+      </div>
+      <PlanCards kids />
+    </div>
+  </section>
+</div>

@@ -1,0 +1,41 @@
+---
+import plans from '../../data/plans.json';
+import languages from '../../data/languages.json';
+
+// 各言語ページの冒頭に出す共通の案内（目的・料金・体験）。その下に今までの本文が続く
+interface Props { path: string }
+const lang = (languages as Record<string, { name: string; exams: string; blog?: string }>)[Astro.props.path];
+const [m2, , m4, m8] = plans.monthly;
+---
+{lang && (
+  <div class="lp">
+    <section class="lp-sec">
+      <div class="lp-in">
+        <div class="lp-head">
+          <p class="lp-eyebrow">オンライン{lang.name}レッスン</p>
+          <h2>{lang.name}を、日本語や英語が分かるプロ講師とマンツーマンで。</h2>
+          <p class="lp-lead">はじめての方も、試験対策も、仕事で使う方も。英語と同じ料金で学べます。</p>
+        </div>
+        <div class="lp-cards">
+          <div class="lp-card"><b>基礎</b><span>発音とあいさつから。文法は日本語で説明します。</span></div>
+          <div class="lp-card"><b>試験対策</b><span>{lang.exams}。筆記と面接の両方を練習します。</span></div>
+          <div class="lp-card"><b>趣味・旅行</b><span>旅行で使う会話、文化の話題、フリートーク。</span></div>
+          <div class="lp-card"><b>ビジネス</b><span>メール・会議・赴任の準備。<a href="/english/corporation/">法人研修</a>にも対応します。</span></div>
+        </div>
+        <div class="lp-row">
+          <div class="lp-box">
+            <b>料金は英語と同じ</b>
+            <span style="font-size: 24px; font-weight: 700">月2回 {m2.price}から</span>
+            <span class="lp-sub">月4回{m4.price}・月8回{m8.price}（税込）。{plans.unit}。同じチケットで英語やほかの言語も受けられます。<a href="/price/">料金を詳しく見る</a></span>
+          </div>
+          <div class="lp-box">
+            <b>まずは体験から</b>
+            <span class="lp-sub">30分×2回で{plans.trial.price}。先生との相性と、進め方を確かめられます。</span>
+            <div class="lp-btns"><a class="lp-btn" href="/trial/">体験レッスンを予約する</a></div>
+          </div>
+        </div>
+        {lang.blog && <p class="lp-sub">{lang.name}圏の文化を知る：<a href={lang.blog}>異文化ブログ</a></p>}
+      </div>
+    </section>
+  </div>
+)}

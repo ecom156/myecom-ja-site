@@ -1,5 +1,5 @@
 ---
-title: "SkypeからGoogle Meetへの移行ガイド"
+title: "Google Meetの使い方（レッスンの受け方）"
 path: "/faqs/how-to-google-meet/"
 ---
 

@@ -1,0 +1,175 @@
+---
+import PlanCards from './PlanCards.astro';
+import Faq from './Faq.astro';
+import RecentGrid from '../RecentGrid.astro';
+import plans from '../../data/plans.json';
+import { sites } from '../../lib';
+
+// トップページ（/）。入口は子供・法人・大人の順（K決定 2026-10-24）
+const langs = [
+  ['中国語', '/chinese/'], ['韓国語', '/korean/'], ['フランス語', '/french/'], ['スペイン語', '/spanish/'], ['ドイツ語', '/german/'],
+  ['イタリア語', '/italian/'], ['ポルトガル語', '/portuguese/'], ['ロシア語', '/russian/'], ['アラビア語', '/arabic/'],
+];
+const faq = [
+  { q: '体験レッスンの料金は？', a: `30分×2回で${plans.trial.price}（税込）です。お申込み時にカードでお支払いいただけます。` },
+  { q: '30分のレッスンの中身は？', a: 'レッスン25分と、先生がフィードバックを書く5分です。レッスンのあとに、習ったことと次の課題が届きます。' },
+  { q: 'チケットは家族で使えますか？', a: 'はい。家族プランで、ご家族と分けて使えます。英語にも、ほかの言語にも使えます。' },
+  { q: '予約の変更やキャンセルは？', a: 'レッスン開始の1時間前まで変更・キャンセルできます。開始12時間前からは、チケット0.5枚分のキャンセル料がかかります。' },
+  { q: '早朝や深夜も受けられますか？', a: '国内・海外の講師がシフトを組んでいるので、早朝・深夜・土日も受講できます。' },
+];
+---
+<div class="lp">
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">2005年創業のオンライン語学学校</p>
+        <h1>担任のプロ講師と、毎日のAIで、確実に上達。</h1>
+        <p class="lp-lead">ネイティブ・バイリンガルの担任が、目標に合わせてレッスンを組み立てます。レッスンのない日は、AI講師と毎日練習できます。</p>
+      </div>
+      <h2 style="font-size: 18px">どなたが学びますか？</h2>
+      <div class="lp-cards">
+        <a class="lp-card" href="/english/children/"><span class="lp-tag kids">17歳以下</span><b>お子さま</b><span>英会話と英検®対策。毎回、先生のフィードバックで内容を保護者の方と共有します。</span><i>子供の英会話を見る →</i></a>
+        <a class="lp-card" href="/english/corporation/"><span class="lp-tag">企業・官公庁・学校</span><b>研修として</b><span>1時間{plans.corporate.hourly}（税抜）の明朗会計。グループもマンツーマンも同じ料金です。</span><i>法人研修を見る →</i></a>
+        <a class="lp-card" href="/english/"><span class="lp-tag" style="color: var(--sub)">18歳以上</span><b>ご自身</b><span>日常会話・フリートーク・ビジネス英語・TOEIC/英検®対策。</span><i>大人の英会話を見る →</i></a>
+      </div>
+      <div class="lp-btns">
+        <a class="lp-btn" href="/trial/">{plans.trial.label}</a>
+        <a href="https://ai.myecom.net">まずは無料で、AI講師と10分話してみる</a>
+      </div>
+      <p class="lp-note"><a href="/english/schools/">学校の先生・教職員の方はこちら</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec line" aria-label="ECOMの数字">
+    <div class="lp-in">
+      <div class="lp-nums">
+        <div><b>2005年</b><span>創業</span></div>
+        <div><b>1万人</b><span>累計受講者数</span></div>
+        <div><b>3%</b><span>講師の採用率</span></div>
+        <div><b>20言語</b><span>英語のほか19言語</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>ECOMが選ばれる3つの理由</h2>
+      <div class="lp-cards">
+        <div class="lp-reason">
+          <img src="/wp-content/uploads/2023/01/heather1200-1600-150x150.jpg" alt="" loading="lazy" />
+          <h3>プロの講師だけ</h3>
+          <p>採用率3%の審査を通ったネイティブ・バイリンガル講師が教えます。誰でも登録できる仕組みではないので、講師のハズレがありません。日本語が分かる講師も多数います。</p>
+        </div>
+        <div class="lp-reason">
+          <img src="/wp-content/uploads/2024/08/growth-teacher-150x150.jpg" alt="" loading="lazy" />
+          <h3>担任制だから続く</h3>
+          <p>相性の合う先生を担任に決めて、曜日と時間を固定して予約できます。先生の在籍が長いので、同じ先生と長く続けられます。</p>
+        </div>
+        <div class="lp-reason">
+          <img src="/wp-content/uploads/2024/08/gamen00-150x150.jpg" alt="" loading="lazy" />
+          <h3>毎回のフィードバックと毎日のAI</h3>
+          <p>30分のうち5分は、先生がフィードバックを書く時間です。レッスンのない日は、AI講師と話す練習ができます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>料金は月2回 6,600円から</h2>
+        <p class="lp-sub">1回30分のマンツーマン。英語もほかの言語も、ご家族でも同じ料金です。</p>
+      </div>
+      <PlanCards />
+      <p class="lp-note">チケットのまとめ買い（銀行振込）もできます。<a href="/price/">料金を詳しく見る</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>はじめ方は3ステップ</h2>
+      <ol class="lp-steps">
+        <li><em>STEP 1</em><b>体験レッスンを予約</b><span>30分×2回で{plans.trial.price}。お申込み時にカードでお支払いいただけます。</span></li>
+        <li><em>STEP 2</em><b>先生とレベル・目標を確認</b><span>体験の先生がレベルを確かめ、目標までの進め方を提案します。</span></li>
+        <li><em>STEP 3</em><b>入会して担任とスタート</b><span>月額プランを選んで、担任の先生と始めます。</span></li>
+      </ol>
+      <div class="lp-btns">
+        <a class="lp-btn" href="/trial/">体験レッスンを予約する（30分×2回・{plans.trial.price}）</a>
+        <a href="/system/">利用の流れを詳しく</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>受講している方の声</h2>
+      <div class="lp-cards">
+        <figure class="lp-quote"><figcaption>お子さま（小学生の男の子）</figcaption><blockquote>0から始めて、英検®に立て続けに合格できました。</blockquote><a href="/english/children/onlinelessons/voice/elementary-boy/">続きを読む</a></figure>
+        <figure class="lp-quote"><figcaption style="color: var(--navy)">大人（証券会社にお勤めの方）</figcaption><blockquote>街中にある有名英語学校よりレベルは断然上でした。</blockquote><a href="/english/interview/voice-business1/">続きを読む</a></figure>
+        <figure class="lp-quote"><figcaption style="color: var(--sub)">シニアの方</figcaption><blockquote>パソコン音痴の私でも、ECOMさんのサポートでできるようになりました。</blockquote><a href="/english/interview/voice-elder/">続きを読む</a></figure>
+      </div>
+      <div class="lp-box"><b>導入実績</b><span class="lp-sub">海上保安庁やデジタル庁などの官公庁、ホテル・商社・金融・製造業などの企業研修に、20年以上の実績があります。</span></div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>英語以外の言語も、同じ料金で</h2>
+        <p class="lp-sub">日本語や英語が分かるプロ講師が教えます。</p>
+      </div>
+      <div class="lp-chips">{langs.map(([name, href]) => <a href={href}>{name}</a>)}</div>
+      <p class="lp-sub">一覧にない言語も <a href="/contact/">ご相談ください</a>。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>ほかの学校との違い</h2>
+      <div class="lp-table">
+        <table>
+          <thead><tr><th></th><th>ECOM</th><th>格安のオンライン英会話</th></tr></thead>
+          <tbody>
+            <tr><th>講師</th><td>採用率3%のネイティブ・バイリンガルのプロ講師</td><td>誰でも登録できる</td></tr>
+            <tr><th>担任・定期予約</th><td>同じ先生で曜日・時間を固定できる</td><td>できないことが多い</td></tr>
+            <tr><th>レッスン後</th><td>毎回、先生がフィードバックを書く</td><td>なし</td></tr>
+            <tr><th>講師の離職</th><td>非常に少ない</td><td>多い</td></tr>
+            <tr><th>講師都合の急なキャンセル</th><td>ごくまれ</td><td>多い</td></tr>
+            <tr><th>学習・技術サポート</th><td>日本語でサポート</td><td>なし</td></tr>
+            <tr><th>授業の形</th><td>試験対策・ビジネスなど専門クラスが豊富</td><td>おしゃべり中心</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>運営責任者から</h2>
+      <div class="lp-person">
+        <img src="/wp-content/uploads/2023/01/narita-katsuyuki-middle-300x225.jpg" alt="成田勝行" loading="lazy" />
+        <div>
+          <p>言葉を学ぶことは、その国の文化を学ぶこと。そして文化を学べば、言葉を学びたくなる。</p>
+          <p>AIの時代には、英語だけでなく、いろいろな言語を直接学ぶ意義が出てくると考えています。そのためにECOMは、英語に加えて20言語を学べるようにしています。</p>
+          <p><b style="color: var(--ink)">成田勝行</b>　慶應大学卒業。英検1級ほか、中国語にも精通。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2>よくある質問</h2>
+      <Faq items={faq} />
+      <p class="lp-sub"><a href="/faqs/">よくある質問をもっと見る</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>ECOM異文化ブログ「語学学習のビタミン」</h2>
+      <div data-recent-posts="8"></div>
+    </div>
+  </section>
+  <RecentGrid site={sites.root} />
+</div>

@@ -1,6 +1,7 @@
 ---
 title: "ECOMスペイン語"
 path: "/spanish/"
+template: "language"
 ---
 
 <div class="wp-layout">

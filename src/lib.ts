@@ -15,6 +15,8 @@ export type Site = {
   nav: NavItem[];
   footer: { title?: string; items: NavItem[] }[];
   frontIsPosts: boolean;
+  // ヘッダー右の目立つボタン（体験予約など）
+  cta?: NavItem;
 };
 export type Category = { name: string; path: string; parent?: string };
 

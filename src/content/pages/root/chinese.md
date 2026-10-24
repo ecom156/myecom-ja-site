@@ -2,6 +2,7 @@
 title: "ECOM中国語"
 path: "/chinese/"
 slides: [{"image":"/wp-content/uploads/2023/01/breezi_placeit-7-1280x500.png","title":"ECOMの高品質オンライン中国語レッスン","text":"発音訓練、HSK、中国語検定試験などにも対応","button":"体験レッスンを予約する（30分×2回・2,500円）","link":"/trial/"}]
+template: "language"
 ---
 
 <div class="wp-layout">

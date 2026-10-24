@@ -1,0 +1,13 @@
+---
+// よくある質問。a は HTML（リンク可）
+interface Props { items: { q: string; a: string }[] }
+const { items } = Astro.props;
+---
+<div class="lp-faq">
+  {items.map((i) => (
+    <details>
+      <summary>{i.q}</summary>
+      <p set:html={i.a} />
+    </details>
+  ))}
+</div>
