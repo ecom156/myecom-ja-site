@@ -25,9 +25,15 @@ const faq = [
       <div class="lp-hero">
         <div>
           <p class="kd-pill">🎒 子供のオンライン英会話・英検®対策（3歳〜17歳）</p>
-          <h1>英語って、<span class="kd-mark">たのしい！</span><br />担任の先生が毎回見守ります。</h1>
-          <p class="lp-lead">日本語も分かるネイティブ講師が、お子さまのペースに合わせてマンツーマンで教えます。レッスンのあとは毎回、先生のフィードバックが届きます。</p>
+          <h1>英検®も、話せる英語も。<br />うちの子を<span class="kd-mark">分かっている</span><span class="nw">先生と。</span></h1>
+          <p class="lp-lead">英検®は一次の筆記から二次の面接まで、日本語も分かるネイティブの担任がマンツーマンで対策します。毎週決まった曜日と時間に同じ先生が教えるので、性格も得意・苦手も分かってくれています。塾では足りなかった「話す時間」もたっぷり。レッスンのたびにフィードバックが届きます。</p>
+          <ul class="lp-proof">
+            <li>英検®一発合格率<b>9割超</b></li>
+            <li>講師の平均在籍<b>11年</b></li>
+            <li><b>96.5%</b>が満足して継続</li>
+          </ul>
           <div class="lp-btns"><a class="lp-btn" href={trial}>{plans.trial.label}</a></div>
+          <p class="kd-entry"><a href="#eiken">英検®に合格したい →</a><a href="#age">話せるようになりたい（塾からの乗り換えも）→</a></p>
         </div>
         <div class="kd-photos">
           <img class="p1" src={`${up}/2024/08/online-lessons-elementary-1819x500.jpg`} alt="オンラインで英会話を受ける小学生" />
@@ -39,14 +45,14 @@ const faq = [
         <li><i class="c1">🧒</i><b>3歳から</b><span>親子で受けられる</span></li>
         <li><i class="c2">🗣️</i><b>マンツーマン</b><span>1回30分</span></li>
         <li><i class="c3">🇯🇵</i><b>日本語OK</b><span>の先生が多数</span></li>
-        <li><i class="c4">🏆</i><b>英検®に強い</b><span>小学生で3級も</span></li>
+        <li><i class="c4">🏆</i><b>英検®に強い</b><span>一発合格率9割超</span></li>
       </ul>
     </div>
   </section>
 
   <section class="lp-sec">
     <div class="lp-in">
-      <h2 class="kd-h"><i>🎯</i>年齢で選ぶ</h2>
+      <h2 class="kd-h" id="age"><i>🎯</i>年齢で選ぶ</h2>
       <div class="lp-cards">
         <a class="lp-card kd-card c1" href={`${base}/onlinelessons/courses/kids0`}><img src={`${up}/2015/01/oyakoeigo-300x200.jpg`} alt="" loading="lazy" /><span class="kd-age">🐣 3歳〜6歳</span><b>幼児親子コース</b><span>歌・絵カード・ゲームで、英語の音に慣れます。保護者の方と一緒に受けられます。</span><i>くわしく →</i></a>
         <a class="lp-card kd-card c2" href={`${base}/onlinelessons/courses/kids`}><img src={`${up}/2017/07/kids-1024x791.jpg`} alt="" loading="lazy" /><span class="kd-age">🌱 小学校低学年</span><b>キッズ英会話</b><span>フォニックスと、音とイメージで覚える単語。楽しく英語の基礎をつくります。</span><i>くわしく →</i></a>
@@ -60,7 +66,7 @@ const faq = [
       <div class="lp-sechead">
         <img src={`${up}/2017/03/student-happy-pass-1024x820.jpg`} alt="" loading="lazy" />
         <div class="lp-head">
-          <h2 class="kd-h"><i>🏅</i>英検®対策</h2>
+          <h2 class="kd-h" id="eiken"><i>🏅</i>英検®対策</h2>
           <p class="lp-sub">英検®に強い学校なので、小学生で3級、中学生で準1級まで取るお子さまが多くいます。受けたい級と試験日から、必要な回数と期間を先生が提案します。</p>
         </div>
       </div>

@@ -63,7 +63,7 @@ forms:
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>ネイティブ講師、又はバイリンガル講師と30分クラスを2コマ分受講頂けます。採用率3%の採用基準を潜り抜けてきたEcom講師陣のクオリティを是非お試しください。</p>
+<p>ネイティブ講師、又はバイリンガル講師と30分クラスを2コマ分受講頂けます。採用率0.5%の採用基準を潜り抜けてきたEcom講師陣のクオリティを是非お試しください。</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

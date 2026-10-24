@@ -10,7 +10,7 @@ template: "language"
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>ECOMのフランス語講師は、フランス本国出身者を中心に、3%の採用率をくぐり抜けてきた本物のプロ講師です。</p>
+<p>ECOMのフランス語講師は、フランス本国出身者を中心に、0.5%の採用率をくぐり抜けてきた本物のプロ講師です。</p>
 <p>講師は、日本語or英語も分かるバイリンガルですので、仏語初心者の方でも安心です。</p>
 </div>
 </div>

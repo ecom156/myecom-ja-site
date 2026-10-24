@@ -16,7 +16,7 @@ template: "language"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>講師は、スペイン及び、中南米の、日本語の分かるネイティブ・バイリンガル講師です。</p>
-<p>採用率3%をくぐり抜けてきた優秀な講師のみ。</p>
+<p>採用率0.5%をくぐり抜けてきた優秀な講師のみ。</p>
 <p>忙しいあなたの時間を大切にします。</p>
 </div>
 </div>

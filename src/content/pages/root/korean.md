@@ -17,7 +17,7 @@ template: "language"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>日本語もわかる韓国人のプロ講師がマンツーマン指導。</p>
-<p>採用率は3%に絞って、質の良い講師のみが在籍しています。</p>
+<p>採用率は0.5%に絞って、質の良い講師のみが在籍しています。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

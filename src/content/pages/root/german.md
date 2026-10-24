@@ -23,7 +23,7 @@ template: "language"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>日本、ドイツにいるドイツ人講師が、シフトを組んでレッスンを提供しています。</p>
-<p>講師は、採用率3%を突破してきたプロ講師のみが在籍。</p>
+<p>講師は、採用率0.5%を突破してきたプロ講師のみが在籍。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

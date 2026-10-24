@@ -2,6 +2,7 @@
 title: "ECOMオンライン英会話"
 path: "/english/"
 front: true
+description: "大人のオンライン英会話。忙しい週も、あなたを分かっている担任の先生とマンツーマン。固定予約も自由予約もでき、仕事・試験・旅行など目的別に50以上のクラスがあります。96.5%が満足して継続。"
 template: "adult"
 slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","title":"ECOMは時間対効果が非常に高い学校。","text":"利用者体験談：税理士として多忙な生活と、学習を両立されている斎藤様","button":"体験談の続きを見る","link":"/english/interview/voice-specialist/"},{"image":"/english/wp-content/uploads/2015/01/slide4-1170x500.jpg","title":"パソコン音痴の私でも出来ました。","text":"趣味の旅行のためトラベル英会話を学習されているHitomi様","button":"体験談を詳しく見る","link":"/english/interview/voice-elder/"},{"image":"/english/wp-content/uploads/2015/01/slide2-1170x500.jpg","title":"ECOMは英語を上達させたい人にベストな環境。","text":"利用者体験談：医師として多忙ながらも英検1級に合格された古川様","button":"体験談の続きを見る","link":"/english/interview/voice-doctor/"},{"image":"/english/wp-content/uploads/2015/01/slide15-1170x500.jpg","title":"街中にある有名英語学校よりレベルは上でした","text":"体験談インタビュー：都内大手証券会社に勤めるHiro様","button":"体験談の続きを見る","link":"/english/interview/voice-business1/"},{"image":"/english/wp-content/uploads/2015/01/slide8-1170x500.jpg","title":"実際にTOEICが100点ほどアップしました。","text":"利用者インタビュー：通信業界で技術職として働く田中様","button":"体験談の続きを見る","link":"/english/interview/business-telecom/"},{"image":"/english/wp-content/uploads/2015/01/slide5-1170x500.jpg","title":"ビジネスの現場で英語が上達しているのを実感","text":"海外出張を多くこなしながらも英語、中国語を学ばれる小林様","button":"体験談を詳しく見る","link":"/english/interview/voice-public/"},{"image":"/english/wp-content/uploads/2015/01/slide011-1170x500.jpg","title":"家族みんなで利用しています。","text":"利用者体験談：ブリッジSEとして海外を忙しく飛び回るTsutomuさん","button":"体験談の続きを見る","link":"/english/interview/voice-oversea/"},{"image":"/english/wp-content/uploads/2015/01/slide13-1170x500.jpg","title":"システムがしっかりしている学校","text":"利用者インタビュー：大手製造メーカー研究開発職Mariko様","button":"体験談の続きを見る","link":"/english/interview/business-researcher/"},{"image":"/english/wp-content/uploads/2015/01/slide14-1170x500.jpg","title":"他の英語学校よりもよかったです。","text":"利用者インタビュー：大手製薬会社で英語が必要な鈴木様","button":"体験談の続きを見る","link":"/english/interview/voice-business02/"}]
 ---
@@ -61,7 +62,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">▶ プロ講師</h2>
 <p style="text-align: center;">ネイティブ、日英バイリンガル講師</p>
-<p>国内、海外から採用率3%の選考を潜り抜けてきた講師陣で構成。<a href="/english/teachers/">さらに詳しく▶</a></p>
+<p>国内、海外から採用率0.5%の選考を潜り抜けてきた講師陣で構成。<a href="/english/teachers/">さらに詳しく▶</a></p>
 </div>
 </div>
 <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -74,7 +75,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2 style="text-align: center;">▶ 目的別に選べるコース</h2>
-<p style="text-align: center;">100以上の目的にあった専門クラス</p>
+<p style="text-align: center;">50以上の目的にあった専門クラス</p>
 <p style="text-align: center;">基礎固め、ビジネス英語、TOEIC, TOEFL, IELTS,英検等<br>
 <select name="select" onchange="location.href=value;"><option value="">各コース紹介に移動する</option><option value="basic">基礎力養成コース</option><option value="high">初中級以上の方向けコース</option><option value="business">ビジネス英語コース</option><option value="examinations">試験対策英語コース</option><option value="../children/onlinelessons">子供向け英会話コース</option></select></p>
 <p style="text-align: center;"><a href="/english/courses/">さらに詳しく▶</a></p>

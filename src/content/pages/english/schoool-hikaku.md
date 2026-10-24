@@ -70,7 +70,7 @@ path: "/english/schoool-hikaku/"
 </tr>
 <tr>
 <td height="19"><strong>開講クラス数</strong></td>
-<td><strong><span style="color: #ff6600;">100以上</span></strong></td>
+<td><strong><span style="color: #ff6600;">50以上</span></strong></td>
 <td>１校舎10前後</td>
 <td>10前後</td>
 </tr>
@@ -128,7 +128,7 @@ path: "/english/schoool-hikaku/"
 <p>例えば、都内渋谷の英語学校に通うとしたら、そこに集う講師は制限されます。</p>
 <p>一方、ECOMのようなオンラインの場合、</p>
 <p>集う講師は全世界英語話者３０億人から集められます。</p>
-<p>そこからECOMは、採用率3%の厳選採用にこだわっています。</p>
+<p>そこからECOMは、採用率0.5%の厳選採用にこだわっています。</p>
 <p>結果、</p>
 <p>普通の英会話学校で、ヘッドティーチャーレベルの名物講師が、ECOMの先生メンバーとなっています。</p>
 </div>

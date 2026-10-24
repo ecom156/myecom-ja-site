@@ -153,7 +153,7 @@ path: "/english/reason/"
 <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h3><strong>ECOM（イーコム）は、2005年2月に世界で初めてスカイプによるオンライン英会話サービスを始めた最老舗の英語学校</strong></h3>
+<h3><strong>ECOM（イーコム）は、2005年2月にスカイプによるオンライン英会話サービスを始めた、20年以上続く英語学校</strong></h3>
 <p>となっています。</p>
 <p>時間はかかっていますが、おかげ様で生徒さまも着実に伸びていく形で支持を集めています。</p>
 <p><span style="color: #ff6600;"><strong>露出が少なく不安に思われる方もいるかと思いますが、</strong></span></p>
@@ -168,7 +168,7 @@ path: "/english/reason/"
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-pie-chart"></span></div></div><h4>満足度調査結果</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_chart vc_round-chart wpb_content_element" data-vc-legend="1" data-vc-tooltips="1" data-vc-animation="easeInOutCubic" data-vc-stroke-color="#2a2a2a" data-vc-stroke-width="2" data-vc-type="pie" data-vc-values="{&quot;labels&quot;:[&quot;\u6e80\u8db3&quot;,&quot;\u305d\u306e\u4ed6&quot;],&quot;datasets&quot;:[{&quot;data&quot;:[95,4],&quot;backgroundColor&quot;:[&quot;#75d69c&quot;,&quot;#ebebeb&quot;]}]}" data-vc-legend-color="#2a2a2a" data-vc-legend-position="left">
+<div class="vc_chart vc_round-chart wpb_content_element" data-vc-legend="1" data-vc-tooltips="1" data-vc-animation="easeInOutCubic" data-vc-stroke-color="#2a2a2a" data-vc-stroke-width="2" data-vc-type="pie" data-vc-values="{&quot;labels&quot;:[&quot;\u6e80\u8db3&quot;,&quot;\u305d\u306e\u4ed6&quot;],&quot;datasets&quot;:[{&quot;data&quot;:[96.5,3.5],&quot;backgroundColor&quot;:[&quot;#75d69c&quot;,&quot;#ebebeb&quot;]}]}" data-vc-legend-color="#2a2a2a" data-vc-legend-position="left">
 <div class="wpb_wrapper">
 <canvas class="vc_round-chart-canvas" width="1" height="1"></canvas>
 </div>
@@ -177,7 +177,7 @@ path: "/english/reason/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>Ecomでは、毎月システム上で満足度を測定しています。<br>
-左が1年間の利用者満足度を表したのです。95.5%の人が利用に満足して継続しています。</p>
+左が1年間の利用者満足度を表したのです。96.5%の人が利用に満足して継続しています。</p>
 <p>Ecomなら、長く続けられます！</p>
 </div>
 </div>

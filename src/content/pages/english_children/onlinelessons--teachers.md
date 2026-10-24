@@ -44,7 +44,7 @@ path: "/english/children/onlinelessons/teachers"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3><span style="color: #800000;">1. 厳選採用のネイティブ講師</span></h3>
-<p>採用率3%の厳選採用を崩さず、エリート講師のみを、全世界から選抜しています。</p>
+<p>採用率0.5%の厳選採用を崩さず、エリート講師のみを、全世界から選抜しています。</p>
 <p>よい講師に巡り合うために、時間と労力を使って、たくさんの自己紹介レッスンを受けずに済みます。</p>
 </div>
 </div>

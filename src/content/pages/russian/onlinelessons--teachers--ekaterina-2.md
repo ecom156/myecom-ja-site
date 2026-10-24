@@ -22,7 +22,7 @@ path: "/russian/onlinelessons/teachers/ekaterina-2/"
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>こちらの講師と一度お試しレッスンしてみませんか？</h2><h4>Ecomでは好きな講師を会員サイトから自由に選んでご予約頂けます(操作が苦手な方にはサポートも行っています)。</h4></header><p>講師について：</p>
-<p><strong>・採用率は3%と厳選採用。</strong></p>
+<p><strong>・採用率は0.5%と厳選採用。</strong></p>
 <p><strong>・3か月に1度、継続的な講習を実施。</strong></p>
 <p>このため、実力は、他校のヘッドティーチャー級ばかりです。是非一度体験してみてください。</p>
 </div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-right vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-success" href="/english/onlinelessons/trial/" title="">お得な体験レッスン制度を見る(Click)</a></div></div></div></div></section></div></div></div></div>

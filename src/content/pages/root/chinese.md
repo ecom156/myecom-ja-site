@@ -18,7 +18,7 @@ template: "language"
 <div class="wpb_wrapper">
 <p>・中国、台湾、日本にいる講師がシフトを組んでレッスンを提供。</p>
 <p>・講師は、日本語も分かるので、初心者の方も安心。</p>
-<p>・講師の採用率は3%と厳選。</p>
+<p>・講師の採用率は0.5%と厳選。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

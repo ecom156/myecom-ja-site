@@ -22,7 +22,7 @@ path: "/english/schools/services/online-languages/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h2>内容：</h2>
-<p>・採用率3%の選考をクリアした、バイリンガルのネイティブ講師が授業サポート</p>
+<p>・採用率0.5%の選考をクリアした、バイリンガルのネイティブ講師が授業サポート</p>
 <p>・20か国語（中国語、韓国語、フランス語、スペイン語、ドイツ語、ロシア語、アラビア語、ポルトガル語、イタリア語、ルーマニア語、タガログ語、ベトナム語他）に対応できます。</p>
 </div>
 </div>
@@ -63,7 +63,7 @@ path: "/english/schools/services/online-languages/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p style="text-align: center;">・大卒、講師資格（TESOL/ CELTA）取得者のネイティブやバイリンガル講師。</p>
-<p style="text-align: center;">・採用率3%の選考を潜り抜けてきた講師。</p>
+<p style="text-align: center;">・採用率0.5%の選考を潜り抜けてきた講師。</p>
 <p style="text-align: center;">・事前面談で要望を聞いて、相性のよい講師をコーディネーターが対応いたします（動画見て講師指名可能）。</p>
 </div>
 </div>
