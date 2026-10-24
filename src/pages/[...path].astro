@@ -13,6 +13,7 @@ import OsakaPage from '../components/lp/OsakaPage.astro';
 import AdultPage from '../components/lp/AdultPage.astro';
 import LanguageIntro from '../components/lp/LanguageIntro.astro';
 import PricePlans from '../components/lp/PricePlans.astro';
+import languages from '../data/languages.json';
 import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, allCategories, inCategory, chunk, param, langOf, langForPath, type Site } from '../lib';
 
 type Props =
@@ -77,10 +78,13 @@ const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
 const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : undefined;
+// 言語ページの説明文は languages.json の言語名から作る
+const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
+const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;
 const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
 {props.kind === 'page' && Landing && (
-  <Base site={site} title={props.page.data.front ? site.name : props.page.data.title}>
+  <Base site={site} title={props.page.data.front ? site.name : props.page.data.title} description={description}>
     <Landing />
     {formKeys.length > 0 && (
       <section class="lp-form" id="form">
@@ -94,7 +98,7 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
   </Base>
 )}
 {props.kind === 'page' && !Landing && (
-  <Base site={site} title={props.page.data.front ? site.name : props.page.data.title}>
+  <Base site={site} title={props.page.data.front ? site.name : props.page.data.title} description={description}>
     {props.page.data.slides.length > 0 && <Slider slides={props.page.data.slides} />}
     <div class="wrap">
       {!props.page.data.front && <nav class="breadcrumb"><a href={home}>Home</a> » {props.page.data.title}</nav>}

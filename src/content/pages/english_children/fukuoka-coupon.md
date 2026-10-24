@@ -154,7 +154,7 @@ forms:
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3 style="text-align: center;"><strong>3. 講師は一流のネイティブ・バイリンガル</strong></h3>
-<p>採用率3%を突破してきた超一流英語講師だけが在籍。<span style="color: #339966;"><strong>日本語も分かるので、初心者のお子様も安心</strong></span>。中学のALT教員歴あり。</p>
+<p>採用率0.5%を突破してきた超一流英語講師だけが在籍。<span style="color: #339966;"><strong>日本語も分かるので、初心者のお子様も安心</strong></span>。中学のALT教員歴あり。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

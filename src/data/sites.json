@@ -160,7 +160,7 @@
     "key": "english",
     "base": "/english",
     "name": "ECOMオンライン英会話学校",
-    "tagline": "2005年から続く、20年以上の実績",
+    "tagline": "大人のオンライン英会話・2005年から",
     "logo": "/english/wp-content/uploads/2018/02/ECOM250-100.png",
     "icon": "/english/wp-content/uploads/2024/08/cropped-ecom_C-32x32.png",
     "nav": [
@@ -370,7 +370,7 @@
     "key": "english_children",
     "base": "/english/children",
     "name": "ECOM子供オンライン英会話",
-    "tagline": "2005年から続く、20年以上の実績",
+    "tagline": "子供のオンライン英会話・英検®対策",
     "logo": "/english/children/wp-content/uploads/sites/2/2018/02/cropped-ECOM-jr250-100.png",
     "icon": "/english/children/wp-content/uploads/sites/2/2024/08/cropped-ecom-jr_C-32x32.png",
     "nav": [
@@ -702,7 +702,7 @@
     "key": "english_corporation",
     "base": "/english/corporation",
     "name": "ECOMオンライン英語研修",
-    "tagline": "ネットでビジネス英語",
+    "tagline": "企業・官公庁・学校のオンライン語学研修",
     "logo": "/english/corporation/wp-content/uploads/sites/3/2018/02/cropped-ECOM250-100.png",
     "icon": "/english/corporation/wp-content/uploads/sites/3/2024/09/cropped-ecom_C-32x32.png",
     "nav": [

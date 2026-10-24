@@ -14,10 +14,10 @@ const courses = [
   { href: `${base}/courses/examinations/`, img: '/english/children/wp-content/uploads/sites/2/2016/04/English-test-1024x682.jpg', tag: '🏅 資格・試験', name: '試験対策コース', text: 'TOEIC®・英検®・IELTS・TOEFL®。目標スコアから逆算して対策します。' },
 ];
 const features = [
-  { icon: '👩‍🏫', title: '採用率3%のプロ講師', text: 'ネイティブと日英バイリンガルの講師陣。相性のよい先生を担任にできます。', href: `${base}/teachers/` },
-  { icon: '🕐', title: '24時間・まとめて予約', text: '予約は開始5分前まで、変更は1時間前までOK。担任との定期予約もできます。' },
-  { icon: '📚', title: '100以上の専門クラス', text: '基礎からビジネス、試験対策まで。目的に合ったクラスを選べます。', href: `${base}/courses/classlists/` },
-  { icon: '🤖', title: 'AI講師で毎日練習', text: 'レッスン前の口慣らしや、毎日の練習に。月4回・月8回プランに付いています。' },
+  { icon: '👩‍🏫', title: '採用率0.5%のプロ講師', text: 'ネイティブと日英バイリンガルの講師陣（200人に1人）。講師の平均在籍は11年なので、相性のよい先生をずっと担任にできます。', href: `${base}/teachers/` },
+  { icon: '🕐', title: '固定予約も、自由予約も', text: '毎週決まった時間の固定予約も、空いた時間に担任の先生を選んで入れる自由予約もできます。予約は開始5分前まで、変更は1時間前までOK。' },
+  { icon: '📚', title: '50以上の専門クラス', text: '基礎からビジネス、試験対策まで。目的に合ったクラスを選べます。', href: `${base}/courses/classlists/` },
+  { icon: '🤖', title: 'AIレッスンで毎日話す', text: '人と話すように会話が進むAI講師と、緊張せずに話せます。前回の内容も覚えています。月4回・月8回プランに付いています。' },
   { icon: '🌏', title: '20言語・家族で共有', text: '同じチケットで中国語やフランス語も。ご家族と分けて使えます。', href: '/english/multi-lingual/reasons-languages/' },
   { icon: '🙋', title: '日本人スタッフのサポート', text: '学習相談も、パソコンの設定も。機械が苦手な方やシニアの方も安心です。', href: `${base}/itbeginner/` },
 ];
@@ -42,8 +42,12 @@ const faq = [
       <div class="lp-hero">
         <div>
           <p class="lp-eyebrow">大人のオンライン英会話</p>
-          <h1>目的に合わせて、<br />担任のプロ講師と<span class="nw">マンツーマン。</span></h1>
-          <p class="lp-lead">ネイティブ・バイリンガルの講師が、仕事・試験・旅行など、あなたの目的に合わせてレッスンを組み立てます。2005年から続く、採用率3%の講師陣です。</p>
+          <h1>忙しい週も、<br />あなたを分かっている<span class="nw">先生と。</span></h1>
+          <p class="lp-lead">仕事・試験・旅行など、目的別のクラスに絞って学びます。あなたの目標や苦手を分かっている担任が教えるので、久しぶりの英語でも遠回りしません。人と話すように会話が進むAIレッスンも受けられます。</p>
+          <div class="lp-book">
+            <div><b>毎週決まった時間に</b><span>固定予約。同じ曜日・時間に担任が教えます。</span></div>
+            <div><b>空いた時間に</b><span>自由予約。担任の先生を選んで予約できます。</span></div>
+          </div>
           <div class="lp-btns">
             <a class="lp-btn" href={trial}>{plans.trial.label}</a>
             <a href="/price/">料金を見る</a>
@@ -53,9 +57,9 @@ const faq = [
       </div>
       <ul class="ad-trust">
         <li><b>2005年</b><span>から続く実績</span></li>
-        <li><b>採用率3%</b><span>の講師陣</span></li>
-        <li><b>100以上</b><span>の専門クラス</span></li>
-        <li><b>24時間</b><span>予約できる</span></li>
+        <li><b>平均11年</b><span>講師の在籍</span></li>
+        <li><b>96.5%</b><span>が満足して継続</span></li>
+        <li><b>採用率0.5%</b><span>の講師陣</span></li>
       </ul>
     </div>
   </section>
@@ -109,7 +113,7 @@ const faq = [
         <table>
           <thead><tr><th></th><th>ECOM</th><th>格安のオンライン英会話</th></tr></thead>
           <tbody>
-            <tr><th>講師</th><td>厳選したネイティブ中心（採用率3%）</td><td>大量採用の講師が中心</td></tr>
+            <tr><th>講師</th><td>厳選したネイティブ中心（採用率0.5%）</td><td>大量採用の講師が中心</td></tr>
             <tr><th>講師都合の急なキャンセル</th><td>ごくまれ</td><td>多い</td></tr>
             <tr><th>予約</th><td>まとめて予約できる</td><td>1回ずつ予約</td></tr>
             <tr><th>予約の変更・キャンセル</th><td>1時間前まで</td><td>24時間前までが多い</td></tr>

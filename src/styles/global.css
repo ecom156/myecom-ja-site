@@ -238,6 +238,17 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .lp-nums div { flex: 1 1 140px; text-align: center; }
 .lp-nums b { display: block; font-size: 34px; color: var(--navy); line-height: 1.4; }
 .lp-nums span { color: var(--mute); }
+/* 見出しのすぐ下に置く証拠の数字（平均11年・96.5%・2005年から） */
+.lp-proof { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.lp-proof li { background: #fff; border: 1px solid #dfe5ee; border-radius: 999px; padding: 4px 14px; font-size: 14px; color: var(--mute); }
+.lp-proof b { color: var(--navy); font-size: 17px; margin: 0 2px; }
+/* 大人の予約の仕方（固定予約・自由予約） */
+.lp-book { display: flex; flex-wrap: wrap; gap: 10px; }
+.lp-book div { flex: 1 1 200px; background: #fff; border-radius: 12px; padding: 10px 14px; display: flex; flex-direction: column; box-shadow: 0 2px 8px rgba(31,58,95,.08); }
+.lp-book b { color: var(--navy); }
+.lp-book span { font-size: 14px; color: var(--mute); }
+/* 子供の入口（英検・話す力） */
+.kd-entry { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0; font-weight: 700; }
 .lp-plan { flex: 1 1 230px; border: 1px solid var(--edge); border-radius: 12px; padding: 24px; display: flex; flex-direction: column; gap: 6px; background: #fff; }
 .lp-plan.rec { border: 2px solid var(--cta); }
 .lp-plan.kids { border: 2px solid var(--kids); background: var(--kids-soft); }

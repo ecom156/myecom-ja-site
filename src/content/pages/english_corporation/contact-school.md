@@ -37,7 +37,7 @@ path: "/english/corporation/contact-school/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3>学校長：成田勝行</h3>
-<p>慶應大学総合政策学部卒業後、アクセンチュアを経て、インターネットと語学を掛け合わせた領域で創業。世界で初めてスカイプを使った英会話サービスを開始しYahooニュースにも取りあげられる。英検1級。英検上位級の講師も兼任。</p>
+<p>慶應大学総合政策学部卒業後、アクセンチュアを経て、インターネットと語学を掛け合わせた領域で創業。スカイプを使った英会話サービスを開始しYahooニュースにも取りあげられる。英検1級。英検上位級の講師も兼任。</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">

@@ -126,7 +126,7 @@ slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p><strong>国内、海外から能力あるTOPレベル講師を採用。</strong></p>
-<p>結果、<strong>採用率3%</strong>の難関を突破した講師のみが、Ecomに所属しています。</p>
+<p>結果、<strong>採用率0.5%</strong>の難関を突破した講師のみが、Ecomに所属しています。</p>
 <p>そしてEcom所属後も、3か月に一度の定期トレーニングを実施してスキルアップを図っています。</p>
 <p>＊初心者の方には、日本語のわかるバイリンガル講師が対応します。</p>
 </div>

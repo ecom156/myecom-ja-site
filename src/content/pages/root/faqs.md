@@ -10,7 +10,7 @@ path: "/faqs/"
 <p>メインとなるのは、ライブ形式のオンライン英会話レッスンです。</p>
 <p>英語以外に、フランス語、ドイツ語、スペイン語、中国語、ロシア語、アラビア語など20ヶ国語の学習サービスを提供しています。</p>
 <p>無料コンテンツとして、YouTubeチャンネルや、無料英語学習アプリOnkiなどを提供しています。</p>
-</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>どのくらい運営されているのですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>2005年3月にサービス開始。世界で初めてスカイプを使ったオンライン英会話サービスとしてスタートしました。</p>
+</div></div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>どのくらい運営されているのですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>2005年3月にサービス開始。スカイプを使ったオンライン英会話サービスとしてスタートしました。</p>
 </div></div><div class="vc_separator wpb_content_element vc_separator_align_left vc_sep_width_100 vc_sep_dotted vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>受講するにあたって</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>受講にあたって必要なものは何ですか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p>・機器：</p>
 <p>PCまたはスマホ、ipadなどのタブレットをオススメしています。</p>
