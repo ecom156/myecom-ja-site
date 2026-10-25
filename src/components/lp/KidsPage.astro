@@ -6,15 +6,15 @@ import plans from '../../data/plans.json';
 // 子供の英会話のトップ（/english/children/）。写真とアイコンを多めにした明るいデザイン（K 2026-10-24）
 const base = '/english/children';
 const up = `${base}/wp-content/uploads/sites/2`;
-const trial = `${base}/onlinelessons/trial`;
+const trial = `${base}/trial/`;
 const teachers = [
   { img: '/english/img/teachers/jessica.jpg', name: 'Jessica' },
   { img: '/english/img/teachers/alan.jpg', name: 'Alan' },
   { img: '/english/img/teachers/kathryn.jpg', name: 'Kathryn' },
 ];
-const eiken = `${base}/onlinelessons/courses/examinations/eiken`;
+const eiken = `${base}/courses/examinations/eiken`;
 const faq = [
-  { q: '何歳から受けられますか？', a: `3歳から受けられます。小さいお子さまは、保護者の方が隣で一緒に受ける<a href="${base}/onlinelessons/courses/kids0">幼児親子コース</a>があります。` },
+  { q: '何歳から受けられますか？', a: `3歳から受けられます。小さいお子さまは、保護者の方が隣で一緒に受ける<a href="${base}/courses/kids0">幼児親子コース</a>があります。` },
   { q: '全くの初心者でもやっていけますか？', a: 'はい。英語力0のお子さまから、皆さん楽しく続けています。先生は日本語も分かるので安心です。カリキュラムが体系立っているので、やることが明確です。' },
   { q: 'どれくらい通えば、英語が話せるようになりますか？', a: '「話せる」の基準は人それぞれですが、目安として週1回なら1年、週2回なら半年ほどで、その子の年齢に合った英語のやり取りが見えてきます。授業で習った内容を音読して覚えれば、その英語はすぐに使えるようになります。' },
   { q: '急に受けられなくなったときは？', a: 'レッスン開始の1時間前まで、予約システムから自由に変更できます。家族プランなら、兄弟姉妹や保護者の方が代わりに受けることもできます。' },
@@ -61,9 +61,9 @@ const faq = [
     <div class="lp-in">
       <h2 class="kd-h" id="age"><i>🎯</i>年齢で選ぶ</h2>
       <div class="lp-cards">
-        <a class="lp-card kd-card c1" href={`${base}/onlinelessons/courses/kids0`}><img src={`${up}/2015/01/oyakoeigo-300x200.jpg`} alt="" loading="lazy" /><span class="kd-age">🐣 3歳〜6歳</span><b>幼児親子コース</b><span>歌・絵カード・ゲームで、英語の音に慣れます。保護者の方と一緒に受けられます。</span><i>くわしく →</i></a>
-        <a class="lp-card kd-card c2" href={`${base}/onlinelessons/courses/kids`}><img src={`${up}/2017/07/kids-1024x791.jpg`} alt="" loading="lazy" /><span class="kd-age">🌱 小学校低学年</span><b>キッズ英会話</b><span>フォニックスと、音とイメージで覚える単語。楽しく英語の基礎をつくります。</span><i>くわしく →</i></a>
-        <a class="lp-card kd-card c3" href={`${base}/onlinelessons/courses/junior`}><img src={`${up}/2018/03/English-girl-good-1024x683.jpg`} alt="" loading="lazy" /><span class="kd-age">🚀 小学校高学年・中学生・高校生</span><b>ジュニア英会話</b><span>英会話に加えて、英検®・TEAPなどの試験対策まで。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c1" href={`${base}/courses/kids0`}><img src={`${up}/2015/01/oyakoeigo-300x200.jpg`} alt="" loading="lazy" /><span class="kd-age">🐣 3歳〜6歳</span><b>幼児親子コース</b><span>歌・絵カード・ゲームで、英語の音に慣れます。保護者の方と一緒に受けられます。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c2" href={`${base}/courses/kids`}><img src={`${up}/2017/07/kids-1024x791.jpg`} alt="" loading="lazy" /><span class="kd-age">🌱 小学校低学年</span><b>キッズ英会話</b><span>フォニックスと、音とイメージで覚える単語。楽しく英語の基礎をつくります。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c3" href={`${base}/courses/junior`}><img src={`${up}/2018/03/English-girl-good-1024x683.jpg`} alt="" loading="lazy" /><span class="kd-age">🚀 小学校高学年・中学生・高校生</span><b>ジュニア英会話</b><span>英会話に加えて、英検®・TEAPなどの試験対策まで。</span><i>くわしく →</i></a>
       </div>
     </div>
   </section>
@@ -83,7 +83,7 @@ const faq = [
         <a class="lp-card kd-level" href={`${eiken}/second`}><i>🥇</i><b>2級</b><span>高校卒業程度。受験にも有利</span></a>
         <a class="lp-card kd-level" href={`${eiken}/prefirst`}><i>🏆</i><b>準1級・1級</b><span>帰国子女や上級者向け</span></a>
       </div>
-      <p class="lp-sub"><a href={eiken}>英検®対策をくわしく</a>　・　<a href={`${base}/onlinelessons/courses/examinations/teap`}>TEAP対策</a></p>
+      <p class="lp-sub"><a href={eiken}>英検®対策をくわしく</a>　・　<a href={`${base}/courses/examinations/teap`}>TEAP対策</a></p>
     </div>
   </section>
 
@@ -136,10 +136,10 @@ const faq = [
     <div class="lp-in">
       <h2 class="kd-h"><i>😊</i>保護者の方の声</h2>
       <div class="lp-cards">
-        <figure class="lp-quote kd-voice"><img src={`${up}/2015/01/hiroki-elementary.gif`} alt="" loading="lazy" /><figcaption>小学生の男の子</figcaption><blockquote>0から始めて、英検®に立て続けに合格できました。</blockquote><a href={`${base}/onlinelessons/voice/elementary-boy`}>続きを読む</a></figure>
-        <figure class="lp-quote kd-voice"><img src={`${up}/2015/01/mayuko-elementary.gif`} alt="" loading="lazy" /><figcaption>小学生の女の子（お母さま）</figcaption><blockquote>自分の子供の進路にあった、個別カリキュラムでのレッスンに満足しています。</blockquote><a href={`${base}/onlinelessons/voice/kids-elementary`}>続きを読む</a></figure>
+        <figure class="lp-quote kd-voice"><img src={`${up}/2015/01/hiroki-elementary.gif`} alt="" loading="lazy" /><figcaption>小学生の男の子</figcaption><blockquote>0から始めて、英検®に立て続けに合格できました。</blockquote><a href={`${base}/voice/elementary-boy`}>続きを読む</a></figure>
+        <figure class="lp-quote kd-voice"><img src={`${up}/2015/01/mayuko-elementary.gif`} alt="" loading="lazy" /><figcaption>小学生の女の子（お母さま）</figcaption><blockquote>自分の子供の進路にあった、個別カリキュラムでのレッスンに満足しています。</blockquote><a href={`${base}/voice/kids-elementary`}>続きを読む</a></figure>
       </div>
-      <p class="lp-sub"><a href={`${base}/onlinelessons/voice`}>体験談の一覧</a></p>
+      <p class="lp-sub"><a href={`${base}/voice`}>体験談の一覧</a></p>
     </div>
   </section>
 
@@ -173,7 +173,7 @@ const faq = [
     <div class="lp-in narrow">
       <h2 class="kd-h"><i>❓</i>よくある質問</h2>
       <Faq items={faq} />
-      <p class="lp-sub"><a href={`${base}/onlinelessons/faq`}>よくある質問をもっと見る</a></p>
+      <p class="lp-sub"><a href={`${base}/faq`}>よくある質問をもっと見る</a></p>
     </div>
   </section>
 
@@ -183,7 +183,7 @@ const faq = [
         <p>🌟 まずは体験レッスンで、先生に会ってみませんか。</p>
         <a class="lp-btn" href={trial}>体験レッスンを予約する</a>
       </div>
-      <p class="lp-sub">もっと知りたい方へ：<a href={`${base}/onlinelessons/points`}>子供向けオンライン英会話選びで失敗しない5つのポイント</a>　・　<a href={`${base}/initial-memory`}>音読暗記を助ける「頭出し記憶法」</a>　・　<a href={`${base}/videos`}>無料の学習動画</a></p>
+      <p class="lp-sub">もっと知りたい方へ：<a href={`${base}/points`}>子供向けオンライン英会話選びで失敗しない5つのポイント</a>　・　<a href={`${base}/initial-memory`}>音読暗記を助ける「頭出し記憶法」</a>　・　<a href={`${base}/videos`}>無料の学習動画</a></p>
     </div>
   </section>
 </div>
