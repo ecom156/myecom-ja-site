@@ -249,7 +249,9 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .lp-proof b { color: var(--navy); font-size: 17px; margin: 0 2px; }
 /* 大人の予約の仕方（固定予約・自由予約） */
 .lp-book { display: flex; flex-wrap: wrap; gap: 10px; }
-.lp-book div { flex: 1 1 200px; background: #fff; border-radius: 12px; padding: 10px 14px; display: flex; flex-direction: column; box-shadow: 0 2px 8px rgba(31,58,95,.08); }
+.lp-book div { flex: 1 1 200px; background: #fff; border-radius: 12px; padding: 10px 14px; display: flex; align-items: center; gap: 12px; box-shadow: 0 2px 8px rgba(31,58,95,.08); }
+.lp-book i { flex: none; width: 44px; height: 44px; border-radius: 50%; background: var(--soft, #eef3f9); display: grid; place-items: center; font-size: 22px; font-style: normal; }
+.lp-book p { margin: 0; display: flex; flex-direction: column; }
 .lp-book b { color: var(--navy); }
 .lp-book span { font-size: 14px; color: var(--mute); }
 /* 子供の入口（英検・話す力） */
@@ -428,6 +430,13 @@ main:has(> .lp-form:last-child) { padding-bottom: 0; }
 .ad-trust span { font-size: 14px; color: var(--mute); }
 .ad-course { flex-basis: 240px; }
 .ad-course img { height: 150px; }
+.ad-ai { margin-top: 18px; display: flex; align-items: center; gap: 14px; padding: 14px 18px; border-radius: 12px; background: #eef3f9; color: inherit; text-decoration: none; border: 1px solid #d6e2f0; }
+.ad-ai:hover { border-color: var(--navy); }
+.ad-ai i { font-size: 28px; font-style: normal; }
+.ad-ai span { flex: 1; display: flex; flex-direction: column; font-size: 14px; color: var(--mute); }
+.ad-ai b { color: var(--navy); font-size: 16px; }
+.ad-ai em { font-style: normal; font-weight: 700; color: var(--navy); white-space: nowrap; }
+@media (max-width: 640px) { .ad-ai em { display: none; } }
 .ad-tag { align-self: flex-start; background: #E8EEF6; color: var(--navy) !important; font-weight: 700; font-size: 13px !important; padding: 4px 12px; border-radius: 999px; }
 .ad-feat { flex-basis: 300px; }
 .ad-feat > i:first-child { font-style: normal; font-size: 28px; width: 56px; height: 56px; border-radius: 16px; display: grid; place-items: center; background: #E8EEF6; margin-top: 0; }
