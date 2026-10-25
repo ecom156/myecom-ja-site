@@ -1,6 +1,7 @@
 ---
 title: "Thank you – お問い合わせ受け付けました。"
 path: "/contact/thank-you-contact/"
+noindex: true
 ---
 
 お問い合わせを受け付けました。

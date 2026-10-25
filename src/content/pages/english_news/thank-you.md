@@ -1,6 +1,7 @@
 ---
 title: "Thank you"
 path: "/english/news/thank-you/"
+noindex: true
 ---
 
 お問い合わせありがとうございます。
