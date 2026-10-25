@@ -7,6 +7,11 @@ import plans from '../../data/plans.json';
 const base = '/english/children';
 const up = `${base}/wp-content/uploads/sites/2`;
 const trial = `${base}/onlinelessons/trial`;
+const teachers = [
+  { img: '/english/img/teachers/jessica.jpg', name: 'Jessica' },
+  { img: '/english/img/teachers/alan.jpg', name: 'Alan' },
+  { img: '/english/img/teachers/kathryn.jpg', name: 'Kathryn' },
+];
 const eiken = `${base}/onlinelessons/courses/examinations/eiken`;
 const faq = [
   { q: '何歳から受けられますか？', a: `3歳から受けられます。小さいお子さまは、保護者の方が隣で一緒に受ける<a href="${base}/onlinelessons/courses/kids0">幼児親子コース</a>があります。` },
@@ -24,8 +29,9 @@ const faq = [
     <div class="lp-in">
       <div class="lp-hero">
         <div>
-          <p class="kd-pill">🎒 子供のオンライン英会話・英検®対策（3歳〜17歳）</p>
+          <p class="kd-pill">🎒 ネイティブ講師の子供オンライン英会話・英検®対策（3歳〜17歳）</p>
           <h1>英検®も、話せる英語も。<br />うちの子を<span class="kd-mark">分かっている</span><span class="nw">先生と。</span></h1>
+          <p class="ad-native">先生は全員、日本語も分かるネイティブ講師。<span class="nw">はじめての英語も安心です。</span></p>
           <ul class="lp-proof">
             <li>英検®一発合格率<b>9割超</b></li>
             <li>講師の平均在籍<b>11年</b></li>
@@ -34,12 +40,18 @@ const faq = [
           <div class="lp-btns"><a class="lp-btn" href={trial}>{plans.trial.label}</a></div>
           <p class="kd-entry"><a href="#eiken">英検®に合格したい →</a><a href="#age">話せるようになりたい（塾からの乗り換えも）→</a></p>
         </div>
-        <img src={`${up}/2024/08/online-lessons-elementary-1819x500.jpg`} alt="オンラインで英会話を受ける小学生" />
+        <div class="kd-heroimg">
+          <img src={`${up}/2024/08/online-lessons-elementary-1819x500.jpg`} alt="オンラインで英会話を受ける小学生" />
+          <a class="kd-mini" href={`${base}/teachers`}>
+            <span>{teachers.map((t) => <img src={t.img} alt={`${t.name}先生`} width="400" height="400" />)}</span>
+            <b>ネイティブの先生が、担任になります<small>アメリカ・イギリス・ニュージーランドなど。全員、日本語も分かります →</small></b>
+          </a>
+        </div>
       </div>
       <ul class="kd-points">
         <li><i class="c1">🧒</i><b>3歳から</b><span>親子で受けられる</span></li>
         <li><i class="c2">🗣️</i><b>マンツーマン</b><span>1回30分</span></li>
-        <li><i class="c3">🇯🇵</i><b>日本語OK</b><span>先生は全員、日本語が分かる</span></li>
+        <li><i class="c3">🌏</i><b>ネイティブ講師</b><span>全員、日本語も分かる</span></li>
         <li><i class="c4">🏆</i><b>英検®に強い</b><span>一発合格率9割超</span></li>
       </ul>
     </div>
