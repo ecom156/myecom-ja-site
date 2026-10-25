@@ -28,7 +28,7 @@ path: "/english/children/flow"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_tta-container" data-vc-action="collapse"><div class="vc_general vc_tta vc_tta-accordion vc_tta-color-grey vc_tta-style-classic vc_tta-shape-rounded vc_tta-o-shape-group vc_tta-controls-align-default"><div class="vc_tta-panels-container"><div class="vc_tta-panels"><div class="vc_tta-panel vc_active" id="1746347026237-83907935-1122" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title vc_tta-controls-icon-position-left"><a href="#1746347026237-83907935-1122" data-vc-accordion="" data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">0. 体験レッスン受講</span><i class="vc_tta-controls-icon vc_tta-controls-icon-plus"></i></a></h4></div><div class="vc_tta-panel-body"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>入会前に、<a title="お得な体験レッスン制度" href="/english/children/onlinelessons/trial/">体験レッスン</a>を受けて頂きます。</p>
+<p>入会前に、<a title="お得な体験レッスン制度" href="/english/children/trial/">体験レッスン</a>を受けて頂きます。</p>
 <p>フォームよりお申し込み頂きますと、</p>
 <p>・日本人スタッフとの音声チェックを兼ねたオンラインカウンセリング(15分程度)</p>
 <p>・別日程で、30分クラスの体験レッスンを2回</p>
@@ -92,7 +92,7 @@ path: "/english/children/flow"
 </div></div></div></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/children/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/children/wp-content/uploads/sites/2/2024/08/icon_trial.png" class="vc_single_image-img attachment-large" alt="" title="icon_trial"></a>
+<a href="/english/children/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/children/wp-content/uploads/sites/2/2024/08/icon_trial.png" class="vc_single_image-img attachment-large" alt="" title="icon_trial"></a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">

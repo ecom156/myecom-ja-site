@@ -83,7 +83,7 @@ path: "/english/children/onlinelessons/courses/examinations/eiken/third"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/children/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/english/children/wp-content/uploads/sites/2/2015/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="子供オンライン英会話体験レッスン" title="子供オンライン英会話体験レッスン"></a>
+<a href="/english/children/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="838" height="238" src="/english/children/wp-content/uploads/sites/2/2015/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="子供オンライン英会話体験レッスン" title="子供オンライン英会話体験レッスン"></a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">

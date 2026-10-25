@@ -22,15 +22,18 @@
 # 旧URLの体験ページ（リンク切れだったもの）
 /english/onlinelessons/trial/ /trial/ 301
 /english/onlinelessons/trial /trial/ 301
-# 体験ページは /trial/（大人・他言語）と子供の /english/children/onlinelessons/trial の2つにまとめた（K 2026-10-25）
+# 体験ページは /trial/（大人・他言語）と子供の /english/children/trial/ の2つにまとめた（K 2026-10-25）
 /english/trial/ /trial/ 301
 /english/trial /trial/ 301
 /english/trial/trial-form/* /trial/ 301
 /english/trial/trial-form /trial/ 301
 /english/trial-form2/ /trial/ 301
 /english/trial-form2 /trial/ 301
-/english/children/onlinelessons/trial/trial-form/* /english/children/onlinelessons/trial 301
-/english/children/onlinelessons/trial/trial-form /english/children/onlinelessons/trial 301
+# 子供の体験は /english/children/trial/ に移した（K 2026-10-25）
+/english/children/onlinelessons/trial/trial-form/* /english/children/trial/ 301
+/english/children/onlinelessons/trial/trial-form /english/children/trial/ 301
+/english/children/onlinelessons/trial/ /english/children/trial/ 301
+/english/children/onlinelessons/trial /english/children/trial/ 301
 # 旧サイトの言語別ブログの一覧（記事は src/pages/<言語>/blog/ で転送）
 /german/blog/ /german/ 301
 /german/blog /german/ 301

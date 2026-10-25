@@ -519,3 +519,15 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .tr-consult b { font-size: 18px; color: var(--navy); display: block; margin-bottom: 6px; }
 .tr-consult p { color: var(--sub); }
 @media (max-width: 760px) { .tr-why { font-size: 16px; } .tr-facts b { font-size: 17px; } }
+
+/* 子供の体験レッスン（TrialKidsPage） */
+.kd-teachers { margin-top: 24px; background: linear-gradient(135deg, #FFF7ED, #FDF2F8); border-radius: 24px; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 32px; }
+.kd-teachers > p { flex: 1 1 220px; margin: 0; display: flex; flex-direction: column; gap: 4px; color: var(--sub); font-size: 14px; }
+.kd-teachers > p b { font-size: 20px; color: var(--c1); }
+.kd-teachers ul { flex: 2 1 360px; list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.kd-teachers li a { display: flex; flex-direction: column; align-items: center; gap: 2px; text-decoration: none; color: var(--ink); }
+.kd-teachers img { width: 100%; max-width: 120px; aspect-ratio: 1; height: auto; object-fit: cover; border-radius: 50%; border: 5px solid #FDE68A; transition: transform .2s; }
+.kd-teachers a:hover img { transform: scale(1.06) rotate(-3deg); }
+.kd-teachers small { font-size: 13px; font-weight: 700; color: var(--cta); }
+.kd-consult { margin-top: 20px; display: flex; flex-direction: column; gap: 6px; padding: 20px 24px; }
+@media (max-width: 640px) { .kd-teachers small { font-size: 12px; white-space: nowrap; } }

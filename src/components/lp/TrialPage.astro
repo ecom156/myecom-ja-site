@@ -2,11 +2,11 @@
 import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
-// 体験レッスン。大人・他言語は /trial/、子供は /english/children/onlinelessons/trial の2つ（K 2026-10-25）
+// 体験レッスン。大人・他言語は /trial/、子供は /english/children/trial/ の2つ（K 2026-10-25）
 // 要点→有料の理由→内容→流れ→事前相談→よくある質問→フォームの順
 interface Props { kids?: boolean }
 const { kids = false } = Astro.props;
-const kidsTrial = '/english/children/onlinelessons/trial';
+const kidsTrial = '/english/children/trial/';
 const kup = '/english/children/wp-content/uploads/sites/2';
 const facts = [
   { icon: '💴', title: plans.trial.price, text: kids ? '税込・お一人さま1回' : '税込・お一人さま各言語1回' },

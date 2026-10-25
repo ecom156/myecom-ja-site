@@ -17,7 +17,7 @@ path: "/english/children/onlinelessons/faq"
 <p><img loading="lazy" fetchpriority="high" decoding="async" class="alignright wp-image-46 size-medium" src="/english/children/wp-content/uploads/sites/2/2015/01/pixta_2459365_S-200x300.jpg" alt="こども、キッズ" width="200" height="300">小学生以下で、かつ初歩の場合でも、一般的な学校では、自己紹介や挨拶などいきなりフレーズを覚えさせようとしますが、当校では、<span style="color: #ff6600;"><strong>まずは楽しく語彙力を中心につけていくのが正しいやり方だと思っています。</strong></span></p>
 <p>フラッシュカードなどをふんだんに用いて、食べ物や動物、色、数字などを楽しく覚えて、楽しい英語の歌などと共に英語への抵抗感が少なくなったところで、フレーズや絵本なども織り交ぜていく。</p>
 <p>これで英語全くの初心者の小さなお子様でも自信をもって学べるようになっています。</p>
-<p>気になる人は<a title="お得な体験レッスン制度" href="/english/children/onlinelessons/trial/">体験レッスン</a>から受けてみてください。</p>
+<p>気になる人は<a title="お得な体験レッスン制度" href="/english/children/trial/">体験レッスン</a>から受けてみてください。</p>
 </div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_do_toggle vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md"><div class="vc_toggle_title"><h4>Q: レッスン中、子供が分からないで困っている（黙っている）場合、親が口を出してサポートしてもよいのでしょうか？</h4><i class="vc_toggle_icon"></i></div><div class="vc_toggle_content"><p><strong>A:機械操作などはサポート歓迎ですが、授業内容へのサポートは基本的に不要です。</strong></p>
 <p>結論から言いますと、お子様の性格によるです。</p>
 <p>ただ、授業で困ってこのままだと英語嫌いになってしまうかも？！と感じたら、すぐにサポートしてあげてください。</p>
@@ -39,7 +39,7 @@ path: "/english/children/onlinelessons/faq"
 </div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/children/onlinelessons/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/children/wp-content/uploads/sites/2/2015/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="子供オンライン英会話体験レッスン" title="子供オンライン英会話体験レッスン"></a>
+<a href="/english/children/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/children/wp-content/uploads/sites/2/2015/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="子供オンライン英会話体験レッスン" title="子供オンライン英会話体験レッスン"></a>
 </figure>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
