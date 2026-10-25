@@ -1,10 +1,8 @@
 # WordPress 固有の URL
 /wp-login.php / 301
-/wp-admin/* / 301
 /feed/ / 301
 /comments/feed/ / 301
 /blog/feed/ /blog/ 301
-/blog/author/* /blog/ 301
 /sample-page/ / 301
 /english/feed/ /english/ 301
 /english/children/feed/ /english/children/ 301
@@ -25,12 +23,10 @@
 # 体験ページは /trial/（大人・他言語）と子供の /english/children/trial/ の2つにまとめた（K 2026-10-25）
 /english/trial/ /trial/ 301
 /english/trial /trial/ 301
-/english/trial/trial-form/* /trial/ 301
 /english/trial/trial-form /trial/ 301
 /english/trial-form2/ /trial/ 301
 /english/trial-form2 /trial/ 301
 # 子供の体験は /english/children/trial/ に移した（K 2026-10-25）
-/english/children/onlinelessons/trial/trial-form/* /english/children/trial/ 301
 /english/children/onlinelessons/trial/trial-form /english/children/trial/ 301
 /english/children/onlinelessons/trial/ /english/children/trial/ 301
 /english/children/onlinelessons/trial /english/children/trial/ 301
@@ -75,7 +71,6 @@
 /english/onlinelessons/courses/inter-advanced/pronunciation-listening/ /english/courses/high/pronunciation-listening/ 301
 /english/onlinelessons/teachers/elizabeth-2/ /english/teachers/ 301
 /english/onlinelessons/ /english/ 301
-/english/onlinelessons/* /english/:splat 301
 /english/tokusyouhou/ /tokusyouhou/ 301
 /english/tokusyouhou /tokusyouhou/ 301
 /english/children/onlinelessons/courses/eiken/ /english/children/courses/examinations/eiken/ 301
@@ -96,8 +91,6 @@
 /english/business-researcher/ /english/interview/business-researcher/ 301
 /english/classes/ /english/courses/classlists/ 301
 /english/interview/voice-kids/ /english/children/voice/ 301
-/english/children/onlinelessons/courses/eiken/* /english/children/courses/examinations/eiken/:splat 301
-/english/children/onlinelessons/courses/teap/* /english/children/courses/examinations/teap/:splat 301
 /chinese/onlinelessons/courses/ /chinese/ 301
 /german/onlinelessons/courses/ /german/ 301
 /spanish/onlinelessons/courses/ /spanish/ 301
@@ -106,8 +99,17 @@
 /english/teachers/onlinelessons/laura/ /english/teachers/ 301
 /english/schools/sougou/ /english/schools/ 301
 /vocabulary/ /english/vocabulary/ 301
-/vocabulary/* /english/vocabulary/ 301
 # 子供サイトのURLから onlinelessons/ を外した（K 2026-10-25）。上の個別の転送が先に効く
 /english/children/onlinelessons/ /english/children/ 301
 /english/children/onlinelessons /english/children/ 301
+
+# ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
+/wp-admin/* / 301
+/blog/author/* /blog/ 301
+/english/trial/trial-form/* /trial/ 301
+/english/children/onlinelessons/trial/trial-form/* /english/children/trial/ 301
+/english/onlinelessons/* /english/:splat 301
+/english/children/onlinelessons/courses/eiken/* /english/children/courses/examinations/eiken/:splat 301
+/english/children/onlinelessons/courses/teap/* /english/children/courses/examinations/teap/:splat 301
+/vocabulary/* /english/vocabulary/ 301
 /english/children/onlinelessons/* /english/children/:splat 301
