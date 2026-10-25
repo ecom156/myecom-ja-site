@@ -112,10 +112,10 @@ path: "/english/interview/"
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p><strong>自分の子供の進路にあった個別カリキュラムでのレッスンに満足。(母談)</strong><a title="体験談－キッズ、子供の方" href="/english/children/onlinelessons/voice/kids-elementary/">&gt;&gt;続きを読む</a></p>
+<p><strong>自分の子供の進路にあった個別カリキュラムでのレッスンに満足。(母談)</strong><a title="体験談－キッズ、子供の方" href="/english/children/voice/kids-elementary/">&gt;&gt;続きを読む</a></p>
 </div>
 </div>
-<a class="wpb_button_a" title="体験談の続きを読む" href="/english/children/onlinelessons/voice/kids-elementary/"><span class="wpb_button wpb_btn-info wpb_regularsize">体験談の続きを読む</span></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
+<a class="wpb_button_a" title="体験談の続きを読む" href="/english/children/voice/kids-elementary/"><span class="wpb_button wpb_btn-info wpb_regularsize">体験談の続きを読む</span></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
 <div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="198" height="144" src="/english/wp-content/uploads/2014/01/hiroki-1.gif" class="vc_single_image-img attachment-full" alt="子供スカイプ英会話体験談" title="子供スカイプ英会話体験談"></div>
@@ -123,10 +123,10 @@ path: "/english/interview/"
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p><strong>親も子供も楽しんで学習していける環境 がここにあります。(母談)</strong><a title="体験談－キッズ、子供の方" href="/english/children/onlinelessons/voice/elementary-boy/">&gt;&gt;続きを読む</a></p>
+<p><strong>親も子供も楽しんで学習していける環境 がここにあります。(母談)</strong><a title="体験談－キッズ、子供の方" href="/english/children/voice/elementary-boy/">&gt;&gt;続きを読む</a></p>
 </div>
 </div>
-<a class="wpb_button_a" title="体験談の続きを読む" href="/english/children/onlinelessons/voice/elementary-boy/"><span class="wpb_button wpb_btn-info wpb_regularsize">体験談の続きを読む</span></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<a class="wpb_button_a" title="体験談の続きを読む" href="/english/children/voice/elementary-boy/"><span class="wpb_button wpb_btn-info wpb_regularsize">体験談の続きを読む</span></a></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
 <a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>

@@ -1,6 +1,6 @@
 ---
 title: "無料サポート"
-path: "/english/children/onlinelessons/support"
+path: "/english/children/support"
 forms:
   - english_children-2
 ---

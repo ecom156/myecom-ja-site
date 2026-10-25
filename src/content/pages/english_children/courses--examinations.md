@@ -1,6 +1,6 @@
 ---
 title: "英語試験対策コース一覧"
-path: "/english/children/onlinelessons/courses/examinations"
+path: "/english/children/courses/examinations"
 ---
 
 <div class="wp-layout">
@@ -16,7 +16,7 @@ path: "/english/children/onlinelessons/courses/examinations"
 <h2><span style="color: #993300;">英検</span></h2>
 <p>文科省後援の英語試験で、お子様にはお馴染みです。</p>
 <p>５級から１級までありますが、３級くらいから受けていかれるのが良いと思います。年齢にもよりますが、子供の場合、準２級以上から受験などで評価される場合が多いです。</p>
-<p><a href="/english/children/onlinelessons/courses/eiken/">&gt;英検対策コース紹介へ</a></p>
+<p><a href="/english/children/courses/examinations/eiken/">&gt;英検対策コース紹介へ</a></p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -27,7 +27,7 @@ path: "/english/children/onlinelessons/courses/examinations"
 <p>高校２年生以上の人のみが受験可能。</p>
 <p>英検の準２級から準１級レベルの難易度。</p>
 <p>おそらくこれが将来の大学入試英語試験の本命となると言われています。英検と問題のつくりや採点基準がとても似ています。</p>
-<p><a href="/english/children/onlinelessons/courses/teap/">＞TEAP試験対策コースへ</a></p>
+<p><a href="/english/children/courses/examinations/teap/">＞TEAP試験対策コースへ</a></p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -59,7 +59,7 @@ path: "/english/children/onlinelessons/courses/examinations"
 </div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-warning" href="/english/children/trial/" title=""><i class="vc_btn3-icon fas fa-adjust"></i> 体験レッスンを予約する（30分×2回・2,500円）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/children/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
+<a href="/english/children/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
 </figure>
 </div>
 </div></div></div></div>

@@ -1,6 +1,6 @@
 ---
 title: "小学生高学年、中学生、高校生向け英会話"
-path: "/english/children/onlinelessons/courses/junior"
+path: "/english/children/courses/junior"
 ---
 
 <div class="wp-layout">
@@ -9,7 +9,7 @@ path: "/english/children/onlinelessons/courses/junior"
 <div class="wpb_wrapper">
 <p>10歳から18歳のお子様を対象にカリキュラムを組んであります。</p>
 <p>この年齢では、学校で英語の授業が行われていますので、そちらも意識した形で、より実戦的なレッスンを受けて頂きます。</p>
-<p>自信をつけられたら、<a title="英検対策" href="/english/children/onlinelessons/courses/examinations/eiken/">英検コース</a>への変更もOK。</p>
+<p>自信をつけられたら、<a title="英検対策" href="/english/children/courses/examinations/eiken/">英検コース</a>への変更もOK。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
@@ -67,7 +67,7 @@ path: "/english/children/onlinelessons/courses/junior"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/children/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
+<a href="/english/children/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
 </figure>
 </div>
 </div></div></div></div>

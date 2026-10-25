@@ -55,7 +55,7 @@ path: "/english/courses/examinations/"
 <div class="wpb_wrapper">
 <h2><span style="color: #800000;">TEAP（ティープ）</span></h2>
 <p>Test of English for Academic Purposesの略語で、大学受験英語に代わる、学校教育向け新しい英語試験を目指しています。各種大学入学で優遇も期待されています。<br>
-<a href="/english/children/onlinelessons/courses/examinations/teap/">&gt;TEAP試験対策コースへ</a></p>
+<a href="/english/children/courses/examinations/teap/">&gt;TEAP試験対策コースへ</a></p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

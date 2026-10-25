@@ -394,73 +394,73 @@
       },
       {
         "label": "先生",
-        "href": "/english/children/onlinelessons/teachers"
+        "href": "/english/children/teachers"
       },
       {
         "label": "コース・クラス",
-        "href": "/english/children/onlinelessons/courses",
+        "href": "/english/children/courses",
         "children": [
           {
             "label": "3－6歳コース",
-            "href": "/english/children/onlinelessons/courses/kids0"
+            "href": "/english/children/courses/kids0"
           },
           {
             "label": "小学校低学年コース",
-            "href": "/english/children/onlinelessons/courses/kids"
+            "href": "/english/children/courses/kids"
           },
           {
             "label": "小学生高学年、中学生、高校生向け英会話",
-            "href": "/english/children/onlinelessons/courses/junior"
+            "href": "/english/children/courses/junior"
           },
           {
             "label": "英語試験対策コース一覧",
-            "href": "/english/children/onlinelessons/courses/examinations",
+            "href": "/english/children/courses/examinations",
             "children": [
               {
                 "label": "TEAP試験対策",
-                "href": "/english/children/onlinelessons/courses/examinations/teap",
+                "href": "/english/children/courses/examinations/teap",
                 "children": [
                   {
                     "label": "TEAPスピーキング対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/teap/speaking"
+                    "href": "/english/children/courses/examinations/teap/speaking"
                   },
                   {
                     "label": "TEAPライティング対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/teap/writing"
+                    "href": "/english/children/courses/examinations/teap/writing"
                   },
                   {
                     "label": "TEAPリスニング対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/teap/listening"
+                    "href": "/english/children/courses/examinations/teap/listening"
                   },
                   {
                     "label": "TEAPリーディング対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/teap/reading"
+                    "href": "/english/children/courses/examinations/teap/reading"
                   }
                 ]
               },
               {
                 "label": "英検®対策",
-                "href": "/english/children/onlinelessons/courses/examinations/eiken",
+                "href": "/english/children/courses/examinations/eiken",
                 "children": [
                   {
                     "label": "英検1級対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/eiken/first"
+                    "href": "/english/children/courses/examinations/eiken/first"
                   },
                   {
                     "label": "英検準1級対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/eiken/prefirst"
+                    "href": "/english/children/courses/examinations/eiken/prefirst"
                   },
                   {
                     "label": "英検2級対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/eiken/second"
+                    "href": "/english/children/courses/examinations/eiken/second"
                   },
                   {
                     "label": "英検準2級対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/eiken/presecond"
+                    "href": "/english/children/courses/examinations/eiken/presecond"
                   },
                   {
                     "label": "英検3級対策",
-                    "href": "/english/children/onlinelessons/courses/examinations/eiken/third"
+                    "href": "/english/children/courses/examinations/eiken/third"
                   }
                 ]
               }
@@ -474,15 +474,15 @@
       },
       {
         "label": "体験談",
-        "href": "/english/children/onlinelessons/voice",
+        "href": "/english/children/voice",
         "children": [
           {
             "label": "体験談－キッズ小学生女の子",
-            "href": "/english/children/onlinelessons/voice/kids-elementary"
+            "href": "/english/children/voice/kids-elementary"
           },
           {
             "label": "英検クラス体験談－キッズ小学生の男の子",
-            "href": "/english/children/onlinelessons/voice/elementary-boy"
+            "href": "/english/children/voice/elementary-boy"
           }
         ]
       },
@@ -500,7 +500,7 @@
           },
           {
             "label": "子供向けオンライン英会話選びで失敗しない5つのポイント",
-            "href": "/english/children/onlinelessons/points"
+            "href": "/english/children/points"
           },
           {
             "label": "大阪市向け塾代助成プラン",
@@ -522,7 +522,7 @@
           },
           {
             "label": "無料サポート",
-            "href": "/english/children/onlinelessons/support"
+            "href": "/english/children/support"
           }
         ]
       },

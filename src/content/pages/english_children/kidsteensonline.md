@@ -1,6 +1,6 @@
 ---
 title: "他社子ども向けオンライン英会話と比較検討中の方へ"
-path: "/english/children/onlinelessons/kidsteensonline"
+path: "/english/children/kidsteensonline"
 ---
 
 <div class="wp-layout">
@@ -77,7 +77,7 @@ path: "/english/children/onlinelessons/kidsteensonline"
 <p>また希望されれば日本語OKなバイリンガル講師も対応できますので安心です。</p>
 </div>
 </div>
-<div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-green" href="/english/children/onlinelessons/teachers/" title="">詳しい講師紹介へ(Click)</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-green" href="/english/children/teachers/" title="">詳しい講師紹介へ(Click)</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
 <div class="wpb_wrapper">
 <div class="wpb_video_wrapper"><iframe title="Ecom英語講師紹介ビデオ: Vanessa" width="500" height="281" src="https://www.youtube.com/embed/x_uDrHValo4?feature=oembed&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
@@ -112,7 +112,7 @@ path: "/english/children/onlinelessons/kidsteensonline"
 <p>また英検対策は当校も得意としているところで、小学生で英検２級までの合格者を頻繁に出しております。</p>
 </div>
 </div>
-<div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-green" href="/english/children/onlinelessons/courses/" title="">子供向け英語クラス詳細へ(Click)</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+<div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-green" href="/english/children/courses/" title="">子供向け英語クラス詳細へ(Click)</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
 <div class="wpb_wrapper">
 <div class="wpb_video_wrapper"><iframe title="Ecom子供英語絵本：3匹のこぶた(ThreeLittlePigs)" width="500" height="281" src="https://www.youtube.com/embed/M2UbvNsr59A?feature=oembed&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
@@ -147,14 +147,14 @@ path: "/english/children/onlinelessons/kidsteensonline"
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p><strong><img loading="lazy" decoding="async" class="alignright size-full wp-image-4594" src="/english/wp-content/uploads/2014/02/mayuko-elementary.gif" alt="小学生オンライン英会話体験談" width="198" height="144">自分の子供の進路にあった 個別カリキュラムでのレッスンに満足。 （母談）</strong><a title="体験談－キッズ小学生女の子" href="/english/children/onlinelessons/voice/kids-elementary/">&gt;続きを読む</a></p>
+<p><strong><img loading="lazy" decoding="async" class="alignright size-full wp-image-4594" src="/english/wp-content/uploads/2014/02/mayuko-elementary.gif" alt="小学生オンライン英会話体験談" width="198" height="144">自分の子供の進路にあった 個別カリキュラムでのレッスンに満足。 （母談）</strong><a title="体験談－キッズ小学生女の子" href="/english/children/voice/kids-elementary/">&gt;続きを読む</a></p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p><img loading="lazy" decoding="async" class="alignright size-full wp-image-4593" src="/english/wp-content/uploads/2014/02/hiroki-elementary.gif" alt="小学生スカイプ英会話体験談10歳" width="198" height="144"><strong>親も子供も楽しんで学習していける環境 がここにあります。(母談)</strong></p>
-<p><a title="体験談－キッズ小学生の男の子" href="/english/children/onlinelessons/voice/elementary-boy/">&gt;続きを読む</a></p>
+<p><a title="体験談－キッズ小学生の男の子" href="/english/children/voice/elementary-boy/">&gt;続きを読む</a></p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-right"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>体験レッスン実施中</h2><h4> 2,500円で、実際のレッスンと同じ30分クラスが2コマ受講可能</h4></header></div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-success" href="/english/children/trial/" title="">体験レッスンを予約する（30分×2回・2,500円）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
@@ -204,7 +204,7 @@ path: "/english/children/onlinelessons/kidsteensonline"
 </div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-warning" href="/english/children/trial/" title=""><i class="vc_btn3-icon fas fa-adjust"></i> 体験レッスンを予約する（30分×2回・2,500円）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_single_image wpb_content_element vc_align_center">
 <figure class="wpb_wrapper vc_figure">
-<a href="/english/children/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
+<a href="/english/children/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
 </figure>
 </div>
 </div></div></div></div>

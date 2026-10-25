@@ -1,0 +1,96 @@
+---
+import plans from '../../data/plans.json';
+
+// 子供サイトの先生の紹介（/english/children/teachers）。子供トップと同じ明るいデザイン（K 2026-10-25）
+// 先生の顔→子供にネイティブ講師をすすめる理由→保護者の安心→声→体験の順
+const base = '/english/children';
+const trial = `${base}/trial/`;
+const teachers = [
+  { c: 'c1', img: '/english/img/teachers/jessica.jpg', name: 'Jessica', flag: '🇺🇸', from: 'アメリカ', video: 'https://www.youtube.com/watch?v=oRK_i7xDZWM' },
+  { c: 'c2', img: '/english/img/teachers/alan.jpg', name: 'Alan', flag: '🇬🇧', from: 'イギリス', video: 'https://www.youtube.com/watch?v=n_wmSY1kho4' },
+  { c: 'c3', img: '/english/img/teachers/kathryn.jpg', name: 'Kathryn', flag: '🇳🇿', from: 'ニュージーランド', video: 'https://www.youtube.com/watch?v=mlphPc3g8CE' },
+];
+const reasons = [
+  { c: 'c1', icon: '👂', title: '子供は耳から覚える、モノマネの天才', text: '最初からクセのない発音と、ネイティブが本当に使う表現を聞かせてあげてください。「先生のしゃべり方、かっこいい！」とまねし始めたらしめたものです。' },
+  { c: 'c2', icon: '🤝', title: '先生がころころ変わらない', text: '子供にとって、先生が変わるのはショックなこと。ECOMの講師は平均11年在籍しているので、同じ担任の先生とじっくり続けられます。' },
+  { c: 'c3', icon: '📶', title: '授業が安定している', text: '先生は欧米や日本など、通信が安定した国からレッスンをしています。音がよく聞こえて、授業が途切れにくいので、子供のやる気も続きます。' },
+];
+const care = [
+  { c: 'c4', icon: '🇯🇵', title: '先生は全員、日本語が分かる', text: '英語がはじめてのお子さまも安心。分からないところは日本語で確認できます。' },
+  { c: 'c2', icon: '💬', title: '保護者の方と一緒に授業をつくる', text: '授業の前後に、先生へ直接、要望を伝えたり感想を共有したりできます。' },
+  { c: 'c3', icon: '🎓', title: '採用率0.5%のプロ講師', text: '200人に1人の講師を全世界から選んでいます。採用後も、受講者の声をもとに教え方を磨き続けています。' },
+];
+// 受講者アンケートより（旧ページから）
+const voices = [
+  { who: '10代の女の子', text: '講師がフレンドリーで、話しやすい。楽しい。' },
+  { who: '10代の女の子', text: '先生がアメリカ人で、受けるたびにアメリカに住んでいた時を思い出し、毎回の授業が楽しみです。' },
+  { who: '15歳以下の男の子', text: '先生から、チャットやクラスノートで丁寧に直してもらえる点が最も気に入っています。' },
+  { who: '保護者の方', text: 'いろいろなオンライン英会話を試してきましたが、講師の質の高さが評価出来ます。' },
+];
+---
+<div class="lp kd">
+  <section class="lp-sec kd-hero">
+    <span class="kd-float f1" aria-hidden="true">⭐</span>
+    <span class="kd-float f2" aria-hidden="true">🎈</span>
+    <span class="kd-float f3" aria-hidden="true">ABC</span>
+    <span class="kd-float f4" aria-hidden="true">🌈</span>
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="kd-pill">👩‍🏫 先生の紹介</p>
+          <h1>耳のいい子どもだから、<br /><span class="nw">最初から<span class="kd-mark">本物の英語</span>を。</span></h1>
+          <p class="lp-lead">ECOMの先生は、全員が日本語も分かるネイティブ講師。お子さまの担任として、毎回同じ先生が教えます。</p>
+          <div class="lp-btns"><a class="lp-btn" href={trial}>{plans.trial.label}</a></div>
+        </div>
+        <div class="kd-faces">
+          {teachers.map((t) => (
+            <a class={t.c} href={t.video} target="_blank" rel="noopener"><img src={t.img} alt={`${t.name}先生`} width="400" height="400" /><b>{t.flag} {t.name}</b><span>{t.from}</span><small>▶ ビデオレター</small></a>
+          ))}
+        </div>
+      </div>
+      <ul class="kd-points">
+        <li><i class="c1">🎓</i><b>採用率0.5%</b><span>200人に1人のプロ講師</span></li>
+        <li><i class="c2">🇯🇵</i><b>日本語OK</b><span>先生は全員、日本語が分かる</span></li>
+        <li><i class="c3">🗓️</i><b>平均11年</b><span>講師の在籍</span></li>
+        <li><i class="c4">😊</i><b>96.5%</b><span>が満足して継続</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>🌟</i>子供にこそ、ネイティブ講師をすすめる3つの理由</h2>
+      <div class="lp-cards">
+        {reasons.map((r) => <div class={`lp-card kd-icon ${r.c}`}><i aria-hidden="true">{r.icon}</i><b>{r.title}</b><span>{r.text}</span></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-mint">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>💐</i>保護者の方も安心</h2>
+      <div class="lp-cards">
+        {care.map((r) => <div class={`lp-card kd-icon ${r.c}`}><i aria-hidden="true">{r.icon}</i><b>{r.title}</b><span>{r.text}</span></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-sun">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>😊</i>生徒・保護者の方の声</h2>
+      <div class="lp-cards">
+        {voices.map((v) => <figure class="lp-quote kd-voice"><figcaption>{v.who}</figcaption><blockquote>{v.text}</blockquote></figure>)}
+      </div>
+      <p class="lp-sub">受講者アンケートより。<a href={`${base}/voice`}>体験談の一覧</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-end">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>まずは体験レッスンで、先生に会ってみませんか。</p>
+        <a class="lp-btn" href={trial}>{plans.trial.label}</a>
+      </div>
+    </div>
+  </section>
+</div>
