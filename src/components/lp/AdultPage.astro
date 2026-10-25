@@ -3,34 +3,42 @@ import PlanCards from './PlanCards.astro';
 import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
-// 大人のオンライン英会話のトップ（/english/）。目的別コース→特長→料金→比較→体験談→はじめ方の順（K 2026-10-24）
+// 大人のオンライン英会話のトップ（/english/）。日本語が分かるネイティブ講師→初心者の不安への答え→比較→レベル別コース→特長→体験談→料金→はじめ方の順（K 2026-10-25）
 const base = '/english';
 const up = `${base}/wp-content/uploads`;
 const trial = `${base}/trial/`;
+const teachers = [
+  { img: '/english/img/teachers/jessica.jpg', video: 'https://www.youtube.com/watch?v=oRK_i7xDZWM', name: 'Jessica', flag: '🇺🇸', from: 'アメリカ' },
+  { img: '/english/img/teachers/alan.jpg', video: 'https://www.youtube.com/watch?v=n_wmSY1kho4', name: 'Alan', flag: '🇬🇧', from: 'イギリス' },
+  { img: '/english/img/teachers/kathryn.jpg', video: 'https://www.youtube.com/watch?v=mlphPc3g8CE', name: 'Kathryn', flag: '🇳🇿', from: 'ニュージーランド' },
+];
+const reasons = [
+  { icon: '🗣️', title: '日本語が分かる先生が、あなたの担任に。', text: '講師は全員、日本語が分かります。分からないところは日本語で確認できるので、英語だけで固まってしまうことがありません。探して選ぶ必要もありません。' },
+  { icon: '👂', title: '最初に覚える英語が、そのまま通じる。', text: '発音も言い回しも、最初から自然な英語で。あとから直す手間がありません。' },
+  { icon: '✍️', title: '間違いを、正しく直せる。', text: '「通じるけど不自然」な英語も、日本人がつまずく理由まで分かったうえで直します。レッスン後には先生が書いたフィードバックが残ります。' },
+];
 const courses = [
-  { href: `${base}/courses/basic/`, img: '/wp-content/uploads/2023/01/online-lesson.png', tag: '🌱 初心者・やり直し', name: '基礎力養成コース', text: '中学英語の復習から。文法と発音を固めて、話せる土台をつくります。' },
-  { href: `${base}/courses/high/`, img: `${up}/2014/12/julia-lesson-300x200.jpg`, tag: '💬 初中級以上', name: '日常英会話・ディスカッション', text: 'フリートーク、ディスカッション、発音とリスニングなど、話す量を増やします。' },
-  { href: `${base}/courses/business/`, img: '/wp-content/uploads/2023/01/sample-businesswoman.jpg', tag: '💼 仕事で使う', name: 'ビジネス英語コース', text: '会議、メール、プレゼン、交渉。業務に合わせた内容で練習します。' },
-  { href: `${base}/courses/examinations/`, img: '/english/children/wp-content/uploads/sites/2/2016/04/English-test-1024x682.jpg', tag: '🏅 資格・試験', name: '試験対策コース', text: 'TOEIC®・英検®・IELTS・TOEFL®。目標スコアから逆算して対策します。' },
+  { href: `${base}/courses/basic/`, img: '/wp-content/uploads/2023/01/online-lesson.png', tag: '🌱 初心者・やり直し', name: '中学英語から始めたい', text: '基礎力養成コース。文法と発音を日本語の説明つきで固めて、話せる土台をつくります。' },
+  { href: `${base}/courses/high/general/`, img: `${up}/2014/12/julia-lesson-300x200.jpg`, tag: '💬 初級', name: '短い文なら話せる。もっと話したい', text: '日常英会話・発音とリスニング。話す量を増やして、聞き取れる・言える英語を広げます。' },
+  { href: `${base}/courses/high/discussion/`, img: '/wp-content/uploads/2023/01/sample-businesswoman.jpg', tag: '🗣️ 中級', name: '自分の意見を英語で言いたい', text: 'ディスカッション・ビジネス英語。考えを組み立てて伝える力をつけます。' },
 ];
 const features = [
-  { icon: '👩‍🏫', title: '採用率0.5%のプロ講師', text: 'ネイティブと日英バイリンガルの講師陣（200人に1人）。講師の平均在籍は11年なので、相性のよい先生をずっと担任にできます。', href: `${base}/teachers/` },
-  { icon: '🕐', title: '固定予約も、自由予約も', text: '毎週決まった時間の固定予約も、空いた時間に担任の先生を選んで入れる自由予約もできます。予約は開始5分前まで、変更は1時間前までOK。' },
-  { icon: '📚', title: '50以上の専門クラス', text: '基礎からビジネス、試験対策まで。目的に合ったクラスを選べます。', href: `${base}/courses/classlists/` },
+  { icon: '🕐', title: '予約は5分前まで、変更は1時間前まで', text: '固定予約でも自由予約でも、担任の先生を選べます。急な予定が入っても、1時間前まで変更できます。' },
   { icon: '🤖', title: 'AIレッスンで毎日話す', text: '人と話すように会話が進むAI講師と、緊張せずに話せます。前回の内容も覚えています。月4回・月8回プランに付いています。' },
   { icon: '🌏', title: '20言語・家族で共有', text: '同じチケットで中国語やフランス語も。ご家族と分けて使えます。', href: '/english/multi-lingual/reasons-languages/' },
-  { icon: '🙋', title: '日本人スタッフのサポート', text: '学習相談も、パソコンの設定も。機械が苦手な方やシニアの方も安心です。', href: `${base}/itbeginner/` },
+  { icon: '🙋', title: '2005年から、日本人スタッフがサポート', text: '学習相談も、パソコンの設定も。機械が苦手な方やシニアの方も安心です。', href: `${base}/itbeginner/` },
 ];
 const voices = [
-  { img: `${up}/2015/01/slide2-1170x500.jpg`, who: '医師・英検1級合格', quote: 'ECOMは、英語を上達させたい人にベストな環境を提供してくれる学校。', href: `${base}/interview/voice-doctor/` },
+  { img: `${up}/2015/01/slide4-1170x500.jpg`, who: '旅行好きのシニアの方', quote: 'パソコン音痴の私でも、サポートのおかげでできるようになりました。', href: `${base}/interview/voice-elder/` },
   { img: `${up}/2015/01/slide8-1170x500.jpg`, who: '通信業界の技術職', quote: '週1、2回をコンスタントに受けて、TOEICが100点アップしました。', href: `${base}/interview/business-telecom/` },
   { img: `${up}/2015/01/slide3-1170x500.jpg`, who: '税理士', quote: '多忙な中でも続けられる、時間対効果が非常に高い学校。', href: `${base}/interview/voice-specialist/` },
-  { img: `${up}/2015/01/slide15-1170x500.jpg`, who: '証券会社勤務', quote: '街中にある有名英語学校より、レベルは断然上でした。', href: `${base}/interview/voice-business1/` },
   { img: `${up}/2015/01/slide011-1170x500.jpg`, who: '海外出張の多いブリッジSE', quote: '世界中どこにいても、ネットがあればレッスンが受けられる。家族みんなで使っています。', href: `${base}/interview/voice-oversea/` },
-  { img: `${up}/2015/01/slide4-1170x500.jpg`, who: '旅行好きのシニアの方', quote: 'パソコン音痴の私でも、サポートのおかげでできるようになりました。', href: `${base}/interview/voice-elder/` },
+  { img: `${up}/2015/01/slide15-1170x500.jpg`, who: '証券会社勤務', quote: '街中にある有名英語学校より、レベルは断然上でした。', href: `${base}/interview/voice-business1/` },
+  { img: `${up}/2015/01/slide2-1170x500.jpg`, who: '医師・英検1級合格', quote: 'ECOMは、英語を上達させたい人にベストな環境を提供してくれる学校。', href: `${base}/interview/voice-doctor/` },
 ];
 const faq = [
-  { q: 'まったくの初心者でも大丈夫ですか？', a: `はい。日本語が分かる講師も多く、基礎力養成コースで中学英語の復習から始められます。パソコンが苦手な方は、<a href="${base}/itbeginner/">初心者・シニアの方へ</a>のページもご覧ください。` },
+  { q: 'ネイティブの先生だと、初心者には難しくないですか？', a: '先生は全員、日本語が分かります。分からないところは日本語で確認でき、日本人の初心者を教え慣れた先生が、ゆっくりやさしい英語で進めます。' },
+  { q: 'まったくの初心者でも大丈夫ですか？', a: `はい。基礎力養成コースで中学英語の復習から始められます。パソコンが苦手な方は、<a href="${base}/itbeginner/">初心者・シニアの方へ</a>のページもご覧ください。` },
   { q: 'どのくらいで上達しますか？', a: `目安として、1レベル上げるのに約60時間（レッスン約30時間＋自習）です。<a href="${base}/level/">レベルの目安</a>で、今の英語力と目標までの時間を確かめられます。` },
   { q: '予約の変更やキャンセルはできますか？', a: 'レッスン開始の1時間前まで、予約サイトから自由に変更できます。' },
   { q: '入会金はかかりますか？', a: '入会金は0円です。毎月の月額プランか、チケットのまとめ買いを選べます。' },
@@ -41,24 +49,33 @@ const faq = [
     <div class="lp-in">
       <div class="lp-hero">
         <div>
-          <p class="lp-eyebrow">大人のオンライン英会話</p>
+          <p class="lp-eyebrow">ネイティブ講師の担任制オンライン英会話</p>
           <h1>忙しい週も、<br />あなたを分かっている<span class="nw">先生と。</span></h1>
+          <p class="ad-native">講師は全員、日本語が分かるネイティブ。<span class="nw">初心者でも安心です。</span></p>
           <div class="lp-book">
-            <div><b>毎週決まった時間に</b><span>固定予約。同じ曜日・時間に担任が教えます。</span></div>
-            <div><b>空いた時間に</b><span>自由予約。担任の先生を選んで予約できます。</span></div>
+            <div><i aria-hidden="true">📅</i><p><b>毎週決まった時間に</b><span>固定予約。同じ曜日・時間に担任が教えます。</span></p></div>
+            <div><i aria-hidden="true">⏰</i><p><b>空いた時間に</b><span>自由予約。担任の先生を選んで予約できます。</span></p></div>
           </div>
           <div class="lp-btns">
             <a class="lp-btn" href={trial}>{plans.trial.label}</a>
             <a href="/price/">料金を見る</a>
           </div>
         </div>
-        <img src="/wp-content/uploads/2024/08/multi_lingual.jpg" alt="ECOMのネイティブ講師たち" />
+        <div class="ad-teachers">
+          <p>こんな先生が、あなたの担任になります</p>
+          <ul>
+            {teachers.map((t) => (
+              <li><a href={t.video} target="_blank" rel="noopener"><img src={t.img} alt={`${t.name}先生`} width="400" height="400" /><b>{t.name}</b><span>{t.flag} {t.from}</span><em>日本語OK</em><small>▶ ビデオレター</small></a></li>
+            ))}
+          </ul>
+          <a href={`${base}/teachers/`}>講師をもっと見る →</a>
+        </div>
       </div>
       <ul class="ad-trust">
-        <li><b>2005年</b><span>から続く実績</span></li>
+        <li><b>全員</b><span>日本語が分かるネイティブ講師</span></li>
+        <li><b>採用率0.5%</b><span>200人に1人の講師陣</span></li>
         <li><b>平均11年</b><span>講師の在籍</span></li>
         <li><b>96.5%</b><span>が満足して継続</span></li>
-        <li><b>採用率0.5%</b><span>の講師陣</span></li>
       </ul>
     </div>
   </section>
@@ -66,42 +83,14 @@ const faq = [
   <section class="lp-sec">
     <div class="lp-in">
       <div class="lp-head">
-        <h2>目的で選ぶ</h2>
-        <p class="lp-sub">マンツーマンなので、途中でコースを変えることもできます。</p>
+        <h2>初心者こそ、<span class="nw">ネイティブ講師から。</span></h2>
+        <p class="lp-sub">「ネイティブの先生は難しそう」と思っている方へ。</p>
       </div>
       <div class="lp-cards">
-        {courses.map((c) => (
-          <a class="lp-card ad-course" href={c.href}><img src={c.img} alt="" loading="lazy" /><span class="ad-tag">{c.tag}</span><b>{c.name}</b><span>{c.text}</span><i>くわしく →</i></a>
+        {reasons.map((r, i) => (
+          <div class={`lp-card ad-feat${i === 0 ? ' ad-key' : ''}`}><i aria-hidden="true">{r.icon}</i><b>{r.title}</b><span>{r.text}</span></div>
         ))}
       </div>
-      <div class="lp-chips">
-        <a href={`${base}/itbeginner/`}>🔰 パソコンが苦手な方・シニアの方へ</a>
-        <a href={`${base}/types/overseas/`}>✈️ 海外にお住まいの方へ</a>
-        <a href={`${base}/visual/`}>👂 視覚障害のある方へ</a>
-        <a href={`${base}/courses/classlists/`}>📋 クラスの一覧</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="lp-sec soft">
-    <div class="lp-in">
-      <h2>ECOMの特長</h2>
-      <div class="lp-cards">
-        {features.map((f) => (
-          <div class="lp-card ad-feat"><i aria-hidden="true">{f.icon}</i><b>{f.title}</b><span>{f.text}</span>{f.href && <a href={f.href}>くわしく</a>}</div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="lp-sec">
-    <div class="lp-in">
-      <div class="lp-head">
-        <h2>料金</h2>
-        <p class="lp-sub">毎月決まった回数を受ける月額プランです。入会金は0円。自分のペースで受けたい方は、チケットのまとめ買いもできます。</p>
-      </div>
-      <PlanCards />
-      <p class="lp-note"><a href="/price/">料金・お申し込みはこちら</a>　・　<a href="/price/#price-adult">チケットのまとめ買い</a></p>
     </div>
   </section>
 
@@ -110,17 +99,53 @@ const faq = [
       <h2>ほかのオンライン英会話との違い</h2>
       <div class="lp-table">
         <table>
-          <thead><tr><th></th><th>ECOM</th><th>格安のオンライン英会話</th></tr></thead>
+          <thead><tr><th></th><th>ECOM</th><th>フィリピン人講師中心の格安オンライン英会話</th><th>アメリカ発のネイティブ系オンライン英会話</th></tr></thead>
           <tbody>
-            <tr><th>講師</th><td>厳選したネイティブ中心（採用率0.5%）</td><td>大量採用の講師が中心</td></tr>
-            <tr><th>講師都合の急なキャンセル</th><td>ごくまれ</td><td>多い</td></tr>
-            <tr><th>予約</th><td>まとめて予約できる</td><td>1回ずつ予約</td></tr>
-            <tr><th>予約の変更・キャンセル</th><td>1時間前まで</td><td>24時間前までが多い</td></tr>
-            <tr><th>レッスン</th><td>目的に合わせた専門クラス</td><td>おしゃべり中心</td></tr>
+            <tr><th>講師</th><td>ネイティブ</td><td>フィリピン人講師が中心</td><td>ネイティブ</td></tr>
+            <tr><th>日本語の理解</th><td>全員が分かる。探さなくてよい</td><td>分からない講師がほとんど</td><td>分かる講師は一部。自分で検索して選ぶ</td></tr>
+            <tr><th>担任制（毎回同じ先生）</th><td>あり</td><td>毎回変わることが多い</td><td>毎回変わることが多い</td></tr>
+            <tr><th>講師の採用</th><td>採用率0.5%</td><td>大量採用</td><td>—</td></tr>
+            <tr><th>講師都合の急なキャンセル</th><td>ごくまれ</td><td>多い</td><td>—</td></tr>
+            <tr><th>予約の変更・キャンセル</th><td>1時間前まで</td><td>24時間前までが多い</td><td>—</td></tr>
+            <tr><th>レッスン</th><td>目的に合わせた専門クラス</td><td>おしゃべり中心</td><td>—</td></tr>
           </tbody>
         </table>
       </div>
       <p class="lp-note">2025年1月 自社調べ。もっとくわしく：<a href={`${base}/skypeonline-english/`}>ほかのオンライン英会話との比較</a>　・　<a href={`${base}/schoool-hikaku/`}>街中の英会話教室との比較</a>　・　<a href={`${base}/points/`}>失敗しない5つのポイント</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>レベルで選ぶ</h2>
+        <p class="lp-sub">マンツーマンなので、途中でコースを変えることもできます。自分のレベルが分からない方は<a href={`${base}/level/`}>レベルの目安</a>へ。</p>
+      </div>
+      <div class="lp-cards">
+        {courses.map((c) => (
+          <a class="lp-card ad-course" href={c.href}><img src={c.img} alt="" loading="lazy" /><span class="ad-tag">{c.tag}</span><b>{c.name}</b><span>{c.text}</span><i>くわしく →</i></a>
+        ))}
+      </div>
+      <div class="lp-chips">
+        <a href={`${base}/courses/business/`}>💼 ビジネス英語</a>
+        <a href={`${base}/courses/examinations/`}>🏅 TOEIC®・英検®・IELTS・TOEFL®</a>
+        <a href={`${base}/itbeginner/`}>🔰 パソコンが苦手な方・シニアの方へ</a>
+        <a href={`${base}/types/overseas/`}>✈️ 海外にお住まいの方へ</a>
+        <a href={`${base}/visual/`}>👂 視覚障害のある方へ</a>
+        <a href={`${base}/courses/classlists/`}>📋 50以上のクラスの一覧</a>
+      </div>
+      <a class="ad-ai" href="https://ai.myecom.net/" target="_blank" rel="noopener"><i aria-hidden="true">🤖</i><span><b>AI英会話をご希望の方へ</b>人と話すように会話が進む、ECOMのAIレッスン（公式サイト）</span><em>見てみる →</em></a>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>ECOMの特長</h2>
+      <div class="lp-cards ad-feats">
+        {features.map((f) => (
+          <div class="lp-card ad-feat"><i aria-hidden="true">{f.icon}</i><b>{f.title}</b><span>{f.text}</span>{f.href && <a href={f.href}>くわしく</a>}</div>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -138,6 +163,17 @@ const faq = [
 
   <section class="lp-sec soft">
     <div class="lp-in">
+      <div class="lp-head">
+        <h2>料金</h2>
+        <p class="lp-sub">毎月決まった回数を受ける月額プランです。入会金は0円。自分のペースで受けたい方は、チケットのまとめ買いもできます。</p>
+      </div>
+      <PlanCards />
+      <p class="lp-note"><a href="/price/">料金・お申し込みはこちら</a>　・　<a href="/price/#price-adult">チケットのまとめ買い</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
       <h2>はじめ方</h2>
       <ol class="lp-steps">
         <li><em>STEP 1</em><b>体験レッスンを予約</b><span>30分×2回で{plans.trial.price}。目的とレベルをお聞きします。</span></li>
@@ -147,17 +183,17 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec soft">
     <div class="lp-in narrow">
       <h2>よくある質問</h2>
       <Faq items={faq} />
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec">
     <div class="lp-in">
       <div class="lp-end">
-        <p>まずは体験レッスンで、講師に会ってみませんか。</p>
+        <p>まずは体験レッスンで、日本語が分かるネイティブの先生に会ってみませんか。</p>
         <a class="lp-btn" href={trial}>体験レッスンを予約する</a>
       </div>
       <p class="lp-sub">英語学習のヒント：<a href={`${base}/improve/`}>英語4倍速上達の秘密</a>　・　<a href={`${base}/columns/`}>英語上達コラム</a>　・　<a href={`${base}/videos/`}>無料の英語学習動画</a>　・　<a href={`${base}/blog/`}>英語学習のビタミン</a></p>

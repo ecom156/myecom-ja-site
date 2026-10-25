@@ -45,7 +45,7 @@ path: "/english/teachers/"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h3><span style="color: #800000;">2. 初心者も安心。日本語の分かるネイティブ講師が多数在籍</span></h3>
+<h3><span style="color: #800000;">2. 初心者も安心。講師は全員、日本語が分かります</span></h3>
 </div>
 </div>
 <div class="wpb_single_image wpb_content_element vc_align_center">
@@ -55,7 +55,7 @@ path: "/english/teachers/"
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>初心者・初級者の方の中には「ネイティブ講師といきなり話をして大丈夫か」と不安を覚える方がいらっしゃいます。そんな方のために日本語が理解できたり、日本在住で日本人の英語初級者に教えるプロの講師が多数在籍しています。これで初心者でも安心です。</p>
+<p>初心者・初級者の方の中には「ネイティブ講師といきなり話をして大丈夫か」と不安を覚える方がいらっしゃいます。ECOMの講師は全員、日本語が分かります。日本人の英語初級者を教え慣れたプロの講師なので、分からないところは日本語で確認でき、初心者でも安心です。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
