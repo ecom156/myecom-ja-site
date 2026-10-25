@@ -12,6 +12,8 @@ const pages = defineCollection({
     front: z.boolean().default(false),
     // 検索結果に出る説明文（meta description）。省略するとサイト名と一言紹介
     description: z.string().optional(),
+    // 検索に出さないページ（送信完了・お支払い完了など）。サイトマップからも外す
+    noindex: z.boolean().default(false),
     // 本文の下に記事一覧を出すページ（旧サイトの「投稿ページ」）
     postsPage: z.boolean().default(false),
     // リニューアルのページ。top・kids・corporate は src/components/lp/ の部品で作り、本文は使わない。language と price は本文の前に共通の案内・月額プランを出す

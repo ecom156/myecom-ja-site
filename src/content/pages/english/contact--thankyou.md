@@ -1,6 +1,7 @@
 ---
 title: "問い合わせ受付完了ページ"
 path: "/english/contact/thankyou/"
+noindex: true
 ---
 
 **[![woman_1](/english/wp-content/uploads/2013/12/woman_1.png)](/english/wp-content/uploads/2013/12/woman_1.png)お問い合わせフォーム送信ありがとうございました。**

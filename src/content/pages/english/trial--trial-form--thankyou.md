@@ -1,6 +1,7 @@
 ---
 title: "体験申込み受付完了ページ"
 path: "/english/trial/trial-form/thankyou/"
+noindex: true
 ---
 
 <div class="wp-layout">

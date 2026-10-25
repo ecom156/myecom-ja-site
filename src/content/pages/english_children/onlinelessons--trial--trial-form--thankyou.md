@@ -1,6 +1,7 @@
 ---
 title: "お子様の体験レッスン申し込み受付完了"
 path: "/english/children/onlinelessons/trial/trial-form/thankyou"
+noindex: true
 ---
 
 <div class="wp-layout">

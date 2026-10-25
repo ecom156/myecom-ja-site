@@ -1,6 +1,7 @@
 ---
 title: "法人研修へのお問い合わせありがとうございます。"
 path: "/english/corporation/contact/thankyou/"
+noindex: true
 ---
 
 お問い合わせを受け付けました。　コンタクト頂きありがとうございます。
