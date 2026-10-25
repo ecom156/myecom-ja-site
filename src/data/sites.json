@@ -320,11 +320,11 @@
       },
       {
         "label": "体験レッスン",
-        "href": "/english/trial/",
+        "href": "/trial/",
         "children": [
           {
             "label": "体験レッスンのお申込み",
-            "href": "/english/trial/trial-form/"
+            "href": "/trial/#form"
           },
           {
             "label": "無料の入会前サポート",
@@ -363,7 +363,7 @@
     "frontIsPosts": false,
     "cta": {
       "label": "体験を予約",
-      "href": "/english/trial/"
+      "href": "/trial/"
     }
   },
   "english_children": {
@@ -470,13 +470,7 @@
       },
       {
         "label": "体験レッスン制度",
-        "href": "/english/children/onlinelessons/trial",
-        "children": [
-          {
-            "label": "体験レッスンお申し込みフォーム",
-            "href": "/english/children/onlinelessons/trial/trial-form"
-          }
-        ]
+        "href": "/english/children/onlinelessons/trial"
       },
       {
         "label": "体験談",
