@@ -78,7 +78,7 @@
 /english/onlinelessons/* /english/:splat 301
 /english/tokusyouhou/ /tokusyouhou/ 301
 /english/tokusyouhou /tokusyouhou/ 301
-/english/children/onlinelessons/courses/eiken/ /english/children/onlinelessons/courses/examinations/eiken/ 301
+/english/children/onlinelessons/courses/eiken/ /english/children/courses/examinations/eiken/ 301
 /english/corporation/onlinelanguagelessons/report/ /english/corporation/online-group/report/ 301
 /blog/category/spanish/ /spanish/ 301
 /chinese/trial/ /trial/ 301
@@ -95,9 +95,9 @@
 /english/types/asakatsu/ /english/types/ 301
 /english/business-researcher/ /english/interview/business-researcher/ 301
 /english/classes/ /english/courses/classlists/ 301
-/english/interview/voice-kids/ /english/children/onlinelessons/voice/ 301
-/english/children/onlinelessons/courses/eiken/* /english/children/onlinelessons/courses/examinations/eiken/:splat 301
-/english/children/onlinelessons/courses/teap/* /english/children/onlinelessons/courses/examinations/teap/:splat 301
+/english/interview/voice-kids/ /english/children/voice/ 301
+/english/children/onlinelessons/courses/eiken/* /english/children/courses/examinations/eiken/:splat 301
+/english/children/onlinelessons/courses/teap/* /english/children/courses/examinations/teap/:splat 301
 /chinese/onlinelessons/courses/ /chinese/ 301
 /german/onlinelessons/courses/ /german/ 301
 /spanish/onlinelessons/courses/ /spanish/ 301
@@ -107,3 +107,7 @@
 /english/schools/sougou/ /english/schools/ 301
 /vocabulary/ /english/vocabulary/ 301
 /vocabulary/* /english/vocabulary/ 301
+# 子供サイトのURLから onlinelessons/ を外した（K 2026-10-25）。上の個別の転送が先に効く
+/english/children/onlinelessons/ /english/children/ 301
+/english/children/onlinelessons /english/children/ 301
+/english/children/onlinelessons/* /english/children/:splat 301

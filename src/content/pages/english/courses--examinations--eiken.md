@@ -226,7 +226,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide21-1170x500.jpg","ti
 <blockquote>
 <h2>英検取得メリット</h2>
 </blockquote>
-<p><a href="/english/children/onlinelessons/courses/eiken/">子供向け</a>ですと、英検取得が、入試や学校現場で大幅な優遇が得られる点があげられますが、ここでは大人向けに書いていきます。</p>
+<p><a href="/english/children/courses/examinations/eiken/">子供向け</a>ですと、英検取得が、入試や学校現場で大幅な優遇が得られる点があげられますが、ここでは大人向けに書いていきます。</p>
 <h3>1．自身のバランスの取れた英語力を測ることができる。</h3>
 <p>英検は、ヨーロッパのCEFR試験同様、日本の大きな英語試験の中では、最も出題バランスの取れた試験だと言えます。日々の学習達成度を測る目的から、各級をクリアしていくことは大きなモチベーションや達成感につながります。</p>
 <h3>2．英語の知的レベルを上げることができる。</h3>

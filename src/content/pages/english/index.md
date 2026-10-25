@@ -77,7 +77,7 @@ slides: [{"image":"/english/wp-content/uploads/2015/01/slide3-1170x500.jpg","tit
 <h2 style="text-align: center;">▶ 目的別に選べるコース</h2>
 <p style="text-align: center;">50以上の目的にあった専門クラス</p>
 <p style="text-align: center;">基礎固め、ビジネス英語、TOEIC, TOEFL, IELTS,英検等<br>
-<select name="select" onchange="location.href=value;"><option value="">各コース紹介に移動する</option><option value="basic">基礎力養成コース</option><option value="high">初中級以上の方向けコース</option><option value="business">ビジネス英語コース</option><option value="examinations">試験対策英語コース</option><option value="../children/onlinelessons">子供向け英会話コース</option></select></p>
+<select name="select" onchange="location.href=value;"><option value="">各コース紹介に移動する</option><option value="basic">基礎力養成コース</option><option value="high">初中級以上の方向けコース</option><option value="business">ビジネス英語コース</option><option value="examinations">試験対策英語コース</option><option value="/english/children/">子供向け英会話コース</option></select></p>
 <p style="text-align: center;"><a href="/english/courses/">さらに詳しく▶</a></p>
 </div>
 </div>
