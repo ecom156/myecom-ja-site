@@ -11,6 +11,7 @@ import KidsPage from '../components/lp/KidsPage.astro';
 import CorporatePage from '../components/lp/CorporatePage.astro';
 import OsakaPage from '../components/lp/OsakaPage.astro';
 import AdultPage from '../components/lp/AdultPage.astro';
+import TrialPage from '../components/lp/TrialPage.astro';
 import LanguageIntro from '../components/lp/LanguageIntro.astro';
 import PricePlans from '../components/lp/PricePlans.astro';
 import languages from '../data/languages.json';
@@ -77,7 +78,7 @@ const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
 const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;
@@ -89,7 +90,7 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     {formKeys.length > 0 && (
       <section class="lp-form" id="form">
         <div class="wrap">
-          <h2>{template === 'osaka' ? '塾代助成専用 無料体験レッスンのお申し込み' : 'お申し込み'}</h2>
+          <h2>{template === 'osaka' ? '塾代助成専用 無料体験レッスンのお申し込み' : template === 'trial' ? '体験レッスンのお申し込み' : 'お申し込み'}</h2>
           {formKeys.map((k) => <Form formKey={k} />)}
         </div>
       </section>

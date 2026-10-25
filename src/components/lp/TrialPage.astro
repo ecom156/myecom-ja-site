@@ -1,0 +1,126 @@
+---
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+
+// 体験レッスン（/trial/、全言語共通）。要点→有料の理由→内容→流れ→事前相談→よくある質問→フォームの順（K 2026-10-25）
+const facts = [
+  { icon: '💴', title: plans.trial.price, text: '税込・お一人さま各言語1回' },
+  { icon: '⏱️', title: '30分×2回', text: '60分1回にまとめてもOK' },
+  { icon: '🌏', title: '全言語共通', text: '英語・子供英会話・他言語' },
+];
+const teachers = [
+  { img: '/english/img/teachers/jessica.jpg', name: 'Jessica' },
+  { img: '/english/img/teachers/alan.jpg', name: 'Alan' },
+  { img: '/english/img/teachers/kathryn.jpg', name: 'Kathryn' },
+];
+const reasons = [
+  { icon: '🎓', title: '採用率0.5%のプロ講師', text: '200人に1人の講師が担当します。入会後に担任となる候補の先生なので、相性をそのまま確かめられます。' },
+  { icon: '📝', title: 'あなたに合わせた事前準備', text: 'お申込みの内容（目的・今のレベル・ご希望）を読んで、先生が教材と進め方を準備してからレッスンに入ります。' },
+  { icon: '📊', title: '綿密なレベル診断レポート', text: '2回のレッスンのあと、今のレベル、得意なところと課題、目標までの進め方をレポートにまとめてお渡しします。' },
+];
+const details = [
+  { icon: '👩‍🏫', title: '講師', text: 'ネイティブ講師、または日本語が分かるバイリンガル講師。全員が日本語を理解できます。' },
+  { icon: '🙋', title: '対象', text: '大人の方、子供（17歳以下・保護者の方がお申込み）、英語以外の言語をご希望の方。' },
+  { icon: '🗓️', title: '日時', text: 'レッスンは24時間、早朝や深夜も。2回は同じ日でも別の日でもかまいません。' },
+  { icon: '💳', title: 'お支払い', text: 'クレジットカード（Square）。決済のリンクをメールでお送りすることはありません。' },
+];
+const steps = [
+  { icon: '✍️', title: 'フォームからお申込み', text: '入力は1分ほど。送信すると、そのままSquareのお支払い画面に移ります。' },
+  { icon: '💻', title: '会員サイトで予約', text: 'お支払いを確認したら、会員サイトのご案内をメールでお送りします。お好きな先生・時間を選んで予約してください。' },
+  { icon: '🗣️', title: '体験レッスン（30分×2回）', text: '本番と同じレッスンを受けて、最後にレベル診断レポートをお渡しします。続けたい方は、会員サイトからそのまま入会できます。' },
+];
+const faq = [
+  { q: 'なぜ無料ではなく有料なのですか？', a: '採用率0.5%のプロ講師が、事前準備と綿密なレベル診断レポートを作成するためです。お試しのおしゃべりではなく、入会後と同じ本番のレッスンとしてご案内しています。' },
+  { q: '体験のあと、入会しなくてもいいですか？', a: 'はい。強引な勧誘はいたしません。続けたい方だけ、会員サイトからご入会ください。入会金は0円です。' },
+  { q: '子供でも受けられますか？', a: 'はい。17歳以下のお子さまは、保護者の方がお申込みください。英検®対策も体験できます。くわしくは<a href="/english/children/">子供のオンライン英会話</a>をご覧ください。' },
+  { q: 'パソコンやオンラインに不安があります。', a: 'お申込みフォームで「事前相談を希望する」を選ぶと、日本人スタッフが音声の確認と予約サイトの使い方をご案内します（8:00〜20:00）。' },
+  { q: '法人で研修を検討しています。', a: '法人のご担当者さまは、<a href="/english/corporation/">法人向けオンライン英語研修</a>のページからご相談ください。' },
+];
+---
+<div class="lp tr">
+  <section class="lp-sec ad-hero">
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="lp-eyebrow">体験レッスン（全言語共通）</p>
+          <h1>入会後と同じプロ講師の、<br /><span class="nw">本番のレッスンを体験。</span></h1>
+          <p class="lp-lead">30分のマンツーマンレッスンを2回。先生との相性と、上達の手応えを確かめてください。</p>
+          <ul class="tr-facts">
+            {facts.map((f) => <li><i aria-hidden="true">{f.icon}</i><b>{f.title}</b><span>{f.text}</span></li>)}
+          </ul>
+          <div class="lp-btns">
+            <a class="lp-btn" href="#form">{plans.trial.label}</a>
+            <a href="#why">なぜ有料なの？</a>
+          </div>
+          <p class="lp-note">お支払いはお申込み時にクレジットカード（Square）で。強引な勧誘はいたしません。</p>
+        </div>
+        <img src="/wp-content/uploads/2023/01/Grouplessons-image-ver2.jpg" alt="ECOMのネイティブ・バイリンガル講師" width="1170" height="500" />
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec" id="why">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">有料の理由</p>
+        <h2>お試しではなく、<span class="nw">本気の体験レッスンです。</span></h2>
+      </div>
+      <p class="tr-why">採用率0.5%のプロ講師が、事前準備と綿密なレベル診断レポートを作成するため、本気の有料体験としてご案内しています。</p>
+      <div class="lp-cards">
+        {reasons.map((r, i) => (
+          <div class="lp-card ad-feat">
+            <i aria-hidden="true">{r.icon}</i>
+            <b>{r.title}</b>
+            <span>{r.text}</span>
+            {i === 0 && (
+              <ul class="tr-faces">
+                {teachers.map((t) => <li><img src={t.img} alt={`${t.name}先生`} width="400" height="400" loading="lazy" /></li>)}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>体験レッスンの内容</h2>
+      <div class="lp-cards">
+        {details.map((d) => (
+          <div class="lp-card ad-feat tr-detail"><i aria-hidden="true">{d.icon}</i><b>{d.title}</b><span>{d.text}</span></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>お申込みから体験まで</h2>
+      <ol class="tr-steps">
+        {steps.map((s, i) => (
+          <li><i aria-hidden="true">{s.icon}</i><em>STEP {i + 1}</em><b>{s.title}</b><span>{s.text}</span></li>
+        ))}
+      </ol>
+      <div class="lp-sechead tr-consult">
+        <img src="/wp-content/uploads/2024/08/image_photo_office.jpg" alt="ECOMのオフィス（東京・千代田区）" width="885" height="221" loading="lazy" />
+        <div>
+          <b>はじめての方は、無料の事前相談（約15分）もどうぞ</b>
+          <p>日本人スタッフがオンラインで、音声の確認、目的に合う先生やクラスのご提案、予約サイトの使い方をご案内します。対応時間は<strong>8:00〜20:00</strong>です。フォームで「希望する」を選んでください。相談のあとにお支払いいただきます。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2>よくある質問</h2>
+      <Faq items={faq} />
+      <a class="ad-ai" href="https://ai.myecom.net">
+        <i aria-hidden="true">🤖</i>
+        <span><b>まずは無料で試したい方へ</b>AI講師と話せる「ECOM AIレッスン」は、無料の会員登録だけで10分お試しいただけます。</span>
+        <em>AI講師を無料で10分試す →</em>
+      </a>
+    </div>
+  </section>
+</div>
