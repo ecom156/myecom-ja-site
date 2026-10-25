@@ -182,7 +182,7 @@ slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>日本人スタッフによる丁寧なサポートで、気持ちよくレッスンを受講頂けるように心がけています。サポート時間は夜22時まで。早朝は6時から対応しています。</p>
+<p>日本人スタッフによる丁寧なサポートで、気持ちよくレッスンを受講頂けるように心がけています。サポート時間は朝8時から夜20時までです。</p>
 </div>
 </div>
 <div class="vc_btn3-container vc_btn3-center vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-peacoc" href="/english/contact/" title=""><i class="vc_btn3-icon fa fa-pencil-square-o"></i> お問い合わせフォーム</a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

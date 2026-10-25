@@ -38,7 +38,7 @@ path: "/english/itbeginner/"
 <div class="wpb_wrapper">
 <p><span style="color: inherit; font-family: inherit; font-size: 25.6px; font-weight: bold; line-height: 34.560001373291016px;"><img loading="lazy" decoding="async" class="alignright size-full wp-image-3851" src="/english/wp-content/uploads/2014/01/character05.jpg" alt="character05" width="145" height="145"></span></p>
 <h2>①<strong><span style="color: #993300;">日本人スタッフによる無料サポート</span></strong></h2>
-<h3>朝8:00- 21:00の間専任の日本人スタッフが対応しています。</h3>
+<h3>朝8:00〜夜20:00の間、専任の日本人スタッフが対応しています。</h3>
 <h3 style="text-align: center;">気軽に相談できます。</h3>
 </div>
 </div>
@@ -125,7 +125,7 @@ path: "/english/itbeginner/"
 <div class="wpb_wrapper">
 <h2><span style="color: inherit; font-family: inherit; font-size: 25.6px;">代表的な質問と回答</span></h2>
 <p><span style="color: #993300;"><strong>Q:電話によるサポートをしてくれると聞きましたが、何時から何時の対応ですか？</strong></span></p>
-<p>午前9時から夜22時まで。土日祝日も含めて対応中です。</p>
+<p>朝8時から夜20時まで。土日祝日も含めて対応中です。</p>
 <p><span style="color: #993300;"><strong>Q:レッスンは、何時から何時までですか？</strong></span></p>
 <p>24時間対応していますので、早朝5時からや、夜22時からのレッスンも可能です。</p>
 <p><span style="color: #993300;"><strong>Q:費用はどれくらいかかりますか？</strong></span></p>
