@@ -470,7 +470,7 @@
       },
       {
         "label": "体験レッスン制度",
-        "href": "/english/children/onlinelessons/trial"
+        "href": "/english/children/trial/"
       },
       {
         "label": "体験談",
@@ -536,7 +536,7 @@
     "postsPage": 7,
     "cta": {
       "label": "体験を予約",
-      "href": "/english/children/onlinelessons/trial"
+      "href": "/english/children/trial/"
     }
   },
   "english_schools": {

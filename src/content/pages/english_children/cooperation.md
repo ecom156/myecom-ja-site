@@ -25,4 +25,4 @@ ECOMは、復習に重点を置いています。
 
 当校先生も、楽しいワクワクする授業を心がけますが、ご家庭でも、授業後のケアをお願いできればと思います。
 
-[![子供オンライン英会話体験レッスン](/english/children/wp-content/uploads/sites/2/2015/01/766523d8c030d573cb1de80d7e622f6b.gif)](/english/children/onlinelessons/trial/)
+[![子供オンライン英会話体験レッスン](/english/children/wp-content/uploads/sites/2/2015/01/766523d8c030d573cb1de80d7e622f6b.gif)](/english/children/trial/)

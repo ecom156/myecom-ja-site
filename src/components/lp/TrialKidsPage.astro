@@ -1,5 +1,142 @@
 ---
-import TrialPage from './TrialPage.astro';
-// 子供の体験レッスン（/english/children/onlinelessons/trial）。中身は TrialPage の子供版
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+
+// 子供の体験レッスン（/english/children/trial/）。子供トップと同じ明るいデザイン（K 2026-10-25）
+// わかること→先生→有料の理由→内容→声→流れ→よくある質問→フォームの順。子供向けではAIは出さない
+const base = '/english/children';
+const up = `${base}/wp-content/uploads/sites/2`;
+const teachers = [
+  { img: '/english/img/teachers/jessica.jpg', name: 'Jessica', flag: '🇺🇸', video: 'https://www.youtube.com/watch?v=oRK_i7xDZWM' },
+  { img: '/english/img/teachers/alan.jpg', name: 'Alan', flag: '🇬🇧', video: 'https://www.youtube.com/watch?v=n_wmSY1kho4' },
+  { img: '/english/img/teachers/kathryn.jpg', name: 'Kathryn', flag: '🇳🇿', video: 'https://www.youtube.com/watch?v=mlphPc3g8CE' },
+];
+const learn = [
+  { c: 'c1', icon: '🤝', title: '先生との相性', text: '入会後に担任になる先生と、本番と同じレッスン。お子さまが楽しく話せるか、そばで確かめられます。' },
+  { c: 'c2', icon: '📊', title: '今の英語のレベル', text: '2回のレッスンのあと、得意なところと課題をまとめたレベル診断レポートを、保護者の方にお渡しします。' },
+  { c: 'c3', icon: '🏅', title: '目標までの道のり', text: '英検®の級や「話せるようになりたい」など、目標までに必要な回数と期間を先生がご提案します。' },
+];
+const reasons = [
+  { icon: '🎓', title: '採用率0.5%のプロ講師', text: '200人に1人の講師が担当します。先生は全員、日本語が分かります。' },
+  { icon: '📝', title: 'お子さまに合わせた事前準備', text: '学年・英語の経験・英検®の目標を読んで、先生が教材と進め方を準備してからレッスンに入ります。' },
+  { icon: '📋', title: '綿密なレベル診断レポート', text: '今のレベル、得意なところと課題、目標までの進め方を、保護者の方にレポートでお渡しします。' },
+];
+const details = [
+  { c: 'c1', icon: '🙋', title: '対象', text: '3歳〜17歳のお子さま。保護者の方がお申込みください。小さいお子さまは、保護者の方が隣にいても大丈夫です。' },
+  { c: 'c2', icon: '🗓️', title: '日時', text: 'レッスンは24時間、早朝や夜も。2回は同じ日でも別の日でもかまいません。' },
+  { c: 'c3', icon: '💻', title: '用意するもの', text: 'パソコンかタブレットと、イヤホンマイク。不安な方は事前相談で音声を確認します。' },
+  { c: 'c4', icon: '💳', title: 'お支払い', text: 'クレジットカード（Square）。決済のリンクをメールでお送りすることはありません。' },
+];
+// 体験レッスンを受けた保護者・生徒の声（旧ページから）
+const voices = [
+  { who: '3歳（お母さま代筆）', text: '先生の熱心な授業に引き込まれました。レッスンのあと「今度いつ会えるの？」と聞くのがうれしくて入会を決めました。' },
+  { who: '8歳（お母さま代筆）', text: '上級レベルの授業にも対応していただけました。マンツーマンでどんどん進めるのがありがたいです。' },
+  { who: '17歳', text: '留学から帰ってきて、英語力を落とさないようにするのに最適でした。イギリス人の先生とイギリスの話題で盛り上がりました。' },
+];
+const faq = [
+  { q: 'なぜ無料ではなく有料なのですか？', a: '採用率0.5%のプロ講師が、事前準備と綿密なレベル診断レポートを作成するためです。お試しのおしゃべりではなく、入会後と同じ本番のレッスンとしてご案内しています。' },
+  { q: '体験のあと、入会しなくてもいいですか？', a: 'はい。強引な勧誘はいたしません。続けたい方だけ、会員サイトからご入会ください。' },
+  { q: '人見知りの子や、小さい子でも大丈夫ですか？', a: 'はい。先生は全員日本語が分かり、担任制で毎回同じ先生なので、だんだん慣れていきます。3歳から受けられ、小さいお子さまは保護者の方が隣にいても大丈夫です。' },
+  { q: '英検®対策の体験もできますか？', a: `はい。お申込みフォームに受験予定の級を書いていただければ、英検®対策の内容で体験できます。<a href="${base}/onlinelessons/courses/examinations/eiken">英検®対策コース</a>もご覧ください。` },
+  { q: '大阪市の塾代助成を使いたいです。', a: `塾代助成をお使いの方は、無料体験（1回）の専用ページからお申込みください。<a href="${base}/osaka-jukudai-josei">大阪市塾代助成のページ</a>` },
+  { q: 'パソコンやオンラインに不安があります。', a: 'お申込みフォームで「事前相談を希望する」を選ぶと、日本人スタッフが音声の確認と予約サイトの使い方をご案内します（8:00〜20:00）。' },
+];
 ---
-<TrialPage kids />
+<div class="lp kd">
+  <section class="lp-sec kd-hero">
+    <span class="kd-float f1" aria-hidden="true">⭐</span>
+    <span class="kd-float f2" aria-hidden="true">🎈</span>
+    <span class="kd-float f3" aria-hidden="true">ABC</span>
+    <span class="kd-float f4" aria-hidden="true">🌈</span>
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="kd-pill">🎒 子供の体験レッスン（3歳〜17歳）</p>
+          <h1>うちの子を分かってくれる<br /><span class="nw">先生か、<span class="kd-mark">体験で</span></span><span class="nw">確かめよう。</span></h1>
+          <div class="lp-btns">
+            <a class="lp-btn" href="#form">{plans.trial.label}</a>
+            <a href="#why">なぜ有料なの？</a>
+          </div>
+          <p class="lp-note">お支払いはお申込み時にクレジットカード（Square）で。強引な勧誘はいたしません。</p>
+        </div>
+        <img src={`${up}/2024/08/online-lessons-elementary-1819x500.jpg`} alt="オンラインで英会話を受ける小学生" />
+      </div>
+      <ul class="kd-points">
+        <li><i class="c1">💴</i><b>{plans.trial.price}</b><span>税込・お一人さま1回</span></li>
+        <li><i class="c2">⏱️</i><b>30分×2回</b><span>60分1回にまとめてもOK</span></li>
+        <li><i class="c3">🇯🇵</i><b>日本語OK</b><span>先生は全員、日本語が分かる</span></li>
+        <li><i class="c4">🏅</i><b>英検®対策も</b><span>受けたい級に合わせて体験</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>🔍</i>体験で分かる、3つのこと</h2>
+      <div class="lp-cards">
+        {learn.map((l) => <div class={`lp-card kd-icon ${l.c}`}><i aria-hidden="true">{l.icon}</i><b>{l.title}</b><span>{l.text}</span></div>)}
+      </div>
+      <div class="kd-teachers">
+        <p><b>こんな先生が待っています</b>写真を押すと、先生のビデオレターが見られます。</p>
+        <ul>
+          {teachers.map((t) => (
+            <li><a href={t.video} target="_blank" rel="noopener"><img src={t.img} alt={`${t.name}先生`} width="400" height="400" loading="lazy" /><b>{t.flag} {t.name}</b><small>▶ ビデオレター</small></a></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-sky" id="why">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2 class="kd-h"><i>💡</i>お試しではなく、本気の体験レッスンです。</h2>
+        <p class="lp-sub">採用率0.5%のプロ講師が、事前準備と綿密なレベル診断レポートを作成するため、有料の体験としてご案内しています。</p>
+      </div>
+      <div class="lp-cards">
+        {reasons.map((r) => <div class="lp-card ad-feat"><i aria-hidden="true">{r.icon}</i><b>{r.title}</b><span>{r.text}</span></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>🎒</i>体験レッスンの内容</h2>
+      <div class="lp-cards">
+        {details.map((d) => <div class={`lp-card kd-icon ${d.c}`}><i aria-hidden="true">{d.icon}</i><b>{d.title}</b><span>{d.text}</span></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-sun">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>😊</i>体験レッスンを受けた方の声</h2>
+      <div class="lp-cards">
+        {voices.map((v) => <figure class="lp-quote kd-voice"><figcaption>{v.who}</figcaption><blockquote>{v.text}</blockquote></figure>)}
+      </div>
+      <p class="lp-sub"><a href={`${base}/onlinelessons/voice`}>体験談の一覧</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2 class="kd-h"><i>🗺️</i>お申込みから体験まで</h2>
+      <ol class="kd-steps">
+        <li class="c1"><i>✍️</i><em>STEP 1</em><b>フォームからお申込み</b><span>入力は1分ほど。送信すると、そのままSquareのお支払い画面に移ります。</span></li>
+        <li class="c2"><i>💻</i><em>STEP 2</em><b>会員サイトで予約</b><span>会員サイトのご案内をメールでお送りします。お好きな先生と時間を選んで予約してください。</span></li>
+        <li class="c3"><i>🗣️</i><em>STEP 3</em><b>体験レッスン（30分×2回）</b><span>最後にレベル診断レポートをお渡しします。続けたい方は、そのまま入会できます。</span></li>
+      </ol>
+      <div class="lp-box kd-box kd-consult">
+        <b>🎧 はじめての方は、無料の事前相談（約15分）もどうぞ</b>
+        <span class="lp-sub">日本人スタッフがオンラインで、音声の確認、お子さまに合う先生やクラスのご提案、予約サイトの使い方をご案内します（8:00〜20:00）。フォームで「希望する」を選んでください。相談のあとにお支払いいただきます。</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-mint">
+    <div class="lp-in narrow">
+      <h2 class="kd-h"><i>❓</i>よくある質問</h2>
+      <Faq items={faq} />
+    </div>
+  </section>
+</div>
