@@ -5,7 +5,7 @@ const { slides } = Astro.props;
 <div class="slider" data-slider>
   {slides.map((s, i) => (
     <div class="slide" hidden={i > 0}>
-      <img src={s.image} alt="" loading={i === 0 ? 'eager' : 'lazy'} />
+      <img src={s.image} alt={s.title ?? ''} loading={i === 0 ? 'eager' : 'lazy'} />
       {(s.title || s.text || s.button) && (
         <div class="slide-text">
           {s.title && <p class="slide-title">{s.title}</p>}

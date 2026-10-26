@@ -123,7 +123,7 @@ const faq = [
       </div>
       <div class="lp-cards">
         {courses.map((c) => (
-          <a class="lp-card ad-course" href={c.href}><img src={c.img} alt="" loading="lazy" /><span class="ad-tag">{c.tag}</span><b>{c.name}</b><span>{c.text}</span><i>くわしく →</i></a>
+          <a class="lp-card ad-course" href={c.href}><img src={c.img} alt={c.name} loading="lazy" /><span class="ad-tag">{c.tag}</span><b>{c.name}</b><span>{c.text}</span><i>くわしく →</i></a>
         ))}
       </div>
       <div class="lp-chips">
@@ -154,7 +154,7 @@ const faq = [
       <h2>受講者の声</h2>
       <div class="lp-cards">
         {voices.map((v) => (
-          <a class="lp-card ad-voice" href={v.href}><img src={v.img} alt="" loading="lazy" /><span class="ad-who">{v.who}</span><b>「{v.quote}」</b><i>続きを読む →</i></a>
+          <a class="lp-card ad-voice" href={v.href}><img src={v.img} alt={v.who} loading="lazy" /><span class="ad-who">{v.who}</span><b>「{v.quote}」</b><i>続きを読む →</i></a>
         ))}
       </div>
       <p class="lp-sub"><a href={`${base}/interview/`}>体験談の一覧</a></p>

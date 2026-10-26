@@ -663,3 +663,4 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
   .pr-facts li { flex: 1 1 calc(50% - 6px); grid-template-columns: 1fr; text-align: center; justify-items: center; padding: 12px 10px; }
   .pr-facts i { grid-row: auto; margin-bottom: 4px; }
 }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

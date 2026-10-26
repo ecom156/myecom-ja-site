@@ -118,7 +118,8 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     {props.page.data.slides.length > 0 && <Slider slides={props.page.data.slides} />}
     <div class="wrap">
       {!props.page.data.front && <nav class="breadcrumb"><a href={home}>Home</a> » {props.page.data.title}</nav>}
-      {!props.page.data.front && <h1>{props.page.data.title}</h1>}
+      {/* トップページ（旧サイトのまま）は見出しがスライダーの画像だけなので、検索エンジン向けに見えない h1 を置く */}
+      {props.page.data.front ? <h1 class="sr-only">{site.name} – {site.tagline}</h1> : <h1>{props.page.data.title}</h1>}
       {template === 'language' && <LanguageIntro path={props.page.data.path} />}
       <div class="prose"><Content /></div>
       {formKeys.map((k) => <Form formKey={k} />)}
