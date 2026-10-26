@@ -1,6 +1,6 @@
 ---
 title: "語学研修選びで気を付けたい5つのチェックポイント"
-path: "/english/corporation/checkpoint/"
+path: "/corporation/checkpoint/"
 ---
 
 <div class="wp-layout">
@@ -80,6 +80,6 @@ path: "/english/corporation/checkpoint/"
 また、<br>
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
 <p>メール（<a href="mailto:info@myecom.net">info@myecom.net</a>）でも受け付けております。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div>
 </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "総合・探求的な学び支援ECOM"
-path: "/english/schools/"
+path: "/schools/"
 front: true
 slides: [{"image":"/english/schools/wp-content/uploads/sites/4/2020/06/slider-kids-1-835x500.jpg","title":"手軽に、異文化、国際授業を実現","text":"世界中の外国人参加の、総合・探究的な学び、外国語授業を支援"}]
 ---

@@ -1,6 +1,6 @@
 ---
 title: "問い合わせ/資料請求（法人専用）"
-path: "/english/corporation/contact/"
+path: "/corporation/contact/"
 forms:
   - english_corporation-1
 ---

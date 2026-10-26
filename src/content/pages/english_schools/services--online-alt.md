@@ -1,6 +1,6 @@
 ---
 title: "ECOMオンラインALT- 公立学校向け"
-path: "/english/schools/services/online-alt/"
+path: "/schools/services/online-alt/"
 ---
 
 <div class="wp-layout">

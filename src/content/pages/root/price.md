@@ -60,7 +60,7 @@ template: "price"
 
 <h2 id="price-business">法人・学校の場合</h2>
 <p>マンツーマンもグループ（10人まで）も、講師1時間7,000円（税抜）です。研修の人数・回数・内容に合わせてお見積りします。グループ研修、マンツーマン研修、研修前後のレベル判定にも対応しています。</p>
-<p><a href="/english/corporation/">法人向けページで資料請求・お見積り</a>　・　<a href="/english/schools/">学校・教職員の方はこちら</a></p>
+<p><a href="/corporation/">法人向けページで資料請求・お見積り</a>　・　<a href="/schools/">学校・教職員の方はこちら</a></p>
 
 <h2 id="payment">お支払い方法</h2>
 <ul>

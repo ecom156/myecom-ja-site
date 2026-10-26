@@ -228,11 +228,11 @@
   "english_schools": [
     {
       "name": "学校事例紹介",
-      "path": "/english/schools/category/cases/"
+      "path": "/schools/category/cases/"
     },
     {
       "name": "授業で役立つもの",
-      "path": "/english/schools/category/tools/"
+      "path": "/schools/category/tools/"
     }
   ],
   "english_news": [
@@ -260,11 +260,11 @@
   "english_corporation": [
     {
       "name": "お知らせ",
-      "path": "/english/corporation/category/news/"
+      "path": "/corporation/category/news/"
     },
     {
       "name": "事例紹介",
-      "path": "/english/corporation/category/事例紹介/"
+      "path": "/corporation/category/事例紹介/"
     }
   ],
   "english_onki": [

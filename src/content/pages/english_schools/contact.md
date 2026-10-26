@@ -1,6 +1,6 @@
 ---
 title: "お問い合わせ"
-path: "/english/schools/contact/"
+path: "/schools/contact/"
 forms:
   - english_schools-1
 ---

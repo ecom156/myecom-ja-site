@@ -2,8 +2,8 @@
 import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
-// 法人研修のトップ（/english/corporation/）。研修の進め方は「成果を測る」「楽しく続ける」の2択、AIはオプション（K 2026-10-24）
-const base = '/english/corporation';
+// 法人研修のトップ（/corporation/）。研修の進め方は「成果を測る」「楽しく続ける」の2択、AIはオプション（K 2026-10-24）
+const base = '/corporation';
 const contact = `${base}/contact/`;
 const docs = `${base}/documents/`;
 const { hourly, entryFee } = plans.corporate;
@@ -136,7 +136,7 @@ const faq = [
     <div class="lp-in">
       <h2>学校・教育機関の方へ</h2>
       <p class="lp-sub">授業内のオンライン英会話や、英検®の面接練習にご利用いただけます。</p>
-      <p><a href="/english/schools/">学校向けのご案内を見る</a>　・　<a href={`${base}/contact-school/`}>ECOMの学校紹介</a></p>
+      <p><a href="/schools/">学校向けのご案内を見る</a>　・　<a href={`${base}/contact-school/`}>ECOMの学校紹介</a></p>
     </div>
   </section>
 
