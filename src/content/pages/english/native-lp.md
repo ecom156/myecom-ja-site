@@ -198,7 +198,7 @@ slides: [{"image":"/english/wp-content/uploads/2014/01/DSC049501-1200x500.jpg","
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>10年以上にわたって2万人を超える生徒様にオンラインレッスンを提供してまいりました。その成果は、言語教育の大学教授の信頼も得ています。</p>
+<p>10年以上にわたって2万人を超える生徒様にオンラインレッスンを提供してまいりました。その成果は、96.5%の受講生が満足して継続していることに表れています。</p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

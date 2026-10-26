@@ -177,7 +177,6 @@ path: "/english/skypeonline-english/"
 <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>また、札幌大学との共同研究で、<a href="/english/improve/">他のオンライン英会話学校より4倍のスピードで、英語上達が見込める結果</a>も出ています。</p>
 <p>よろしければ、下記に実際の受講生の体験談とあわせて、利用を検討ください。</p>
 </div>
 </div>

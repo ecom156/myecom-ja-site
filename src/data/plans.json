@@ -3,12 +3,106 @@
   "osakaFee": "9,000円",
   "monthlyEntry": "入会金は0円です",
   "cancel": "解約は、次回お支払い日の7日前までにご連絡ください",
-  "trial": { "label": "体験レッスン（30分×2回・2,500円）", "price": "2,500円" },
+  "trial": {
+    "label": "体験レッスン（30分×2回・2,500円）",
+    "price": "2,500円"
+  },
   "monthly": [
-    { "key": "m2", "name": "月2回", "price": "6,600円", "lead": "まずは気軽に続けたい方", "url": "https://square.link/u/gdae553r" },
-    { "key": "m3", "name": "月3回", "price": "9,900円", "lead": "大阪市の塾代助成（月1万円まで）で自己負担0円", "badge": "塾代助成対応", "osakaOnly": true },
-    { "key": "m4", "name": "月4回", "price": "13,200円", "lead": "週1回ペース", "ai": "AI講師 毎日3分付き（通常1,980円）", "recommended": true, "url": "https://square.link/u/Jc5UHrVE" },
-    { "key": "m8", "name": "月8回", "price": "26,400円", "lead": "週2回ペース", "ai": "AI講師 毎日10分付き（通常3,980円）", "url": "https://square.link/u/vfRGcuTU" }
+    {
+      "key": "m2",
+      "name": "月2回",
+      "price": "6,600円",
+      "lead": "まずは気軽に続けたい方",
+      "url": "https://square.link/u/gdae553r"
+    },
+    {
+      "key": "m3",
+      "name": "月3回",
+      "price": "9,900円",
+      "lead": "大阪市の塾代助成（月1万円まで）で自己負担0円",
+      "badge": "塾代助成対応",
+      "osakaOnly": true
+    },
+    {
+      "key": "m4",
+      "name": "月4回",
+      "price": "13,200円",
+      "lead": "週1回ペース",
+      "ai": "AI講師 毎日3分付き（通常1,980円）",
+      "recommended": true,
+      "url": "https://square.link/u/Jc5UHrVE"
+    },
+    {
+      "key": "m8",
+      "name": "月8回",
+      "price": "26,400円",
+      "lead": "週2回ペース",
+      "ai": "AI講師 毎日10分付き（通常3,980円）",
+      "url": "https://square.link/u/vfRGcuTU"
+    }
   ],
-  "corporate": { "hourly": "7,000円", "entryFee": "72,000円" }
+  "corporate": {
+    "hourly": "7,000円",
+    "entryFee": "72,000円"
+  },
+  "tickets": [
+    {
+      "n": "3枚",
+      "price": "9,900円",
+      "per": "3,300円",
+      "limit": "1ヶ月"
+    },
+    {
+      "n": "10枚",
+      "price": "38,320円",
+      "per": "3,832円",
+      "limit": "4ヶ月"
+    },
+    {
+      "n": "20枚",
+      "price": "71,340円",
+      "per": "3,567円",
+      "limit": "4ヶ月"
+    },
+    {
+      "n": "30枚",
+      "price": "90,000円",
+      "per": "3,000円",
+      "limit": "1ヶ月",
+      "badge": "短期集中"
+    },
+    {
+      "n": "40枚",
+      "price": "135,960円",
+      "per": "3,399円",
+      "limit": "6ヶ月"
+    },
+    {
+      "n": "80枚",
+      "price": "252,720円",
+      "per": "3,159円",
+      "limit": "8ヶ月"
+    },
+    {
+      "n": "160枚",
+      "price": "479,520円",
+      "per": "2,997円",
+      "limit": "12ヶ月",
+      "badge": "いちばんお得"
+    }
+  ],
+  "ticketDiscount": [
+    {
+      "n": "累計150枚以上",
+      "off": "5%OFF"
+    },
+    {
+      "n": "累計300枚以上",
+      "off": "10%OFF"
+    },
+    {
+      "n": "累計500枚以上",
+      "off": "15%OFF"
+    }
+  ]
 }

@@ -45,7 +45,7 @@ path: "/english/children/kidsteensonline"
 </tr>
 <tr>
 <td width="72">レッスンカリキュラム</td>
-<td width="220"><strong>言語教育の大学教授の意見も受けながら、厳選したカリキュラム提供。</strong></td>
+<td width="220"><strong>担任の先生が、お子さまの目標とレベルに合わせて厳選したカリキュラムを提供。</strong></td>
 <td width="220">おしゃべり中心</td>
 </tr>
 <tr>

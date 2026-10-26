@@ -223,25 +223,6 @@ template: "language"
 <p></p>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_dotted vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-comment"></span></div></div><h4>言語の専門家の方からの声</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3><strong>言語学の教授として、ECOMロシア語ネットの教育方法を推薦します。</strong></h3>
-<p>実際に私が長年指導する大学で教える教授法と同等レベルのロシア語教育を、ECOMではオンラインで効率的に提供してくれます。とてもお勧めです。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="279" src="/russian/wp-content/uploads/sites/8/2018/03/jidanov-comment-small-300x279.jpg" class="vc_single_image-img attachment-medium" alt="" title="jidanov-comment-small"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>札幌大学ジダーノフ教授（言語学専門）</p>
-</div>
-</div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_dotted vc_sep_pos_align_center vc_sep_color_blue vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-commenting-o"></span></div></div><h4>学校長からロシア語学習者へ一言</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
@@ -306,7 +287,6 @@ template: "language"
 <h3>○資格試験</h3>
 <h4><b><span lang="ru" xml:lang="ru">・ТРКИ</span></b>（テ・エル・カ・イ）（ロシア語検定試験）：</h4>
 <p>ロシア政府認定の国家資格です。6段階にレベル分けされており、ロシアの大学留学の最低限必要とされるのは、下から3番目のLevel1となります。</p>
-<p>なお、当校Ecom顧問のジダーノフ教授は、<b><span lang="ru" xml:lang="ru">ТРКИ</span></b>（テ・エル・カ・イ）試験の日本責任者兼、試験官をされています。</p>
 <h4>・ロシア語能力検定：</h4>
 <p>日本国内の民間試験で4級から1級まで分かれています。国内向けなので、取得してもロシア留学などには使えません。あくまでロシア語学習の客観的成果を得る目的が主となります。<br>
 名前が紛らわしいので、ロシア語検定試験（テ・エル・カ・イ）と間違えて受験する人も多いです。</p>

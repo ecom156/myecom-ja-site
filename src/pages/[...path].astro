@@ -15,7 +15,8 @@ import TrialPage from '../components/lp/TrialPage.astro';
 import TrialKidsPage from '../components/lp/TrialKidsPage.astro';
 import TeachersKidsPage from '../components/lp/TeachersKidsPage.astro';
 import LanguageIntro from '../components/lp/LanguageIntro.astro';
-import PricePlans from '../components/lp/PricePlans.astro';
+import PricePage from '../components/lp/PricePage.astro';
+import KidsShell from '../components/lp/KidsShell.astro';
 import languages from '../data/languages.json';
 import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, allCategories, inCategory, chunk, param, langOf, langForPath, type Site } from '../lib';
 
@@ -80,10 +81,12 @@ const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
 const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;
+// 子供サイトは、専用デザインのないページも子供向けの枠で表示する（K 2026-10-26）
+const kids = site.key === 'english_children';
 const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
 {props.kind === 'page' && Landing && (
@@ -100,14 +103,23 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     {(template === 'adult' || template === 'kids' || template === 'corporate') && <LangBlog lang="english" />}
   </Base>
 )}
-{props.kind === 'page' && !Landing && (
+{props.kind === 'page' && !Landing && kids && (
+  <Base site={site} title={props.page.data.title} description={description} noindex={props.page.data.noindex}>
+    <KidsShell title={props.page.data.title}>
+      <div class="prose kd-prose"><Content /></div>
+      {formKeys.map((k) => <Form formKey={k} />)}
+      {props.page.body?.includes('data-recent-posts') && <RecentGrid site={site} />}
+      {props.list && <PostList list={props.list} pageNo={props.pageNo!} pages={props.pages!} base={props.page.data.path} />}
+    </KidsShell>
+  </Base>
+)}
+{props.kind === 'page' && !Landing && !kids && (
   <Base site={site} title={props.page.data.front ? site.name : props.page.data.title} description={description} noindex={props.page.data.noindex}>
     {props.page.data.slides.length > 0 && <Slider slides={props.page.data.slides} />}
     <div class="wrap">
       {!props.page.data.front && <nav class="breadcrumb"><a href={home}>Home</a> » {props.page.data.title}</nav>}
       {!props.page.data.front && <h1>{props.page.data.title}</h1>}
       {template === 'language' && <LanguageIntro path={props.page.data.path} />}
-      {template === 'price' && <PricePlans />}
       <div class="prose"><Content /></div>
       {formKeys.map((k) => <Form formKey={k} />)}
       {props.page.body?.includes('data-recent-posts') && <RecentGrid site={site} />}
@@ -116,7 +128,27 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     {template === 'language' && langForPath(props.page.data.path) && <LangBlog lang={langForPath(props.page.data.path)!} />}
   </Base>
 )}
-{props.kind === 'post' && (
+{props.kind === 'post' && kids && (
+  <Base site={site} title={props.post.data.title} description={props.post.data.description} image={props.post.data.image} type="article" lang={langOf(props.post)} published={props.post.data.date} modified={props.post.data.updated}>
+    <KidsShell title={props.post.data.title} crumbs={[{ href: blogPath(site), label: 'ブログ' }]}>
+      <p slot="meta" class="kd-meta">
+        <span>📅 {formatDate(props.post.data.date)}</span>
+        {props.post.data.categories.map((c) => {
+          const href = categoryPath(site.key, c);
+          return href ? <a class="kd-tag" href={href}>{c}</a> : <span class="kd-tag">{c}</span>;
+        })}
+      </p>
+      <div class="layout">
+        <article class="prose kd-prose"><Content />{formKeys.map((k) => <Form formKey={k} />)}</article>
+        <aside class="sidebar kd-side">
+          <h2>📚 カテゴリー</h2>
+          <ul>{allCategories(site.key, sitePosts).filter((c) => !c.parent).map((c) => <li><a href={c.path}>{c.name}</a></li>)}</ul>
+        </aside>
+      </div>
+    </KidsShell>
+  </Base>
+)}
+{props.kind === 'post' && !kids && (
   <Base site={site} title={props.post.data.title} description={props.post.data.description} image={props.post.data.image} type="article" lang={langOf(props.post)} published={props.post.data.date} modified={props.post.data.updated}>
     <div class="wrap layout">
       <article>
@@ -139,7 +171,14 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     </div>
   </Base>
 )}
-{props.kind === 'list' && (
+{props.kind === 'list' && kids && (
+  <Base site={site} title={props.title}>
+    <KidsShell title={props.title}>
+      <PostList list={props.list} pageNo={props.pageNo} pages={props.pages} base={props.base} />
+    </KidsShell>
+  </Base>
+)}
+{props.kind === 'list' && !kids && (
   <Base site={site} title={props.title}>
     <div class="wrap">
       <nav class="breadcrumb"><a href={home}>Home</a> » {props.title}</nav>

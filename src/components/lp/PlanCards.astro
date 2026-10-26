@@ -2,10 +2,11 @@
 import plans from '../../data/plans.json';
 
 // 月額プランのカード。料金・申込みリンク（Square）・入会金の文言は src/data/plans.json の1か所で直す。月3回（塾代助成対応）は大阪市塾代助成のページ（OsakaPage）だけに出す（K 2026-10-24：ほかの保護者が迷うため）
+// compact: 下の注意書きを出さない（料金ページはアイコン付きの短い一覧で見せる）
 // signup: 申込みボタンを出す（料金ページだけ。体験のあとに料金ページから申し込んでもらう）
 // 料金ページ以外では、チケットのまとめ買い（自動更新なし）への帯も出す（K 2026-10-24：サブスクが苦手な方向け）
-interface Props { signup?: boolean }
-const { signup = false } = Astro.props;
+interface Props { signup?: boolean; compact?: boolean }
+const { signup = false, compact = false } = Astro.props;
 const list = plans.monthly.filter((p) => !p.osakaOnly);
 ---
 <div class="lp-cards">
@@ -19,7 +20,7 @@ const list = plans.monthly.filter((p) => !p.osakaOnly);
     </div>
   ))}
 </div>
-<p class="lp-note">{plans.unit}。{plans.monthlyEntry}。月額プランはカード払いで毎月自動更新です。{signup && `${plans.cancel}。`}</p>
+{!compact && <p class="lp-note">{plans.unit}。{plans.monthlyEntry}。月額プランはカード払いで毎月自動更新です。{signup && `${plans.cancel}。`}</p>}
 {!signup && (
   <a class="ticket-band" href="/price/#price-adult">
     <i aria-hidden="true">🎫</i>
