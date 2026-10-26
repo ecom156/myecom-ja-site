@@ -23,23 +23,6 @@ slides: [{"image":"/english/schools/wp-content/uploads/sites/4/2020/06/slider-ki
 <p style="text-align: center;">ECOMサービスは、慶應SFCアントレプレナーAwardで選出され、高く評価されています。</p>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="150" height="150" src="/english/schools/wp-content/uploads/sites/4/2015/01/jidanov-comment-150x150.jpg" class="vc_single_image-img attachment-thumbnail" alt="言語学教授推薦" title="言語学教授推薦"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">言語学の権威。札幌大学教授ジダーノフ氏</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>ECOMとは、2011年から言語教育の共同研究を続けてきました。</p>
-<p>専門家として、日本の多くの学校が、イーコムの最先端のEdTechサービスを活用されることを期待しています。</p>
-</div>
-</div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-sandy_brown vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fas fa-trophy"></span></div></div><h4>ECOMが選ばれる理由</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">

@@ -195,6 +195,10 @@
 /english/schools/services/sougou/lecturer/ /schools/services/sougou/lecturer/ 301
 /english/schools/services/sougou/lecturer /schools/services/sougou/lecturer/ 301
 
+# 大学教授との共同調査レポートは連携終了で削除（K 2026-10-26）
+/english/pdf/report-school-hikaku2018.pdf /corporation/documents/ 301
+/english/pdf/flyer-hikaku-report.pdf /corporation/documents/ 301
+
 # ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
 /wp-admin/* / 301
 /blog/author/* /blog/ 301

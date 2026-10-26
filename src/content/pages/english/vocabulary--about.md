@@ -35,37 +35,6 @@ path: "/english/vocabulary/about/"
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-left">
-<div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey">
-<span class="vc_icon_element-icon fa fa-bullhorn"></span></div>
-</div>
-<h4>大学教授からの推薦</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>『赤ん坊が言葉を覚えるように習う』と言うと、「大人は違う！」と強く否定される方がいますが、とてももったいないです。</p>
-<p> </p>
-<p>今、言語教育の世界で、<strong>母国語(日本語)を介さないで外国語を覚えるやり方</strong>は、最も効果の高い方法だと知られています。</p>
-<p> </p>
-<p>ただその指導法に経験が求められるため、学校や講師の多くがやってこなかっただけです。</p>
-<p> </p>
-<p>またその理論をベースに、しっかりとした学習システムを開発できる人がいなかったのが問題なのです。</p>
-<p> </p>
-<p><strong><span style="color: #ff6600;">Ecomで行っている語彙習得方法は、<br/>
-</span></strong><strong><span style="color: #ff6600;">言語教育のもっともよい方法を、最先端のITでアレンジした非常に効果の高いもので、私の周りの人に、積極利用を薦めています。</span></strong></p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img alt="大学教授" loading="lazy" src="/english/vocabulary/img/jidanov2.jpg"/></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p><small>世界的な言語教育の第一人者、札幌大学教授ジダーノフ氏</small></p>
-</div>
-</div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_dashed vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>Memoryが身につくしくみ(特徴)</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_icon_element-align-left">
@@ -184,7 +153,7 @@ path: "/english/vocabulary/about/"
 </tr>
 <tr>
 <td>開発チーム</td>
-<td>大学教授やプロの語学講師陣中心</td>
+<td>プロの語学講師陣中心</td>
 <td>ITに強いが語学教育の素人中心</td>
 <td>–</td>
 </tr>

@@ -1,0 +1,35 @@
+---
+import plans from '../../data/plans.json';
+
+// 子供サイトの、専用デザインがないページ（旧サイトから移したページ・ブログ・一覧）を子供トップと同じ雰囲気で包む（K 2026-10-26）
+// 見出しの帯 → 本文 → 体験への案内。本文の見た目は global.css の .kd-prose で子供向けにそろえる
+interface Props { title: string; crumbs?: { href: string; label: string }[] }
+const { title, crumbs = [] } = Astro.props;
+const base = '/english/children';
+---
+<div class="kd kd-sub">
+  <section class="lp-sec kd-hero kd-subhero">
+    <span class="kd-float f1" aria-hidden="true">⭐</span>
+    <span class="kd-float f2" aria-hidden="true">🎈</span>
+    <span class="kd-float f4" aria-hidden="true">🌈</span>
+    <div class="lp-in">
+      <nav class="breadcrumb"><a href={`${base}/`}>🏠 子供のオンライン英会話</a>{crumbs.map((c) => <> » <a href={c.href}>{c.label}</a></>)} » {title}</nav>
+      <p class="kd-pill">🎒 ネイティブ講師の子供オンライン英会話（3歳〜17歳）</p>
+      <h1>{title}</h1>
+      <slot name="meta" />
+    </div>
+  </section>
+  <section class="lp-sec kd-body">
+    <div class="lp-in">
+      <slot />
+    </div>
+  </section>
+  <section class="lp-sec kd-end">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>まずは体験レッスンで、先生に会ってみませんか。</p>
+        <a class="lp-btn" href={`${base}/trial/`}>{plans.trial.label}</a>
+      </div>
+    </div>
+  </section>
+</div>

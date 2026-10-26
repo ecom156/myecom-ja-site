@@ -13,7 +13,6 @@ path: "/english/improve/"
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>世界的言語学者ジダーノフ教授（札大）との共同実証実験</p>
 <p>オンライン英会話利用の学生効果測定結果から、</p>
 <p><span style="color: #ff6600;"><strong>ECOMオンライン英会話が、比較となったフィリピン英会話より4倍効果が実証</strong></span>。</p>
 </div>
@@ -26,11 +25,7 @@ path: "/english/improve/"
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="709" height="1024" src="/english/wp-content/uploads/2024/08/c4776623c41a62773890662f3ce9211f-709x1024.jpg" class="vc_single_image-img attachment-large" alt="" title="スクリーンショット 2024-08-10 155240"></div>
-</figure>
-</div>
+
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_blue vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>レポートから分かる、ECOMが4倍上達する理由</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
 </div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">

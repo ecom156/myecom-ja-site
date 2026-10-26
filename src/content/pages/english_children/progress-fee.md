@@ -8,7 +8,7 @@ path: "/english/children/progress-fee"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>よく頂く質問や相談に、『<strong>どれくらいやれば上達しますか？</strong>』というものがあります。</p>
-<p>正直人によるのですが、当校10年以上の間に、2万人以上の生徒様のカウンセリングをやサービス提供を通して得た知見から、大まかな時間数が出せるようになりました（言語学の権威ウラジーミル教授監修）。</p>
+<p>正直人によるのですが、当校10年以上の間に、2万人以上の生徒様のカウンセリングをやサービス提供を通して得た知見から、大まかな時間数が出せるようになりました。</p>
 </div>
 </div>
 <div class="wpb_text_column wpb_content_element">
