@@ -35,6 +35,7 @@ const inputType = (t: string) => (t === 'email' ? 'email' : t === 'phone' ? 'tel
       <input type="hidden" name="form" value={formKey} />
       <input type="hidden" name="page" value={here} />
       <input type="hidden" name="thanks" value={thanks ?? ''} />
+      <input type="hidden" name="via" value="" />
       {form.fields.map((f) => (
         <div class="field">
           {f.type === 'checkbox' || f.type === 'radio' || f.type === 'consent' ? (
@@ -77,6 +78,12 @@ const inputType = (t: string) => (t === 'email' ? 'email' : t === 'phone' ? 'tel
   // 送信を Google アナリティクスに記録する（GA の管理画面で generate_lead をキーイベントにすると申込み数として数えられる）
   // そのまま送信するとページ移動で記録が送られないことがあるので、GA に届いてから（長くても2秒で）送信する
   const form = box?.querySelector('form');
+  // 価格.com の法人比較ページは、このフォームを枠（iframe）で埋め込んで表示している。枠の中か、価格.com から来たときは「kakaku」と印を付け、
+  // GA の lead_source と通知メールの件名に出す（K 2026-10-26）。ほかのサイトでは枠に入れていないので、枠の中なら価格.com とみなす
+  let framed = false;
+  try { framed = window.top !== window.self; } catch { framed = true; }
+  const via = framed || /(^|\.)kakaku\.com$/.test((() => { try { return new URL(document.referrer).hostname; } catch { return ''; } })()) || location.pathname.includes('/kakaku/') ? 'kakaku' : '';
+  if (form && via) form.elements.namedItem('via').value = via;
   let sending = false;
   form?.addEventListener('submit', (e) => {
     if (sending || typeof gtag !== 'function') return;
@@ -84,7 +91,7 @@ const inputType = (t: string) => (t === 'email' ? 'email' : t === 'phone' ? 'tel
     sending = true;
     let done = false;
     const go = () => { if (!done) { done = true; form.submit(); } };
-    gtag('event', 'generate_lead', { form_id: formKey, page_path: location.pathname, event_callback: go, event_timeout: 1500 });
+    gtag('event', 'generate_lead', { form_id: formKey, page_path: location.pathname, lead_source: via || 'site', event_callback: go, event_timeout: 1500 });
     setTimeout(go, 2000);
   });
   const q = new URLSearchParams(location.search);

@@ -71,12 +71,14 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
   const siteName = sites[def.site]?.name ?? 'ECOM';
   const name = values.find((x) => x.f.type === 'text' || x.f.type === 'name')?.v ?? '';
   const kind = isTrial(def.fields.map((f) => f.label).join(' '), page) ? 'お申し込み' : 'お問い合わせ';
+  // 価格.com の比較ページ（フォームを枠で埋め込み）から送られたものは、件名で分かるようにする。印は Form.astro が付ける
+  const via = str('via', 20) === 'kakaku' || page.includes('/kakaku/') ? '［価格.com経由］' : '';
   const body = values.map(({ f, v }) => `■ ${f.label}\n${v || '-'}`).join('\n\n');
   try {
     await send({
       to: [vars.CONTACT_TO ?? 'info@myecom.net'],
       reply_to: email || undefined,
-      subject: `【${siteName}】${kind}：${name || email} 様`,
+      subject: `【${siteName}】${via}${kind}：${name || email} 様`,
       text: `${siteName} のフォームから${kind}がありました。\nページ: ${url.origin}${page}\n\n${body}\n`,
     });
   } catch (e) {
