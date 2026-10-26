@@ -1,6 +1,6 @@
 ---
 title: "ECOMオンラインELT- 私立校、大学向け"
-path: "/english/schools/services/online-elt/"
+path: "/schools/services/online-elt/"
 ---
 
 <div class="wp-layout">

@@ -1,6 +1,6 @@
 ---
 title: "ECOMオンライン第二外国語レッスン"
-path: "/english/schools/services/online-languages/"
+path: "/schools/services/online-languages/"
 ---
 
 <div class="wp-layout">

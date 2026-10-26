@@ -1,9 +1,9 @@
 ---
 title: "語学研修動画作成"
-path: "/english/corporation/edtech/"
+path: "/corporation/edtech/"
 forms:
   - english_corporation-1
-slides: [{"image":"/english/corporation/wp-content/uploads/sites/3/2016/01/slider-youtubegamen-1659x500.jpg","title":"語学研修に動画学習を効果的に取れ入れる","text":"YouTubeで3万人の会員を集めた人気の動画を、御社用に作成いたします。","button":"問い合わせをする","link":"/english/corporation/edtech/#corp-form"}]
+slides: [{"image":"/english/corporation/wp-content/uploads/sites/3/2016/01/slider-youtubegamen-1659x500.jpg","title":"語学研修に動画学習を効果的に取れ入れる","text":"YouTubeで3万人の会員を集めた人気の動画を、御社用に作成いたします。","button":"問い合わせをする","link":"/corporation/edtech/#corp-form"}]
 ---
 
 <div class="wp-layout">

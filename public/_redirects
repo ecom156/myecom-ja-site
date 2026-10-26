@@ -9,8 +9,8 @@
 /english/news/feed/ /english/news/ 301
 /russian/feed/ /russian/ 301
 # 旧サイトでもリンク切れだったページ
-/english/corporation/corp-contact/thankyoupage/ /english/corporation/contact/ 301
-/english/corporation/corp-contact/ /english/corporation/contact/ 301
+/english/corporation/corp-contact/thankyoupage/ /corporation/contact/ 301
+/english/corporation/corp-contact/ /corporation/contact/ 301
 # 料金ページは /price/ に一本化
 /english/price/ /price/ 301
 /english/price /price/ 301
@@ -56,9 +56,9 @@
 # 使わなくなったページ（K 2026-10-24）
 /first/ /system/ 301
 /first /system/ 301
-/english/corporation/inquiry2/ /english/corporation/contact/ 301
-/english/corporation/inquiry2 /english/corporation/contact/ 301
-/english/corporation/inquiry2/thnakyou/ /english/corporation/contact/ 301
+/english/corporation/inquiry2/ /corporation/contact/ 301
+/english/corporation/inquiry2 /corporation/contact/ 301
+/english/corporation/inquiry2/thnakyou/ /corporation/contact/ 301
 # 旧サイトの /onlinelessons/ 付きURLや、移転済みページへのリンク（2026-10-24 リンク切れ点検）
 /english/onlinelessons/support/ /english/trial/support/ 301
 /english/onlinelessons/support /english/trial/support/ 301
@@ -74,7 +74,7 @@
 /english/tokusyouhou/ /tokusyouhou/ 301
 /english/tokusyouhou /tokusyouhou/ 301
 /english/children/onlinelessons/courses/eiken/ /english/children/courses/examinations/eiken/ 301
-/english/corporation/onlinelanguagelessons/report/ /english/corporation/online-group/report/ 301
+/english/corporation/onlinelanguagelessons/report/ /corporation/online-group/report/ 301
 /blog/category/spanish/ /spanish/ 301
 /chinese/trial/ /trial/ 301
 /chinese/onlinelessons/ /chinese/ 301
@@ -97,7 +97,7 @@
 /french/onlinelessons/courses/ /french/ 301
 /arabic/onlinelessons/courses/ /arabic/ 301
 /english/teachers/onlinelessons/laura/ /english/teachers/ 301
-/english/schools/sougou/ /english/schools/ 301
+/english/schools/sougou/ /schools/ 301
 /vocabulary/ /english/vocabulary/ 301
 # 子供サイトのURLから onlinelessons/ を外した（K 2026-10-25）。上の個別の転送が先に効く
 /english/children/onlinelessons/ /english/children/ 301
@@ -108,6 +108,92 @@
 /recommend /aboutecom/ 301
 /english/cm/ /english/ 301
 /english/cm /english/ 301
+
+# 法人・学校を /english/ の下から移した（K 2026-10-26）。画像（wp-content）は旧パスのままなので * を使わずページごとに書く
+/english/corporation/ /corporation/ 301
+/english/corporation /corporation/ 301
+/english/corporation/blog/ /corporation/blog/ 301
+/english/corporation/blog /corporation/blog/ 301
+/english/corporation/category/news/ /corporation/category/news/ 301
+/english/corporation/category/news /corporation/category/news/ 301
+/english/corporation/category/%E4%BA%8B%E4%BE%8B%E7%B4%B9%E4%BB%8B/ /corporation/category/%E4%BA%8B%E4%BE%8B%E7%B4%B9%E4%BB%8B/ 301
+/english/corporation/category/%E4%BA%8B%E4%BE%8B%E7%B4%B9%E4%BB%8B /corporation/category/%E4%BA%8B%E4%BE%8B%E7%B4%B9%E4%BB%8B/ 301
+/english/corporation/checkpoint/ /corporation/checkpoint/ 301
+/english/corporation/checkpoint /corporation/checkpoint/ 301
+/english/corporation/contact-school/ /corporation/contact-school/ 301
+/english/corporation/contact-school /corporation/contact-school/ 301
+/english/corporation/contact/ /corporation/contact/ 301
+/english/corporation/contact /corporation/contact/ 301
+/english/corporation/contact/thankyou/ /corporation/contact/thankyou/ 301
+/english/corporation/contact/thankyou /corporation/contact/thankyou/ 301
+/english/corporation/documents/ /corporation/documents/ 301
+/english/corporation/documents /corporation/documents/ 301
+/english/corporation/edtech/ /corporation/edtech/ 301
+/english/corporation/edtech /corporation/edtech/ 301
+/english/corporation/jcg2024/ /corporation/jcg2024/ 301
+/english/corporation/jcg2024 /corporation/jcg2024/ 301
+/english/corporation/online-group/ /corporation/online-group/ 301
+/english/corporation/online-group /corporation/online-group/ 301
+/english/corporation/online-group/examples/ /corporation/online-group/examples/ 301
+/english/corporation/online-group/examples /corporation/online-group/examples/ 301
+/english/corporation/online-group/price/ /corporation/online-group/price/ 301
+/english/corporation/online-group/price /corporation/online-group/price/ 301
+/english/corporation/online-group/report/ /corporation/online-group/report/ 301
+/english/corporation/online-group/report /corporation/online-group/report/ 301
+/english/corporation/online-private/ /corporation/online-private/ 301
+/english/corporation/online-private /corporation/online-private/ 301
+/english/corporation/oricon-ecom/ /corporation/oricon-ecom/ 301
+/english/corporation/oricon-ecom /corporation/oricon-ecom/ 301
+/english/corporation/virtual-languageschool/ /corporation/virtual-languageschool/ 301
+/english/corporation/virtual-languageschool /corporation/virtual-languageschool/ 301
+/english/corporation/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E3%81%AE%E8%8B%B1%E8%AA%9E%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/ /corporation/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E3%81%AE%E8%8B%B1%E8%AA%9E%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/ 301
+/english/corporation/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E3%81%AE%E8%8B%B1%E8%AA%9E%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99 /corporation/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E5%BA%81%E3%81%AE%E8%8B%B1%E8%AA%9E%E7%A0%94%E4%BF%AE%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/ 301
+/english/schools/ /schools/ 301
+/english/schools /schools/ 301
+/english/schools/active-learning/ /schools/active-learning/ 301
+/english/schools/active-learning /schools/active-learning/ 301
+/english/schools/ai-english-edu/ /schools/ai-english-edu/ 301
+/english/schools/ai-english-edu /schools/ai-english-edu/ 301
+/english/schools/all-english/ /schools/all-english/ 301
+/english/schools/all-english /schools/all-english/ 301
+/english/schools/blog/ /schools/blog/ 301
+/english/schools/blog /schools/blog/ 301
+/english/schools/category/cases/ /schools/category/cases/ 301
+/english/schools/category/cases /schools/category/cases/ 301
+/english/schools/category/tools/ /schools/category/tools/ 301
+/english/schools/category/tools /schools/category/tools/ 301
+/english/schools/contact/ /schools/contact/ 301
+/english/schools/contact /schools/contact/ 301
+/english/schools/current-news-english-school/ /schools/current-news-english-school/ 301
+/english/schools/current-news-english-school /schools/current-news-english-school/ 301
+/english/schools/flashcard/ /schools/flashcard/ 301
+/english/schools/flashcard /schools/flashcard/ 301
+/english/schools/flashcards-present/ /schools/flashcards-present/ 301
+/english/schools/flashcards-present /schools/flashcards-present/ 301
+/english/schools/joint-class-nz2024/ /schools/joint-class-nz2024/ 301
+/english/schools/joint-class-nz2024 /schools/joint-class-nz2024/ 301
+/english/schools/masking-edutainment/ /schools/masking-edutainment/ 301
+/english/schools/masking-edutainment /schools/masking-edutainment/ 301
+/english/schools/mie-ueno-hs/ /schools/mie-ueno-hs/ 301
+/english/schools/mie-ueno-hs /schools/mie-ueno-hs/ 301
+/english/schools/school-classes-privatization/ /schools/school-classes-privatization/ 301
+/english/schools/school-classes-privatization /schools/school-classes-privatization/ 301
+/english/schools/services/ /schools/services/ 301
+/english/schools/services /schools/services/ 301
+/english/schools/services/class-ryuugaku/ /schools/services/class-ryuugaku/ 301
+/english/schools/services/class-ryuugaku /schools/services/class-ryuugaku/ 301
+/english/schools/services/class-ryuugaku/%E7%95%B0%E6%96%87%E5%8C%96%E6%8E%88%E6%A5%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-%E4%BB%96%E7%A4%BE%E6%AF%94%E8%BC%83%E4%B8%80%E8%A6%A7%E8%A1%A8/ /schools/services/class-ryuugaku/%E7%95%B0%E6%96%87%E5%8C%96%E6%8E%88%E6%A5%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-%E4%BB%96%E7%A4%BE%E6%AF%94%E8%BC%83%E4%B8%80%E8%A6%A7%E8%A1%A8/ 301
+/english/schools/services/class-ryuugaku/%E7%95%B0%E6%96%87%E5%8C%96%E6%8E%88%E6%A5%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-%E4%BB%96%E7%A4%BE%E6%AF%94%E8%BC%83%E4%B8%80%E8%A6%A7%E8%A1%A8 /schools/services/class-ryuugaku/%E7%95%B0%E6%96%87%E5%8C%96%E6%8E%88%E6%A5%AD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9-%E4%BB%96%E7%A4%BE%E6%AF%94%E8%BC%83%E4%B8%80%E8%A6%A7%E8%A1%A8/ 301
+/english/schools/services/online-alt/ /schools/services/online-alt/ 301
+/english/schools/services/online-alt /schools/services/online-alt/ 301
+/english/schools/services/online-elt/ /schools/services/online-elt/ 301
+/english/schools/services/online-elt /schools/services/online-elt/ 301
+/english/schools/services/online-languages/ /schools/services/online-languages/ 301
+/english/schools/services/online-languages /schools/services/online-languages/ 301
+/english/schools/services/sougou/ /schools/services/sougou/ 301
+/english/schools/services/sougou /schools/services/sougou/ 301
+/english/schools/services/sougou/lecturer/ /schools/services/sougou/lecturer/ 301
+/english/schools/services/sougou/lecturer /schools/services/sougou/lecturer/ 301
 
 # ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
 /wp-admin/* / 301

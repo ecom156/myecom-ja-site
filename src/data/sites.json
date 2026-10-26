@@ -18,11 +18,11 @@
       },
       {
         "label": "企業・法人",
-        "href": "/english/corporation/"
+        "href": "/corporation/"
       },
       {
         "label": "学校",
-        "href": "/english/schools/"
+        "href": "/schools/"
       },
       {
         "label": "その他の言語",
@@ -338,7 +338,7 @@
           },
           {
             "label": "法人・官公庁の語学研修",
-            "href": "/english/corporation/"
+            "href": "/corporation/"
           },
           {
             "label": "特商法表記",
@@ -533,7 +533,7 @@
   },
   "english_schools": {
     "key": "english_schools",
-    "base": "/english/schools",
+    "base": "/schools",
     "name": "ECOM for Schools",
     "tagline": "総合・探究的な学び支援のECOM",
     "logo": "/english/schools/wp-content/uploads/sites/4/2025/05/logo-ecom-schools.png",
@@ -541,41 +541,41 @@
     "nav": [
       {
         "label": "HOME",
-        "href": "/english/schools/"
+        "href": "/schools/"
       },
       {
         "label": "サービス紹介",
-        "href": "/english/schools/services/",
+        "href": "/schools/services/",
         "children": [
           {
             "label": "ECOM Cultures（イーコム カルチャーズ）",
-            "href": "/english/schools/services/sougou/"
+            "href": "/schools/services/sougou/"
           },
           {
             "label": "ECOMオンラインALT- 公立学校向け",
-            "href": "/english/schools/services/online-alt/"
+            "href": "/schools/services/online-alt/"
           },
           {
             "label": "ECOMオンラインELT- 私立校、大学向け",
-            "href": "/english/schools/services/online-elt/"
+            "href": "/schools/services/online-elt/"
           },
           {
             "label": "ECOMオンライン第二外国語レッスン",
-            "href": "/english/schools/services/online-languages/"
+            "href": "/schools/services/online-languages/"
           }
         ]
       },
       {
         "label": "事例紹介",
-        "href": "/english/schools/category/cases/"
+        "href": "/schools/category/cases/"
       },
       {
         "label": "先生に役立つコンテンツ",
-        "href": "/english/schools/category/tools/"
+        "href": "/schools/category/tools/"
       },
       {
         "label": "お問い合わせ",
-        "href": "/english/schools/contact/"
+        "href": "/schools/contact/"
       }
     ],
     "footer": [],
@@ -686,7 +686,7 @@
   },
   "english_corporation": {
     "key": "english_corporation",
-    "base": "/english/corporation",
+    "base": "/corporation",
     "name": "ECOMオンライン英語研修",
     "tagline": "企業・官公庁・学校のオンライン語学研修",
     "logo": "/english/corporation/wp-content/uploads/sites/3/2018/02/cropped-ECOM250-100.png",
@@ -694,7 +694,7 @@
     "nav": [
       {
         "label": "HOME",
-        "href": "/english/corporation/"
+        "href": "/corporation/"
       },
       {
         "label": "サービス一覧",
@@ -702,29 +702,29 @@
         "children": [
           {
             "label": "オンライン英語研修 グループ",
-            "href": "/english/corporation/online-group/"
+            "href": "/corporation/online-group/"
           },
           {
             "label": "オンライン英語研修 マンツーマン/プライベート",
-            "href": "/english/corporation/online-private/"
+            "href": "/corporation/online-private/"
           },
           {
             "label": "語学研修動画作成",
-            "href": "/english/corporation/edtech/"
+            "href": "/corporation/edtech/"
           }
         ]
       },
       {
         "label": "研修実績",
-        "href": "/english/corporation/online-group/examples/"
+        "href": "/corporation/online-group/examples/"
       },
       {
         "label": "学校紹介",
-        "href": "/english/corporation/contact-school/"
+        "href": "/corporation/contact-school/"
       },
       {
         "label": "ブログ",
-        "href": "/english/corporation/blog/"
+        "href": "/corporation/blog/"
       },
       {
         "label": "その他",
@@ -732,21 +732,21 @@
         "children": [
           {
             "label": "成果の見える語学研修への取り組み",
-            "href": "/english/corporation/online-group/report/"
+            "href": "/corporation/online-group/report/"
           },
           {
             "label": "語学研修選びで気を付けたい5つのチェックポイント",
-            "href": "/english/corporation/checkpoint/"
+            "href": "/corporation/checkpoint/"
           }
         ]
       },
       {
         "label": "問い合わせ/資料請求（法人専用）",
-        "href": "/english/corporation/contact/"
+        "href": "/corporation/contact/"
       },
       {
         "label": "タイプ別",
-        "href": "/english/corporation/#",
+        "href": "/corporation/#",
         "children": [
           {
             "label": "個人(大人)向けHome",
@@ -769,7 +769,7 @@
         "items": [
           {
             "label": "問い合わせ/資料請求（法人専用）",
-            "href": "/english/corporation/contact/"
+            "href": "/corporation/contact/"
           },
           {
             "label": "特定商取引に関する表記",
@@ -782,7 +782,7 @@
     "postsPage": 4,
     "cta": {
       "label": "無料相談",
-      "href": "/english/corporation/contact/"
+      "href": "/corporation/contact/"
     }
   },
   "english_onki": {

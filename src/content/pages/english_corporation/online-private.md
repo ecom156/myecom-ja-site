@@ -1,6 +1,6 @@
 ---
 title: "オンライン英語研修 マンツーマン/プライベート"
-path: "/english/corporation/online-private/"
+path: "/corporation/online-private/"
 ---
 
 <div class="wp-layout">

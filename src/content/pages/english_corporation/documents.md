@@ -1,6 +1,6 @@
 ---
 title: "資料ダウンロード"
-path: "/english/corporation/documents/"
+path: "/corporation/documents/"
 ---
 
 <div class="wp-layout">

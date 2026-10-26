@@ -1,6 +1,6 @@
 ---
 title: "ECOM Cultures 『教室留学』"
-path: "/english/schools/services/class-ryuugaku/"
+path: "/schools/services/class-ryuugaku/"
 ---
 
 <div class="wp-layout">

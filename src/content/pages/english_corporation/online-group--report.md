@@ -1,6 +1,6 @@
 ---
 title: "成果の見える語学研修への取り組み"
-path: "/english/corporation/online-group/report/"
+path: "/corporation/online-group/report/"
 ---
 
 <div class="wp-layout">

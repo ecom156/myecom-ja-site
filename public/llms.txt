@@ -19,8 +19,8 @@
 ## 子供・法人・学校
 
 - [子供のオンライン英会話・英検®対策](https://ja.myecom.net/english/children/): 3歳〜17歳
-- [法人向けオンライン語学研修](https://ja.myecom.net/english/corporation/): 企業・官公庁。研修の初めと半年ごとにレベルを測り、出席と伸びを報告
-- [学校向け（ECOM for Schools）](https://ja.myecom.net/english/schools/)
+- [法人向けオンライン語学研修](https://ja.myecom.net/corporation/): 企業・官公庁。研修の初めと半年ごとにレベルを測り、出席と伸びを報告
+- [学校向け（ECOM for Schools）](https://ja.myecom.net/schools/)
 - [大阪市塾代助成](https://ja.myecom.net/english/children/osaka-jukudai-josei/)
 
 ## その他の言語

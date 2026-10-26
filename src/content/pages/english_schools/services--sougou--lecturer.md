@@ -1,6 +1,6 @@
 ---
 title: "ECOM Cultures レクチャー"
-path: "/english/schools/services/sougou/lecturer/"
+path: "/schools/services/sougou/lecturer/"
 ---
 
 <div class="wp-layout">

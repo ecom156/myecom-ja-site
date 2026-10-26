@@ -1,6 +1,6 @@
 ---
 title: "講師派遣/ 企業内バーチャル語学学校"
-path: "/english/corporation/virtual-languageschool/"
+path: "/corporation/virtual-languageschool/"
 ---
 
 <div class="wp-layout">
@@ -75,6 +75,6 @@ path: "/english/corporation/virtual-languageschool/"
 また、<br>
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
 <p>お電話でも受け付けております。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title="">資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-sandy-brown" href="/corporation/contact/" title="">資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
 </div>
 </div>

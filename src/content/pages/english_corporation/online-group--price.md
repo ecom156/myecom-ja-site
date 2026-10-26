@@ -1,6 +1,6 @@
 ---
 title: "費用"
-path: "/english/corporation/online-group/price/"
+path: "/corporation/online-group/price/"
 ---
 
 <div class="wp-layout">
@@ -60,7 +60,7 @@ path: "/english/corporation/online-group/price/"
 また、<br>
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
 <p>メール（<a href="mailto:info@myecom.net">info@myecom.net</a>）でも受け付けております。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p></p>
@@ -172,7 +172,7 @@ path: "/english/corporation/online-group/price/"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #68d619;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">Step3. 研修成果ご報告</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>・受講履歴（出席表）、修了証、レベル判定などの提出を行うことが可能です。<a href="/english/corporation/onlinelanguagelessons/report/">▶詳しく見る</a></p>
+<p>・受講履歴（出席表）、修了証、レベル判定などの提出を行うことが可能です。<a href="/corporation/online-group/report/">▶詳しく見る</a></p>
 </div>
 </div>
 <div class="wpb_single_image wpb_content_element vc_align_center">
@@ -190,6 +190,6 @@ path: "/english/corporation/online-group/price/"
 また、<br>
 「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
 <p>メール（<a href="mailto:info@myecom.net">info@myecom.net</a>）でも受け付けております。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/english/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
+</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
 </div>
 </div>

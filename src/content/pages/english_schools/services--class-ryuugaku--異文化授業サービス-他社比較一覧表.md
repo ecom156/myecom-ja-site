@@ -1,6 +1,6 @@
 ---
 title: "異文化授業サービス 他社比較一覧表"
-path: "/english/schools/services/class-ryuugaku/異文化授業サービス-他社比較一覧表/"
+path: "/schools/services/class-ryuugaku/異文化授業サービス-他社比較一覧表/"
 ---
 
 探求向け異文化授業で、似たサービスを提供する業者さんもでてきたため、  

@@ -15,8 +15,10 @@ import { sites } from '../lib';
       const slug = parts.pop();
       if (!slug) return;
       const index = await (await fetch('/slug-index.json')).json();
-      const bases = ['/english/children/', '/english/schools/', '/english/news/', '/english/corporation/', '/english/onki/', '/english/', '/monki/', '/russian/'];
-      const base = bases.find((b) => location.pathname.startsWith(b)) ?? '/';
+      // 法人・学校は /english/ の下から移した（K 2026-10-26）。旧URLも移した先で探す
+      const path = location.pathname.replace(/^\/english\/(corporation|schools)\//, '/$1/');
+      const bases = ['/english/children/', '/schools/', '/english/news/', '/corporation/', '/english/onki/', '/english/', '/monki/', '/russian/'];
+      const base = bases.find((b) => path.startsWith(b)) ?? '/';
       const hits = (index[slug] ?? []).filter((p) => p.startsWith(base) && (base !== '/' || !bases.some((b) => p.startsWith(b))));
       if (hits.length === 1) location.replace(hits[0]);
     })();
