@@ -13,12 +13,16 @@
         "href": "/english/children/"
       },
       {
-        "label": "法人・学校",
+        "label": "大人の英会話",
+        "href": "/english/"
+      },
+      {
+        "label": "企業・法人",
         "href": "/english/corporation/"
       },
       {
-        "label": "大人の英会話",
-        "href": "/english/"
+        "label": "学校",
+        "href": "/english/schools/"
       },
       {
         "label": "その他の言語",
@@ -127,20 +131,12 @@
             "href": "/aboutecom/"
           },
           {
-            "label": "大学教授からの推薦",
-            "href": "/recommend/"
-          },
-          {
             "label": "お問い合わせ",
             "href": "/contact/"
           },
           {
             "label": "よくある質問と回答",
             "href": "/faqs/"
-          },
-          {
-            "label": "ECOM中国語ブログ",
-            "href": "/blog/category/chinese/"
           },
           {
             "label": "特定商取引に関する表示",
@@ -311,10 +307,6 @@
           {
             "label": "英語学習のビタミン（ブログ）",
             "href": "/english/blog/"
-          },
-          {
-            "label": "CMギャラリー",
-            "href": "/english/cm/"
           }
         ]
       },
