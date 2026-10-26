@@ -9,7 +9,7 @@ const href = (n: number) => (n === 1 ? base : `${base}page/${n}/`);
 <ul class="post-list">
   {list.map((p) => (
     <li class={p.data.image ? '' : 'no-image'}>
-      {p.data.image && <a href={postPath(p)}><img src={p.data.image} alt="" loading="lazy" /></a>}
+      {p.data.image && <a href={postPath(p)}><img src={p.data.image} alt={p.data.title} loading="lazy" /></a>}
       <div>
         <h2><a href={postPath(p)}>{p.data.title}</a></h2>
         <div class="meta">{formatDate(p.data.date)}{p.data.categories.length > 0 && ` · ${p.data.categories.join('、')}`}</div>

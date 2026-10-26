@@ -10,7 +10,7 @@ const posts = sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === sit
 <div class="recent-grid" data-recent-grid hidden>
   {posts.map((p) => (
     <a class="recent-card" href={postPath(p)}>
-      {p.data.image && <img src={p.data.image} alt="" loading="lazy" />}
+      {p.data.image && <img src={p.data.image} alt={p.data.title} loading="lazy" />}
       <span>{p.data.title}</span>
     </a>
   ))}
