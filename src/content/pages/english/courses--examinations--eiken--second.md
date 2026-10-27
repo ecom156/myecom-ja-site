@@ -78,7 +78,7 @@ template: "course"
 <div><span>一次試験の合格基準</span><b>1520点</b><span>リーディング・ライティング・リスニング 計1950点満点</span></div>
 <div><span>二次試験の合格基準</span><b>460点</b><span>スピーキング 650点満点</span></div>
 </div>
-<p class="lp-note">ライティングは1題だけでも、リーディングやリスニングと同じ650点の重みがあります。要約と英作文で点を落とさないことが、合格への近道です。</p>
+<p class="course-key">ライティングは1題だけでも、リーディングやリスニングと<strong>同じ650点の重み</strong>があります。<br><strong>要約と英作文で点を落とさないことが、合格への近道です。</strong></p>
 </div>
 </section>
 
@@ -120,7 +120,7 @@ template: "course"
 <p class="lp-sub">1回30分（レッスン25分＋先生がフィードバックを書く5分）のマンツーマンです。あなたの得意・苦手を分かっている同じ先生が、試験日まで続けて担当します。</p>
 </div>
 <ol class="lp-steps course-num">
-<li><i aria-hidden="true">🔍</i><em>STEP 1</em><b>今の力を確かめる</b><span>過去問を使って、技能ごとの得意・苦手を確かめ、試験日までの計画を立てます。</span></li>
+<li><i aria-hidden="true">🔍</i><em>STEP 1</em><b>過去問を先生と一緒に解く</b><span>重要パートから順に、過去問を使って先生と一緒に問題を解いていきます。過去問は最低3回分、できれば5回分を解きます。解法のテクニックや、なぜその答えになるのかを先生がその場で教えるので安心です。</span></li>
 <li><i aria-hidden="true">✍️</i><em>STEP 2</em><b>要約と英作文を書き直す</b><span>書いた英文を先生と一緒に直し、点が取れる型と言い換えの表現を身につけます。日本語が分かる先生なので、迷ったところは日本語で確認できます。</span></li>
 <li><i aria-hidden="true">🎤</i><em>STEP 3</em><b>本番と同じ流れで面接練習</b><span>先生が面接委員の役になり、入室から退室まで本番どおりに練習します。終わったらすぐにフィードバックします。</span></li>
 <li><i aria-hidden="true">💡</i><em>STEP 4</em><b>答えに詰まったときの対応も</b><span>質問が聞き取れなかったときの聞き返し方や、考えをまとめる間のつなぎ方など、本番で使えるコツも練習します。</span></li>
@@ -132,10 +132,9 @@ template: "course"
 <div class="lp-in narrow">
 <h2>よくある質問</h2>
 <div class="lp-faq">
-<details><summary>大人でも受けられますか？</summary><p>はい。英検は年齢に関係なく受けられます。このコースは大人の方向けです。お子さまの英検2級対策は、<a href="/english/children/courses/examinations/eiken/second">子供の英検2級対策</a>をご覧ください。</p></details>
 <details><summary>二次試験（面接）の対策だけでも受けられますか？</summary><p>はい。一次試験に合格したあと、面接練習だけを集中して受けることもできます。体験レッスンで、試験日とご希望を先生にお伝えください。</p></details>
 <details><summary>準2級に合格したばかりです。いきなり2級は難しいですか？</summary><p>準2級と2級の間には差があります。今の力を体験レッスンで確かめ、2級を目指すか、2025年度にできた準2級プラスを先に目指すかを一緒に決めましょう。</p></details>
-<details><summary>教材は何を使いますか？</summary><p>英検の公式サイトで公開されている過去問を中心に使います。過去問で苦手が分かったら、その分野に合う教材を先生がご提案します。</p></details>
+<details><summary>教材は何を使いますか？</summary><p>英検の公式サイトで公開されている過去問を中心に使います。</p></details>
 </div>
 </div>
 </section>
