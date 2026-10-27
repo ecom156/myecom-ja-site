@@ -814,16 +814,28 @@
         "href": "/english/onki/"
       },
       {
+        "label": "使い方の例",
+        "href": "/english/onki/use/"
+      },
+      {
+        "label": "頭出し記憶法",
+        "href": "/english/onki/memory/"
+      },
+      {
         "label": "開発ストーリー",
         "href": "/english/onki/story/"
       },
       {
-        "label": "FAQ",
+        "label": "よくある質問",
         "href": "/english/onki/faq/"
       },
       {
-        "label": "問い合わせ",
-        "href": "/english/onki/",
+        "label": "活用コラム",
+        "href": "/english/onki/blog/"
+      },
+      {
+        "label": "お問い合わせ",
+        "href": "/english/onki/contact/",
         "children": [
           {
             "label": "問い合わせフォーム",
@@ -834,10 +846,6 @@
             "href": "/english/onki/ecom/"
           }
         ]
-      },
-      {
-        "label": "活用コラム",
-        "href": "/english/onki/blog/"
       }
     ],
     "footer": [

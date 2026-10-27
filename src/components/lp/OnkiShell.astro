@@ -1,0 +1,71 @@
+---
+import data from '../../data/onki.json';
+
+// Onkiの、専用デザインがないページ（記憶法・開発ストーリー・FAQ・コラムなど）をトップと同じ枠で包む（K 2026-10-27）
+// どのページの最後にも、ダウンロードとほかのページへの入口を置く
+interface Props { title: string; path?: string; crumbs?: { href: string; label: string }[]; usesIndex?: boolean }
+const { title, path = '', crumbs = [], usesIndex = false } = Astro.props;
+const base = '/english/onki';
+const up = '/english/onki/wp-content/uploads/sites/5';
+const { ios, android, uses, pages } = data;
+const isContact = path === `${base}/contact/`;
+const others = pages.filter((p) => p.href !== path);
+---
+<div class="lp ok ok-sub">
+  <section class="lp-sec soft ok-subhero">
+    <div class="lp-in">
+      <nav class="breadcrumb"><a href={`${base}/`}>Onki トップ</a>{crumbs.map((c) => <> » <a href={c.href}>{c.label}</a></>)} » {title}</nav>
+      <h1>{title}</h1>
+      <slot name="meta" />
+    </div>
+  </section>
+
+  {usesIndex ? (
+    <section class="lp-sec">
+      <div class="lp-in">
+        <p class="lp-sub">使っている方から届いた例を紹介します。何を覚えるかは自由なので、参考にしてください。</p>
+        <div class="ok-uses">
+          {uses.map((g) => (
+            <div class="ok-use-group">
+              <h2><i aria-hidden="true">{g.icon}</i>{g.group}</h2>
+              <ul>
+                {g.items.map((u) => (
+                  <li>
+                    <img src={u.img} alt="" width="56" height="56" loading="lazy" />
+                    <span><b>{u.href ? <a href={u.href}>{u.name}</a> : u.name}</b><small>{u.what}</small></span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  ) : (
+    <section class="lp-sec ok-body">
+      <div class="lp-in">
+        <slot />
+      </div>
+    </section>
+  )}
+
+  {!isContact && (
+    <section class="lp-sec soft">
+      <div class="lp-in">
+        <div class="ok-end">
+          <img src={`${up}/2023/05/Onki_Logo-large.gif`} alt="" width="96" height="96" loading="lazy" />
+          <p>Onkiは無料でダウンロードできます</p>
+          <div class="ok-stores">
+            <a href={ios} rel="noopener"><img src={`${up}/2023/05/ios-banner-300x89-1.png`} alt="App Storeからダウンロード" width="300" height="89" loading="lazy" /></a>
+            <a href={android} rel="noopener"><img src={`${up}/2023/05/google-play-badge-570x221-1-300x116.png`} alt="Google Playで手に入れよう" width="300" height="116" loading="lazy" /></a>
+          </div>
+        </div>
+        <div class="ok-mini">
+          {others.map((p) => (
+            <a href={p.href}><i aria-hidden="true">{p.icon}</i><span><b>{p.name}</b><small>{p.what}</small></span></a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</div>

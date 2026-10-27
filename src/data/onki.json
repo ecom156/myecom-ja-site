@@ -1,0 +1,43 @@
+{
+  "ios": "https://apps.apple.com/jp/app/id6446245629",
+  "android": "https://play.google.com/store/apps/details?id=com.ecom.onki",
+  "uses": [
+    {
+      "group": "好きな英語で覚える",
+      "icon": "🎬",
+      "items": [
+        { "name": "英語スピーチ・海外ドラマ", "what": "好きなシーンを録音すると、AIがセリフを文字にします。なりきって覚えられます。", "img": "/english/onki/wp-content/uploads/sites/5/2023/06/young-girl-2763395_1920-150x150.jpg", "href": "/english/onki/mic-function/" },
+        { "name": "洋楽の歌詞", "what": "好きな曲の歌詞を取り込んで、虫食いで覚えます。", "img": "/english/onki/wp-content/uploads/sites/5/2023/06/singer-1545903_1920-150x150.jpg", "href": "/english/onki/mic-function/" },
+        { "name": "英語ニュース・英字新聞", "what": "興味のある記事を取り込んで、毎日の聞き流し素材にします。", "img": "/english/onki/wp-content/uploads/sites/5/2023/05/mockup-of-a-white-iphone-6-at-small-business-counter-bar-150x150.jpg" },
+        { "name": "詩や名文、有名人のスピーチ", "what": "心に残った英文を、音と一緒に覚えます。", "img": "/english/onki/wp-content/uploads/sites/5/2023/05/hd-wallpaper-1174489_1920-150x150.jpg" }
+      ]
+    },
+    {
+      "group": "子供・学生の勉強に",
+      "icon": "🎒",
+      "items": [
+        { "name": "教科書・試験の音源づくり", "what": "教科書や問題を写真に撮ると、ネイティブの音声で読み上げます。", "img": "/english/onki/wp-content/uploads/sites/5/2023/05/english-book-150x150.png", "href": "/english/onki/ocr/" },
+        { "name": "学校や塾の音読・暗記の宿題", "what": "虫食いの英文で、ゲーム感覚で暗記。AIが発音も判定します。", "img": "/english/onki/wp-content/uploads/sites/5/2023/06/English-listening-shadowing-150x150.gif", "href": "/english/onki/memory/" },
+        { "name": "子供向けの英語アニメ", "what": "好きなキャラクターのセリフを文字にして、お子さまの暗記課題にします（家庭内の利用で）。", "img": "/english/onki/wp-content/uploads/sites/5/2023/06/kids-tv-program-square-150x150.jpg", "href": "/english/onki/mic-function/" },
+        { "name": "英語の絵本や物語", "what": "絵本を撮って読み上げ。親子で一緒に音読できます。", "img": "/english/onki/wp-content/uploads/sites/5/2023/05/pig-small-150x150.png" }
+      ]
+    },
+    {
+      "group": "仕事・旅行に",
+      "icon": "💼",
+      "items": [
+        { "name": "英語の授業や会議を録音", "what": "録音を文字にして、自分や相手の英語を振り返ります。", "img": "/english/onki/wp-content/uploads/sites/5/2023/06/character05.jpg", "href": "/english/onki/use/online-lessons-recording/" },
+        { "name": "英語プレゼン・英語日記", "what": "日本語で話すと、AIが英語にします。原稿のたたき台に。", "img": "/english/onki/wp-content/uploads/sites/5/2023/05/silver-iphone-mockup-of-a-girl-lying-on-a-mustard-sofa-a21505-150x150.jpg", "href": "/english/onki/use/translation-presentation-nihongo-eigo/" },
+        { "name": "旅先の翻訳アプリ", "what": "何語か分からなくても、AIが聞き分けて英語にします。", "img": "/english/onki/wp-content/uploads/sites/5/2023/05/mockup-of-a-woman-with-a-denim-jacket-showing-her-rose-gold-iphone-a21504-150x150.jpg" },
+        { "name": "AIが作った英文のメモ", "what": "AIに作ってもらった使える英文を、Onkiに記録して覚えます。", "img": "/english/onki/wp-content/uploads/sites/5/2023/05/PC-icon-150x150.gif" }
+      ]
+    }
+  ],
+  "pages": [
+    { "href": "/english/onki/use/", "icon": "💡", "name": "使い方の例", "what": "12の使い方" },
+    { "href": "/english/onki/memory/", "icon": "🧠", "name": "頭出し記憶法", "what": "特許の暗記の仕組み" },
+    { "href": "/english/onki/story/", "icon": "📖", "name": "開発ストーリー", "what": "なぜOnkiを作ったか" },
+    { "href": "/english/onki/faq/", "icon": "❓", "name": "よくある質問", "what": "料金・対応機種など" },
+    { "href": "/english/onki/blog/", "icon": "📰", "name": "活用コラム", "what": "お知らせと使い方" }
+  ]
+}
