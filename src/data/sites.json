@@ -517,6 +517,10 @@
         "href": "/english/children/contact",
         "children": [
           {
+            "label": "よくある質問",
+            "href": "/english/children/faq"
+          },
+          {
             "label": "ECOMについて",
             "href": "/aboutecom/"
           },
