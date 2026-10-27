@@ -548,26 +548,38 @@
         "href": "/schools/"
       },
       {
-        "label": "サービス紹介",
+        "label": "授業の目的から選ぶ",
         "href": "/schools/services/",
         "children": [
           {
-            "label": "ECOM Cultures（イーコム カルチャーズ）",
-            "href": "/schools/services/sougou/"
+            "label": "異文化授業（ECOM Cultures レクチャー）",
+            "href": "/schools/services/sougou/lecturer/"
           },
           {
-            "label": "ECOMオンラインALT- 公立学校向け",
+            "label": "海外の学校と合同授業（教室留学®）",
+            "href": "/schools/services/class-ryuugaku/"
+          },
+          {
+            "label": "公立校の英語授業（オンラインALT）",
             "href": "/schools/services/online-alt/"
           },
           {
-            "label": "ECOMオンラインELT- 私立校、大学向け",
+            "label": "私立校・大学の英語授業（オンラインELT）",
             "href": "/schools/services/online-elt/"
           },
           {
-            "label": "ECOMオンライン第二外国語レッスン",
+            "label": "第二外国語の授業",
             "href": "/schools/services/online-languages/"
+          },
+          {
+            "label": "ECOM Cultures の2つの形",
+            "href": "/schools/services/sougou/"
           }
         ]
+      },
+      {
+        "label": "費用",
+        "href": "/schools/#price"
       },
       {
         "label": "事例紹介",

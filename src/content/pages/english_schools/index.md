@@ -3,7 +3,7 @@ title: "総合・探求的な学び支援ECOM"
 path: "/schools/"
 description: "小学校・中学校・高校・大学向け。オンラインの外国人講師が、英語の授業や総合・探究的な学び、異文化交流の授業をお手伝いします。世界中の講師とつなぐ国際授業を、手軽に実現できます。"
 front: true
-slides: [{"image":"/english/schools/wp-content/uploads/sites/4/2020/06/slider-kids-1-835x500.jpg","title":"手軽に、異文化、国際授業を実現","text":"世界中の外国人参加の、総合・探究的な学び、外国語授業を支援"}]
+template: "schools"
 ---
 
 <div class="wp-layout">

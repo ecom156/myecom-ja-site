@@ -17,6 +17,8 @@ import TeachersKidsPage from '../components/lp/TeachersKidsPage.astro';
 import LanguageIntro from '../components/lp/LanguageIntro.astro';
 import PricePage from '../components/lp/PricePage.astro';
 import KidsShell from '../components/lp/KidsShell.astro';
+import SchoolsPage from '../components/lp/SchoolsPage.astro';
+import SchoolsShell from '../components/lp/SchoolsShell.astro';
 import languages from '../data/languages.json';
 import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, allCategories, inCategory, chunk, param, langOf, langForPath, type Site } from '../lib';
 
@@ -81,12 +83,14 @@ const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
 const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;
 // 子供サイトは、専用デザインのないページも子供向けの枠で表示する（K 2026-10-26）
 const kids = site.key === 'english_children';
+// 学校サイトも、専用デザインのないページを学校トップと同じ枠で表示する。見るのは学校の先生（K 2026-10-27）
+const schools = site.key === 'english_schools';
 const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
 {props.kind === 'page' && Landing && (
@@ -113,7 +117,17 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     </KidsShell>
   </Base>
 )}
-{props.kind === 'page' && !Landing && !kids && (
+{props.kind === 'page' && !Landing && schools && (
+  <Base site={site} title={props.page.data.title} description={description} noindex={props.page.data.noindex}>
+    <SchoolsShell title={props.page.data.title} path={props.page.data.path} servicesIndex={props.page.data.path === '/schools/services/'} crumbs={props.page.data.path.startsWith('/schools/services/') && props.page.data.path !== '/schools/services/' ? [{ href: '/schools/services/', label: '授業の目的から選ぶ' }] : []}>
+      <div class="prose sc-prose"><Content /></div>
+      {formKeys.map((k) => <Form formKey={k} />)}
+      {props.page.body?.includes('data-recent-posts') && <RecentGrid site={site} />}
+      {props.list && <PostList list={props.list} pageNo={props.pageNo!} pages={props.pages!} base={props.page.data.path} />}
+    </SchoolsShell>
+  </Base>
+)}
+{props.kind === 'page' && !Landing && !kids && !schools && (
   <Base site={site} title={props.page.data.front ? site.name : props.page.data.title} description={description} noindex={props.page.data.noindex}>
     {props.page.data.slides.length > 0 && <Slider slides={props.page.data.slides} />}
     <div class="wrap">
@@ -149,7 +163,21 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     </KidsShell>
   </Base>
 )}
-{props.kind === 'post' && !kids && (
+{props.kind === 'post' && schools && (
+  <Base site={site} title={props.post.data.title} description={props.post.data.description} image={props.post.data.image} type="article" lang={langOf(props.post)} published={props.post.data.date} modified={props.post.data.updated}>
+    <SchoolsShell title={props.post.data.title} crumbs={props.post.data.categories.map((c) => ({ href: categoryPath(site.key, c) ?? blogPath(site), label: c })).slice(0, 1)}>
+      <p slot="meta" class="sc-meta">{formatDate(props.post.data.date)}</p>
+      <div class="layout">
+        <article class="prose sc-prose"><Content />{formKeys.map((k) => <Form formKey={k} />)}</article>
+        <aside class="sidebar sc-side">
+          <h2>カテゴリー</h2>
+          <ul>{allCategories(site.key, sitePosts).filter((c) => !c.parent).map((c) => <li><a href={c.path}>{c.name}</a></li>)}</ul>
+        </aside>
+      </div>
+    </SchoolsShell>
+  </Base>
+)}
+{props.kind === 'post' && !kids && !schools && (
   <Base site={site} title={props.post.data.title} description={props.post.data.description} image={props.post.data.image} type="article" lang={langOf(props.post)} published={props.post.data.date} modified={props.post.data.updated}>
     <div class="wrap layout">
       <article>
@@ -179,7 +207,14 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     </KidsShell>
   </Base>
 )}
-{props.kind === 'list' && !kids && (
+{props.kind === 'list' && schools && (
+  <Base site={site} title={props.title}>
+    <SchoolsShell title={props.title}>
+      <PostList list={props.list} pageNo={props.pageNo} pages={props.pages} base={props.base} />
+    </SchoolsShell>
+  </Base>
+)}
+{props.kind === 'list' && !kids && !schools && (
   <Base site={site} title={props.title}>
     <div class="wrap">
       <nav class="breadcrumb"><a href={home}>Home</a> » {props.title}</nav>

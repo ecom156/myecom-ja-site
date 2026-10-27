@@ -1,5 +1,5 @@
 ---
-title: "サービス紹介"
+title: "授業の目的から選ぶ（サービス紹介）"
 path: "/schools/services/"
 ---
 
