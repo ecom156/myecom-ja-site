@@ -43,7 +43,13 @@
   ],
   "corporate": {
     "hourly": "7,000円",
-    "entryFee": "72,000円"
+    "entryFee": "72,000円",
+    "group": [
+      { "size": "2〜10人", "fee": "20%", "hourly": "8,400円" },
+      { "size": "11〜30人", "fee": "30%", "hourly": "9,100円" },
+      { "size": "31〜50人", "fee": "50%", "hourly": "10,500円" },
+      { "size": "51人以上", "fee": "100%", "hourly": "14,000円" }
+    ]
   },
   "tickets": [
     {
