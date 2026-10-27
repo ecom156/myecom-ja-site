@@ -19,6 +19,8 @@ import PricePage from '../components/lp/PricePage.astro';
 import KidsShell from '../components/lp/KidsShell.astro';
 import SchoolsPage from '../components/lp/SchoolsPage.astro';
 import SchoolsShell from '../components/lp/SchoolsShell.astro';
+import BeginnerPage from '../components/lp/BeginnerPage.astro';
+import FeaturesPage from '../components/lp/FeaturesPage.astro';
 import OnkiPage from '../components/lp/OnkiPage.astro';
 import OnkiShell from '../components/lp/OnkiShell.astro';
 import languages from '../data/languages.json';
@@ -85,7 +87,7 @@ const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : template === 'beginner' ? BeginnerPage : template === 'features' ? FeaturesPage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
 const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;

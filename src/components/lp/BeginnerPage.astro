@@ -1,0 +1,145 @@
+---
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+
+// 英語初心者の方へ（/english/types/beginner/）。大人トップの「初心者こそ、ネイティブ講師から。」をここへ移した（K 2026-10-27）
+// 「先生の前だと緊張する」「間違いを聞かれるのが恥ずかしい」という初心者に、まずECOM AI英会話で慣れてから先生と話す道をすすめる
+const base = '/english';
+const ai = 'https://ai.myecom.net/';
+const trial = '/trial/';
+const worries = [
+  { icon: '😳', q: '先生の前だと、緊張して言葉が出てこない', a: 'AIが相手なら、誰にも見られていません。考える時間をとっても、言い直しても大丈夫です。' },
+  { icon: '🙊', q: '間違えるのを、人に聞かれるのが恥ずかしい', a: '何度間違えても、聞いているのはAIだけ。恥ずかしい思いをせずに、口に出す練習ができます。' },
+  { icon: '⏰', q: 'レッスンの時間を決めるのが、まだ不安', a: '予約はいりません。思い立ったときに、すぐに話せます。' },
+];
+const points = [
+  { icon: '📞', title: '電話のように、そのまま話せる', text: 'ボタンを押して順番に話すのではなく、人と電話で話すように会話が進みます。' },
+  { icon: '💬', title: '話の途中で割り込める。待たされない', text: '言い直したいときは、途中で話しかけて大丈夫。AIの返事を待つ時間もほとんどありません。' },
+  { icon: '🧠', title: 'あなたのことを覚えている', text: '前回のクラスで話したことを覚えていて、続きから授業をします。毎回自己紹介から始める必要はありません。' },
+];
+const reasons = [
+  { icon: '🗣️', title: '日本語が分かる先生が、あなたの担任に。', text: '講師は全員、日本語が分かります。分からないところは日本語で確認できるので、英語だけで固まってしまうことがありません。探して選ぶ必要もありません。' },
+  { icon: '👂', title: '最初に覚える英語が、そのまま通じる。', text: '発音も言い回しも、最初から自然な英語で。あとから直す手間がありません。' },
+  { icon: '✍️', title: '間違いを、正しく直せる。', text: '「通じるけど不自然」な英語も、日本人がつまずく理由まで分かったうえで直します。レッスン後には先生が書いたフィードバックが残ります。' },
+];
+const m4 = plans.monthly.find((p) => p.key === 'm4')!;
+const faq = [
+  { q: 'まったく話せなくても、AI英会話を使えますか？', a: 'はい。短いあいさつや、知っている単語からで大丈夫です。AI講師が質問しながら、会話を進めてくれます。' },
+  { q: 'AIだけで英語は話せるようになりますか？', a: '口に出すことに慣れるには、AIはとても向いています。そのうえで、自然な言い回しや、日本人がつまずくところを直すのは、プロの先生が得意です。慣れてきたら、先生とのレッスンと組み合わせるのがおすすめです。' },
+  { q: 'ネイティブの先生だと、初心者には難しくないですか？', a: '先生は全員、日本語が分かります。分からないところは日本語で確認でき、日本人の初心者を教え慣れた先生が、ゆっくりやさしい英語で進めます。' },
+  { q: 'パソコンやスマホの操作が苦手です。', a: `日本人スタッフが設定からお手伝いします。<a href="${base}/itbeginner/">パソコンが苦手な方・シニアの方へ</a>もご覧ください。` },
+];
+---
+<div class="lp ad bg">
+  <section class="lp-sec soft bg-hero">
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="bg-pill">🔰 英語初心者の方へ</p>
+          <h1>はじめての英会話は、<br /><span class="nw">緊張しない相手から。</span></h1>
+          <p class="lp-lead">「先生の前だと緊張する」「間違えるのを聞かれるのが恥ずかしい」。そんな方は、まずECOMのAI英会話で、英語を口に出すことに慣れてみませんか。</p>
+          <div class="lp-btns">
+            <a class="lp-btn" href={ai} target="_blank" rel="noopener">まずは無料で、AI講師と10分話してみる</a>
+          </div>
+          <p class="lp-note">無料の会員登録だけで、すぐに話せます。</p>
+        </div>
+        <div class="bg-phone" aria-label="AI英会話の会話の例">
+          <p class="bg-call"><span>📞</span>ECOM AI 講師と通話中</p>
+          <p class="bg-msg ai">Hi! Last time, you told me about your trip to Kyoto. How was it?</p>
+          <p class="bg-msg me">It was... um... very fun!</p>
+          <p class="bg-msg ai">Great! What did you eat there?</p>
+          <p class="bg-msg me">I ate... tofu? Yudofu!</p>
+          <p class="bg-hint">前回の話を覚えていて、続きから話しかけてくれます</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>こんな気持ち、ありませんか？</h2>
+        <p class="lp-sub">英語をはじめたばかりの方から、いちばんよく聞く悩みです。</p>
+      </div>
+      <div class="bg-worries">
+        {worries.map((w) => (
+          <div class="bg-worry">
+            <p class="bg-q"><i aria-hidden="true">{w.icon}</i>{w.q}</p>
+            <p class="bg-a"><b>AI英会話なら</b>{w.a}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">ECOM AI英会話</p>
+        <h2>あなたを覚えているAI講師と、<span class="nw">電話のように話せる。</span></h2>
+        <p class="lp-sub">2005年から語学を教えてきたECOMが作った、英会話のためのAI講師です。</p>
+      </div>
+      <div class="lp-cards">
+        {points.map((p) => (
+          <div class="lp-card ad-feat"><i aria-hidden="true">{p.icon}</i><b>{p.title}</b><span>{p.text}</span></div>
+        ))}
+      </div>
+      <div class="lp-box">
+        <b>料金</b>
+        <span class="lp-sub">無料の会員登録で、AI講師と10分話せます。ECOMの月4回プラン（{m4.price}）には{m4.ai?.replace('付き', '')}が、月8回プランには毎日10分が付いています。</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>AIで慣れたら、先生と。<span class="nw">おすすめの進め方</span></h2>
+      </div>
+      <ol class="lp-steps">
+        <li><em>STEP 1</em><b>AI講師と、毎日少しずつ</b><span>あいさつや自己紹介など、短い会話から。英語を口に出すことに慣れます。</span></li>
+        <li><em>STEP 2</em><b>先生の体験レッスン</b><span>日本語が分かるネイティブの先生と、30分×2回。今のレベルと目標を一緒に確かめます。</span></li>
+        <li><em>STEP 3</em><b>先生とAIの両方で続ける</b><span>先生のレッスンで直してもらい、間の日はAIで練習。話す量が増えるほど、上達が早くなります。</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>初心者こそ、<span class="nw">ネイティブ講師から。</span></h2>
+        <p class="lp-sub">「ネイティブの先生は難しそう」と思っている方へ。</p>
+      </div>
+      <div class="lp-cards">
+        {reasons.map((r, i) => (
+          <div class={`lp-card ad-feat${i === 0 ? ' ad-key' : ''}`}><i aria-hidden="true">{r.icon}</i><b>{r.title}</b><span>{r.text}</span></div>
+        ))}
+      </div>
+      <div class="lp-chips">
+        <a href={`${base}/courses/basic/`}>🌱 中学英語から始める（基礎力養成コース）</a>
+        <a href={`${base}/teachers/`}>👩‍🏫 講師を見る</a>
+        <a href={`${base}/itbeginner/`}>💻 パソコンが苦手な方・シニアの方へ</a>
+        <a href={`${base}/features/`}>📊 ほかのオンライン英会話との違い</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in narrow">
+      <h2>よくある質問</h2>
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>まずはAIと、気軽に話してみませんか。</p>
+        <div class="lp-btns">
+          <a class="lp-btn" href={ai} target="_blank" rel="noopener">無料でAI講師と話してみる</a>
+          <a class="lp-btn navy" href={trial}>先生の{plans.trial.label}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

@@ -189,7 +189,7 @@
             "href": "/english/courses/examinations/"
           },
           {
-            "label": "英語初心者の方へ",
+            "label": "🔰 英語初心者の方へ",
             "href": "/english/types/beginner/"
           },
           {
@@ -266,8 +266,12 @@
       },
       {
         "label": "ECOMの特徴",
-        "href": "#",
+        "href": "/english/features/",
         "children": [
+          {
+            "label": "ECOMの特徴・ほかとの違い（比較表）",
+            "href": "/english/features/"
+          },
           {
             "label": "サービスのコンセプト",
             "href": "/english/concept/"
