@@ -6,6 +6,7 @@
 /sample-page/ / 301
 /english/feed/ /english/ 301
 /english/children/feed/ /english/children/ 301
+/english/children/feed/rss/ /english/children/ 301
 /english/news/feed/ /english/news/ 301
 /russian/feed/ /russian/ 301
 # 旧サイトでもリンク切れだったページ
@@ -47,6 +48,8 @@
 /italian/blog /italian/ 301
 /portuguese/blog/ /portuguese/ 301
 /portuguese/blog /portuguese/ 301
+/russian/blog/ /russian/ 301
+/russian/blog /russian/ 301
 # 古い体験フォーム（ロシア語の振込・PayPal、世界の言語体験キャンペーン）は全言語共通の /trial/ にまとめた
 /russian/onlinelessons/trial/ /trial/ 301
 /russian/onlinelessons/trial /trial/ 301
@@ -195,6 +198,13 @@
 /english/schools/services/sougou/lecturer/ /schools/services/sougou/lecturer/ 301
 /english/schools/services/sougou/lecturer /schools/services/sougou/lecturer/ 301
 
+# Search Console の 404（2026-10-27）
+/children/onlinelessons /english/children/ 301
+/children/onlinelessons/ /english/children/ 301
+/blog/english /blog/ 301
+/blog/english/ /blog/ 301
+/english/onki/use/%E8%8B%B1%E8%AA%9E%E6%8E%88%E6%A5%AD%E3%82%84%E4%BC%9A%E8%AD%B0%E3%82%92%E9%8C%B2%E9%9F%B3%E2%86%92%E6%96%87%E5%AD%97%E5%8C%96/ /english/onki/use/online-lessons-recording/ 301
+
 # ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
 /wp-admin/* / 301
 /blog/author/* /blog/ 301
@@ -205,3 +215,5 @@
 /english/children/onlinelessons/courses/teap/* /english/children/courses/examinations/teap/:splat 301
 /vocabulary/* /english/vocabulary/ 301
 /english/children/onlinelessons/* /english/children/:splat 301
+# 学校の旧記事URL（/english/schools/2024/06/08/<記事>/）
+/english/schools/:y/:m/:d/:slug/ /schools/:slug/ 301
