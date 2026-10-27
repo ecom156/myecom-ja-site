@@ -90,6 +90,12 @@ const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
+// コースページの本文の <div data-include="名前"></div> を src/shared/名前.html に置き換える。
+// 大人と子供の英検ページなど、同じ試験の説明を1か所で直せるようにするため（K 2026-10-27）
+const shared = import.meta.glob('../shared/*.html', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const courseHtml = template === 'course' && entry?.rendered?.html
+  ? entry.rendered.html.replace(/<div data-include="([\w-]+)"><\/div>/g, (_, name) => shared[`../shared/${name}.html`] ?? '')
+  : undefined;
 const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : template === 'beginner' ? BeginnerPage : template === 'features' ? FeaturesPage : template === 'faqs' ? FaqsPage : template === 'faqsKids' ? FaqsKidsPage : template === 'level' ? LevelPage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
@@ -119,7 +125,7 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
 {/* コース・クラスの説明ページ（template: course）。本文の HTML が .lp の部品で組んであるので、枠を付けずにそのまま出す（K 2026-10-27） */}
 {props.kind === 'page' && template === 'course' && (
   <Base site={site} title={props.page.data.title} description={description} noindex={props.page.data.noindex}>
-    <div class="lp ad course"><Content /></div>
+    <div class={kids ? 'lp kd course' : 'lp ad course'}>{courseHtml ? <Fragment set:html={courseHtml} /> : <Content />}</div>
   </Base>
 )}
 {props.kind === 'page' && !Landing && template !== 'course' && kids && (
