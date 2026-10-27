@@ -5,6 +5,7 @@ import plans from '../../data/plans.json';
 
 // 大人のオンライン英会話のトップ（/english/）。日本語が分かるネイティブ講師→初心者・特徴への入口→レベル別コース→特長→体験談→料金→はじめ方の順（K 2026-10-25）
 // 「初心者こそ、ネイティブ講師から。」は /english/types/beginner/、比較表は /english/features/ へ移した（K 2026-10-27）
+// 初心者ページはレベルで選ぶのタグへ、特徴ページは「ECOMの特徴」の詳しく見るへ（入口の帯は廃止、K 2026-10-27）
 const base = '/english';
 const up = `${base}/wp-content/uploads`;
 const trial = '/trial/';
@@ -77,15 +78,6 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec ad-guide-sec">
-    <div class="lp-in">
-      <div class="ad-guide">
-        <a href={`${base}/types/beginner/`}><i aria-hidden="true">🔰</i><span><b>英語初心者の方へ</b>先生の前だと緊張する方は、AI英会話で慣れてから</span><em>→</em></a>
-        <a href={`${base}/features/`}><i aria-hidden="true">📊</i><span><b>ECOMの特徴</b>ほかのオンライン英会話との違いを、表で比べました</span><em>→</em></a>
-      </div>
-    </div>
-  </section>
-
   <section class="lp-sec">
     <div class="lp-in">
       <div class="lp-head">
@@ -98,9 +90,10 @@ const faq = [
         ))}
       </div>
       <div class="lp-chips">
+        <a href={`${base}/types/beginner/`}>🔰 英語初心者の方へ</a>
         <a href={`${base}/courses/business/`}>💼 ビジネス英語</a>
         <a href={`${base}/courses/examinations/`}>🏅 TOEIC®・英検®・IELTS・TOEFL®</a>
-        <a href={`${base}/itbeginner/`}>🔰 パソコンが苦手な方・シニアの方へ</a>
+        <a href={`${base}/itbeginner/`}>💻 パソコンが苦手な方・シニアの方へ</a>
         <a href={`${base}/types/overseas/`}>✈️ 海外にお住まいの方へ</a>
         <a href={`${base}/visual/`}>👂 視覚障害のある方へ</a>
         <a href={`${base}/courses/classlists/`}>📋 50以上のクラスの一覧</a>
@@ -111,7 +104,10 @@ const faq = [
 
   <section class="lp-sec soft">
     <div class="lp-in">
-      <h2>ECOMの特長</h2>
+      <div class="ad-feat-head">
+        <h2>ECOMの特徴</h2>
+        <a href={`${base}/features/`}>ほかのオンライン英会話との違いを詳しく見る →</a>
+      </div>
       <div class="lp-cards ad-feats">
         {features.map((f) => (
           <div class="lp-card ad-feat"><i aria-hidden="true">{f.icon}</i><b>{f.title}</b><span>{f.text}</span>{f.href && <a href={f.href}>くわしく</a>}</div>

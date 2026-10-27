@@ -208,6 +208,12 @@
 /english/onki/ai-writing/ /english/onki/ 301
 /english/onki/ai-writing /english/onki/ 301
 
+# 基礎力養成コースは ECOM英会話 初級に統一したので、旧クラスのページを転送（K 2026-10-27）
+/english/courses/basic/class-basic1/ /english/courses/basic/ 301
+/english/courses/basic/class-basic1 /english/courses/basic/ 301
+/english/courses/high/general/class-basic2/ /english/courses/basic/ 301
+/english/courses/high/general/class-basic2 /english/courses/basic/ 301
+
 # ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
 /wp-admin/* / 301
 /blog/author/* /blog/ 301

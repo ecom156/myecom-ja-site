@@ -13,12 +13,7 @@ path: "/english/courses/classlists/"
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<p>・<a title="25時間完成、基礎力養成クラス1" href="/english/onlinelessons/courses/basic/class-basic1/">25時間完成、基礎力養成クラス1</a></p>
-<p>・25時間完成、基礎力養成クラス2</p>
-<p>・32時間完成、0からの基礎力養成（文法重視）</p>
-<p>・32時間完成、基礎力養成1（文法重視）</p>
-<p>・20時間完成、シニア向けやり直し英語1</p>
-<p>・20時間完成、シニア向けやり直し英語2</p>
+<p>・<a href="/english/courses/basic/">ECOM英会話 初級（全60Unit）</a></p>
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
