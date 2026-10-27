@@ -19,6 +19,10 @@ import PricePage from '../components/lp/PricePage.astro';
 import KidsShell from '../components/lp/KidsShell.astro';
 import SchoolsPage from '../components/lp/SchoolsPage.astro';
 import SchoolsShell from '../components/lp/SchoolsShell.astro';
+import BeginnerPage from '../components/lp/BeginnerPage.astro';
+import FeaturesPage from '../components/lp/FeaturesPage.astro';
+import OnkiPage from '../components/lp/OnkiPage.astro';
+import OnkiShell from '../components/lp/OnkiShell.astro';
 import languages from '../data/languages.json';
 import { sites, categories, tags, siteOf, siteKeyOf, sortPosts, postPath, blogPath, formatDate, categoryPath, allCategories, inCategory, chunk, param, langOf, langForPath, type Site } from '../lib';
 
@@ -83,7 +87,7 @@ const { Content } = entry ? await render(entry) : { Content: undefined };
 const formKeys = entry?.data.forms ?? [];
 const home = `${site.base}/`;
 const template = props.kind === 'page' ? props.page.data.template : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : template === 'beginner' ? BeginnerPage : template === 'features' ? FeaturesPage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
 const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;
@@ -91,6 +95,8 @@ const description = props.kind === 'page' ? props.page.data.description ?? (lang
 const kids = site.key === 'english_children';
 // 学校サイトも、専用デザインのないページを学校トップと同じ枠で表示する。見るのは学校の先生（K 2026-10-27）
 const schools = site.key === 'english_schools';
+// Onki（アプリ）も、専用デザインのないページをトップと同じ枠で表示する（K 2026-10-27）
+const onki = site.key === 'english_onki';
 const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
 {props.kind === 'page' && Landing && (
@@ -127,7 +133,17 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     </SchoolsShell>
   </Base>
 )}
-{props.kind === 'page' && !Landing && !kids && !schools && (
+{props.kind === 'page' && !Landing && onki && (
+  <Base site={site} title={props.page.data.title} description={description} noindex={props.page.data.noindex}>
+    <OnkiShell title={props.page.data.title} path={props.page.data.path} usesIndex={props.page.data.path === '/english/onki/use/'} crumbs={props.page.data.path.startsWith('/english/onki/use/') && props.page.data.path !== '/english/onki/use/' ? [{ href: '/english/onki/use/', label: '使い方の例' }] : []}>
+      <div class="prose ok-prose"><Content /></div>
+      {formKeys.map((k) => <Form formKey={k} />)}
+      {props.page.body?.includes('data-recent-posts') && <RecentGrid site={site} />}
+      {props.list && <PostList list={props.list} pageNo={props.pageNo!} pages={props.pages!} base={props.page.data.path} />}
+    </OnkiShell>
+  </Base>
+)}
+{props.kind === 'page' && !Landing && !kids && !schools && !onki && (
   <Base site={site} title={props.page.data.front ? site.name : props.page.data.title} description={description} noindex={props.page.data.noindex}>
     {props.page.data.slides.length > 0 && <Slider slides={props.page.data.slides} />}
     <div class="wrap">
@@ -177,7 +193,15 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     </SchoolsShell>
   </Base>
 )}
-{props.kind === 'post' && !kids && !schools && (
+{props.kind === 'post' && onki && (
+  <Base site={site} title={props.post.data.title} description={props.post.data.description} image={props.post.data.image} type="article" lang={langOf(props.post)} published={props.post.data.date} modified={props.post.data.updated}>
+    <OnkiShell title={props.post.data.title} crumbs={[{ href: blogPath(site), label: '活用コラム' }]}>
+      <p slot="meta" class="sc-meta">{formatDate(props.post.data.date)}</p>
+      <article class="prose ok-prose ok-narrow"><Content />{formKeys.map((k) => <Form formKey={k} />)}</article>
+    </OnkiShell>
+  </Base>
+)}
+{props.kind === 'post' && !kids && !schools && !onki && (
   <Base site={site} title={props.post.data.title} description={props.post.data.description} image={props.post.data.image} type="article" lang={langOf(props.post)} published={props.post.data.date} modified={props.post.data.updated}>
     <div class="wrap layout">
       <article>
@@ -214,7 +238,14 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
     </SchoolsShell>
   </Base>
 )}
-{props.kind === 'list' && !kids && !schools && (
+{props.kind === 'list' && onki && (
+  <Base site={site} title={props.title}>
+    <OnkiShell title={props.title}>
+      <PostList list={props.list} pageNo={props.pageNo} pages={props.pages} base={props.base} />
+    </OnkiShell>
+  </Base>
+)}
+{props.kind === 'list' && !kids && !schools && !onki && (
   <Base site={site} title={props.title}>
     <div class="wrap">
       <nav class="breadcrumb"><a href={home}>Home</a> » {props.title}</nav>

@@ -1,0 +1,75 @@
+---
+import plans from '../../data/plans.json';
+
+// ECOMの特徴（/english/features/）。大人トップの「ほかのオンライン英会話との違い」の比較表をここへ移した（K 2026-10-27）
+const base = '/english';
+const trial = '/trial/';
+const points = [
+  { icon: '🗣️', title: '講師は全員、日本語が分かるネイティブ', text: '分からないところは日本語で確認できます。日本語が分かる先生を、自分で探す必要はありません。' },
+  { icon: '🧑‍🏫', title: '毎回同じ先生の担任制', text: 'あなたの英語を分かっている先生が、続けて教えます。毎回自己紹介から始めることはありません。' },
+  { icon: '🏅', title: '採用率0.5%のプロ講師', text: '200人に1人の基準で選んだ講師です。講師の平均在籍は11年。講師都合の急なキャンセルは、ごくまれです。' },
+  { icon: '🎯', title: '目的に合わせた専門クラス', text: 'おしゃべりだけで終わらせず、50以上のクラスから目的に合うものを選べます。' },
+];
+---
+<div class="lp ad">
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">ECOMの特徴</p>
+        <h1>ほかのオンライン英会話との<span class="nw">違い</span></h1>
+        <p class="lp-lead">オンライン英会話は、講師・日本語・担任制で大きく変わります。ECOMとよくある2つのタイプを比べました。</p>
+      </div>
+      <div class="lp-cards ad-feats">
+        {points.map((p) => (
+          <div class="lp-card ad-feat"><i aria-hidden="true">{p.icon}</i><b>{p.title}</b><span>{p.text}</span></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>比較表</h2>
+      <div class="lp-table">
+        <table>
+          <thead><tr><th></th><th>ECOM</th><th>フィリピン人講師中心の格安オンライン英会話</th><th>アメリカ発のネイティブ系オンライン英会話</th></tr></thead>
+          <tbody>
+            <tr><th>講師</th><td>ネイティブ</td><td>フィリピン人講師が中心</td><td>ネイティブ</td></tr>
+            <tr><th>日本語の理解</th><td>全員が分かる。探さなくてよい</td><td>分からない講師がほとんど</td><td>分かる講師は一部。自分で検索して選ぶ</td></tr>
+            <tr><th>担任制（毎回同じ先生）</th><td>あり</td><td>毎回変わることが多い</td><td>毎回変わることが多い</td></tr>
+            <tr><th>講師の採用</th><td>採用率0.5%</td><td>大量採用</td><td>—</td></tr>
+            <tr><th>講師都合の急なキャンセル</th><td>ごくまれ</td><td>多い</td><td>—</td></tr>
+            <tr><th>予約の変更・キャンセル</th><td>1時間前まで</td><td>24時間前までが多い</td><td>—</td></tr>
+            <tr><th>レッスン</th><td>目的に合わせた専門クラス</td><td>おしゃべり中心</td><td>—</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="lp-note">2025年1月 自社調べ。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>もっとくわしく比べる</h2>
+      <div class="lp-cards">
+        <a class="lp-card" href={`${base}/skypeonline-english/`}><b>ほかのオンライン英会話との比較</b><span>料金・講師・レッスンの中身を、さらにくわしく比べています。</span><i>読む →</i></a>
+        <a class="lp-card" href={`${base}/schoool-hikaku/`}><b>街中の英会話教室との比較</b><span>通学の英会話教室と、オンラインのECOMの違いです。</span><i>読む →</i></a>
+        <a class="lp-card" href={`${base}/points/`}><b>失敗しない5つのポイント</b><span>オンライン英会話を選ぶときに、確かめておきたいことです。</span><i>読む →</i></a>
+        <a class="lp-card" href={`${base}/native-lp/`}><b>ネイティブ講師選び 4つのポイント</b><span>ネイティブ講師のオンライン英会話を選ぶときの注意点です。</span><i>読む →</i></a>
+      </div>
+      <p class="lp-sub">英語をはじめたばかりの方は、<a href={`${base}/types/beginner/`}>🔰 英語初心者の方へ</a>もご覧ください。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>違いは、体験レッスンで確かめてください。</p>
+        <div class="lp-btns">
+          <a class="lp-btn" href={trial}>{plans.trial.label}</a>
+          <a href="/price/">料金を見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

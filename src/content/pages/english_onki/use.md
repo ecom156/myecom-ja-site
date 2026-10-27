@@ -1,5 +1,5 @@
 ---
-title: "Onki活用事例紹介"
+title: "Onkiの使い方の例"
 path: "/english/onki/use/"
 ---
 

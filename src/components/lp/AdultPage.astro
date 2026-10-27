@@ -3,7 +3,8 @@ import PlanCards from './PlanCards.astro';
 import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
-// 大人のオンライン英会話のトップ（/english/）。日本語が分かるネイティブ講師→初心者の不安への答え→比較→レベル別コース→特長→体験談→料金→はじめ方の順（K 2026-10-25）
+// 大人のオンライン英会話のトップ（/english/）。日本語が分かるネイティブ講師→初心者・特徴への入口→レベル別コース→特長→体験談→料金→はじめ方の順（K 2026-10-25）
+// 「初心者こそ、ネイティブ講師から。」は /english/types/beginner/、比較表は /english/features/ へ移した（K 2026-10-27）
 const base = '/english';
 const up = `${base}/wp-content/uploads`;
 const trial = '/trial/';
@@ -11,11 +12,6 @@ const teachers = [
   { img: '/english/img/teachers/jessica.jpg', video: 'https://www.youtube.com/watch?v=oRK_i7xDZWM', name: 'Jessica', flag: '🇺🇸', from: 'アメリカ' },
   { img: '/english/img/teachers/alan.jpg', video: 'https://www.youtube.com/watch?v=n_wmSY1kho4', name: 'Alan', flag: '🇬🇧', from: 'イギリス' },
   { img: '/english/img/teachers/kathryn.jpg', video: 'https://www.youtube.com/watch?v=mlphPc3g8CE', name: 'Kathryn', flag: '🇳🇿', from: 'ニュージーランド' },
-];
-const reasons = [
-  { icon: '🗣️', title: '日本語が分かる先生が、あなたの担任に。', text: '講師は全員、日本語が分かります。分からないところは日本語で確認できるので、英語だけで固まってしまうことがありません。探して選ぶ必要もありません。' },
-  { icon: '👂', title: '最初に覚える英語が、そのまま通じる。', text: '発音も言い回しも、最初から自然な英語で。あとから直す手間がありません。' },
-  { icon: '✍️', title: '間違いを、正しく直せる。', text: '「通じるけど不自然」な英語も、日本人がつまずく理由まで分かったうえで直します。レッスン後には先生が書いたフィードバックが残ります。' },
 ];
 const courses = [
   { href: `${base}/courses/basic/`, img: '/wp-content/uploads/2023/01/online-lesson.png', tag: '🌱 初心者・やり直し', name: '中学英語から始めたい', text: '基礎力養成コース。文法と発音を日本語の説明つきで固めて、話せる土台をつくります。' },
@@ -81,38 +77,12 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec ad-guide-sec">
     <div class="lp-in">
-      <div class="lp-head">
-        <h2>初心者こそ、<span class="nw">ネイティブ講師から。</span></h2>
-        <p class="lp-sub">「ネイティブの先生は難しそう」と思っている方へ。</p>
+      <div class="ad-guide">
+        <a href={`${base}/types/beginner/`}><i aria-hidden="true">🔰</i><span><b>英語初心者の方へ</b>先生の前だと緊張する方は、AI英会話で慣れてから</span><em>→</em></a>
+        <a href={`${base}/features/`}><i aria-hidden="true">📊</i><span><b>ECOMの特徴</b>ほかのオンライン英会話との違いを、表で比べました</span><em>→</em></a>
       </div>
-      <div class="lp-cards">
-        {reasons.map((r, i) => (
-          <div class={`lp-card ad-feat${i === 0 ? ' ad-key' : ''}`}><i aria-hidden="true">{r.icon}</i><b>{r.title}</b><span>{r.text}</span></div>
-        ))}
-      </div>
-    </div>
-  </section>
-
-  <section class="lp-sec soft">
-    <div class="lp-in">
-      <h2>ほかのオンライン英会話との違い</h2>
-      <div class="lp-table">
-        <table>
-          <thead><tr><th></th><th>ECOM</th><th>フィリピン人講師中心の格安オンライン英会話</th><th>アメリカ発のネイティブ系オンライン英会話</th></tr></thead>
-          <tbody>
-            <tr><th>講師</th><td>ネイティブ</td><td>フィリピン人講師が中心</td><td>ネイティブ</td></tr>
-            <tr><th>日本語の理解</th><td>全員が分かる。探さなくてよい</td><td>分からない講師がほとんど</td><td>分かる講師は一部。自分で検索して選ぶ</td></tr>
-            <tr><th>担任制（毎回同じ先生）</th><td>あり</td><td>毎回変わることが多い</td><td>毎回変わることが多い</td></tr>
-            <tr><th>講師の採用</th><td>採用率0.5%</td><td>大量採用</td><td>—</td></tr>
-            <tr><th>講師都合の急なキャンセル</th><td>ごくまれ</td><td>多い</td><td>—</td></tr>
-            <tr><th>予約の変更・キャンセル</th><td>1時間前まで</td><td>24時間前までが多い</td><td>—</td></tr>
-            <tr><th>レッスン</th><td>目的に合わせた専門クラス</td><td>おしゃべり中心</td><td>—</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p class="lp-note">2025年1月 自社調べ。もっとくわしく：<a href={`${base}/skypeonline-english/`}>ほかのオンライン英会話との比較</a>　・　<a href={`${base}/schoool-hikaku/`}>街中の英会話教室との比較</a>　・　<a href={`${base}/points/`}>失敗しない5つのポイント</a></p>
     </div>
   </section>
 

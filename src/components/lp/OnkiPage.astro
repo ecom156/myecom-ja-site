@@ -1,0 +1,199 @@
+---
+import Faq from './Faq.astro';
+import data from '../../data/onki.json';
+
+// 英語の音読暗記アプリ Onki のトップ（/english/onki/）。見るのはアプリを探している英語学習者と保護者（K 2026-10-27）
+// 知りたい順：何のアプリか（無料・ダウンロード）→ できること → 覚え方の仕組み → 使い方の例 → 選ばれる理由と口コミ → 質問 → ECOMの先生
+const base = '/english/onki';
+const up = '/english/onki/wp-content/uploads/sites/5';
+const { ios, android, uses, pages } = data;
+const faq = [
+  { q: '本当に無料ですか？', a: 'はい、無料です。ECOM語学学校の授業料で運営しているので、アプリは無料でお使いいただけます。' },
+  { q: 'どの端末で使えますか？', a: 'iPhone・iPad・Androidのスマホとタブレットで使えます。パソコンとChromebookには、まだ対応していません。' },
+  { q: '英語以外の外国語にも使えますか？', a: 'カメラとマイクで取り込めるのは、英語だけです。ほかの言語でマイクに話しかけると英語にして返すので、翻訳アプリとして使えます。' },
+  { q: 'マイクやカメラが使えません。', a: 'アプリにマイクやカメラの使用を許可していない可能性があります。スマホの「設定」→「アプリ」→「Onki」から許可してください。' },
+  { q: '機種を変えたら、作った英文は引き継げますか？', a: '引き継げません。著作権に配慮して、作った英文や音声はスマホの中だけに保存しています。' },
+];
+---
+<div class="lp ok">
+  <section class="lp-sec soft ok-hero">
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="ok-pill"><img src={`${up}/2023/05/Onki_Logo-large.gif`} alt="" width="40" height="40" />Onki（おんき）英語の音読暗記アプリ</p>
+          <h1>英語の引き出しを、<br /><span class="nw">音でどんどん増やす。</span></h1>
+          <p class="lp-lead">好きなドラマや教科書の英文を、録音や写真で取り込むだけ。ネイティブの音声と虫食いの英文で、声に出して覚えます。</p>
+          <ul class="lp-proof">
+            <li><b>完全無料</b></li>
+            <li>AIが<b>発音を判定</b></li>
+            <li><b>特許</b>の頭出し記憶法</li>
+          </ul>
+          <div class="ok-stores">
+            <a href={ios} rel="noopener"><img src={`${up}/2023/05/ios-banner-300x89-1.png`} alt="App Storeからダウンロード" width="300" height="89" /></a>
+            <a href={android} rel="noopener"><img src={`${up}/2023/05/google-play-badge-570x221-1-300x116.png`} alt="Google Playで手に入れよう" width="300" height="116" /></a>
+          </div>
+          <p class="lp-note">2005年から続くオンライン語学学校 <a href="/english/">ECOM</a> が作り、無料で提供しています。</p>
+        </div>
+        <img src={`${up}/2023/10/ecomculture-onki-1024x503.jpg`} alt="Onkiの画面。日本語をAIが英訳、ネイティブ音声で読み上げ、虫食いで暗記、AIが発音を判定" width="1024" height="503" />
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="ok-why">
+        <img src={`${up}/2023/12/character_danbo-150x150.png`} alt="" width="150" height="150" loading="lazy" />
+        <div>
+          <h2>英語が口から出てこないのは、<span class="nw">「引き出し」が足りないから。</span></h2>
+          <p class="lp-sub">日本語なら、言いたいことが浮かんだ瞬間に言葉が出てきます。英語でそうならないのは、すぐに取り出せる表現（語彙・フレーズ・決まり文句）が少ないからです。Onkiは、その引き出しを増やすために、英文を音で聞いて、まねして、覚えるところまでを1つにしました。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>Onkiでできる3つのこと</h2>
+      </div>
+      <div class="ok-feats">
+        <div class="ok-feat">
+          <img src={`${up}/2023/10/onki-site-gazo2-1024x473.jpg`} alt="マイクとカメラで英文を取り込む画面" width="1024" height="473" loading="lazy" />
+          <div>
+            <em>1</em>
+            <h3>好きな英文を、マイクとカメラで取り込む</h3>
+            <p>🎙 海外ドラマや映画のワンシーンを録音すると、AIがセリフを<b>文字にします</b>。</p>
+            <p>📸 英語の教材を撮影すると、<b>ネイティブの音声で読み上げます</b>。</p>
+          </div>
+        </div>
+        <div class="ok-feat">
+          <img src={`${up}/2023/10/591b5c90c0a3ebcec235cb908adc2e5f-1024x576.jpg`} alt="虫食い英文で発音練習とディクテーションをする画面" width="1024" height="576" loading="lazy" />
+          <div>
+            <em>2</em>
+            <h3>虫食いの英文で、発音練習とディクテーション</h3>
+            <p>穴あきの英文を見ながら音読します。マイクで話すと、<b>AIが発音を判定</b>して正しいかを出します。</p>
+            <p>虫食いの英文を読み上げてもらい、<b>聞き取って書く練習</b>もできます。</p>
+          </div>
+        </div>
+        <div class="ok-feat">
+          <img src={`${up}/2023/12/loading.png`} alt="" width="288" height="126" loading="lazy" class="ok-feat-mini" />
+          <div>
+            <em>3</em>
+            <h3>どんな言葉も、英語に翻訳</h3>
+            <p><b>日本語で話すと、英語で何と言うかが分かります</b>。いちばん使われている機能です。</p>
+            <p>何語か分からない言葉も、AIが聞き分けて英語にします。旅行先や、外国のお客さまが多いお店で通訳アプリとして使えます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="ok-split">
+        <div>
+          <p class="lp-eyebrow">特許第7036483号</p>
+          <h2>頭文字だけのヒントで、<span class="nw">覚えやすい「頭出し記憶法」</span></h2>
+          <p class="lp-sub">全部消すと難しく、全部見えると覚えられません。頭文字だけ残すと、ヒントがあるので挫折しにくく、ゲーム感覚で覚えられます。単語の頭を意識するので、英語らしい発音にも近づきます。</p>
+          <div class="ok-demo">
+            <div><small>元の英文</small><p>Do you practice the guitar every day?<br />Yes, I do. I practice at home.</p></div>
+            <div><small>頭出しで表示</small><p>D_ y__ p_______ t__ g_____ e____ d__?<br />Y__, I d_. I p_______ a_ h___.</p></div>
+          </div>
+          <p><a href={`${base}/memory/`}>頭出し記憶法と、おすすめの覚え方を読む →</a></p>
+        </div>
+        <img src={`${up}/2023/05/anki-onki-screen.jpg`} alt="虫食いをオンにしたOnkiの画面" width="693" height="957" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>こんな使い方ができます</h2>
+        <p class="lp-sub">何を覚えるかは自由です。使っている方から届いた例を紹介します。</p>
+      </div>
+      <div class="ok-uses">
+        {uses.map((g) => (
+          <div class="ok-use-group">
+            <h3><i aria-hidden="true">{g.icon}</i>{g.group}</h3>
+            <ul>
+              {g.items.map((u) => (
+                <li>
+                  <img src={u.img} alt="" width="56" height="56" loading="lazy" />
+                  <span><b>{u.href ? <a href={u.href}>{u.name}</a> : u.name}</b><small>{u.what}</small></span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>Onkiが選ばれる理由</h2>
+      <div class="lp-cards">
+        <div class="lp-card ok-reason"><img src={`${up}/2023/05/staff-members-1024x683-1-150x150.jpg`} alt="ECOMのスタッフ" width="150" height="150" loading="lazy" /><b>完全無料で安心</b><span>2005年から続く語学学校ECOMが提供しています。授業料で運営しているので、アプリは無料です。</span></div>
+        <div class="lp-card ok-reason"><img src={`${up}/2023/12/3307c598b0699605396aaa4831b1df0d-150x149.png`} alt="" width="150" height="149" loading="lazy" /><b>音で覚える</b><span>語学は「音」が大事。耳の大きいゾウのキャラクターと一緒に、文字より先に音で覚えます。</span></div>
+        <div class="lp-card ok-reason"><img src={`${up}/2023/05/Onki_Logo-large.gif`} alt="" width="150" height="150" loading="lazy" /><b>翻訳アプリにもなる</b><span>日本語で話すと、すぐに正しい英語で表示。勉強のときも、旅行のときも使えます。</span></div>
+      </div>
+      <h3 class="ok-h3">アプリストアの口コミ</h3>
+      <div class="lp-cards">
+        <figure class="lp-quote ok-quote">
+          <figcaption><span class="ok-stars" aria-label="星5つ">★★★★★</span> 子供の英語教科書暗記に便利</figcaption>
+          <blockquote>小学生の子供が英語の音読の課題をなかなかやろうとしないとき、このアプリで音声を読み上げてやると、音をまねしながら読もうとしてくれます。やっぱり文字より音のほうが、子供はやる気が出るようです。</blockquote>
+          <small>Alyonkaz さん　2023年6月20日</small>
+        </figure>
+        <figure class="lp-quote ok-quote">
+          <figcaption><span class="ok-stars" aria-label="星5つ">★★★★★</span> 新しい</figcaption>
+          <blockquote>写真から英文を取り込んで練習できる新しさが良い。自分のお気に入りの歌詞や文章などから学ぶことができて、楽しく続けられそうです。</blockquote>
+          <small>tiroreo7788 さん　2023年6月19日</small>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2>よくある質問</h2>
+      <Faq items={faq} />
+      <p><a href={`${base}/faq/`}>ほかの質問を見る →</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="ok-ecom">
+        <img src="/english/children/wp-content/uploads/sites/2/2024/08/online-lessons-kids-1312x816.jpg" alt="ネイティブの先生とオンラインで英会話をする子供" width="1312" height="816" loading="lazy" />
+        <div>
+          <p class="lp-eyebrow">Onkiを作った語学学校</p>
+          <h2>覚えた英語を、<span class="nw">ECOMの先生と使ってみませんか。</span></h2>
+          <p class="lp-sub">ECOMは、2005年から続くオンライン語学学校です。日本語も分かるネイティブの先生が、覚えた表現を会話で使えるように、マンツーマンで教えます。</p>
+          <div class="lp-btns">
+            <a class="lp-btn" href="/english/">大人の英会話を見る</a>
+            <a class="lp-btn navy" href="/english/children/">子供の英会話を見る</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="ok-end">
+        <img src={`${up}/2023/05/Onki_Logo-large.gif`} alt="" width="96" height="96" loading="lazy" />
+        <p>今すぐ無料でダウンロード</p>
+        <div class="ok-stores">
+          <a href={ios} rel="noopener"><img src={`${up}/2023/05/ios-banner-300x89-1.png`} alt="App Storeからダウンロード" width="300" height="89" loading="lazy" /></a>
+          <a href={android} rel="noopener"><img src={`${up}/2023/05/google-play-badge-570x221-1-300x116.png`} alt="Google Playで手に入れよう" width="300" height="116" loading="lazy" /></a>
+        </div>
+      </div>
+      <div class="ok-mini">
+        {pages.map((p) => (
+          <a href={p.href}><i aria-hidden="true">{p.icon}</i><span><b>{p.name}</b><small>{p.what}</small></span></a>
+        ))}
+      </div>
+    </div>
+  </section>
+</div>
