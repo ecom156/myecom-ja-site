@@ -1,140 +1,105 @@
 ---
 title: "英検準1級対策コース"
 path: "/english/courses/examinations/eiken/prefirst/"
+description: "大人のための英検®準1級対策コース。2024年度からの新しい試験形式（英文要約と意見論述の2題、リーディング31問）に合わせて、日本語が分かるネイティブ講師がマンツーマンで指導します。過去問の解き方、語彙の覚え方、要約とエッセイの書き直し、4コマのナレーションを含む面接練習まで、一次試験と二次試験の両方を対策します。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<blockquote>
-<h2>英検準1級試験概要</h2>
-</blockquote>
+<section class="lp-sec ad-hero">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/english/">Home</a> » <a href="/english/courses/">コース</a> » <a href="/english/courses/examinations/eiken/">英検対策</a> » 英検準1級対策</nav>
+<div class="course-hero">
+<div>
+<div class="lp-head">
+<p class="lp-eyebrow">英検®準1級対策コース</p>
+<h1>英検®準1級の壁、<span class="nw">語彙とライティングを越える。</span></h1>
+<p class="lp-lead">2級から準1級で、単語のレベルは大きく上がり、ライティングは「英文要約」と「意見論述」の2題になります。ECOMでは、日本語が分かるネイティブ講師がマンツーマンで、過去問の解き方から要約・エッセイの書き直し、4コマのナレーションを含む面接練習まで指導します。</p>
+</div>
+<ul class="lp-proof">
+<li>レベルは<b>大学中級程度</b></li>
+<li>CEFR<b>B2</b>相当</li>
+<li>一次・二次とも<b>マンツーマン</b>で対策</li>
+</ul>
+<div class="lp-btns">
+<a class="lp-btn" href="/trial/">体験レッスン（30分×2回・2,500円）</a>
+<a href="/price/">料金を見る</a>
 </div>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>CEFRのB2レベルに位置する試験。</p>
-<p>ショートエッセイ（英作文）と語彙の高さが特徴。</p>
+<img src="/english/img/staff/staff-desk.png" alt="ECOMのスタッフ" width="242" height="454">
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2>一次試験</h2>
-<p>筆記（90分）／リスニング（約25分）</p>
+</section>
+
+<div data-include="eiken-prefirst"></div>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>技能ごとの対策のポイント</h2>
+<p class="lp-sub">基本は、英検の公式サイトで公開されている過去問です。市販の予想問題は本番と難しさや形式が違うことがあるので、まず過去問で出題のくせをつかみます。</p>
+</div>
+<div class="lp-cards">
+<div class="lp-card"><i class="course-ico" aria-hidden="true">📚</i><span class="lp-tag">リーディング</span><b>語彙は「イメージ」で覚える</b><span>環境・医療・ビジネスなどの単語が多く出ます。日本語訳だけで覚えず、語源や単語のイメージをつかむと、知らない単語でも選択肢をしぼれるようになります。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">📰</i><span class="lp-tag">リーディング</span><b>長文は段落の要点から</b><span>空所の前後だけでは解けない問題が増えます。段落ごとの要点をつかみ、大事なところはじっくり、そうでないところは速く読む練習をします。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">✍️</i><span class="lp-tag">ライティング</span><b>英文要約（60〜70語）</b><span>本文の表現を写さず、自分の言葉に言い換えます。段落ごとの要点を拾い、つなぎの言葉で1つの流れにまとめる練習をします。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🖊️</i><span class="lp-tag">ライティング</span><b>英作文（120〜150語）</b><span>「意見 → 理由2つ → 結論」の4段落で書きます。指定された観点（POINTS）から2つを選んで理由にすると、内容の点が取りやすくなります。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🎧</i><span class="lp-tag">リスニング</span><b>Real-Life形式に慣れる</b><span>アナウンスなどを聞いて、自分の状況に合う答えを選ぶ問題です。問題用紙の「状況」と「質問」を先に読んでから聞く練習をします。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🗣️</i><span class="lp-tag">スピーキング</span><b>4コマのナレーション</b><span>1分の準備で4コマの流れをつかみ、過去形で2分間話します。コマとコマの間の時間の流れを示す言葉も身につけます。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">📈</i><span class="lp-tag">大人の受験者へ</span><b>語彙・読解を得点源に</b><span>大人は語彙と読解で点を取りやすい一方、リスニングと面接で点を落としがちです。ライティングは満点を狙い、苦手な技能に時間を多く配分します。</span></div>
 </div>
 </div>
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="733" height="253" src="/english/wp-content/uploads/2016/01/score-adult-pre1.gif" class="vc_single_image-img attachment-full" alt="score-adult-pre1" title="score-adult-pre1"></div>
-</figure>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-head">
+<h2>ECOMの英検準1級対策レッスン</h2>
+<p class="lp-sub">1回30分（レッスン25分＋先生がフィードバックを書く5分）のマンツーマンです。あなたの得意・苦手を分かっている同じ先生が、試験日まで続けて担当します。</p>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;"><span style="color: #ff6600;"><strong>合格点は、1792点/2250点 で、約8割。</strong></span></p>
+<ol class="lp-steps course-num">
+<li><i aria-hidden="true">🔍</i><em>STEP 1</em><b>過去問を先生と一緒に解く</b><span>重要パートから順に、過去問を使って先生と一緒に問題を解いていきます。過去問は最低3回分、できれば5回分を解きます。解法のテクニックや、なぜその答えになるのかを先生がその場で教えるので安心です。</span></li>
+<li><i aria-hidden="true">✍️</i><em>STEP 2</em><b>要約とエッセイを書き直す</b><span>書いた英文を先生と一緒に直し、点が取れる構成と、準1級にふさわしい語彙・言い換えの表現を身につけます。日本語が分かる先生なので、迷ったところは日本語で確認できます。</span></li>
+<li><i aria-hidden="true">🎤</i><em>STEP 3</em><b>本番と同じ流れで面接練習</b><span>先生が面接委員の役になり、4コマのナレーションから質問まで本番どおりに練習します。1分間の準備時間の使い方も身につけます。</span></li>
+<li><i aria-hidden="true">💡</i><em>STEP 4</em><b>答えに詰まったときの対応も</b><span>質問が聞き取れなかったときの聞き返し方や、考えをまとめる間のつなぎ方など、本番で使えるコツも練習します。</span></li>
+</ol>
 </div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<blockquote>
-<h2>2級との違い</h2>
-</blockquote>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>1つ前の英検2級との最も大きな違いは、</p>
-<p><strong>1．語彙のレベルがぐんとあがり、読解の文章が高度な社会性を帯びたものになる点</strong></p>
-<p><strong>2. ライティングが、1級簡易版のようなエッセイ形式（120-150 words、4パラグラフ）となる。</strong></p>
-<p>です。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<blockquote>
-<h2>準1級対策アドバイス</h2>
-</blockquote>
-<p>・ライティング配点16点のうち、14点以上とれるように頑張ろう。</p>
-<p>・リスニングは、相対的に一番易しいパートなので、ここで9割以上は取ろう。</p>
-<p>・大人の場合、読解も得点源となりえる。子供受験生と差がつくのは読解、語彙。</p>
-<p>・対策の優先度合は、ライティング・語彙、リスニング、読解の順。</p>
-<p>・語彙力は、ライティングにも影響。準1級にふさわしい語彙で書かないと、高い点数はもらえない。</p>
-<p>・一番は、英検ホームページに無料公開されている<a href="http://www.eiken.or.jp/eiken/exam/grade_p1/" target="_blank" rel="nofollow noopener">過去問</a>を活用。形式や難易度になれる。</p>
-<p>なお、市販されている予想問題集など過去問でない問題集は、実際の試験より難しく作ってあり、形式も本番のものと異なっていたりするので、あまりお薦めできません。過去問が対策のBestです。</p>
-<p>ECOMの英検対策も、過去問を使って行います。</p>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in narrow">
+<h2>よくある質問</h2>
+<div class="lp-faq">
+<details><summary>二次試験（面接）の対策だけでも受けられますか？</summary><p>はい。一次試験に合格したあと、面接練習だけを集中して受けることもできます。体験レッスンで、試験日とご希望を先生にお伝えください。</p></details>
+<details><summary>2級に合格したばかりです。準1級は難しいですか？</summary><p>2級から準1級は、単語とライティングのレベルが大きく上がります。体験レッスンで今の力を確かめ、試験日までの進め方を一緒に決めましょう。</p></details>
+<details><summary>教材は何を使いますか？</summary><p>英検の公式サイトで公開されている過去問を中心に使います。</p></details>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<blockquote>
-<h2></h2>
-<h2 style="text-align: left;">分野別チェック</h2>
-</blockquote>
-<h3>・語彙パート</h3>
-<p>環境、医療、ビジネスなどの領域からの出題が多く見られます。ただし、日本語対訳で覚えず、単語のイメージをつかむと、応用が利くようになります。</p>
-<p>・読解</p>
-<p>空欄箇所を見るだけは解けず、パラグラフの意味（大意）をきちんとつかむことが正解へとつながります。</p>
-<p>また、重要な箇所はある程度ゆっくりと、そうでない部分は適当にと、速度に強弱つけながら読むと、理解が深まります。もちろん、準１レベルでは、日本語訳に置き換えずに、英語のまま直読直解しなければいけません。ただ、ライティングに時間を使いたい場合、この大門１つくらいは落としてもよいです。</p>
-<h3>・作文（エッセイ）</h3>
-<p>最も得点差がつきやすいパートです。</p>
-<p>2016年からこの英作文パートがリニューアルされ、従来のEmailの返信形式(100 words前後)から、エッセイ形式(120- 140 words)になり、難易度が増しました。</p>
-<p>高度過ぎない社会性のあるトピック「例：中小のショップや企業は、現代社会において生き残ることができるか？」が出題されます。</p>
-<p>これに、Agree or Disagreeを選択し、4つのヒントトピック（例：Cost, Customer service, The economy, Traditional skills）から2つを理由として選び、論を展開します。</p>
-<p>模範解答を目指す必要はなく、当校の指導を受けて構成をしっかり書けるようになるだけで、10点は簡単にとれます。</p>
-<p>いくつか練習を重ねて、どんなトピックがきても、14－16点満点取れることを目指しましょう。</p>
-<h3>・リスニング</h3>
-<p>ある程度長い英文になるので、英語のまま、まとまりごとに理解する必要があります。メモはとってもよいので、重要な箇所をさっとメモをお薦めしますが、メモをとると集中できない人もいるので、そのあたりは任せます。</p>
-<p>普段からネイティブの英語を聞いて耳を英語にならしておきましょう。素材は、<a href="http://youtube.com/user/ecomenglish/" target="_blank" rel="noopener">EcomのYoutube英語学習チャンネル</a>を活用ください。</p>
-<h3>・総評</h3>
-<p>子供はリスニングパートで点を稼ぎますが、</p>
-<p>大人の場合、語彙、読解、英作文で多く点を取れる人が多いと思います。特に英作ライティングは満点の16点狙いでいきましょう。</p>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<h2>ほかの英検対策コース</h2>
+<div class="lp-chips">
+<a href="/english/courses/examinations/eiken/">英検対策コース一覧</a>
+<a href="/english/courses/examinations/eiken/second/">英検2級対策</a>
+<a href="/english/courses/examinations/">英語試験対策コース一覧</a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<blockquote>
-<h2>準1級二次試験</h2>
-</blockquote>
-<p>1対１の7分間の面接、4コマイラストを見てのストーリー描写。４つの質問への回答。</p>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="course-talk">
+<img src="/english/img/staff/staff-point.png" alt="ECOMのスタッフ" width="245" height="634">
+<div><b>ECOMスタッフより</b><p>試験日が決まっていたら、体験レッスンのときに先生へ伝えてください。残りの期間に合わせて、どの技能から練習するかを一緒に決めます。</p></div>
+</div>
+<div class="lp-end">
+<p>まずは体験レッスンで、今の力を確かめましょう。</p>
+<div class="lp-btns">
+<a class="lp-btn" href="/trial/">体験レッスン（30分×2回・2,500円）</a>
+<a href="/price/">料金を見る</a>
 </div>
 </div>
-<div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic"><tr class="vc-th"><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">採点項目</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">配点</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">予想採点基準</span></td></tr><tr><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">ストーリー説明</span></td><td class="vc_table_cell"><span class="vc_table_content">15点</span></td><td class="vc_table_cell"><span class="vc_table_content">4コマ漫画（イラスト）のストーリー内容をきちんと理解して説明しているか？（5点満点）
-適切な表現と発音で説明しているか？（5点満点）
-論理的な説明になっているか（5点満点）</span></td></tr><tr><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">4つの質問に対する回答</span></td><td class="vc_table_cell"><span class="vc_table_content">20点</span></td><td class="vc_table_cell"><span class="vc_table_content">各質問に対する回答5点満点。4×5点=20点満点。質問に対してきちんと理解して、自分の意見を述べているか、そしてそれが論理的でかつ適切な表現かを見て採点されます。</span></td></tr><tr><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">態度</span></td><td class="vc_table_cell"><span class="vc_table_content">3点</span></td><td class="vc_table_cell"><span class="vc_table_content">英語圏のコミュニケーションマナーをチェックと思われる。ただ運の要素が強いのも確か。</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">合計</span></td><td class="vc_table_cell"><span class="vc_table_content">38点</span></td><td class="vc_table_cell"><span class="vc_table_content">例年20-22点くらいが合格点。</span></td></tr></table></div><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<blockquote>
-<h2>英検準1級2次試験合格戦略：</h2>
-</blockquote>
-<p>英検2次は、受験生の8割が合格する試験ですので、それほど心配する必要はないです。</p>
-<p>ただその形式には事前に慣れておきたいものです。</p>
+<p class="lp-note">試験の内容は2026年10月時点の<a href="https://www.eiken.or.jp/eiken/exam/grade_p1/" target="_blank" rel="noopener">日本英語検定協会の公式サイト</a>の情報です。受験の前に最新の情報をご確認ください。英検®は、公益財団法人 日本英語検定協会の登録商標です。</p>
 </div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>例えば、Story描写は基本過去形で話す、与えられた準備時間1分間の使い方、入退室の注意点など、試験のコツや、形式がありますので、それをレクチャーします。<br>
-模擬試験を、Ecom講師が試験監督役となって実施し、すぐにフィードバックを行う実戦形式で行います。</p>
-<p>また4つの質問に答えられない時の、効果的な会話の仕方などもTIPSとして紹介します。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話サポート" title="スカイプ英会話サポート"></a>
-</figure>
-</div>
-</div></div></div></div>
-</div>
-</div>
+</section>
