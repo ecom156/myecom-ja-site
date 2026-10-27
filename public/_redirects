@@ -204,6 +204,9 @@
 /blog/english /blog/ 301
 /blog/english/ /blog/ 301
 /english/onki/use/%E8%8B%B1%E8%AA%9E%E6%8E%88%E6%A5%AD%E3%82%84%E4%BC%9A%E8%AD%B0%E3%82%92%E9%8C%B2%E9%9F%B3%E2%86%92%E6%96%87%E5%AD%97%E5%8C%96/ /english/onki/use/online-lessons-recording/ 301
+# Onkiの英文添削は未実施なので、説明ページを外した（K 2026-10-27）
+/english/onki/ai-writing/ /english/onki/ 301
+/english/onki/ai-writing /english/onki/ 301
 
 # ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
 /wp-admin/* / 301

@@ -116,7 +116,7 @@ path: "/english/onki/story/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>発した言葉を、周りの人に直してもらいながら、言語能力を向上させていきます。</p>
-<p>Onkiでは、『<span style="color: #339966;"><strong>AIによる自動英文添削（有料）</strong></span>』がこれに相当します。</p>
+<p>Onkiでは、『<span style="color: #339966;"><strong>AIによる発音判定</strong></span>』がこれに相当します。</p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
