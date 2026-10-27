@@ -255,6 +255,8 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .lp-book p { margin: 0; display: flex; flex-direction: column; }
 .lp-book b { color: var(--navy); }
 .lp-book span { font-size: 14px; color: var(--mute); }
+.lp-or { flex: none; align-self: center; font-style: normal; font-weight: 800; font-size: 14px; letter-spacing: .06em; color: var(--navy); }
+@media (max-width: 600px) { .lp-book { flex-direction: column; } .lp-book div { flex-basis: auto; } .lp-or { margin: -4px 0; } }
 /* 子供の入口（英検・話す力） */
 .kd-entry { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0; font-weight: 700; }
 .lp-plan { flex: 1 1 230px; border: 1px solid var(--edge); border-radius: 12px; padding: 24px; display: flex; flex-direction: column; gap: 6px; background: #fff; }
