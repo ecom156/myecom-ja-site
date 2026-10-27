@@ -890,3 +890,21 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .lp-sec.soft.fq-sec h2 i { background: #fff; }
 .fq-kids .fq-cats a:hover { border-color: var(--kids); }
 @media (max-width: 640px) { .fq-cats { grid-template-columns: 1fr 1fr; gap: 8px; } .fq-cats a { padding: 10px; font-size: 14px; gap: 6px; } .fq-cats small { display: none; } }
+
+/* コース・クラスの説明ページ（template: course）。本文の HTML は src/content/pages/ の .md（K 2026-10-27） */
+.course .course-crumb { margin: 0; }
+.course .lp-box b { color: var(--navy); }
+.course .lp-box span { color: var(--sub); }
+.course-table table { min-width: 560px; }
+.course .course-table td, .course .course-table td:nth-child(2) { font-weight: 400; color: var(--ink); background: #fff; }
+.course-table tbody th { background: #F2F6FB; color: var(--navy); }
+.course .course-table thead th { background: var(--soft); }
+.course .course-table td.n { white-space: nowrap; text-align: center; font-weight: 700; color: var(--navy); }
+.course-change { border-left: 4px solid var(--cta); }
+.course-change ul { margin: 0; padding-left: 20px; color: var(--sub); }
+.course-nums { justify-content: flex-start; }
+.course-nums div { background: var(--soft); border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 4px; }
+.course-nums b { font-size: 40px; }
+.course-steps { flex-direction: column; }
+.course-steps li { flex-basis: auto; }
+@media (max-width: 640px) { .course-table table { min-width: 0; font-size: 14px; } .course-table th, .course-table td { padding: 8px; } .course h1 { font-size: 28px; } .course h2 { font-size: 24px; } .course-nums b { font-size: 32px; } }
