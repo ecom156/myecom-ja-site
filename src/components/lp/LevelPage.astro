@@ -1,0 +1,130 @@
+---
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+
+// 英語レベル早見表（/english/level/）。旧ページの画像の表をHTMLの表にし、目標までの時間を計算できるようにした（K 2026-10-27）
+// レベルと試験の対応は旧ページの画像（ecomlevel1jp-ver2.gif）のまま。1レベル約60時間（レッスン約30時間＋AI・自習）
+const trial = '/trial/';
+const levels = [
+  { n: 0, stage: '初級', cefr: 'pre-A', eiken: '4級', toeic: '', gtec: '100-200', toefl: '', ielts: '', can: 'あいさつや、ゆっくりの短い質問に答えられる' },
+  { n: 1, stage: '初級', cefr: 'A1', eiken: '3級', toeic: '', gtec: '200-350', toefl: '', ielts: '', can: '自己紹介や、身近なことを簡単な文で話せる' },
+  { n: 2, stage: '初中級', cefr: 'A2', eiken: '', toeic: '200-400', gtec: '350-450', toefl: '', ielts: '', can: '買い物や道案内など、決まった場面のやり取りができる' },
+  { n: 3, stage: '初中級', cefr: 'A2+', eiken: '準2級', toeic: '400-540', gtec: '450-500', toefl: '32-46', ielts: '4.0-4.5', can: '旅行で困らない。自分の経験を短く話せる' },
+  { n: 4, stage: '中級', cefr: 'B1', eiken: '', toeic: '540-600', gtec: '500-550', toefl: '45-56', ielts: '4.5-5.0', can: '身近な話題なら、言い換えながら会話を続けられる' },
+  { n: 5, stage: '中級', cefr: 'B1+', eiken: '2級', toeic: '600-750', gtec: '550-650', toefl: '56-68', ielts: '5.0-5.5', can: '意見と理由を言える。簡単な仕事のやり取りができる' },
+  { n: 6, stage: '中上級', cefr: 'B2', eiken: '', toeic: '750-860', gtec: '650-800', toefl: '68-80', ielts: '5.5-6.5', can: '会議や電話で、要点をつかんで話し合える' },
+  { n: 7, stage: '中上級', cefr: 'B2+', eiken: '準1級', toeic: '860-900', gtec: '800-900', toefl: '80-97', ielts: '6.5-7.0', can: '交渉やプレゼンなど、仕事で英語を使いこなせる' },
+  { n: 8, stage: '上級', cefr: 'C1', eiken: '1級', toeic: '900-990', gtec: '900-950', toefl: '97-104', ielts: '7.0-7.5', can: '専門的な話題も、細かいニュアンスまで伝えられる' },
+  { n: 9, stage: '上級', cefr: 'C2', eiken: '', toeic: '', gtec: '950-1000', toefl: '104-110', ielts: '7.5-8.0', can: 'ほぼどんな場面でも、正確に自然に話せる' },
+  { n: 10, stage: '超上級', cefr: 'C2以上', eiken: '', toeic: '', gtec: '', toefl: '110-120', ielts: '8.0-', can: 'ネイティブとほぼ変わらない' },
+];
+const tag = (l: (typeof levels)[number]) => [l.eiken && `英検${l.eiken}`, l.toeic && `TOEIC ${l.toeic}`, l.cefr && `CEFR ${l.cefr}`].filter(Boolean).join('・');
+const short = (l: (typeof levels)[number]) => l.eiken ? `英検${l.eiken}` : l.toeic ? `TOEIC ${l.toeic}` : `CEFR ${l.cefr}`;
+const faq = [
+  { q: '自分のレベルが分かりません。', a: `体験レッスンで、先生が今のレベルを確かめます。英検やTOEICの結果があれば、表のレベルが目安になります。` },
+  { q: '「+」「++」は何ですか？', a: 'ひとつのレベルを3つに分けたものです。たとえばレベル5は、5 → 5+ → 5++ と進み、次がレベル6です。ひとつ進むのに約20時間が目安です。' },
+  { q: '60時間は、全部レッスンですか？', a: 'いいえ。レッスンは約30時間で、残りはAI講師との会話練習や、単語・リスニングの自習です。レッスンの外の練習が多いほど、早く上がります。' },
+  { q: 'レベルチェックを受けないと、始められませんか？', a: 'いいえ。レベルを気にせず、自由に話したい方も大歓迎です。テストなしで体験レッスンを予約できます。' },
+];
+---
+<div class="lp ad lv">
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">ECOMの英語レベル</p>
+        <h1>英語レベル早見表</h1>
+        <p class="lp-lead">ECOMでは、英語力を0〜10の11段階で表します。英検・TOEIC・CEFRなどと照らし合わせて、今のレベルと目標までの時間の目安が分かります。</p>
+      </div>
+      <div class="lp-cards lv-facts">
+        <div class="lp-card"><b><em>11</em>段階</b><span>レベル0（初級）から、ネイティブとほぼ変わらないレベル10まで。</span></div>
+        <div class="lp-card"><b><em>33</em>段階</b><span>各レベルを「5 → 5+ → 5++」のように3つに分けて、細かく伸びを測ります。</span></div>
+        <div class="lp-card"><b>1レベル<em>約60</em>時間</b><span>レッスン約30時間＋AI講師との練習や自習。「+」ひとつは約20時間です。</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>レベルの目安</h2>
+        <p class="lp-sub">試験のスコアは目安です。スマホでは表を横にスクロールできます。</p>
+      </div>
+      <div class="lp-table lv-table">
+        <table>
+          <thead><tr><th>ECOM<br />レベル</th><th>段階</th><th>CEFR</th><th>英検</th><th>TOEIC</th><th>GTEC</th><th>TOEFL iBT</th><th>IELTS</th></tr></thead>
+          <tbody>
+            {levels.map((l) => (
+              <tr class={`lv-r${l.n}`}><th><span class="lv-n">{l.n}</span></th><td>{l.stage}</td><td>{l.cefr}</td><td>{l.eiken || '—'}</td><td>{l.toeic || '—'}</td><td>{l.gtec || '—'}</td><td>{l.toefl || '—'}</td><td>{l.ielts || '—'}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>各レベルで、できること</h2>
+      </div>
+      <ol class="lv-list">
+        {levels.map((l) => (
+          <li class={`lv-r${l.n}`}><span class="lv-n">{l.n}</span><div><b>{l.can}</b><small>{l.stage}{tag(l) && `｜${tag(l)}`}</small></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in narrow">
+      <div class="lp-head">
+        <h2>目標までの時間を計算する</h2>
+        <p class="lp-sub">今のレベルと目標のレベルを選んでください。</p>
+      </div>
+      <div class="lv-calc" data-level-calc>
+        <label>今のレベル<select data-from>{levels.slice(0, -1).map((l) => <option value={l.n} selected={l.n === 3}>レベル{l.n}（{short(l)}）</option>)}</select></label>
+        <span class="lv-arrow" aria-hidden="true">→</span>
+        <label>目標のレベル<select data-to>{levels.slice(1).map((l) => <option value={l.n} selected={l.n === 5}>レベル{l.n}（{short(l)}）</option>)}</select></label>
+        <p class="lv-out" aria-live="polite" data-out>約<b>120</b>時間（そのうちレッスン約60時間）</p>
+      </div>
+      <p class="lp-note">1レベル約60時間（レッスン約30時間＋AI講師・自習）で計算した目安です。体験レッスンで、先生が今のレベルを確かめて、学習の計画をご提案します。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2>よくある質問</h2>
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>今のレベルは、体験レッスンで先生が確かめます。</p>
+        <div class="lp-btns">
+          <a class="lp-btn" href={trial}>{plans.trial.label}</a>
+          <a class="lp-btn navy" href="/english/courses/">コースを見る</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  const calc = document.querySelector('[data-level-calc]');
+  if (calc) {
+    const from = calc.querySelector<HTMLSelectElement>('[data-from]')!;
+    const to = calc.querySelector<HTMLSelectElement>('[data-to]')!;
+    const out = calc.querySelector<HTMLElement>('[data-out]')!;
+    const show = () => {
+      const n = Number(to.value) - Number(from.value);
+      out.innerHTML = n > 0
+        ? `約<b>${n * 60}</b>時間（そのうちレッスン約${n * 30}時間）`
+        : '目標は、今のレベルより上を選んでください。';
+    };
+    from.addEventListener('change', show);
+    to.addEventListener('change', show);
+    show();
+  }
+</script>
