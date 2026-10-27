@@ -46,14 +46,16 @@ path: "/corporation/online-group/"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3 style="text-align: center;">基本料金</h3>
-<h3 style="text-align: center;"><strong><span style="color: #ff6600;">50分 1クラス：7,000円</span></strong></h3>
+<h3 style="text-align: center;"><strong><span style="color: #ff6600;">1時間 1クラス：7,000円 ＋ 参加者管理料</span></strong></h3>
 </div>
 </div>
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <p>・1クラス単位の値段なので、生徒数が多ければ、一人あたりの研修料金は格安になります。</p>
-<p>例：1クラス10人の場合、1クラス700円単価。</p>
-<p style="text-align: center;">＊別途、学習管理料20%～と、法人入会金72,000円（初回のみ）必要。</p>
+<p>・基本料7,000円に、設定するクラスの人数に応じて、参加者管理料を頂きます。</p>
+<div class="lp-table cg-fee"><table><thead><tr><th>クラスの人数</th><th>参加者管理料</th><th>1時間あたり（税抜）</th></tr></thead><tbody><tr><td>2〜10人</td><td>20%</td><td>8,400円</td></tr><tr><td>11〜30人</td><td>30%</td><td>9,100円</td></tr><tr><td>31〜50人</td><td>50%</td><td>10,500円</td></tr><tr><td>51人以上</td><td>100%</td><td>14,000円</td></tr></tbody></table></div>
+<p>例：1クラス10人の場合、1時間8,400円なので、1人あたり840円。</p>
+<p style="text-align: center;">＊別途、法人入会金72,000円（初回のみ）必要。</p>
 <p style="text-align: center;">・教材費など、その他管理料はかかりません。</p>
 <p style="text-align: center;">・消費税は別途必要</p>
 </div>
