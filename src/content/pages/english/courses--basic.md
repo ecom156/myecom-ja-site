@@ -1,107 +1,98 @@
 ---
 title: "基礎力養成コース"
 path: "/english/courses/basic/"
+description: "英語初心者・初級者（英検3級程度まで）のための基礎力養成コース。ECOMオリジナルの「ECOM英会話 初級」教材（全60Unit）で、会話の土台になる語彙・文法・表現を身につけます。日本語が分かるネイティブ講師がマンツーマンで指導し、基礎が固まったら中級や、ビジネス英語・試験対策などの分野別のクラスへ進みます。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+<section class="lp-sec ad-hero">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/english/">Home</a> » <a href="/english/courses/">コース</a> » 基礎力養成コース</nav>
+<div class="lp-head">
+<p class="lp-eyebrow">基礎力養成コース（初心者・初級者向け）</p>
+<h1>ECOM英会話 初級で、<span class="nw">英語の土台を固める。</span></h1>
+<p class="lp-lead">基礎力養成コースの教材は、ECOMオリジナルの「ECOM英会話 初級」に統一しました。会話の土台になる語彙・文法・表現を学び、すぐに口に出して使う練習をします。基礎が固まったら、中級や分野別のクラスへ進みます。</p>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>英検３級レベル以下の方を対象にした、初心者、初級者向けのコース一覧です。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">25時間完成、基礎力養成クラス１</a></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>○対象：Lv.3-6:初心者、初級者</p>
-<p>○Commnet:会話の基本となる基礎の語彙、文法、表現を学び、それをすぐに使って口頭作文（クリエイティブスピーキング）して実際の会話の現場で使えるようになることを狙いとしています。教科書は全12Units。１Unit=2時間ペースで進みます。<a title="２５時間完成、基礎力養成クラス1" href="/english/onlinelessons/courses/basic/class-basic1/">▶詳しく見る</a></p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/newalltalk1.jpg" data-lightbox="lightbox[rel-8025-3547826945]"><img loading="lazy" fetchpriority="high" decoding="async" width="223" height="300" src="/english/wp-content/uploads/2015/01/newalltalk1-223x300.jpg" class="attachment-medium" alt="" title="newalltalk1"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">２５時間完成、基礎力養成クラス2</a></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>会話の基本となる基礎の語彙、文法、表現を学び、それをすぐに使って口頭作文（クリエイティブスピーキング）して実際の会話の現場で使えるようになることを狙いとしています。教科書は全12Units。１Unit=2時間ペースで進みます。</p>
+<ul class="lp-proof">
+<li>対象は<b>初心者・初級者</b>（英検3級程度まで）</li>
+<li>教材は全<b>60</b>Unit</li>
+<li>日本語が分かる<b>ネイティブ講師</b></li>
+</ul>
+<div class="lp-btns">
+<a class="lp-btn" href="/trial/">体験レッスン（30分×2回・2,500円）</a>
+<a href="/price/">料金を見る</a>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="0" data-flex_fx="slide"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/newalltalk2.jpg" data-lightbox="lightbox[rel-8025-3644111949]"><img loading="lazy" decoding="async" width="225" height="300" src="/english/wp-content/uploads/2015/01/newalltalk2-225x300.jpg" class="attachment-medium" alt="" title="newalltalk2"></a></li><li><a href="/english/wp-content/uploads/2015/01/newalltalk2-2.jpg" data-lightbox="lightbox[rel-8025-3644111949]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2015/01/newalltalk2-2-210x300.jpg" class="attachment-medium" alt="" title="newalltalk2-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/newalltalk2-3.jpg" data-lightbox="lightbox[rel-8025-3644111949]"><img loading="lazy" decoding="async" width="219" height="300" src="/english/wp-content/uploads/2015/01/newalltalk2-3-219x300.jpg" class="attachment-medium" alt="" title="newalltalk2-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/newalltalk2-4.jpg" data-lightbox="lightbox[rel-8025-3644111949]"><img loading="lazy" decoding="async" width="210" height="300" src="/english/wp-content/uploads/2015/01/newalltalk2-4-210x300.jpg" class="attachment-medium" alt="" title="newalltalk2-4"></a></li><li><a href="/english/wp-content/uploads/2015/01/newalltalk2-5.jpg" data-lightbox="lightbox[rel-8025-3644111949]"><img loading="lazy" decoding="async" width="217" height="300" src="/english/wp-content/uploads/2015/01/newalltalk2-5-217x300.jpg" class="attachment-medium" alt="" title="newalltalk2-5"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">32時間完成、0からの基礎力養成（文法重視）</a></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>基本文法を中心に、会話文、読解、ライティング、ペアワークなど通じて英語の基礎力を固めます。教科書は全16Units。1時間=1Unitsペースで進んでいきます。</p>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>こんな方におすすめです</h2>
+</div>
+<div class="lp-cards">
+<div class="lp-card"><b>英語を学び直したい</b><span>学生のころ以来、英語から離れていた方。忘れてしまった基礎を、会話で使いながら思い出します。</span></div>
+<div class="lp-card"><b>何から始めればいいか分からない</b><span>単語・文法・会話のどこから手をつけるか迷っている方。教材の順番どおりに進めれば、基礎がひととおり身につきます。</span></div>
+<div class="lp-card"><b>ビジネスや試験の前に基礎を固めたい</b><span>いずれはビジネス英語や英検・TOEICに進みたい方。土台を先に作っておくと、その後の伸びが変わります。</span></div>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="" data-lightbox="lightbox[rel-8025-579476546]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-579476546]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-579476546]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-579476546]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-579476546]"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">32時間完成、基礎力養成1（文法重視）</a></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>○使用教材(下リンク):<br>
-<a href="http://www.amazon.co.jp/gp/product/0130985120/ref=as_li_ss_tl?ie=UTF8&camp=247&creative=7399&creativeASIN=0130985120&linkCode=as2&tag=ecommunicatio-22">GLOBAL LINKS 1: STUDENT BOOK (N/E) WITH CD</a><img loading="lazy" decoding="async" src="http://ir-jp.amazon-adsystem.com/e/ir?t=ecommunicatio-22&l=as2&o=9&a=0130985120" alt="" width="1" height="1" border="0"></p>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-head">
+<p class="lp-eyebrow">使用教材</p>
+<h2>ECOM英会話 初級（LEVEL 1・BEGINNER）</h2>
+<p class="lp-sub">英語の土台を固める60のUnitです。最初から順に進めても、必要なUnitだけを選んで学んでもかまいません。英語上達のコツや、英語圏のカルチャーも散りばめています。</p>
+</div>
+<div class="lp-cards">
+<div class="lp-card"><span class="lp-tag">学ぶ</span><b>基礎の語彙・文法・表現</b><span>日常会話でよく使う単語と表現、会話に必要な文法を、Unitごとに少しずつ学びます。</span></div>
+<div class="lp-card"><span class="lp-tag">話す</span><b>覚えたらすぐ使う</b><span>学んだ表現を使って自分のことを英語で話し、先生との会話で使える形にします。</span></div>
+<div class="lp-card"><span class="lp-tag">振り返る</span><b>毎回のフィードバック</b><span>レッスンのあと、先生がフィードバックを書きます。直したい言い方や、次に練習することが分かります。</span></div>
+</div>
+<p class="lp-sub"><a href="/english/conversation#level-beginner" target="_blank" rel="noopener">ECOM英会話 初級の教材ページを見る →</a></p>
+</div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>レッスンの進め方</h2>
+<p class="lp-sub">1回30分（レッスン25分＋先生がフィードバックを書く5分）のマンツーマンです。あなたの英語を分かっている同じ先生が、続けて担当します。</p>
+</div>
+<ol class="lp-steps">
+<li><em>STEP 1</em><b>今のレベルを確かめる</b><span>体験レッスンで今の英語力を確かめ、どのUnitから始めるかを決めます。</span></li>
+<li><em>STEP 2</em><b>Unitの表現を学ぶ</b><span>教材を使って、そのUnitの単語・表現・文法を確認します。分からないところは日本語で質問できます。</span></li>
+<li><em>STEP 3</em><b>口に出して使う</b><span>学んだ表現で自分のことを話したり、先生と会話したりして、実際に使える英語にします。</span></li>
+<li><em>STEP 4</em><b>フィードバックで次へ</b><span>先生が書くフィードバックで、できたことと次の課題を確かめて、次のUnitへ進みます。</span></li>
+</ol>
+</div>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-head">
+<h2>基礎が固まったら、次のステップへ</h2>
+<p class="lp-sub">ECOM英会話 初級で基礎を固めたあとは、中級や、目的に合わせた分野別のクラスへ進みます。</p>
+</div>
+<div class="lp-cards">
+<a class="lp-card" href="/english/courses/high/"><span class="lp-tag">次のレベル</span><b>中級の英会話</b><span>話せることを増やし、自分の考えや経験を長く話せるようにします。</span><i>コースを見る →</i></a>
+<a class="lp-card" href="/english/courses/business/"><span class="lp-tag">分野別</span><b>ビジネス英語</b><span>メール・電話・会議など、仕事で使う英語を学びます。</span><i>コースを見る →</i></a>
+<a class="lp-card" href="/english/courses/examinations/"><span class="lp-tag">分野別</span><b>英語試験対策</b><span>英検・TOEIC・IELTSなど、試験の形式に合わせて対策します。</span><i>コースを見る →</i></a>
+</div>
+<p class="lp-sub">すべてのクラスは<a href="/english/courses/classlists/">コース・クラス全体一覧</a>でご覧いただけます。</p>
+</div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-end">
+<p>まずは体験レッスンで、どのUnitから始めるか決めましょう。</p>
+<div class="lp-btns">
+<a class="lp-btn" href="/trial/">体験レッスン（30分×2回・2,500円）</a>
+<a href="/price/">料金を見る</a>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="" data-lightbox="lightbox[rel-8025-1046273556]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-1046273556]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-1046273556]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-1046273556]"></a></li><li><a href="" data-lightbox="lightbox[rel-8025-1046273556]"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、初中級会話強化1</a></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>会話フレーズを覚えてそれをロールプレイで練習して使える英会話を学びたい人向けクラス(学生にもお薦め)。教科書は普段の生活で遭遇する16の楽しいシチュエーション会話で構成。16Units+ReviewUnits2つの計18のUnitsからなる。クラスは1Units=1時間程度で進む予定。</p>
+<p class="lp-sub">先生と話すのがまだ不安な方は、<a href="/english/types/beginner/">🔰 英語初心者の方へ</a>もご覧ください。</p>
 </div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/ic1.jpg" data-lightbox="lightbox[rel-8025-732546749]"><img loading="lazy" decoding="async" width="232" height="300" src="/english/wp-content/uploads/2015/01/ic1-232x300.jpg" class="attachment-medium" alt="" title="ic1"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic1-9.jpg" data-lightbox="lightbox[rel-8025-732546749]"><img loading="lazy" decoding="async" width="219" height="300" src="/english/wp-content/uploads/2015/01/ic1-9-219x300.jpg" class="attachment-medium" alt="" title="ic1-9"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic1-10.jpg" data-lightbox="lightbox[rel-8025-732546749]"><img loading="lazy" decoding="async" width="222" height="300" src="/english/wp-content/uploads/2015/01/ic1-10-222x300.jpg" class="attachment-medium" alt="" title="ic1-10"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic-11.jpg" data-lightbox="lightbox[rel-8025-732546749]"><img loading="lazy" decoding="async" width="222" height="300" src="/english/wp-content/uploads/2015/01/ic-11-222x300.jpg" class="attachment-medium" alt="" title="ic-11"></a></li><li><a href="/english/wp-content/uploads/2015/01/ic1-12.jpg" data-lightbox="lightbox[rel-8025-732546749]"><img loading="lazy" decoding="async" width="222" height="300" src="/english/wp-content/uploads/2015/01/ic1-12-222x300.jpg" class="attachment-medium" alt="" title="ic1-12"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、シニア向けやり直し英語1</a></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>全20Unit。見開き１ページで１Unitという見やすい形式。各Unit毎に自己紹介や、趣味などのテーマが設定されており、外国人と会話する練習をしながら基礎を養う。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/mf1.jpg" data-lightbox="lightbox[rel-8025-3964994462]"><img loading="lazy" decoding="async" width="245" height="300" src="/english/wp-content/uploads/2015/01/mf1-245x300.jpg" class="attachment-medium" alt="" title="mf1"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf1-1.jpg" data-lightbox="lightbox[rel-8025-3964994462]"><img loading="lazy" decoding="async" width="267" height="300" src="/english/wp-content/uploads/2015/01/mf1-1-267x300.jpg" class="attachment-medium" alt="" title="mf1-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf1-2.jpg" data-lightbox="lightbox[rel-8025-3964994462]"><img loading="lazy" decoding="async" width="259" height="300" src="/english/wp-content/uploads/2015/01/mf1-2-259x300.jpg" class="attachment-medium" alt="" title="mf1-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf1-3.jpg" data-lightbox="lightbox[rel-8025-3964994462]"><img loading="lazy" decoding="async" width="225" height="300" src="/english/wp-content/uploads/2015/01/mf1-3-225x300.jpg" class="attachment-medium" alt="" title="mf1-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf1-4.jpg" data-lightbox="lightbox[rel-8025-3964994462]"><img loading="lazy" decoding="async" width="240" height="300" src="/english/wp-content/uploads/2015/01/mf1-4-240x300.jpg" class="attachment-medium" alt="" title="mf1-4"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">２０時間完成、シニア向けやり直し英語2</a></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>全20Unit。見開き１ページで１Unitという見やすい形式。各Unit毎に家族のことや、ペット、病気、旅行などのテーマが設定されており、外国人と会話する練習をしながら基礎を養う。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_fade flexslider" data-interval="0" data-flex_fx="fade"><ul class="slides"><li><a href="/english/wp-content/uploads/2015/01/mf2.jpg" data-lightbox="lightbox[rel-8025-1552227765]"><img loading="lazy" decoding="async" width="250" height="300" src="/english/wp-content/uploads/2015/01/mf2-250x300.jpg" class="attachment-medium" alt="" title="mf2"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf2-1.jpg" data-lightbox="lightbox[rel-8025-1552227765]"><img loading="lazy" decoding="async" width="233" height="300" src="/english/wp-content/uploads/2015/01/mf2-1-233x300.jpg" class="attachment-medium" alt="" title="mf2-1"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf2-2.jpg" data-lightbox="lightbox[rel-8025-1552227765]"><img loading="lazy" decoding="async" width="246" height="300" src="/english/wp-content/uploads/2015/01/mf2-2-246x300.jpg" class="attachment-medium" alt="" title="mf2-2"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf2-3.jpg" data-lightbox="lightbox[rel-8025-1552227765]"><img loading="lazy" decoding="async" width="235" height="300" src="/english/wp-content/uploads/2015/01/mf2-3-235x300.jpg" class="attachment-medium" alt="" title="mf2-3"></a></li><li><a href="/english/wp-content/uploads/2015/01/mf2-4.jpg" data-lightbox="lightbox[rel-8025-1552227765]"><img loading="lazy" decoding="async" width="234" height="300" src="/english/wp-content/uploads/2015/01/mf2-4-234x300.jpg" class="attachment-medium" alt="" title="mf2-4"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>受講生からの声</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・教科書がイラスト満載で、勉強しやすかった。また講師の方がたくさん話をひっぱってくれて、それを辛抱強く聞いてくれたので助かった。（40代女性）</p>
-<p>・英語なんて何十年ぶりかだったので、不安が先行していましたが、先生が日本語がわかる方だったので安心して受講できました。（50代男性）</p>
-<p>・英語は苦手で何から始めていいか分からなかったのですが、カウンセラーの方にこちらのクラスを勧めて頂いて授業を受けたところ、とても分かりやすくてよかったです。将来のビジネス英語につなげていきたいです。 (20代男性)</p>
-<p>・TOEICで700程度はあり中級レベルを終えていたのですが、Creative Speakingに興味があったので、こちらのクラスを復習として受講。わかっていてもいざ文を作って話すとなると、難しいものだということがこのクラスを通してわかりました。 (40代男性)</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>利用相談</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>○Case:「英語は長いこと使っていない。大昔に英検３級をとったくらいで今はもうすっかり忘れている。将来のためや海外旅行に行った時に英語が使えたら便利なので学習しておきたい」50代女性。</p>
-<p>&#160;</p>
-<p>○ご提案：以前英検3級を取られているとのことですので、文法などはある程度覚えてらっしゃると思います。以前覚えたことを再度思い出しながら復習して頂くために、New all talkのlevel2からスタート。それが修了した後、トラベル英語のクラスや総合英語クラスへ進んで頂くことを提案。</p>
-<p>○目標までの学習時間： New all talk教材１冊２０時間。週１回１時間、月４時間程度で学習される場合、およそ５ヶ月で基礎固めが終了（週２時間のペースですと2.5ヶ月で終了）。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話サポート" title="スカイプ英会話サポート"></a>
-</figure>
-</div>
-</div></div></div></div>
-</div>
-</div>
+</section>
