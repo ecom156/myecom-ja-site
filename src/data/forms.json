@@ -646,11 +646,16 @@
     "button": "送信",
     "fields": [
       {
-        "name": "f1",
-        "label": "お名前",
+        "name": "school",
+        "label": "学校名",
         "type": "text",
-        "required": true,
-        "description": "学校名、ご担当者様名をお書きください。"
+        "required": true
+      },
+      {
+        "name": "f1",
+        "label": "ご担当者さまのお名前",
+        "type": "text",
+        "required": true
       },
       {
         "name": "f2",
@@ -663,6 +668,44 @@
         "label": "電話番号",
         "type": "text",
         "required": true
+      },
+      {
+        "name": "kind",
+        "label": "学校の種類",
+        "type": "select",
+        "required": false,
+        "choices": [
+          "（選択なし）",
+          "幼稚園・保育園・学童",
+          "公立の小学校",
+          "公立の中学校",
+          "公立の高校",
+          "私立の小学校・中学校・高校",
+          "大学・専門学校",
+          "特別支援学校",
+          "教育委員会",
+          "その他"
+        ]
+      },
+      {
+        "name": "service",
+        "label": "ご関心のある授業（いくつでも）",
+        "type": "checkbox",
+        "required": false,
+        "choices": [
+          "異文化授業（ECOM Cultures レクチャー）",
+          "海外の学校と合同授業（教室留学®）",
+          "英語の授業（オンラインALT・ELT）",
+          "第二外国語の授業",
+          "まだ決まっていない"
+        ]
+      },
+      {
+        "name": "when",
+        "label": "実施したい時期・学年・人数",
+        "type": "text",
+        "required": false,
+        "placeholder": "例：来年度2学期、中学2年生 4クラス（各30人）"
       },
       {
         "name": "f4",

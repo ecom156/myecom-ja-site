@@ -1,0 +1,89 @@
+---
+import data from '../../data/schools.json';
+
+// 学校サイトの、専用デザインがないページ（サービスの詳しい説明・事例・ブログ・一覧）を学校トップと同じ枠で包む（K 2026-10-27）
+// サービスのページは、長い本文の前に「この授業の要点」（対象・言語・時間・準備・費用）を出し、先生が最初の画面で判断できるようにする
+interface Props { title: string; path?: string; crumbs?: { href: string; label: string }[]; servicesIndex?: boolean }
+const { title, path = '', crumbs = [], servicesIndex = false } = Astro.props;
+const base = '/schools';
+const contact = `${base}/contact/`;
+const svc = data.services.find((s) => s.path === path);
+const isContact = path === contact;
+const others = data.services.filter((s) => s.path !== path);
+---
+<div class="lp sc sc-sub">
+  <section class="lp-sec soft sc-subhero">
+    <div class="lp-in">
+      <nav class="breadcrumb"><a href={`${base}/`}>学校向けトップ</a>{crumbs.map((c) => <> » <a href={c.href}>{c.label}</a></>)} » {title}</nav>
+      {svc && <p class="sc-purpose big"><i aria-hidden="true">{svc.icon}</i>{svc.purpose}</p>}
+      <h1>{title}</h1>
+      <slot name="meta" />
+      {svc && (
+        <div class="sc-summary">
+          <p class="sc-summary-lead">{svc.what}</p>
+          <dl class="sc-facts grid">
+            <div><dt>対象</dt><dd>{svc.for}</dd></div>
+            <div><dt>言語</dt><dd>{svc.lang}</dd></div>
+            <div><dt>時間</dt><dd>{svc.time}</dd></div>
+            <div><dt>学校での準備</dt><dd>{svc.prep}</dd></div>
+            <div><dt>費用</dt><dd>{svc.price}</dd></div>
+          </dl>
+          <div class="lp-btns"><a class="lp-btn" href={contact}>この授業について相談する</a><a href="#detail">くわしい説明を読む ↓</a></div>
+        </div>
+      )}
+    </div>
+  </section>
+
+  {servicesIndex && (
+    <section class="lp-sec">
+      <div class="lp-in">
+        <p class="lp-sub">やりたい授業に近いものを選んでください。組み合わせや、ここにない授業もご相談ください。</p>
+        <div class="lp-cards sc-services">
+          {data.services.map((s) => (
+            <a class="lp-card sc-svc" href={s.path}>
+              <img src={s.img} alt="" loading="lazy" />
+              <span class="sc-purpose"><i aria-hidden="true">{s.icon}</i>{s.purpose}</span>
+              <b>{s.name}</b>
+              <span>{s.what}</span>
+              <dl class="sc-facts">
+                <div><dt>対象</dt><dd>{s.for}</dd></div>
+                <div><dt>費用</dt><dd>{s.price}</dd></div>
+              </dl>
+              <i>くわしく見る →</i>
+            </a>
+          ))}
+        </div>
+        <p><a href="/schools/services/sougou/">ECOM Cultures（レクチャーと教室留学®の違い）を見る →</a></p>
+      </div>
+    </section>
+  )}
+
+  {!servicesIndex && (
+    <section class="lp-sec sc-body" id="detail">
+      <div class="lp-in">
+        <slot />
+      </div>
+    </section>
+  )}
+
+  {!isContact && (
+    <section class="lp-sec soft">
+      <div class="lp-in">
+        {!servicesIndex && (
+          <>
+            <h2>{svc ? 'ほかの授業も選べます' : '授業の目的から選ぶ'}</h2>
+            <div class="sc-mini">
+              {(svc ? others : data.services).map((s) => (
+                <a href={s.path}><i aria-hidden="true">{s.icon}</i><span><b>{s.purpose}</b><small>{s.name}・{s.price}</small></span></a>
+              ))}
+            </div>
+          </>
+        )}
+        <div class="lp-end">
+          <p>授業の目的・学年・時期を伺って、合う形と費用をご提案します。</p>
+          <div class="lp-btns"><a class="lp-btn" href={contact}>無料で相談する</a></div>
+        </div>
+      </div>
+    </section>
+  )}
+</div>

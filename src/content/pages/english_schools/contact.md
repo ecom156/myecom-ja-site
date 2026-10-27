@@ -1,13 +1,14 @@
 ---
 title: "お問い合わせ"
 path: "/schools/contact/"
+description: "学校向けオンライン外国人講師・異文化授業（ECOM for Schools）へのご相談・お見積りのお問い合わせ。"
 forms:
   - english_schools-1
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid vc_custom_1746433143669 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
+<p>授業の目的・学年・時期を伺って、合う形と費用をご提案します。まだ内容が決まっていなくても、お気軽にご相談ください。</p>
+<ul>
+<li>担当者から、メールでご連絡します。</li>
+<li>お見積りのご依頼や、本番前のテスト授業のご相談もこちらからどうぞ。</li>
+</ul>
 <div data-form="english_schools-1"></div>
-</div></div></div></div>
-</div>
-</div>

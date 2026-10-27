@@ -1,0 +1,185 @@
+---
+import Faq from './Faq.astro';
+import data from '../../data/schools.json';
+
+// 学校サイトのトップ（/schools/）。見るのは学校の先生（K 2026-10-27）
+// 先生が知りたい順：何ができるか（授業の目的から選ぶ）→ 先生の手間 → 講師 → 費用 → 流れ → 実績 → 質問
+const base = '/schools';
+const contact = `${base}/contact/`;
+const { services, prices } = data;
+const faq = [
+  { q: '学校側で用意するものは何ですか？', a: 'プロジェクターか大型モニター、パソコン、スピーカーマイクです。Teams・Google Meet・Zoom・Skypeに対応します。機材がない場合は、ECOMでお貸しします。' },
+  { q: '英語の先生ではないので不安です。', a: '講師は日本語も分かるので、授業を任せても安心です。合同授業では、ECOMのスタッフがオンラインで同席し、進行と通訳をします。先生は生徒の誘導に専念できます。' },
+  { q: '最低利用回数はありますか？', a: 'ありません。年に1回だけのご利用もできます。異文化授業は、前期と後期に1回ずつ受ける学校が多いです。' },
+  { q: '台風やインフルエンザで休校になったら？', a: 'レクチャー形式の授業は、直前の振替も無料です。日程の変更もご相談ください。' },
+  { q: '学校に来られない生徒の補習にも使えますか？', a: 'はい。マンツーマンの補習授業もできます。全員がオンラインで参加する授業にも切り替えられます。' },
+  { q: '特別支援学校でも利用できますか？', a: '盲学校・聾学校での実績があります。字幕の表示など、生徒に合わせた進め方をご相談ください。' },
+];
+---
+<div class="lp sc">
+  <section class="lp-sec soft sc-hero">
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="lp-eyebrow">小学校・中学校・高校・大学の先生へ</p>
+          <h1>外国人講師を、<br /><span class="nw">オンラインで教室へ。</span></h1>
+          <p class="lp-lead">英語の授業、総合・探究の異文化授業、第二外国語。講師の手配から当日の進行まで、ECOMがお手伝いします。</p>
+          <ul class="lp-proof">
+            <li><b>2005年</b>から続くオンライン語学学校</li>
+            <li><b>25か国</b>・20言語の講師</li>
+            <li>講師は日本語も分かる<b>バイリンガル</b></li>
+          </ul>
+          <div class="lp-btns">
+            <a class="lp-btn" href={contact}>無料で相談する</a>
+            <a href="#purpose">授業の目的から選ぶ ↓</a>
+          </div>
+        </div>
+        <img src="/english/schools/img/school-live.jpg" alt="教室と海外の講師をオンラインでつないだ授業の様子" width="902" height="802" />
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec" id="purpose">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>授業の目的から選ぶ</h2>
+        <p class="lp-sub">やりたい授業に近いものを選んでください。組み合わせや、ここにない授業もご相談ください。</p>
+      </div>
+      <div class="lp-cards sc-services">
+        {services.map((s) => (
+          <a class="lp-card sc-svc" href={s.path}>
+            <img src={s.img} alt="" loading="lazy" />
+            <span class="sc-purpose"><i aria-hidden="true">{s.icon}</i>{s.purpose}</span>
+            <b>{s.name}</b>
+            <span>{s.what}</span>
+            <dl class="sc-facts">
+              <div><dt>対象</dt><dd>{s.for}</dd></div>
+              <div><dt>費用</dt><dd>{s.price}</dd></div>
+            </dl>
+            <i>くわしく見る →</i>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>学校の種類ごとのおすすめ</h2>
+        <p class="lp-sub">◎ 特におすすめ　○ おすすめ</p>
+      </div>
+      <div class="sc-table-wrap">
+        <table class="sc-table">
+          <thead><tr><th></th><th>異文化授業<small>ECOM Cultures</small></th><th>英語の授業<small>オンラインALT／ELT</small></th><th>第二外国語<small>オンライン第二外国語</small></th></tr></thead>
+          <tbody>
+            <tr><th>幼稚園・保育園・学童</th><td>◎</td><td>○</td><td>－</td></tr>
+            <tr><th>公立の小学校・中学校・高校</th><td>◎</td><td>○</td><td>－</td></tr>
+            <tr><th>私立学校</th><td>○</td><td>◎</td><td>○</td></tr>
+            <tr><th>大学</th><td>－</td><td>◎</td><td>◎</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>先生の手間は、ほとんどかかりません</h2>
+        <p class="lp-sub">海外の講師や学校とのやり取りは、思った以上に手間がかかります。慣れたECOMにお任せください。</p>
+      </div>
+      <div class="lp-cards">
+        <div class="lp-card sc-ease"><i aria-hidden="true">📨</i><b>手配と日程調整</b><span>講師や相手校の手配、時差を考えた日程調整は、すべてECOMが行います。</span></div>
+        <div class="lp-card sc-ease"><i aria-hidden="true">📘</i><b>教材も用意します</b><span>異文化授業は専用教材を無料でお送りします。英語の授業は、お使いの教科書に合わせます。</span></div>
+        <div class="lp-card sc-ease"><i aria-hidden="true">🎧</i><b>当日もサポート</b><span>コーディネーターがオンラインで待機し、進行や通訳をします。本番の前にテスト授業もできます。</span></div>
+        <div class="lp-card sc-ease"><i aria-hidden="true">💻</i><b>いつものツールで</b><span>Teams・Google Meet・Zoomなど、学校で使えるものに合わせます。機材がなければお貸しします。</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="sc-split">
+        <img src="/english/schools/img/teachers-flags.jpg" alt="さまざまな国のECOMの講師" width="997" height="665" loading="lazy" />
+        <div>
+          <h2>教えるのは、日本語も分かるプロの講師</h2>
+          <ul class="sc-checks">
+            <li><b>採用率0.5%</b>（200人に1人）の選考を通った講師です。</li>
+            <li>ふだん日本人に語学を教えているので、<b>生徒のレベルに合わせた言葉</b>で話せます。</li>
+            <li>講師は<b>日本語も分かる</b>ので、英語が苦手な生徒や先生も安心です。</li>
+            <li>東京のオフィスから配信するので、<b>音声が安定</b>しています。</li>
+            <li>事前の打ち合わせでご希望を伺い、合う講師を選びます。<b>動画を見て指名</b>もできます。</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec" id="price">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>費用の目安</h2>
+        <p class="lp-sub">英語の授業（ALT／ELT）と第二外国語は、1コマ（45分）ごとのお支払いです。クラスの人数で変わります（税抜）。</p>
+      </div>
+      <div class="lp-cards">
+        {prices.map((p) => (
+          <div class="lp-plan"><p class="name">{p.label}</p><p class="price">{p.price}<small> / コマ</small></p><p class="lead">1クラス{p.size}</p></div>
+        ))}
+      </div>
+      <div class="lp-box"><b>計算例</b><span class="lp-sub">1クラス28人を、2学年3クラス（6クラス）で年35コマずつ → 1コマ20,000円 × 6クラス × 35コマ ＝ 年420万円（税抜）。マンツーマンの補習は1コマ5,000円です。</span></div>
+      <p class="lp-note">異文化授業（ECOM Cultures）は、国の数・回数・学年でお見積りします。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>ご利用の流れ</h2>
+      <ol class="lp-steps">
+        <li><em>1</em><b>ご相談</b><span>フォームからお問い合わせください。授業の目的・学年・時期を伺い、合う形をご提案します。</span></li>
+        <li><em>2</em><b>打ち合わせ・テスト</b><span>講師や相手校を決め、本番の前に通信のテスト授業をします。</span></li>
+        <li><em>3</em><b>授業</b><span>講師が教室の画面から授業します。コーディネーターが当日もサポートします。</span></li>
+        <li><em>4</em><b>振り返り</b><span>アンケートのまとめや、講師・相手校からのビデオレターをお送りします。</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>授業の実績</h2>
+        <p class="lp-sub">公立・私立、特別支援学校まで、さまざまな学校で授業をしています。</p>
+      </div>
+      <div class="lp-cards">
+        <a class="lp-card" href={`${base}/mie-ueno-hs/`}><img src="/english/schools/wp-content/uploads/sites/4/2025/02/multi-culture-ecom-1024x579.jpg" alt="" loading="lazy" /><span class="lp-tag">公立高校・異文化授業</span><b>三重県立上野高校</b><span>8か国の外国人講師を同時に教室へつなぎ、探究の授業をしました。</span><i>事例を読む →</i></a>
+        <a class="lp-card" href={`${base}/joint-class-nz2024/`}><img src="/english/schools/wp-content/uploads/sites/4/2025/02/efaa9b6f8b9d350ca614d4536971c3c0-1024x764.jpg" alt="" loading="lazy" /><span class="lp-tag">中学校・合同授業</span><b>京都市の岡崎中学校</b><span>ニュージーランドの学校と結び、小グループで英語のプレゼンをし合いました。</span><i>事例を読む →</i></a>
+        <a class="lp-card" href="/schools/services/sougou/lecturer/"><img src="/english/schools/wp-content/uploads/sites/4/2023/08/ryougoku-high-school-1024x592.jpg" alt="" loading="lazy" /><span class="lp-tag">中高一貫校・異文化授業</span><b>都立両国高校附属中学校</b><span>カナダの講師が、カナダの文化について授業しました。</span><i>授業の内容を見る →</i></a>
+        <a class="lp-card" href="/schools/services/sougou/lecturer/"><img src="/english/schools/wp-content/uploads/sites/4/2023/08/okazaki-1024x576.jpg" alt="" loading="lazy" /><span class="lp-tag">特別支援学校</span><b>岡崎聾学校</b><span>講師の話を文字でも表示して、初めての外国人との会話を楽しみました。</span><i>授業の内容を見る →</i></a>
+      </div>
+      <div class="sc-award">
+        <img src="/english/schools/wp-content/uploads/sites/4/2025/05/keio-small.png" alt="慶應義塾大学" width="84" height="84" loading="lazy" />
+        <p>ECOMのサービスは、慶應SFCアントレプレナーAwardに選ばれました。</p>
+      </div>
+      <p><a href={`${base}/category/cases/`}>学校の事例をすべて見る →</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2>よくある質問</h2>
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>授業の目的・学年・時期を伺って、合う形と費用をご提案します。</p>
+        <div class="lp-btns">
+          <a class="lp-btn" href={contact}>無料で相談する</a>
+        </div>
+      </div>
+      <p class="lp-sub">先生方へ：<a href={`${base}/category/tools/`}>授業で役立つ教材・コンテンツ</a>（フラッシュカードの無料配布など）</p>
+    </div>
+  </section>
+</div>
