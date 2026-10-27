@@ -239,11 +239,9 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .lp-nums div { flex: 1 1 140px; text-align: center; }
 .lp-nums b { display: block; font-size: 34px; color: var(--navy); line-height: 1.4; }
 .lp-nums span { color: var(--mute); }
-/* トップの見出しの下の学校名（リード文と同じ大きさ） */
+/* トップの見出し */
 .lp-title { display: flex; flex-direction: column; gap: 6px; }
-.lp-school-name { margin: 0; font-size: 26px; line-height: 1.4; color: var(--navy); font-weight: 700; letter-spacing: .04em; }
 .lp-em { color: var(--accent-dark); }
-@media (max-width: 640px) { .lp-school-name { font-size: 21px; } }
 /* 見出しのすぐ下に置く証拠の数字（平均11年・96.5%・2005年から） */
 .lp-proof { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .lp-proof li { background: #fff; border: 1px solid #dfe5ee; border-radius: 999px; padding: 4px 14px; font-size: 14px; color: var(--mute); }
@@ -929,3 +927,32 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .course-talk p { color: var(--ink); font-size: 17px; }
 @media (max-width: 640px) { .course-talk img { height: 160px; } .course-talk div { padding: 14px 16px; margin-bottom: 20px; } .course-talk p { font-size: 15px; } .course-hero > img { width: 200px; } }
 .course .lp-box > .course-ico { width: 44px; height: 44px; font-size: 22px; background: #fff; }
+/* 英語レベル早見表（/english/level/）。レベルの色は旧ページの表と同じ並び（K 2026-10-27） */
+.lv { --lv0: #FBE3D6; --lv2: #FFE94D; --lv4: #A8DA6F; --lv6: #2FBF71; --lv8: #3CC3F2; --lv10: #1F6FC0; }
+.lv-facts .lp-card b { font-size: 18px; }
+.lv-facts em { font-style: normal; font-size: 34px; color: var(--navy); margin: 0 2px; }
+.lv-n { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; font-weight: 800; font-size: 18px; color: #1B2430; background: var(--lvc); flex: none; }
+.lv-r0, .lv-r1 { --lvc: var(--lv0); }
+.lv-r2, .lv-r3 { --lvc: var(--lv2); }
+.lv-r4, .lv-r5 { --lvc: var(--lv4); }
+.lv-r6, .lv-r7 { --lvc: var(--lv6); }
+.lv-r8, .lv-r9 { --lvc: var(--lv8); }
+.lv-r10 { --lvc: var(--lv10); }
+.lv-r6 .lv-n, .lv-r7 .lv-n, .lv-r10 .lv-n { color: #fff; }
+.lv-table table { min-width: 720px; }
+.lv-table th, .lv-table td { text-align: center; vertical-align: middle; white-space: nowrap; }
+.lv-table td:nth-child(2) { font-weight: 400; color: inherit; background: #fff; }
+.lv-table tbody th { position: sticky; left: 0; background: #fff; z-index: 1; padding: 6px 10px; }
+.lv-table thead th:first-child { position: sticky; left: 0; z-index: 2; }
+.lv-table tbody tr { border-left: 6px solid var(--lvc); }
+.lv-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.lv-list li { display: flex; gap: 14px; align-items: center; background: #fff; border: 1px solid var(--edge); border-left: 6px solid var(--lvc); border-radius: 12px; padding: 12px 14px; }
+.lv-list b { display: block; line-height: 1.5; }
+.lv-list small { display: block; color: var(--mute); font-size: 13px; margin-top: 2px; }
+.lv-calc { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; background: var(--soft); border-radius: 16px; padding: 20px; }
+.lv-calc label { flex: 1 1 220px; display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 14px; }
+.lv-calc select { font: inherit; font-weight: 400; font-size: 16px; padding: 10px 12px; border: 1px solid var(--edge); border-radius: 10px; background: #fff; width: 100%; }
+.lv-arrow { font-size: 22px; color: var(--mute); padding-bottom: 10px; }
+.lv-out { flex: 1 1 100%; margin: 4px 0 0; font-size: 18px; text-align: center; background: #fff; border-radius: 12px; padding: 14px; }
+.lv-out b { font-size: 32px; color: var(--cta); margin: 0 4px; }
+@media (max-width: 600px) { .lv-arrow { display: none; } }
