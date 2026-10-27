@@ -44,13 +44,20 @@ const faq = [
           <p class="lp-note">無料の会員登録だけで、すぐに話せます。</p>
         </div>
         <figure class="bg-video">
-          {/* 動画は ai.myecom.net に置いてあるものを読み込む。ページを開いただけでは読み込まない（K 2026-10-27） */}
-          <video controls playsinline preload="none" poster="https://ai.myecom.net/intro/demo.jpg">
-            <source src="https://ai.myecom.net/intro/demo.mp4" type="video/mp4" />
-            <source src="https://ai.myecom.net/intro/demo.webm" type="video/webm" />
-          </video>
-          <figcaption>▶ 実際のレッスンの様子。音声をオンにして、AI講師の自然な声を聞いてみてください。</figcaption>
+          {/* ページには画像だけを出し、押したときに初めて動画を読み込む（通信量を使わないため K 2026-10-27）。動画は ai.myecom.net に置いてある */}
+          <button type="button" class="bg-video-open" data-video-open aria-label="実際のレッスンの動画を再生する">
+            <img src="https://ai.myecom.net/intro/demo.jpg" alt="ECOM AI英会話の実際のレッスン画面" loading="eager" />
+            <span class="bg-video-play" aria-hidden="true">▶</span>
+          </button>
+          <figcaption>▶ 押すと、実際のレッスンの様子を再生します</figcaption>
         </figure>
+        <dialog class="bg-video-dialog" data-video-dialog aria-label="実際のレッスンの様子">
+          <div class="bg-video-bar">
+            <button type="button" class="bg-video-sound" data-video-sound>🔊 音声ON</button>
+            <button type="button" class="bg-video-close" data-video-close aria-label="閉じる">✕</button>
+          </div>
+          <video playsinline muted loop preload="none" data-src-mp4="https://ai.myecom.net/intro/demo.mp4" data-src-webm="https://ai.myecom.net/intro/demo.webm"></video>
+        </dialog>
       </div>
     </div>
   </section>
@@ -143,3 +150,35 @@ const faq = [
     </div>
   </section>
 </div>
+
+<script>
+  // 画像を押したら大きく開いて、音なしで再生。オレンジの「音声ON」で音ありにする。閉じたら止めて読み込みもやめる
+  const dialog = document.querySelector<HTMLDialogElement>('[data-video-dialog]');
+  const video = dialog?.querySelector('video');
+  const sound = dialog?.querySelector<HTMLButtonElement>('[data-video-sound]');
+  if (dialog && video && sound) {
+    const setSound = (on: boolean) => {
+      video.muted = !on;
+      sound.textContent = on ? '🔇 音声OFF' : '🔊 音声ON';
+      sound.classList.toggle('on', on);
+    };
+    document.querySelector('[data-video-open]')?.addEventListener('click', () => {
+      if (!video.querySelector('source')) {
+        for (const [key, type] of [['srcMp4', 'video/mp4'], ['srcWebm', 'video/webm']]) {
+          const src = document.createElement('source');
+          src.src = video.dataset[key]!;
+          src.type = type;
+          video.append(src);
+        }
+        video.load();
+      }
+      setSound(false);
+      dialog.showModal();
+      video.play().catch(() => {});
+    });
+    sound.addEventListener('click', () => setSound(video.muted));
+    dialog.querySelector('[data-video-close]')?.addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', () => { video.pause(); setSound(false); });
+  }
+</script>
