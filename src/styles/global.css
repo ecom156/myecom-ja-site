@@ -908,3 +908,24 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .course-steps { flex-direction: column; }
 .course-steps li { flex-basis: auto; }
 @media (max-width: 640px) { .course-table table { min-width: 0; font-size: 14px; } .course-table th, .course-table td { padding: 8px; } .course h1 { font-size: 28px; } .course h2 { font-size: 24px; } .course-nums b { font-size: 32px; } }
+/* コースページのイラスト・アイコン（ECOMの女性スタッフのイラストは public/english/img/staff/） */
+.course-hero { display: flex; flex-wrap: wrap; gap: 24px 40px; align-items: center; }
+.course-hero > div { flex: 1 1 520px; display: flex; flex-direction: column; gap: 16px; }
+.course-hero > img { flex: 0 1 300px; width: 300px; max-width: 70%; height: auto; margin: 0 auto; }
+.course-ico { width: 56px; height: 56px; border-radius: 50%; background: #E8EEF6; display: grid; place-items: center; font-size: 28px; font-style: normal; line-height: 1; }
+.lp-sec.soft .course-ico { background: #F2F6FB; }
+.course-ico.warm { background: #FFF1E6; }
+.course .lp-card > .course-ico { margin-bottom: 4px; }
+.course-num { counter-reset: step; }
+.course-num li { counter-increment: step; position: relative; padding-top: 56px; }
+.course-num li::before { content: counter(step); position: absolute; top: 20px; left: 24px; width: 36px; height: 36px; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700; display: grid; place-items: center; }
+.course-num em { display: none; }
+.course-num li > i { position: absolute; top: 14px; right: 18px; font-size: 30px; font-style: normal; }
+.course-talk { display: flex; gap: 20px; align-items: flex-end; max-width: 820px; }
+.course-talk img { flex: none; height: 240px; width: auto; }
+.course-talk div { position: relative; background: #fff; border: 2px solid var(--navy); border-radius: 18px; padding: 18px 22px; margin-bottom: 40px; display: flex; flex-direction: column; gap: 6px; }
+.course-talk div::before { content: ""; position: absolute; left: -12px; bottom: 24px; width: 20px; height: 20px; background: #fff; border-left: 2px solid var(--navy); border-bottom: 2px solid var(--navy); transform: rotate(45deg); }
+.course-talk b { color: var(--navy); font-size: 14px; }
+.course-talk p { color: var(--ink); font-size: 17px; }
+@media (max-width: 640px) { .course-talk img { height: 160px; } .course-talk div { padding: 14px 16px; margin-bottom: 20px; } .course-talk p { font-size: 15px; } .course-hero > img { width: 200px; } }
+.course .lp-box > .course-ico { width: 44px; height: 44px; font-size: 22px; background: #fff; }
