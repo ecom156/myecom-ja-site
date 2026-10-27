@@ -888,3 +888,32 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .lp-sec.soft.fq-sec h2 i { background: #fff; }
 .fq-kids .fq-cats a:hover { border-color: var(--kids); }
 @media (max-width: 640px) { .fq-cats { grid-template-columns: 1fr 1fr; gap: 8px; } .fq-cats a { padding: 10px; font-size: 14px; gap: 6px; } .fq-cats small { display: none; } }
+/* 英語レベル早見表（/english/level/）。レベルの色は旧ページの表と同じ並び（K 2026-10-27） */
+.lv { --lv0: #FBE3D6; --lv2: #FFE94D; --lv4: #A8DA6F; --lv6: #2FBF71; --lv8: #3CC3F2; --lv10: #1F6FC0; }
+.lv-facts .lp-card b { font-size: 18px; }
+.lv-facts em { font-style: normal; font-size: 34px; color: var(--navy); margin: 0 2px; }
+.lv-n { display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; font-weight: 800; font-size: 18px; color: #1B2430; background: var(--lvc); flex: none; }
+.lv-r0, .lv-r1 { --lvc: var(--lv0); }
+.lv-r2, .lv-r3 { --lvc: var(--lv2); }
+.lv-r4, .lv-r5 { --lvc: var(--lv4); }
+.lv-r6, .lv-r7 { --lvc: var(--lv6); }
+.lv-r8, .lv-r9 { --lvc: var(--lv8); }
+.lv-r10 { --lvc: var(--lv10); }
+.lv-r6 .lv-n, .lv-r7 .lv-n, .lv-r10 .lv-n { color: #fff; }
+.lv-table table { min-width: 720px; }
+.lv-table th, .lv-table td { text-align: center; vertical-align: middle; white-space: nowrap; }
+.lv-table td:nth-child(2) { font-weight: 400; color: inherit; background: #fff; }
+.lv-table tbody th { position: sticky; left: 0; background: #fff; z-index: 1; padding: 6px 10px; }
+.lv-table thead th:first-child { position: sticky; left: 0; z-index: 2; }
+.lv-table tbody tr { border-left: 6px solid var(--lvc); }
+.lv-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.lv-list li { display: flex; gap: 14px; align-items: center; background: #fff; border: 1px solid var(--edge); border-left: 6px solid var(--lvc); border-radius: 12px; padding: 12px 14px; }
+.lv-list b { display: block; line-height: 1.5; }
+.lv-list small { display: block; color: var(--mute); font-size: 13px; margin-top: 2px; }
+.lv-calc { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; background: var(--soft); border-radius: 16px; padding: 20px; }
+.lv-calc label { flex: 1 1 220px; display: flex; flex-direction: column; gap: 6px; font-weight: 700; font-size: 14px; }
+.lv-calc select { font: inherit; font-weight: 400; font-size: 16px; padding: 10px 12px; border: 1px solid var(--edge); border-radius: 10px; background: #fff; width: 100%; }
+.lv-arrow { font-size: 22px; color: var(--mute); padding-bottom: 10px; }
+.lv-out { flex: 1 1 100%; margin: 4px 0 0; font-size: 18px; text-align: center; background: #fff; border-radius: 12px; padding: 14px; }
+.lv-out b { font-size: 32px; color: var(--cta); margin: 0 4px; }
+@media (max-width: 600px) { .lv-arrow { display: none; } }
