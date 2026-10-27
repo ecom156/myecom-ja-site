@@ -255,6 +255,8 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .lp-book p { margin: 0; display: flex; flex-direction: column; }
 .lp-book b { color: var(--navy); }
 .lp-book span { font-size: 14px; color: var(--mute); }
+.lp-or { flex: none; align-self: center; font-style: normal; font-weight: 800; font-size: 14px; letter-spacing: .06em; color: var(--navy); }
+@media (max-width: 600px) { .lp-book { flex-direction: column; } .lp-book div { flex-basis: auto; } .lp-or { margin: -4px 0; } }
 /* 子供の入口（英検・話す力） */
 .kd-entry { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 0; font-weight: 700; }
 .lp-plan { flex: 1 1 230px; border: 1px solid var(--edge); border-radius: 12px; padding: 24px; display: flex; flex-direction: column; gap: 6px; background: #fff; }
@@ -430,6 +432,7 @@ main:has(> .lp-form:last-child) { padding-bottom: 0; }
 .ad-trust b { display: block; font-size: 24px; color: var(--navy); line-height: 1.4; }
 .ad-trust span { font-size: 14px; color: var(--mute); }
 .ad-course { flex-basis: 240px; }
+.kd-bilingual { display: block; width: fit-content; align-self: flex-start; margin: 0; padding: 6px 18px; border: 2px solid var(--cta-dark); border-radius: 999px; background: #fff; font-size: 17px; font-weight: 700; color: var(--cta-dark); }
 .ad-native { margin: 0; font-size: 18px; font-weight: 700; color: var(--cta-dark); }
 .ad-teachers { flex: 1 1 360px; min-width: 0; background: #fff; border-radius: 16px; padding: 18px; box-shadow: 0 6px 20px rgba(31,58,95,.12); display: flex; flex-direction: column; gap: 12px; }
 .ad-teachers > p { margin: 0; font-weight: 700; color: var(--navy); }
