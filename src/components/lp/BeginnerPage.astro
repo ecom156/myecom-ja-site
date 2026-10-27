@@ -53,10 +53,13 @@ const faq = [
         </figure>
         <dialog class="bg-video-dialog" data-video-dialog aria-label="実際のレッスンの様子">
           <div class="bg-video-bar">
-            <button type="button" class="bg-video-sound" data-video-sound>🔊 音声ON</button>
             <button type="button" class="bg-video-close" data-video-close aria-label="閉じる">✕</button>
           </div>
-          <video playsinline muted loop preload="none" data-src-mp4="https://ai.myecom.net/intro/demo.mp4" data-src-webm="https://ai.myecom.net/intro/demo.webm"></video>
+          <div class="bg-video-stage">
+            <video playsinline muted loop preload="none" data-src-mp4="https://ai.myecom.net/intro/demo.mp4" data-src-webm="https://ai.myecom.net/intro/demo.webm"></video>
+            {/* 音声ONは動画の右下に重ねる（K 2026-10-27） */}
+            <button type="button" class="bg-video-sound" data-video-sound>🔊 音声ON</button>
+          </div>
         </dialog>
       </div>
     </div>
