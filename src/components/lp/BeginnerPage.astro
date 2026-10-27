@@ -43,14 +43,14 @@ const faq = [
           </div>
           <p class="lp-note">無料の会員登録だけで、すぐに話せます。</p>
         </div>
-        <div class="bg-phone" aria-label="AI英会話の会話の例">
-          <p class="bg-call"><span>📞</span>ECOM AI 講師と通話中</p>
-          <p class="bg-msg ai">Hi! Last time, you told me about your trip to Kyoto. How was it?</p>
-          <p class="bg-msg me">It was... um... very fun!</p>
-          <p class="bg-msg ai">Great! What did you eat there?</p>
-          <p class="bg-msg me">I ate... tofu? Yudofu!</p>
-          <p class="bg-hint">前回の話を覚えていて、続きから話しかけてくれます</p>
-        </div>
+        <figure class="bg-video">
+          {/* 動画は ai.myecom.net に置いてあるものを読み込む。ページを開いただけでは読み込まない（K 2026-10-27） */}
+          <video controls playsinline preload="none" poster="https://ai.myecom.net/intro/demo.jpg">
+            <source src="https://ai.myecom.net/intro/demo.mp4" type="video/mp4" />
+            <source src="https://ai.myecom.net/intro/demo.webm" type="video/webm" />
+          </video>
+          <figcaption>▶ 実際のレッスンの様子。音声をオンにして、AI講師の自然な声を聞いてみてください。</figcaption>
+        </figure>
       </div>
     </div>
   </section>
