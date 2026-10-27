@@ -858,3 +858,15 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .bg-q i { font-style: normal; font-size: 26px; flex: none; }
 .bg-a { padding: 16px 18px; color: var(--sub); display: flex; flex-direction: column; gap: 4px; }
 .bg-a b { color: #15803D; font-size: 14px; }
+/* よくある質問（/faqs/・/english/children/faq）。カテゴリのボタンから各カテゴリへ（K 2026-10-27） */
+.fq-cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px; }
+.fq-cats a { display: flex; align-items: center; gap: 10px; background: #fff; border: 1px solid var(--edge); border-radius: 12px; padding: 12px 14px; font-weight: 700; color: var(--ink) !important; text-decoration: none; }
+.fq-cats a:hover { border-color: var(--navy); }
+.fq-cats i { font-style: normal; font-size: 22px; }
+.fq-cats small { margin-left: auto; font-size: 12px; color: var(--mute); background: var(--soft); border-radius: 999px; padding: 1px 8px; }
+.fq-sec { scroll-margin-top: 80px; }
+.fq-sec h2 { display: flex; align-items: center; gap: 10px; }
+.fq-sec h2 i { font-style: normal; width: 44px; height: 44px; border-radius: 50%; background: var(--soft); display: grid; place-items: center; font-size: 22px; }
+.lp-sec.soft.fq-sec h2 i { background: #fff; }
+.fq-kids .fq-cats a:hover { border-color: var(--kids); }
+@media (max-width: 640px) { .fq-cats { grid-template-columns: 1fr 1fr; gap: 8px; } .fq-cats a { padding: 10px; font-size: 14px; gap: 6px; } .fq-cats small { display: none; } }

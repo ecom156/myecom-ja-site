@@ -1,0 +1,58 @@
+---
+import Faq from './Faq.astro';
+import { adultFaqs, kidsFaqs } from '../../data/faqs';
+
+// よくある質問（大人・全言語は /faqs/、子供は /english/children/faq）。中身は src/data/faqs.ts（K 2026-10-27）
+// カテゴリのボタン → カテゴリごとの質問 → 解決しないときの問い合わせ。検索結果に出やすいよう FAQPage の構造化データも出す
+interface Props { kind?: 'adult' | 'kids' }
+const { kind = 'adult' } = Astro.props;
+const isKids = kind === 'kids';
+const cats = isKids ? kidsFaqs : adultFaqs;
+const contact = isKids ? '/english/children/contact' : '/contact/';
+const trial = isKids ? '/english/children/trial/' : '/trial/';
+const strip = (h: string) => h.replace(/<[^>]+>/g, '');
+const ld = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: cats.flatMap((c) => c.items).map((i) => ({ '@type': 'Question', name: i.q, acceptedAnswer: { '@type': 'Answer', text: strip(i.a) } })),
+}).replace(/</g, '\\u003c');
+---
+<div class={`lp fq${isKids ? ' kd fq-kids' : ''}`}>
+  <section class="lp-sec soft fq-hero">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">{isKids ? '🎒 子供の英会話' : 'ECOM語学学校'}</p>
+        <h1>よくある質問</h1>
+        <p class="lp-lead">{isKids ? '保護者の方からよくいただく質問をまとめました。' : '大人の英会話と、英語以外の言語のよくある質問をまとめました。'}知りたいことのカテゴリを選んでください。</p>
+      </div>
+      <nav class="fq-cats" aria-label="カテゴリ">
+        {cats.map((c) => <a href={`#${c.id}`}><i aria-hidden="true">{c.icon}</i>{c.title}<small>{c.items.length}</small></a>)}
+      </nav>
+      {isKids
+        ? <p class="lp-note">大人の英会話・ほかの言語については、<a href="/faqs/">ECOM全体のよくある質問</a>をご覧ください。</p>
+        : <p class="lp-note">お子さま（3〜17歳）については、<a href="/english/children/faq">子供の英会話のよくある質問</a>をご覧ください。</p>}
+    </div>
+  </section>
+
+  {cats.map((c, i) => (
+    <section class={`lp-sec fq-sec${i % 2 ? ' soft' : ''}`} id={c.id}>
+      <div class="lp-in narrow">
+        <h2><i aria-hidden="true">{c.icon}</i>{c.title}</h2>
+        <Faq items={c.items} />
+      </div>
+    </section>
+  ))}
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>解決しないときは、お気軽にお問い合わせください。</p>
+        <div class="lp-btns">
+          <a class="lp-btn navy" href={contact}>お問い合わせ</a>
+          <a class="lp-btn" href={trial}>体験レッスンを予約する</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script type="application/ld+json" set:html={ld} />
+</div>
