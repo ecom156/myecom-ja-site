@@ -93,6 +93,7 @@ template: "course"
 <h2>ほかの英検対策</h2>
 <div class="lp-chips">
 <a href="/english/children/courses/examinations/eiken/third">英検3級対策</a>
+<a href="/english/children/courses/examinations/eiken/presecondplus">英検準2級プラス対策</a>
 <a href="/english/children/courses/examinations/eiken/second">英検2級対策</a>
 <a href="/english/children/courses/examinations/eiken/prefirst">英検準1級対策</a>
 <a href="/english/children/courses/examinations/eiken/first">英検1級対策</a>

@@ -80,7 +80,11 @@ template: "course"
 <h2>ほかの英検対策コース</h2>
 <div class="lp-chips">
 <a href="/english/courses/examinations/eiken/">英検対策コース一覧</a>
+<a href="/english/courses/examinations/eiken/third/">英検3級対策</a>
+<a href="/english/courses/examinations/eiken/presecond/">英検準2級対策</a>
+<a href="/english/courses/examinations/eiken/presecondplus/">英検準2級プラス対策</a>
 <a href="/english/courses/examinations/eiken/prefirst/">英検準1級対策</a>
+<a href="/english/courses/examinations/eiken/first/">英検1級対策</a>
 <a href="/english/courses/examinations/">英語試験対策コース一覧</a>
 </div>
 </div>
