@@ -104,7 +104,7 @@ const faq = [
       </div>
       <div class="lp-cards">
         <div class="lp-plan"><p class="name">マンツーマン 月2時間</p><p class="price">14,000円<small> / 人・月</small></p></div>
-        <div class="lp-plan"><p class="name">グループ（2〜10人）60分×月4回</p><p class="price">33,600円<small> / グループ・月</small></p><p class="lead">10人なら1人あたり3,360円</p></div>
+        <div class="lp-plan"><p class="name">グループ（2〜10人）1時間×月4回</p><p class="price">33,600円<small> / グループ・月</small></p><p class="lead">10人なら1人あたり3,360円</p></div>
         <div class="lp-plan"><p class="name">1レベル上げる（マンツーマン）</p><p class="price">210,000円<small> / 人</small></p><p class="lead">約60時間のうち、レッスンは約30時間（残りはAI・自習）</p></div>
       </div>
       <div class="lp-table cg-fee">
@@ -115,6 +115,7 @@ const faq = [
             {group.map((g) => <tr><td>{g.size}</td><td>{g.fee}</td><td><b>{g.hourly}</b></td></tr>)}
           </tbody>
         </table>
+        <p class="lp-note">グループの1時間は、50分のレッスンと、講師がフィードバックを書く10分です。</p>
       </div>
       <p class="lp-note">法人入会金{entryFee}（税抜）。有効期限は受講開始から1年。<a href={`${base}/online-group/price/`}>料金と事例を詳しく見る</a></p>
     </div>

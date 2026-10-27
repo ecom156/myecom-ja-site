@@ -47,6 +47,7 @@ path: "/corporation/online-group/"
 <div class="wpb_wrapper">
 <h3 style="text-align: center;">基本料金</h3>
 <h3 style="text-align: center;"><strong><span style="color: #ff6600;">1時間 1クラス：7,000円 ＋ 参加者管理料</span></strong></h3>
+<p style="text-align: center;">1時間は、50分のレッスンと、講師がフィードバックを書く10分です。</p>
 </div>
 </div>
 <div class="wpb_text_column wpb_content_element">
