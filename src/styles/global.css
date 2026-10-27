@@ -239,11 +239,9 @@ a.lp-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
 .lp-nums div { flex: 1 1 140px; text-align: center; }
 .lp-nums b { display: block; font-size: 34px; color: var(--navy); line-height: 1.4; }
 .lp-nums span { color: var(--mute); }
-/* トップの見出しの下の学校名（リード文と同じ大きさ） */
+/* トップの見出し */
 .lp-title { display: flex; flex-direction: column; gap: 6px; }
-.lp-school-name { margin: 0; font-size: 26px; line-height: 1.4; color: var(--navy); font-weight: 700; letter-spacing: .04em; }
 .lp-em { color: var(--accent-dark); }
-@media (max-width: 640px) { .lp-school-name { font-size: 21px; } }
 /* 見出しのすぐ下に置く証拠の数字（平均11年・96.5%・2005年から） */
 .lp-proof { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .lp-proof li { background: #fff; border: 1px solid #dfe5ee; border-radius: 999px; padding: 4px 14px; font-size: 14px; color: var(--mute); }
