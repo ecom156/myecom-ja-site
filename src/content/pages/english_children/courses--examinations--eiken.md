@@ -131,7 +131,7 @@ template: "course"
 <p>まずは体験レッスンで、先生に会ってみませんか。</p>
 <div class="lp-btns">
 <a class="lp-btn" href="/english/children/trial/">体験レッスン（30分×2回・2,500円）</a>
-<a href="/price/#price-kids">料金を見る</a>
+<a href="/english/children/price">料金を見る</a>
 </div>
 </div>
 <p class="lp-note">英検®は、公益財団法人 日本英語検定協会の登録商標です。</p>

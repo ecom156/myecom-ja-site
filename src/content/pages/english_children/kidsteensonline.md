@@ -164,7 +164,7 @@ path: "/english/children/kidsteensonline"
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
 <h3><span style="color: #800000;"><a href="/english/wp-content/uploads/2014/01/02-2.gif"><img loading="lazy" decoding="async" class="alignright size-full wp-image-4283" src="/english/wp-content/uploads/2014/01/02-2.gif" alt="02-2" width="108" height="151"></a></span></h3>
-<p>『チケットを購入してそれを使ってレッスンを予約して受けていく』というチケット制となっています。チケット購入数によって値段は変わりますが、大体週１回30分マンツーマンクラスで月12,000円程度、１回30分クラスのプライベート料金は3,000円程度となっています。＞<a title="チケット制の料金体系" href="/price/#price-kids">詳しい料金案内はこちら</a></p>
+<p>『チケットを購入してそれを使ってレッスンを予約して受けていく』というチケット制となっています。チケット購入数によって値段は変わりますが、大体週１回30分マンツーマンクラスで月12,000円程度、１回30分クラスのプライベート料金は3,000円程度となっています。＞<a title="チケット制の料金体系" href="/english/children/price">詳しい料金案内はこちら</a></p>
 </div>
 </div>
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">

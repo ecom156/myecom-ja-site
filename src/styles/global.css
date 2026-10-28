@@ -1026,3 +1026,29 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .ct-route span { display: block; color: var(--mute); font-size: 14px; margin-top: 2px; }
 .ct-route em { display: block; font-style: normal; font-weight: 700; color: var(--navy); font-size: 14px; margin-top: 8px; }
 .ct-mail { margin-top: 24px; }
+/* 料金ページの大人・子供の切り替えと、大人の2つの料金（K 2026-10-28） */
+.pr-switch { display: flex; width: fit-content; max-width: 100%; background: #fff; border: 1px solid var(--edge); border-radius: 999px; padding: 4px; gap: 4px; margin-bottom: 20px; flex-wrap: wrap; }
+.pr-switch a { border-radius: 999px; padding: 8px 18px; font-weight: 700; font-size: 15px; color: var(--sub) !important; text-decoration: none; }
+.pr-switch a.on { background: var(--navy); color: #fff !important; }
+.pr-kids .pr-switch a.on { background: var(--cta); }
+.pr-ways { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.pr-way { display: flex; flex-direction: column; gap: 6px; background: #fff; border: 2px solid var(--edge); border-radius: 18px; padding: 22px; color: var(--ink) !important; text-decoration: none; }
+.pr-way:hover { border-color: var(--navy); }
+.pr-way-name { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; }
+.pr-way-name i { font-style: normal; }
+.pr-way-who { color: var(--mute); font-size: 14px; }
+.pr-way > b { font-size: 20px; color: var(--cta); }
+.pr-way ul { margin: 4px 0 0; padding-left: 1.2em; color: var(--sub); }
+.pr-way em { font-style: normal; font-weight: 700; color: var(--navy); margin-top: auto; padding-top: 8px; }
+.pr-company { margin: 16px 0 0; font-size: 14px; color: var(--sub); background: var(--soft); border-radius: 12px; padding: 10px 14px; }
+.pr-family { border: 2px solid #FED7AA; background: #FFF7ED; gap: 8px; }
+.pr-family > b { font-size: 20px; }
+.pr-family a { font-weight: 700; }
+.pr-guide { background: #fff; border: 1px solid var(--edge); border-radius: 14px; padding: 14px 18px; }
+.pr-guide ul { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.pr-guide li { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; color: var(--sub); }
+.pr-guide li i { font-style: normal; }
+.pr-guide li strong { color: var(--cta); }
+.pr-small { display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--sub); border-top: 1px solid var(--edge); border-bottom: 1px solid var(--edge); padding: 14px 0; }
+.pr-small p { margin: 0; }
+.pr-kids .pr-family > b { font-size: 22px; }
