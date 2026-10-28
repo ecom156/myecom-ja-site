@@ -973,3 +973,32 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .course-books .lp-card > img { width: 120px; height: auto; margin: 0 auto 8px; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,.15); }
 .course-books .lp-card > ul { margin: 4px 0 0; padding-left: 1.2em; font-size: 14px; line-height: 1.7; }
 .course-purpose .lp-card { flex-basis: 300px; }
+/* ECOMの特徴（FeaturesPage）：移ってきた方の声と、数字（K 2026-10-28） */
+.feat-voice { flex-basis: 300px; }
+.feat-voice .feat-q { background: #F2F6FB; border-radius: 10px; padding: 12px 14px; color: var(--ink); font-weight: 700; line-height: 1.7; margin-bottom: 4px; }
+.feat-voice .feat-q::before { content: "💬 "; }
+.feat-voice b { color: var(--cta-dark); font-size: 15px; }
+.feat-nums div { flex: 1 1 150px; background: var(--soft); border-radius: 12px; padding: 18px 12px; }
+.improve-chart-box { background: #fff; border: 1px solid var(--edge); border-radius: 14px; padding: 16px; }
+.improve-chart { width: 100%; height: auto; display: block; }
+.course-video { border-radius: 14px; overflow: hidden; background: #000; }
+.course-video iframe { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; }
+.lp-cards > .course-voice { flex: 1 1 100%; }
+.points-list { flex-direction: column; }
+.points-list li { flex-basis: auto; }
+.points-check { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.points-check li { background: #fff; border-radius: 12px; padding: 14px 16px 14px 48px; position: relative; font-weight: 700; }
+.points-check li::before { content: "✓"; position: absolute; left: 16px; top: 12px; width: 22px; height: 22px; border-radius: 50%; background: var(--cta); color: #fff; display: grid; place-items: center; font-size: 13px; }
+.col-first { display: flex; flex-direction: column; gap: 8px; border: 2px solid var(--cta); }
+.col-first b { font-size: 22px; color: var(--navy); }
+.col-group ul { margin: 4px 0 0; padding-left: 1.1em; display: grid; gap: 6px; }
+.col-group a { font-weight: 700; }
+.vid-card { padding: 0; overflow: hidden; }
+.vid-card img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.vid-card > div { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 6px; }
+.feat-study { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 16px; margin-top: 20px; padding: 18px 22px; border-radius: 14px; background: #FFF7ED; border: 2px solid var(--cta); color: var(--ink); text-decoration: none; }
+.feat-study b { font-size: 20px; color: var(--cta-dark); }
+.feat-study span { flex: 1 1 320px; color: var(--sub); }
+.feat-study i { font-style: normal; font-weight: 700; color: var(--cta-dark); }
+.lp-card > .course-ico { margin-top: 0; }
+.col-first i { margin-top: 4px; }
