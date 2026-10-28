@@ -955,3 +955,16 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .course-key { background: #FFF7ED; border: 2px solid var(--cta); border-radius: 14px; padding: 18px 22px; font-size: 20px; font-weight: 700; line-height: 1.7; color: var(--ink); }
 .course-key strong { color: var(--cta-dark); }
 @media (max-width: 640px) { .course-key { font-size: 17px; padding: 14px 16px; } }
+/* 英検対策の一覧ページ：添削例の画像と合格体験記のカード */
+.course-gallery { display: flex; flex-wrap: wrap; gap: 16px; }
+.course-gallery a { flex: 1 1 220px; background: #fff; border-radius: 12px; padding: 8px; border: 1px solid var(--edge); }
+.course-gallery img { width: 100%; height: 200px; object-fit: contain; display: block; }
+.course-grades .lp-card { flex-basis: 300px; }
+.course-voice { display: grid; grid-template-columns: 1.3fr 1fr; border-radius: 16px; overflow: hidden; border: 1px solid var(--edge); background: #fff; color: var(--ink); text-decoration: none; }
+.course-voice img { width: 100%; height: 100%; max-height: 280px; object-fit: cover; object-position: right center; }
+.course-voice div { padding: 24px; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+.course-voice b { font-size: 22px; color: var(--navy); }
+.course-voice i { font-style: normal; color: var(--cta-dark); font-weight: 700; }
+.course .lp-faq details > p + p { margin-top: 12px; }
+.course .lp-faq details .lp-table { margin-top: 12px; }
+@media (max-width: 640px) { .course-voice { grid-template-columns: 1fr; } .course-voice img { max-height: 200px; } }
