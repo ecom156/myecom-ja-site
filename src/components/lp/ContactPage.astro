@@ -1,0 +1,48 @@
+---
+import Form from '../Form.astro';
+
+// お問い合わせ（/contact/）。内容ごとの窓口を先に案内し、どれにも当たらないときにフォームへ（K 2026-10-28）
+// フォームは forms.json の root-1。送信後は /contact/thank-you-contact/ へ
+const routes = [
+  { icon: '🙋', title: '体験レッスンを申し込みたい', text: '大人の英会話・ほかの言語の体験レッスン', href: '/trial/', link: '体験レッスンのお申し込みへ' },
+  { icon: '🎒', title: 'お子さま（3〜17歳）について', text: '子供の英会話の体験・ご相談', href: '/english/children/contact', link: '子供英会話のお問い合わせへ' },
+  { icon: '🏢', title: '企業・官公庁の語学研修', text: '資料請求・お見積り・ご相談', href: '/corporation/contact/', link: '法人のお問い合わせへ' },
+  { icon: '🏫', title: '学校・教職員の方', text: '授業・研修のご相談', href: '/schools/contact/', link: '学校のお問い合わせへ' },
+  { icon: '🔑', title: '会員の方：レッスンの予約・変更', text: '会員サイトにログインして行えます', href: 'https://121.myecom.net', link: '会員サイトへ' },
+];
+---
+<div class="lp ad ct">
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">ECOM語学学校</p>
+        <h1>お問い合わせ</h1>
+        <p class="lp-lead">内容に合った窓口を選ぶと、ご案内が早くなります。</p>
+      </div>
+      <div class="ct-routes">
+        {routes.map((r) => (
+          <a class="ct-route" href={r.href} target={r.href.startsWith('http') ? '_blank' : undefined} rel={r.href.startsWith('http') ? 'noopener' : undefined}>
+            <i aria-hidden="true">{r.icon}</i>
+            <div><b>{r.title}</b><span>{r.text}</span><em>{r.link} →</em></div>
+          </a>
+        ))}
+      </div>
+      <p class="lp-note">料金・予約・受講環境など、よくいただく質問は<a href="/faqs/">よくある質問</a>にまとめています。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec" id="form">
+    <div class="lp-in narrow">
+      <div class="lp-head">
+        <h2>上のどれにも当てはまらないときは</h2>
+        <p class="lp-sub">こちらのフォームからお送りください。確認のメールをお送りします。</p>
+      </div>
+      <Form formKey="root-1" />
+      <div class="lp-box ct-mail">
+        <b>✉️ メールでのお問い合わせ</b>
+        <span class="lp-sub">info@myecom.net</span>
+        <span class="lp-sub">月額プランの解約は、次回お支払い日の7日前までにメールでご連絡ください。</span>
+      </div>
+    </div>
+  </section>
+</div>

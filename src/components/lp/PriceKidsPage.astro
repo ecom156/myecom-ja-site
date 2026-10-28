@@ -1,0 +1,100 @@
+---
+import PlanCards from './PlanCards.astro';
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+
+// 子供の料金ページ（/english/children/price）。大人と分け、月額プランを中心に、兄弟で受けられる家族プランを大きく、チケット制は小さく見せる（K 2026-10-28）
+// 料金は plans.json の1か所で直す。月3回（塾代助成）は大阪市のページだけ
+const base = '/english/children';
+const t0 = plans.tickets[0];
+const facts = [
+  { c: 'c1', icon: '🆓', b: '入会金 0円', s: '月額プラン' },
+  { c: 'c2', icon: '⏱️', b: '1回30分', s: 'レッスン25分＋フィードバック5分' },
+  { c: 'c3', icon: '🧑‍🏫', b: '担任の先生', s: '毎週同じ曜日・時間に' },
+  { c: 'c4', icon: '👫', b: '兄弟で家族プラン', s: '兄弟姉妹で分けて受けられます' },
+];
+const guide = [
+  { icon: '🌱', who: 'はじめての英会話・習い事が多い', plan: '月2回' },
+  { icon: '📅', who: '週1回、同じ先生とじっくり', plan: '月4回（おすすめ）' },
+  { icon: '🏅', who: '英検®対策で、回数を増やしたい', plan: '月8回' },
+];
+const faq = [
+  { q: '兄弟で受けられますか？', a: '家族プランで、兄弟姉妹や保護者の方とチケットを分けて使えます。お兄ちゃんは英検®対策、妹は英会話、といった受け方ができます。急に受けられなくなった日に、兄弟が代わりに受けることもできます。' },
+  { q: '月額プランはいつでもやめられますか？', a: `はい。${plans.cancel}。期限を過ぎたご連絡は、翌月分のお支払いのあとの解約になります。` },
+  { q: 'テスト期間だけ休むことはできますか？', a: 'チケット制なら、テスト期間はお休みして、長期休みにまとめて受けられます。' },
+  { q: '予約の変更やキャンセルはできますか？', a: 'レッスン開始の1時間前まで、変更・キャンセルできます。開始12時間前を過ぎてからのキャンセルは、チケット0.5枚分のキャンセル料がかかります。' },
+  { q: '領収書はもらえますか？', a: 'はい。いつでも発行できます。' },
+];
+---
+<div class="lp kd pr pr-kids">
+  <section class="lp-sec pr-hero">
+    <div class="lp-in">
+      <nav class="pr-switch" aria-label="料金ページの切り替え">
+        <a href="/price/">🧑 大人・ほかの言語</a>
+        <a class="on" href={`${base}/price`} aria-current="page">🎒 子供（3〜17歳）</a>
+      </nav>
+      <div class="lp-head">
+        <p class="pr-eyebrow">🎒 子供の英会話の料金</p>
+        <h1><span class="nw">毎週同じ先生と続ける、</span><span class="nw">月額プランが基本です。</span></h1>
+      </div>
+      <ul class="pr-facts">
+        {facts.map((f) => <li class={f.c}><i aria-hidden="true">{f.icon}</i><b>{f.b}</b><span>{f.s}</span></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="lp-sec" id="monthly">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2 class="kd-h"><i>📅</i>月額プラン</h2>
+        <p class="lp-sub">毎月決まった回数を、担任の先生と受けるプランです。月4回からAI講師も付きます。</p>
+      </div>
+      <PlanCards signup compact />
+      <ul class="pr-mini">
+        <li>🆓 入会金0円</li><li>💳 カード払い（Square）</li><li>🔁 毎月自動更新</li><li>✋ 解約は次回お支払い日の7日前まで</li>
+      </ul>
+      <div class="pr-guide">
+        <b>どのプランがいい？</b>
+        <ul>{guide.map((g) => <li><i aria-hidden="true">{g.icon}</i>{g.who}<span>→ <strong>{g.plan}</strong></span></li>)}</ul>
+      </div>
+      <p class="lp-note">体験レッスンのあと、ご希望のプランの「申し込む」からお申し込みください。まだの方は <a href={`${base}/trial/`}>子供の体験レッスン</a> からどうぞ。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec kd-sun" id="family">
+    <div class="lp-in">
+      <div class="lp-box kd-box pr-family">
+        <b>👫 兄弟姉妹で受けられる、家族プラン</b>
+        <span class="lp-sub">兄弟姉妹や保護者の方と、レッスンを分けて受けられます。お兄ちゃんは英検®対策、妹は英会話と、ひとりずつ内容を変えられます。急に受けられない日は、兄弟が代わりに受けることもできます。</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="pr-small">
+        <p><b>🎫 チケット制もあります</b>　自動更新なし。テスト期間は休んで、長期休みにまとめて受けたい方に。{t0.n} {t0.price}から（税込・銀行振込）。<a href="/price/#ticket">チケット制の料金を見る →</a></p>
+        <p><b>🏙️ 自治体の助成</b>　<a href={`${base}/osaka-jukudai-josei`}>大阪市の塾代助成</a>・<a href={`${base}/fukuoka-coupon`}>福岡市の子ども習い事応援事業</a>が使えます。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2 class="kd-h"><i>❓</i>料金のよくある質問</h2>
+      <Faq items={faq} />
+      <p class="lp-note">ほかの質問は<a href={`${base}/faq`}>子供の英会話のよくある質問</a>へ。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>まずは体験レッスンで、先生と話してみましょう。</p>
+        <div class="lp-btns">
+          <a class="lp-btn" href={`${base}/trial/`}>{plans.trial.label}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

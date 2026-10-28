@@ -1,0 +1,112 @@
+---
+import plans from '../../data/plans.json';
+
+// ECOM語学学校の紹介（/aboutecom/）。旧ページの内容を、数字・歩み・大切にしていること・会社概要に整理した（K 2026-10-28）
+// 会社概要は特定商取引に関する表示（/tokusyouhou/）と同じ内容。「日本初」「世界初」は使わず「2005年から」で表す
+const img = '/wp-content/uploads/2024/08';
+const nums = [
+  { b: '2005年', s: 'から続く語学学校' },
+  { b: '20言語', s: 'をマンツーマンで' },
+  { b: '1万人以上', s: 'の生徒が学びました' },
+  { b: '96.5%', s: 'が満足して継続' },
+  { b: '11年', s: '講師の平均在籍' },
+];
+const values = [
+  { icon: '🏅', title: 'プロの講師だけ', text: '採用率0.5%（200人に1人）の審査を通った、日本語が分かるネイティブ・バイリンガル講師が教えます。誰でも登録できる仕組みではありません。' },
+  { icon: '🧑‍🏫', title: '同じ先生と、長く', text: '先生の在籍が長いので、あなたの英語を分かっている先生と続けられます。' },
+  { icon: '📚', title: '教材に投資する', text: '効果の高い上達法を研究するため、毎年多くの教材に投資し、自分たちでも教材を作っています。' },
+];
+const history = [
+  { y: '2005年3月', t: 'スカイプを使ったオンライン英会話「e-com 英語ネット」を開始。Yahoo!ニュースにも取り上げられました。' },
+  { y: '2006年7月', t: '株式会社イーコミュニケーションとして法人化。' },
+  { y: 'その後', t: '「英語＋もう1言語」を学びたい声に応えて、中国語・フランス語・ドイツ語など20言語に広げました。' },
+  { y: '現在', t: '先生とのレッスンに加えて、無料の英語学習アプリ「Onki（オンキ）」、YouTube、AI講師と話せるECOM AI英会話で、毎日学べる環境を作っています。' },
+];
+const company = [
+  ['運営', '株式会社イーコミュニケーション（Ecommunication.inc）'],
+  ['サービス開始', '2005年3月'],
+  ['株式会社化', '2006年7月'],
+  ['所在地', '〒102-0082 東京都千代田区一番町6 相模屋本社ビル7階'],
+  ['運営責任者', '成田勝行'],
+  ['事業内容', 'オンライン語学学習サービスの提供（英語・中国語・韓国語・フランス語・ドイツ語・スペイン語など20言語）、法人・学校向け語学研修'],
+  ['お問い合わせ', '<a href="/contact/">お問い合わせフォーム</a>、またはメール（info@myecom.net）'],
+];
+---
+<div class="lp ad ab">
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-hero">
+        <div>
+          <p class="lp-eyebrow">ECOM語学学校について</p>
+          <h1>2005年から続く、<br /><span class="nw">オンラインの語学学校</span></h1>
+          <p class="lp-lead">東京・千代田区の語学学校です。日本語が分かるネイティブ・バイリンガルのプロ講師が、英語をはじめ20言語をマンツーマンで教えています。</p>
+        </div>
+        <img src={`${img}/online-lessons-multi2.jpg`} alt="オンラインで教えるECOMの講師たち" />
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-nums">
+        {nums.map((n) => <div><b>{n.b}</b><span>{n.s}</span></div>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head"><h2>大切にしていること</h2></div>
+      <div class="lp-cards">
+        {values.map((v) => <div class="lp-card ad-feat"><i aria-hidden="true">{v.icon}</i><b>{v.title}</b><span>{v.text}</span></div>)}
+      </div>
+      <img class="ab-wide" src={`${img}/textbooks_p3.jpg`} alt="ECOMがそろえている語学の教材" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in narrow">
+      <div class="lp-head"><h2>ECOMの歩み</h2></div>
+      <ol class="ab-history">
+        {history.map((h) => <li><em>{h.y}</em><p>{h.t}</p></li>)}
+      </ol>
+      <figure class="ab-yahoo">
+        <img src={`${img}/e-comyahoo.png`} alt="2005年3月、サービス開始を伝えるYahoo!ニュースの記事" loading="lazy" />
+        <figcaption>2005年3月、サービス開始を伝えるYahoo!ニュースの記事</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head"><h2>毎日、語学にふれられるように</h2><p class="lp-sub">レッスンのない日も学べる場所を、自分たちで作っています。</p></div>
+      <div class="lp-cards">
+        <a class="lp-card ad-feat" href="https://www.youtube.com/@ecomenglish" target="_blank" rel="noopener"><i aria-hidden="true">▶️</i><b>無料の語学チャンネル</b><span>登録者約3万人のYouTubeチャンネル。英単語やフレーズを動画で学べます。</span></a>
+        <a class="lp-card ad-feat" href="/english/onki/"><i aria-hidden="true">🐘</i><b>英語暗記アプリ Onki</b><span>好きな英語を、音と一緒に覚える無料アプリ（iOS・Android）。</span></a>
+        <a class="lp-card ad-feat" href="https://ai.myecom.net/" target="_blank" rel="noopener"><i aria-hidden="true">💬</i><b>ECOM AI英会話</b><span>AI講師と、電話のように英語で話せます。無料の会員登録で10分話せます。</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in narrow">
+      <div class="lp-head"><h2>会社概要</h2></div>
+      <dl class="ab-company">
+        {company.map(([k, v]) => <div><dt>{k}</dt><dd set:html={v} /></div>)}
+      </dl>
+      <p class="lp-note"><a href="/tokusyouhou/">特定商取引に関する表示</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-end">
+        <p>まずは体験レッスンで、ECOMの先生と話してみませんか。</p>
+        <div class="lp-btns">
+          <a class="lp-btn" href="/trial/">{plans.trial.label}</a>
+          <a class="lp-btn navy" href="/contact/">お問い合わせ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

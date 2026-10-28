@@ -1002,3 +1002,53 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .feat-study i { font-style: normal; font-weight: 700; color: var(--cta-dark); }
 .lp-card > .course-ico { margin-top: 0; }
 .col-first i { margin-top: 4px; }
+/* ECOM語学学校の紹介（/aboutecom/）（K 2026-10-28） */
+.ab-wide { display: block; width: 100%; max-height: 260px; object-fit: cover; border-radius: 16px; margin-top: 24px; }
+.ab-history { list-style: none; margin: 0; padding: 0; border-left: 3px solid var(--edge); }
+.ab-history li { position: relative; padding: 0 0 22px 24px; }
+.ab-history li::before { content: ''; position: absolute; left: -9px; top: 6px; width: 15px; height: 15px; border-radius: 50%; background: var(--cta); border: 3px solid #fff; box-shadow: 0 0 0 1px var(--edge); }
+.ab-history em { font-style: normal; font-weight: 800; color: var(--navy); }
+.ab-history p { margin: 4px 0 0; color: var(--sub); }
+.ab-yahoo { margin: 8px 0 0; text-align: center; }
+.ab-yahoo img { width: 100%; max-width: 420px; border: 1px solid var(--edge); border-radius: 8px; }
+.ab-yahoo figcaption { font-size: 13px; color: var(--mute); margin-top: 6px; }
+.ab-company { margin: 0; border-top: 1px solid var(--edge); }
+.ab-company div { display: grid; grid-template-columns: 9em 1fr; gap: 12px; padding: 14px 4px; border-bottom: 1px solid var(--edge); }
+.ab-company dt { font-weight: 700; color: var(--navy); }
+.ab-company dd { margin: 0; }
+@media (max-width: 600px) { .ab-company div { grid-template-columns: 1fr; gap: 2px; } }
+/* お問い合わせ（/contact/）（K 2026-10-28） */
+.ct-routes { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.ct-route { display: flex; gap: 14px; align-items: flex-start; background: #fff; border: 1px solid var(--edge); border-radius: 14px; padding: 16px 18px; color: var(--ink) !important; text-decoration: none; }
+.ct-route:hover { border-color: var(--navy); }
+.ct-route i { font-style: normal; font-size: 28px; flex: none; }
+.ct-route b { display: block; font-size: 17px; }
+.ct-route span { display: block; color: var(--mute); font-size: 14px; margin-top: 2px; }
+.ct-route em { display: block; font-style: normal; font-weight: 700; color: var(--navy); font-size: 14px; margin-top: 8px; }
+.ct-mail { margin-top: 24px; }
+/* 料金ページの大人・子供の切り替えと、大人の2つの料金（K 2026-10-28） */
+.pr-switch { display: flex; width: fit-content; max-width: 100%; background: #fff; border: 1px solid var(--edge); border-radius: 999px; padding: 4px; gap: 4px; margin-bottom: 20px; flex-wrap: wrap; }
+.pr-switch a { border-radius: 999px; padding: 8px 18px; font-weight: 700; font-size: 15px; color: var(--sub) !important; text-decoration: none; }
+.pr-switch a.on { background: var(--navy); color: #fff !important; }
+.pr-kids .pr-switch a.on { background: var(--cta); }
+.pr-ways { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.pr-way { display: flex; flex-direction: column; gap: 6px; background: #fff; border: 2px solid var(--edge); border-radius: 18px; padding: 22px; color: var(--ink) !important; text-decoration: none; }
+.pr-way:hover { border-color: var(--navy); }
+.pr-way-name { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: 800; }
+.pr-way-name i { font-style: normal; }
+.pr-way-who { color: var(--mute); font-size: 14px; }
+.pr-way > b { font-size: 20px; color: var(--cta); }
+.pr-way ul { margin: 4px 0 0; padding-left: 1.2em; color: var(--sub); }
+.pr-way em { font-style: normal; font-weight: 700; color: var(--navy); margin-top: auto; padding-top: 8px; }
+.pr-company { margin: 16px 0 0; font-size: 14px; color: var(--sub); background: var(--soft); border-radius: 12px; padding: 10px 14px; }
+.pr-family { border: 2px solid #FED7AA; background: #FFF7ED; gap: 8px; }
+.pr-family > b { font-size: 20px; }
+.pr-family a { font-weight: 700; }
+.pr-guide { background: #fff; border: 1px solid var(--edge); border-radius: 14px; padding: 14px 18px; }
+.pr-guide ul { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.pr-guide li { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; color: var(--sub); }
+.pr-guide li i { font-style: normal; }
+.pr-guide li strong { color: var(--cta); }
+.pr-small { display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--sub); border-top: 1px solid var(--edge); border-bottom: 1px solid var(--edge); padding: 14px 0; }
+.pr-small p { margin: 0; }
+.pr-kids .pr-family > b { font-size: 22px; }

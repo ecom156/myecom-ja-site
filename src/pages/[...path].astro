@@ -22,6 +22,9 @@ import SchoolsShell from '../components/lp/SchoolsShell.astro';
 import BeginnerPage from '../components/lp/BeginnerPage.astro';
 import FeaturesPage from '../components/lp/FeaturesPage.astro';
 import LevelPage from '../components/lp/LevelPage.astro';
+import AboutPage from '../components/lp/AboutPage.astro';
+import ContactPage from '../components/lp/ContactPage.astro';
+import PriceKidsPage from '../components/lp/PriceKidsPage.astro';
 import FaqsPage from '../components/lp/FaqsPage.astro';
 import FaqsKidsPage from '../components/lp/FaqsKidsPage.astro';
 import OnkiPage from '../components/lp/OnkiPage.astro';
@@ -96,7 +99,7 @@ const shared = import.meta.glob('../shared/*.html', { query: '?raw', import: 'de
 const courseHtml = template === 'course' && entry?.rendered?.html
   ? entry.rendered.html.replace(/<div data-include="([\w-]+)"><\/div>/g, (_, name) => shared[`../shared/${name}.html`] ?? '')
   : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : template === 'beginner' ? BeginnerPage : template === 'features' ? FeaturesPage : template === 'faqs' ? FaqsPage : template === 'faqsKids' ? FaqsKidsPage : template === 'level' ? LevelPage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : template === 'beginner' ? BeginnerPage : template === 'features' ? FeaturesPage : template === 'faqs' ? FaqsPage : template === 'faqsKids' ? FaqsKidsPage : template === 'level' ? LevelPage : template === 'about' ? AboutPage : template === 'contact' ? ContactPage : template === 'priceKids' ? PriceKidsPage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
 const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;

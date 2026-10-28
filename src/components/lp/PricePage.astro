@@ -3,65 +3,72 @@ import PlanCards from './PlanCards.astro';
 import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
-// 料金ページ（/price/）。文字が多くて迷うとの声で、情報設計からやり直した（K 2026-10-26）
-// 共通ルール（ひと目で）→ 選び方 → 月額プラン → チケット → 子供 → 法人・学校 → お支払い → 細かいルール（質問形式）の順。料金は plans.json の1か所で直す
+// 大人の料金ページ（/price/）。大人と子供で料金ページを分け、大人は月額プランとチケット制を並べて見せる（K 2026-10-28）
+// 子供は /english/children/price（PriceKidsPage.astro）。料金は plans.json の1か所で直す
+const m2 = plans.monthly.find((p) => p.key === 'm2')!;
+const t0 = plans.tickets[0];
 const facts = [
-  { c: 'c1', icon: '🆓', b: '入会金 0円', s: '月額プランもチケットも' },
+  { c: 'c1', icon: '🆓', b: '入会金 0円', s: '月額プランもチケット制も' },
   { c: 'c2', icon: '⏱️', b: '1回30分', s: 'レッスン25分＋フィードバック5分' },
   { c: 'c3', icon: '🌏', b: '20言語 同じ料金', s: '英語もほかの言語も' },
-  { c: 'c4', icon: '👨‍👩‍👧', b: '大人も子供も同じ', s: 'ご家族でチケットを共有OK' },
+  { c: 'c4', icon: '👨‍👩‍👧', b: '家族プラン', s: 'お子さまや配偶者の方も使えます' },
 ];
-const choose = [
-  { icon: '📅', title: '毎週、決まったペースで', text: '月額プランがおすすめ。月4回なら週1回ペースで、AI講師も付きます。', href: '#monthly', more: '月額プランを見る' },
-  { icon: '🧭', title: '自分のペースで、必要な分だけ', text: 'チケットのまとめ買い。自動更新はありません。3枚から買えます。', href: '#price-adult', more: 'チケットを見る' },
-  { icon: '🔥', title: '試験や出張の前に、集中して', text: '30枚（1ヶ月有効）なら、ほぼ毎日受講できます。1回3,000円です。', href: '#price-adult', more: 'チケットを見る' },
-  { icon: '👨‍👩‍👧', title: 'ご家族みんなで', text: '160枚をまとめて買い、家族で分けて使う方が多いです。1回2,997円です。', href: '#price-adult', more: 'チケットを見る' },
+const ways = [
+  { id: 'monthly', icon: '📅', name: '月額プラン', who: '毎週決まったペースで続けたい方', from: `${m2.name} ${m2.price}から`, points: ['カード払い・毎月自動更新', '月4回からAI講師付き', '担任の先生と、決まった曜日・時間に'] },
+  { id: 'ticket', icon: '🎫', name: 'チケット制', who: '自分のペースで受けたい方・会社負担の方', from: `${t0.n} ${t0.price}から`, points: ['銀行振込・自動更新なし', 'ご家族で分けて使える', '多く買うほど1回あたりがお得'] },
 ];
 const pay = [
   { icon: '🎒', title: '体験レッスン', b: plans.trial.price, text: 'お申込み時にクレジットカード（Square）で' },
   { icon: '📅', title: '月額プラン', b: 'カード払い・毎月自動更新', text: '解約は、次回お支払い日の7日前までにご連絡ください' },
-  { icon: '🎫', title: 'チケットのまとめ買い', b: '銀行振込', text: 'ネットバンキングなら、その日のうちに手続きできます' },
+  { icon: '🎫', title: 'チケット制', b: '銀行振込', text: 'ネットバンキングなら、その日のうちに手続きできます。法人様は後払いも可' },
 ];
 const faq = [
   { q: '予約の変更やキャンセルはできますか？', a: 'レッスン開始の1時間前まで、変更・キャンセルできます。開始12時間前を過ぎてからのキャンセルは、チケット0.5枚分のキャンセル料がかかります。' },
   { q: 'チケットの有効期限は、いつから数えますか？', a: 'チケットを使い始めた日から数えます。買った日からではありません。' },
-  { q: '家族でチケットを分けて使えますか？', a: 'はい。ご本人はビジネス英語、お子さまは英会話、配偶者の方はフランス語、といった使い方ができます。チケットはECOMの20言語すべてで使えます。' },
-  { q: '月額プランはいつでもやめられますか？', a: 'はい。次回お支払い日の7日前までにご連絡いただければ、その次の月から止まります。' },
-  { q: '領収書はもらえますか？', a: 'はい。いつでも発行できます。' },
-  { q: '福岡市の子ども習い事応援事業のクーポンは使えますか？', a: 'はい、使えます。ただし、クーポンで買ったチケットはご家族と共有できません。<a href="/english/children/fukuoka-coupon">くわしくはこちら</a>' },
+  { q: '月額プランはいつでもやめられますか？', a: `はい。${plans.cancel}。期限を過ぎたご連絡は、翌月分のお支払いのあとの解約になります。` },
+  { q: '領収書・請求書はもらえますか？', a: 'はい。いつでも発行できます。宛名や記載内容のご希望もお知らせください。' },
+  { q: '退会するとき、残ったチケットは返金されますか？', a: '条件にしたがって返金します。計算方法は<a href="/tokusyouhou/">特定商取引に関する表示</a>をご覧ください。' },
 ];
 ---
 <div class="lp pr">
   <section class="lp-sec pr-hero">
     <div class="lp-in">
+      <nav class="pr-switch" aria-label="料金ページの切り替え">
+        <a class="on" href="/price/" aria-current="page">🧑 大人・ほかの言語</a>
+        <a href="/english/children/price">🎒 子供（3〜17歳）</a>
+      </nav>
       <div class="lp-head">
-        <p class="pr-eyebrow">💴 料金</p>
-        <h1><span class="nw">大人も子供も、どの言語も、</span><span class="nw">同じわかりやすい料金です。</span></h1>
-        <p class="lp-sub">毎月決まった回数を受ける「月額プラン」と、必要な分だけ買う「チケット」の2つから選べます。</p>
+        <p class="pr-eyebrow">💴 大人の料金</p>
+        <h1><span class="nw">月額プランと、チケット制。</span><span class="nw">20言語すべて同じ料金です。</span></h1>
       </div>
       <ul class="pr-facts">
         {facts.map((f) => <li class={f.c}><i aria-hidden="true">{f.icon}</i><b>{f.b}</b><span>{f.s}</span></li>)}
       </ul>
-      <nav class="pr-jump" aria-label="このページの目次">
-        <a href="#choose">🤔 選び方</a><a href="#monthly">📅 月額プラン</a><a href="#price-adult">🎫 チケット</a><a href="#price-kids">🧒 子供</a><a href="#price-business">🏢 法人・学校</a><a href="#payment">💳 お支払い</a>
-      </nav>
     </div>
   </section>
 
-  <section class="lp-sec soft" id="choose">
+  <section class="lp-sec">
     <div class="lp-in">
-      <h2>🤔 どちらを選べばいい？</h2>
-      <div class="lp-cards ad-feats">
-        {choose.map((c) => <a class="lp-card ad-feat pr-choose" href={c.href}><i aria-hidden="true">{c.icon}</i><b>{c.title}</b><span>{c.text}</span><em>{c.more} ↓</em></a>)}
+      <h2>2つの料金から選べます</h2>
+      <div class="pr-ways">
+        {ways.map((w) => (
+          <a class="pr-way" href={`#${w.id}`}>
+            <span class="pr-way-name"><i aria-hidden="true">{w.icon}</i>{w.name}</span>
+            <span class="pr-way-who">{w.who}</span>
+            <b>{w.from}</b>
+            <ul>{w.points.map((p) => <li>{p}</li>)}</ul>
+            <em>料金を見る ↓</em>
+          </a>
+        ))}
       </div>
     </div>
   </section>
 
-  <section class="lp-sec" id="monthly">
+  <section class="lp-sec soft" id="monthly">
     <div class="lp-in">
       <div class="lp-head">
         <h2>📅 月額プラン</h2>
-        <p class="lp-sub">毎月決まった回数を受けるプランです。続けやすく、月4回からAI講師が付きます。</p>
+        <p class="lp-sub">毎月決まった回数を受けるプランです。月4回からAI講師が付きます。</p>
       </div>
       <PlanCards signup compact />
       <ul class="pr-mini">
@@ -71,11 +78,11 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec soft" id="price-adult">
+  <section class="lp-sec" id="ticket">
     <div class="lp-in">
       <div class="lp-head">
-        <h2>🎫 チケットのまとめ買い</h2>
-        <p class="lp-sub">チケット1枚で30分のレッスン1回。自動更新はなく、自分のペースで使えます。たくさん買うほど1回あたりがお得です。</p>
+        <h2>🎫 チケット制</h2>
+        <p class="lp-sub">チケット1枚で30分のレッスン1回。自動更新はなく、自分のペースで使えます。多く買うほど1回あたりがお得です。</p>
       </div>
       <div class="pr-tickets">
         {plans.tickets.map((t) => (
@@ -93,53 +100,39 @@ const faq = [
         <b>🎁 続けるほど割引</b>
         <ul>{plans.ticketDiscount.map((d) => <li>{d.n}<strong>{d.off}</strong></li>)}</ul>
       </div>
+      <p class="pr-company">🏢 会社負担で受講される方は、チケット制を選ばれる方が多いです。領収書・請求書の宛名や記載内容など、<a href="/contact/">ご相談ください</a>。</p>
     </div>
   </section>
 
-  <section class="lp-sec" id="price-kids">
+  <section class="lp-sec soft" id="family">
     <div class="lp-in">
-      <div class="lp-row">
-        <div class="lp-box pr-box kids">
-          <b>🧒 子供（17歳以下）</b>
-          <span class="lp-sub">料金は大人と同じです。</span>
-          <ul>
-            <li>🏅 英検®対策で回数を増やしたい → <b>月8回</b></li>
-            <li>🏖️ テスト期間は休み、長期休みに集中 → <b>チケット</b></li>
-            <li>👨‍👩‍👧 兄弟姉妹で → <b>チケットを家族で共有</b></li>
-          </ul>
-          <span><a href="/english/children/trial/">子供の体験レッスン →</a><br /><a href="/english/children/">子供のオンライン英会話を見る →</a></span>
-        </div>
-        <div class="lp-box pr-box" id="price-business">
-          <b>🏢 法人・学校</b>
-          <span class="lp-sub">講師1時間 <strong>{plans.corporate.hourly}</strong>（税抜）が基本です。グループは、クラスの人数に応じた参加者管理料（{plans.corporate.group[0].fee}〜）が加わります。人数・回数・内容に合わせてお見積りします。</span>
-          <ul>
-            <li>👥 グループ研修・マンツーマン研修</li>
-            <li>📊 研修前後のレベル判定</li>
-          </ul>
-          <span><a href="/corporation/">法人向けページで資料請求・お見積り →</a><br /><a href="/schools/">学校・教職員の方はこちら →</a></span>
-        </div>
+      <div class="lp-box pr-family">
+        <b>👨‍👩‍👧 家族プラン：チケットを、ご家族で分けて使えます</b>
+        <span class="lp-sub">お子さまや配偶者の方も、同じチケットで受講できます。ご本人はビジネス英語、お子さまは英会話、配偶者の方はフランス語、といった使い方もできます。チケットはECOMの20言語すべてで使えます。</span>
+        <span><a href="/english/children/price">お子さまの料金・兄弟で受けられる家族プランは、子供の料金ページへ →</a></span>
       </div>
     </div>
   </section>
 
-  <section class="lp-sec soft" id="payment">
+  <section class="lp-sec" id="payment">
     <div class="lp-in">
       <h2>💳 お支払い方法</h2>
       <div class="lp-cards">
         {pay.map((p) => <div class="lp-card ad-feat"><i aria-hidden="true">{p.icon}</i><span class="lp-tag">{p.title}</span><b>{p.b}</b><span>{p.text}</span></div>)}
       </div>
-      <p class="lp-note">🧾 領収書はいつでも発行できます。</p>
-    </div>
-  </section>
-
-  <section class="lp-sec">
-    <div class="lp-in narrow">
-      <h2>❓ 細かいルール</h2>
-      <Faq items={faq} />
+      <p class="lp-note">🧾 領収書・請求書はいつでも発行できます。企業・官公庁の研修は<a href="/corporation/">法人向けページ</a>でお見積りします。</p>
     </div>
   </section>
 
   <section class="lp-sec soft">
+    <div class="lp-in narrow">
+      <h2>❓ 細かいルール</h2>
+      <Faq items={faq} />
+      <p class="lp-note">ほかの質問は<a href="/faqs/">よくある質問</a>へ。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
     <div class="lp-in">
       <div class="lp-end">
         <p>まずは体験レッスンから。</p>
