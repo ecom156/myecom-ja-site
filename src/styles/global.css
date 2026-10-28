@@ -1002,3 +1002,27 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .feat-study i { font-style: normal; font-weight: 700; color: var(--cta-dark); }
 .lp-card > .course-ico { margin-top: 0; }
 .col-first i { margin-top: 4px; }
+/* ECOM語学学校の紹介（/aboutecom/）（K 2026-10-28） */
+.ab-wide { display: block; width: 100%; max-height: 260px; object-fit: cover; border-radius: 16px; margin-top: 24px; }
+.ab-history { list-style: none; margin: 0; padding: 0; border-left: 3px solid var(--edge); }
+.ab-history li { position: relative; padding: 0 0 22px 24px; }
+.ab-history li::before { content: ''; position: absolute; left: -9px; top: 6px; width: 15px; height: 15px; border-radius: 50%; background: var(--cta); border: 3px solid #fff; box-shadow: 0 0 0 1px var(--edge); }
+.ab-history em { font-style: normal; font-weight: 800; color: var(--navy); }
+.ab-history p { margin: 4px 0 0; color: var(--sub); }
+.ab-yahoo { margin: 8px 0 0; text-align: center; }
+.ab-yahoo img { width: 100%; max-width: 420px; border: 1px solid var(--edge); border-radius: 8px; }
+.ab-yahoo figcaption { font-size: 13px; color: var(--mute); margin-top: 6px; }
+.ab-company { margin: 0; border-top: 1px solid var(--edge); }
+.ab-company div { display: grid; grid-template-columns: 9em 1fr; gap: 12px; padding: 14px 4px; border-bottom: 1px solid var(--edge); }
+.ab-company dt { font-weight: 700; color: var(--navy); }
+.ab-company dd { margin: 0; }
+@media (max-width: 600px) { .ab-company div { grid-template-columns: 1fr; gap: 2px; } }
+/* お問い合わせ（/contact/）（K 2026-10-28） */
+.ct-routes { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.ct-route { display: flex; gap: 14px; align-items: flex-start; background: #fff; border: 1px solid var(--edge); border-radius: 14px; padding: 16px 18px; color: var(--ink) !important; text-decoration: none; }
+.ct-route:hover { border-color: var(--navy); }
+.ct-route i { font-style: normal; font-size: 28px; flex: none; }
+.ct-route b { display: block; font-size: 17px; }
+.ct-route span { display: block; color: var(--mute); font-size: 14px; margin-top: 2px; }
+.ct-route em { display: block; font-style: normal; font-weight: 700; color: var(--navy); font-size: 14px; margin-top: 8px; }
+.ct-mail { margin-top: 24px; }

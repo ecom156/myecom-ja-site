@@ -17,7 +17,7 @@ const pages = defineCollection({
     // 本文の下に記事一覧を出すページ（旧サイトの「投稿ページ」）
     postsPage: z.boolean().default(false),
     // リニューアルのページ。top・kids・corporate は src/components/lp/ の部品で作り、本文は使わない。language と price は本文の前に共通の案内・月額プランを出す
-    template: z.enum(['top', 'kids', 'corporate', 'language', 'price', 'osaka', 'adult', 'trial', 'trialKids', 'teachersKids', 'schools', 'onki', 'beginner', 'features', 'faqs', 'faqsKids', 'level', 'course']).optional(),
+    template: z.enum(['top', 'kids', 'corporate', 'language', 'price', 'osaka', 'adult', 'trial', 'trialKids', 'teachersKids', 'schools', 'onki', 'beginner', 'features', 'faqs', 'faqsKids', 'level', 'course', 'about', 'contact']).optional(),
     // 本文中の <div data-form="..."></div> の位置に出すフォーム（src/data/forms.json のキー）
     forms: z.array(z.string()).default([]),
     slides: z.array(z.object({
