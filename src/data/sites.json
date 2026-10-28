@@ -413,28 +413,6 @@
             "href": "/english/children/courses/examinations",
             "children": [
               {
-                "label": "TEAP試験対策",
-                "href": "/english/children/courses/examinations/teap",
-                "children": [
-                  {
-                    "label": "TEAPスピーキング対策",
-                    "href": "/english/children/courses/examinations/teap/speaking"
-                  },
-                  {
-                    "label": "TEAPライティング対策",
-                    "href": "/english/children/courses/examinations/teap/writing"
-                  },
-                  {
-                    "label": "TEAPリスニング対策",
-                    "href": "/english/children/courses/examinations/teap/listening"
-                  },
-                  {
-                    "label": "TEAPリーディング対策",
-                    "href": "/english/children/courses/examinations/teap/reading"
-                  }
-                ]
-              },
-              {
                 "label": "英検®対策",
                 "href": "/english/children/courses/examinations/eiken",
                 "children": [

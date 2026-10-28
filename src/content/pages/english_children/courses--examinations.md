@@ -22,12 +22,7 @@ path: "/english/children/courses/examinations"
 </div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
 <div class="wpb_text_column wpb_content_element">
 <div class="wpb_wrapper">
-<h2><span style="color: #993300;">TEAP（ティープ）</span></h2>
-<p>英検協会と上智大学が共同で制作した大学入試向けの英語試験。</p>
-<p>高校２年生以上の人のみが受験可能。</p>
-<p>英検の準２級から準１級レベルの難易度。</p>
-<p>おそらくこれが将来の大学入試英語試験の本命となると言われています。英検と問題のつくりや採点基準がとても似ています。</p>
-<p><a href="/english/children/courses/examinations/teap/">＞TEAP試験対策コースへ</a></p>
+
 </div>
 </div>
 </div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
