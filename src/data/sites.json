@@ -461,6 +461,14 @@
                   {
                     "label": "英検3級対策",
                     "href": "/english/children/courses/examinations/eiken/third"
+                  },
+                  {
+                    "label": "英検4級対策",
+                    "href": "/english/children/courses/examinations/eiken/fourth"
+                  },
+                  {
+                    "label": "英検5級対策",
+                    "href": "/english/children/courses/examinations/eiken/fifth"
                   }
                 ]
               }
