@@ -968,3 +968,4 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .course .lp-faq details > p + p { margin-top: 12px; }
 .course .lp-faq details .lp-table { margin-top: 12px; }
 @media (max-width: 640px) { .course-voice { grid-template-columns: 1fr; } .course-voice img { max-height: 200px; } }
+.course-grades .lp-card > em { font-style: normal; font-weight: 700; color: var(--navy); margin-top: auto; }
