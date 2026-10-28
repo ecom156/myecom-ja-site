@@ -1,7 +1,7 @@
 ---
 title: "英検®対策"
 path: "/english/children/courses/examinations/eiken"
-description: "子供の英検®対策。3級・準2級・準2級プラス・2級・準1級・1級の6つの級に対応し、ECOMの生徒の英検一発合格率は9割を超えます。日英バイリンガルのネイティブ講師がマンツーマンで、過去問の解き方、ライティングの課題と添削、本番と同じ流れの面接練習まで指導し、毎回のレッスン内容を保護者の方へレポートでお知らせします。"
+description: "子供の英検®対策。5級・4級・3級・準2級・準2級プラス・2級・準1級・1級の8つの級に対応し、ECOMの生徒の英検一発合格率は9割を超えます。日英バイリンガルのネイティブ講師がマンツーマンで、過去問の解き方、ライティングの課題と添削、本番と同じ流れの面接練習まで指導し、毎回のレッスン内容を保護者の方へレポートでお知らせします。"
 template: "course"
 ---
 
@@ -18,7 +18,7 @@ template: "course"
 <p class="lp-lead">英検対策は、ECOMがいちばん得意とする分野です。日英バイリンガルのネイティブの先生がマンツーマンで、過去問の解き方からライティングの添削、面接の練習まで指導します。小学生で3級、中学生で準1級まで取るお子さまも多くいます。</p>
 <ul class="lp-proof">
 <li>英検の一発合格率<b>9割以上</b></li>
-<li>3級〜1級の<b>6つの級</b>に対応</li>
+<li>5級〜1級の<b>8つの級</b>に対応</li>
 <li>保護者へ<b>毎回レポート</b></li>
 </ul>
 <div class="lp-btns">
@@ -38,6 +38,8 @@ template: "course"
 <p class="lp-sub">それぞれのページで、最新の試験の形式と、子供の合格作戦をご紹介しています。</p>
 </div>
 <div class="lp-cards course-grades">
+<a class="lp-card kd-icon c4" href="/english/children/courses/examinations/eiken/fifth"><i aria-hidden="true">🐣</i><span class="lp-tag">中学初級程度</span><b>英検5級</b><span>英検でいちばんやさしい級。はじめての英検にぴったりです。</span><em>対策を見る →</em></a>
+<a class="lp-card kd-icon c1" href="/english/children/courses/examinations/eiken/fourth"><i aria-hidden="true">🌷</i><span class="lp-tag">中学中級程度</span><b>英検4級</b><span>長文を読む問題が始まる級。3級につながる力をつけます。</span><em>対策を見る →</em></a>
 <a class="lp-card kd-icon c3" href="/english/children/courses/examinations/eiken/third"><i aria-hidden="true">🌱</i><span class="lp-tag">中学卒業程度</span><b>英検3級</b><span>ライティングと面接が始まる級。小学生のうちに挑戦するお子さまも増えています。</span><em>対策を見る →</em></a>
 <a class="lp-card kd-icon c2" href="/english/children/courses/examinations/eiken/presecond"><i aria-hidden="true">📗</i><span class="lp-tag">高校中級程度</span><b>英検準2級</b><span>環境や科学などの社会的な話題が加わり、書く量も増えます。</span><em>対策を見る →</em></a>
 <a class="lp-card kd-icon c4" href="/english/children/courses/examinations/eiken/presecondplus"><i aria-hidden="true">✨</i><span class="lp-tag">高校上級程度・2025年度新設</span><b>英検準2級プラス</b><span>準2級と2級の間の新しい級。2級へのちょうどよい一歩です。</span><em>対策を見る →</em></a>
@@ -114,7 +116,7 @@ template: "course"
 <details><summary>帰国子女で英語が話せます。上の級も簡単に取れますか？</summary><p>英語を話す力と、英検で問われる英語力は少し違います。リスニングや面接は会話の力が生きますが、一次試験の語彙と読解では、難しい文章を読む力が必要です。英語がペラペラな帰国子女でも、準1級・1級は簡単には受からないことがよくあります。会話の力を生かしながら、語彙・読解・ライティングを対策しましょう。</p></details>
 <details><summary>何から始めればいいですか？</summary><p>まずは英検の公式サイトで無料公開されている過去問を、1回分解いてみてください。語彙・読解・ライティング・リスニングのどこが弱いかが分かります。対策本は、過去問をひととおり終えて、まだ足りないと感じたときで十分です。</p></details>
 <details><summary>リスニングの練習もレッスンでしますか？</summary><p>子供はリスニングで点を取りやすく、過去問をくり返せば形式にもすぐ慣れるので、レッスンでは語彙・ライティング・読解・面接に時間を使います。リスニングは、ご家庭で過去問を解いて慣れておくのがおすすめです。それでも聞き取れないときは、単語が足りていないことが多いので、語彙の練習で補います。</p></details>
-<details><summary>英検とはどんな試験ですか？</summary><p>英検は、5級から1級まで級ごとに分かれた英語の試験です（2025年度に準2級と2級の間に準2級プラスができました）。豊富な語彙が問われること、ライティングが重視されること、面接があること、素直な問題が多いことが特徴です。ECOMでは、3級から1級までの対策をしています。</p></details>
+<details><summary>英検とはどんな試験ですか？</summary><p>英検は、5級から1級まで級ごとに分かれた英語の試験です（2025年度に準2級と2級の間に準2級プラスができました）。豊富な語彙が問われること、ライティングが重視されること、面接があること、素直な問題が多いことが特徴です。ECOMでは、5級から1級までの対策をしています。4級・5級にはライティングと面接がなく、級の合否とは別にスピーキングテストを受けられます。</p></details>
 </div>
 </div>
 </section>
