@@ -969,3 +969,6 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .course .lp-faq details .lp-table { margin-top: 12px; }
 @media (max-width: 640px) { .course-voice { grid-template-columns: 1fr; } .course-voice img { max-height: 200px; } }
 .course-grades .lp-card > em { font-style: normal; font-weight: 700; color: var(--navy); margin-top: auto; }
+.course-books .lp-card { flex-basis: 300px; }
+.course-books .lp-card > img { width: 120px; height: auto; margin: 0 auto 8px; border-radius: 4px; box-shadow: 0 4px 12px rgba(0,0,0,.15); }
+.course-books .lp-card > ul { margin: 4px 0 0; padding-left: 1.2em; font-size: 14px; line-height: 1.7; }
