@@ -2,6 +2,7 @@
 import plans from '../../data/plans.json';
 
 // ECOMの特徴（/english/features/）。大人トップの「ほかのオンライン英会話との違い」の比較表をここへ移した（K 2026-10-27）
+// 旧「サービスのコンセプト」「ほかのオンライン英会話との比較」「当校の露出が少ない理由」の内容もここへまとめた（K 2026-10-28）
 const base = '/english';
 const trial = '/trial/';
 const points = [
@@ -10,14 +11,41 @@ const points = [
   { icon: '🏅', title: '採用率0.5%のプロ講師', text: '200人に1人の基準で選んだ講師です。講師の平均在籍は11年。講師都合の急なキャンセルは、ごくまれです。' },
   { icon: '🎯', title: '目的に合わせた専門クラス', text: 'おしゃべりだけで終わらせず、50以上のクラスから目的に合うものを選べます。' },
 ];
+// 格安オンライン英会話から移ってきた生徒が、体験前のカウンセリングで話したこと（旧「ほかのオンライン英会話との比較」から）
+const voices = [
+  { quote: '先生が毎回変わるので、自己紹介だけでレッスンの時間がほとんど終わってしまう。', ecom: '担任制なので、前回の続きからすぐに始めます。' },
+  { quote: '外れの先生を避けるために、毎日の予約に時間がかかって疲れた。', ecom: '採用率0.5%で選んだ講師だけ。担任を決めて予約できます。' },
+  { quote: '回線が悪くて「Can you hear me?」をくり返すばかりだった。', ecom: '講師は回線の安定した国と日本から教えています。' },
+  { quote: 'おしゃべり中心のレッスンで、だんだん話すことがなくなり物足りなくなった。', ecom: '目的に合わせた専門クラスとオリジナル教材で、上達の道すじが見えます。' },
+  { quote: '初心者なので、先生に要望を英語で伝えられず困った。', ecom: '講師は全員日本語が分かり、日本人スタッフも相談にのります。' },
+];
+const nums = [
+  { n: '96.5%', t: 'の生徒が満足して継続' },
+  { n: '0.5%', t: '講師の採用率（200人に1人）' },
+  { n: '11年', t: '講師の平均在籍' },
+  { n: '2005年', t: 'からオンラインで指導' },
+  { n: '50以上', t: '目的別の専門クラス' },
+  { n: '20言語', t: '英語以外の言語も' },
+];
+const formula = [
+  { icon: '💎', tag: '質', title: 'プロの講師と、目的に合ったクラス', text: '採用率0.5%の講師が、あなたの目的とレベルに合ったクラスで教えます。同じ1時間でも、身につく量が変わります。' },
+  { icon: '⏱️', tag: '量', title: 'レッスンの外でも英語にふれる', text: '先生が毎回書くフィードバックで復習でき、無料の学習動画やコラム、毎日話せるAI講師で、英語にふれる時間を増やせます。' },
+  { icon: '🔁', tag: '継続', title: '続けられるしくみ', text: '担任制、1時間前まで変更できる予約、日本人スタッフのサポート。忙しい週があっても、やめずに続けられます。' },
+];
+const more = [
+  { href: `${base}/improve/`, icon: '📈', title: '英語4倍速上達の秘密', text: '1年間の比較調査で分かった、上達の差と続けられた理由です。' },
+  { href: `${base}/schoool-hikaku/`, icon: '🏫', title: '街中の英会話教室との比較', text: '通学の英会話教室と、オンラインのECOMの違いです。' },
+  { href: `${base}/points/`, icon: '✅', title: 'オンライン英会話の選び方', text: '学校を選ぶときに確かめておきたい5つのポイントです。' },
+  { href: `${base}/types/beginner/`, icon: '🔰', title: '英語初心者の方へ', text: '英語をはじめたばかりの方に、ECOMの始め方を紹介します。' },
+];
 ---
-<div class="lp ad">
+<div class="lp ad course">
   <section class="lp-sec soft">
     <div class="lp-in">
       <div class="lp-head">
         <p class="lp-eyebrow">ECOMの特徴</p>
         <h1>ほかのオンライン英会話との<span class="nw">違い</span></h1>
-        <p class="lp-lead">オンライン英会話は、講師・日本語・担任制で大きく変わります。ECOMとよくある2つのタイプを比べました。</p>
+        <p class="lp-lead">オンライン英会話は、講師・日本語・担任制で大きく変わります。ECOMは2005年から「安さ」ではなく「上達までの近さ」で選ばれてきた学校です。</p>
       </div>
       <div class="lp-cards ad-feats">
         {points.map((p) => (
@@ -50,14 +78,67 @@ const points = [
 
   <section class="lp-sec soft">
     <div class="lp-in">
-      <h2>もっとくわしく比べる</h2>
-      <div class="lp-cards">
-        <a class="lp-card" href={`${base}/skypeonline-english/`}><b>ほかのオンライン英会話との比較</b><span>料金・講師・レッスンの中身を、さらにくわしく比べています。</span><i>読む →</i></a>
-        <a class="lp-card" href={`${base}/schoool-hikaku/`}><b>街中の英会話教室との比較</b><span>通学の英会話教室と、オンラインのECOMの違いです。</span><i>読む →</i></a>
-        <a class="lp-card" href={`${base}/points/`}><b>失敗しない5つのポイント</b><span>オンライン英会話を選ぶときに、確かめておきたいことです。</span><i>読む →</i></a>
-        <a class="lp-card" href={`${base}/native-lp/`}><b>ネイティブ講師選び 4つのポイント</b><span>ネイティブ講師のオンライン英会話を選ぶときの注意点です。</span><i>読む →</i></a>
+      <div class="lp-head">
+        <h2>格安オンライン英会話で、こんな経験はありませんか？</h2>
+        <p class="lp-sub">ほかのオンライン英会話からECOMに移ってきた方に、体験前のカウンセリングでよく聞く声です。</p>
       </div>
-      <p class="lp-sub">英語をはじめたばかりの方は、<a href={`${base}/types/beginner/`}>🔰 英語初心者の方へ</a>もご覧ください。</p>
+      <div class="lp-cards">
+        {voices.map((v) => (
+          <div class="lp-card feat-voice"><span class="feat-q">{v.quote}</span><b>ECOMでは</b><span>{v.ecom}</span></div>
+        ))}
+      </div>
+      <p class="lp-sub">たくさんの外国人と気軽に話してみたい方には、格安のオンライン英会話も合っています。「上達までの時間を短くしたい」方に、ECOMをおすすめします。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <h2>数字で見るECOM</h2>
+      <div class="lp-nums feat-nums">
+        {nums.map((x) => (<div><b>{x.n}</b><span>{x.t}</span></div>))}
+      </div>
+      <a class="feat-study" href={`${base}/improve/`}><b>1年後の上達の差は4倍</b><span>ECOMとフィリピン人講師のオンライン英会話を、100人が1年間受けて比べた調査の結果です。ECOMの脱落者は0人でした。</span><i>調査の結果を見る →</i></a>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <div class="lp-head">
+        <p class="lp-eyebrow">ECOMの考え方</p>
+        <h2>英語の上達は「質 × 量 × 継続」</h2>
+        <p class="lp-sub">英語を身につけるには、ゼロからだと3,000時間以上かかるとも言われます。ECOMは、その道のりを少しでも短くするために、3つの要素それぞれを高める工夫をしています。</p>
+      </div>
+      <div class="lp-cards">
+        {formula.map((f) => (
+          <div class="lp-card"><i class="course-ico" aria-hidden="true">{f.icon}</i><span class="lp-tag">{f.tag}</span><b>{f.title}</b><span>{f.text}</span></div>
+        ))}
+      </div>
+      <p class="course-key">英語の学習時間は、少なければ少ないほどいい。<br><strong>試行錯誤はECOMにまかせて、あなたは上達の最短ルートを。</strong></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in narrow">
+      <div class="lp-head">
+        <h2>広告より、いまの生徒のために</h2>
+        <p class="lp-sub">「ECOMはあまり見かけない」と言われることがあります。それは、広告やアフィリエイト（紹介料を払って載せてもらう口コミや比較記事）にお金をかけない方針だからです。</p>
+      </div>
+      <div class="lp-row">
+        <div class="lp-box"><i class="course-ico" aria-hidden="true">🤝</i><b>入会してからが、本当のお付き合い</b><span>広告費の代わりに、講師の質とサポート、学習コンテンツに投資しています。その結果が、96.5%の生徒が満足して続けているという数字です。</span></div>
+        <div class="lp-box"><i class="course-ico" aria-hidden="true">🎁</i><b>無料の学習コンテンツ</b><span>登録者約3万人のYouTubeの英語学習動画や、英語上達コラムを、どなたでも無料で使えます。</span></div>
+      </div>
+      <p class="lp-sub"><a href={`${base}/videos/`}>無料の英語学習動画</a>　・　<a href={`${base}/columns/`}>英語上達コラム</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
+    <div class="lp-in">
+      <h2>もっとくわしく</h2>
+      <div class="lp-cards">
+        {more.map((m) => (
+          <a class="lp-card" href={m.href}><i class="course-ico" aria-hidden="true">{m.icon}</i><b>{m.title}</b><span>{m.text}</span><i>読む →</i></a>
+        ))}
+      </div>
     </div>
   </section>
 

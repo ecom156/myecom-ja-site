@@ -218,6 +218,16 @@
 /english/children/courses/examinations/teap/ /english/children/courses/examinations/eiken/ 301
 /english/children/courses/examinations/teap /english/children/courses/examinations/eiken/ 301
 
+# 「ECOMの特徴」メニューの整理（K 2026-10-28）：内容をECOMの特徴・選び方へまとめた
+/english/concept/ /english/features/ 301
+/english/concept /english/features/ 301
+/english/skypeonline-english/ /english/features/ 301
+/english/skypeonline-english /english/features/ 301
+/english/reason/ /english/features/ 301
+/english/reason /english/features/ 301
+/english/native-lp/ /english/points/ 301
+/english/native-lp /english/points/ 301
+
 # ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
 /wp-admin/* / 301
 /blog/author/* /blog/ 301

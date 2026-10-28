@@ -1,104 +1,81 @@
 ---
 title: "英語上達コラム"
 path: "/english/columns/"
+description: "2005年からオンラインで英語を教えてきたECOMが、英語上達の考え方をまとめたコラム集。英語上達の秘訣「質×量×継続」、質の高いレッスンと英語脳、学習時間の確保、続けるコツ、語彙・文法・リスニングの伸ばし方を読めます。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="647" height="151" src="/english/wp-content/uploads/2014/04/top_column.gif" class="vc_single_image-img attachment-full" alt="" title="top_column"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>オンライン英会話や英語アプリが、一般に使われるようになって20年。</p>
-<p>それらをやれば、<strong>英語ができるようになる。話せるようになる。</strong></p>
-<p>と謳われてきました。</p>
+<section class="lp-sec ad-hero">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/english/">Home</a> » 英語上達コラム</nav>
+<div class="lp-head">
+<p class="lp-eyebrow">英語上達コラム</p>
+<h1>英語が伸びる人は、<span class="nw">何がちがうのか。</span></h1>
+<p class="lp-lead">オンライン英会話や英語アプリが広まって20年。それでも日本人の英語力は、大きくは変わっていません。2005年から、たくさんの生徒さんの学習相談にのってきたECOMが、英語上達の考え方と方法をコラムにまとめました。時間がない方は、最初の1本だけでも読んでみてください。</p>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>しかし、結果はどうでしょう？</p>
-<p>オンライン英会話や英語アプリができる前と、<span style="color: #ff0000;">日本人の英語レベルはあまり大きく変わっていない</span>のが現状です。</p>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-cards">
+<a class="lp-card col-first" href="/english/columns/improve00/"><span class="lp-tag">まずはこの1本</span><b>英語上達の秘訣は「質 × 量 × 継続」で英語脳を作ること</b><span>英語を英語のまま理解できる「英語脳」は、質の高い学び、十分な量、続けることのかけ算で作られます。コラム全体の考え方がこの1本で分かります。</span><i>読む →</i></a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>それは言ってみれば、</p>
-<p>多くの方が、よい英語学習法や、よいレッスン法に、これまでめぐり合ってこなかった。</p>
-<p><span style="color: #ff0000;">多くのオンライン英語学校が、実は何の教育理念も持たない、ただのIT企業だった</span>のではないでしょうか？</p>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>質・量・継続を、くわしく</h2>
+</div>
+<div class="lp-cards">
+<div class="lp-card col-group"><i class="course-ico" aria-hidden="true">💎</i><span class="lp-tag">質</span><b>質の高いレッスンと英語脳</b>
+<ul>
+<li><a href="/english/columns/quality01/">1. 質の高いレッスンが、やる気と英語脳を引き出す</a></li>
+<li><a href="/english/columns/quality02/">2. 英語を英語のまま教える</a></li>
+<li><a href="/english/columns/quality03/">3. 言いかえ表現を増やす</a></li>
+<li><a href="/english/columns/quality04/">4. 文字より音を重視する</a></li>
+<li><a href="/english/columns/quality05/">5. 話す割合は講師4割・生徒6割</a></li>
+<li><a href="/english/columns/quality-matome/">まとめ：ECOMメソッド7か条</a></li>
+</ul></div>
+<div class="lp-card col-group"><i class="course-ico" aria-hidden="true">⏱️</i><span class="lp-tag">量</span><b>学習時間の確保と英語脳</b>
+<ul>
+<li><a href="/english/columns/quantity/">必要な学習時間と、時間の作り方</a></li>
+</ul></div>
+<div class="lp-card col-group"><i class="course-ico" aria-hidden="true">🔁</i><span class="lp-tag">継続</span><b>続けるためのコツ</b>
+<ul>
+<li><a href="/english/columns/continueus01/">継続学習 1</a></li>
+<li><a href="/english/columns/継続学習02/">継続学習 2：たまには休む日も</a></li>
+</ul></div>
 </div>
 </div>
-<div class="vc_empty_space" style="height: 24px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>当校は2005年の3月から、語学教育一筋にネットの授業を提供開始し事業を行ってまいりました。</p>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-head">
+<h2>技能ごとの伸ばし方</h2>
+<p class="lp-sub">英語上達に必要な8つの技能のうち、とくに大切な語彙・文法・リスニングを、弱いときの症状と対策に分けて解説しています。</p>
+</div>
+<div class="lp-cards">
+<a class="lp-card" href="/english/columns/improve-factors/"><i class="course-ico" aria-hidden="true">🧭</i><b>英語上達に必要な8つの技能</b><span>読む・聞く・話す・書くの4技能だけでは足りない理由。</span><i>読む →</i></a>
+<div class="lp-card col-group"><i class="course-ico" aria-hidden="true">📚</i><b>語彙・ボキャブラリー</b><ul><li><a href="/english/columns/improve-factors/vocabulary/">語彙が足りないときの症状</a></li><li><a href="/english/columns/improve-factors/vocabulary2/">語彙の増やし方</a></li></ul></div>
+<div class="lp-card col-group"><i class="course-ico" aria-hidden="true">🧩</i><b>英文法</b><ul><li><a href="/english/columns/improve-factors/grammar/">文法が弱いときの症状</a></li><li><a href="/english/columns/improve-factors/grammar2/">使える文法の身につけ方</a></li></ul></div>
+<div class="lp-card col-group"><i class="course-ico" aria-hidden="true">🎧</i><b>リスニング</b><ul><li><a href="/english/columns/improve-factors/listening/">リスニングが弱い方へ</a></li><li><a href="/english/columns/improve-factors/listening2/">英語耳を作る方法</a></li></ul></div>
+</div>
+<p class="lp-sub">あわせて読みたい：<a href="/blog/（保存版）英語上達のための７つの秘訣/">（保存版）英語上達のための7つの秘訣</a>　・　<a href="/english/videos/">無料の英語学習動画</a></p>
+</div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-end">
+<p>コラムの考え方で教えるレッスンを、体験してみませんか。</p>
+<div class="lp-btns">
+<a class="lp-btn" href="/trial/">体験レッスン（30分×2回・2,500円）</a>
+<a href="/english/features/">ECOMの特徴を見る</a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>現在まで、多数の生徒様からの学習カウンセリングをお受けし、</p>
-<p>「英語学習の効果的な方法」や</p>
-<p>「どうしたら現状の英語レベルからレベルアップできるのか？」</p>
-<p>といった相談に乗らさせて頂きました。</p>
 </div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>ここでは、これまでの教育の現場から得られた知見について、当校の教育ポリシーや方法論としてまとめさせて頂きました。</p>
-<p>是非読み物ような形で一度目を通し、当校の教育理念や魅力について知って頂ければと思います。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>文章を読むのがめんどくさい人は、最初の<a href="/english/columns/improve00/">英語上達の秘訣とは</a>？だけでも言いたいことが分かるのでおすすめ。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: left;">・<a title="英語上達の秘訣Top" href="/english/columns/improve00/">英語上達の秘訣は、質と量と継続を意識して英語脳を作ること</a></p>
-<p style="text-align: left;">・<a title="質の高いレッスンについて1" href="/english/columns/quality01/">質の高いレッスンと英語脳１</a></p>
-<p style="text-align: left;">・<a title="質の高いレッスンについて2" href="/english/columns/quality02/">質の高いレッスンと英語脳２</a></p>
-<p style="text-align: left;">・<a title="質の高いレッスンについて3" href="/english/columns/quality03/">質の高いレッスンと英語脳３</a></p>
-<p style="text-align: left;">・<a title="質の高いレッスンについて4" href="/english/columns/quality04/">質の高いレッスンと英語脳４</a></p>
-<p style="text-align: left;">・<a title="質の高いレッスンについて5" href="/english/columns/quality05/">質の高いレッスンと英語脳５</a></p>
-<p style="text-align: left;">・<a title="質の高いレッスンについて（まとめ）" href="/english/columns/quality-matome/">質の高いレッスンと英語脳（まとめ）</a></p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・<a title="学習時間（量）の確保01" href="/english/columns/quantity/">学習時間（量）と英語脳</a></p>
-<p>・<a title="継続学習01" href="/english/columns/continueus01/">継続学習1</a></p>
-<p>・<a title="継続学習02" href="/english/columns/継続学習02/">継続学習２</a></p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="294" height="542" src="/english/wp-content/uploads/2014/01/32.gif" class="vc_single_image-img attachment-full" alt="イーコム女性イラスト" title="イーコム女性イラスト"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・<a href="/english/blog/2016/089595/">英語上達のための７つの秘訣</a></p>
-<p>・<a title="英語上達にあたって必要な8つの技能" href="/english/columns/improve-factors/">英語上達にあたって必要な8つの技能</a>を分解して解説</p>
-<p>1.語彙（<a title="語彙、ボキャブラリー" href="/english/columns/improve-factors/vocabulary/">1</a>, <a title="語彙・ボキャブラリー2/2" href="/english/columns/improve-factors/vocabulary2/">2</a>）</p>
-<p>2.文法(<a title="英文法" href="/english/columns/improve-factors/grammar/">1</a>, <a title="英文法2/2" href="/english/columns/improve-factors/grammar2/">2</a>)</p>
-<p>3.リスニング</p>
-<p>4.スピーキング</p>
-<p>5.発音</p>
-<p>6.カルチャー</p>
-<p>7.リーディング　&#160;8.ライティング</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
-</div>
-</div>
+</section>

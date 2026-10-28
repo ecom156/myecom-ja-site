@@ -1,237 +1,82 @@
 ---
-title: "オンライン英会話選びで失敗しない5つのポイント"
+title: "オンライン英会話の選び方 失敗しない5つのポイント"
 path: "/english/points/"
+description: "オンライン英会話の選び方を、20年以上・1万人以上の学習相談から5つのポイントにまとめました。目的に合ったクラスと講師、選ばれたプロの講師か、上達までの総額で見る料金、続けられるしくみ、口コミとの付き合い方。体験レッスンで確かめたいこともチェックリストにしています。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-10"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>『<em><strong>オンライン英会話をやってみようと思っても、たくさんあって選べない』</strong></em></p>
-<p><em><strong>『どこのオンライン英会話スクールも似たように思える。違いがわからない</strong></em>』</p>
-<p>という声をよく聞きます。</p>
+<section class="lp-sec ad-hero">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/english/">Home</a> » <a href="/english/features/">ECOMの特徴</a> » オンライン英会話の選び方</nav>
+<div class="course-hero">
+<div>
+<div class="lp-head">
+<p class="lp-eyebrow">オンライン英会話の選び方</p>
+<h1>失敗しないための、<span class="nw">5つのポイント</span></h1>
+<p class="lp-lead">「たくさんありすぎて選べない」「どこも同じに見える」。そんな声をよく聞きます。でも、なんとなく選ぶと、上達までの時間もお金も大きく変わってしまいます。20年以上、1万人以上の学習相談にのってきたECOMが、学校選びで確かめたいポイントをまとめました。</p>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="113" height="194" src="/english/wp-content/uploads/2015/03/jyosei-small.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話学校選びに悩む人へお届け" title="スカイプ英会話学校選びに悩む人へお届け"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>ただそれでどこでもいいやで選ばれているとしたら大変もったいないです。</p>
-<p>オンライン英会話スクールでも、突き詰めてみると大事な選択のポイントがいくつかあります。</p>
+<img src="/english/img/staff/staff-guide.png" alt="ECOMのスタッフ" width="600" height="463">
 </div>
 </div>
-<div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>そこで、２０年以上業界に携わり、1万人の生徒さまのカウンセリングを通して感じた</p>
-<p>『<span style="color: #ff6600;"><strong>５つのオンライン英会話選択の指針</strong></span>』</p>
-<p>を提示いたします。</p>
-<p>スクール選びの参考にしてくださいね。</p>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<ol class="lp-steps course-num points-list">
+<li><i aria-hidden="true">🎯</i><em>POINT 1</em><b>目的に合ったクラスと講師があるか</b><span>多くのオンライン英会話は、無料の教材を使った簡単なレッスンか、フリートーク（おしゃべり）が中心です。仕事や試験など目的があるなら、目的別のクラスとカリキュラムがある学校を選びましょう。講師の国も大切です。欧米の人と仕事で話すなら、欧米の講師から学ぶのが近道です。発音だけでなく、使う語彙や表現、文化も違うからです。</span></li>
+<li><i aria-hidden="true">🏅</i><em>POINT 2</em><b>講師は、選ばれたプロか</b><span>「あなたは外国人に日本語を教えられますか？」ネイティブだからといって、教えるのが上手とは限りません。上達したいなら、きちんと選ばれ、研修を受けたプロの講師に習うのがいちばんです。上達までの時間が短くなれば、かかるお金も時間も少なくなります。</span></li>
+<li><i aria-hidden="true">💴</i><em>POINT 3</em><b>料金は「上達までの総額」で考える</b><span>「1回100円台」は、毎日受けた場合の計算です。実際に受けられる回数で割ると、それほど安くならないこともあります。また、マンツーマンの料金は60分で2,000円台から1万5,000円ほどまでさまざまですが、安すぎる学校は講師の給与も低く、講師が長く続かない傾向があります。1回の値段ではなく、上達するまでにかかる時間とお金の合計で比べましょう。</span></li>
+<li><i aria-hidden="true">🔁</i><em>POINT 4</em><b>続けられるしくみがあるか</b><span>語学はマラソンのようなものです。1日に何時間も受けるより、少しずつでも半年、1年と続けるほうがずっと難しく、ずっと大切です。講師の質が安定しているか、予約に制限がないか、困ったときに相談できるサポートがあるか。新しい生徒を集めることばかりで、続けている生徒が置いていかれていないかも見ておきたいところです。</span></li>
+<li><i aria-hidden="true">🔍</i><em>POINT 5</em><b>比較サイトと口コミは、ほどほどに</b><span>オンライン英会話の比較サイトや口コミには、紹介料（アフィリエイト）を払った学校を好意的に紹介しているものが少なくありません。派手な広告や「会員数◯万人」より、その学校が何を大切にしているかを見て、あなたの続け方に合う学校を選びましょう。</span></li>
+</ol>
+</div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in narrow">
+<h2>ECOMの場合</h2>
+<p class="lp-sub">5つのポイントに、ECOMはこう答えています。</p>
+<div class="lp-table course-table">
+<table>
+<thead><tr><th>ポイント</th><th>ECOM</th></tr></thead>
+<tbody>
+<tr><th>1. 目的に合ったクラスと講師</th><td>ビジネス・職業別・試験対策など50以上の専門クラスとオリジナル教材。講師はアメリカ・イギリス・ニュージーランドなどのネイティブです。</td></tr>
+<tr><th>2. 選ばれたプロの講師</th><td>採用率0.5%（200人に1人）。全員が日本語の分かるネイティブで、講師の平均在籍は11年です。</td></tr>
+<tr><th>3. 上達までの総額</th><td>30分あたり約3,000〜3,800円。安さではなく、上達までの近さで選ばれています。<a href="/english/improve/">1年間の比較調査</a>では、上達の差は4倍でした。</td></tr>
+<tr><th>4. 続けられるしくみ</th><td>毎回同じ先生の担任制。予約は5分前まで、変更は1時間前まで。2005年から日本人スタッフがサポートしています。96.5%の生徒が満足して継続しています。</td></tr>
+<tr><th>5. 広告より生徒を</th><td>アフィリエイトは使わず、広告は最低限。その分を講師とサポート、無料の学習コンテンツにあてています。</td></tr>
+</tbody>
+</table>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1431852237089 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ffffff;">1. あなたの目的にあったコース、クラス、講師が用意されているか？</span></h2>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in narrow">
+<div class="lp-head">
+<h2>体験レッスンで確かめたいこと</h2>
+<p class="lp-sub">どの学校を選ぶときも、体験レッスンで次のことを確かめると失敗しません。</p>
+</div>
+<ul class="points-check">
+<li>先生の英語は聞き取りやすく、正しく直してくれるか</li>
+<li>分からないとき、日本語で確認できるか</li>
+<li>レッスンの後に、何を学んだかが残るか</li>
+<li>次も同じ先生に習えるか</li>
+<li>目的に合ったクラスや教材を提案してくれるか</li>
+<li>予約や変更が、自分の生活に合うか</li>
+</ul>
+</div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-end">
+<p>まずはECOMの体験レッスンで、6つのことを確かめてください。</p>
+<div class="lp-btns">
+<a class="lp-btn" href="/trial/">体験レッスン（30分×2回・2,500円）</a>
+<a href="/english/features/">ECOMの特徴を見る</a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>1－1:　コース、クラスをチェック</h3>
 </div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>およそ8割のオンライン英会話スクールが、</p>
-<p>授業内容として、ネット上の無料教材を使った「簡易レッスン」か、「フリートークと呼ばれるおしゃべり」となっています。</p>
-<p>またコースに力を入れているように見えても、実際はお粗末なカリキュラムが多かったりするので、この当たりは実際の<a title="Ecomオンライン英会話お試し体験" href="/english/trial/">体験レッスン</a>で確認が必要です。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>そして、これは英語中級以上の方向けですが、目的別、職業別に学べる内容が別れているとベターです。</p>
-<p>例えば、研究者の方が、セールス営業の教材を使わされて、ロールプレイが辛かったというのを耳にします。</p>
-<p>専門職の方はよりそれにあったクラスで英語を個別撃破していきましょう。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="300" height="245" src="/english/wp-content/uploads/2024/08/check-woman-300x245.jpg" class="vc_single_image-img attachment-medium" alt="" title="check-woman"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>1-2: 講師は、フィリピン、ネイティブ、日本人？</h3>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>欧米のビジネス・パートナー相手に仕事している人、これからする必要がありそうな方は、同じ欧米講師から学ばれることをオススメします。</p>
-<p>英語にはその国、その地域の対話者との慣れが必要です。</p>
-<p><span style="color: #ff0000;">フィリピン講師のみで授業を受けていると、欧米の話す英語についていけないことがよくあります。</span></p>
-<p>発音アクセントもそうですが、それ以上に、使われる語彙、表現も異なったりします。</p>
-<p>また講師を通して知る、現地の文化や習慣なども重要な要素だったりします）。</p>
-<p>逆に、インドやフィリピンの人と話す場合は、インド人やフィリピン人とのレッスンが有効です。</p>
-</div>
-</div>
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="865" height="242" src="/english/wp-content/uploads/2024/08/pic_teachers.png" class="vc_single_image-img attachment-full" alt="" title="pic_teachers"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1431852312640 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ffffff;">2.料金は、英語上達にかかる時間やトータルコストも念頭に。</span></h2>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>オンライン英会話では、フィリピン講師による1レッスン＝100円と言った格安スクールが断然注目されています。</p>
-<p>しかし、<span style="color: #ff0000;">実際には1レッスン100円レベルではありません。</span></p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>31日間毎日受講するとした場合、その金額になるだけであって、</p>
-<p>2月であったり、月の3分の１しか受けれなかった場合などはその限りではありません。</p>
-<p>ただそれでも安いのは確かです。しかし格安スクールでは、一見お金を節約できたように見えても、上達までの総コストやあなたの時間は節約できなくなります。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p><strong>語学の学習は長距離マラソンのようなところがあります。</strong></p>
-<p>仮に１m移動にかかるコストが１００円とかであっても、それに何時間も費やし、その最終距離が何万メートルもかかるのであればトータルコストが高くなってしまいますし、あなたの時間ももったいないです。</p>
-<p>逆に１M移動するコストが5,000円であっても、それにかかる時間や最終距離が数分の１ですむならば、トータルコストやあなたの時間はかえって安くなります。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="552" height="252" src="/english/wp-content/uploads/2015/03/7.gif" class="vc_single_image-img attachment-full" alt="英語学習マラソン" title="英語学習マラソン"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1431852349914 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ffffff;">3. 継続できる学校（システム）か？</span></h2>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>人は１日や１週間に何時間も授業を受けることは、やろうと思えばできますが、少ない時間でもいいので、半年、１年と継続して続けていくことはとても難しい生き物です。</p>
-<p>学校の中には、<span style="color: #ff0000;"><strong>学校側の都合で、生徒の継続に優しくないシステムが多々あったりします</strong></span></p>
-<p>（お金だけ引き落とされて、あまり多く利用できていない半幽霊会員を増やす目的もあったりします）。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>例えば、</p>
-<p>・講師の質が低く、続けるモチベーションが上がらない。</p>
-<p>・予約に制限があって、授業を受けるのが面倒くさくなる</p>
-<p>・サポートの対応が未熟で、受講生が学習意欲を失う。</p>
-<p>・新規会員の獲得ばかりに目が行って、継続会員の方を忘れているように見える。</p>
-<p>一例ですが、こうした点をチェックされるとよいと思います。</p>
-<p>繰り返しますが、</p>
-<h3><strong>「継続」をサポートしてくれる学校</strong></h3>
-<p>選びが重要です。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="400" height="870" src="/english/wp-content/uploads/2015/03/1-2.gif" class="vc_single_image-img attachment-full" alt="英語上達にかける女性" title="英語上達にかける女性"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1431852360687 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ffffff;">4. その学校、その企業のカルチャーを読み解く。</span></h2>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p><em>・新規獲得メインなのか？</em></p>
-<p><em>・派手さ重視なのか？</em></p>
-<p><em>・格安大量生産、大量消費なのか？</em></p>
-<p>同じような学校に見えても、その企業の行動パターンなどから感じることができます。</p>
-<p>それら企業カルチャーと、あなたの普段の行動パターンとを重ねあわせて、合わないところはやめましょう。</p>
-<p>どこかで長く続けられなくなってくると思います。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="228" height="228" src="/english/wp-content/uploads/2015/03/otoiawase_1.gif" class="vc_single_image-img attachment-full" alt="イーコム学校カルチャー" title="イーコム学校カルチャー"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1431852480670 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ffffff;">5.&#160;比較サイトや口コミの意見はほどほどに参考</span></h2>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>オンライン英会話業界では、残念なことに過度な競争から、</p>
-<p>比較サイトや口コミには、アフィリエイトで、高額のお金を出した企業を好意的に取り上げるのが一般的です。</p>
-<p>また企業が自作自演で作られた口コミを投稿したり、</p>
-<p>ライバル会社を貶める投稿を行ったりする状況があり、</p>
-<p><strong>その内容は玉石混交</strong>です。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>比較サイトや口コミの意見は、全く意味がないとは言いませんが、そういう状況があると理解された上で、ほどほどに参考にされるのが、オンライン英会話スクール選びで失敗しないポイントだと思います。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1024" height="516" src="/english/wp-content/uploads/2024/08/cec4d064224f45154f8fadd2fe186536-1024x516.jpg" class="vc_single_image-img attachment-large" alt="" title="Business people using smartphone and pressing review popup on visual screen, customer review by five star feedback, positive customer feedback testimonial."></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>いかがでしたか？</p>
-<p>英会話スクールのスイッチングコスト（学校を変えるにあたっての時間や費用のコスト）は、継続学習の妨げの１つになりします。</p>
-<p>是非、長く続けられる、あなたにあったよいオンライン英会話学校を見つけてくださいね。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/wp-content/uploads/2014/01/icon_trial.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話体験レッスン案内" title="スカイプ英会話体験レッスン案内"></a>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/onlinelessons/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/wp-content/uploads/2014/01/icon_trial_support.gif" class="vc_single_image-img attachment-full" alt="スカイプ英会話サポート" title="スカイプ英会話サポート"></a>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
-</div>
-</div>
+</section>
