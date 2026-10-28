@@ -951,3 +951,7 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 /* 大人トップ「ECOMの特徴」の見出しと、比較ページへのリンク（K 2026-10-27） */
 .ad-feat-head { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; justify-content: space-between; }
 .ad-feat-head a { font-weight: 700; }
+/* コースページで特に伝えたい一文（K 2026-10-27） */
+.course-key { background: #FFF7ED; border: 2px solid var(--cta); border-radius: 14px; padding: 18px 22px; font-size: 20px; font-weight: 700; line-height: 1.7; color: var(--ink); }
+.course-key strong { color: var(--cta-dark); }
+@media (max-width: 640px) { .course-key { font-size: 17px; padding: 14px 16px; } }

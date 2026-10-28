@@ -30,71 +30,7 @@ template: "course"
 </div>
 </section>
 
-<section class="lp-sec">
-<div class="lp-in narrow">
-<h2>英検2級は、どんな試験？</h2>
-<p class="lp-sub">英検2級の目安は「高校卒業程度」です。学校・仕事・旅行などの身近な話題に加えて、環境・医療・テクノロジー・ビジネスといった社会的な話題が出題されます。大学入試の英語の外部試験や、就職・転職の履歴書にも書ける資格として、大人の受験者も多い級です。</p>
-<div class="lp-row">
-<div class="lp-box"><i class="course-ico" aria-hidden="true">📝</i><b>一次試験</b><span>リーディング・ライティング（85分）とリスニング（約25分）。マークシートと記述式です。</span></div>
-<div class="lp-box"><i class="course-ico" aria-hidden="true">🎤</i><b>二次試験</b><span>面接委員と1対1の英語での面接（約7分）。一次試験の合格者が受けます。</span></div>
-</div>
-<p class="lp-note">2025年度から、準2級と2級の間に「準2級プラス」が新しくできました。準2級から2級までの差が大きいと感じる方は、準2級プラスを目標にすることもできます。</p>
-</div>
-</section>
-
-<section class="lp-sec soft">
-<div class="lp-in narrow">
-<h2>一次試験の形式（2024年度からの新形式）</h2>
-<div class="lp-table course-table">
-<table>
-<thead><tr><th>技能</th><th>問題</th><th>問題数</th><th>内容</th></tr></thead>
-<tbody>
-<tr><th rowspan="3">リーディング</th><td>短文の語句空所補充</td><td class="n">17問</td><td>文の空所に合う単語・熟語を選ぶ</td></tr>
-<tr><td>長文の語句空所補充</td><td class="n">6問</td><td>説明文の空所に合う語句を選ぶ</td></tr>
-<tr><td>長文の内容一致選択</td><td class="n">8問</td><td>Eメールや説明文を読んで、内容に合うものを選ぶ</td></tr>
-<tr><th rowspan="2">ライティング</th><td>英文要約</td><td class="n">1問</td><td>説明文を読んで、45〜55語の英語で要約する</td></tr>
-<tr><td>英作文（意見論述）</td><td class="n">1問</td><td>指定されたトピックについて、80〜100語で自分の意見を書く</td></tr>
-<tr><th rowspan="2">リスニング</th><td>会話の内容一致選択</td><td class="n">15問</td><td>会話を聞いて答える（放送は1回）</td></tr>
-<tr><td>文の内容一致選択</td><td class="n">15問</td><td>物語文・説明文を聞いて答える（放送は1回）</td></tr>
-</tbody>
-</table>
-</div>
-<div class="lp-box course-change">
-<b>2024年度に変わったところ</b>
-<ul>
-<li>ライティングに「英文要約」が加わり、2題になりました。</li>
-<li>リーディングは38問から31問に減りました（短文の語句空所補充20問→17問、長文の内容一致選択12問→8問）。</li>
-<li>試験時間は85分のままなので、ライティングにかける時間が増えます。時間配分の練習が大切です。</li>
-</ul>
-</div>
-</div>
-</section>
-
-<section class="lp-sec">
-<div class="lp-in narrow">
-<h2>スコアと合格の基準</h2>
-<p class="lp-sub">合否は、正解の数ではなく「英検CSEスコア」で決まります。2級は4技能それぞれ650点満点で、技能ごとのスコアのバランスも大切です。</p>
-<div class="lp-nums course-nums">
-<div><span>一次試験の合格基準</span><b>1520点</b><span>リーディング・ライティング・リスニング 計1950点満点</span></div>
-<div><span>二次試験の合格基準</span><b>460点</b><span>スピーキング 650点満点</span></div>
-</div>
-<p class="lp-note">ライティングは1題だけでも、リーディングやリスニングと同じ650点の重みがあります。要約と英作文で点を落とさないことが、合格への近道です。</p>
-</div>
-</section>
-
-<section class="lp-sec soft">
-<div class="lp-in narrow">
-<h2>二次試験（面接）の流れ</h2>
-<p class="lp-sub">面接は約7分。問題カードには約60語の英文と3コマのイラストがあります。受け答えの態度（アティチュード）も採点されます。</p>
-<ol class="lp-steps course-steps">
-<li><em>黙読・音読</em><b>英文を20秒黙読し、声に出して読む</b><span>意味のまとまりで区切り、発音とイントネーションに気をつけて読みます。</span></li>
-<li><em>No.1</em><b>英文の内容についての質問</b><span>読んだ英文から、質問に合う部分を探して答えます。</span></li>
-<li><em>No.2</em><b>3コマのイラストの説明</b><span>20秒の準備のあと、カードにある最初の一文から始めて、イラストの展開を説明します。</span></li>
-<li><em>No.3</em><b>カードの話題についての意見</b><span>カードの話題に関係する考えについて、賛成・反対と理由を述べます。</span></li>
-<li><em>No.4</em><b>日常生活についての意見</b><span>カードの話題と直接関係しない、身近な社会の話題について自分の意見を述べます。</span></li>
-</ol>
-</div>
-</section>
+<div data-include="eiken-second"></div>
 
 <section class="lp-sec">
 <div class="lp-in">
@@ -120,7 +56,7 @@ template: "course"
 <p class="lp-sub">1回30分（レッスン25分＋先生がフィードバックを書く5分）のマンツーマンです。あなたの得意・苦手を分かっている同じ先生が、試験日まで続けて担当します。</p>
 </div>
 <ol class="lp-steps course-num">
-<li><i aria-hidden="true">🔍</i><em>STEP 1</em><b>今の力を確かめる</b><span>過去問を使って、技能ごとの得意・苦手を確かめ、試験日までの計画を立てます。</span></li>
+<li><i aria-hidden="true">🔍</i><em>STEP 1</em><b>過去問を先生と一緒に解く</b><span>重要パートから順に、過去問を使って先生と一緒に問題を解いていきます。過去問は最低3回分、できれば5回分を解きます。解法のテクニックや、なぜその答えになるのかを先生がその場で教えるので安心です。</span></li>
 <li><i aria-hidden="true">✍️</i><em>STEP 2</em><b>要約と英作文を書き直す</b><span>書いた英文を先生と一緒に直し、点が取れる型と言い換えの表現を身につけます。日本語が分かる先生なので、迷ったところは日本語で確認できます。</span></li>
 <li><i aria-hidden="true">🎤</i><em>STEP 3</em><b>本番と同じ流れで面接練習</b><span>先生が面接委員の役になり、入室から退室まで本番どおりに練習します。終わったらすぐにフィードバックします。</span></li>
 <li><i aria-hidden="true">💡</i><em>STEP 4</em><b>答えに詰まったときの対応も</b><span>質問が聞き取れなかったときの聞き返し方や、考えをまとめる間のつなぎ方など、本番で使えるコツも練習します。</span></li>
@@ -132,10 +68,9 @@ template: "course"
 <div class="lp-in narrow">
 <h2>よくある質問</h2>
 <div class="lp-faq">
-<details><summary>大人でも受けられますか？</summary><p>はい。英検は年齢に関係なく受けられます。このコースは大人の方向けです。お子さまの英検2級対策は、<a href="/english/children/courses/examinations/eiken/second">子供の英検2級対策</a>をご覧ください。</p></details>
 <details><summary>二次試験（面接）の対策だけでも受けられますか？</summary><p>はい。一次試験に合格したあと、面接練習だけを集中して受けることもできます。体験レッスンで、試験日とご希望を先生にお伝えください。</p></details>
 <details><summary>準2級に合格したばかりです。いきなり2級は難しいですか？</summary><p>準2級と2級の間には差があります。今の力を体験レッスンで確かめ、2級を目指すか、2025年度にできた準2級プラスを先に目指すかを一緒に決めましょう。</p></details>
-<details><summary>教材は何を使いますか？</summary><p>英検の公式サイトで公開されている過去問を中心に使います。過去問で苦手が分かったら、その分野に合う教材を先生がご提案します。</p></details>
+<details><summary>教材は何を使いますか？</summary><p>英検の公式サイトで公開されている過去問を中心に使います。</p></details>
 </div>
 </div>
 </section>
@@ -145,7 +80,11 @@ template: "course"
 <h2>ほかの英検対策コース</h2>
 <div class="lp-chips">
 <a href="/english/courses/examinations/eiken/">英検対策コース一覧</a>
+<a href="/english/courses/examinations/eiken/third/">英検3級対策</a>
+<a href="/english/courses/examinations/eiken/presecond/">英検準2級対策</a>
+<a href="/english/courses/examinations/eiken/presecondplus/">英検準2級プラス対策</a>
 <a href="/english/courses/examinations/eiken/prefirst/">英検準1級対策</a>
+<a href="/english/courses/examinations/eiken/first/">英検1級対策</a>
 <a href="/english/courses/examinations/">英語試験対策コース一覧</a>
 </div>
 </div>
