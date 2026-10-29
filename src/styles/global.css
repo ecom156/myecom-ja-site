@@ -130,6 +130,7 @@ main:has(> .slider:first-child) { padding-top: 0; }
 .site-footer ul { display: block; }
 .site-footer li { padding: 3px 0; }
 .copyright { margin-top: 24px; font-size: 13px; }
+.copyright.ip-notice { margin-top: 8px; font-size: 12px; }
 
 /* 旧サイトの段組みをそのまま残したページ（WPBakery の CSS を併用） */
 .prose .wp-layout img { max-height: none; display: inline-block; margin: 0; }
