@@ -1,0 +1,34 @@
+---
+import plans from '../../data/plans.json';
+
+// 体験レッスンの料金と内容を、検索エンジンと AI が読める形（構造化データ）で出す。
+// AI に申込みを頼む人が増えるため、AI が料金・回数・申込み先を正しく答えられるようにする（K 2026-10-29）
+interface Props { kids?: boolean }
+const { kids = false } = Astro.props;
+const url = new URL(kids ? '/english/children/trial/' : '/trial/', Astro.site).href;
+const price = plans.trial.price.replace(/[^\d]/g, '');
+const ld = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${url}#service`,
+  name: kids ? 'ECOM子供オンライン英会話 体験レッスン' : 'ECOMオンライン語学学校 体験レッスン',
+  serviceType: 'オンライン語学レッスンの体験',
+  description: kids
+    ? `3歳〜17歳のお子さま向けのオンライン英会話・英検®対策の体験レッスン。毎週同じ担任の先生とマンツーマンで、30分×2回（60分1回にまとめても可）。${plans.trial.price}（税込）。保護者の方が申し込みます。`
+    : `英語など20言語の体験レッスン。日本語が分かるネイティブ・バイリンガルのプロ講師とマンツーマンで、30分×2回（60分1回にまとめても可）。${plans.trial.price}（税込）。`,
+  url,
+  provider: { '@id': new URL('/#organization', Astro.site).href },
+  areaServed: 'JP',
+  availableLanguage: 'ja',
+  audience: kids ? { '@type': 'PeopleAudience', suggestedMinAge: 3, suggestedMaxAge: 17 } : { '@type': 'PeopleAudience', suggestedMinAge: 18 },
+  offers: {
+    '@type': 'Offer',
+    price,
+    priceCurrency: 'JPY',
+    availability: 'https://schema.org/InStock',
+    url: `${url}#form`,
+    description: '30分×2回。お申し込みフォームの送信後、カード決済（Square）。事前相談（無料・約15分）を希望した場合は、相談のあとでお支払い。',
+  },
+}).replace(/</g, '\\u003c');
+---
+<script type="application/ld+json" set:html={ld} />
