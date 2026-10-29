@@ -17,6 +17,7 @@ import TeachersKidsPage from '../components/lp/TeachersKidsPage.astro';
 import LanguageIntro from '../components/lp/LanguageIntro.astro';
 import LanguagePage from '../components/lp/LanguagePage.astro';
 import { languagePages } from '../data/language-pages';
+import { trialCtaFor, trialCtaHtml, insertMid } from '../trial-cta';
 import PricePage from '../components/lp/PricePage.astro';
 import KidsShell from '../components/lp/KidsShell.astro';
 import SchoolsPage from '../components/lp/SchoolsPage.astro';
@@ -111,6 +112,9 @@ const kids = site.key === 'english_children';
 const schools = site.key === 'english_schools';
 // Onki（アプリ）も、専用デザインのないページをトップと同じ枠で表示する（K 2026-10-27）
 const onki = site.key === 'english_onki';
+// ブログ記事の途中と最後に、記事の言語に合った体験レッスン（法人は導入相談）の案内を入れる（K 2026-10-29）
+const postCta = props.kind === 'post' ? trialCtaFor(site.key, langOf(props.post)) : undefined;
+const postHtml = postCta && entry?.rendered?.html ? insertMid(entry.rendered.html, trialCtaHtml(postCta, 'mid')) + trialCtaHtml(postCta, 'end') : undefined;
 const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts', (p) => siteKeyOf(p) === site.key)) : [];
 ---
 {props.kind === 'page' && Landing && (
@@ -202,7 +206,7 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
         })}
       </p>
       <div class="layout">
-        <article class="prose kd-prose"><Content />{formKeys.map((k) => <Form formKey={k} />)}</article>
+        <article class="prose kd-prose">{postHtml ? <Fragment set:html={postHtml} /> : <Content />}{formKeys.map((k) => <Form formKey={k} />)}</article>
         <aside class="sidebar kd-side">
           <h2>📚 カテゴリー</h2>
           <ul>{allCategories(site.key, sitePosts).filter((c) => !c.parent).map((c) => <li><a href={c.path}>{c.name}</a></li>)}</ul>
@@ -246,7 +250,7 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
             return <> · {href ? <a href={href}>{c}</a> : c}</>;
           })}
         </div>
-        <div class="prose"><Content /></div>
+        <div class="prose">{postHtml ? <Fragment set:html={postHtml} /> : <Content />}</div>
         {formKeys.map((k) => <Form formKey={k} />)}
       </article>
       <aside class="sidebar">
