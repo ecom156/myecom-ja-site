@@ -25,6 +25,7 @@
 
 ## その他の言語
 
+- [学べる20言語の一覧](https://ja.myecom.net/languages/): 主要10言語と、その他の提供言語10言語（タイ語・タガログ語・ベトナム語・マレー・インドネシア語・モンゴル語・ヒンディー語・トルコ語・ペルシャ語・ポーランド語・スワヒリ語）
 - [中国語](https://ja.myecom.net/chinese/)
 - [韓国語](https://ja.myecom.net/korean/)
 - [フランス語](https://ja.myecom.net/french/)

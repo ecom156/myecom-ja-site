@@ -1073,3 +1073,19 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .corp-toc a::before { content: counter(cp); width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700; display: grid; place-items: center; font-size: 13px; }
 .course .lp-table caption { font-weight: 700; padding-bottom: 8px; text-align: left; }
 .course .lp-table tbody th { white-space: normal; min-width: 8em; }
+
+/* 学べる言語の一覧 /languages/（K 2026-10-29） */
+.lp-card .lang-name { font-size: 16px; color: var(--ink); }
+.lp-card li + li { margin-top: 6px; }
+
+/* 英語以外の言語ページ（LanguagePage.astro、K 2026-10-29） */
+.lg .lg-catch { font-size: 20px; font-weight: 700; color: var(--navy); margin: 0; }
+.lg-toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 28px; }
+.lg-toc a { border: 1px solid var(--edge); border-radius: 999px; padding: 6px 14px; font-size: 14px; color: var(--navy); text-decoration: none; background: #fff; }
+.lg-points { margin: 0 0 12px; padding-left: 22px; color: var(--sub); display: flex; flex-direction: column; gap: 6px; }
+.lg-books { display: flex; gap: 8px; margin-top: auto; padding-top: 8px; }
+.lp-card .lg-books img { width: 64px; height: 88px; object-fit: cover; border-radius: 4px; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+.lg-exams { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.lg-exams div { border: 1px solid var(--edge); border-radius: 12px; padding: 20px 24px; background: #fff; }
+.lg-exams dt { font-weight: 700; font-size: 17px; color: var(--navy); }
+.lg-exams dd { margin: 6px 0 0; color: var(--sub); font-size: 15px; }

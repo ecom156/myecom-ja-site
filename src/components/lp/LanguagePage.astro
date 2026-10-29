@@ -1,0 +1,186 @@
+---
+import Faq from './Faq.astro';
+import plans from '../../data/plans.json';
+import languages from '../../data/languages.json';
+import { languagePages } from '../../data/language-pages';
+
+// 英語以外の主要9言語のページ（template: language）。検索エンジンと AI 検索が読み取りやすいよう、
+// どの言語も同じ見出しの順（講師 → コース → 試験 → この言語について → 料金 → よくある質問）にそろえ、FAQPage の構造化データを出す（K 2026-10-29）
+interface Props { path: string }
+const { path } = Astro.props;
+const p = languagePages[path];
+const meta = (languages as Record<string, { name: string; exams: string; blog?: string }>)[path];
+const [m2, , m4, m8] = plans.monthly;
+const others = Object.entries(languagePages).filter(([k]) => k !== path);
+const ai = path !== '/arabic/';
+const faq = p ? [
+  { q: `まったく初めてでも、${p.name}を学べますか？`, a: `はい。講師は全員、日本語が分かるので、文法や分からないところは日本語で説明します。${p.courses[0].name}で、基礎から順に進めます。` },
+  { q: '料金はいくらですか？', a: `英語と同じ料金で、${plans.unit}です。月2回${m2.price}・月4回${m4.price}・月8回${m8.price}（税込）の月額プランのほか、チケット制もあります。<a href="/price/">料金を詳しく見る</a>` },
+  { q: '体験レッスンはありますか？', a: `30分×2回で${plans.trial.price}です。先生との相性と、進め方を確かめられます。<a href="/trial/">体験レッスンを予約する</a>` },
+  ...(p.exams ? [{ q: `${p.name}の試験対策はできますか？`, a: `はい。${p.exams.map((e) => e.name.replace(/（.*$/, '')).join('・')}などの対策ができます。過去問や対策問題を使って、講師がマンツーマンで指導します。` }] : []),
+  { q: '英語やほかの言語も、同じ料金で受けられますか？', a: '同じチケットで、英語やほかの言語のレッスンも受けられます。家族プランなら、ご家族とも分けて使えます。' },
+  ...p.faq,
+] : [];
+const faqLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a.replace(/<[^>]+>/g, '') } })),
+}).replace(/</g, '\\u003c');
+---
+{p && (
+  <div class="lp ad lg">
+    <script type="application/ld+json" set:html={faqLd} />
+    <section class="lp-sec soft">
+      <div class="lp-in">
+        <nav class="breadcrumb course-crumb"><a href="/">Home</a> » <a href="/languages/">学べる言語</a> » {p.name}</nav>
+        <div class="lp-hero">
+          <div>
+            <p class="lp-eyebrow">ECOM{p.name}｜日本語が分かるプロ講師とマンツーマン</p>
+            <h1>オンライン{p.name}レッスン</h1>
+            <p class="lg-catch">{p.catch ?? '担任のプロ講師とAI、ふたりで教えるオンライン語学学習。'}</p>
+            <p class="lp-lead">{p.lead}</p>
+            <ul class="lp-proof">{p.proof.map((x) => <li set:html={x} />)}</ul>
+            <div class="lp-btns">
+              <a class="lp-btn" href="/trial/">{plans.trial.label}</a>
+              <a href="#price">料金を見る</a>
+            </div>
+          </div>
+          <img src={p.hero} alt={`オンライン${p.name}レッスン`} />
+        </div>
+        <nav class="lg-toc" aria-label="このページの内容">
+          <a href="#teachers">講師</a><a href="#courses">コース</a>{p.exams && <a href="#exams">試験</a>}<a href="#about">{p.name}について</a>{p.tips && <a href="#tips">学び方のコツ</a>}<a href="#price">料金</a><a href="#faq">よくある質問</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="lp-sec" id="teachers">
+      <div class="lp-in">
+        <div class="lp-head"><h2>{p.name}の講師</h2></div>
+        <ul class="lg-points">{p.teachers.map((t) => <li>{t}</li>)}</ul>
+        <p><a href={p.teachersLink ?? '/teachers/'}>講師について詳しく見る</a></p>
+        {ai && <div class="lp-box"><b>レッスンのない日は、AIと{p.name}で会話の練習</b><span>担任の先生とのレッスンに加えて、AI講師と{p.name}で話す練習ができます。間違えても恥ずかしくないので、初めての方も気軽に声に出せます。</span></div>}
+      </div>
+    </section>
+
+    <section class="lp-sec soft" id="courses">
+      <div class="lp-in">
+        <div class="lp-head">
+          <h2>{p.name}のコース</h2>
+          <p class="lp-sub">1回30分のマンツーマン。レッスンと同じくらいの時間の復習をすると、上達が早くなります。</p>
+        </div>
+        <div class="lp-cards">
+          {p.courses.map((c) => (
+            <div class="lp-card">
+              {c.level && <span class="lp-tag">{c.level}</span>}
+              <b>{c.name}</b>
+              <span>{c.text}</span>
+              {c.books && <div class="lg-books">{c.books.map((b) => <img src={b} alt="" loading="lazy" />)}</div>}
+            </div>
+          ))}
+        </div>
+        {p.coursesLink && <p><a href={p.coursesLink}>コースを詳しく見る</a></p>}
+        {p.youtube && <p class="lp-sub">無料の動画で学ぶ：<a href={p.youtube}>ECOM{p.name}のYouTubeチャンネル</a></p>}
+      </div>
+    </section>
+
+    {p.exams && (
+      <section class="lp-sec" id="exams">
+        <div class="lp-in">
+          <div class="lp-head">
+            <h2>{p.name}の資格試験</h2>
+            <p class="lp-sub">上達の度合いを測るために、試験を受けるのもおすすめです。ECOMでは{meta?.exams ?? 'これらの試験'}の対策ができます。</p>
+          </div>
+          <dl class="lg-exams">
+            {p.exams.map((e) => <div><dt>{e.name}</dt><dd>{e.text}</dd></div>)}
+          </dl>
+        </div>
+      </section>
+    )}
+
+    <section class={p.exams ? 'lp-sec soft' : 'lp-sec'} id="about">
+      <div class="lp-in narrow">
+        <h2>{p.name}について</h2>
+        {p.about.map((a) => <p>{a}</p>)}
+      </div>
+    </section>
+
+    {p.tips && (
+      <section class={p.exams ? 'lp-sec' : 'lp-sec soft'} id="tips">
+        <div class="lp-in">
+          <h2>{p.name}の学び方のコツ</h2>
+          <div class="lp-cards">{p.tips.map((t) => <div class="lp-card"><span class="lp-tag">{t.who}</span><span>{t.text}</span></div>)}</div>
+        </div>
+      </section>
+    )}
+
+    {p.extra === 'russian' && (
+      <>
+        <section class="lp-sec">
+          <div class="lp-in">
+            <h2>ECOMのロシア語レッスンと、ほかのオンライン学校の違い</h2>
+            <div class="lp-table">
+              <table>
+                <thead><tr><th>比較項目</th><th>ECOMオンラインロシア語</th><th>ほかのオンライン学校</th></tr></thead>
+                <tbody>
+                  <tr><th>講師</th><td>モスクワ出身の厳選講師（日本語とロシア語のバイリンガル）</td><td>中央アジアなど、ロシア語を公用語にする国の講師</td></tr>
+                  <tr><th>予約</th><td>予約サイトで、まとめて予約できる</td><td>1回ずつ予約する</td></tr>
+                  <tr><th>予約の変更・キャンセル</th><td>1時間前まで</td><td>24時間前までが多い</td></tr>
+                  <tr><th>レッスン後のフィードバック</th><td>あり</td><td>なし</td></tr>
+                  <tr><th>講師の離職</th><td>とても少ない</td><td>多い</td></tr>
+                  <tr><th>学習・技術のサポート</th><td>日本人スタッフが対応</td><td>なし</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <section class="lp-sec soft">
+          <div class="lp-in">
+            <h2>学校長から、ロシア語を学ぶ方へ</h2>
+            <div class="lp-person">
+              <img src="/russian/wp-content/uploads/sites/8/2015/04/nari00-225x300.jpg" alt="学校長 成田勝行" loading="lazy" />
+              <div>
+                <p>私のロシア語学習は大学時代に始まりました。シベリア鉄道でウラジオストクからモスクワを抜け、サンクトペテルブルクまでの1万キロを旅したくて、英語だけでは心もとないと必死に勉強しました。</p>
+                <p>ロシア語は確かに難しい言語ですが、ECOMの方法で学べば必ず上達できると考えています。ロシア語ができると、ロシア・東欧の世界が広がります。話せる日本人はまだ少ないので、興味のある方はぜひ一緒に頑張りましょう。</p>
+                <p><b style="color: var(--ink)">学校長　成田勝行</b>　慶應大学総合政策学部卒。英検1級。中国語・ロシア語・スペイン語も話します。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
+    )}
+
+    <section class="lp-sec" id="price">
+      <div class="lp-in">
+        <h2>{p.name}レッスンの料金</h2>
+        <div class="lp-row">
+          <div class="lp-box">
+            <b>料金は英語と同じ</b>
+            <span style="font-size: 24px; font-weight: 700">月2回 {m2.price}から</span>
+            <span class="lp-sub">月4回{m4.price}・月8回{m8.price}（税込）。{plans.unit}。同じチケットで英語やほかの言語も受けられます。<a href="/price/">料金を詳しく見る</a></span>
+          </div>
+          <div class="lp-box">
+            <b>まずは体験から</b>
+            <span class="lp-sub">30分×2回で{plans.trial.price}。先生との相性と、進め方を確かめられます。</span>
+            <div class="lp-btns"><a class="lp-btn" href="/trial/">体験レッスンを予約する</a></div>
+          </div>
+        </div>
+        <p class="lp-sub">法人の{p.name}研修は<a href="/corporation/">法人研修のご案内</a>をご覧ください。</p>
+      </div>
+    </section>
+
+    <section class="lp-sec soft" id="faq">
+      <div class="lp-in narrow">
+        <h2>{p.name}レッスンのよくある質問</h2>
+        <Faq items={faq} />
+      </div>
+    </section>
+
+    <section class="lp-sec">
+      <div class="lp-in">
+        <h2>ほかの言語</h2>
+        <div class="lp-chips"><a href="/english/">英語</a>{others.map(([href, o]) => <a href={href}>{o.name}</a>)}<a href="/languages/#others">その他の提供言語</a></div>
+        {meta?.blog && <p class="lp-sub">{p.name}圏の文化を知る：<a href={meta.blog}>異文化ブログ</a></p>}
+      </div>
+    </section>
+  </div>
+)}
