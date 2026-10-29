@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import { getCollection } from 'astro:content';
 import { sites, siteForPath, sortPosts, postPath, siteKeyOf, langOf, langForPath, type Site } from '../lib';
+import { trialCtaFor } from '../trial-cta';
 
 interface Props {
   title: string;
@@ -27,6 +28,9 @@ const home = `${site.base}/`;
 // 言語ページ（/chinese/ など）と異文化ブログの記事では、同じ言語圏の記事だけを出す
 const lang = Astro.props.lang ?? (site.key === 'root' || site.key === 'russian' ? langForPath(current) : undefined);
 const recent = sortPosts(await getCollection('posts', (p) => (lang ? langOf(p) === lang : siteKeyOf(p) === site.key))).slice(0, 5);
+// スマホでは画面の下に体験レッスン（法人は導入相談）のボタンを固定する。申込みページ・送信完了ページ・塾代助成ページでは出さない（K 2026-10-29）
+const cta = trialCtaFor(site.key, lang);
+const sticky = cta && !Astro.props.noindex && !/^\/(trial|english\/children\/trial|corporation\/contact)\//.test(current) && !current.includes('osaka-jukudai') ? cta : undefined;
 const ogImage = image ?? site.logo;
 // GA は全サイト共通で TOP のプロパティに送り、どのサイトのページかはコンテンツグループで分ける
 const ga = sites.root.ga;
@@ -146,5 +150,15 @@ const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': grap
       <div class="wrap copyright">© {year} {site.name} – 運営 <a href="https://ecominc.co.jp/">株式会社イーコミュニケーション</a></div>
       <div class="wrap copyright ip-notice">ECOM®は株式会社イーコミュニケーションの登録商標です（登録第6540469号）。「<a href="/english/children/initial-memory/">頭出し記憶法</a>」は同社の特許です（特許第7036483号）。</div>
     </footer>
+    {sticky && <a class="sticky-cta" href={sticky.href} data-cta="sticky">{sticky.short}</a>}
+    {ga && (
+      <script is:inline>
+        // 体験・導入相談への案内（data-cta）が押されたら、どの案内からかを GA に送る
+        document.addEventListener('click', (e) => {
+          const a = e.target instanceof Element && e.target.closest('[data-cta]');
+          if (a && typeof gtag === 'function') gtag('event', 'cta_click', { cta_position: a.getAttribute('data-cta'), link_url: a.getAttribute('href') });
+        });
+      </script>
+    )}
   </body>
 </html>

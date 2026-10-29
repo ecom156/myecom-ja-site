@@ -1,12 +1,29 @@
 ---
 import Base from '../layouts/Base.astro';
 import { sites } from '../lib';
+import plans from '../data/plans.json';
 ---
 <Base site={sites.root} title="ページが見つかりません" noindex>
-  <div class="wrap">
+  <div class="wrap nf">
     <h1>ページが見つかりません</h1>
-    <p>お探しのページは移動または削除された可能性があります。</p>
-    <p class="cta"><a class="btn" href="/">トップページへ</a> <a class="btn btn-sub" href="/english/">英会話トップへ</a></p>
+    <p>お探しのページは移動または削除された可能性があります。よく見られているページや、体験レッスンのご案内からお進みください。</p>
+    {/* 404 で帰ってしまう人が多いので、体験レッスンと人気のページへの入口にする（K 2026-10-29） */}
+    <div class="nf-trial">
+      <a href="/trial/" data-cta="404_adult"><b>大人の体験レッスン</b><span>英語など20言語。日本語が分かるプロ講師とマンツーマン、30分×2回で{plans.trial.price}。</span></a>
+      <a href="/english/children/trial/" data-cta="404_kids"><b>お子さまの体験レッスン</b><span>幼児から高校生まで。毎週同じ担任の先生が教えます。30分×2回で{plans.trial.price}。</span></a>
+      <a href="/corporation/contact/" data-cta="404_corp"><b>法人のオンライン導入相談</b><span>英語研修の進め方と費用を、Google Meet・Teamsでご提案します。無料。</span></a>
+    </div>
+    <h2>よく見られているページ</h2>
+    <ul class="nf-links">
+      <li><a href="/english/">大人のオンライン英会話</a></li>
+      <li><a href="/english/children/">子供のオンライン英会話</a></li>
+      <li><a href="/corporation/">法人の英語研修</a></li>
+      <li><a href="/price/">料金</a></li>
+      <li><a href="/languages/">学べる20言語</a></li>
+      <li><a href="/teachers/">講師について</a></li>
+      <li><a href="/blog/">異文化ブログ</a></li>
+      <li><a href="/">トップページ</a></li>
+    </ul>
   </div>
   <script is:inline>
     // 末尾のスラッグが同じページが同じサイト内に一つだけあれば、そこへ移動する（旧 WordPress の動き）

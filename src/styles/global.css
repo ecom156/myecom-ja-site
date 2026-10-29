@@ -1100,3 +1100,32 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .kd-books.big img { width: 110px; height: 150px; }
 .corp-reasons .lp-card a { margin-top: auto; font-weight: 700; }
 .kd .kd-em { color: #E11D48; font-weight: 800; background: linear-gradient(transparent 60%, #FDE68A 60%); }
+
+/* ブログ記事の中の体験レッスン（法人は導入相談）の案内（K 2026-10-29） */
+.post-cta { margin: 32px 0; padding: 20px 22px; border: 2px solid #FDBA74; border-radius: 12px; background: #FFF7ED; }
+.post-cta b { display: block; font-size: 18px; line-height: 1.5; color: #7C2D12; }
+.post-cta p { margin: 8px 0 14px; font-size: 15px; }
+.post-cta-btns { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.prose .post-cta-btn, .post-cta-btn { display: inline-block; background: #C2410C; color: #fff; font-weight: 700; padding: 11px 22px; border-radius: 8px; text-decoration: none; }
+.prose .post-cta-btn:hover, .post-cta-btn:hover { background: #9A3412; color: #fff; }
+.post-cta.mid { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; padding: 14px 18px; }
+.post-cta.mid b { font-size: 16px; flex: 1 1 260px; }
+
+/* スマホの画面下に固定する体験レッスンのボタン */
+.sticky-cta { display: none; }
+@media (max-width: 760px) {
+  .sticky-cta { display: block; position: fixed; left: 12px; right: 12px; bottom: calc(10px + env(safe-area-inset-bottom)); z-index: 50; background: #C2410C; color: #fff; text-align: center; font-weight: 700; font-size: 16px; padding: 13px 12px; border-radius: 10px; text-decoration: none; box-shadow: 0 6px 18px rgba(0,0,0,.22); }
+  .sticky-cta:hover { color: #fff; }
+  body:has(.sticky-cta) { padding-bottom: 76px; }
+}
+
+/* 404 ページ */
+.nf { padding-top: 40px; padding-bottom: 56px; }
+.nf-trial { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 24px 0 32px; }
+.nf-trial a { display: block; padding: 18px 20px; border-radius: 12px; border: 2px solid #FDBA74; background: #FFF7ED; color: #7C2D12; text-decoration: none; }
+.nf-trial a b { display: block; font-size: 18px; margin-bottom: 4px; }
+.nf-trial a span { font-size: 14px; color: #44403C; }
+.nf-trial a:hover { border-color: #C2410C; }
+.nf-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; padding: 0; list-style: none; }
+.nf-links a { display: block; padding: 12px 16px; border: 1px solid #E5E7EB; border-radius: 10px; text-decoration: none; font-weight: 600; }
+.nf-links a:hover { border-color: var(--accent); }
