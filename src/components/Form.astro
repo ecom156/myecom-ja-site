@@ -73,7 +73,7 @@ const inputType = (t: string) => (t === 'email' ? 'email' : t === 'phone' ? 'tel
 <script is:inline define:vars={{ formKey }}>
   // 旧サイトでフォームがあった位置（本文中の目印）へ移す
   const box = document.querySelector(`[data-form-for="${formKey}"]`);
-  const marker = document.querySelector(`.prose [data-form="${formKey}"]`);
+  const marker = document.querySelector(`.prose [data-form="${formKey}"], .course [data-form="${formKey}"]`);
   if (box && marker) marker.replaceWith(box);
   // 送信を Google アナリティクスに記録する（GA の管理画面で generate_lead をキーイベントにすると申込み数として数えられる）
   // そのまま送信するとページ移動で記録が送られないことがあるので、GA に届いてから（長くても2秒で）送信する

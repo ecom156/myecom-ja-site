@@ -1,44 +1,31 @@
 ---
 title: "成果の見える語学研修への取り組み"
 path: "/corporation/online-group/report/"
+description: "ECOMの法人語学研修では、出席表・レベルチェック・修了証で研修の成果をご報告します。レベル判定は0〜10++の33段階で、研修の初めと半年ごとに無料で行います。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">- 出席表</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>授業出席情報を月ごと、3か月に一度、研修終了時まとめて、などご指定の期間で提出させて頂きます。</p>
+<section class="lp-sec soft">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/corporation/">法人研修</a> » 成果の報告</nav>
+<div class="lp-head">
+<p class="lp-eyebrow">成果の見える語学研修への取り組み</p>
+<h1>研修の成果を、<span class="nw">数字と書類でご報告</span></h1>
+<p class="lp-lead">語学研修を「やりっぱなし」で終わらせないために、出席・レベル・修了の3つをご担当者さまに報告します。報告書の作成に、別料金はかかりません。</p>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="1189" height="1369" src="/english/corporation/wp-content/uploads/sites/3/2017/04/attendance-sheet.gif" class="vc_single_image-img attachment-full" alt="出席表" title="出席表"></div>
-</figure>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-cards">
+<div class="lp-card corp-doc"><i class="course-ico" aria-hidden="true">🗓️</i><b>出席表</b><span>授業の出席状況を、毎月・3か月ごと・研修の終わりにまとめてなど、ご指定の期間でお出しします。</span><img src="/english/corporation/wp-content/uploads/sites/3/2017/04/attendance-sheet.gif" alt="出席表の見本" loading="lazy"></div>
+<div class="lp-card corp-doc"><i class="course-ico" aria-hidden="true">📈</i><b>レベルチェック</b><span>研修の初めと半年ごとに、0〜10++の33段階でレベルを判定し、伸びをお出しします（無料）。</span><img src="/english/corporation/wp-content/uploads/sites/3/2017/04/level-houjin2.gif" alt="レベルチェックの報告の見本" loading="lazy"></div>
+<div class="lp-card corp-doc"><i class="course-ico" aria-hidden="true">🎓</i><b>修了証など</b><span>ご希望に合わせた内容を入れて、無料で発行します。</span><img src="/english/corporation/wp-content/uploads/sites/3/2017/04/ad154472a2febe4a2b73c4435a14c7eb.gif" alt="修了証の見本" loading="lazy"></div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">-レベルチェック</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1250" height="1714" src="/english/corporation/wp-content/uploads/sites/3/2017/04/level-houjin2.gif" class="vc_single_image-img attachment-full" alt="語学レベルチャート表" title="語学レベルチャート表"></div>
-</figure>
+<div class="lp-box"><b>人事部専用のアカウント</b><span>報告書のほかに、人事部さま専用のアカウントで、受講状況をいつでも確認できます。</span></div>
+<p class="lp-note"><a href="/english/level/">33段階のレベル早見表</a>　・　<a href="/corporation/online-group/price/">目標レベルまでの時間と費用</a>　・　<a href="/corporation/online-group/examples/">研修実績例</a></p>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>授業出席情報を月ごと、3か月に一度、研修終了時まとめて、などご指定の期間で提出させて頂きます。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">- 修了証など</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>ご希望にあわせた情報を入れて、無料で発行させて頂いております。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="595" height="841" src="/english/corporation/wp-content/uploads/sites/3/2017/04/ad154472a2febe4a2b73c4435a14c7eb.gif" class="vc_single_image-img attachment-full" alt="修了証sample" title="修了証sample"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div>
-</div>
-</div>
+</section>
+
+<div data-include="corp-cta"></div>

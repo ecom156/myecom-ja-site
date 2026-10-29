@@ -1,76 +1,93 @@
 ---
 title: "オンライン英語研修 マンツーマン/プライベート"
 path: "/corporation/online-private/"
+description: "ネイティブ・バイリンガル講師と1対1のオンライン語学研修。内容・時間・講師を一人ひとりに合わせられます。30分3,500円・60分7,000円（税抜）の使った分だけの料金。24時間365日受講でき、受講状況は人事部がオンラインで確認できます。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2>『ECOM英語研修 マンツーマン』は、<br>
-ネイティブ講師による1対1のプライベートレッスンです。</h2>
+<section class="lp-sec soft">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/corporation/">法人研修</a> » マンツーマン研修</nav>
+<div class="lp-hero">
+<div>
+<p class="lp-eyebrow">オンライン英語研修 マンツーマン／プライベート</p>
+<h1>一人ひとりの仕事に合わせた、<span class="nw">1対1の語学研修</span></h1>
+<p class="lp-lead">ネイティブ・バイリンガル講師と1対1で行うプライベートレッスンです。内容も進み方も受講者ごとに変えられるので、英語が急ぎで必要な方や、忙しい方の研修に選ばれています。</p>
+<ul class="lp-proof">
+<li>60分<b>7,000円</b>（税抜）</li>
+<li><b>24時間365日</b>受講できる</li>
+<li>レベルチェック<b>無料</b></li>
+</ul>
+<div class="lp-btns">
+<a class="lp-btn navy" href="/corporation/documents/">資料をダウンロード</a>
+<a class="lp-btn" href="/corporation/contact/">無料相談・お見積り</a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>マンツーマン英語研修のメリット</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>👍️内容や進度を、１人１人に特化したものにできる。</p>
-<p>👍️授業時間を、１人１人好きな時間に決められる。</p>
-<p>👍️先生を、好きに選ぶことができる</p>
-<p>👍️先生独占で話す量も多い</p>
-<p>👍️授業ペースも、グループと違って、自分のペースで決められる</p>
-<p>👍️基本、生徒1人1人が、好きな日程・ペースで研修を進めていけるので、人事部側で、研修コース日程など、受講生とやり取りコストがなくなる</p>
-<p>⇛フルカスタマイズでき、</p>
-<p>英語緊急度の高い、忙しい受講生向け研修に、ご利用頂いています。</p>
+<img src="/english/corporation/wp-content/uploads/sites/3/2024/09/private-training-native-middle-1024x682.jpg" alt="ネイティブ講師とのマンツーマン研修">
 </div>
 </div>
-<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>グループ研修に比べたデメリット</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>マンツーマン研修のよいところ</h2>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>🤏研修参加者との横のつながりがない</p>
-<p>🤏先生独占の分、料金がグループに比べて高い</p>
-<p>🤏定期的なグループクラスと違い、生徒の予約具合で研修が進むので、気を抜くと、仕事優先で、受講がおろそかになることも。</p>
-<p>⇛日本人担当者と御社人事部が協調して、オンラインで受講状況を確認できますので、伴走意識が大切。</p>
+<div class="lp-cards">
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🎯</i><b>内容を一人ひとりに</b><span>業務で使う場面や目標に合わせて、内容と進み方を受講者ごとに決められます。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">⏰</i><b>好きな時間に受講</b><span>受講者が自分の予定に合わせて予約します。人事部さまが日程を調整する手間がかかりません。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">👩‍🏫</i><b>講師を選べる</b><span>相性のよい講師を選び、同じ講師に続けて習えます。講師が辞めにくいので、年間で予約を押さえることもできます。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🗣️</i><b>たくさん話せる</b><span>授業の時間はすべて自分のためのもの。グループより話す量が多くなります。</span></div>
 </div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="1024" height="682" src="/english/corporation/wp-content/uploads/sites/3/2024/09/private-training-native-middle-1024x682.jpg" class="vc_single_image-img attachment-large" alt="" title="private-training-native-middle"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>費用</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3 style="text-align: center;"><strong>30分 ：3,500円</strong></h3>
-<h3 style="text-align: center;"><strong>60分 ：7,000円（税抜）</strong></h3>
+<div class="lp-box course-change"><b>気をつけたいこと</b>
+<ul>
+<li>グループ研修のような、受講者どうしのつながりはありません。</li>
+<li>講師を1人で使う分、1人あたりの費用はグループより高くなります。</li>
+<li>受講者が予約して進めるので、仕事が忙しいと受講が後回しになることがあります。ECOMの日本人担当者と人事部さまで、受講状況をオンラインで確認しながら伴走します。</li>
+</ul>
+<span>費用を抑えて大人数で始めたい場合は<a href="/corporation/online-group/">グループ研修</a>が向いています。</span>
 </div>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;"><strong>シンプル is ベスト</strong></p>
-<p style="text-align: center;"><span style="color: #ff6600;"><strong>利用した分だけの従量制</strong></span></p>
-<p style="text-align: center;">例</p>
-<p style="text-align: center;">・１人月４時間の英語研修 ＝ 月28,000円<br>
-研修者10人の場合、月28万円/10人分</p>
-<p style="text-align: center;">別途、消費税と、法人入会金72,000円（初回のみ）必要</p>
+</section>
+
+<section class="lp-sec soft" id="price">
+<div class="lp-in">
+<div class="lp-head">
+<h2>料金</h2>
+<p class="lp-sub">使った分だけの、シンプルな料金です（税抜）。</p>
 </div>
+<div class="lp-cards">
+<div class="lp-plan"><p class="name">30分</p><p class="price">3,500円</p></div>
+<div class="lp-plan"><p class="name">60分</p><p class="price">7,000円</p></div>
+<div class="lp-plan rec"><p class="name">例：1人 月4時間</p><p class="price">28,000円<small>/ 人・月</small></p><p class="lead">10人なら月28万円</p></div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-sky vc_cta3-icon-size-md"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>お問い合わせ、ご質問歓迎</h2></header><p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-502" src="/english/corporation/wp-content/uploads/sites/3/2018/02/icon-panf-corp-2.gif" alt="" width="444" height="328">本サイト内容をまとめたパンフレットを送付いたします。<br>
-また、<br>
-「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
-</div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_blue vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-search"></span></div></div><h4>オンライン英語レッスンの研修会社比較</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_purple"><tr class="vc-th"><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">比較項目</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">ECOM英語研修</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">AL＊、E＊Cや**rlitzなど</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">フィリピン系会社</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">カリキュラム</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">業界用に学習内容をカスタマイズ（無料）。御社のニーズに、学習内容をあわせます。</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">既存の大まかなカリキュラムがあって、会社がそれにあわせなくてはいけない。</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">既存の大まかなカリキュラムがあって、会社がそれにあわせなくてはいけない。</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">受講時間</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">24時間365日</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">夜間のみなど一部時間帯に限られる</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">夜間のみなど一部時間帯に限られる</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">講師</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">英米ネイティブ・バイリンガル
-E＊Cや**rlitzの先生から選抜して採用(採用率0.5%)</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">英米ネイティブ・バイリンガル
-人数が多いので、先生の当たり外れが大きい</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">フィリピンにいるフィリピン人講師</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">初心者対応</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">バイリンガル講師多数在籍</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">バイリンガル講師多数在籍</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">日本語できる講師は極稀</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">先生の離職率</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">低い</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">高い</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">高い</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">受講しやすさ</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">先生の離職も少ないので、先生固定予約もでき、年間予約ができる</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">よい先生固定はできず、常に予約競争する作業が発生。</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">よい先生固定はできず、常に予約競争する作業が発生。</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">研修費用</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">E＊Cや**rlitzの半額程度 (1h=7,000)</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">ECOMの2倍程</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content"></span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">レベルチェック</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">無料</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">有料</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">有料</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">その他</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">シンプルで明瞭な料金設定</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">高く売るため、パッケージ化したものが多い</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">高く売るため、パッケージ化したものが多い</span></td></tr></table></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h6 style="text-align: right;">*比較項目2024年10月自社調べによる</h6>
+<p class="lp-note">別途、法人入会金72,000円（初回のみ）と消費税がかかります。<a href="/corporation/online-group/price/">料金と費用の例を詳しく見る</a></p>
 </div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>オンライン語学研修の会社の比べ方</h2>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div>
+<div class="lp-table">
+<table>
+<thead><tr><th>比較項目</th><th>ECOM英語研修</th><th>AL＊、E＊Cや**rlitzなど</th><th>フィリピン系の会社</th></tr></thead>
+<tbody>
+<tr><th>カリキュラム</th><td>御社の業界に合わせて無料でカスタマイズ</td><td>既存のカリキュラムに、会社が合わせる</td><td>既存のカリキュラムに、会社が合わせる</td></tr>
+<tr><th>受講時間</th><td>24時間365日</td><td>夜間のみなど、一部の時間帯</td><td>夜間のみなど、一部の時間帯</td></tr>
+<tr><th>講師</th><td>英米のネイティブ・バイリンガル。E＊Cや**rlitzの講師経験者などから選抜（採用率0.5%）</td><td>英米のネイティブ・バイリンガル。人数が多く、当たり外れが大きい</td><td>フィリピンにいるフィリピン人講師</td></tr>
+<tr><th>初心者への対応</th><td>日本語が分かる講師が多数</td><td>日本語が分かる講師が多数</td><td>日本語ができる講師はごくまれ</td></tr>
+<tr><th>講師の離職率</th><td>低い</td><td>高い</td><td>高い</td></tr>
+<tr><th>予約のしやすさ</th><td>講師を固定して、年間で予約できる</td><td>よい講師は予約の取り合いになる</td><td>よい講師は予約の取り合いになる</td></tr>
+<tr><th>研修費用</th><td>街の英会話学校の半額程度（1時間7,000円）</td><td>ECOMの2倍ほど</td><td>—</td></tr>
+<tr><th>レベルチェック</th><td>無料</td><td>有料</td><td>有料</td></tr>
+<tr><th>料金の形</th><td>使った分だけのシンプルな料金</td><td>パッケージ販売が多い</td><td>パッケージ販売が多い</td></tr>
+</tbody>
+</table>
 </div>
+<p class="lp-note">比較は2024年10月の自社調べによります。</p>
 </div>
+</section>
+
+<div data-include="corp-cta"></div>

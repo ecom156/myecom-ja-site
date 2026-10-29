@@ -695,37 +695,37 @@
         "href": "/corporation/"
       },
       {
-        "label": "サービス一覧",
+        "label": "研修メニュー",
         "href": "#",
         "children": [
           {
-            "label": "オンライン英語研修 グループ",
+            "label": "グループ研修",
             "href": "/corporation/online-group/"
           },
           {
-            "label": "オンライン英語研修 マンツーマン/プライベート",
+            "label": "マンツーマン研修",
             "href": "/corporation/online-private/"
           },
           {
-            "label": "語学研修動画作成",
+            "label": "講師派遣・企業内バーチャル語学学校",
+            "href": "/corporation/virtual-languageschool/"
+          },
+          {
+            "label": "語学研修動画の制作",
             "href": "/corporation/edtech/"
           }
         ]
+      },
+      {
+        "label": "料金",
+        "href": "/corporation/online-group/price/"
       },
       {
         "label": "研修実績",
         "href": "/corporation/online-group/examples/"
       },
       {
-        "label": "学校紹介",
-        "href": "/corporation/contact-school/"
-      },
-      {
-        "label": "ブログ",
-        "href": "/corporation/blog/"
-      },
-      {
-        "label": "その他",
+        "label": "研修担当の方へ",
         "href": "#",
         "children": [
           {
@@ -735,6 +735,18 @@
           {
             "label": "語学研修選びで気を付けたい5つのチェックポイント",
             "href": "/corporation/checkpoint/"
+          },
+          {
+            "label": "資料ダウンロード",
+            "href": "/corporation/documents/"
+          },
+          {
+            "label": "ECOMについて（学校紹介）",
+            "href": "/corporation/contact-school/"
+          },
+          {
+            "label": "ブログ",
+            "href": "/corporation/blog/"
           }
         ]
       },

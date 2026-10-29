@@ -1,196 +1,111 @@
 ---
-title: "費用"
+title: "法人研修の料金と費用の例"
 path: "/corporation/online-group/price/"
+description: "ECOMの法人語学研修の料金。講師1時間7,000円（税抜）の明朗会計で、グループはクラスの人数に応じた参加者管理料が加わります。個人向けとの違い、目標レベルまでの時間と費用の出し方、研修費用の例（63万円・84万円・42万円）をご紹介します。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #ff9000;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">先生利用1時間×7,000円（税抜）の明朗会計</h2>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">グループは、クラスの人数に応じた参加者管理料が加わります</p>
+<section class="lp-sec soft">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/corporation/">法人研修</a> » 料金と費用の例</nav>
+<div class="lp-head">
+<p class="lp-eyebrow">料金と費用の例</p>
+<h1>講師1時間7,000円の、<span class="nw">明朗会計</span></h1>
+<p class="lp-lead">研修の時間と人数を決めたら、社員さまは予約サイトから受講します。人事部さまは、受講状況をいつでも確認できます。グループ研修は、クラスの人数に応じた参加者管理料が加わります。</p>
+</div>
+<div class="lp-cards">
+<div class="lp-plan"><p class="name">マンツーマン 30分×月4回</p><p class="price">14,000円<small>/ 人・月（税抜）</small></p><p class="lead">2時間 × 7,000円</p></div>
+<div class="lp-plan"><p class="name">グループ（2〜10人）1時間×月4回</p><p class="price">33,600円<small>/ クラス・月（税抜）</small></p><p class="lead">10人なら1人あたり3,360円</p></div>
+</div>
+<div data-include="corp-group-fee"></div>
+</div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>個人向けと法人向けの違い</h2>
+<p class="lp-sub">法人向けは、1人から申し込めます。</p>
+</div>
+<div class="lp-table">
+<table>
+<thead><tr><th></th><th>法人向け</th><th>個人向け</th></tr></thead>
+<tbody>
+<tr><th>体験レッスン（1人2回まで）</th><td>無料</td><td>2,500円</td></tr>
+<tr><th>マンツーマン60分</th><td>7,000円（税抜）で統一</td><td>約6,000〜8,000円</td></tr>
+<tr><th>グループ60分</th><td>7,000円＋参加者管理料20%〜（税抜）。10人なら1人840円から</td><td>—</td></tr>
+<tr><th>入会金（初回）</th><td>72,000円</td><td>9,000円</td></tr>
+<tr><th>受講チケットを使える人</th><td>従業員全員でシェアできる</td><td>家族までシェアできる</td></tr>
+<tr><th>有効期限</th><td>一律、受講開始から1年</td><td>1か月〜1.5年</td></tr>
+<tr><th>お支払い</th><td>後払いもできる</td><td>前払い</td></tr>
+<tr><th>ECOMの自習教材</th><td>無料</td><td>無料</td></tr>
+<tr><th>利用報告</th><td>あり</td><td>なし</td></tr>
+<tr><th>領収書・修了証・成績証</th><td>あり</td><td>あり</td></tr>
+</tbody>
+</table>
 </div>
 </div>
-<div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div><h3 style="text-align: left;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">研修時間×人数を設定し、社員が予約サイトから受講。人事部はいつでも状況を確認できます。</h3>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>例：<br>
-・マンツーマン：30分クラスを月4回(2h)利用『2 hours分 × 7,000円 = 1.4万円 × 人数分 + 税』。</p>
-<p>・グループ：1時間7,000円に、設定するクラスの人数に応じた参加者管理料が加わります。2〜10人のクラスなら20%で1時間8,400円、1時間クラス（50分レッスン＋講師がフィードバックを書く10分）を月4回だと33,600円（税抜）。10人なら1人あたり840円です。</p>
-<div class="lp-table cg-fee"><table><thead><tr><th>クラスの人数</th><th>参加者管理料</th><th>1時間あたり（税抜）</th></tr></thead><tbody><tr><td>2〜10人</td><td>20%</td><td>8,400円</td></tr><tr><td>11〜30人</td><td>30%</td><td>9,100円</td></tr><tr><td>31〜50人</td><td>50%</td><td>10,500円</td></tr><tr><td>51人以上</td><td>100%</td><td>14,000円</td></tr></tbody></table></div>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-head">
+<h2>研修の時間と費用の決め方</h2>
+<p class="lp-sub">「どのレベルから、どのレベルまで」「いつまでに」上げたいかを伺い、必要な時間と費用を最初に試算します。</p>
 </div>
+<ol class="lp-steps course-num course-steps">
+<li><i aria-hidden="true">🔍</i><em>STEP 1</em><b>今のレベルを測り、目標を決める</b><span>最初の2回の体験レッスンで、0〜10++の33段階から受講者の今のレベルを判定し、研修で目指すレベルを決めます。<a href="/english/level/">33段階のレベル早見表</a></span></li>
+<li><i aria-hidden="true">🧮</i><em>STEP 2</em><b>コース・費用・期間を出す</b><span>1レベル（小レベル3つ）上げるには、ECOMのレッスン・AIレッスン・自習を合わせて約60時間が目安です。そのうちレッスンを約30時間とすると、費用と期間は下の表のとおりです。コースはいつでも変えられます。</span></li>
+<li><i aria-hidden="true">📊</i><em>STEP 3</em><b>成果を報告する</b><span>受講履歴（出席表）、修了証、レベル判定の結果をお出しします。レベル判定は、研修の初めと半年ごとに無料で行います。<a href="/corporation/online-group/report/">成果の報告について</a></span></li>
+</ol>
+<h3>1レベル上げるのに必要な時間と費用の目安（マンツーマン・税抜）</h3>
+<div class="lp-table course-table">
+<table>
+<thead><tr><th>コース</th><th>総合一般</th><th>ビジネス</th><th>試験対策</th><th>トラベル</th></tr></thead>
+<tbody>
+<tr><th>伸ばす技能</th><td>話・聴・読・書</td><td>話・聴・書</td><td>読・聴（話・書）</td><td>話・聴</td></tr>
+<tr><th>レッスン時間（AI・自習を含めた合計）</th><td class="n">30時間（60時間）</td><td class="n">30時間（60時間）</td><td class="n">30時間（60時間）</td><td class="n">30時間（60時間）</td></tr>
+<tr><th>レッスン費用（30時間×7,000円）</th><td class="n">210,000円</td><td class="n">210,000円</td><td class="n">210,000円</td><td class="n">210,000円</td></tr>
+<tr><th>期間（週2時間・月8時間の場合）</th><td class="n">約3.75か月</td><td class="n">約3.75か月</td><td class="n">約3.75か月</td><td class="n">約3.75か月</td></tr>
+<tr><th>期間（週4時間・月16時間の場合）</th><td class="n">約1.9か月</td><td class="n">約1.9か月</td><td class="n">約1.9か月</td><td class="n">約1.9か月</td></tr>
+</tbody>
+</table>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>当校ECOMの個人向けと法人向けサービスの費用の違い</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_purple"><tr class="vc-th"><td class="vc_table_cell"><span class="vc_table_content"></span></td><td class="vc_table_cell"><span class="vc_table_content">個人向け</span></td><td class="vc_table_cell"><span class="vc_table_content">法人向け</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">1人2回迄の体験レッスン</span></td><td class="vc_table_cell"><span class="vc_table_content">2,500円</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">無料</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">60分マンツーマンレッスン費用</span></td><td class="vc_table_cell"><span class="vc_table_content">約6,000- 8,000円</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">7,000円（税抜）で統一</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">60分グループレッスン費用</span></td><td class="vc_table_cell"><span class="vc_table_content">-</span></td><td class="vc_table_cell"><span class="vc_table_content">7,000円＋参加者管理料20%〜（税抜）。10人なら1人840円から</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">入会金(初回)</span></td><td class="vc_table_cell"><span class="vc_table_content">9,000円</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">72,000円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">受講チケット利用範囲</span></td><td class="vc_table_cell"><span class="vc_table_content">家族までシェアOK</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">従業員全員でシェアOK</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">有効期限</span></td><td class="vc_table_cell"><span class="vc_table_content">1か月～1.5年まで様々</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">一律受講開始から1年</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">支払い</span></td><td class="vc_table_cell"><span class="vc_table_content">前払い</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">後払い可</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">Ecom自習教材</span></td><td class="vc_table_cell"><span class="vc_table_content">無料利用</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">無料利用</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">利用報告</span></td><td class="vc_table_cell"><span class="vc_table_content">なし</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">あり</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">領収書、修了証、成績証発行</span></td><td class="vc_table_cell"><span class="vc_table_content">あり</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">あり</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">利用</span></td><td class="vc_table_cell"><span class="vc_table_content">法人も利用可能</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">法人利用のみ(1人からOK)</span></td></tr></table></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc-zigzag-wrapper vc-zigzag-align-center"><div class="vc-zigzag-inner" style="width: 100%;min-height: 14px;background: 0 repeat-x url('data:image/svg+xml;utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20width%3D%2214px%22%20height%3D%2212px%22%20viewBox%3D%220%200%2018%2015%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon%20id%3D%22Combined-Shape%22%20fill%3D%22%23ebebeb%22%20points%3D%228.98762301%200%200%209.12771969%200%2014.519983%209%205.40479869%2018%2014.519983%2018%209.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E');"></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">貴社、研修コース設定のために</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #68d619;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">Step1. 「現在のレベル」把握　と　「目標レベル」設定</h2><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>０から１０＋＋までの３３段階から、初回２回の体験レッスンで受講生の「現状レベル」を把握し、研修達成「目標レベル」を設定。</p>
+<p class="lp-note">必要な時間は目安で、人によって早く進むことも、時間がかかることもあります。自習には、宿題・ECOM AIレッスン・ECOMの無料学習アプリが使えます。</p>
 </div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>研修費用の例</h2>
+<p class="lp-sub">ご要望のレベルアップを請け負い、人材力の強化と生産性の向上につなげます。</p>
 </div>
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="1019" height="1003" src="/english/corporation/wp-content/uploads/sites/3/2015/12/level-kaidan.gif" class="vc_single_image-img attachment-full" alt="Ecom語学レベル表 forビジネス" title="Ecom語学レベル表 forビジネス"></div>
-</figure>
+<div class="lp-cards">
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2017/03/sample-businessperson.png" alt="" loading="lazy" style="object-fit: contain; background: var(--soft);"><span class="lp-tag">Aさん（年収400万円）・ビジネス英語</span><b>630,000円</b>
+<ul>
+<li>部署の要望：社内の英語会議に参加し、英文メールもスムーズに書けるように</li>
+<li>今：英検3級程度（ECOMレベル3）→ 目標：社内のテレカンに対応できるレベル（ECOMレベル6）</li>
+<li>3つのレベルを上げるので、180時間（うちレッスン約90時間）。90時間×7,000円</li>
+<li>生産性が1割上がると、年80万円の効果（会社から見た人件費800万円で試算）。9〜10か月ほどで研修費用を回収でき、その後も効果が続きます</li>
+</ul></div>
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2017/03/sample-businessperson4.png" alt="" loading="lazy" style="object-fit: contain; background: var(--soft);"><span class="lp-tag">Bさん（年収800万円）・ビジネス中国語</span><b>840,000円</b>
+<ul>
+<li>部署の要望：中国出張での仕事の効率を上げたい</li>
+<li>今：中国語は初めて（ECOMレベル0）→ 目標：中国出張に対応できるレベル（ECOMレベル4）</li>
+<li>4つのレベルを上げるので、240時間（うちレッスン約120時間）。120時間×7,000円</li>
+<li>生産性が1割上がると、年160万円の効果（会社から見た人件費1,600万円で試算）。約6か月で研修費用を回収でき、その後も効果が続きます</li>
+</ul></div>
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2017/03/teen-300x230.jpg" alt="" loading="lazy"><span class="lp-tag">中学校・英検対策</span><b>420,000円</b>
+<ul>
+<li>学校の要望：中学3年生までに、全員に英検2級以上を取らせたい</li>
+<li>今：英検3級程度（ECOMレベル3）→ 目標：英検2級（ECOMレベル5）</li>
+<li>2つのレベルを上げるので、120時間（うちレッスン約60時間）。60時間×7,000円</li>
+<li>英検2級が最低ラインになり、進学実績が上がると、学校の評判と入学希望者の増加につながります</li>
+</ul></div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #68d619;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">Step2. コース、研修費用、期間算出</h2><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>レベルカテゴリを１つクリア(UP)するために、コース別に下記の時間数と費用がそれぞれ必要です。</p>
+<div class="lp-box"><b>このほかにかかる費用</b><span>高額な教材費などはかかりません（送料も当社負担）。カウンセリングや学習報告も無料で、修了証も無料で発行します。初回のみ、法人入会金72,000円が必要です。コースはいつでも変えられます。</span></div>
 </div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: right;">＊1レベル（3つの小レベル）上げるのに、ECOMのレッスン・AIレッスン・自習を合わせて約60時間が目安です（小レベル1つで約20時間）。表はそのうちレッスンを半分の約30時間とした場合です。</p>
-<p style="text-align: right;">コースはいつでも自由に変更可能です。</p>
-</div>
-</div>
-<div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_purple"><tr class="vc-th"><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">コース名</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">総合一般</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">ビジネス</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">試験対策</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">トラベル</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">強化point</span></td><td class="vc_table_cell"><span class="vc_table_content">話、聴、読、書</span></td><td class="vc_table_cell"><span class="vc_table_content">話、聴、書</span></td><td class="vc_table_cell"><span class="vc_table_content">読、聴、(話、書)</span></td><td class="vc_table_cell"><span class="vc_table_content">話、聴</span></td></tr><tr><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">1レベルカテゴリupに必要なレッスン時間（*AIレッスン・自習を含めた合計時間）</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">30時間 (*60時間)</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">30時間 (*60時間)</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">30時間 (*60時間)</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">30時間 (*60時間)</span></td></tr><tr><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">1レベルカテゴリupにかかるレッスン費用 (時間 × 7,000円・税抜)</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">210,000円</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">210,000円</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">210,000円</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">210,000円</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">1レベルカテゴリupにかかる期間 (*週2時間(月8時間)レッスンの場合)</span></td><td class="vc_table_cell"><span class="vc_table_content">3.75ヶ月</span></td><td class="vc_table_cell"><span class="vc_table_content">3.75ヶ月</span></td><td class="vc_table_cell"><span class="vc_table_content">3.75ヶ月</span></td><td class="vc_table_cell"><span class="vc_table_content">3.75ヶ月</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">1レベルカテゴリupにかかる期間 (*週4時間(月16時間)レッスンの場合)</span></td><td class="vc_table_cell"><span class="vc_table_content">1.9ヶ月</span></td><td class="vc_table_cell"><span class="vc_table_content">1.9ヶ月</span></td><td class="vc_table_cell"><span class="vc_table_content">1.9ヶ月</span></td><td class="vc_table_cell"><span class="vc_table_content">1.9ヶ月</span></td></tr></table></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: right;">＊必要レッスン時間は目安となっており、個々人によって早く進んだり、遅くなったりもあります。</p>
-<p style="text-align: right;">＊自習時間には、宿題、ECOM AIレッスン、当校の無料学習アプリが使えます。</p>
-<p style="text-align: right;">＊当校では3ヶ月に一度レベル判定を行っています。（無料）</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #ff9000;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">Q: 貴社社員や、御学校の学生の語学レベルを、『どのレベルからどのレベルまで』、『いつまでに』底上げしたいとお考えですか？</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #ff9900;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">ご希望分のレベルUP、人材力強化、生産性向上を請負します。</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-sky vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1517884233699"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>お問い合わせ、ご質問歓迎</h2></header><p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-502" src="/english/corporation/wp-content/uploads/sites/3/2018/02/icon-panf-corp-2.gif" alt="" width="444" height="328">本サイト内容をまとめたパンフレットを送付いたします。<br>
-また、<br>
-「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
-<p>メール（<a href="mailto:info@myecom.net">info@myecom.net</a>）でも受け付けております。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p></p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc-zigzag-wrapper vc-zigzag-align-center"><div class="vc-zigzag-inner" style="width: 100%;min-height: 14px;background: 0 repeat-x url('data:image/svg+xml;utf-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%3C%21DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20width%3D%2214px%22%20height%3D%2212px%22%20viewBox%3D%220%200%2018%2015%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cpolygon%20id%3D%22Combined-Shape%22%20fill%3D%22%23ebebeb%22%20points%3D%228.98762301%200%200%209.12771969%200%2014.519983%209%205.40479869%2018%2014.519983%2018%209.12771969%22%3E%3C%2Fpolygon%3E%3C%2Fsvg%3E');"></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>基本研修費用例</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="244" height="254" src="/english/corporation/wp-content/uploads/sites/3/2017/03/sample-businessperson.png" class="vc_single_image-img attachment-medium" alt="" title="sample-businessperson"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">Aさん（年収400万）</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・部署からの要望：社内英語会議に加えたい。英文メールもスムーズにさせたい。</p>
-<p>・現状：英検３級レベル（Ecomレベル③）</p>
-<p>・目標：社内テレカン対応レベル(Ecomレベル⑥)までUPさせたい：</p>
-<p>⇒3, 4, 5と３つの山（レベル）をクリアする必要あり。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p><strong>・コース例：ビジネス英語</strong></p>
-<p><strong>・必要時間：180時間(60時間×3、うちレッスン約90時間)。</strong></p>
-<p><strong>・研修レッスン費用：90h × 7,000 円 = 630,000円(税抜き)。</strong></p>
-<p><strong>・費用対効果：英語研修の結果生産性が１割向上した場合、年間80万円の効果（会社から見た人件費が800万と試算）。9〜10ヶ月程度で研修費用は回収。その後効果は継続。</strong></p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="269" height="285" src="/english/corporation/wp-content/uploads/sites/3/2017/03/sample-businessperson4.png" class="vc_single_image-img attachment-medium" alt="" title="sample-businessperson4"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">Bさん(年収800万)：</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・部署からの要望：中国語力を高めることで、中国出張先での生産性をもっとアップしてもらいたい。</p>
-<p>・現状：中国語初学者（Ecomレベル0）</p>
-<p>・目標：中国出張対応レベル(Ecomレベル④)までUPさせたい：</p>
-<p>⇒ 0, 1, 2, 3と4つの山（レベル）をクリアする必要があり。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p><strong>・コース：ビジネス中国語</strong></p>
-<p><strong>・必要時間：240時間(60時間×4、うちレッスン約120時間)。</strong></p>
-<p><strong>・研修レッスン費用：120h × 7,000 円 = 840,000円(税抜き)。</strong></p>
-<p><strong>・費用対効果：中国語研修の結果生産性が１割向上した場合、年間160万円の効果（会社から見た人件費が1600万と試算）。約6ヶ月で研修費用は回収。その後効果は継続。</strong></p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="230" src="/english/corporation/wp-content/uploads/sites/3/2017/03/teen-300x230.jpg" class="vc_single_image-img attachment-medium" alt="" title="teen"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・学校からの要望：自校の学生全員に、中学3年生までに最低英検2級を取らせたい。</p>
-<p>・現状：英検3級レベル（Ecomレベル3）</p>
-<p>・目標：英検2級(Ecomレベル5)までUPさせたい：</p>
-<p>⇒ &#160;3, 4,と2つの山（レベル）をクリアする必要あり。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p><strong>・コース：英検対策</strong></p>
-<p><strong>・必要時間：120時間(60時間×2、うちレッスン約60時間)。</strong></p>
-<p><strong>・研修レッスン費用：60h × 7,000 円 = 420,000円(税抜き)。</strong></p>
-<p><strong>・費用対効果：研修の結果、英検2級が最低ラインとなり、有名高校への進学率がUP。評判が高まり、学校への入校希望者がup。</strong></p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: right;">＊別途、高額な教材代など追加でかかる費用はありません（送料も含め当社持ち）。</p>
-<p style="text-align: right;">＊＊初回1回のみ、法人入会金72,000円が必要となります。</p>
-<p style="text-align: right;">＊＊＊カウンセリング、学習報告など別途料金は必要ありません。修了証も無料で発行いたします。</p>
-<p style="text-align: right;">コース変更などもいつでも自由に変更可能です。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><h2 style="color: #68d619;text-align: center;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading vc_do_custom_heading">Step3. 研修成果ご報告</h2></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・受講履歴（出席表）、修了証、レベル判定などの提出を行うことが可能です。<a href="/corporation/online-group/report/">▶詳しく見る</a></p>
-</div>
-</div>
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1211" height="688" src="/english/corporation/wp-content/uploads/sites/3/2017/04/level-houjin1.gif" class="vc_single_image-img attachment-full" alt="語学レベルチャート4技能" title="語学レベルチャート4技能"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="595" height="841" src="/english/corporation/wp-content/uploads/sites/3/2017/04/ad154472a2febe4a2b73c4435a14c7eb.gif" class="vc_single_image-img attachment-full" alt="修了証sample" title="修了証sample"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-sky vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1517905186471"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>お問い合わせ、ご質問歓迎</h2></header><p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-502" src="/english/corporation/wp-content/uploads/sites/3/2018/02/icon-panf-corp-2.gif" alt="" width="444" height="328">本サイト内容をまとめたパンフレットを送付いたします。<br>
-また、<br>
-「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
-<p>メール（<a href="mailto:info@myecom.net">info@myecom.net</a>）でも受け付けております。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div>
-</div>
-</div>
+</section>
+
+<div data-include="corp-cta"></div>

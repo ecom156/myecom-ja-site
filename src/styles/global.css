@@ -1056,3 +1056,19 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .kd-faces-mini { list-style: none; margin: 8px 0 0; padding: 0; display: flex; gap: 8px; }
 .kd-faces-mini li { flex: none; }
 .kd-faces-mini img { width: 72px !important; height: 72px !important; max-height: none !important; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.12); display: block; }
+
+/* 法人サイトの下層ページ（template: course で組む、K 2026-10-29） */
+.corp-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 24px; }
+.corp-links a { border: 1px solid var(--edge); border-radius: 999px; padding: 6px 14px; font-size: 14px; color: var(--navy); text-decoration: none; background: #fff; }
+.corp-links a:hover { background: var(--soft); }
+.lp-card.corp-case img { height: 64px; width: auto; max-width: 180px; object-fit: contain; border-radius: 0; align-self: flex-start; }
+.lp-card.corp-pdf img { height: 120px; width: auto; object-fit: contain; border-radius: 0; align-self: flex-start; }
+.lp-card.corp-doc img { height: 240px; object-fit: contain; background: var(--soft); margin-top: auto; }
+.lp-card.corp-video iframe { width: 100%; aspect-ratio: 16 / 9; height: auto; border: 0; border-radius: 10px; }
+.course ul.lp-sub { margin: 16px 0; padding-left: 20px; }
+.corp-toc { margin: 8px 0 0; padding: 0; list-style: none; counter-reset: cp; display: flex; flex-wrap: wrap; gap: 8px; }
+.corp-toc li { counter-increment: cp; }
+.corp-toc a { display: inline-flex; gap: 8px; align-items: center; border: 1px solid var(--edge); border-radius: 999px; padding: 6px 14px 6px 6px; background: #fff; color: var(--ink); text-decoration: none; font-size: 15px; }
+.corp-toc a::before { content: counter(cp); width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700; display: grid; place-items: center; font-size: 13px; }
+.course .lp-table caption { font-weight: 700; padding-bottom: 8px; text-align: left; }
+.course .lp-table tbody th { white-space: normal; min-width: 8em; }
