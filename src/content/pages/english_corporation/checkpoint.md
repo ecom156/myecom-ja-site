@@ -1,85 +1,99 @@
 ---
 title: "語学研修選びで気を付けたい5つのチェックポイント"
 path: "/corporation/checkpoint/"
+description: "語学研修を選ぶときに確かめたい5つのポイント。研修の種類ごとの費用の相場、講師の種類、英語以外の言語への対応、効果測定、担当者の見極め方を、研修担当の方向けにまとめました。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ff6600;">1．研修費用と相場</span></h2>
-<p>語学研修には具体的に下記のようなものがあります。予め内容と相場などを知っておくとよいでしょう。</p>
+<section class="lp-sec soft">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/corporation/">法人研修</a> » 研修選びの5つのポイント</nav>
+<div class="lp-head">
+<p class="lp-eyebrow">研修担当の方へ</p>
+<h1>語学研修選びで気を付けたい、<span class="nw">5つのチェックポイント</span></h1>
+<p class="lp-lead">語学研修は、選び方しだいで成果も費用も大きく変わります。研修会社を比べるときに、確かめておきたい5つのポイントをまとめました。</p>
+</div>
+<ol class="corp-toc">
+<li><a href="#cp1">研修費用と相場</a></li>
+<li><a href="#cp2">講師はどんな人か</a></li>
+<li><a href="#cp3">広げられるか（拡張性）</a></li>
+<li><a href="#cp4">効果を測れるか</a></li>
+<li><a href="#cp5">担当者は信頼できるか</a></li>
+</ol>
+</div>
+</section>
+
+<section class="lp-sec" id="cp1">
+<div class="lp-in">
+<div class="lp-head">
+<p class="lp-eyebrow">ポイント 1</p>
+<h2>研修費用と相場</h2>
+<p class="lp-sub">語学研修には、主に次の種類があります。内容と相場を先に知っておくと、比べやすくなります。</p>
+</div>
+<div class="lp-table course-table">
+<table>
+<thead><tr><th>種類</th><th>1人あたりの費用と特徴</th></tr></thead>
+<tbody>
+<tr><th>✈️ 留学</th><td>1か月の授業料と滞在費で30万円ほど。ほかに航空券・保険・会社独自の補助なども必要です。休職が必要で、移動のコストも大きくなります。</td></tr>
+<tr><th>🏫 通学</th><td>マンツーマン60分で11,000円ほど。ほかに交通費と通学の時間がかかります。</td></tr>
+<tr><th>🧑‍🏫 講師派遣</th><td>会議室に講師1人を派遣してもらう形で、1時間11,000円ほど。受講者の時間を合わせにくく、管理の手間もかかります。</td></tr>
+<tr><th>💻 オンラインレッスン</th><td>ネイティブ・バイリンガル講師なら、マンツーマン60分で2,500〜11,000円ほど。フィリピン人講師なら100〜3,000円ほど。自宅や職場から、早朝・深夜でも受講できるのが一般的です。</td></tr>
+<tr><th>📱 eラーニング</th><td>動画やソフトを使って自分で学習します。コンテンツを作る必要があります。</td></tr>
+</tbody>
+</table>
 </div>
 </div>
-<div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_green"><tr class="vc-th"><td class="vc_table_cell"><span class="vc_table_content">種類</span></td><td class="vc_table_cell"><span class="vc_table_content">1人当たりの費用、コメント</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">留学✈</span></td><td class="vc_table_cell"><span class="vc_table_content">1か月授業料と滞在費で30万程度を見積もり。その他航空券や保険や、補助など会社独自分必要。
-休職の必要あり。移動のコストも大きい。</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">通学👤</span></td><td class="vc_table_cell"><span class="vc_table_content">マンツーマン60分11,000円程度＋交通費と、通学時間。</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">講師招聘👨</span></td><td class="vc_table_cell"><span class="vc_table_content">講師1名を会議室に派遣してもらう形で1時間11000円程度。なかなか利用者の時間が取れず、管理の手間もかかります。</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">オンラインレッスン💻</span></td><td class="vc_table_cell"><span class="vc_table_content">ネイティブまたはバイリンガル講師の場合、マンツーマン60分：2,500- 11,000円程度
-フィリピン講師の場合、100-3,000円程度。自宅や職場から、深夜早朝でも受講できるのが一般的です。</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">eラーニング💻</span></td><td class="vc_table_cell"><span class="vc_table_content">動画やソフトを使った自主学習します。コンテンツ制作が必要となってきます。</span></td></tr></table></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ff6600;">2．講師はどんな人？</span></h2>
-<p>ネイティブ、ノンネイティブ、フィリピン人、日本人の4つに大きく大別できます。</p>
-<p>どれも一長一短がありますので、御社のニーズにあった講師を用意してくれる学校を選びましょう。</p>
-<p>ネイティブなら必要ないですが、ノンネイティブ・フィリピン人講師の場合、できるなら、講師の発音やアクセントのチェックだけでなく、その人の会話の使用語彙などを、英語に強い方によるチェックを入れるとよいでしょう。</p>
-<p>昨今、フィリピン人などノンネイティブ講師を、英語のネイティブですと偽って、企業研修にあてる学校が多くありますが、発音のみならず、使用語彙・フレーズもネイティブからすると違和感があることが多いです。</p>
-<p>&#160;</p>
-<p>&#160;</p>
+</section>
+
+<section class="lp-sec soft" id="cp2">
+<div class="lp-in">
+<div class="lp-hero">
+<div>
+<p class="lp-eyebrow">ポイント 2</p>
+<h2>講師はどんな人か</h2>
+<p>講師は、ネイティブ、ノンネイティブ、フィリピン人、日本人の4つに大きく分けられます。どれにも長所と短所があるので、御社のニーズに合った講師を用意できる学校を選びましょう。</p>
+<p>ノンネイティブやフィリピン人の講師の場合は、発音やアクセントだけでなく、使う語彙や言い回しも、英語に強い方に確かめてもらうと安心です。ノンネイティブの講師を「ネイティブ」として企業研修に出す学校もありますが、ネイティブから見ると、発音だけでなく語彙やフレーズにも違和感があることが多いです。</p>
+</div>
+<img src="/english/corporation/wp-content/uploads/sites/3/2015/12/heather-middle-300x270.jpg" alt="ECOMのネイティブ講師" loading="lazy" style="max-width: 300px;">
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 96px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="300" height="270" src="/english/corporation/wp-content/uploads/sites/3/2015/12/heather-middle-300x270.jpg" class="vc_single_image-img attachment-medium" alt="オンライン英会話" title="オンライン英会話"></div>
-</figure>
+</section>
+
+<section class="lp-sec" id="cp3">
+<div class="lp-in">
+<div class="lp-head">
+<p class="lp-eyebrow">ポイント 3</p>
+<h2>広げられるか（拡張性）</h2>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ff6600;">3. 拡張性</span></h2>
-<p>英語であれば、ビジネス英語やTOEICだけでなく、海外赴任のための、TOEFL, IELTS対策、カスタマイズレッスンが可能な学校がどうか。</p>
-<p>また、英語がメインの語学研修ですが、グローバル化とともに、<strong><span style="color: #ff6600;">英語以外の言語ニーズも増えてきています。</span></strong></p>
-<p>今は英語だけでよくても、今後、中国語、スペイン語、ドイツ語、韓国語、アラビア語、フランス語、ロシア語など対応が必要になってくる場合、多言語対応できる信頼できる研修会社があれば、別途研修会社を探したり、委託先を複数管理する手間・労力も省けて、研修運営が非常に楽になります。</p>
+<div class="lp-cards">
+<div class="lp-card"><i class="course-ico" aria-hidden="true">📚</i><b>英語の目的の広さ</b><span>ビジネス英語やTOEIC®だけでなく、海外赴任のためのTOEFL®・IELTS対策や、御社に合わせたカスタマイズレッスンができるか。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🌐</i><b>英語以外の言語</b><span>グローバル化とともに、中国語・スペイン語・ドイツ語・韓国語・アラビア語・フランス語・ロシア語などのニーズも増えています。1社で多言語に対応できれば、研修会社を別に探したり、複数の委託先を管理したりする手間が省けます。</span></div>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 96px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="136" src="/english/corporation/wp-content/uploads/sites/3/2016/01/slide_dummy02-300x136.jpg" class="vc_single_image-img attachment-medium" alt="" title="slide_dummy02"></div>
-</figure>
+</section>
+
+<section class="lp-sec soft" id="cp4">
+<div class="lp-in">
+<div class="lp-head">
+<p class="lp-eyebrow">ポイント 4</p>
+<h2>効果を測れるか</h2>
+<p class="lp-sub">研修のあとに効果をきちんと確かめられるよう、効果測定のある研修会社を選びましょう。研修は「費用対効果」だけでなく、「時間対効果」も大切な指標として確かめてください。</p>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ff6600;">4.&#160;効果測定</span></h2>
-<p>研修後にきちんと効果を確認できるように、効果測定のある研修会社を選びましょう。チケットは、『費用対効果』以外に、『時間対効果』も重要指標として確認ください。</p>
+<p><a href="/corporation/online-group/report/">ECOMの成果の報告（出席表・レベルチェック・修了証）</a></p>
 </div>
+</section>
+
+<section class="lp-sec" id="cp5">
+<div class="lp-in">
+<div class="lp-hero">
+<div>
+<p class="lp-eyebrow">ポイント 5</p>
+<h2>担当者は信頼できるか</h2>
+<p>研修は、ある程度長いお付き合いになります。実際にやり取りをする担当者が、信頼できる人かどうかを見てください。</p>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 96px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="225" height="224" src="/english/corporation/wp-content/uploads/sites/3/2016/01/f50ea0a6.jpg" class="vc_single_image-img attachment-medium" alt="成績アップ" title="成績アップ"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #ff6600;">5.&#160;担当者</span></h2>
-<p>研修はある程度長い取引となりえます。実際にやり取りを行う担当者が信頼できる人であるかどうかを見てください。</p>
+<img src="/english/corporation/wp-content/uploads/sites/3/2015/12/yoshimi-300x169.jpg" alt="ECOMの研修担当者" loading="lazy" style="max-width: 300px;">
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 96px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="169" src="/english/corporation/wp-content/uploads/sites/3/2015/12/yoshimi-300x169.jpg" class="vc_single_image-img attachment-medium" alt="" title="yoshimi"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1453081537563 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-sky vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1517905247660"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>お問い合わせ、ご質問歓迎</h2></header><p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-502" src="/english/corporation/wp-content/uploads/sites/3/2018/02/icon-panf-corp-2.gif" alt="" width="444" height="328">本サイト内容をまとめたパンフレットを送付いたします。<br>
-また、<br>
-「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
-<p>メール（<a href="mailto:info@myecom.net">info@myecom.net</a>）でも受け付けております。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div>
-</div>
-</div>
+</section>
+
+<div data-include="corp-cta"></div>

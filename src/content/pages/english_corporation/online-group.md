@@ -1,113 +1,119 @@
 ---
 title: "オンライン英語研修 グループ"
 path: "/corporation/online-group/"
+description: "御社専用クラスで行う、ネイティブ・バイリンガル講師のオンライン・グループ語学研修。1クラス1時間7,000円（税抜）＋クラスの人数に応じた参加者管理料。10人なら1人1時間840円。Google Meet・Teams対応、早朝・夜間も可能です。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>『ECOM英語研修 グループ』は、<br>
-１クラス複数名参加のネイティブ講師によるグループ研修です。</h3>
-<p>・Google Meet/ Teams対応</p>
-<p>・通常グループは1クラス10名迄。試験対策などは11名以上も可。</p>
+<section class="lp-sec soft">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/corporation/">法人研修</a> » グループ研修</nav>
+<div class="lp-hero">
+<div>
+<p class="lp-eyebrow">オンライン英語研修 グループ</p>
+<h1>御社専用のクラスで、<span class="nw">みんなで続ける語学研修</span></h1>
+<p class="lp-lead">1つのクラスに複数の社員さまが参加する、ネイティブ・バイリンガル講師のグループ研修です。授業は毎週決まった時間に行うので、予約の手間がなく、学習のペースがつかめます。</p>
+<ul class="lp-proof">
+<li>10人なら<b>1人840円</b>／時間</li>
+<li><b>Google Meet・Teams</b>対応</li>
+<li>早朝・夜間も<b>OK</b></li>
+</ul>
+<div class="lp-btns">
+<a class="lp-btn navy" href="/corporation/documents/">資料をダウンロード</a>
+<a class="lp-btn" href="/corporation/contact/">無料相談・お見積り</a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="523" height="597" src="/english/corporation/wp-content/uploads/sites/3/2024/09/group-image.jpg" class="vc_single_image-img attachment-large" alt="" title="group-image"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>グループ英語研修のよい点</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>👍️マンツーマンより格段に安く実施できる(1/5から1/8の費用)。</p>
-<p>👍️離れた社員同士が、同じ勉強仲間という意識、つながり、社内一体感がもてる。</p>
-<p>👍️一緒に受ける仲間の目があるので、恥ずかしい思いをしたくないよう、学習に力が入る。</p>
-<p>👍️他の社員の頑張りに触発される。</p>
-<p>👍️授業が毎週定期的に実施され、学習のペースがつかめる。</p>
-<p>👍️授業日程が決まっているので、授業予約の手間がない。</p>
-<p>👍️英語中級以下の人にとって、マンツーマンよりプレッシャーが低く、英語授業の敷居が低い</p>
+<img src="/english/corporation/wp-content/uploads/sites/3/2024/09/group-image.jpg" alt="オンラインのグループ英語研修">
 </div>
 </div>
-<div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>グループ英語研修のマイナス点</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>グループ研修のよいところ</h2>
+<p class="lp-sub">通常のクラスは10人まで。試験対策などは11人以上のクラスも作れます。</p>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・話す量は、マンツーマンより少なくなる</p>
-<p>・参加しない生徒がいても、授業は進む。<br>
-なので、参加を、半ば強制できるような社内の仕組みが必要。</p>
+<div class="lp-cards">
+<div class="lp-card"><i class="course-ico" aria-hidden="true">💴</i><b>1人あたりの費用が安い</b><span>料金はクラス単位です。10人のクラスなら1人1時間840円で、マンツーマンの約8分の1です。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🤝</i><b>社内の一体感が生まれる</b><span>離れた部署や拠点の社員どうしが、同じ勉強仲間になります。仲間の頑張りが刺激になり、学習にも力が入ります。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">📅</i><b>ペースがつかめる</b><span>毎週決まった日時に授業があるので、予約の手間がなく、仕事が忙しくても続けやすくなります。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🌱</i><b>初めての方も入りやすい</b><span>英語が中級以下の方にとって、マンツーマンよりプレッシャーが少なく、英語の授業の敷居が下がります。</span></div>
 </div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>料金・価格</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3 style="text-align: center;">基本料金</h3>
-<h3 style="text-align: center;"><strong><span style="color: #ff6600;">1時間 1クラス：7,000円 ＋ 参加者管理料</span></strong></h3>
-<p style="text-align: center;">1時間は、50分のレッスンと、講師がフィードバックを書く10分です。</p>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・1クラス単位の値段なので、生徒数が多ければ、一人あたりの研修料金は格安になります。</p>
-<p>・基本料7,000円に、設定するクラスの人数に応じて、参加者管理料を頂きます。</p>
-<div class="lp-table cg-fee"><table><thead><tr><th>クラスの人数</th><th>参加者管理料</th><th>1時間あたり（税抜）</th></tr></thead><tbody><tr><td>2〜10人</td><td>20%</td><td>8,400円</td></tr><tr><td>11〜30人</td><td>30%</td><td>9,100円</td></tr><tr><td>31〜50人</td><td>50%</td><td>10,500円</td></tr><tr><td>51人以上</td><td>100%</td><td>14,000円</td></tr></tbody></table></div>
-<p>例：1クラス10人の場合、1時間8,400円なので、1人あたり840円。</p>
-<p style="text-align: center;">＊別途、法人入会金72,000円（初回のみ）必要。</p>
-<p style="text-align: center;">・教材費など、その他管理料はかかりません。</p>
-<p style="text-align: center;">・消費税は別途必要</p>
+<div class="lp-box course-change"><b>気をつけたいこと</b>
+<ul>
+<li>一人ひとりが話す量は、マンツーマンより少なくなります。</li>
+<li>欠席する人がいても授業は進みます。出席を促す社内の仕組みがあると、成果が上がりやすくなります。出席はご担当者さまに報告します。</li>
+</ul>
+<span>話す量を増やしたい方や、急ぎで力をつけたい方には<a href="/corporation/online-private/">マンツーマン研修</a>が向いています。</span>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-sky vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1780992308458"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h4>お問い合わせ、ご質問歓迎</h4></header><p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-502" src="/english/corporation/wp-content/uploads/sites/3/2018/02/icon-panf-corp-2.gif" alt="" width="444" height="328"></p>
-<p>本サイト内容をまとめたパンフレットをお渡しします。<br>
-また、<br>
-「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_blue vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-search"></span></div></div><h4>グループ英語研修　会社比較</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-classic_purple"><tr class="vc-th"><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">比較項目</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">ECOM英語研修</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">E＊Cや**rlitzなど街中英会話学校</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">グループクラス</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">御社専用</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">御社以外のグループに入ることもあり、授業内容によっては、情報セキュリティ上問題が・・・</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">カリキュラム</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">御社業界用に無料カスタマイズ。
-別料金で完全カスタマイズ教材も可能</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">学校指定の大まかなビジネス英語教材のみ。
-大手なので小回りがききにくい。カスタマイズにも高額料金</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">講師</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">E＊Cや**rlitzの先生から選抜して採用(採用率0.5%)</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">人数が多いので、先生の当たり外れが大きい</span></td></tr><tr><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">受講スタイル</span></td><td style="text-align:center;font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">オンラインまたは、先生派遣</span></td><td style="text-align:center;" class="vc_table_cell"><span class="vc_table_content">オンライン以外に、校舎も利用できる</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">研修可能時間</span></td><td class="vc_table_cell"><span class="vc_table_content">夜間・早朝も可能。
-国内・海外講師がシフトを組んで24時間可能</span></td><td class="vc_table_cell"><span class="vc_table_content">早朝や夜間など基本NG。
-国内の先生だけで授業を持つため</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">研修費用</span></td><td style="font-weight: bold;" class="vc_table_cell"><span class="vc_table_content">E＊Cや**rlitzの半額程度で済む</span></td><td class="vc_table_cell"><span class="vc_table_content">ECOMの2倍程の高額</span></td></tr></table></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h6 style="text-align: right;">*比較項目2018年1月自社調べによる</h6>
+</section>
+
+<section class="lp-sec soft" id="price">
+<div class="lp-in">
+<div class="lp-head">
+<h2>料金</h2>
+<p class="lp-sub">1クラス1時間7,000円（税抜）が基本です。これに、クラスの人数に応じた参加者管理料が加わります。</p>
+</div>
+<div data-include="corp-group-fee"></div>
+<div class="lp-cards">
+<div class="lp-plan"><p class="name">例：10人のクラス・1時間×月4回</p><p class="price">33,600円<small>/ クラス・月（税抜）</small></p><p class="lead">1人あたり月3,360円</p></div>
+</div>
+<p class="lp-note">別途、法人入会金72,000円（初回のみ）と消費税がかかります。教材費などの管理料はかかりません。<a href="/corporation/online-group/price/">料金と費用の例を詳しく見る</a></p>
+</div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>街の英会話学校の研修との違い</h2>
+</div>
+<div class="lp-table">
+<table>
+<thead><tr><th>比較項目</th><th>ECOM英語研修</th><th>E＊Cや**rlitzなど、街の英会話学校</th></tr></thead>
+<tbody>
+<tr><th>クラス</th><td>御社専用</td><td>他社の方と同じクラスになることもあり、内容によっては情報セキュリティ上の心配も</td></tr>
+<tr><th>カリキュラム</th><td>御社の業界に合わせて無料でカスタマイズ。完全オリジナル教材も別料金で作れます</td><td>学校指定のビジネス英語教材が中心。カスタマイズは高額になりがち</td></tr>
+<tr><th>講師</th><td>E＊Cや**rlitzの講師経験者などから選抜（採用率0.5%）</td><td>講師の人数が多く、当たり外れが大きい</td></tr>
+<tr><th>受講スタイル</th><td>オンライン、または講師派遣</td><td>オンラインのほか、校舎も使える</td></tr>
+<tr><th>研修できる時間</th><td>国内・海外の講師がシフトを組み、早朝・夜間も可能</td><td>国内の講師だけなので、早朝・夜間は基本的に難しい</td></tr>
+<tr><th>研修費用</th><td>街の英会話学校の半額程度</td><td>ECOMの2倍ほど</td></tr>
+</tbody>
+</table>
+</div>
+<p class="lp-note">比較は2018年1月の自社調べによります。</p>
+</div>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-head">
+<h2>英語以外の言語も研修できます</h2>
+<p class="lp-sub">50以上のコースから選べ、ご要望に合わせたカスタマイズクラスも作れます。</p>
+</div>
+<div class="lp-cards">
+<a class="lp-card" href="/english/courses/"><b>英語</b><span>一般英語・ビジネス英語を中心に、TOEIC®・TOEFL®・IELTS対策など。</span><i>コースを見る →</i></a>
+<a class="lp-card" href="/chinese/"><b>中国語</b><span>赴任前の集中研修、HSK対策、一般会話など。</span><i>くわしく →</i></a>
+<a class="lp-card" href="/german/"><b>ドイツ語</b><span>一般・ビジネスドイツ語、独検・ゲーテの検定対策。</span><i>くわしく →</i></a>
+<a class="lp-card" href="/spanish/"><b>スペイン語</b><span>一般・ビジネススペイン語、西検・DELE・SIELE対策。</span><i>くわしく →</i></a>
+<a class="lp-card" href="/french/"><b>フランス語</b><span>海外赴任前の対策、総合強化、仏検・DELF・DALF対策。</span><i>くわしく →</i></a>
+<a class="lp-card" href="/russian/onlinelessons/courses/"><b>ロシア語</b><span>赴任前の対策、総合強化、ロシア語検定。とくにТРКИ（ロシア語能力検定）の対策に自信があります。</span><i>くわしく →</i></a>
+<a class="lp-card" href="/arabic/"><b>アラビア語</b><span>海外赴任前の対策、総合強化コースなど。</span><i>くわしく →</i></a>
+<a class="lp-card" href="/korean/"><b>韓国語・日本語ほか</b><span>韓国語、ルーマニア語、タイ語、ベトナム語、タガログ語、日本語（外国人社員向け）もご相談ください。</span><i>くわしく →</i></a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-sky vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1780992323441"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h4>お問い合わせ、ご質問歓迎</h4></header><p><img loading="lazy" decoding="async" class="alignleft size-full wp-image-502" src="/english/corporation/wp-content/uploads/sites/3/2018/02/icon-panf-corp-2.gif" alt="" width="444" height="328"></p>
-<p>本サイト内容をまとめたパンフレットをお渡しします。<br>
-また、<br>
-「こうした研修できますか？」「システムについてもっと詳しく」といった内容や、見積書発行願い、お受けします。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container wpb_animate_when_almost_visible wpb_left-to-right left-to-right vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-lg vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-sandy-brown" href="/corporation/contact/" title=""><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 資料請求・お見積り（法人専用）</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_raw_code wpb_raw_html wpb_content_element">
-<div class="wpb_wrapper">
-<div id="course"></div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<h2>研修の流れ</h2>
+<ol class="lp-steps course-num">
+<li><i aria-hidden="true">✉️</i><em>STEP 1</em><b>ご相談</b><span>フォームからお問い合わせください。目的・人数・期間を伺い、研修内容を一緒に決めていきます。</span></li>
+<li><i aria-hidden="true">💻</i><em>STEP 2</em><b>研修の実施</b><span>ご発注いただければ、すぐに研修を始められます。受講者のパソコン環境のチェックは、サポートチームが無料で個別に対応します。</span></li>
+<li><i aria-hidden="true">🎓</i><em>STEP 3</em><b>修了・報告</b><span>修了証と、ご希望に応じて出席表・成果表をお出しします。<a href="/corporation/online-group/report/">成果の報告について</a></span></li>
+</ol>
 </div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-check-square"></span></div></div><h4>研修コースをそれぞれ詳しく見る</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>50以上の多彩なコースを用意しています。また、ご要望に合わせたカスタマイズクラスの提供が可能です。ご相談ください。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill"><div class="vc_column-inner vc_custom_1489234829022"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1489234971070"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>英語</h2></header><p>一般英語、ビジネス英語を中心にTOEIC、TOEFL、IELTS, BULATS対策などあり。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-success" href="/english/onlinelessons/courses/" title="" target="_blank"><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 詳しく見る</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill"><div class="vc_column-inner vc_custom_1489280495187"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1452661573418"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>中国語</h2></header><p>赴任前集中研修、HSK対策、一般会話など用意しています。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-success" href="/chinese/onlinelessons/courses/" title="" target="_blank"><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 詳しく見る</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill"><div class="vc_column-inner vc_custom_1489280475475"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1489280260316"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>ドイツ語</h2></header><p>一般ドイツ語、ビジネスドイツ語はもちろん、独検、Goethe(ゲーテ)の検定にも対応。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-success" href="/german/onlinelessons/courses/" title="" target="_blank"><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 詳しく見る</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill"><div class="vc_column-inner vc_custom_1489280581506"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1489280309375"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>スペイン語</h2></header><p>一般スペイン語、ビジネススペイン語はもちろん、西検、DELE SIELEにも対応。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-success" href="/spanish/onlinelessons/courses/" title="" target="_blank"><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 詳しく見る</a></div></div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1489280357468"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>フランス語</h2></header><p>海外赴任前対策他、総合強化コース他、仏検、DELF, DALF試験にも対応可能。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-success" href="/french/onlinelessons/courses/" title="" target="_blank"><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 詳しく見る</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1489280440270"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>ロシア語</h2></header><p>海外赴任前対策他、総合強化コース他、ロシア語検定、ТРКИにも対応可能。</p>
-<p>特にТРКИ、ロシア語試験対策に自信を持っています。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-success" href="/russian/onlinelessons/courses/" title="" target="_blank"><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 詳しく見る</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_cta3-actions-bottom vc_custom_1453201334104"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>アラビア語</h2></header><p>海外赴任前対策他、総合強化コースなどあります。</p>
-</div><div class="vc_cta3-actions"><div class="vc_btn3-container vc_btn3-inline vc_do_btn"><a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-success" href="/arabic/onlinelessons/courses/" title="" target="_blank"><i class="vc_btn3-icon fa fa-caret-square-o-right"></i> 詳しく見る</a></div></div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_custom_1453201359463"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>韓国語、日本語他</h2></header><p>韓国語、ルーマニア語、タイ語、ベトナム語、タガログ語、日本語研修ご相談ください。</p>
-</div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-line-chart"></span></div></div><h4>大まかな流れ</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-grey vc_cta3-icon-size-md vc_custom_1452583424064"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>1.まずは当校へご連絡</h2></header><p><span style="color: #e8e6e6;">一緒に相談に乗りながら研修内容を詰めていきます。まずはフォームよりお問い合わせください。</span></p>
-<p><span style="color: #e8e6e6;">しつこい営業電話や延々とメールが送られてくることは一切ないです。</span></p>
-</div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_custom_1452583519382"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>2. 研修実施</h2></header><p>発注頂ける場合、すぐに研修実施へと移ることができます。学習者の環境チェックなどこちらのサポートチームで個別対応しますので安心です（無料）。</p>
-</div></div></div></section></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper"><section class="vc_cta3-container"><div class="vc_general vc_do_cta3 vc_cta3 vc_cta3-style-classic vc_cta3-shape-rounded vc_cta3-align-left vc_cta3-color-classic vc_cta3-icon-size-md vc_custom_1491212955787"><div class="vc_cta3_content-container"><div class="vc_cta3-content"><header class="vc_cta3-content-header"><h2>3．修了</h2></header><p>修了証、希望に応じて出席表、成果表などを提出させて頂きます。</p>
-<p>詳しい<a href="/corporation/online-group/report/">研修成果の見える化への取り組み</a>はこちら。</p>
-</div></div></div></section></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div>
-</div>
-</div>
+</section>
+
+<div data-include="corp-cta"></div>

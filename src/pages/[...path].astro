@@ -129,6 +129,17 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
 {props.kind === 'page' && template === 'course' && (
   <Base site={site} title={props.page.data.title} description={description} noindex={props.page.data.noindex}>
     <div class={kids ? 'lp kd course' : 'lp ad course'}>{courseHtml ? <Fragment set:html={courseHtml} /> : <Content />}</div>
+    {/* 法人の問い合わせ・動画作成ページなど、フォームのあるページはページの最後にフォームを出す（K 2026-10-29） */}
+    {/* 本文に <div data-form="…"></div> の目印があれば、フォームはその位置へ移る（Form.astro）。問い合わせページはフォームを上の方に置く */}
+    {formKeys.length > 0 && props.page.body?.includes('data-form=') && formKeys.map((k) => <Form formKey={k} />)}
+    {formKeys.length > 0 && !props.page.body?.includes('data-form=') && (
+      <section class="lp-form" id="form">
+        <div class="wrap">
+          <h2>{site.key === 'english_corporation' ? 'お問い合わせ・資料請求（法人専用）' : 'お申し込み'}</h2>
+          {formKeys.map((k) => <Form formKey={k} />)}
+        </div>
+      </section>
+    )}
   </Base>
 )}
 {props.kind === 'page' && !Landing && template !== 'course' && kids && (

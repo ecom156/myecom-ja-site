@@ -1,328 +1,145 @@
 ---
-title: "語学研修動画作成"
+title: "語学研修動画の制作"
 path: "/corporation/edtech/"
+description: "御社・御校専用の語学学習動画を制作します。YouTubeで登録者約3万人の語学チャンネルを運営するECOMが、企画から収録・納品まで担当。初期費用10万円＋動画1分2万円の明朗会計。大規模研修や反転学習、オールイングリッシュ授業の補助教材に。"
+template: "course"
 forms:
   - english_corporation-1
-slides: [{"image":"/english/corporation/wp-content/uploads/sites/3/2016/01/slider-youtubegamen-1659x500.jpg","title":"語学研修に動画学習を効果的に取れ入れる","text":"YouTubeで3万人の会員を集めた人気の動画を、御社用に作成いたします。","button":"問い合わせをする","link":"/corporation/edtech/#corp-form"}]
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;"><span style="color: #ff6600;">語学研修に、動画学習を効果的に取り入れませんか？</span></h2>
-<h3 style="text-align: center;">・小中高校のオールイングリッシュ授業の現場に、サブ教材として活用できます。</h3>
-<h3 style="text-align: center;">・オンラインレッスン研修と合わせて、反転学習にも使えます。</h3>
-<h2 style="text-align: center;">私たちはプロとして、そのお手伝いをいたします。</h2>
+<section class="lp-sec soft">
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/corporation/">法人研修</a> » 研修動画の制作</nav>
+<div class="lp-hero">
+<div>
+<p class="lp-eyebrow">語学研修動画の制作</p>
+<h1>語学研修に、<span class="nw">動画学習を取り入れる</span></h1>
+<p class="lp-lead">御社・御校のための学習動画を作り、イントラネットなどに置いて、いつでも見られるようにします。社員さまや生徒さんはスマホ・タブレット・パソコンからどこでも学べ、講師を用意するレッスンよりも安く、効率よく外国語の力を伸ばせます。</p>
+<ul class="lp-proof">
+<li>YouTube登録者<b>約3万人</b>のチャンネルを運営</li>
+<li>初期費用<b>10万円</b>＋動画1分<b>2万円</b></li>
+</ul>
+<div class="lp-btns">
+<a class="lp-btn" href="#form">制作の相談をする</a>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: left;">御社・御学校に特化した形の学習動画を、御社のイントラネットなどに置き、従業員がいつでも視聴できるようにすることで、個別レッスンを行うよりも安価に外国語対応力がアップできます。</p>
-<p style="text-align: left;">従業員（生徒）は、スマホや、タブレット、PCなどから、いつでもどこでも視聴ができ、利便性に大変優れています。また講師を用意してのレッスン研修よりも安価で効率的です。</p>
+<img src="/english/corporation/wp-content/uploads/sites/3/2016/01/breezi_placeit.png" alt="タブレットで見る語学学習動画" style="object-fit: contain;">
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" fetchpriority="high" decoding="async" width="640" height="426" src="/english/corporation/wp-content/uploads/sites/3/2016/01/breezi_placeit.png" class="vc_single_image-img attachment-full" alt="" title="breezi_placeit"></div>
-</figure>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2>こんな研修に向いています</h2>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-thumbs-o-up"></span></div></div><h4>利用のメリット</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="225" src="/english/corporation/wp-content/uploads/sites/3/2016/01/love-romance0-300x225.jpg" class="vc_single_image-img attachment-medium" alt="英語学習動画イメージ" title="英語学習動画イメージ"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">語学初心者への補強、効率化</h2>
-<p style="text-align: center;">いきなり外国人講師とのレッスン研修、またはオールイングリッシュクラスには尻込みしてしまう。そのような学習者のために、動画による研修を入れるのがお薦めです。</p>
-<p style="text-align: center;"><span style="color: #ff6600;">動画で学習して、自信をつけて正規のレッスンへ</span>。分からない時はなんども繰り返し動画でチェック。</p>
-<p style="text-align: center;">今話題の<strong>反転学習</strong>を取り入れた研修スタイルになります。</p>
+<div class="lp-cards">
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🌱</i><b>初心者の補強に</b><span>いきなり外国人講師とのレッスンやオールイングリッシュの授業では尻込みしてしまう方も、まず動画で学んで自信をつけてから、レッスンに進めます。分からないところは何度でも見直せます。オンラインレッスンと組み合わせた反転学習にも使えます。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">👥</i><b>大規模な研修に</b><span>大人数にオンラインレッスンを行う費用に比べ、動画学習を組み合わせると、効果を下げずに費用を抑えられます。企業・学校を問わず、500人以上の研修規模になる場合にご検討ください。</span></div>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🏫</i><b>学校の授業に</b><span>小・中・高校のオールイングリッシュ授業のサブ教材として使えます。授業でよく使う英語表現を前もって見ておけば、授業の理解度が上がります。</span></div>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="225" src="/english/corporation/wp-content/uploads/sites/3/2016/01/jjlr008-300x225.jpg" class="vc_single_image-img attachment-medium" alt="" title="jjlr008"></div>
-</figure>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<div class="lp-head">
+<h2>動画の例</h2>
+<p class="lp-sub">再生すると音が出ます。</p>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">大規模研修にフィット</h2>
-<p style="text-align: center;">大人数にオンラインレッスンを行わせる費用に比べて、動画による語学学習を組み合わせることで、効果を下げずに費用を抑えることが可能となります。</p>
-<p style="text-align: center;">企業、学校問わず、500人以上の研修規模になる場合、ご検討ください。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-file-video-o"></span></div></div><h4>提供動画イメージ例</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
-<div class="wpb_wrapper">
-<div class="wpb_video_wrapper"><iframe loading="lazy" title="Ecomオンライン英会話基本フレーズ表現1/40: Hello, how are you?" width="500" height="281" src="https://www.youtube.com/embed/x48yzcC79sQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div class="lp-cards">
+<div class="lp-card corp-video"><iframe src="https://www.youtube-nocookie.com/embed/x48yzcC79sQ" title="オンライン英会話 基本フレーズ表現40" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe><b>オンライン英会話 基本フレーズ表現40</b><span>オンライン英会話のレッスンでよく使うフレーズを40個集めました。3分30秒の動画×40本。小・中・高校のオールイングリッシュ授業でよく使う表現集も作れます。</span></div>
+<div class="lp-card corp-video"><iframe src="https://www.youtube-nocookie.com/embed/nsjdY761B_4" title="ビジネス英語イディオム50" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe><b>ビジネス英語イディオム50</b><span>ビジネスでよく使うフレーズ・イディオムを50個集めました。4分の動画×50本。御社の業界に特化した内容も作れます。</span></div>
+<div class="lp-card corp-video"><iframe src="https://www.youtube-nocookie.com/embed/tprF3gcAisM" title="週刊英語" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe><b>週刊英語</b><span>毎週1回、会員さま向けに英語学習の動画をお届けし、ご利用者さまのロイヤリティを高めます。4分の動画×48本。</span></div>
 </div>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">Clickすると音が出ます。</p>
+</section>
+
+<section class="lp-sec" id="price">
+<div class="lp-in">
+<div class="lp-head">
+<h2>制作費用</h2>
+<p class="lp-sub">すべて税抜の、明朗会計です。</p>
+</div>
+<div class="lp-cards">
+<div class="lp-plan"><p class="name">初期費用</p><p class="price">10万円</p><p class="lead">打ち合わせ1回（訪問）、内容選定のコンサルティング、たたき台の作成を含みます</p></div>
+<div class="lp-plan"><p class="name">動画</p><p class="price">2万円<small>/ 1分</small></p></div>
+<div class="lp-plan"><p class="name">教材</p><p class="price">5,000円<small>/ A4・1ページ</small></p></div>
+</div>
+<div class="lp-box"><b>費用の例</b>
+<ul>
+<li>3分の動画を50本：10万円（初期費用）＋6万円×50本＝<b>310万円</b></li>
+<li>1分未満の動画30本と、2分未満の動画20本：10万円（初期費用）＋60万円＋80万円＝<b>150万円</b></li>
+</ul>
+</div>
+<ul class="lp-sub">
+<li>各言語とも、メインの出演者は1人です。複数の出演者をご希望の場合は、下のオプションをお選びください。</li>
+<li>収録は、仮収録と本収録の最低2回行います。</li>
+<li>納品はご発注の1か月後（30日後）です。</li>
+<li>納品後1か月は保証期間です。大きな変更でなければ、この間は柔軟に修正します。</li>
+</ul>
+<h3>オプション料金（税抜）</h3>
+<div class="lp-table course-table">
+<table>
+<thead><tr><th>内容</th><th>料金</th></tr></thead>
+<tbody>
+<tr><th>臨時の訪問打ち合わせ（電話・ビデオ通話は無料）</th><td>1回2万円＋交通費の実費</td></tr>
+<tr><th>出演者を1人追加</th><td>20万円（手配・管理料・出演料）</td></tr>
+<tr><th>出演者の指定</th><td>ご相談</td></tr>
+<tr><th>字幕（タイムコード付きのSRTファイル）</th><td>動画制作費の35%</td></tr>
+<tr><th>外国語のSRTファイルも作る</th><td>1言語につき、動画制作費の10%</td></tr>
+<tr><th>発話の文字起こし（テキストファイル）</th><td>動画制作費の10%</td></tr>
+<tr><th>外国語字幕の情報（テキストファイル）</th><td>動画制作費の7%</td></tr>
+<tr><th>特急（ご契約から3週間以内に納品）</th><td>総費用×1.5倍</td></tr>
+<tr><th>超特急（ご契約から2週間以内に納品）</th><td>総費用×2倍</td></tr>
+<tr><th>ディスクでの納品（DVD／Blu-ray）</th><td>各3万円</td></tr>
+</tbody>
+</table>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>オンライン英会話基本フレーズ表現40</h3>
-<p>オンライン英会話レッスンでよく使われるフレーズを40個集めました。3分30秒の動画×40本納品。</p>
-<p>同様に、小学校、中学校、高校のオールイングリッシュ授業でよく使われる英語表現を集めたコンテンツなども作れます。それらをあらかじめ視聴学習してもらうことで、御校の生徒のオールイングリッシュ授業の理解度がより高まります。</p>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<h2>ECOMに頼むメリット</h2>
+<div class="lp-cards">
+<a class="lp-card" href="https://www.youtube.com/user/ecomenglish/"><i class="course-ico" aria-hidden="true">▶️</i><b>YouTubeでの実績</b><span>登録者約3万人の語学学習チャンネルを自社で運営し、見てもらえる学習動画のノウハウをためてきました。スマホでの学習も考えた、新しい学習動画を作ります。</span><i>チャンネルを見る →</i></a>
+<div class="lp-card"><i class="course-ico" aria-hidden="true">🌐</i><b>語学と異文化に特化</b><span>動画制作会社は数多くありますが、ECOMは語学と異文化の学習動画を専門にしています。当社の得意分野を、御社のビジネスにお役立てください。</span></div>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
-<div class="wpb_wrapper">
-<div class="wpb_video_wrapper"><iframe loading="lazy" title="Ecomビジネス英語表現1/50: Be on the right track" width="500" height="281" src="https://www.youtube.com/embed/nsjdY761B_4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<h2>こんな業種の方におすすめ</h2>
+<div class="lp-cards">
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-4.png" alt="" loading="lazy"><b>販売店の店員さま</b><span>外国人のお客さまとのやり取りなど、御社の商品に合わせた会話フレーズ集を作ります。</span></div>
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-1024x768.png" alt="" loading="lazy"><b>美容師さま</b><span>外国人のお客さまが多いお店向けに、決まったフレーズを動画で繰り返し見て覚えられます。</span></div>
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-15-1024x768.png" alt="" loading="lazy"><b>学校の現場</b><span>反転授業向けや、英語だけで教えるオールイングリッシュ授業を支えるコンテンツを作れます。</span></div>
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-27-1024x768.png" alt="" loading="lazy"><b>ホテルのフロント</b><span>外国人のお客さまとの基本のやり取りを身につける動画を、御社の状況に合わせて作ります。</span></div>
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-2.png" alt="" loading="lazy"><b>病院の方</b><span>外国人の患者さまとのやり取りを想定した動画を作ります。</span></div>
+<div class="lp-card"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-23-1024x768.png" alt="" loading="lazy"><b>そのほか</b><span>自社を英語で説明できるようにする動画や、社員の外国語のやる気を高める週刊の英語動画なども企画できます。まだ漠然としたお考えでも、お気軽にご相談ください。</span></div>
 </div>
 </div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">Clickすると音が出ます。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>ビジネス英語イディオム50</h3>
-<p>ビジネスシーンでよく使われるフレーズ、イディオムを50個集めてあります。</p>
-<p>御社業界ならではの特化型コンテンツも作れますのでご相談ください。</p>
-<p>4分の動画×50本納品。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_video_widget wpb_content_element vc_clearfix vc_video-aspect-ratio-169 vc_video-el-width-100 vc_video-align-left">
-<div class="wpb_wrapper">
-<div class="wpb_video_wrapper"><iframe loading="lazy" title="Ecom週刊英語通信:第1回、日本女子サッカーの勝利を英語で" width="500" height="281" src="https://www.youtube.com/embed/tprF3gcAisM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-</div>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;">Clickすると音が出ます。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h3>週刊英語</h3>
-<p>毎週1回、会員向けに英語学習に関する動画を提供。利用者のロイヤリティー向上に寄与します。</p>
-<p>4分の動画×48本納品</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon vc_li vc_li-banknote"></span></div></div><h4>作成費用</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;"><img loading="lazy" decoding="async" class="size-thumbnail wp-image-125 alignleft" src="/english/corporation/wp-content/uploads/sites/3/2015/12/price-150x150.png" alt="研修費用" width="150" height="150">基本、</p>
-<h2 style="text-align: center;"><span style="color: #ff6600;">初期費用10万円</span></h2>
-<h2 style="text-align: center;"><span style="color: #ff6600;">動画1分当たり、2万円</span></h2>
-<h2><span style="color: #ff6600;">教材は、A4、1ページ5,000円</span></h2>
-<p style="text-align: center;"><span style="color: #ff6600;">の明瞭会計</span></p>
-<p style="text-align: center;">例：研修用に、3分の動画を50個用意した場合、</p>
-<p style="text-align: center;">10万(初期費用)＋動画制作単価6万円×50本＝310万円（税抜き）となります。</p>
-</div>
-</div>
-<div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>・各言語毎、メイン出演者は1名を予定。複数人数出演を希望の場合、別途下記オプションを選択ください。</p>
-<p>・収録は、仮収録ー本、本収録と、最低2回実施します。</p>
-<p>・初期費用の中には、1回分の（訪問）打ち合わせ費用、内容選定コンサルティング、たたき台作成費用などが含まれています。</p>
-<p>・納品予定日は、発注後、1か月目（30日後）となります。</p>
-<p>・保証期間は、納品後1か月以内。大きな変更でなければ、この間、柔軟に修正対応いたします。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="wpb_vc_table wpb_content_element"><table class="vc-table-plugin-theme-simple_green"><tr class="vc-th"><td class="vc_table_cell"><span class="vc_table_content">○オプション料金</span></td><td class="vc_table_cell"><span class="vc_table_content"></span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">臨時の訪問打ち合わせ費：（電話やTV電話などは無料です。）</span></td><td class="vc_table_cell"><span class="vc_table_content">1回2万円＋実費交通費</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">出演者プラス1名毎</span></td><td class="vc_table_cell"><span class="vc_table_content">20万円(手配、管理料、出演料として)</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">出演者指定</span></td><td class="vc_table_cell"><span class="vc_table_content">応相談</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">字幕や文字起こし作成費</span></td><td class="vc_table_cell"><span class="vc_table_content"></span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">–タイムコードもきちんとつけ、SRTファイル形式で納品の場合：</span></td><td class="vc_table_cell"><span class="vc_table_content">動画制作費用の35%</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">-SRTファイルを外国語でも作成する場合：</span></td><td class="vc_table_cell"><span class="vc_table_content">1言語につき、動画製作費の10%</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">-発話情報を文字起こしして、テキストファイルでお渡しの場合：</span></td><td class="vc_table_cell"><span class="vc_table_content">動画制作費用の10%</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">-テキストファイルで外国語字幕情報を作成する場合：</span></td><td class="vc_table_cell"><span class="vc_table_content">動画製作費の7%</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">特急料金（契約後3週間以内納品）</span></td><td class="vc_table_cell"><span class="vc_table_content">総費用×1.5倍</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">超特急料金（契約後2週間以内納品）</span></td><td class="vc_table_cell"><span class="vc_table_content">総費用分×2倍</span></td></tr><tr><td class="vc_table_cell"><span class="vc_table_content">ディスク納品（DVD/ Blu-Ray）</span></td><td class="vc_table_cell"><span class="vc_table_content">各3万円</span></td></tr></table></div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>例：研修用に、1分未満の動画を30個、2分未満の動画を20個用意した場合、</p>
-<p>10万（初期費用）＋60万＋80万＝150万円（税抜き)</p>
-<p>これにオプションとして、「動画出演者を2人」「DVD納品」と「会話の文字情報書き出し」を付けた場合、</p>
-<p>20万＋10万＋14万 = 44万円</p>
-<p>合計：194万円（税抜き）となります。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-2"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-search"></span></div></div><h4>他社比較(Ecomに依頼するメリット)</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="126" src="/english/corporation/wp-content/uploads/sites/3/2016/01/yt-brand-standard-logo-630px-300x126.png" class="vc_single_image-img attachment-medium" alt="Youtube" title="Youtube"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">YouTubeで圧倒的人気実績</h2>
-<p style="text-align: center;">自社で3万人以上の視聴会員を集める<a href="https://www.youtube.com/user/ecomenglish/" target="_blank" rel="noopener">人気語学学習チャンネル</a>を運営しており、求められる動画のノウハウの蓄積があります。</p>
-<p style="text-align: center;">スマホ学習なども視野に入れた、新しい学習動画づくりなど、Ecomは他の語学動画の制作会社とは一線を画すクオリティを提供しています。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="145" height="145" src="/english/corporation/wp-content/uploads/sites/3/2015/12/character02.jpg" class="vc_single_image-img attachment-medium" alt="多言語" title="多言語"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">語学、異文化に特化</h2>
-<p style="text-align: center;">動画制作会社は数ありますが、語学、異文化に特化した学習動画制作会社はEcomだけです。</p>
-<p style="text-align: center;">是非、当社の得意領域を、御社のビジネスにご活用ください。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>このような業種の方にお薦め</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="400" height="300" src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-4.png" class="vc_single_image-img attachment-large" alt="" title="placeit (4)"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">販売店店員</h2>
-<p style="text-align: center;">外国人とのやり取りなど、御社商品に合わせた会話フレーズ集などを作成します。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1024" height="768" src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-1024x768.png" class="vc_single_image-img attachment-large" alt="" title="placeit"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">美容師</h2>
-<p style="text-align: center;">外国人が多い店向けに、動画による研修で、決まったフレーズを繰り返し見て覚えることができます。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1024" height="768" src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-15-1024x768.png" class="vc_single_image-img attachment-large" alt="" title="placeit (15)"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">学校現場へ</h2>
-<p style="text-align: center;">反転授業向けや、英語のみで指導するオールイングリッシュ教授のサポートコンテンツなど制作が可能です。気軽にご相談ください。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1024" height="768" src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-27-1024x768.png" class="vc_single_image-img attachment-large" alt="" title="placeit (27)"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">ホテルフロントデスク</h2>
-<p style="text-align: center;">外国人顧客との基本的なやり取りは最低限身につけられるような動画制作を、御社の状況を反映しながら作成いたします。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="400" height="300" src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-2.png" class="vc_single_image-img attachment-large" alt="" title="placeit (2)"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">病院関係の方</h2>
-<p style="text-align: center;">外国人利用者向けのやり取りを想定したビデオを作製します。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1024" height="768" src="/english/corporation/wp-content/uploads/sites/3/2016/01/placeit-23-1024x768.png" class="vc_single_image-img attachment-large" alt="" title="placeit (23)"></div>
-</figure>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2 style="text-align: center;">その他</h2>
-<p style="text-align: center;">自社を英語で説明できるようにしたり、社員の外国語モチベーションを上げる週刊英語動画なども企画できます。漠然とした構想がある場合、お気軽にご相談ください。</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-location-arrow"></span></div></div><h4>ご利用の流れ</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill"><div class="vc_column-inner vc_custom_1452837248448"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<ol>
-<li>
-<h2><span style="color: #999999;">まずは当校へご連絡</span></h2>
-<p><span style="color: #999999;">一緒に相談に乗りながら研修内容を詰めていきます。まずはフォームよりお問い合わせください。</span></p></li>
+</section>
+
+<section class="lp-sec soft">
+<div class="lp-in">
+<h2>ご利用の流れ</h2>
+<ol class="lp-steps course-num">
+<li><i aria-hidden="true">✉️</i><em>STEP 1</em><b>ご相談</b><span>このページの下のフォームからお問い合わせください。</span></li>
+<li><i aria-hidden="true">📝</i><em>STEP 2</em><b>内容を決める</b><span>「こんな感じで作りたい」「こんなことはできる？」などのご要望を制作シートにまとめ、内容のたたき台をExcelなどでお渡しします。ご契約後に仮収録を行い、雰囲気を確かめてから本収録に進みます。</span></li>
+<li><i aria-hidden="true">🎬</i><em>STEP 3</em><b>納品</b><span>ご希望の形式（MPG・WMVなど）で動画を納品します。</span></li>
 </ol>
 </div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill"><div class="vc_column-inner vc_custom_1452837302460"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2><span style="color: #999999;">2．内容を詰めていきます</span></h2>
-<p><span style="color: #999999;">一緒に相談に乗りながら研修内容を詰めていきます。</span></p>
-<p>こんな感じで作りたい、こんなことできますか？など、</p>
-<p>ご要望を、制作シートに落とし込み、希望にあった語学コンテンツのたたき台をエクセルなどでお渡しします。</p>
-<p>ご契約後、一度仮収録を行い、雰囲気を見て、問題がないことを確認した後、本収録へとすすみます。</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill"><div class="vc_column-inner vc_custom_1452837386838"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2>3．納品</h2>
-<p>ｍ２ｔ, mpg, wmv　お好きな形式で動画を納品させていただきます。</p>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<h2>提供実績</h2>
+<div class="lp-cards">
+<div class="lp-card corp-case"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/url-99x150.png" alt="アルク" loading="lazy"><span class="lp-tag">アルクさま</span><b>英語の動画コンテンツ 約200本</b><span>アルクオンライン英会話の学習者向けに提供しました。</span></div>
+<div class="lp-card corp-case"><img src="/english/corporation/wp-content/uploads/sites/3/2016/01/logo-searchina.png" alt="サーチナ" loading="lazy"><span class="lp-tag">サーチナさま</span><b>中国語の学習動画 50本</b><span>中国情報局へ提供しました。</span></div>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="1200" height="800" src="/english/corporation/wp-content/uploads/sites/3/2016/01/flip-teaching.jpg" class="vc_single_image-img attachment-full" alt="反転授業例" title="反転授業例"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><div class="vc_icon_element vc_icon_element-outer vc_do_icon vc_icon_element-align-left"><div class="vc_icon_element-inner vc_icon_element-color-blue vc_icon_element-size-md vc_icon_element-style- vc_icon_element-background-color-grey"><span class="vc_icon_element-icon fa fa-trophy"></span></div></div><h4>提供実績</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="99" height="150" src="/english/corporation/wp-content/uploads/sites/3/2016/01/url-99x150.png" class="vc_single_image-img attachment-thumbnail" alt="" title="url"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;"><strong>アルク様</strong></p>
-<p style="text-align: center;">アルクオンライン英会話学習者向けに英語ビデオコンテンツ200本ほど提供</p>
-</div>
-</div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="147" height="49" src="/english/corporation/wp-content/uploads/sites/3/2016/01/logo-searchina.png" class="vc_single_image-img attachment-thumbnail" alt="" title="logo-searchina"></div>
-</figure>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p style="text-align: center;"><strong>サーチナ様</strong></p>
-<p style="text-align: center;">中国情報局へ、中国語学習動画を50本提供</p>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_raw_code wpb_raw_html wpb_content_element">
-<div class="wpb_wrapper">
-<div id="corp-form"></div>
-</div>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_grey vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>お問い合わせ</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1452995660583 vc_row-has-fill"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div data-form="english_corporation-1"></div>
-</div></div></div></div>
-</div>
-</div>
+</section>
