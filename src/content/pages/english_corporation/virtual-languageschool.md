@@ -14,8 +14,8 @@ template: "course"
 <h1>御社の会議室を、<span class="nw">語学学校に</span></h1>
 <p class="lp-lead">講師が御社に伺う「講師派遣」と、会議室をオンラインレッスン専用の教室にする「企業内バーチャル語学学校」の2つの形があります。社員さま一人ひとりのパソコン環境を整えなくても、研修を始められます。</p>
 <div class="lp-btns">
-<a class="lp-btn navy" href="/corporation/documents/">資料をダウンロード</a>
-<a class="lp-btn" href="/corporation/contact/">無料相談・お見積り</a>
+<a class="lp-btn" href="/corporation/contact/">オンライン導入相談（無料）</a>
+<a href="/corporation/documents/">資料をダウンロード</a>
 </div>
 </div>
 <img src="/english/corporation/wp-content/uploads/sites/3/2016/01/virtual-classroom.jpg" alt="会議室の大きな画面でオンラインレッスンを受ける様子">

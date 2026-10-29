@@ -4,6 +4,7 @@ import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
 // 子供の英会話のトップ（/english/children/）。写真とアイコンを多めにした明るいデザイン（K 2026-10-24）
+// 親が選ぶ理由（体系的カリキュラム・担任制・日本語フィードバック）とフィリピン系との違い、コースは3つ（幼児・低学年／小中高・英会話／英検合格特化）、振替・家族シェア（K 2026-10-29）
 const base = '/english/children';
 const up = `${base}/wp-content/uploads/sites/2`;
 const trial = `${base}/trial/`;
@@ -14,10 +15,10 @@ const teachers = [
 ];
 const eiken = `${base}/courses/examinations/eiken`;
 const faq = [
-  { q: '何歳から受けられますか？', a: `3歳から受けられます。小さいお子さまは、保護者の方が隣で一緒に受ける<a href="${base}/courses/kids0">幼児親子コース</a>があります。` },
+  { q: '何歳から受けられますか？', a: `3歳から受けられます。小さいお子さまは、保護者の方が隣で一緒に受けられます（<a href="${base}/courses/kids">幼児・低学年コース</a>）。` },
   { q: '全くの初心者でもやっていけますか？', a: 'はい。英語力0のお子さまから、皆さん楽しく続けています。先生は日本語も分かるので安心です。カリキュラムが体系立っているので、やることが明確です。' },
   { q: 'どれくらい通えば、英語が話せるようになりますか？', a: '「話せる」の基準は人それぞれですが、目安として週1回なら1年、週2回なら半年ほどで、その子の年齢に合った英語のやり取りが見えてきます。授業で習った内容を音読して覚えれば、その英語はすぐに使えるようになります。' },
-  { q: '急に受けられなくなったときは？', a: 'レッスン開始の1時間前まで、予約システムから自由に変更できます。家族プランなら、兄弟姉妹や保護者の方が代わりに受けることもできます。' },
+  { q: '体調が悪くて受けられない日は？', a: 'レッスン開始の1時間前まで、予約サイトから別の日に振り替えられます。家族プランなら、兄弟姉妹や保護者の方が代わりに受けることもできます。' },
 ];
 ---
 <div class="lp kd">
@@ -38,7 +39,7 @@ const faq = [
             <li><b>96.5%</b>が満足して継続</li>
           </ul>
           <div class="lp-btns"><a class="lp-btn" href={trial}>{plans.trial.label}</a></div>
-          <p class="kd-entry"><a href="#eiken">英検®に合格したい →</a><a href="#age">話せるようになりたい（塾からの乗り換えも）→</a></p>
+          <p class="kd-entry"><a href="#eiken">英検®に合格したい →</a><a href="#courses">話せるようになりたい（塾からの乗り換えも）→</a></p>
         </div>
         <div class="kd-heroimg">
           <img src={`${up}/2024/08/online-lessons-kids-1312x816.jpg`} alt="ネイティブの先生とオンラインで英会話をする子供" width="1312" height="816" />
@@ -57,13 +58,43 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec kd-mint" id="reasons">
     <div class="lp-in">
-      <h2 class="kd-h" id="age"><i>🎯</i>年齢で選ぶ</h2>
+      <div class="lp-head">
+        <h2 class="kd-h"><i>💐</i>保護者の方が選ぶ、3つの理由</h2>
+        <p class="lp-sub">「おしゃべり」で終わらせず、毎週の積み重ねで、英語で考える力を育てます。</p>
+      </div>
       <div class="lp-cards">
-        <a class="lp-card kd-card c1" href={`${base}/courses/kids0`}><img src={`${up}/2015/01/oyakoeigo-300x200.jpg`} alt="保護者と一緒に英語を学ぶ幼児" loading="lazy" /><span class="kd-age">🐣 3歳〜6歳</span><b>幼児親子コース</b><span>歌・絵カード・ゲームで、英語の音に慣れます。保護者の方と一緒に受けられます。</span><i>くわしく →</i></a>
-        <a class="lp-card kd-card c2" href={`${base}/courses/kids`}><img src={`${up}/2017/07/kids-1024x791.jpg`} alt="英会話を楽しむ小学生" loading="lazy" /><span class="kd-age">🌱 小学校低学年</span><b>キッズ英会話</b><span>フォニックスと、音とイメージで覚える単語。楽しく英語の基礎をつくります。</span><i>くわしく →</i></a>
-        <a class="lp-card kd-card c3" href={`${base}/courses/junior`}><img src={`${up}/2018/03/English-girl-good-1024x683.jpg`} alt="オンラインで英語を学ぶ中高生" loading="lazy" /><span class="kd-age">🚀 小学校高学年・中学生・高校生</span><b>ジュニア英会話</b><span>英会話に加えて、英検®などの試験対策まで。</span><i>くわしく →</i></a>
+        <div class="lp-card kd-icon c3"><i>🔤</i><b>体系的なカリキュラム</b><span>フォニックスと音読を軸に、英語の音と文字を結びつけ、英語を英語のまま理解する「英語脳」を育てます。レッスンで習った文を家で音読して、使える英語にします。</span></div>
+        <div class="lp-card kd-icon c4"><i>🧑‍🏫</i><b>毎週同じ先生の「担任制」</b><span>毎回先生が変わるストレスがありません。お子さまの性格や得意・苦手を分かっている先生なので、人見知りのお子さまも安心して続けられます。</span></div>
+        <div class="lp-card kd-icon c2"><i>✍️</i><b>保護者の方へ日本語でフィードバック</b><span>毎回、レッスンの内容と、お子さまの進み具合・次の課題を日本語でお伝えします。先生も日本語が分かるので、気になることを直接相談できます。<a href={`${base}/cooperation`}>保護者の方の協力について</a></span></div>
+      </div>
+      <div class="lp-table kd-compare">
+        <table>
+          <caption>フィリピン系のオンライン英会話との違い</caption>
+          <thead><tr><th></th><th>ECOM</th><th>フィリピン系に多い例</th></tr></thead>
+          <tbody>
+            <tr><th>先生</th><td>日英バイリンガルのネイティブ講師。全員、日本語が分かる</td><td>フィリピン人講師が中心。日本語が分かる先生はまれ</td></tr>
+            <tr><th>担当の先生</th><td>毎週同じ先生（担任制）</td><td>予約のたびに先生が変わることが多い</td></tr>
+            <tr><th>レッスンの中身</th><td>フォニックスと音読を軸にした体系的なカリキュラム</td><td>フリートーク中心のことが多い</td></tr>
+            <tr><th>保護者への報告</th><td>毎回、日本語でフィードバック</td><td>英語だけ、または簡単な記録のことが多い</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="lp-note">フィリピン系の例は一般的な傾向で、スクールによって異なります。</p>
+    </div>
+  </section>
+
+  <section class="lp-sec" id="courses">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2 class="kd-h" id="age"><i>🎯</i>3つのコース</h2>
+        <p class="lp-sub">年齢と目的で選べます。マンツーマンなので、途中でコースを変えることもできます。<a href={`${base}/courses`}>コースをくわしく比べる</a></p>
+      </div>
+      <div class="lp-cards">
+        <a class="lp-card kd-card c1" href={`${base}/courses/kids`}><img src={`${up}/2017/07/kids-1024x791.jpg`} alt="英会話を楽しむ小さな子供" loading="lazy" /><span class="kd-age">🐣 3歳〜小学校低学年</span><b>幼児・低学年コース</b><span>英語を好きになるところから。フォニックスで英語の音に親しみ、英単語ゲームや歌で楽しく単語を覚えます。小さいお子さまは保護者の方と一緒に受けられます。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c2" href={`${base}/courses/junior`}><img src={`${up}/2018/03/English-girl-good-1024x683.jpg`} alt="オンラインで英語を話す中学生" loading="lazy" /><span class="kd-age">🚀 小学校高学年・中学生・高校生</span><b>小中高・英会話コース</b><span>学校で習う英語を、話せる英語に。教科書で習う文法や表現を、会話の中で使って身につけ、スピーキングの力を伸ばします。</span><i>くわしく →</i></a>
+        <a class="lp-card kd-card c3" href={eiken}><img src={`${up}/2017/03/student-happy-pass-1024x820.jpg`} alt="英検®に合格して喜ぶ生徒" loading="lazy" /><span class="kd-age">🏅 5級〜1級</span><b>英検®合格特化コース</b><span>過去問の解き方、ライティングの添削、本番と同じ流れの面接練習まで。ECOMの生徒の英検®一発合格率は9割を超えます。</span><i>くわしく →</i></a>
       </div>
     </div>
   </section>
@@ -73,13 +104,16 @@ const faq = [
       <div class="lp-sechead">
         <img src={`${up}/2017/03/student-happy-pass-1024x820.jpg`} alt="英検®に合格して喜ぶ生徒" loading="lazy" />
         <div class="lp-head">
-          <h2 class="kd-h" id="eiken"><i>🏅</i>英検®対策</h2>
-          <p class="lp-sub">英検®に強い学校なので、小学生で3級、中学生で準1級まで取るお子さまが多くいます。受けたい級と試験日から、必要な回数と期間を先生が提案します。</p>
+          <h2 class="kd-h" id="eiken"><i>🏅</i>英検®合格特化コース</h2>
+          <p class="lp-sub">英検®に強い学校なので、<strong class="kd-em">小学生で3級、中学生で準1級まで取るお子さまが多くいます。</strong>受けたい級と試験日から、必要な回数と期間を事務局が提案します。</p>
         </div>
       </div>
       <div class="lp-cards">
+        <a class="lp-card kd-level" href={`${eiken}/fifth`}><i>🐣</i><b>5級</b><span>はじめての英検®に</span></a>
+        <a class="lp-card kd-level" href={`${eiken}/fourth`}><i>🌷</i><b>4級</b><span>3級へのステップ</span></a>
         <a class="lp-card kd-level" href={`${eiken}/third`}><i>🥉</i><b>3級</b><span>小学生のうちに目指したい級</span></a>
         <a class="lp-card kd-level" href={`${eiken}/presecond`}><i>🥈</i><b>準2級</b><span>中学生の目標に</span></a>
+        <a class="lp-card kd-level" href={`${eiken}/presecondplus`}><i>✨</i><b>準2級プラス</b><span>準2級と2級の間の新しい級</span></a>
         <a class="lp-card kd-level" href={`${eiken}/second`}><i>🥇</i><b>2級</b><span>高校卒業程度。受験にも有利</span></a>
         <a class="lp-card kd-level" href={`${eiken}/prefirst`}><i>🏆</i><b>準1級・1級</b><span>帰国子女や上級者向け</span></a>
       </div>
@@ -87,32 +121,13 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec">
-    <div class="lp-in">
-      <div class="lp-sechead">
-        <img src={`${up}/2024/08/pixta_10175579_S.jpg`} alt="グループで英語を学ぶ子供たち" loading="lazy" />
-        <div class="lp-head">
-          <p class="kd-pill small">✨ 開講予定</p>
-          <h2 class="kd-h"><i>👫</i>少人数のグループクラス</h2>
-          <p class="lp-sub">同じ目標の仲間と一緒に。マンツーマンより手ごろな料金で続けられます。</p>
-        </div>
-      </div>
-      <div class="lp-cards">
-        <div class="lp-card kd-icon c1"><i>🔤</i><b>英単語クラス</b><span>級や学年ごとの基本英単語を、フラッシュカードとゲームで集中して覚えます。</span></div>
-        <div class="lp-card kd-icon c2"><i>📝</i><b>英検®対策グループ</b><span>試験日に向けて、級ごとに過去問と面接の練習をします。</span></div>
-        <a class="lp-card kd-icon c3" href={`${base}/summer-online-classes`}><i>🏖️</i><b>長期休みの集中クラス</b><span>夏休み・冬休み・春休みの短期集中プラン。</span><i class="more">くわしく →</i></a>
-      </div>
-      <p class="lp-sub">開講のお知らせをご希望の方は、<a href={`${base}/contact`}>お問い合わせ</a>からお知らせください。</p>
-    </div>
-  </section>
-
   <section class="lp-sec kd-mint">
     <div class="lp-in">
-      <h2 class="kd-h"><i>💐</i>保護者の方に安心していただくために</h2>
+      <h2 class="kd-h"><i>🌈</i>習い事として続けやすい仕組み</h2>
       <div class="lp-cards">
-        <div class="lp-card kd-icon c4"><i>📅</i><b>曜日固定の担任制</b><span>お子さまに合う先生を担任に決めて、曜日と時間を固定して予約できます。習い事のリズムがつかめます。</span></div>
-        <div class="lp-card kd-icon c2"><i>✍️</i><b>毎回のフィードバック</b><span>30分のうち5分は、先生がフィードバックを書く時間。習ったことと次の課題が分かります。</span></div>
-        <div class="lp-card kd-icon c3"><i>💬</i><b>先生と日本語で話せる</b><span>先生は日本語も分かるので、お子さまの成長や課題を、その場で直接共有できます。<a href={`${base}/cooperation`}>保護者の方の協力について</a></span></div>
+        <div class="lp-card kd-icon c1"><i>🤒</i><b>体調不良のときは振替OK</b><span>レッスン開始の1時間前まで、予約サイトから別の日に振り替えられます。</span></div>
+        <div class="lp-card kd-icon c3"><i>👨‍👩‍👧</i><b>家族でシェアOK</b><span>1つの月額プランを兄弟姉妹で共有できます。受けられない日に、兄弟や保護者の方が代わりに受けることもできます。</span></div>
+        <div class="lp-card kd-icon c4"><i>📅</i><b>曜日と時間を固定</b><span>担任の先生と、曜日と時間を決めて予約できます。習い事のリズムがつかめます。</span></div>
       </div>
     </div>
   </section>
@@ -150,7 +165,6 @@ const faq = [
         <li class="c2"><i>🤝</i><em>STEP 2</em><b>先生と相性を確かめる</b><span>先生がお子さまのレベルを確かめ、目標と回数を一緒に考えます。</span></li>
         <li class="c3"><i>🚀</i><em>STEP 3</em><b>担任とスタート</b><span>月額プランを選んで、担任の先生と始めます。</span></li>
       </ol>
-      <p class="lp-sub"><a href={`${base}/flow`}>利用の流れを詳しく</a></p>
     </div>
   </section>
 
@@ -184,6 +198,25 @@ const faq = [
         <a class="lp-btn" href={trial}>体験レッスンを予約する</a>
       </div>
       <p class="lp-sub">もっと知りたい方へ：<a href={`${base}/points`}>子供向けオンライン英会話選びで失敗しない5つのポイント</a>　・　<a href={`${base}/initial-memory`}>音読暗記を助ける「頭出し記憶法」</a>　・　<a href={`${base}/videos`}>無料の学習動画</a></p>
+    </div>
+  </section>
+
+  <section class="lp-sec">
+    <div class="lp-in">
+      <div class="lp-sechead">
+        <img src={`${up}/2024/08/pixta_10175579_S.jpg`} alt="グループで英語を学ぶ子供たち" loading="lazy" />
+        <div class="lp-head">
+          <p class="kd-pill small">✨ 開講予定</p>
+          <h2 class="kd-h"><i>👫</i>少人数のグループクラス</h2>
+          <p class="lp-sub">同じ目標の仲間と一緒に。マンツーマンより手ごろな料金で続けられます。</p>
+        </div>
+      </div>
+      <div class="lp-cards">
+        <div class="lp-card kd-icon c1"><i>🔤</i><b>英単語クラス</b><span>級や学年ごとの基本英単語を、フラッシュカードとゲームで集中して覚えます。</span></div>
+        <div class="lp-card kd-icon c2"><i>📝</i><b>英検®対策グループ</b><span>試験日に向けて、級ごとに過去問と面接の練習をします。</span></div>
+        <a class="lp-card kd-icon c3" href={`${base}/summer-online-classes`}><i>🏖️</i><b>長期休みの集中クラス</b><span>夏休み・冬休み・春休みの短期集中プラン。</span><i class="more">くわしく →</i></a>
+      </div>
+      <p class="lp-sub">開講のお知らせをご希望の方は、<a href={`${base}/contact`}>お問い合わせ</a>からお知らせください。</p>
     </div>
   </section>
 </div>

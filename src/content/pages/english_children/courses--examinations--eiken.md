@@ -1,5 +1,5 @@
 ---
-title: "英検®対策"
+title: "英検®合格特化コース"
 path: "/english/children/courses/examinations/eiken"
 description: "子供の英検®対策。5級・4級・3級・準2級・準2級プラス・2級・準1級・1級の8つの級に対応し、ECOMの生徒の英検一発合格率は9割を超えます。日英バイリンガルのネイティブ講師がマンツーマンで、過去問の解き方、ライティングの課題と添削、本番と同じ流れの面接練習まで指導し、毎回のレッスン内容を保護者の方へレポートでお知らせします。"
 template: "course"
@@ -10,10 +10,10 @@ template: "course"
 <span class="kd-float f2" aria-hidden="true">✏️</span>
 <span class="kd-float f4" aria-hidden="true">🏅</span>
 <div class="lp-in">
-<nav class="breadcrumb course-crumb"><a href="/english/children/">🏠 子供のオンライン英会話</a> » 英検®対策</nav>
+<nav class="breadcrumb course-crumb"><a href="/english/children/">🏠 子供のオンライン英会話</a> » 英検®合格特化コース</nav>
 <div class="course-hero">
 <div>
-<p class="kd-pill">🏅 子供の英検®対策</p>
+<p class="kd-pill">🏅 英検®合格特化コース（5級〜1級）</p>
 <h1>英検®の一発合格を、<br><span class="nw">うちの子のペースで、先生と。</span></h1>
 <p class="lp-lead">英検対策は、ECOMがいちばん得意とする分野です。日英バイリンガルのネイティブの先生がマンツーマンで、過去問の解き方からライティングの添削、面接の練習まで指導します。小学生で3級、中学生で準1級まで取るお子さまも多くいます。</p>
 <ul class="lp-proof">
