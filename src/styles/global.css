@@ -1052,3 +1052,7 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .pr-small { display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--sub); border-top: 1px solid var(--edge); border-bottom: 1px solid var(--edge); padding: 14px 0; }
 .pr-small p { margin: 0; }
 .pr-kids .pr-family > b { font-size: 22px; }
+/* 子供の体験ページ：採用率0.5%のカードに先生の顔写真だけ（K 2026-10-29） */
+.kd-faces-mini { list-style: none; margin: 8px 0 0; padding: 0; display: flex; gap: 8px; }
+.kd-faces-mini li { flex: none; }
+.kd-faces-mini img { width: 72px !important; height: 72px !important; max-height: none !important; aspect-ratio: 1; object-fit: cover; border-radius: 50%; border: 3px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.12); display: block; }
