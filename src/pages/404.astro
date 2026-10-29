@@ -26,18 +26,67 @@ import plans from '../data/plans.json';
     </ul>
   </div>
   <script is:inline>
-    // 末尾のスラッグが同じページが同じサイト内に一つだけあれば、そこへ移動する（旧 WordPress の動き）
+    // 見つからない URL を、移った先へ移動する（旧 WordPress の動き）
     (async () => {
-      const parts = decodeURI(location.pathname).replace(/\/$/, '').split('/');
-      const slug = parts.pop();
+      // 旧 WordPress の長いスラッグは途中で切れていて、%e3 のような文字の途中で終わることがある。読める所まで戻して読む
+      const decode = (s) => {
+        for (let i = 0; i < 12 && s; i++) {
+          try { return decodeURI(s); } catch { s = s.slice(0, -1); }
+        }
+        return '';
+      };
+      const go = (to) => { if (to && to !== location.pathname) location.replace(to); };
+      const raw = decode(location.pathname);
+      // 法人・学校は /english/ の下から移した（K 2026-10-26）。旧URLも移した先で探す
+      const path = raw.replace(/^\/english\/(corporation|schools)\//, '/$1/');
+      const slug = path.replace(/\/$/, '').split('/').pop();
       if (!slug) return;
       const index = await (await fetch('/slug-index.json')).json();
-      // 法人・学校は /english/ の下から移した（K 2026-10-26）。旧URLも移した先で探す
-      const path = location.pathname.replace(/^\/english\/(corporation|schools)\//, '/$1/');
       const bases = ['/english/children/', '/schools/', '/english/news/', '/corporation/', '/english/onki/', '/english/', '/monki/', '/russian/'];
       const base = bases.find((b) => path.startsWith(b)) ?? '/';
-      const hits = (index[slug] ?? []).filter((p) => p.startsWith(base) && (base !== '/' || !bases.some((b) => p.startsWith(b))));
-      if (hits.length === 1) location.replace(hits[0]);
+      const inSite = (p) => p.startsWith(base) && (base !== '/' || !bases.some((b) => p.startsWith(b)));
+      // 1. 末尾のスラッグが同じページが同じサイト内に一つだけあれば、そこへ
+      const hits = (index[slug] ?? []).filter(inSite);
+      if (hits.length === 1) return go(hits[0]);
+      // 2. ブログ記事は投稿し直しでスラッグが変わったものがある（2026-10-29、GA の 404 一覧）。
+      //    旧スラッグが途中で切れていて、その続きの記事が一つだけならそこへ。
+      //    無ければ、2文字ずつの重なりでいちばん似た記事が、十分に似ていて（0.75以上）2番目と差があるときだけそこへ
+      if (path.startsWith('/blog/') && !path.startsWith('/blog/category/') && slug.length >= 10) {
+        const posts = Object.entries(index).map(([k, list]) => [k, list.filter((p) => p.startsWith('/blog/'))]).filter(([, list]) => list.length === 1);
+        const longer = posts.filter(([k]) => k.startsWith(slug));
+        if (longer.length === 1) return go(longer[0][1][0]);
+        const grams = (t) => {
+          t = t.toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
+          const m = new Map();
+          for (let i = 0; i < t.length - 1; i++) m.set(t.slice(i, i + 2), (m.get(t.slice(i, i + 2)) ?? 0) + 1);
+          return m;
+        };
+        const size = (m) => [...m.values()].reduce((x, y) => x + y, 0);
+        const g = grams(slug);
+        const score = (k) => {
+          const h = grams(k);
+          let n = 0;
+          for (const [x, v] of g) n += Math.min(v, h.get(x) ?? 0);
+          return (2 * n) / (size(g) + size(h) || 1);
+        };
+        const ranked = posts.map(([k, list]) => [score(k), list[0]]).sort((x, y) => y[0] - x[0]);
+        // 前編を探している人を後編へ送らない
+        const part = (t) => t.match(/前編|後編/)?.[0];
+        const best = ranked[0];
+        if (ranked.length > 1 && best[0] >= 0.75 && best[0] - ranked[1][0] >= 0.1 && (!part(slug) || part(slug) === part(best[1]))) return go(best[1]);
+      }
+      // 塾代助成の旧記事は、大阪市塾代助成のページへ
+      if (path.includes('塾代')) return go('/english/children/osaka-jukudai-josei');
+      // 3. 旧サイトの言語別ブログ・動画の一覧（/german/blog/category/… など）は、その言語のページへ
+      const lang = path.match(/^\/(german|french|spanish|arabic|chinese|russian|italian|portuguese|korean)\/(blog|videos)(\/|$)/);
+      if (lang) return go(`/${lang[1]}/`);
+      const cat = path.match(/^\/blog\/category\/.*?(german|french|spanish|arabic|chinese|russian|italian|portuguese|korean|english)/);
+      if (cat) return go(`/blog/category/${cat[1]}/`);
+      // 4. 旧サイトの一覧の2ページ目以降・投稿者別の一覧は、その一覧の先頭やブログへ
+      if (/\/page\/\d+\/?$/.test(path)) return go(path.replace(/page\/\d+\/?$/, ''));
+      if (path.startsWith('/english/children/blog/')) return go('/english/children/blog/');
+      if (/^\/schools\/author\//.test(path)) return go('/schools/');
+      if (path.startsWith('/modules/')) return go('/');
     })();
   </script>
 </Base>

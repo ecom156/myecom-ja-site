@@ -235,6 +235,13 @@
 /english/children/courses/kids0 /english/children/courses/kids 301
 /english/children/courses/kids0/ /english/children/courses/kids 301
 
+# GA の 404 一覧（2026-10-29）：旧サイトの動画一覧・旧XOOPSのトップ・中高生コース
+/german/videos/ /german/ 301
+/french/videos/ /french/ 301
+/spanish/videos/ /spanish/ 301
+/arabic/videos/ /arabic/ 301
+/modules/home/ / 301
+/english/courses/teen/ /english/children/courses/junior/ 301
 # ワイルドカード（*）の転送は必ずこの下にまとめる。Cloudflare は最初の * より後の行をすべて「動的ルール」と数え、上限100を超えると公開に失敗する（2026-10-25）
 /wp-admin/* / 301
 /blog/author/* /blog/ 301
