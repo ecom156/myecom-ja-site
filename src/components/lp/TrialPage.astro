@@ -13,6 +13,12 @@ const facts = [
   { icon: '⏱️', title: '30分×2回', text: '60分1回にまとめてもOK' },
   kids ? { icon: '🎒', title: '3歳〜17歳', text: '英会話・英検®対策' } : { icon: '🌏', title: '20言語', text: '英語・中国語・フランス語など' },
 ];
+// 体験で分かる3つのこと。子供の体験ページと同じ構成を、大人向けの文にした（K 2026-10-29）
+const learn = [
+  { icon: '🤝', title: '先生との相性', text: '体験用の先生ではなく、入会後も続けられる先生とのレッスン。話しやすさや教え方が合うか、ご自身で確かめられます。' },
+  { icon: '📊', title: '授業内容', text: 'レッスン後、授業内容をまとめたレポートが、日本語でメール送信されます。復習にもそのまま使えます。' },
+  { icon: '🏅', title: '学習プラン', text: 'TOEIC®や英検®、仕事や旅行など、目標までに必要な回数や期間を、事務局・先生がご提案します。' },
+];
 const teachers = [
   { img: '/english/img/teachers/jessica.jpg', name: 'Jessica' },
   { img: '/english/img/teachers/alan.jpg', name: 'Alan' },
@@ -62,7 +68,7 @@ const faq = [
           <p class="lp-eyebrow">{kids ? '子供の体験レッスン（3歳〜17歳）' : '体験レッスン（大人・20言語）'}</p>
           {kids
             ? <h1>うちの子を分かってくれる<br /><span class="nw">先生か、体験で確かめる。</span></h1>
-            : <h1>百聞は一見に如かず<br /><span class="nw">実際のサービスを体験</span></h1>}
+            : <h1>実際のECOMサービスを体験</h1>}
           <p class="lp-lead">{kids ? '入会後と同じプロ講師と、30分のマンツーマンレッスンを2回。お子さまと先生の相性と、上達の手応えを確かめてください。' : '30分のマンツーマンレッスンを2回。先生との相性と、上達の手応えを確かめてください。'}</p>
           <ul class="tr-facts">
             {facts.map((f) => <li><i aria-hidden="true">{f.icon}</i><b>{f.title}</b><span>{f.text}</span></li>)}
@@ -79,6 +85,17 @@ const faq = [
       </div>
     </div>
   </section>
+
+  {!kids && (
+    <section class="lp-sec soft">
+      <div class="lp-in">
+        <h2>体験で分かる、3つのこと</h2>
+        <div class="lp-cards">
+          {learn.map((l) => <div class="lp-card ad-feat"><i aria-hidden="true">{l.icon}</i><b>{l.title}</b><span>{l.text}</span></div>)}
+        </div>
+      </div>
+    </section>
+  )}
 
   <section class="lp-sec" id="why">
     <div class="lp-in">
