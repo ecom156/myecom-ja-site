@@ -12,7 +12,6 @@ const p = languagePages[path];
 const meta = (languages as Record<string, { name: string; exams: string; blog?: string }>)[path];
 const [m2, , m4, m8] = plans.monthly;
 const others = Object.entries(languagePages).filter(([k]) => k !== path);
-const ai = path !== '/arabic/';
 const faq = p ? [
   { q: `まったく初めてでも、${p.name}を学べますか？`, a: `はい。講師は全員、日本語が分かるので、文法や分からないところは日本語で説明します。${p.courses[0].name}で、基礎から順に進めます。` },
   { q: '料金はいくらですか？', a: `英語と同じ料金で、${plans.unit}です。月2回${m2.price}・月4回${m4.price}・月8回${m8.price}（税込）の月額プランのほか、チケット制もあります。<a href="/price/">料金を詳しく見る</a>` },
@@ -58,7 +57,7 @@ const faqLd = JSON.stringify({
         <div class="lp-head"><h2>{p.name}の講師</h2></div>
         <ul class="lg-points">{p.teachers.map((t) => <li>{t}</li>)}</ul>
         <p><a href={p.teachersLink ?? '/teachers/'}>講師について詳しく見る</a></p>
-        {ai && <div class="lp-box"><b>レッスンのない日は、AIと{p.name}で会話の練習</b><span>担任の先生とのレッスンに加えて、AI講師と{p.name}で話す練習ができます。間違えても恥ずかしくないので、初めての方も気軽に声に出せます。</span></div>}
+        <div class="lp-box"><b>レッスンのない日は、AIと{p.name}で会話の練習</b><span>担任の先生とのレッスンに加えて、AI講師と{p.name}で話す練習ができます。間違えても恥ずかしくないので、初めての方も気軽に声に出せます。</span></div>
       </div>
     </section>
 
