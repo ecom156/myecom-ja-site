@@ -780,6 +780,17 @@
     "button": "送信",
     "fields": [
       {
+        "name": "f6",
+        "label": "ご希望の内容",
+        "type": "radio",
+        "required": true,
+        "choices": [
+          "オンライン導入相談（Google Meet・Teams）",
+          "見積書・資料がほしい",
+          "その他のお問い合わせ"
+        ]
+      },
+      {
         "name": "f1",
         "label": "会社名とご担当者名",
         "type": "text",
@@ -803,6 +814,13 @@
         "type": "textarea",
         "required": true,
         "description": "利用予定人数も、分かる範囲で書いて頂けると助かります。"
+      },
+      {
+        "name": "f7",
+        "label": "導入相談のご希望日時",
+        "type": "text",
+        "required": false,
+        "description": "候補を2〜3つお書きください（平日・時間帯など）。"
       },
       {
         "name": "f5",

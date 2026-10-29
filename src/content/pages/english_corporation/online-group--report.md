@@ -23,7 +23,7 @@ template: "course"
 <div class="lp-card corp-doc"><i class="course-ico" aria-hidden="true">📈</i><b>レベルチェック</b><span>研修の初めと半年ごとに、0〜10++の33段階でレベルを判定し、伸びをお出しします（無料）。</span><img src="/english/corporation/wp-content/uploads/sites/3/2017/04/level-houjin2.gif" alt="レベルチェックの報告の見本" loading="lazy"></div>
 <div class="lp-card corp-doc"><i class="course-ico" aria-hidden="true">🎓</i><b>修了証など</b><span>ご希望に合わせた内容を入れて、無料で発行します。</span><img src="/english/corporation/wp-content/uploads/sites/3/2017/04/ad154472a2febe4a2b73c4435a14c7eb.gif" alt="修了証の見本" loading="lazy"></div>
 </div>
-<div class="lp-box"><b>人事部専用のアカウント</b><span>報告書のほかに、人事部さま専用のアカウントで、受講状況をいつでも確認できます。</span></div>
+<div class="lp-box"><b>人事担当者向けのダッシュボード</b><span>報告書を待たなくても、出席率や習熟度テストの結果を、ダッシュボードでいつでも確認できます。受講が止まっている社員にも、すぐ気づけます。</span></div>
 <p class="lp-note"><a href="/english/level/">33段階のレベル早見表</a>　・　<a href="/corporation/online-group/price/">目標レベルまでの時間と費用</a>　・　<a href="/corporation/online-group/examples/">研修実績例</a></p>
 </div>
 </section>

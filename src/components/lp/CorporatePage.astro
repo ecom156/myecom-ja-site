@@ -3,6 +3,7 @@ import Faq from './Faq.astro';
 import plans from '../../data/plans.json';
 
 // 法人研修のトップ（/corporation/）。研修の進め方は「成果を測る」「楽しく続ける」の2択、AIはオプション（K 2026-10-24）
+// 選ばれる理由は「手厚い進捗管理」「業務特化カスタマイズ」「柔軟な契約形態」の3つ。申込みは資料請求より「オンライン導入相談」へつなぐ（K 2026-10-29）
 const base = '/corporation';
 const contact = `${base}/contact/`;
 const docs = `${base}/documents/`;
@@ -12,7 +13,9 @@ const faq = [
   { q: '英語以外の言語でも研修できますか？', a: '中国語・韓国語・フランス語・ドイツ語・スペイン語など、20言語で研修できます。' },
   { q: 'AI講師を使わなくてもいいですか？', a: 'はい。AI講師はオプションです。講師とのレッスンだけで研修できます。' },
   { q: '社内のセキュリティで使えるツールが限られています。', a: 'Microsoft Teams・Google Meetなど、使い慣れたツールで受講できます。独自のソフトを入れる必要はありません。' },
-  { q: '受講状況は確認できますか？', a: '人事部専用のアカウントで、受講状況をいつでも確認できます。修了証や、ご希望に応じて出席表・成果表もお出しします。' },
+  { q: '受講状況は確認できますか？', a: '人事担当者向けのダッシュボードで、出席率や習熟度テストの結果をいつでも確認できます。修了証や、ご希望に応じて出席表・成果表もお出しします。' },
+  { q: '請求書払いはできますか？', a: 'はい。請求書払い（後払い）に対応しています。受講枠は社員間でシェアできるので、受講者が入れ替わっても無駄が出ません。' },
+  { q: '導入相談は、どのように行いますか？', a: 'Google Meet・Teamsを使ったオンラインで行います。目的・人数・ご予算を伺い、研修プランとお見積りをご提案します。<a href="/corporation/contact/">オンライン導入相談を申し込む</a>' },
 ];
 ---
 <div class="lp">
@@ -30,9 +33,10 @@ const faq = [
             <li><b>AI講師</b>にも対応</li>
           </ul>
           <div class="lp-btns">
-            <a class="lp-btn navy" href={docs}>資料をダウンロード</a>
-            <a class="lp-btn" href={contact}>無料相談・お見積り</a>
+            <a class="lp-btn" href={contact}>オンライン導入相談（無料）</a>
+            <a href={docs}>資料をダウンロード</a>
           </div>
+          <p class="lp-note">Google Meet・Teamsで、ご担当者さまと画面を見ながらご相談します。</p>
         </div>
         <img src="/english/corporation/wp-content/uploads/sites/3/2024/09/group-lessons00-middle.jpg" alt="オンラインのグループ英語研修" />
       </div>
@@ -50,7 +54,21 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec" id="reasons">
+    <div class="lp-in">
+      <div class="lp-head">
+        <h2>法人がECOMを選ぶ、3つの理由</h2>
+        <p class="lp-sub">研修を「やりっぱなし」にしない仕組みと、御社の仕事に合わせた中身、続けやすい契約の形です。</p>
+      </div>
+      <div class="lp-cards corp-reasons">
+        <div class="lp-card"><span class="corp-ico" aria-hidden="true">📊</span><span class="lp-tag">手厚い進捗管理</span><b>人事担当者向けの<span class="nw">ダッシュボード</span></b><span>出席率や習熟度テストの結果を、ひと目で分かる形で確認できます。受講が止まっている社員にも、すぐ気づけます。</span><ul><li>出席率・受講状況</li><li>習熟度テスト（33段階のレベル判定）の結果</li><li>修了証・出席表・成果表もお出しします</li></ul><a href={`${base}/online-group/report/`}>成果の報告について</a></div>
+        <div class="lp-card"><span class="corp-ico teal" aria-hidden="true">🛠️</span><span class="lp-tag teal">業務特化カスタマイズ</span><b>業種・職種に合わせた<span class="nw">カリキュラム</span></b><span>自社で教材を作っているので、御社の仕事で使う場面に合わせて内容を組み立てます。</span><ul><li>英語でのプレゼンテーション</li><li>英文メール・会議</li><li>海外赴任前の研修</li></ul><a href={`${base}/online-group/examples/`}>研修実績例</a></div>
+        <div class="lp-card"><span class="corp-ico" aria-hidden="true">🤝</span><span class="lp-tag">柔軟な契約形態</span><b>請求書払いと、<span class="nw">受講枠のシェア</span></b><span>経理の手間が少なく、受講する社員が入れ替わっても無駄が出ない契約です。</span><ul><li>請求書払い（後払い）に対応</li><li>受講枠を社員間でシェアできる</li><li>1人から申し込める</li></ul><a href={`${base}/online-group/price/`}>料金と契約</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lp-sec soft">
     <div class="lp-in">
       <div class="lp-head">
         <h2>目的に合わせて選べる、2つの研修</h2>
@@ -72,7 +90,7 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec">
     <div class="lp-in">
       <h2>研修の形</h2>
       <div class="lp-cards">
@@ -85,19 +103,19 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec soft">
     <div class="lp-in">
       <h2>研修の流れ</h2>
       <ol class="lp-steps">
-        <li><em>1</em><b>ご相談</b><span>フォームからお問い合わせください。しつこい営業電話や、延々と続くメールは一切ありません。</span></li>
+        <li><em>1</em><b>オンライン導入相談</b><span>フォームから日程をご相談ください。Google Meet・Teamsで、目的・人数・ご予算を伺います。しつこい営業電話や、延々と続くメールは一切ありません。</span></li>
         <li><em>2</em><b>研修の設計</b><span>目的・期間・人数から、時間と費用をお見積りします。成果を測る研修では、最初にレベルを測ります。</span></li>
         <li><em>3</em><b>受講</b><span>担任講師がオンラインで研修します。受講者の環境チェックは、サポートチームが無料で個別に対応します。</span></li>
-        <li><em>4</em><b>報告・修了</b><span>修了証と、ご希望に応じて出席表・成果表をお出しします。</span></li>
+        <li><em>4</em><b>報告・修了</b><span>出席率や習熟度テストの結果は、ダッシュボードでいつでも確認できます。修了証と、ご希望に応じて出席表・成果表もお出しします。</span></li>
       </ol>
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec">
     <div class="lp-in">
       <div class="lp-head">
         <h2>費用の目安</h2>
@@ -118,23 +136,22 @@ const faq = [
         </table>
         <p class="lp-note">グループの1時間は、50分のレッスンと、講師がフィードバックを書く10分です。</p>
       </div>
-      <p class="lp-note">法人入会金{entryFee}（税抜）。有効期限は受講開始から1年。<a href={`${base}/online-group/price/`}>料金と事例を詳しく見る</a></p>
+      <p class="lp-note">法人入会金{entryFee}（税抜）。有効期限は受講開始から1年。請求書払い（後払い）に対応し、受講枠は社員間でシェアできます。<a href={`${base}/online-group/price/`}>料金と事例を詳しく見る</a></p>
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec soft">
     <div class="lp-in">
-      <h2>ECOMが選ばれる理由</h2>
+      <h2>研修を支える仕組み</h2>
       <div class="lp-cards">
         <div class="lp-card"><b>プロのネイティブ講師</b><span>ベルリッツやECC経験者を中心に、採用率0.5%（200人に1人）の基準で選んだ講師が教えます。日本語が分かる講師も多数います。</span></div>
-        <div class="lp-card"><b>御社専用の教材</b><span>自分たちで教材を作っているので、業務に合わせたレッスン教材を用意できます。</span></div>
         <div class="lp-card"><b>24時間365日</b><span>国内・海外の講師がシフトを組んで対応。予約サイトからいつでも予約できます。</span></div>
         <div class="lp-card"><b>使い慣れたTeams・Google Meet</b><span>独自のシステムを入れないので、社内のセキュリティ確認の手間がかかりません。</span></div>
       </div>
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec">
     <div class="lp-in">
       <h2>研修部門マネージャーから</h2>
       <div class="lp-person">
@@ -148,7 +165,7 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec soft">
     <div class="lp-in">
       <h2>学校・教育機関の方へ</h2>
       <p class="lp-sub">授業内のオンライン英会話や、英検®の面接練習にご利用いただけます。</p>
@@ -156,20 +173,20 @@ const faq = [
     </div>
   </section>
 
-  <section class="lp-sec soft">
+  <section class="lp-sec">
     <div class="lp-in narrow">
       <h2>よくある質問</h2>
       <Faq items={faq} />
     </div>
   </section>
 
-  <section class="lp-sec">
+  <section class="lp-sec soft">
     <div class="lp-in">
       <div class="lp-end">
-        <p>人数と目的を伺って、費用をお見積りします。</p>
+        <p>オンラインで、人数と目的を伺って費用をお見積りします。ダッシュボードの画面もお見せします。</p>
         <div class="lp-btns">
-          <a class="lp-btn navy" href={docs}>資料をダウンロード</a>
-          <a class="lp-btn" href={contact}>無料相談・お見積り</a>
+          <a class="lp-btn" href={contact}>オンライン導入相談（無料）</a>
+          <a href={docs}>資料をダウンロード</a>
         </div>
       </div>
       <p class="lp-sub">研修担当の方へ：<a href={`${base}/checkpoint/`}>語学研修選びで気を付けたい5つのチェックポイント</a>　・　<a href={`${base}/online-group/report/`}>成果の見える語学研修への取り組み</a>　・　<a href={`${base}/contact-school/`}>ECOMについて</a>　・　<a href={`${base}/blog/`}>研修ブログ</a></p>

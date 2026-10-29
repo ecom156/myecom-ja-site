@@ -369,10 +369,6 @@
         "href": "/english/children/price"
       },
       {
-        "label": "利用の流れ",
-        "href": "/english/children/flow"
-      },
-      {
         "label": "先生",
         "href": "/english/children/teachers"
       },
@@ -381,19 +377,15 @@
         "href": "/english/children/courses",
         "children": [
           {
-            "label": "3－6歳コース",
-            "href": "/english/children/courses/kids0"
-          },
-          {
-            "label": "小学校低学年コース",
+            "label": "幼児・低学年コース",
             "href": "/english/children/courses/kids"
           },
           {
-            "label": "小学生高学年、中学生、高校生向け英会話",
+            "label": "小中高・英会話コース",
             "href": "/english/children/courses/junior"
           },
           {
-            "label": "英語試験対策コース一覧",
+            "label": "英検®合格特化コース・試験対策",
             "href": "/english/children/courses/examinations",
             "children": [
               {
@@ -751,7 +743,7 @@
         ]
       },
       {
-        "label": "問い合わせ/資料請求（法人専用）",
+        "label": "オンライン導入相談",
         "href": "/corporation/contact/"
       },
       {
@@ -778,7 +770,7 @@
         "title": "問い合わせ",
         "items": [
           {
-            "label": "問い合わせ/資料請求（法人専用）",
+            "label": "オンライン導入相談・お問い合わせ（法人専用）",
             "href": "/corporation/contact/"
           },
           {
@@ -791,7 +783,7 @@
     "frontIsPosts": false,
     "postsPage": 4,
     "cta": {
-      "label": "無料相談",
+      "label": "導入相談",
       "href": "/corporation/contact/"
     }
   },

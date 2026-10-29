@@ -1,80 +1,103 @@
 ---
-title: "キッズ英会話（小学生低学年）コース"
+title: "幼児・低学年コース"
 path: "/english/children/courses/kids"
+description: "3歳〜小学校低学年のための、ECOM子供英会話「幼児・低学年コース」。英語を好きになることを目標に、フォニックスで英語の音に親しみ、英単語ゲーム・歌・絵本で楽しく単語を覚えます。幼児は保護者の方と一緒に受講。日本語が分かるネイティブ講師の担任制、保護者へ日本語でフィードバック。"
+template: "course"
 ---
 
-<div class="wp-layout">
-<div class="wpb-content-wrapper"><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>最近、小学生低学年でも、相談に来られるお子様の、英語力に大きな差があることが多くなってきました。</p>
-<p>これまで初心者向け教材のみを扱っていましたが、中級（英検2級）まで対応したカリキュラムとなっています。</p>
-<p>どれもフォニックス、チャンク、単語力などを重視したものです。１つ下の幼児向けとの違いは、この年齢から書くことを増やしています。</p>
+<section class="lp-sec kd-hero">
+<span class="kd-float f1" aria-hidden="true">⭐</span>
+<span class="kd-float f2" aria-hidden="true">🎈</span>
+<span class="kd-float f3" aria-hidden="true">ABC</span>
+<div class="lp-in">
+<nav class="breadcrumb course-crumb"><a href="/english/children/">🏠 子供のオンライン英会話</a> » <a href="/english/children/courses">コース紹介</a> » 幼児・低学年コース</nav>
+<div class="course-hero">
+<div>
+<p class="kd-pill">🐣 3歳〜小学校低学年</p>
+<h1>幼児・低学年コース<br><span class="nw">英語を、好きになるところから。</span></h1>
+<p class="lp-lead">フォニックスで英語の音に親しみ、英単語ゲームや歌、絵本で楽しく単語を覚えます。毎週同じ先生が担当するので、人見知りのお子さまも少しずつ慣れていけます。</p>
+<ul class="lp-proof">
+<li><b>フォニックス</b>で音から</li>
+<li>英単語<b>ゲーム</b>・歌・絵本</li>
+<li>幼児は<b>親子</b>で受講</li>
+</ul>
+<div class="lp-btns">
+<a class="lp-btn" href="/english/children/trial/">体験レッスン（30分×2回・2,500円）</a>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="223" height="217" src="/english/children/wp-content/uploads/sites/2/2018/03/sasie.gif" class="vc_single_image-img attachment-medium" alt="" title="sasie"></div>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div>
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>教材は、フォニックスをベースに音から英語に入る。</p>
-<p>先生のマネをしたり、元気よく歌やチャンツや会話を口に出し、演じ、自信をつける楽しい英語クラスを目指します。</p>
-<p>教科書は各冊、8Units＋2Units毎のReview課題の全12Units構成。</p>
+<img src="/english/children/wp-content/uploads/sites/2/2017/07/kids-1024x791.jpg" alt="英会話を楽しむ子供" style="border-radius: 20px; width: 360px; max-width: 100%;">
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、0から学ぶキッズ英語1</a></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="0" data-flex_fx="slide"><ul class="slides"><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan1.jpg" data-lightbox="lightbox[rel-158-1736115003]"><img loading="lazy" fetchpriority="high" decoding="async" width="222" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-222x300.jpg" class="attachment-medium" alt="" title="wecan1"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-4.jpg" data-lightbox="lightbox[rel-158-1736115003]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-4-226x300.jpg" class="attachment-medium" alt="" title="wecan1-4"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-5.jpg" data-lightbox="lightbox[rel-158-1736115003]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-5-226x300.jpg" class="attachment-medium" alt="" title="wecan1-5"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-6.jpg" data-lightbox="lightbox[rel-158-1736115003]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-6-226x300.jpg" class="attachment-medium" alt="" title="wecan1-6"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-7.jpg" data-lightbox="lightbox[rel-158-1736115003]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-7-226x300.jpg" class="attachment-medium" alt="" title="wecan1-7"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、単語をつなぎあわせて文章を作ろうキッズ英語2</a></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="0" data-flex_fx="slide"><ul class="slides"><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan2.jpg" data-lightbox="lightbox[rel-158-2156100017]"><img loading="lazy" decoding="async" width="223" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-223x300.jpg" class="attachment-medium" alt="" title="wecan2"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-4.jpg" data-lightbox="lightbox[rel-158-2156100017]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-4-227x300.jpg" class="attachment-medium" alt="" title="wecan2-4"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-5.jpg" data-lightbox="lightbox[rel-158-2156100017]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-5-227x300.jpg" class="attachment-medium" alt="" title="wecan2-5"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-6.jpg" data-lightbox="lightbox[rel-158-2156100017]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-6-227x300.jpg" class="attachment-medium" alt="" title="wecan2-6"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-7.jpg" data-lightbox="lightbox[rel-158-2156100017]"><img loading="lazy" decoding="async" width="227" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-7-227x300.jpg" class="attachment-medium" alt="" title="wecan2-7"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、キッズ英語3</a></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="0" data-flex_fx="slide"><ul class="slides"><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan3.jpg" data-lightbox="lightbox[rel-158-1070318047]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-226x300.jpg" class="attachment-medium" alt="" title="wecan3"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-4.jpg" data-lightbox="lightbox[rel-158-1070318047]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-4-228x300.jpg" class="attachment-medium" alt="" title="wecan3-4"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-5.jpg" data-lightbox="lightbox[rel-158-1070318047]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-5-228x300.jpg" class="attachment-medium" alt="" title="wecan3-5"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-6.jpg" data-lightbox="lightbox[rel-158-1070318047]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-6-228x300.jpg" class="attachment-medium" alt="" title="wecan3-6"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-7.jpg" data-lightbox="lightbox[rel-158-1070318047]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-7-228x300.jpg" class="attachment-medium" alt="" title="wecan3-7"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、英検3級レベルの力をつけるキッズ英語4</a></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="0" data-flex_fx="slide"><ul class="slides"><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan4.jpg" data-lightbox="lightbox[rel-158-3874938345]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-226x300.jpg" class="attachment-medium" alt="" title="wecan4"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-4.jpg" data-lightbox="lightbox[rel-158-3874938345]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-4-228x300.jpg" class="attachment-medium" alt="" title="wecan4-4"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-5.jpg" data-lightbox="lightbox[rel-158-3874938345]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-5-229x300.jpg" class="attachment-medium" alt="" title="wecan4-5"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-6.jpg" data-lightbox="lightbox[rel-158-3874938345]"><img loading="lazy" decoding="async" width="228" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-6-228x300.jpg" class="attachment-medium" alt="" title="wecan4-6"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-7.jpg" data-lightbox="lightbox[rel-158-3874938345]"><img loading="lazy" decoding="async" width="229" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-7-229x300.jpg" class="attachment-medium" alt="" title="wecan4-7"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、キッズ英語5</a></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="0" data-flex_fx="slide"><ul class="slides"><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan5.jpg" data-lightbox="lightbox[rel-158-3842194708]"><img loading="lazy" decoding="async" width="223" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-223x300.jpg" class="attachment-medium" alt="" title="wecan5"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-8.jpg" data-lightbox="lightbox[rel-158-3842194708]"><img loading="lazy" decoding="async" width="225" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-8-225x300.jpg" class="attachment-medium" alt="" title="wecan5-8"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-9.jpg" data-lightbox="lightbox[rel-158-3842194708]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-9-226x300.jpg" class="attachment-medium" alt="" title="wecan5-9"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-10.jpg" data-lightbox="lightbox[rel-158-3842194708]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-10-226x300.jpg" class="attachment-medium" alt="" title="wecan5-10"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-11.jpg" data-lightbox="lightbox[rel-158-3842194708]"><img loading="lazy" decoding="async" width="225" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-11-225x300.jpg" class="attachment-medium" alt="" title="wecan5-11"></a></li></ul></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="vc_button-2-wrapper vc_button-2-align-inline"><a class="vc_btn vc_btn_green vc_btn-green vc_btn_lg vc_btn-lg vc_btn_rounded" href="" title="" target="">20時間完成、英検準2級レベルの力をつけるキッズ英語6</a></div><div class="wpb_gallery wpb_content_element vc_clearfix"><div class="wpb_wrapper"><div class="wpb_gallery_slides wpb_flexslider flexslider_slide flexslider" data-interval="0" data-flex_fx="slide"><ul class="slides"><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan6.jpg" data-lightbox="lightbox[rel-158-3682208615]"><img loading="lazy" decoding="async" width="223" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-223x300.jpg" class="attachment-medium" alt="" title="wecan6"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-8.jpg" data-lightbox="lightbox[rel-158-3682208615]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-8-226x300.jpg" class="attachment-medium" alt="" title="wecan6-8"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-9.jpg" data-lightbox="lightbox[rel-158-3682208615]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-9-226x300.jpg" class="attachment-medium" alt="" title="wecan6-9"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-10.jpg" data-lightbox="lightbox[rel-158-3682208615]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-10-226x300.jpg" class="attachment-medium" alt="" title="wecan6-10"></a></li><li><a href="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-11.jpg" data-lightbox="lightbox[rel-158-3682208615]"><img loading="lazy" decoding="async" width="226" height="300" src="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-11-226x300.jpg" class="attachment-medium" alt="" title="wecan6-11"></a></li></ul></div></div></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_sep_color_orange vc_separator-has-text"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><h4>宿題</h4><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<h2>ECOMは、予習より復習に力を入れ、”音読”を重視しています。</h2>
+</section>
+
+<section class="lp-sec">
+<div class="lp-in">
+<div class="lp-head">
+<h2 class="kd-h"><i aria-hidden="true">🎵</i>レッスンで大切にしていること</h2>
+</div>
+<div class="lp-cards">
+<div class="lp-card kd-icon c1"><i aria-hidden="true">🔤</i><b>フォニックス</b><span>アルファベットの文字と音の関係を覚えて、英語を「音」から身につけます。初めて見る単語も、自分で読めるようになります。</span></div>
+<div class="lp-card kd-icon c2"><i aria-hidden="true">🎲</i><b>英単語ゲーム</b><span>フラッシュカードやゲームで、楽しみながら単語を覚えます。集中が途切れないよう、歌や絵本も取り入れます。</span></div>
+<div class="lp-card kd-icon c3"><i aria-hidden="true">🗣️</i><b>まねして、声に出す</b><span>先生のまねをして、歌やチャンツや会話を元気よく声に出し、演じて、自信をつけます。</span></div>
 </div>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-8"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_text_column wpb_content_element">
-<div class="wpb_wrapper">
-<p>学校の国語授業と同様、レッスンで習った表現、文章を、”<strong>音読</strong>する”よう、先生と指導共有しています*。</p>
-<p>すでに、理解ができている内容を、繰り返し音読することで、</p>
-<p><span style="color: #339966;"><strong>・英語を逐一和訳せず、イメージしながら理解</strong></span></p>
-<p><span style="color: #339966;"><strong>・生きた語彙を学べる</strong></span></p>
-<p><span style="color: #339966;"><strong>・フレーズや文章のインプット増</strong></span></p>
-<p><span style="color: #339966;"><strong>・発音や英語の音に慣れる</strong></span></p>
-<p>などのメリットがあります。</p>
-<p>レッスン後、親御様で、教材の英語音読部分を確認して、いっぱい褒めてあげて下さい。</p>
-<h3><span style="color: #33cccc;"><strong>継続の鍵は、親御様が半分握っています。</strong></span></h3>
-<p>教材の英語音声もMP3でお渡ししていますので、お子様が聞けるようにしてあげてください。</p>
-<p>*お子様の状況によって”音読”までいけない場合、付属の音声を流す、聞き流しだけでもしてあげてください。</p>
+</section>
+
+<section class="lp-sec kd-sky" id="infant">
+<div class="lp-in">
+<div class="lp-head">
+<p class="kd-pill small">🧸 3歳〜6歳</p>
+<h2 class="kd-h"><i aria-hidden="true">👪</i>幼児（未就学）のお子さま</h2>
+<p class="lp-sub">保護者の方と一緒にレッスンを受けます。教科書は1冊8Unitで、1Unitを約2時間、1冊を約16時間で終えます。教科書のほか、テーマに合わせた歌・ゲーム・絵本・フラッシュカードで、集中が途切れないように進めます。</p>
+</div>
+<div class="lp-cards">
+<div class="lp-card"><b>0から学ぶキッズ英語1</b><div class="kd-books"><img src="/english/children/wp-content/uploads/sites/2/2015/09/01-218x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/09/11-230x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/09/21-229x300.jpg" alt="" loading="lazy"></div></div>
+<div class="lp-card"><b>キッズ英語 初級</b><div class="kd-books"><img src="/english/children/wp-content/uploads/sites/2/2015/09/0-199x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/09/1-230x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/09/2-231x300.jpg" alt="" loading="lazy"></div></div>
+<div class="lp-card"><b>キッズ英語 初中級</b><div class="kd-books"><img src="/english/children/wp-content/uploads/sites/2/2015/09/02-213x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/09/12-230x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/09/22-230x300.jpg" alt="" loading="lazy"></div></div>
+</div>
+<div class="lp-box kd-box"><b>保護者の方へ</b>
+<ul>
+<li>ほかの習い事と同じように、レッスンに向けてお子さまの気持ちを一緒に盛り上げてください。</li>
+<li>レッスン中は、ゲームのように親子で一緒に楽しむ気持ちで受けてください。</li>
+<li>期待しすぎず、「外国人の先生とのコミュニケーションを楽しむ」くらいの気持ちで始めるのがおすすめです。</li>
+</ul>
 </div>
 </div>
-</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_left">
-<figure class="wpb_wrapper vc_figure">
-<div class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="300" height="200" src="/english/children/wp-content/uploads/sites/2/2025/05/english-memory-kids-300x200.png" class="vc_single_image-img attachment-medium" alt="" title="english-memory-kids"></div>
-</figure>
+</section>
+
+<section class="lp-sec" id="lower">
+<div class="lp-in">
+<div class="lp-head">
+<p class="kd-pill small">🌱 小学校低学年</p>
+<h2 class="kd-h"><i aria-hidden="true">✏️</i>小学校低学年のお子さま</h2>
+<p class="lp-sub">幼児との違いは、書く練習を増やすことです。フォニックス、チャンク（意味のかたまり）、単語力を大切にした教材で、まったく初めてのお子さまから英検®準2級レベルまで対応します。教科書は1冊12Unit（8Unitと、2Unitごとの復習）で、約20時間で終えます。</p>
 </div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey"><span class="vc_sep_holder vc_sep_holder_l"><span class="vc_sep_line"></span></span><span class="vc_sep_holder vc_sep_holder_r"><span class="vc_sep_line"></span></span>
-</div></div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/children/trial/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="238" src="/english/children/wp-content/uploads/sites/2/2015/01/766523d8c030d573cb1de80d7e622f6b.gif" class="vc_single_image-img attachment-full" alt="子供オンライン英会話体験レッスン" title="子供オンライン英会話体験レッスン"></a>
-</figure>
-</div>
-</div></div></div></div><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper">
-<div class="wpb_single_image wpb_content_element vc_align_center">
-<figure class="wpb_wrapper vc_figure">
-<a href="/english/children/support/" target="_self" class="vc_single_image-wrapper vc_box_border_grey"><img loading="lazy" decoding="async" width="838" height="155" src="/english/children/wp-content/uploads/sites/2/2015/01/2e4c103895426857f49f3f6e2a323446.gif" class="vc_single_image-img attachment-full" alt="子供英会話無料サポート" title="子供英会話無料サポート"></a>
-</figure>
-</div>
-</div></div></div></div>
+<div class="lp-cards">
+<div class="lp-card"><span class="lp-tag">はじめて</span><b>キッズ英語1・2</b><span>0から始めて、単語をつなぎ合わせて文を作れるようになります。</span><div class="kd-books"><img src="/english/children/wp-content/uploads/sites/2/2015/01/wecan1-222x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/01/wecan2-223x300.jpg" alt="" loading="lazy"></div></div>
+<div class="lp-card"><span class="lp-tag">英検®3級レベル</span><b>キッズ英語3・4</b><span>4冊目で、英検®3級レベルの力をつけます。</span><div class="kd-books"><img src="/english/children/wp-content/uploads/sites/2/2015/01/wecan3-226x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/01/wecan4-226x300.jpg" alt="" loading="lazy"></div></div>
+<div class="lp-card"><span class="lp-tag">英検®準2級レベル</span><b>キッズ英語5・6</b><span>6冊目で、英検®準2級レベルの力をつけます。</span><div class="kd-books"><img src="/english/children/wp-content/uploads/sites/2/2015/01/wecan5-223x300.jpg" alt="" loading="lazy"><img src="/english/children/wp-content/uploads/sites/2/2015/01/wecan6-223x300.jpg" alt="" loading="lazy"></div></div>
 </div>
 </div>
+</section>
+
+<section class="lp-sec kd-mint">
+<div class="lp-in">
+<div class="lp-sechead">
+<img src="/english/children/wp-content/uploads/sites/2/2025/05/english-memory-kids-300x200.png" alt="家で英語を音読する子供" loading="lazy">
+<div class="lp-head">
+<h2 class="kd-h"><i aria-hidden="true">📖</i>おうちでは「音読」</h2>
+<p class="lp-sub">ECOMは予習より復習を大切にし、レッスンで習った英文の音読をおすすめしています。分かっている英文をくり返し声に出すことで、英語を日本語に訳さずイメージで理解できるようになり、英語の音にも慣れます。レッスン後は、教材の音読を聞いて、たくさんほめてあげてください。音読がまだ難しいお子さまは、教材の音声を流して聞くだけでも大丈夫です。</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="lp-sec kd-end">
+<div class="lp-in">
+<div class="lp-end">
+<p>🌟 まずは体験レッスンで、英語を楽しめるか確かめてみてください。</p>
+<a class="lp-btn" href="/english/children/trial/">体験レッスン（30分×2回・2,500円）</a>
+</div>
+<p class="lp-sub">ほかのコース：<a href="/english/children/courses/junior">小中高・英会話コース</a>　・　<a href="/english/children/courses/examinations/eiken">英検®合格特化コース</a></p>
+</div>
+</section>

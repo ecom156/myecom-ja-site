@@ -1089,3 +1089,14 @@ main:has(> .lang-blog:last-child) { padding-bottom: 0; }
 .lg-exams div { border: 1px solid var(--edge); border-radius: 12px; padding: 20px 24px; background: #fff; }
 .lg-exams dt { font-weight: 700; font-size: 17px; color: var(--navy); }
 .lg-exams dd { margin: 6px 0 0; color: var(--sub); font-size: 15px; }
+
+/* 子供：親が選ぶ理由の比較表・コースページの教材（K 2026-10-29） */
+.kd-compare { margin-top: 24px; }
+.kd-compare caption { font-weight: 700; font-size: 18px; padding-bottom: 10px; text-align: left; }
+.kd-compare tbody th { white-space: nowrap; background: #fff; }
+.kd-books { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 8px; }
+.lp-card .kd-books img, .kd-books img { width: 72px; height: 98px; object-fit: cover; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+.kd-books.big { margin-bottom: 20px; }
+.kd-books.big img { width: 110px; height: 150px; }
+.corp-reasons .lp-card a { margin-top: auto; font-weight: 700; }
+.kd .kd-em { color: #E11D48; font-weight: 800; background: linear-gradient(transparent 60%, #FDE68A 60%); }

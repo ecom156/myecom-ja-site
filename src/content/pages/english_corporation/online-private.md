@@ -19,8 +19,8 @@ template: "course"
 <li>レベルチェック<b>無料</b></li>
 </ul>
 <div class="lp-btns">
-<a class="lp-btn navy" href="/corporation/documents/">資料をダウンロード</a>
-<a class="lp-btn" href="/corporation/contact/">無料相談・お見積り</a>
+<a class="lp-btn" href="/corporation/contact/">オンライン導入相談（無料）</a>
+<a href="/corporation/documents/">資料をダウンロード</a>
 </div>
 </div>
 <img src="/english/corporation/wp-content/uploads/sites/3/2024/09/private-training-native-middle-1024x682.jpg" alt="ネイティブ講師とのマンツーマン研修">
