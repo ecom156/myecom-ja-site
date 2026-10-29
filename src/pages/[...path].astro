@@ -15,6 +15,8 @@ import TrialPage from '../components/lp/TrialPage.astro';
 import TrialKidsPage from '../components/lp/TrialKidsPage.astro';
 import TeachersKidsPage from '../components/lp/TeachersKidsPage.astro';
 import LanguageIntro from '../components/lp/LanguageIntro.astro';
+import LanguagePage from '../components/lp/LanguagePage.astro';
+import { languagePages } from '../data/language-pages';
 import PricePage from '../components/lp/PricePage.astro';
 import KidsShell from '../components/lp/KidsShell.astro';
 import SchoolsPage from '../components/lp/SchoolsPage.astro';
@@ -99,7 +101,7 @@ const shared = import.meta.glob('../shared/*.html', { query: '?raw', import: 'de
 const courseHtml = template === 'course' && entry?.rendered?.html
   ? entry.rendered.html.replace(/<div data-include="([\w-]+)"><\/div>/g, (_, name) => shared[`../shared/${name}.html`] ?? '')
   : undefined;
-const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : template === 'beginner' ? BeginnerPage : template === 'features' ? FeaturesPage : template === 'faqs' ? FaqsPage : template === 'faqsKids' ? FaqsKidsPage : template === 'level' ? LevelPage : template === 'about' ? AboutPage : template === 'contact' ? ContactPage : template === 'priceKids' ? PriceKidsPage : undefined;
+const Landing = template === 'top' ? TopPage : template === 'kids' ? KidsPage : template === 'corporate' ? CorporatePage : template === 'osaka' ? OsakaPage : template === 'adult' ? AdultPage : template === 'trial' ? TrialPage : template === 'trialKids' ? TrialKidsPage : template === 'teachersKids' ? TeachersKidsPage : template === 'price' ? PricePage : template === 'schools' ? SchoolsPage : template === 'onki' ? OnkiPage : template === 'beginner' ? BeginnerPage : template === 'features' ? FeaturesPage : template === 'faqs' ? FaqsPage : template === 'faqsKids' ? FaqsKidsPage : template === 'level' ? LevelPage : template === 'about' ? AboutPage : template === 'contact' ? ContactPage : template === 'priceKids' ? PriceKidsPage : template === 'language' && props.kind === 'page' && languagePages[props.page.data.path] ? LanguagePage : undefined;
 // 言語ページの説明文は languages.json の言語名から作る
 const langName = template === 'language' && props.kind === 'page' ? (languages as Record<string, { name: string }>)[props.page.data.path]?.name : undefined;
 const description = props.kind === 'page' ? props.page.data.description ?? (langName ? `オンライン${langName}レッスン。担任のプロ講師とAI、ふたりで教えるオンライン語学学習。日本語や英語が分かるプロ講師とマンツーマン、レッスンのない日はAIレッスンで${langName}の会話ができます。` : undefined) : undefined;
@@ -113,7 +115,7 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
 ---
 {props.kind === 'page' && Landing && (
   <Base site={site} title={props.page.data.front ? site.name : props.page.data.title} description={description} noindex={props.page.data.noindex}>
-    <Landing />
+    <Landing path={props.kind === 'page' ? props.page.data.path : ''} />
     {formKeys.length > 0 && (
       <section class="lp-form" id="form">
         <div class="wrap">
@@ -123,6 +125,7 @@ const sitePosts = props.kind === 'post' ? sortPosts(await getCollection('posts',
       </section>
     )}
     {(template === 'adult' || template === 'kids' || template === 'corporate') && <LangBlog lang="english" />}
+    {template === 'language' && props.kind === 'page' && langForPath(props.page.data.path) && <LangBlog lang={langForPath(props.page.data.path)!} />}
   </Base>
 )}
 {/* コース・クラスの説明ページ（template: course）。本文の HTML が .lp の部品で組んであるので、枠を付けずにそのまま出す（K 2026-10-27） */}

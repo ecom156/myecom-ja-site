@@ -27,7 +27,7 @@ template: "course"
 <div class="lp-in">
 <div class="lp-cards">
 <div class="lp-card wide"><img src="/english/corporation/wp-content/uploads/sites/3/2015/12/heather-middle.jpg" alt="ECOMのネイティブ講師" loading="lazy"><span class="lp-tag">講師派遣</span><b>講師が、御社の会議室に伺います</b><span>ご希望があれば、日本全国どこへでも講師を派遣します。場所は御社の会議室です。</span>
-<ul><li>1時間 5,000円（税抜）</li><li>交通費の手配費として、1日 2,500円</li><li>例：週1回1.5時間・月4回の場合、1.5時間×5,000円＝7,500円に、交通費の手配費2,500円を足して1回10,000円。月4回で40,000円（税抜）</li></ul></div>
+<ul><li>1時間 7,000円（税抜）</li><li>交通費の手配費として、1日 2,500円</li><li>例：週1回1.5時間・月4回の場合、1.5時間×7,000円＝10,500円に、交通費の手配費2,500円を足して1回13,000円。月4回で52,000円（税抜）</li></ul></div>
 <div class="lp-card wide"><img src="/english/corporation/wp-content/uploads/sites/3/2015/12/jenn-projector-small.jpg" alt="プロジェクターに映したオンラインレッスン" loading="lazy"><span class="lp-tag teal">企業内バーチャル語学学校</span><b>会議室を、オンライン専用の教室に</b><span>ふつうのオンラインレッスンは一人ひとりのパソコン環境を整えますが、こちらは社内にオンラインレッスン専用の部屋を用意します。いつでもボタン1つで受講できます。</span>
 <ul><li>社員さまのパソコン環境を気にせず、研修を始められます</li><li>講師は、ECOMが選んだネイティブ・バイリンガル講師</li><li>国内・海外に講師が待機しているので、24時間いつでも受講できます</li><li>予算10万円台から導入できます</li></ul></div>
 </div>
