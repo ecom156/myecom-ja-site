@@ -75,6 +75,8 @@ const faq = [
           <ul class="tr-facts">
             {facts.map((f) => <li><i aria-hidden="true">{f.icon}</i><b>{f.title}</b><span>{f.text}</span></li>)}
           </ul>
+          {/* 体験後3日以内の入会特典。事務局が手動で付ける。子供のページではAIを出さない（K 2026-10-30） */}
+          {!kids && <p class="tr-bonus"><b>体験後3日以内のご入会特典</b>AIレッスン「毎日3分」（通常月1,980円）を、1ヶ月無料でお付けします。</p>}
           <div class="lp-btns">
             <a class="lp-btn" href="#form">{plans.trial.label}</a>
             <a href="#why">なぜ有料なの？</a>
