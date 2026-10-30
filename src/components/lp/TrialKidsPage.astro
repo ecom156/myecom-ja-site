@@ -4,7 +4,7 @@ import TrialLd from './TrialLd.astro';
 import plans from '../../data/plans.json';
 
 // 子供の体験レッスン（/english/children/trial/）。子供トップと同じ明るいデザイン（K 2026-10-25）
-// わかること→先生→有料の理由→内容→声→流れ→よくある質問→フォームの順。子供向けではAIは出さない
+// わかること→先生→有料の理由→内容→声→流れ→よくある質問→フォームの順。子供向けではAIを前に出さないが、入会特典だけは載せる（K 2026-10-30）
 const base = '/english/children';
 const up = `${base}/wp-content/uploads/sites/2`;
 const teachers = [
@@ -55,6 +55,8 @@ const faq = [
         <div>
           <p class="kd-pill">🎒 子供の体験レッスン（3歳〜17歳）</p>
           <h1>うちの子を分かってくれる<br /><span class="nw">先生か、<span class="kd-mark">体験で</span></span><span class="nw">確かめよう。</span></h1>
+          {/* 体験後3日以内の入会特典。大人と同じ（K 2026-10-30）。事務局が手動で付ける */}
+          <p class="tr-bonus"><b>体験後3日以内のご入会特典</b>AIレッスン「毎日3分」（通常月1,980円）を、1ヶ月無料でお付けします。</p>
           <div class="lp-btns">
             <a class="lp-btn" href="#form">{plans.trial.label}</a>
             <a href="#why">なぜ有料なの？</a>
