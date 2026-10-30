@@ -1,5 +1,6 @@
 ---
 import Faq from './Faq.astro';
+import TrialLd from './TrialLd.astro';
 import plans from '../../data/plans.json';
 
 // 体験レッスン。大人・他言語は /trial/、子供は /english/children/trial/ の2つ（K 2026-10-25）
@@ -60,6 +61,7 @@ const faq = [
   { q: 'パソコンやオンラインに不安があります。', a: 'お申込みフォームで「事前相談を希望する」を選ぶと、日本人スタッフが音声の確認と予約サイトの使い方をご案内します（8:00〜20:00）。' },
 ];
 ---
+<TrialLd kids={kids} />
 <div class={`lp tr${kids ? ' tr-kids' : ''}`}>
   <section class="lp-sec ad-hero">
     <div class="lp-in">
